@@ -255,4 +255,123 @@
 
 		}
 
+	// App Slideshow functionality
+		var $slideshow = $('.app-slideshow');
+		
+		if ($slideshow.length > 0) {
+			
+			var slides = $slideshow.find('.slide'),
+				navDots = $slideshow.find('.nav-dot'),
+				prevBtn = $slideshow.find('.prev-btn'),
+				nextBtn = $slideshow.find('.next-btn'),
+				currentSlide = 0,
+				autoplayInterval,
+				autoplayDelay = 4000;
+			
+			function showSlide(index) {
+				// Remove active class from all slides and dots
+				slides.removeClass('active');
+				navDots.removeClass('active');
+				
+				// Add active class to current slide and dot
+				slides.eq(index).addClass('active');
+				navDots.eq(index).addClass('active');
+				
+				currentSlide = index;
+			}
+			
+			function nextSlide() {
+				var next = (currentSlide + 1) % slides.length;
+				showSlide(next);
+			}
+			
+			function prevSlide() {
+				var prev = (currentSlide - 1 + slides.length) % slides.length;
+				showSlide(prev);
+			}
+			
+			function startAutoplay() {
+				autoplayInterval = setInterval(nextSlide, autoplayDelay);
+			}
+			
+			function stopAutoplay() {
+				if (autoplayInterval) {
+					clearInterval(autoplayInterval);
+				}
+			}
+			
+			// Navigation dot clicks
+			navDots.on('click', function() {
+				var index = $(this).data('slide');
+				showSlide(index);
+				stopAutoplay();
+				startAutoplay(); // Restart autoplay
+			});
+			
+			// Previous/Next button clicks
+			prevBtn.on('click', function() {
+				prevSlide();
+				stopAutoplay();
+				startAutoplay();
+			});
+			
+			nextBtn.on('click', function() {
+				nextSlide();
+				stopAutoplay();
+				startAutoplay();
+			});
+			
+			// Pause autoplay on hover
+			$slideshow.on('mouseenter', function() {
+				stopAutoplay();
+			});
+			
+			// Resume autoplay on mouse leave
+			$slideshow.on('mouseleave', function() {
+				startAutoplay();
+			});
+			
+			// Keyboard navigation
+			$(document).on('keydown', function(e) {
+				if ($slideshow.is(':visible')) {
+					if (e.keyCode === 37) { // Left arrow
+						prevSlide();
+						stopAutoplay();
+						startAutoplay();
+					} else if (e.keyCode === 39) { // Right arrow
+						nextSlide();
+						stopAutoplay();
+						startAutoplay();
+					}
+				}
+			});
+			
+			// Touch/swipe support for mobile
+			var touchStartX = 0;
+			var touchEndX = 0;
+			
+			$slideshow.on('touchstart', function(e) {
+				touchStartX = e.originalEvent.changedTouches[0].screenX;
+			});
+			
+			$slideshow.on('touchend', function(e) {
+				touchEndX = e.originalEvent.changedTouches[0].screenX;
+				var swipeThreshold = 50;
+				
+				if (touchEndX < touchStartX - swipeThreshold) {
+					nextSlide(); // Swipe left - next slide
+					stopAutoplay();
+					startAutoplay();
+				} else if (touchEndX > touchStartX + swipeThreshold) {
+					prevSlide(); // Swipe right - previous slide
+					stopAutoplay();
+					startAutoplay();
+				}
+			});
+			
+			// Initialize slideshow
+			showSlide(0);
+			startAutoplay();
+		}
+
 })(jQuery);
