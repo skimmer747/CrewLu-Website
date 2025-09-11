@@ -255,21 +255,21 @@
 
 		}
 
-	// App Slideshow functionality
-		var $slideshow = $('.app-slideshow');
-		
-		if ($slideshow.length > 0) {
+	// Dual Slideshow functionality
+		function initializeSlideshow(slideshowId, autoplayDelay) {
+			var $slideshow = $(slideshowId);
+			
+			if ($slideshow.length === 0) return;
 			
 			var slides = $slideshow.find('.slide'),
 				navDots = $slideshow.find('.nav-dot'),
 				prevBtn = $slideshow.find('.prev-btn'),
 				nextBtn = $slideshow.find('.next-btn'),
 				currentSlide = 0,
-				autoplayInterval,
-				autoplayDelay = 4000;
+				autoplayInterval;
 			
 			function showSlide(index) {
-				// Remove active class from all slides and dots
+				// Remove active class from slides and dots in this slideshow only
 				slides.removeClass('active');
 				navDots.removeClass('active');
 				
@@ -331,21 +331,6 @@
 				startAutoplay();
 			});
 			
-			// Keyboard navigation
-			$(document).on('keydown', function(e) {
-				if ($slideshow.is(':visible')) {
-					if (e.keyCode === 37) { // Left arrow
-						prevSlide();
-						stopAutoplay();
-						startAutoplay();
-					} else if (e.keyCode === 39) { // Right arrow
-						nextSlide();
-						stopAutoplay();
-						startAutoplay();
-					}
-				}
-			});
-			
 			// Touch/swipe support for mobile
 			var touchStartX = 0;
 			var touchEndX = 0;
@@ -372,6 +357,38 @@
 			// Initialize slideshow
 			showSlide(0);
 			startAutoplay();
+			
+			return {
+				showSlide: showSlide,
+				nextSlide: nextSlide,
+				prevSlide: prevSlide,
+				stopAutoplay: stopAutoplay,
+				startAutoplay: startAutoplay
+			};
 		}
+		
+		// Initialize both slideshows with different autoplay timings
+		var portraitSlideshow = initializeSlideshow('#portrait-slideshow', 5000); // 5 seconds
+		var landscapeSlideshow = initializeSlideshow('#landscape-slideshow', 7000); // 7 seconds
+		
+		// Keyboard navigation for both slideshows
+		$(document).on('keydown', function(e) {
+			var $focusedSlideshow = $('.app-slideshow:hover').first();
+			
+			if ($focusedSlideshow.length > 0) {
+				var slideshowId = $focusedSlideshow.attr('id');
+				var activeSlideshow = slideshowId === 'portrait-slideshow' ? portraitSlideshow : landscapeSlideshow;
+				
+				if (e.keyCode === 37 && activeSlideshow) { // Left arrow
+					activeSlideshow.prevSlide();
+					activeSlideshow.stopAutoplay();
+					activeSlideshow.startAutoplay();
+				} else if (e.keyCode === 39 && activeSlideshow) { // Right arrow
+					activeSlideshow.nextSlide();
+					activeSlideshow.stopAutoplay();
+					activeSlideshow.startAutoplay();
+				}
+			}
+		});
 
 })(jQuery);
