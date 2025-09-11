@@ -4743,9 +4743,11 @@ input, select, textarea {
 
 .portrait-slideshow .slide img {
 	max-height: 95%;
-	max-width: 55%;
+	max-width: 75%;
 	border-radius: 1rem;
 	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
 }
 
 /* Landscape Slideshow (Wide Screenshots) */
@@ -4767,9 +4769,11 @@ input, select, textarea {
 
 .landscape-slideshow .slide img {
 	max-height: 85%;
-	max-width: 60%;
+	max-width: 80%;
 	border-radius: 0.75rem;
 	box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.3);
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
 }
 
 /* General Slideshow Container */
@@ -4806,12 +4810,14 @@ input, select, textarea {
 
 .slide img {
 	max-height: 90%;
-	max-width: 45%;
+	max-width: 70%;
 	height: auto;
 	width: auto;
 	object-fit: contain;
 	border-radius: 0.5rem;
 	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
 }
 
 .slide-caption {
@@ -4955,13 +4961,13 @@ input, select, textarea {
 	}
 	
 	.portrait-slideshow .slide img {
-		max-width: 80%;
-		max-height: 75%;
+		max-width: 90%;
+		max-height: 85%;
 	}
 	
 	.landscape-slideshow .slide img {
-		max-width: 90%;
-		max-height: 70%;
+		max-width: 95%;
+		max-height: 80%;
 	}
 	
 	.slide-caption {
@@ -5013,13 +5019,13 @@ input, select, textarea {
 	}
 	
 	.portrait-slideshow .slide img {
-		max-width: 85%;
-		max-height: 70%;
+		max-width: 95%;
+		max-height: 80%;
 	}
 	
 	.landscape-slideshow .slide img {
-		max-width: 95%;
-		max-height: 65%;
+		max-width: 98%;
+		max-height: 75%;
 	}
 	
 	.slide-caption h3,
