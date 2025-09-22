@@ -120,12 +120,26 @@
 			}
 
 			&.primary {
-				background-color: var(--color-fg-bold);
-				box-shadow: none;
-				color: var(--color-bg) !important;
+				background: var(--color-gradient-primary);
+				box-shadow: var(--shadow-blue);
+				color: white !important;
+				border: none;
 
 				&:hover {
-					background-color: var(--color-accent);
+					box-shadow: 0 6px 20px 0 rgba(59, 130, 246, 0.4);
+					@include vendor('transform', 'translateY(-2px)');
+				}
+			}
+
+			&.secondary {
+				background: var(--color-gradient-secondary);
+				box-shadow: var(--shadow-green);
+				color: white !important;
+				border: none;
+
+				&:hover {
+					box-shadow: 0 6px 20px 0 rgba(16, 185, 129, 0.4);
+					@include vendor('transform', 'translateY(-2px)');
 				}
 			}
 		}

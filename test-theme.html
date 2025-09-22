@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Theme Test - CrewLu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .test-box {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid var(--color-border);
+            background-color: var(--color-bg);
+            color: var(--color-fg);
+        }
+        .test-accent {
+            color: var(--color-accent);
+        }
+        body {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CrewLu Theme Test</h1>
+
+    <div class="test-box">
+        <h2>Theme Variables Test</h2>
+        <p>This text should use <strong>--color-fg</strong> (foreground color)</p>
+        <p class="test-accent">This text should use <strong>--color-accent</strong> (accent color)</p>
+        <button class="button">Test Button</button>
+        <button class="button primary">Primary Button</button>
+    </div>
+
+    <div style="margin: 20px;">
+        <h3>Manual Theme Toggle</h3>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+        <button onclick="setTheme('light')">Light Mode</button>
+        <button onclick="setTheme('dark')">Dark Mode</button>
+        <button onclick="clearTheme()">Use System</button>
+    </div>
+
+    <div style="margin: 20px; padding: 20px; border: 1px solid #ccc;">
+        <h3>Current Status:</h3>
+        <p>Stored Theme: <span id="stored-theme"></span></p>
+        <p>System Preference: <span id="system-pref"></span></p>
+        <p>Active Theme: <span id="active-theme"></span></p>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function updateStatus() {
+            document.getElementById('stored-theme').textContent = localStorage.getItem('theme') || 'none';
+            document.getElementById('system-pref').textContent =
+                window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.getElementById('active-theme').textContent =
+                document.documentElement.getAttribute('data-theme') || 'system default';
+        }
+
+        function toggleTheme() {
+            var current = document.documentElement.getAttribute('data-theme');
+            var newTheme = (current === 'dark') ? 'light' : 'dark';
+            setTheme(newTheme);
+        }
+
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateStatus();
+        }
+
+        function clearTheme() {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.removeItem('theme');
+            updateStatus();
+        }
+
+        // Update status on load
+        updateStatus();
+
+        // Update when system preference changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateStatus);
+    </script>
+</body>
+</html>

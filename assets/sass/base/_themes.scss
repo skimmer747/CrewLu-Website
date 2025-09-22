@@ -22,16 +22,32 @@
 
 	// Accent Colors (shared between themes)
 	--color-accent: #3b82f6;
+	--color-accent-secondary: #10b981;
 	--color-success: #22c55e;
 	--color-warning: #f97316;
 	--color-danger: #ef4444;
 	--color-info: #06b6d4;
 
+	// Gradients
+	--color-gradient-primary: linear-gradient(135deg, #3b82f6, #1d4ed8);
+	--color-gradient-secondary: linear-gradient(135deg, #10b981, #059669);
+
 	// Shadows and overlays
 	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 	--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 	--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+	--shadow-blue: 0 4px 14px 0 rgba(59, 130, 246, 0.2);
+	--shadow-green: 0 4px 14px 0 rgba(16, 185, 129, 0.2);
 	--overlay-bg: rgba(0, 0, 0, 0.5);
+
+	// Slideshow colors
+	--color-slideshow-bg-start: #e3f2fd;
+	--color-slideshow-bg-end: #bbdefb;
+	--color-caption-bg: rgba(255, 255, 255, 0.9);
+	--color-button-bg: rgba(255, 255, 255, 0.8);
+	--color-nav-dot: rgba(255, 255, 255, 0.4);
+	--color-nav-dot-hover: rgba(255, 255, 255, 0.6);
+	--color-accent-light: rgba(59, 130, 246, 0.3);
 
 	// Transitions
 	--transition-theme: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
@@ -61,7 +77,18 @@
 		--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 		--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
 		--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+		--shadow-blue: 0 4px 14px 0 rgba(59, 130, 246, 0.3);
+		--shadow-green: 0 4px 14px 0 rgba(16, 185, 129, 0.3);
 		--overlay-bg: rgba(0, 0, 0, 0.7);
+
+		// Slideshow colors (dark mode)
+		--color-slideshow-bg-start: #0d47a1;
+		--color-slideshow-bg-end: #1565c0;
+		--color-caption-bg: rgba(0, 0, 0, 0.8);
+		--color-button-bg: rgba(0, 0, 0, 0.7);
+		--color-nav-dot: rgba(255, 255, 255, 0.3);
+		--color-nav-dot-hover: rgba(255, 255, 255, 0.5);
+		--color-accent-light: rgba(59, 130, 246, 0.4);
 	}
 }
 
@@ -82,7 +109,16 @@
 	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 	--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 	--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+	--shadow-blue: 0 4px 14px 0 rgba(59, 130, 246, 0.2);
+	--shadow-green: 0 4px 14px 0 rgba(16, 185, 129, 0.2);
 	--overlay-bg: rgba(0, 0, 0, 0.5);
+	--color-slideshow-bg-start: #e3f2fd;
+	--color-slideshow-bg-end: #bbdefb;
+	--color-caption-bg: rgba(255, 255, 255, 0.9);
+	--color-button-bg: rgba(255, 255, 255, 0.8);
+	--color-nav-dot: rgba(255, 255, 255, 0.4);
+	--color-nav-dot-hover: rgba(255, 255, 255, 0.6);
+	--color-accent-light: rgba(59, 130, 246, 0.3);
 }
 
 [data-theme="dark"] {
@@ -101,7 +137,16 @@
 	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 	--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
 	--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+	--shadow-blue: 0 4px 14px 0 rgba(59, 130, 246, 0.3);
+	--shadow-green: 0 4px 14px 0 rgba(16, 185, 129, 0.3);
 	--overlay-bg: rgba(0, 0, 0, 0.7);
+	--color-slideshow-bg-start: #0d47a1;
+	--color-slideshow-bg-end: #1565c0;
+	--color-caption-bg: rgba(0, 0, 0, 0.8);
+	--color-button-bg: rgba(0, 0, 0, 0.7);
+	--color-nav-dot: rgba(255, 255, 255, 0.3);
+	--color-nav-dot-hover: rgba(255, 255, 255, 0.5);
+	--color-accent-light: rgba(59, 130, 246, 0.4);
 }
 
 // Apply CSS variables to elements

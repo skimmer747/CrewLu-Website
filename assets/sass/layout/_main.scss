@@ -47,6 +47,19 @@
 
 			&.featured {
 				text-align: center;
+				border-top: 4px solid var(--color-accent);
+				position: relative;
+				overflow: hidden;
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					height: 2px;
+					background: var(--color-gradient-primary);
+				}
 			}
 
 			@include breakpoint('<=large') {
@@ -85,11 +98,43 @@
 			padding: 0;
 
 			> article {
-				border-color: _palette(border);
+				border-color: var(--color-border);
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
+				@include vendor('transition', (
+					'transform 0.3s ease',
+					'box-shadow 0.3s ease',
+					'border-color 0.3s ease'
+				));
+
+				&:hover {
+					@include vendor('transform', 'translateY(-4px)');
+					box-shadow: var(--shadow-blue);
+					border-color: var(--color-accent);
+
+					.image {
+						img {
+							@include vendor('transform', 'scale(1.05)');
+						}
+					}
+				}
+
+				.image {
+					overflow: hidden;
+
+					img {
+						@include vendor('transition', 'transform 0.3s ease');
+					}
+				}
+
+				header {
+					.meta {
+						color: var(--color-accent-secondary);
+						font-weight: 600;
+					}
+				}
 
 				> :last-child {
 					margin-bottom: 0;

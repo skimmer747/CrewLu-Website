@@ -31,7 +31,11 @@
 		h1 {
 			font-size: 5rem;
 			line-height: 1;
-			color: var(--color-fg-bold);
+			background: var(--color-gradient-primary);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
 		}
 
 		p {
@@ -40,6 +44,10 @@
 			margin-top: -0.25rem;
 			text-align: center;
 			color: var(--color-fg);
+			span {
+				color: var(--color-accent-secondary);
+				font-weight: 600;
+			}
 		}
 
 		// Style buttons for theme
