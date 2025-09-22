@@ -27,36 +27,79 @@
 		weight-heading:		900
 	);
 
-// Palette.
+// Palette - Light Theme (Default)
 	$palette: (
-		wrapper-bg:			#212931,
+		wrapper-bg:			#f8f8f8,
 
 		bg:					#ffffff,
-		fg:					#212931,
-		fg-bold:			#212931,
-		fg-light:			mix(#212931, #ffffff, 50%),
-		border:				mix(#dcdcdc, #ffffff, 50%),
-		border-bg:			rgba(#dcdcdc, 0.25),
-		accent:				#18bfef,
+		fg:					#1a1a1a,
+		fg-bold:			#000000,
+		fg-light:			#6b6b6b,
+		border:				#e5e5e5,
+		border-bg:			rgba(#e5e5e5, 0.25),
+		accent:				#3b82f6,
 
 		alt: (
 			bg:				#f5f5f5,
-			fg:				#717981,
-			fg-bold:		#717981,
-			fg-light:		mix(#717981, #f5f5f5, 50%),
-			border:			mix(#dcdcdc, #f5f5f5, 75%),
-			border-bg:		rgba(#dcdcdc, 0.5),
-			accent:			#18bfef,
+			fg:				#2a2a2a,
+			fg-bold:		#1a1a1a,
+			fg-light:		#6b6b6b,
+			border:			#d5d5d5,
+			border-bg:		rgba(#d5d5d5, 0.5),
+			accent:			#3b82f6,
 		),
 
 		invert: (
-			bg:				#1e252d,
-			bg-alt:			#1e252d,
+			bg:				#1a1a1a,
+			bg-alt:			#1a1a1a,
 			fg:				#ffffff,
 			fg-bold:		#ffffff,
-			fg-light:		rgba(#ffffff, 0.5),
-			border:			#ffffff,
+			fg-light:		rgba(#ffffff, 0.7),
+			border:			#3a3a3a,
 			border-bg:		rgba(#ffffff,0.075),
-			accent:			#18bfef,
+			accent:			#3b82f6,
 		),
+	);
+
+// Palette - Dark Theme
+	$palette-dark: (
+		wrapper-bg:			#0a0a0a,
+
+		bg:					#000000,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(#ffffff, 0.7),
+		border:				#2a2a2a,
+		border-bg:			rgba(#2a2a2a, 0.25),
+		accent:				#3b82f6,
+
+		alt: (
+			bg:				#1a1a1a,
+			fg:				#e5e5e5,
+			fg-bold:		#ffffff,
+			fg-light:		rgba(#ffffff, 0.6),
+			border:			#3a3a3a,
+			border-bg:		rgba(#3a3a3a, 0.5),
+			accent:			#3b82f6,
+		),
+
+		invert: (
+			bg:				#f5f5f5,
+			bg-alt:			#f5f5f5,
+			fg:				#1a1a1a,
+			fg-bold:		#000000,
+			fg-light:		#6b6b6b,
+			border:			#d5d5d5,
+			border-bg:		rgba(#000000,0.075),
+			accent:			#3b82f6,
+		),
+	);
+
+// Shared Accent Colors
+	$accents: (
+		primary:			#3b82f6,  // Blue
+		success:			#22c55e,  // Green
+		warning:			#f97316,  // Orange
+		danger:				#ef4444,  // Red
+		info:				#06b6d4,  // Cyan
 	);

@@ -14,6 +14,67 @@
 		$main = $('#main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
 
+	// Theme Management
+		(function() {
+			// Get stored theme or default to system preference
+			var getStoredTheme = function() {
+				return localStorage.getItem('theme');
+			};
+
+			var setStoredTheme = function(theme) {
+				localStorage.setItem('theme', theme);
+			};
+
+			var getPreferredTheme = function() {
+				var storedTheme = getStoredTheme();
+				if (storedTheme) {
+					return storedTheme;
+				}
+				return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+			};
+
+			var setTheme = function(theme) {
+				if (theme === 'auto') {
+					document.documentElement.removeAttribute('data-theme');
+				} else {
+					document.documentElement.setAttribute('data-theme', theme);
+				}
+			};
+
+			// Set initial theme
+			setTheme(getPreferredTheme());
+
+			// Listen for system theme changes
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+				var storedTheme = getStoredTheme();
+				if (!storedTheme || storedTheme === 'auto') {
+					setTheme(getPreferredTheme());
+				}
+			});
+
+			// Theme toggle functionality
+			window.addEventListener('DOMContentLoaded', function() {
+				var themeToggle = document.querySelector('.theme-toggle');
+				if (themeToggle) {
+					themeToggle.addEventListener('click', function() {
+						var currentTheme = document.documentElement.getAttribute('data-theme');
+						var newTheme;
+
+						if (!currentTheme) {
+							// If no theme is set (auto mode), check current appearance
+							newTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
+						} else {
+							// Toggle between light and dark
+							newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+						}
+
+						setStoredTheme(newTheme);
+						setTheme(newTheme);
+					});
+				}
+			});
+		})();
+
 	// Breakpoints.
 		breakpoints({
 			default:   ['1681px',   null       ],
