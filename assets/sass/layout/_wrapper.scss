@@ -11,6 +11,8 @@
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
+		// Use theme background color instead of image
+		background-color: var(--color-wrapper-bg);
 
 		> .bg {
 			position: absolute;
@@ -18,12 +20,8 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color:		_palette(wrapper-bg);
-			background-image:		url('../../images/overlay.png'),	linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),	url('../../images/bg.jpg');
-			background-size:		auto,								auto,														100% auto;
-			background-position:	center,								center,														top center;
-			background-repeat:		repeat,								no-repeat,													no-repeat;
-			background-attachment:	scroll,								scroll,														scroll;
+			// Removed background image, using theme colors instead
+			background-color: transparent;
 			z-index: -1;
 
 			&.fixed {

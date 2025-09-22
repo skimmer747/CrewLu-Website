@@ -7,8 +7,7 @@
 /* Intro */
 
 	#intro {
-		@include color-typography(invert);
-		@include color-button(invert);
+		// Use theme colors instead of inverted colors
 		@include padding(_size(padding) * 4, _size(padding) * 2);
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
@@ -23,10 +22,16 @@
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		// Apply theme-aware colors
+		color: var(--color-fg);
+		background: linear-gradient(135deg, var(--color-accent) 0%, transparent 60%),
+					linear-gradient(-135deg, var(--color-success) 0%, transparent 60%),
+					var(--color-bg);
 
 		h1 {
 			font-size: 5rem;
 			line-height: 1;
+			color: var(--color-fg-bold);
 		}
 
 		p {
@@ -34,6 +39,28 @@
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			color: var(--color-fg);
+		}
+
+		// Style buttons for theme
+		.button {
+			border-color: var(--color-border);
+			color: var(--color-fg);
+
+			&:hover {
+				border-color: var(--color-accent);
+				color: var(--color-accent);
+			}
+
+			&.primary {
+				background-color: var(--color-accent);
+				color: white;
+				border: none;
+
+				&:hover {
+					background-color: darken(#3b82f6, 10%);
+				}
+			}
 		}
 
 		& + #header {
