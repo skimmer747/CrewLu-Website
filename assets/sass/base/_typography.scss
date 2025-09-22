@@ -23,7 +23,7 @@
 	}
 
 	body {
-		color: _palette(fg);
+		color: var(--color-fg);
 	}
 
 	body, input, select, textarea {
@@ -170,43 +170,41 @@
 	}
 
 	@mixin color-typography($p: null) {
-		@if $p != null {
-			color: _palette($p, fg);
-		}
+		// Updated to use CSS variables for theme support
 
 		input, select, textarea {
-			color: _palette($p, fg-bold);
+			color: var(--color-fg-bold);
 		}
 
 		a {
-			color: _palette($p, fg-bold);
-			border-bottom-color: transparentize(_palette($p, fg), 0.5);
+			color: var(--color-fg-bold);
+			border-bottom-color: var(--color-border);
 
 			&:hover {
 				border-bottom-color: transparent;
-				color: _palette($p, accent) !important;
+				color: var(--color-accent) !important;
 			}
 		}
 
 		strong, b {
-			color: _palette($p, fg-bold);
+			color: var(--color-fg-bold);
 		}
 
 		h1, h2, h3, h4, h5, h6 {
-			color: _palette($p, fg-bold);
+			color: var(--color-fg-bold);
 		}
 
 		blockquote {
-			border-left-color: _palette($p, border);
+			border-left-color: var(--color-border);
 		}
 
 		code {
-			background: _palette($p, border-bg);
-			border-color: _palette($p, border);
+			background: var(--color-border-bg);
+			border-color: var(--color-border);
 		}
 
 		hr {
-			border-bottom-color: _palette($p, border);
+			border-bottom-color: var(--color-border);
 		}
 	}
 

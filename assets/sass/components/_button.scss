@@ -103,7 +103,7 @@
 	}
 
 	@mixin color-button($p: null) {
-		$highlight: _palette($p, highlight);
+		// Updated to use CSS variables for theme support
 
 		input[type="submit"],
 		input[type="reset"],
@@ -111,21 +111,21 @@
 		button,
 		.button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px _palette($p, fg-bold);
-			color: _palette($p, fg-bold) !important;
+			box-shadow: inset 0 0 0 2px var(--color-fg-bold);
+			color: var(--color-fg-bold) !important;
 
 			&:hover {
-				box-shadow: inset 0 0 0 2px _palette($p, accent);
-				color: _palette($p, accent) !important;
+				box-shadow: inset 0 0 0 2px var(--color-accent);
+				color: var(--color-accent) !important;
 			}
 
 			&.primary {
-				background-color: _palette($p, fg-bold);
+				background-color: var(--color-fg-bold);
 				box-shadow: none;
-				color: _palette($p, bg) !important;
+				color: var(--color-bg) !important;
 
 				&:hover {
-					background-color: _palette($p, accent);
+					background-color: var(--color-accent);
 				}
 			}
 		}
