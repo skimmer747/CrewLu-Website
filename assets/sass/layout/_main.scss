@@ -7,7 +7,7 @@
 /* Main */
 
 	#main {
-		background-color: _palette(bg);
+		background-color: var(--color-bg);
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - #{_size(padding) * 2});
@@ -16,7 +16,7 @@
 
 		> * {
 			@include padding((_size(padding) * 2), (_size(padding) * 2));
-			border-top: solid 2px _palette(border);
+			border-top: solid 2px var(--color-border);
 			margin: 0;
 
 			&:first-child {

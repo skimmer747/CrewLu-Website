@@ -3810,7 +3810,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 /* Main */
 #main {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
   position: relative;
   margin: 0 auto;
   width: calc(100% - 4rem);
@@ -3819,7 +3819,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 #main > * {
   padding: 4rem 4rem 2rem 4rem;
-  border-top: solid 2px #e5e5e5;
+  border-top: solid 2px var(--color-border);
   margin: 0;
 }
 #main > *:first-child {
