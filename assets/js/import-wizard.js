@@ -308,6 +308,13 @@
             // Build instructions HTML
             let instructionsHtml = '';
 
+            // Add summary if it exists
+            if (instructions.summary) {
+                instructionsHtml += '<div class="instruction-summary">';
+                instructionsHtml += `<p><strong>Method Overview:</strong> ${instructions.summary}</p>`;
+                instructionsHtml += '</div><hr class="summary-divider">';
+            }
+
             instructions.steps.forEach(function(step, index) {
                 instructionsHtml += '<div class="instruction-step">';
                 instructionsHtml += `<h3>Step ${index + 1}</h3>`;

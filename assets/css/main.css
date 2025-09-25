@@ -3470,6 +3470,7 @@ table.alt tbody tr td {
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 1em;
+  text-align: left;
 }
 .wizard-instructions .instruction-step .media-container {
   text-align: center;

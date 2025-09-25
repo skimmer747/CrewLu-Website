@@ -238,34 +238,55 @@
     },
     "fullroster-iphone-efk-no": {
       "title": "Import Full Roster from EFK to iPhone (Different Apple IDs)",
+      "summary": "This method will use safari on your efk. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
-          "text": "Since you're using different Apple IDs, you'll need to transfer the data manually",
-          "media": {"type": "image", "file": "different-apple-id-info.jpg", "caption": "Different Apple IDs require manual transfer methods"}
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
+          "media": {"type": "image", "file": "efk-add-safari-shortcut.jpg", "caption": "Add Safari shortcut to EFK home screen for quick access"}
         },
         {
-          "text": "On your EFK, open the schedule data you want to import",
-          "media": {"type": "image", "file": "efk-open-schedule.jpg", "caption": "Access your schedule on the EFK device"}
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "efk-safari-roster-login.jpg", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Select and copy all the roster data",
-          "media": {"type": "video", "file": "efk-select-copy.mp4", "caption": "Select all roster information and copy"}
+          "text": "Once logged in, locate your roster page that shows your present and future trips. You'll see various trips listed with expandable arrows or '+' symbols next to them. This step is crucial for getting complete roster data.",
+          "media": {"type": "image", "file": "efk-roster-page-overview.jpg", "caption": "Your roster page showing trips with expandable arrows"}
         },
         {
-          "text": "Use email, messaging, or cloud storage to send the data to your iPhone",
-          "media": {"type": "image", "file": "efk-transfer-options.jpg", "caption": "Choose a transfer method to send data to iPhone"}
+          "text": "Now comes the important part: you need to expand ALL trip arrows for both present and future trips. Tap on each arrow or '+' symbol to reveal the complete trip details including times, aircraft, crew members, and other relevant information. Make sure every single trip is fully expanded before proceeding.",
+          "media": {"type": "video", "file": "efk-expand-all-trips.mp4", "caption": "Expand every trip arrow to show complete details"}
         },
         {
-          "text": "On your iPhone, open the transferred data",
-          "media": {"type": "image", "file": "iphone-receive-data.jpg", "caption": "Access the data sent from your EFK"}
+          "text": "With all trips expanded and showing complete details, you're now ready to transfer this information. Make sure both your EFK and iPhone have Wi-Fi and Bluetooth enabled for AirDrop to work properly.",
+          "media": {"type": "image", "file": "efk-wifi-bluetooth-check.jpg", "caption": "Ensure Wi-Fi and Bluetooth are enabled on both devices"}
         },
         {
-          "text": "Copy the schedule text on your iPhone",
-          "media": {"type": "image", "file": "iphone-copy-received.jpg", "caption": "Select and copy the roster data"}
+          "text": "On your EFK, tap the Share button (usually found in the browser's toolbar or menu). Look for the AirDrop option in the share sheet. Your iPhone should appear in the AirDrop section if both devices are nearby and have AirDrop enabled.",
+          "media": {"type": "image", "file": "efk-airdrop-share.jpg", "caption": "Tap Share and select AirDrop option"}
         },
         {
-          "text": "Open CrewLu and paste in the Import section",
-          "media": {"type": "image", "file": "iphone-crewlu-paste.jpg", "caption": "Import the roster into CrewLu"}
+          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. This may take a moment depending on the amount of data being transferred.",
+          "media": {"type": "image", "file": "efk-select-iphone-airdrop.jpg", "caption": "Select your iPhone from the AirDrop recipients list"}
+        },
+        {
+          "text": "On your iPhone, you'll receive an AirDrop notification. Tap 'Accept' to receive the roster data from your EFK. The file will typically open in Safari or be saved to your Files app.",
+          "media": {"type": "image", "file": "iphone-accept-airdrop.jpg", "caption": "Accept the AirDrop transfer on your iPhone"}
+        },
+        {
+          "text": "Once the transfer is complete, the roster page will open on your iPhone. Select all the roster text by tapping and holding, then dragging the selection handles to cover all the trip information. Make sure you capture all the expanded trip details.",
+          "media": {"type": "video", "file": "iphone-select-all-roster.mp4", "caption": "Select all the roster text including expanded trip details"}
+        },
+        {
+          "text": "Tap 'Copy' to copy all the selected roster data to your iPhone's clipboard. You should see a confirmation that the text has been copied.",
+          "media": {"type": "image", "file": "iphone-copy-roster-data.jpg", "caption": "Copy all selected roster text"}
+        },
+        {
+          "text": "Now open the CrewLu app on your iPhone and navigate to the Import section. Look for the text input field where you can paste your roster data.",
+          "media": {"type": "image", "file": "iphone-crewlu-import-section.jpg", "caption": "Open CrewLu and find the Import section"}
+        },
+        {
+          "text": "Tap and hold in the import text field and select 'Paste' to insert all your roster data. Review the pasted content to ensure all your trips and details are present, then tap the Import button to complete the process.",
+          "media": {"type": "image", "file": "iphone-paste-and-import.jpg", "caption": "Paste roster data and tap Import to complete the process"}
         }
       ]
     },
