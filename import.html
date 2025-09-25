@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Features - CrewLu App</title>
+		<title>Import Data - CrewLu App</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,7 +26,7 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li class="active"><a href="features.html">Features</a></li>
+							<li class="active"><a href="import.html">Import Data</a></li>
 							<li><a href="privacy-policy.html">Privacy Policy</a></li>
 						</ul>
 						<ul class="icons">
@@ -40,84 +40,65 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Features Content -->
+						<!-- Import Data Content -->
 							<section class="post">
 								<header class="major">
-									<h1>CrewLu Features</h1>
-									<p>Discover all the powerful features that make CrewLu the ultimate<br />
-									crew management solution for iOS.</p>
+									<h1>Import Your Data into CrewLu</h1>
+									<p>Follow the personalized step-by-step instructions below to import your<br />
+									schedule data into the CrewLu app based on your specific setup.</p>
 								</header>
 
-								<!-- Feature 1: Scheduling -->
-								<h2 id="scheduling">Smart Team Scheduling</h2>
-								<div class="image main"><img src="images/app-scheduling.jpg" alt="CrewLu Scheduling Interface" /></div>
-								<p>CrewLu's intelligent scheduling system takes the complexity out of managing your team's time. Create recurring shifts, handle time-off requests, and ensure optimal coverage with our intuitive drag-and-drop interface.</p>
-								<ul>
-									<li>Visual calendar with multiple view options</li>
-									<li>Automatic conflict detection</li>
-									<li>Shift swapping and coverage requests</li>
-									<li>Overtime tracking and alerts</li>
-								</ul>
+								<!-- Dynamic sentence display -->
+								<div class="wizard-summary" id="wizard-summary" style="display: none;">
+									<div class="box">
+										<h3>Your Configuration:</h3>
+										<p id="summary-text">These instructions are for importing data into CrewLu...</p>
+									</div>
+								</div>
 
-								<!-- Feature 2: Communication -->
-								<h2 id="communication">Real-time Team Communication</h2>
-								<div class="image main"><img src="images/app-chat.jpg" alt="CrewLu Chat Feature" /></div>
-								<p>Keep everyone on the same page with built-in messaging. Create team channels, send direct messages, and share important updates instantly. All communication is encrypted and stored securely.</p>
-								<ul>
-									<li>Group and individual messaging</li>
-									<li>File and image sharing</li>
-									<li>Push notifications for important updates</li>
-									<li>Message read receipts and typing indicators</li>
-								</ul>
+								<!-- Wizard container -->
+								<div class="import-wizard" id="import-wizard">
+									<!-- Progress indicator -->
+									<div class="wizard-progress" id="wizard-progress" style="display: none;">
+										<div class="progress-steps">
+											<span class="step active" id="step-1">1</span>
+											<span class="step" id="step-2">2</span>
+											<span class="step" id="step-3">3</span>
+										</div>
+									</div>
 
-								<!-- Feature 3: Task Management -->
-								<h2 id="tasks">Comprehensive Task Management</h2>
-								<div class="image main"><img src="images/app-tasks.jpg" alt="CrewLu Task Management" /></div>
-								<p>Assign, track, and complete tasks efficiently. Set priorities, deadlines, and dependencies to ensure your team stays productive and nothing falls through the cracks.</p>
-								<ul>
-									<li>Task assignment with due dates</li>
-									<li>Priority levels and status tracking</li>
-									<li>Subtasks and checklists</li>
-									<li>Task templates for recurring work</li>
-								</ul>
+									<!-- Question area -->
+									<div class="wizard-question" id="wizard-question">
+										<h2 id="question-text">Loading...</h2>
+										<div class="wizard-options" id="wizard-options">
+											<!-- Options will be populated by JavaScript -->
+										</div>
+									</div>
 
-								<!-- Feature 4: Analytics -->
-								<h2 id="analytics">Performance Analytics & Reporting</h2>
-								<div class="image main"><img src="images/Horizontal map view.jpeg" alt="CrewLu Analytics Dashboard" /></div>
-								<p>Make data-driven decisions with comprehensive analytics. Track team performance, identify trends, and generate detailed reports for stakeholders.</p>
-								<ul>
-									<li>Real-time performance dashboards</li>
-									<li>Custom report generation</li>
-									<li>Time and attendance tracking</li>
-									<li>Productivity metrics and KPIs</li>
-								</ul>
+									<!-- Instructions area -->
+									<div class="wizard-instructions" id="wizard-instructions" style="display: none;">
+										<h2 id="instructions-title">Instructions</h2>
+										<div id="instructions-content">
+											<!-- Instructions will be populated by JavaScript -->
+										</div>
+									</div>
 
-								<!-- Feature 5: Document Management -->
-								<h2 id="documents">Centralized Document Hub</h2>
-								<div class="image main"><img src="images/app-documents.jpg" alt="CrewLu Document Management" /></div>
-								<p>Store and share important documents securely. From training materials to company policies, keep everything organized and accessible to your team.</p>
-								<ul>
-									<li>Secure cloud storage</li>
-									<li>Version control and history</li>
-									<li>Permission-based access</li>
-									<li>Full-text search capabilities</li>
-								</ul>
+									<!-- Navigation -->
+									<div class="wizard-nav" id="wizard-nav">
+										<button class="button" id="back-btn" style="display: none;">Back</button>
+										<button class="button" id="restart-btn" style="display: none;">Start Over</button>
+									</div>
+								</div>
 
-								<!-- Feature 6: Mobile Design -->
-								<h2 id="mobile">Designed for iOS</h2>
-								<div class="image main"><img src="images/app-mobile.jpg" alt="CrewLu on iPhone and iPad" /></div>
-								<p>CrewLu is built from the ground up for iOS, taking full advantage of the latest iPhone and iPad capabilities. Experience seamless performance, intuitive gestures, and beautiful design.</p>
-								<ul>
-									<li>Native iOS app with offline support</li>
-									<li>Face ID and Touch ID authentication</li>
-									<li>Apple Watch companion app</li>
-									<li>Dark mode support</li>
-								</ul>
+								<!-- Loading message -->
+								<div id="loading-message" class="box">
+									<p>Loading import wizard... If this message persists, please check your internet connection.</p>
+								</div>
 
 								<!-- Call to Action -->
 								<hr />
-								<h2>Ready to Transform Your Team Management?</h2>
-								<p>Join thousands of teams already using CrewLu to streamline their operations.</p>
+								<h2>Don't Have CrewLu Yet?</h2>
+								<p>Download CrewLu from the App Store to start managing your crew schedules efficiently.</p>
 								<ul class="actions special">
 									<li><a href="https://apps.apple.com" class="button large primary">Download from App Store</a></li>
 								</ul>
@@ -190,6 +171,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/import-wizard.js"></script>
 
 		<!-- Theme Toggle Button -->
 		<button class="theme-toggle" aria-label="Toggle theme">

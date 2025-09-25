@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 /*
@@ -3357,6 +3358,238 @@ table.alt tbody tr td {
   .slide-caption p {
     font-size: 0.6875rem;
     line-height: 1.3;
+  }
+}
+.import-wizard {
+  margin: 2em 0;
+}
+.import-wizard .wizard-progress {
+  margin-bottom: 2em;
+  text-align: center;
+}
+.import-wizard .wizard-progress .progress-steps {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.import-wizard .wizard-progress .progress-steps .step {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(229, 229, 229, 0.25);
+  color: #6b6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.import-wizard .wizard-progress .progress-steps .step.active {
+  background: #3b82f6;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+.import-wizard .wizard-progress .progress-steps .step.completed {
+  background: #3b82f6;
+  color: #ffffff;
+}
+.import-wizard .wizard-progress .progress-steps .step.completed::after {
+  content: "✓";
+  font-size: 1.2em;
+}
+.import-wizard .wizard-progress .progress-steps .step:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 1rem;
+  height: 2px;
+  background: #e5e5e5;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.import-wizard .wizard-progress .progress-steps .step.active:not(:last-child)::before {
+  background: #3b82f6;
+}
+
+.wizard-summary {
+  margin-bottom: 2em;
+}
+.wizard-summary .editable-choice {
+  color: #3b82f6;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+.wizard-question {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.wizard-question h2 {
+  margin-bottom: 1.5em;
+  color: #000000;
+}
+
+.wizard-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2em;
+}
+.wizard-options .option-btn {
+  padding: 1.5rem 2rem;
+  font-size: 1.1em;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid #e5e5e5;
+}
+.wizard-options .option-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6;
+}
+.wizard-options .option-btn:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.wizard-instructions .instruction-step {
+  margin-bottom: 2em;
+}
+.wizard-instructions .instruction-step h3 {
+  color: #3b82f6;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+.wizard-instructions .instruction-step p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+.wizard-instructions .instruction-step .media-container {
+  text-align: center;
+  margin: 1.5em 0;
+}
+.wizard-instructions .instruction-step .media-container .instruction-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e5e5;
+}
+.wizard-instructions .instruction-step .media-container video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e5e5;
+}
+.wizard-instructions .instruction-step .media-container .media-caption {
+  font-style: italic;
+  color: #6b6b6b;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+.wizard-instructions .step-divider {
+  border: 0;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 3em 0;
+  opacity: 0.5;
+}
+
+.wizard-nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+.wizard-nav button {
+  min-width: 120px;
+}
+
+.error {
+  border-left: 4px solid #e74c3c !important;
+}
+.error h3 {
+  color: #e74c3c;
+}
+
+#loading-message {
+  text-align: center;
+}
+#loading-message p {
+  color: #6b6b6b;
+  font-style: italic;
+}
+
+[data-theme=dark] .import-wizard .wizard-progress .progress-steps .step:not(.active):not(.completed) {
+  color: #1a1a1a;
+}
+[data-theme=dark] .wizard-options .option-btn:hover {
+  background: #ffffff;
+}
+@media screen and (max-width: 980px) {
+  .wizard-options {
+    grid-template-columns: 1fr;
+  }
+  .wizard-options .option-btn {
+    padding: 1.2rem 1.5rem;
+    min-height: 3.5rem;
+  }
+  .wizard-nav button {
+    min-width: 100px;
+    font-size: 0.9em;
+  }
+  .wizard-progress .progress-steps {
+    gap: 0.5rem;
+  }
+  .wizard-progress .progress-steps .step {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.9em;
+  }
+  .wizard-progress .progress-steps .step:not(:last-child)::before {
+    width: 0.5rem;
+  }
+}
+@media screen and (max-width: 736px) {
+  .wizard-instructions .instruction-step .media-container {
+    margin: 1em 0;
+  }
+  .wizard-instructions .instruction-step h3 {
+    font-size: 1.2em;
+  }
+  .wizard-instructions .instruction-step p {
+    font-size: 1em;
+  }
+  .wizard-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wizard-nav button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+.wizard-question, .wizard-instructions {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 /* Wrapper */

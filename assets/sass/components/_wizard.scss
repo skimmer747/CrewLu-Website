@@ -1,0 +1,314 @@
+///
+/// Import Wizard Styles for CrewLu Website
+/// Styles for the interactive import instructions wizard
+///
+
+// Wizard Container
+.import-wizard {
+	margin: 2em 0;
+
+	.wizard-progress {
+		margin-bottom: 2em;
+		text-align: center;
+
+		.progress-steps {
+			display: inline-flex;
+			align-items: center;
+			gap: 1rem;
+
+			.step {
+				width: 2.5rem;
+				height: 2.5rem;
+				border-radius: 50%;
+				background: _palette(border-bg);
+				color: _palette(fg-light);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: bold;
+				transition: all 0.3s ease;
+				position: relative;
+
+				&.active {
+					background: _palette(accent);
+					color: _palette(bg);
+					transform: scale(1.1);
+				}
+
+				&.completed {
+					background: _palette(accent);
+					color: _palette(bg);
+
+					&::after {
+						content: '✓';
+						font-size: 1.2em;
+					}
+				}
+
+				// Connecting lines between steps
+				&:not(:last-child)::before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 100%;
+					width: 1rem;
+					height: 2px;
+					background: _palette(border);
+					transform: translateY(-50%);
+					z-index: -1;
+				}
+
+				&.active:not(:last-child)::before {
+					background: _palette(accent);
+				}
+			}
+		}
+	}
+}
+
+// Wizard Summary
+.wizard-summary {
+	margin-bottom: 2em;
+
+	.editable-choice {
+		color: _palette(accent);
+		cursor: pointer;
+		text-decoration: underline;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: _palette(accent-alt);
+		}
+	}
+}
+
+// Question Area
+.wizard-question {
+	text-align: center;
+	margin-bottom: 2em;
+
+	h2 {
+		margin-bottom: 1.5em;
+		color: _palette(fg-bold);
+	}
+}
+
+// Options
+.wizard-options {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1rem;
+	margin-bottom: 2em;
+
+	.option-btn {
+		padding: 1.5rem 2rem;
+		font-size: 1.1em;
+		min-height: 4rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		transition: all 0.3s ease;
+		border: 2px solid _palette(border);
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+			border-color: _palette(accent);
+		}
+
+		&:focus {
+			outline: 2px solid _palette(accent);
+			outline-offset: 2px;
+		}
+	}
+}
+
+// Instructions Area
+.wizard-instructions {
+	.instruction-step {
+		margin-bottom: 2em;
+
+		h3 {
+			color: _palette(accent);
+			margin-bottom: 1em;
+			font-size: 1.3em;
+		}
+
+		p {
+			font-size: 1.1em;
+			line-height: 1.6;
+			margin-bottom: 1em;
+		}
+
+		.media-container {
+			text-align: center;
+			margin: 1.5em 0;
+
+			.instruction-image {
+				max-width: 100%;
+				height: auto;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+				border: 1px solid _palette(border);
+			}
+
+			video {
+				max-width: 100%;
+				height: auto;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+				border: 1px solid _palette(border);
+			}
+
+			.media-caption {
+				font-style: italic;
+				color: _palette(fg-light);
+				margin-top: 0.5em;
+				font-size: 0.9em;
+			}
+		}
+	}
+
+	.step-divider {
+		border: 0;
+		height: 1px;
+		background: _palette(border);
+		margin: 3em 0;
+		opacity: 0.5;
+	}
+}
+
+// Navigation
+.wizard-nav {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 2em;
+	flex-wrap: wrap;
+
+	button {
+		min-width: 120px;
+	}
+}
+
+// Error states
+.error {
+	border-left: 4px solid #e74c3c !important;
+
+	h3 {
+		color: #e74c3c;
+	}
+}
+
+// Loading message
+#loading-message {
+	text-align: center;
+
+	p {
+		color: _palette(fg-light);
+		font-style: italic;
+	}
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+	.import-wizard {
+		.wizard-progress .progress-steps .step {
+			&:not(.active):not(.completed) {
+				background: _palette(border-bg-alt);
+				color: _palette(fg);
+			}
+		}
+	}
+
+	.wizard-options .option-btn {
+		border-color: _palette(border-alt);
+		background: _palette(bg-alt);
+
+		&:hover {
+			background: _palette(bg);
+		}
+	}
+
+	.wizard-instructions .media-container {
+		.instruction-image, video {
+			border-color: _palette(border-alt);
+		}
+	}
+}
+
+// Responsive Design
+@include breakpoint('<=medium') {
+	.wizard-options {
+		grid-template-columns: 1fr;
+
+		.option-btn {
+			padding: 1.2rem 1.5rem;
+			min-height: 3.5rem;
+		}
+	}
+
+	.wizard-nav {
+		button {
+			min-width: 100px;
+			font-size: 0.9em;
+		}
+	}
+
+	.wizard-progress .progress-steps {
+		gap: 0.5rem;
+
+		.step {
+			width: 2rem;
+			height: 2rem;
+			font-size: 0.9em;
+
+			&:not(:last-child)::before {
+				width: 0.5rem;
+			}
+		}
+	}
+}
+
+@include breakpoint('<=small') {
+	.wizard-instructions .instruction-step {
+		.media-container {
+			margin: 1em 0;
+		}
+
+		h3 {
+			font-size: 1.2em;
+		}
+
+		p {
+			font-size: 1em;
+		}
+	}
+
+	.wizard-nav {
+		flex-direction: column;
+		align-items: center;
+
+		button {
+			width: 100%;
+			max-width: 280px;
+		}
+	}
+}
+
+// Animation for step transitions
+.wizard-question, .wizard-instructions {
+	animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

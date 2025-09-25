@@ -1,0 +1,200 @@
+{
+  "workflow": {
+    "device": {
+      "question": "What device is CrewLu installed on?",
+      "options": [
+        {"id": "iphone", "label": "Your iPhone", "next": "source"},
+        {"id": "ipad", "label": "Your personal iPad", "next": "source"},
+        {"id": "mac", "label": "Your Mac", "next": "source"},
+        {"id": "efk", "label": "Your EFK", "next": "efk_type"}
+      ]
+    },
+    "source": {
+      "question": "Where is your schedule data coming from?",
+      "options": [
+        {"id": "email", "label": "Email", "next": "instructions"},
+        {"id": "website", "label": "Company website", "next": "instructions"},
+        {"id": "pdf", "label": "PDF document", "next": "instructions"},
+        {"id": "manual", "label": "Manual entry", "next": "instructions"}
+      ]
+    },
+    "efk_type": {
+      "question": "What type of EFK system?",
+      "options": [
+        {"id": "tablet", "label": "EFK tablet", "next": "source"},
+        {"id": "laptop", "label": "EFK laptop", "next": "source"}
+      ]
+    }
+  },
+  "instructions": {
+    "iphone-email": {
+      "title": "Import from Email on Your iPhone",
+      "steps": [
+        {
+          "text": "Open the email containing your schedule",
+          "media": {"type": "image", "file": "iphone-email-step1.jpg", "caption": "Locate and open the email with your crew schedule"}
+        },
+        {
+          "text": "Long press on the schedule text to start selecting",
+          "media": {"type": "image", "file": "iphone-email-step2.jpg", "caption": "Long press to bring up the selection handles"}
+        },
+        {
+          "text": "Drag the selection handles to select all schedule text",
+          "media": {"type": "video", "file": "iphone-select-text.mp4", "caption": "Drag handles to select the entire schedule"}
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text",
+          "media": {"type": "image", "file": "iphone-email-step3.jpg", "caption": "Tap Copy in the popup menu"}
+        },
+        {
+          "text": "Open the CrewLu app and navigate to Import",
+          "media": {"type": "image", "file": "iphone-crewlu-import.jpg", "caption": "Find the Import option in CrewLu"}
+        },
+        {
+          "text": "Paste your schedule data and tap Import",
+          "media": {"type": "image", "file": "iphone-paste-import.jpg", "caption": "Long press in the text field and select Paste"}
+        }
+      ]
+    },
+    "iphone-website": {
+      "title": "Import from Company Website on Your iPhone",
+      "steps": [
+        {
+          "text": "Open Safari and navigate to your company's crew scheduling website",
+          "media": {"type": "image", "file": "iphone-safari-website.jpg", "caption": "Open your crew scheduling website"}
+        },
+        {
+          "text": "Log into your account if required",
+          "media": {"type": "image", "file": "iphone-website-login.jpg", "caption": "Enter your credentials"}
+        },
+        {
+          "text": "Find and view your schedule page",
+          "media": {"type": "image", "file": "iphone-website-schedule.jpg", "caption": "Navigate to your schedule view"}
+        },
+        {
+          "text": "Long press and select your schedule data",
+          "media": {"type": "video", "file": "iphone-website-select.mp4", "caption": "Select the schedule information"}
+        },
+        {
+          "text": "Copy the selected text",
+          "media": {"type": "image", "file": "iphone-website-copy.jpg", "caption": "Tap Copy from the menu"}
+        },
+        {
+          "text": "Switch to CrewLu app and paste in the Import section",
+          "media": {"type": "image", "file": "iphone-app-switch.jpg", "caption": "Use app switcher to go to CrewLu"}
+        }
+      ]
+    },
+    "ipad-email": {
+      "title": "Import from Email on Your Personal iPad",
+      "steps": [
+        {
+          "text": "Open the Mail app on your iPad",
+          "media": {"type": "image", "file": "ipad-mail-app.jpg", "caption": "Launch the Mail app"}
+        },
+        {
+          "text": "Find and open the email with your schedule",
+          "media": {"type": "image", "file": "ipad-email-open.jpg", "caption": "Open the schedule email"}
+        },
+        {
+          "text": "Use two fingers or double-tap to select the schedule text",
+          "media": {"type": "video", "file": "ipad-text-selection.mp4", "caption": "iPad text selection techniques"}
+        },
+        {
+          "text": "Tap 'Copy' from the popup menu",
+          "media": {"type": "image", "file": "ipad-copy-menu.jpg", "caption": "Select Copy from the context menu"}
+        },
+        {
+          "text": "Open CrewLu app using the dock or home screen",
+          "media": {"type": "image", "file": "ipad-open-crewlu.jpg", "caption": "Launch CrewLu from dock or home screen"}
+        },
+        {
+          "text": "Navigate to Import and paste your schedule",
+          "media": {"type": "image", "file": "ipad-crewlu-import.jpg", "caption": "Use the Import feature in CrewLu"}
+        }
+      ]
+    },
+    "mac-website": {
+      "title": "Import from Company Website on Your Mac",
+      "steps": [
+        {
+          "text": "Open your preferred web browser (Safari, Chrome, etc.)",
+          "media": {"type": "image", "file": "mac-browser-open.jpg", "caption": "Launch your web browser"}
+        },
+        {
+          "text": "Navigate to your company's crew scheduling website",
+          "media": {"type": "image", "file": "mac-website-navigate.jpg", "caption": "Go to your scheduling website"}
+        },
+        {
+          "text": "Log in with your credentials",
+          "media": {"type": "image", "file": "mac-website-login.jpg", "caption": "Enter your login information"}
+        },
+        {
+          "text": "Find your schedule and select the text (click and drag)",
+          "media": {"type": "video", "file": "mac-text-select.mp4", "caption": "Click and drag to select schedule text"}
+        },
+        {
+          "text": "Copy the text (Cmd+C or right-click Copy)",
+          "media": {"type": "image", "file": "mac-copy-text.jpg", "caption": "Copy using keyboard shortcut or context menu"}
+        },
+        {
+          "text": "Since CrewLu is iOS-only, you'll need to transfer this data to your iPhone/iPad using AirDrop, email, or Messages",
+          "media": {"type": "image", "file": "mac-transfer-options.jpg", "caption": "Options to transfer data to iOS device"}
+        }
+      ]
+    },
+    "efk-tablet-pdf": {
+      "title": "Import from PDF on EFK Tablet",
+      "steps": [
+        {
+          "text": "Open the PDF containing your schedule",
+          "media": {"type": "image", "file": "efk-tablet-pdf-open.jpg", "caption": "Launch your PDF viewer app"}
+        },
+        {
+          "text": "Long press and drag to select the schedule text",
+          "media": {"type": "video", "file": "efk-tablet-select.mp4", "caption": "Select text in PDF viewer"}
+        },
+        {
+          "text": "Copy the selected text",
+          "media": {"type": "image", "file": "efk-tablet-copy.jpg", "caption": "Use copy function"}
+        },
+        {
+          "text": "Since EFK runs Android and CrewLu is iOS-only, you'll need to transfer this data to your iPhone/iPad",
+          "media": {"type": "image", "file": "efk-transfer-methods.jpg", "caption": "Transfer options from Android to iOS"}
+        },
+        {
+          "text": "Use email, cloud storage, or messaging apps to send the data to your iOS device",
+          "media": {"type": "image", "file": "efk-cloud-transfer.jpg", "caption": "Cloud transfer methods"}
+        },
+        {
+          "text": "On your iOS device, open the transferred data and import to CrewLu",
+          "media": {"type": "image", "file": "ios-receive-data.jpg", "caption": "Receive and import data on iOS"}
+        }
+      ]
+    }
+  },
+  "_instructions": {
+    "_comment": "Template for adding new instruction sets",
+    "_template": {
+      "title": "Template: Import from [SOURCE] on [DEVICE]",
+      "steps": [
+        {
+          "text": "Step description here",
+          "media": {"type": "image", "file": "filename.jpg", "caption": "Description of what the image shows"}
+        }
+      ]
+    },
+    "_media_types": {
+      "image": "For screenshots - use .jpg or .png files",
+      "video": "For demonstrations - use .mp4 files"
+    },
+    "_naming_convention": {
+      "pattern": "[device]-[source]-[step].jpg",
+      "examples": [
+        "iphone-email-step1.jpg",
+        "ipad-website-login.jpg",
+        "mac-pdf-select.mp4"
+      ]
+    }
+  }
+}
