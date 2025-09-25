@@ -83,7 +83,7 @@
 
     // Start the wizard
     function startWizard() {
-        currentStep = 'device';
+        currentStep = 'import_type';
         userChoices = {};
         stepHistory = [];
         showStep(currentStep);
@@ -121,6 +121,7 @@
 
             // Hide instructions if we're back to questions
             $instructionsArea.hide();
+            $('#wizard-question').show();
             $restartBtn.hide();
         }
     }
@@ -128,7 +129,7 @@
     // Go to a specific step (used for editing choices)
     function goToStep(targetStep) {
         // Clear choices from target step onward
-        const stepOrder = ['device', 'source', 'efk_type'];
+        const stepOrder = ['import_type', 'crewmember_type', 'device', 'data_source_device', 'apple_id_check'];
         const targetIndex = stepOrder.indexOf(targetStep);
 
         for (let i = targetIndex; i < stepOrder.length; i++) {
@@ -145,6 +146,7 @@
 
         // Hide instructions and show questions again
         $instructionsArea.hide();
+        $('#wizard-question').show();
         $restartBtn.hide();
 
         if (stepHistory.length > 0) {
@@ -169,7 +171,43 @@
         // Clear and populate options
         $wizardOptions.empty();
 
-        stepData.options.forEach(function(option) {
+        // Filter options based on previous selections for logical flow
+        let filteredOptions = stepData.options;
+
+        if (stepId === 'device' && userChoices.import_type) {
+            const importType = userChoices.import_type.id;
+
+            // When importing catering, don't show EFK as a device option
+            if (importType === 'catering') {
+                filteredOptions = stepData.options.filter(function(option) {
+                    return option.id !== 'efk';
+                });
+            }
+        }
+
+        if (stepId === 'data_source_device') {
+            // Filter based on import type
+            if (userChoices.import_type && userChoices.import_type.id === 'catering') {
+                // When importing catering, don't show EFK as a data source option
+                filteredOptions = stepData.options.filter(function(option) {
+                    return option.id !== 'efk';
+                });
+            }
+
+            // Filter based on selected device
+            if (userChoices.device) {
+                const selectedDevice = userChoices.device.id;
+
+                // When importing to Mac or EFK, only show Mac and EFK as data sources
+                if (selectedDevice === 'mac' || selectedDevice === 'efk') {
+                    filteredOptions = stepData.options.filter(function(option) {
+                        return option.id === 'mac' || option.id === 'efk';
+                    });
+                }
+            }
+        }
+
+        filteredOptions.forEach(function(option) {
             const $optionBtn = $('<button>')
                 .addClass('button option-btn')
                 .text(option.label)
@@ -206,6 +244,20 @@
 
         // Add current step to history
         stepHistory.push(currentStep);
+
+        // Auto-skip data_source_device step for EFK when importing Full Roster or One Trip
+        if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
+            const importType = userChoices.import_type.id;
+            if (importType === 'fullroster' || importType === 'onetrip') {
+                // Automatically set data_source_device to EFK and skip to apple_id_check
+                userChoices.data_source_device = {
+                    id: 'efk',
+                    label: 'Your EFK'
+                };
+                stepHistory.push('data_source_device');
+                nextStep = 'apple_id_check';
+            }
+        }
 
         if (nextStep === 'instructions') {
             // Show instructions
@@ -295,16 +347,26 @@
     function generateInstructionKey() {
         let key = '';
 
+        if (userChoices.import_type) {
+            key += userChoices.import_type.id;
+        }
+
+        // For crewmembers, use the crewmember_type instead of device flow
+        if (userChoices.import_type && userChoices.import_type.id === 'crewmembers' && userChoices.crewmember_type) {
+            key += '-' + userChoices.crewmember_type.id;
+            return key;
+        }
+
         if (userChoices.device) {
-            key += userChoices.device.id;
+            key += '-' + userChoices.device.id;
         }
 
-        if (userChoices.efk_type) {
-            key += '-' + userChoices.efk_type.id;
+        if (userChoices.data_source_device) {
+            key += '-' + userChoices.data_source_device.id;
         }
 
-        if (userChoices.source) {
-            key += '-' + userChoices.source.id;
+        if (userChoices.apple_id_check) {
+            key += '-' + userChoices.apple_id_check.id;
         }
 
         return key;
@@ -317,18 +379,30 @@
             return;
         }
 
-        let summaryText = 'These instructions are for importing data into CrewLu';
+        let summaryText = 'These instructions are for importing';
+
+        if (userChoices.import_type) {
+            summaryText += ` <span class="editable-choice" data-step="import_type">${userChoices.import_type.label}</span>`;
+        }
+
+        // For crewmembers, show the type selection
+        if (userChoices.import_type && userChoices.import_type.id === 'crewmembers' && userChoices.crewmember_type) {
+            summaryText += ` (<span class="editable-choice" data-step="crewmember_type">${userChoices.crewmember_type.label}</span>)`;
+        }
+
+        summaryText += ' data into CrewLu';
 
         if (userChoices.device) {
             summaryText += ` on <span class="editable-choice" data-step="device">${userChoices.device.label}</span>`;
         }
 
-        if (userChoices.efk_type) {
-            summaryText += ` (specifically your <span class="editable-choice" data-step="efk_type">${userChoices.efk_type.label}</span>)`;
+        if (userChoices.data_source_device) {
+            summaryText += ` from <span class="editable-choice" data-step="data_source_device">${userChoices.data_source_device.label}</span>`;
         }
 
-        if (userChoices.source) {
-            summaryText += ` from <span class="editable-choice" data-step="source">${userChoices.source.label}</span>`;
+        if (userChoices.apple_id_check) {
+            const appleIdStatus = userChoices.apple_id_check.id === 'yes' ? 'using the same Apple ID' : 'using different Apple IDs';
+            summaryText += ` (${appleIdStatus})`;
         }
 
         summaryText += '.';
@@ -341,11 +415,13 @@
     function updateProgressIndicator(completed = false) {
         $progressIndicator.show();
 
-        // Simple 3-step progress
+        // Simple 3-step progress (consolidating the 4+ actual steps into 3 visual steps)
         const stepMap = {
-            'device': 1,
-            'efk_type': 2,
-            'source': 2,
+            'import_type': 1,
+            'crewmember_type': 2,
+            'device': 2,
+            'data_source_device': 2,
+            'apple_id_check': 3,
             'instructions': 3
         };
 

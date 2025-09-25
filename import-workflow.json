@@ -1,12 +1,45 @@
 {
   "workflow": {
+    "import_type": {
+      "question": "What do you want to import?",
+      "options": [
+        {"id": "fullroster", "label": "Full Roster", "next": "device"},
+        {"id": "onetrip", "label": "One Trip", "next": "device"},
+        {"id": "deadhead", "label": "Deadhead", "next": "device"},
+        {"id": "crewmembers", "label": "Crewmembers", "next": "crewmember_type"},
+        {"id": "catering", "label": "Catering", "next": "device"}
+      ]
+    },
     "device": {
       "question": "What device is CrewLu installed on?",
       "options": [
-        {"id": "iphone", "label": "Your iPhone", "next": "source"},
-        {"id": "ipad", "label": "Your personal iPad", "next": "source"},
-        {"id": "mac", "label": "Your Mac", "next": "source"},
-        {"id": "efk", "label": "Your EFK", "next": "efk_type"}
+        {"id": "iphone", "label": "Your iPhone", "next": "data_source_device"},
+        {"id": "ipad", "label": "Your personal iPad", "next": "data_source_device"},
+        {"id": "mac", "label": "Your Mac", "next": "data_source_device"},
+        {"id": "efk", "label": "Your EFK", "next": "data_source_device"}
+      ]
+    },
+    "data_source_device": {
+      "question": "What device will you be getting the data from?",
+      "options": [
+        {"id": "iphone", "label": "Your iPhone", "next": "instructions"},
+        {"id": "ipad", "label": "Your personal iPad", "next": "instructions"},
+        {"id": "mac", "label": "Your Mac", "next": "instructions"},
+        {"id": "efk", "label": "Your EFK", "next": "apple_id_check"}
+      ]
+    },
+    "apple_id_check": {
+      "question": "Are you signed into the same Apple ID as your iPhone?",
+      "options": [
+        {"id": "yes", "label": "Yes", "next": "instructions"},
+        {"id": "no", "label": "No", "next": "instructions"}
+      ]
+    },
+    "crewmember_type": {
+      "question": "What type of crewmember import do you want to do?",
+      "options": [
+        {"id": "all", "label": "All Crewmembers on your aircraft type", "next": "instructions"},
+        {"id": "individual", "label": "Individual Crewmember", "next": "instructions"}
       ]
     },
     "source": {
@@ -16,13 +49,6 @@
         {"id": "website", "label": "Company website", "next": "instructions"},
         {"id": "pdf", "label": "PDF document", "next": "instructions"},
         {"id": "manual", "label": "Manual entry", "next": "instructions"}
-      ]
-    },
-    "efk_type": {
-      "question": "What type of EFK system?",
-      "options": [
-        {"id": "tablet", "label": "EFK tablet", "next": "source"},
-        {"id": "laptop", "label": "EFK laptop", "next": "source"}
       ]
     }
   },
@@ -169,6 +195,139 @@
         {
           "text": "On your iOS device, open the transferred data and import to CrewLu",
           "media": {"type": "image", "file": "ios-receive-data.jpg", "caption": "Receive and import data on iOS"}
+        }
+      ]
+    },
+    "fullroster-iphone-iphone": {
+      "title": "Import Full Roster from iPhone to iPhone",
+      "steps": [
+        {
+          "text": "If you're using the same Apple ID, you can use Universal Clipboard for easy copying between devices",
+          "media": {"type": "image", "file": "universal-clipboard-info.jpg", "caption": "Universal Clipboard allows seamless copying between devices"}
+        },
+        {
+          "text": "Open the email containing your full roster schedule",
+          "media": {"type": "image", "file": "iphone-email-step1.jpg", "caption": "Locate and open the email with your crew roster"}
+        },
+        {
+          "text": "Long press on the schedule text to start selecting",
+          "media": {"type": "image", "file": "iphone-email-step2.jpg", "caption": "Long press to bring up the selection handles"}
+        },
+        {
+          "text": "Drag the selection handles to select all roster data",
+          "media": {"type": "video", "file": "iphone-select-text.mp4", "caption": "Drag handles to select the entire roster"}
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text",
+          "media": {"type": "image", "file": "iphone-email-step3.jpg", "caption": "Tap Copy in the popup menu"}
+        },
+        {
+          "text": "The text is now copied and ready to paste",
+          "media": {"type": "image", "file": "text-copied-ready.jpg", "caption": "Your copied content is ready to paste"}
+        },
+        {
+          "text": "Open the CrewLu app and navigate to Import",
+          "media": {"type": "image", "file": "iphone-crewlu-import.jpg", "caption": "Find the Import option in CrewLu"}
+        },
+        {
+          "text": "Paste your roster data and tap Import",
+          "media": {"type": "image", "file": "iphone-paste-import.jpg", "caption": "Long press in the text field and select Paste"}
+        }
+      ]
+    },
+    "fullroster-iphone-efk-no": {
+      "title": "Import Full Roster from EFK to iPhone (Different Apple IDs)",
+      "steps": [
+        {
+          "text": "Since you're using different Apple IDs, you'll need to transfer the data manually",
+          "media": {"type": "image", "file": "different-apple-id-info.jpg", "caption": "Different Apple IDs require manual transfer methods"}
+        },
+        {
+          "text": "On your EFK, open the schedule data you want to import",
+          "media": {"type": "image", "file": "efk-open-schedule.jpg", "caption": "Access your schedule on the EFK device"}
+        },
+        {
+          "text": "Select and copy all the roster data",
+          "media": {"type": "video", "file": "efk-select-copy.mp4", "caption": "Select all roster information and copy"}
+        },
+        {
+          "text": "Use email, messaging, or cloud storage to send the data to your iPhone",
+          "media": {"type": "image", "file": "efk-transfer-options.jpg", "caption": "Choose a transfer method to send data to iPhone"}
+        },
+        {
+          "text": "On your iPhone, open the transferred data",
+          "media": {"type": "image", "file": "iphone-receive-data.jpg", "caption": "Access the data sent from your EFK"}
+        },
+        {
+          "text": "Copy the schedule text on your iPhone",
+          "media": {"type": "image", "file": "iphone-copy-received.jpg", "caption": "Select and copy the roster data"}
+        },
+        {
+          "text": "Open CrewLu and paste in the Import section",
+          "media": {"type": "image", "file": "iphone-crewlu-paste.jpg", "caption": "Import the roster into CrewLu"}
+        }
+      ]
+    },
+    "onetrip-iphone-mac": {
+      "title": "Import One Trip from Mac to iPhone",
+      "steps": [
+        {
+          "text": "Open the email containing your trip information",
+          "media": {"type": "image", "file": "iphone-email-step1.jpg", "caption": "Locate and open the email with your trip details"}
+        },
+        {
+          "text": "Select the specific trip data you want to import",
+          "media": {"type": "video", "file": "iphone-select-text.mp4", "caption": "Carefully select only the trip information you need"}
+        },
+        {
+          "text": "Copy the selected trip data",
+          "media": {"type": "image", "file": "iphone-email-step3.jpg", "caption": "Tap Copy in the popup menu"}
+        },
+        {
+          "text": "Open CrewLu and paste in the Import section",
+          "media": {"type": "image", "file": "iphone-paste-import.jpg", "caption": "Import your single trip data"}
+        }
+      ]
+    },
+    "crewmembers-all": {
+      "title": "Import All Crewmembers on Your Aircraft Type",
+      "steps": [
+        {
+          "text": "Access your crew list or roster data from your company system",
+          "media": {"type": "image", "file": "crew-roster-access.jpg", "caption": "Open your crew roster or list"}
+        },
+        {
+          "text": "Select and copy all crewmember information for your aircraft type",
+          "media": {"type": "video", "file": "select-all-crew.mp4", "caption": "Select all relevant crew data"}
+        },
+        {
+          "text": "Open CrewLu and navigate to the Import section",
+          "media": {"type": "image", "file": "crewlu-import-nav.jpg", "caption": "Find the Import option in CrewLu"}
+        },
+        {
+          "text": "Paste the crew data and tap Import to add all crewmembers",
+          "media": {"type": "image", "file": "crew-paste-import.jpg", "caption": "Import all crewmember data at once"}
+        }
+      ]
+    },
+    "crewmembers-individual": {
+      "title": "Import Individual Crewmember",
+      "steps": [
+        {
+          "text": "Find the specific crewmember's information you want to import",
+          "media": {"type": "image", "file": "individual-crew-find.jpg", "caption": "Locate the specific crewmember data"}
+        },
+        {
+          "text": "Select and copy only that crewmember's details",
+          "media": {"type": "video", "file": "select-individual-crew.mp4", "caption": "Select individual crewmember information"}
+        },
+        {
+          "text": "Open CrewLu and navigate to the Import section",
+          "media": {"type": "image", "file": "crewlu-import-nav.jpg", "caption": "Find the Import option in CrewLu"}
+        },
+        {
+          "text": "Paste the individual crew data and tap Import",
+          "media": {"type": "image", "file": "individual-crew-import.jpg", "caption": "Import the single crewmember"}
         }
       ]
     }
