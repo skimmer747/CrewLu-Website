@@ -5,7 +5,8 @@
       "options": [
         {"id": "fullroster", "label": "Full Roster", "next": "device"},
         {"id": "onetrip", "label": "One Trip", "next": "device"},
-        {"id": "deadhead", "label": "Deadhead", "next": "device"},
+        {"id": "altour_ticket", "label": "Altour Ticket", "next": "device"},
+        {"id": "deadhead", "label": "Jumpseat", "next": "device"},
         {"id": "crewmembers", "label": "Crewmembers", "next": "crewmember_type"},
         {"id": "catering", "label": "Catering", "next": "device"}
       ]

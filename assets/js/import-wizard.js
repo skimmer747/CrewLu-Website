@@ -177,8 +177,8 @@
         if (stepId === 'device' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
 
-            // When importing catering, don't show EFK as a device option
-            if (importType === 'catering') {
+            // When importing catering or altour tickets, don't show EFK as a device option
+            if (importType === 'catering' || importType === 'altour_ticket') {
                 filteredOptions = stepData.options.filter(function(option) {
                     return option.id !== 'efk';
                 });
@@ -187,8 +187,8 @@
 
         if (stepId === 'data_source_device') {
             // Filter based on import type
-            if (userChoices.import_type && userChoices.import_type.id === 'catering') {
-                // When importing catering, don't show EFK as a data source option
+            if (userChoices.import_type && (userChoices.import_type.id === 'catering' || userChoices.import_type.id === 'altour_ticket')) {
+                // When importing catering or altour tickets, don't show EFK as a data source option
                 filteredOptions = stepData.options.filter(function(option) {
                     return option.id !== 'efk';
                 });
@@ -197,12 +197,25 @@
             // Filter based on selected device
             if (userChoices.device) {
                 const selectedDevice = userChoices.device.id;
+                const importType = userChoices.import_type ? userChoices.import_type.id : null;
 
-                // When importing to Mac or EFK, only show Mac and EFK as data sources
-                if (selectedDevice === 'mac' || selectedDevice === 'efk') {
+                // Special handling for Full Roster or One Trip on personal iPad
+                if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'ipad') {
+                    // Only show personal iPad, Mac, and EFK as data source options
                     filteredOptions = stepData.options.filter(function(option) {
-                        return option.id === 'mac' || option.id === 'efk';
+                        return option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
                     });
+                }
+                // Special handling for catering and altour_ticket imports - they can use all mobile/computer devices
+                else if (importType === 'catering' || importType === 'altour_ticket') {
+                    // Already filtered out EFK above, no additional filtering needed
+                } else {
+                    // For other import types, when importing to Mac or EFK, only show Mac and EFK as data sources
+                    if (selectedDevice === 'mac' || selectedDevice === 'efk') {
+                        filteredOptions = stepData.options.filter(function(option) {
+                            return option.id === 'mac' || option.id === 'efk';
+                        });
+                    }
                 }
             }
         }
