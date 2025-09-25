@@ -246,7 +246,7 @@
         },
         {
           "text": "Open the flightops.inside.ups.com website in safari on your efk. Select the share button on the top right and select \"Add to Home Screen\".",
-          "media": {"type": "image", "file": "efk-safari-roster-login.jpg", "caption": "Open Safari and navigate to your roster page"}
+          "media": {"type": "image", "file": "../images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
           "text": "Once logged in, locate your roster page that shows your present and future trips. You'll see various trips listed with expandable arrows or '+' symbols next to them. This step is crucial for getting complete roster data.",

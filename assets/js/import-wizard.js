@@ -26,6 +26,16 @@
     let $loadingMessage;
     let $progressIndicator;
 
+    // Convert URLs in text to clickable links
+    function convertUrlsToLinks(text) {
+        // Regular expression to match URLs
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+        return text.replace(urlRegex, function(url) {
+            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+        });
+    }
+
     // Initialize the wizard
     function initWizard() {
         // Cache DOM elements
@@ -311,14 +321,14 @@
             // Add summary if it exists
             if (instructions.summary) {
                 instructionsHtml += '<div class="instruction-summary">';
-                instructionsHtml += `<p><strong>Method Overview:</strong> ${instructions.summary}</p>`;
+                instructionsHtml += `<p><strong>Method Overview:</strong> ${convertUrlsToLinks(instructions.summary)}</p>`;
                 instructionsHtml += '</div><hr class="summary-divider">';
             }
 
             instructions.steps.forEach(function(step, index) {
                 instructionsHtml += '<div class="instruction-step">';
                 instructionsHtml += `<h3>Step ${index + 1}</h3>`;
-                instructionsHtml += `<p>${step.text}</p>`;
+                instructionsHtml += `<p>${convertUrlsToLinks(step.text)}</p>`;
 
                 if (step.media) {
                     const mediaPath = `import-guide-media/${step.media.file}`;
