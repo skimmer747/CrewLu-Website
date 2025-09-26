@@ -242,27 +242,39 @@
       "steps": [
         {
           "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
-          "media": {"type": "image", "file": "efk-add-safari-shortcut.jpg", "caption": "Add Safari shortcut to EFK home screen for quick access"}
+          "media": [
+            {"type": "image", "file": "../images/Airdrop install.PNG", "caption": "Airdrop installation screen"},
+            {"type": "image", "file": "../images/Airdrop settings view.PNG", "caption": "Airdrop settings configuration"}
+          ]
         },
         {
           "text": "Open the flightops.inside.ups.com website in safari on your efk. Select the share button on the top right and select \"Add to Home Screen\".",
           "media": {"type": "image", "file": "../images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Once logged in, locate your roster page that shows your present and future trips. You'll see various trips listed with expandable arrows or '+' symbols next to them. This step is crucial for getting complete roster data.",
-          "media": {"type": "image", "file": "efk-roster-page-overview.jpg", "caption": "Your roster page showing trips with expandable arrows"}
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "../images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
         },
         {
-          "text": "Now comes the important part: you need to expand ALL trip arrows for both present and future trips. Tap on each arrow or '+' symbol to reveal the complete trip details including times, aircraft, crew members, and other relevant information. Make sure every single trip is fully expanded before proceeding.",
-          "media": {"type": "video", "file": "efk-expand-all-trips.mp4", "caption": "Expand every trip arrow to show complete details"}
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "../images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "../images/Add to favorites.png", "caption": "Add AirDrop to favorites for quick access"}
+          ]
         },
         {
-          "text": "With all trips expanded and showing complete details, you're now ready to transfer this information. Make sure both your EFK and iPhone have Wi-Fi and Bluetooth enabled for AirDrop to work properly.",
-          "media": {"type": "image", "file": "efk-wifi-bluetooth-check.jpg", "caption": "Ensure Wi-Fi and Bluetooth are enabled on both devices"}
+          "text": "Almost done. Make sure your airdrop is set to everyone on both devices. Select the Share button and tap Airdrop To CrewLu. Accept the permissions if any come up. A second view will come up and you need to select the blue Airdrop button this time.",
+          "media": [
+            {"type": "image", "file": "../images/Airdrop to Crewlu.png", "caption": "Select Airdrop To CrewLu from the share menu"},
+            {"type": "image", "file": "../images/Second Airdrop prompt.png", "caption": "Tap the blue Airdrop button on the second prompt"}
+          ]
         },
         {
-          "text": "On your EFK, tap the Share button (usually found in the browser's toolbar or menu). Look for the AirDrop option in the share sheet. Your iPhone should appear in the AirDrop section if both devices are nearby and have AirDrop enabled.",
-          "media": {"type": "image", "file": "efk-airdrop-share.jpg", "caption": "Tap Share and select AirDrop option"}
+          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. Accept it and it will open a text document. On the bottom it will say Crewlu on the bottom. Select that and it will open Crewlu and populate the text in the Import box. Just select import and you are done.",
+          "media": [
+            {"type": "image", "file": "../images/Accept Airdrop.png", "caption": "Accept the AirDrop transfer on your iPhone"},
+            {"type": "image", "file": "../images/PressCrewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
+          ]
         },
         {
           "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. This may take a moment depending on the amount of data being transferred.",

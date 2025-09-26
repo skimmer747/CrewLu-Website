@@ -330,28 +330,33 @@
                 instructionsHtml += `<h3>Step ${index + 1}</h3>`;
                 instructionsHtml += `<p>${convertUrlsToLinks(step.text)}</p>`;
 
+                // Handle media - can be single object or array of objects
                 if (step.media) {
-                    const mediaPath = `import-guide-media/${step.media.file}`;
-                    const caption = step.media.caption || '';
+                    const mediaItems = Array.isArray(step.media) ? step.media : [step.media];
 
-                    if (step.media.type === 'video') {
-                        instructionsHtml += `
-                            <div class="media-container">
-                                <video controls>
-                                    <source src="${mediaPath}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                ${caption ? `<p class="media-caption">${caption}</p>` : ''}
-                            </div>
-                        `;
-                    } else {
-                        instructionsHtml += `
-                            <div class="media-container">
-                                <img src="${mediaPath}" alt="${caption}" class="instruction-image" />
-                                ${caption ? `<p class="media-caption">${caption}</p>` : ''}
-                            </div>
-                        `;
-                    }
+                    mediaItems.forEach(function(media, mediaIndex) {
+                        const mediaPath = media.file.startsWith('../') ? media.file : `import-guide-media/${media.file}`;
+                        const caption = media.caption || '';
+
+                        if (media.type === 'video') {
+                            instructionsHtml += `
+                                <div class="media-container">
+                                    <video controls>
+                                        <source src="${mediaPath}" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    ${caption ? `<p class="media-caption">${caption}</p>` : ''}
+                                </div>
+                            `;
+                        } else {
+                            instructionsHtml += `
+                                <div class="media-container">
+                                    <img src="${mediaPath}" alt="${caption}" class="instruction-image" />
+                                    ${caption ? `<p class="media-caption">${caption}</p>` : ''}
+                                </div>
+                            `;
+                        }
+                    });
                 }
 
                 instructionsHtml += '</div>';
