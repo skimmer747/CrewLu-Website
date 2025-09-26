@@ -3510,6 +3510,7 @@ table.alt tbody tr td {
   color: #6b6b6b;
   margin-top: 0.5em;
   font-size: 0.9em;
+  text-align: center;
 }
 .wizard-instructions .step-divider {
   border: 0;
