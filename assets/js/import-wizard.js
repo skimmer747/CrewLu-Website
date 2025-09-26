@@ -335,7 +335,7 @@
                     const mediaItems = Array.isArray(step.media) ? step.media : [step.media];
 
                     mediaItems.forEach(function(media, mediaIndex) {
-                        const mediaPath = media.file.startsWith('../') ? media.file : `import-guide-media/${media.file}`;
+                        const mediaPath = (media.file.startsWith('../') || media.file.startsWith('images/')) ? media.file : `import-guide-media/${media.file}`;
                         const caption = media.caption || '';
 
                         if (media.type === 'video') {
