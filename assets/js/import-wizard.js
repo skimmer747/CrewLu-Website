@@ -32,7 +32,12 @@
         const urlRegex = /(https?:\/\/[^\s]+)/g;
 
         return text.replace(urlRegex, function(url) {
-            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+            // Check if it's an iCloud shortcuts URL and use descriptive text
+            let linkText = url;
+            if (url.includes('icloud.com/shortcuts')) {
+                linkText = 'Airdrop Shortcut Link';
+            }
+            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
         });
     }
 

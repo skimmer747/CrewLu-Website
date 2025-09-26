@@ -139,6 +139,13 @@
 			font-size: 1.1em;
 			line-height: 1.6;
 			margin-bottom: 1em;
+			word-break: break-word;
+			overflow-wrap: break-word;
+
+			a {
+				word-break: break-word;
+				overflow-wrap: break-word;
+			}
 		}
 
 		.media-container {
@@ -151,6 +158,15 @@
 				border-radius: 8px;
 				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 				border: 1px solid _palette(border);
+
+				// Responsive max-width constraints for desktop
+				@include breakpoint('>medium') {
+					max-width: 600px;
+				}
+
+				@include breakpoint('<=medium') {
+					max-width: 500px;
+				}
 			}
 
 			video {

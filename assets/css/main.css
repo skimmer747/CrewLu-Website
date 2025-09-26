@@ -3470,7 +3470,12 @@ table.alt tbody tr td {
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 1em;
-  text-align: left;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+.wizard-instructions .instruction-step p a {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 .wizard-instructions .instruction-step .media-container {
   text-align: center;
@@ -3482,6 +3487,16 @@ table.alt tbody tr td {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border: 1px solid #e5e5e5;
+}
+@media screen and (min-width: 981px) {
+  .wizard-instructions .instruction-step .media-container .instruction-image {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .wizard-instructions .instruction-step .media-container .instruction-image {
+    max-width: 500px;
+  }
 }
 .wizard-instructions .instruction-step .media-container video {
   max-width: 100%;
