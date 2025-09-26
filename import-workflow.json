@@ -270,35 +270,11 @@
           ]
         },
         {
-          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. Accept it and it will open a text document. On the bottom it will say Crewlu on the bottom. Select that and it will open Crewlu and populate the text in the Import box. Just select import and you are done.",
+          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. Accept it and it will open a text document. On the bottom it will say Crewlu. Select that and it will open Crewlu and populate the text in the Import box. Just select import and you are done.",
           "media": [
             {"type": "image", "file": "../images/Accept Airdrop.png", "caption": "Accept the AirDrop transfer on your iPhone"},
-            {"type": "image", "file": "../images/PressCrewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
+            {"type": "image", "file": "../images/Press Crewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
           ]
-        },
-        {
-          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. This may take a moment depending on the amount of data being transferred.",
-          "media": {"type": "image", "file": "efk-select-iphone-airdrop.jpg", "caption": "Select your iPhone from the AirDrop recipients list"}
-        },
-        {
-          "text": "On your iPhone, you'll receive an AirDrop notification. Tap 'Accept' to receive the roster data from your EFK. The file will typically open in Safari or be saved to your Files app.",
-          "media": {"type": "image", "file": "iphone-accept-airdrop.jpg", "caption": "Accept the AirDrop transfer on your iPhone"}
-        },
-        {
-          "text": "Once the transfer is complete, the roster page will open on your iPhone. Select all the roster text by tapping and holding, then dragging the selection handles to cover all the trip information. Make sure you capture all the expanded trip details.",
-          "media": {"type": "video", "file": "iphone-select-all-roster.mp4", "caption": "Select all the roster text including expanded trip details"}
-        },
-        {
-          "text": "Tap 'Copy' to copy all the selected roster data to your iPhone's clipboard. You should see a confirmation that the text has been copied.",
-          "media": {"type": "image", "file": "iphone-copy-roster-data.jpg", "caption": "Copy all selected roster text"}
-        },
-        {
-          "text": "Now open the CrewLu app on your iPhone and navigate to the Import section. Look for the text input field where you can paste your roster data.",
-          "media": {"type": "image", "file": "iphone-crewlu-import-section.jpg", "caption": "Open CrewLu and find the Import section"}
-        },
-        {
-          "text": "Tap and hold in the import text field and select 'Paste' to insert all your roster data. Review the pasted content to ensure all your trips and details are present, then tap the Import button to complete the process.",
-          "media": {"type": "image", "file": "iphone-paste-and-import.jpg", "caption": "Paste roster data and tap Import to complete the process"}
         }
       ]
     },
