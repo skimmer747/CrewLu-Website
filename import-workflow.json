@@ -238,7 +238,7 @@
     },
     "fullroster-iphone-efk-no": {
       "title": "Import Full Roster from EFK to iPhone (Different Apple IDs)",
-      "summary": "This method will use safari on your efk. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
           "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
@@ -248,7 +248,7 @@
           ]
         },
         {
-          "text": "Open the flightops.inside.ups.com website in safari on your efk. Select the share button on the top right and select \"Add to Home Screen\".",
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
@@ -280,7 +280,7 @@
     },
     "fullroster-ipad-efk-no": {
       "title": "Import Full Roster from EFK to iPad (Different Apple IDs)",
-      "summary": "This method will use safari on your efk. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
           "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
@@ -290,7 +290,7 @@
           ]
         },
         {
-          "text": "Open the flightops.inside.ups.com website in safari on your efk. Select the share button on the top right and select \"Add to Home Screen\".",
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
@@ -380,6 +380,90 @@
         {
           "text": "Paste the individual crew data and tap Import",
           "media": {"type": "image", "file": "individual-crew-import.jpg", "caption": "Import the single crewmember"}
+        }
+      ]
+    },
+    "onetrip-iphone-efk-no": {
+      "title": "Import One Trip from EFK to iPhone (Different Apple IDs)",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "steps": [
+        {
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
+          "media": [
+            {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Airdrop installation screen"},
+            {"type": "image", "file": "images/Airdrop settings view.png", "caption": "Airdrop settings configuration"}
+          ]
+        },
+        {
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
+        },
+        {
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+        },
+        {
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "images/Add to favorites.png", "caption": "Add AirDrop to favorites for quick access"}
+          ]
+        },
+        {
+          "text": "Almost done. Make sure your airdrop is set to everyone on both devices. Select the Share button and tap Airdrop To CrewLu. Accept the permissions if any come up. A second view will come up and you need to select the blue Airdrop button this time.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop to Crewlu.png", "caption": "Select Airdrop To CrewLu from the share menu"},
+            {"type": "image", "file": "images/Second Airdrop prompt.png", "caption": "Tap the blue Airdrop button on the second prompt"}
+          ]
+        },
+        {
+          "text": "Select your iPhone from the AirDrop list. Your EFK will now prepare and send the roster page to your iPhone. Accept it and it will open a text document. On the bottom it will say Crewlu. Select that and it will open Crewlu and populate the text in the Import box. Just select import and you are done.",
+          "media": [
+            {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Accept the AirDrop transfer on your iPhone"},
+            {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
+          ]
+        }
+      ]
+    },
+    "onetrip-ipad-efk-no": {
+      "title": "Import One Trip from EFK to iPad (Different Apple IDs)",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "steps": [
+        {
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
+          "media": [
+            {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Airdrop installation screen"},
+            {"type": "image", "file": "images/Airdrop settings view.png", "caption": "Airdrop settings configuration"}
+          ]
+        },
+        {
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
+        },
+        {
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+        },
+        {
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "images/Add to favorites.png", "caption": "Add AirDrop to favorites for quick access"}
+          ]
+        },
+        {
+          "text": "Almost done. Make sure your airdrop is set to everyone on both devices. Select the Share button and tap Airdrop To CrewLu. Accept the permissions if any come up. A second view will come up and you need to select the blue Airdrop button this time.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop to Crewlu.png", "caption": "Select Airdrop To CrewLu from the share menu"},
+            {"type": "image", "file": "images/Second Airdrop prompt.png", "caption": "Tap the blue Airdrop button on the second prompt"}
+          ]
+        },
+        {
+          "text": "Select your iPad from the AirDrop list. Your EFK will now prepare and send the roster page to your iPad. Accept it and it will open a text document. On the bottom it will say Crewlu. Select that and it will open Crewlu and populate the text in the Import box. Just select import and you are done.",
+          "media": [
+            {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Accept the AirDrop transfer on your iPad"},
+            {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
+          ]
         }
       ]
     }
