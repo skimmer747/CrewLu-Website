@@ -241,6 +241,18 @@
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
+          "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
+          "media": {"type": "image", "file": "images/Settings Shortcuts.png", "caption": "Navigate to Shortcuts in Settings"}
+        },
+        {
+          "text": "Select Advanced",
+          "media": {"type": "image", "file": "images/shortcuts advanced.png", "caption": "Tap on Advanced in the Shortcuts settings"}
+        },
+        {
+          "text": "Make sure Allow Running Scripts is on",
+          "media": {"type": "image", "file": "images/Allow Running script.png", "caption": "Enable Allow Running Scripts toggle"}
+        },
+        {
           "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
           "media": [
             {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Airdrop installation screen"},
@@ -282,6 +294,18 @@
       "title": "Import Full Roster from EFK to iPad (Different Apple IDs)",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
+        {
+          "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
+          "media": {"type": "image", "file": "images/Settings Shortcuts.png", "caption": "Navigate to Shortcuts in Settings"}
+        },
+        {
+          "text": "Select Advanced",
+          "media": {"type": "image", "file": "images/shortcuts advanced.png", "caption": "Tap on Advanced in the Shortcuts settings"}
+        },
+        {
+          "text": "Make sure Allow Running Scripts is on",
+          "media": {"type": "image", "file": "images/Allow Running script.png", "caption": "Enable Allow Running Scripts toggle"}
+        },
         {
           "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/42850865184a465b8dd8e5b309b338c0",
           "media": [
