@@ -946,6 +946,168 @@
           ]
         }
       ]
+    },
+    "fullroster-efk": {
+      "title": "Import Full Roster on EFK",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will use the shortcut to import the roster.",
+      "steps": [
+        {
+          "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
+          "media": {"type": "image", "file": "images/Settings Shortcuts.png", "caption": "Navigate to Shortcuts in Settings"}
+        },
+        {
+          "text": "Select Advanced",
+          "media": {"type": "image", "file": "images/shortcuts advanced.png", "caption": "Tap on Advanced in the Shortcuts settings"}
+        },
+        {
+          "text": "Make sure Allow Running Scripts is on",
+          "media": {"type": "image", "file": "images/Allow Running script.png", "caption": "Enable Allow Running Scripts toggle"}
+        },
+        {
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/1c4eea69ff5e4130b05eb8d6ac28f99d",
+          "media": [
+            {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Shortcut installation screen"},
+            {"type": "image", "file": "images/Airdrop settings view.png", "caption": "Shortcut settings configuration"}
+          ]
+        },
+        {
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
+        },
+        {
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+        },
+        {
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "images/Add to favorites.png", "caption": "Add to favorites for quick access"}
+          ]
+        },
+        {
+          "text": "Almost done. Select the Share button and use the shortcut. Accept any permissions that come up.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop to Crewlu.png", "caption": "Select the shortcut from the share menu"},
+            {"type": "image", "file": "images/Second Airdrop prompt.png", "caption": "Follow the prompts"}
+          ]
+        },
+        {
+          "text": "Your EFK will now prepare the roster page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done.",
+          "media": [
+            {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Data is prepared and copied"},
+            {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Open CrewLu and paste to import"}
+          ]
+        }
+      ]
+    },
+    "onetrip-efk": {
+      "title": "Import One Trip on EFK",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will use the shortcut to import the roster.",
+      "steps": [
+        {
+          "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
+          "media": {"type": "image", "file": "images/Settings Shortcuts.png", "caption": "Navigate to Shortcuts in Settings"}
+        },
+        {
+          "text": "Select Advanced",
+          "media": {"type": "image", "file": "images/shortcuts advanced.png", "caption": "Tap on Advanced in the Shortcuts settings"}
+        },
+        {
+          "text": "Make sure Allow Running Scripts is on",
+          "media": {"type": "image", "file": "images/Allow Running script.png", "caption": "Enable Allow Running Scripts toggle"}
+        },
+        {
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/1c4eea69ff5e4130b05eb8d6ac28f99d",
+          "media": [
+            {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Shortcut installation screen"},
+            {"type": "image", "file": "images/Airdrop settings view.png", "caption": "Shortcut settings configuration"}
+          ]
+        },
+        {
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
+        },
+        {
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+        },
+        {
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "images/Add to favorites.png", "caption": "Add to favorites for quick access"}
+          ]
+        },
+        {
+          "text": "Almost done. Select the Share button and use the shortcut. Accept any permissions that come up.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop to Crewlu.png", "caption": "Select the shortcut from the share menu"},
+            {"type": "image", "file": "images/Second Airdrop prompt.png", "caption": "Follow the prompts"}
+          ]
+        },
+        {
+          "text": "Your EFK will now prepare the roster page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done.",
+          "media": [
+            {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Data is prepared and copied"},
+            {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Open CrewLu and paste to import"}
+          ]
+        }
+      ]
+    },
+    "deadhead-efk": {
+      "title": "Import Jumpseat on EFK",
+      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will use the shortcut to import the roster.",
+      "steps": [
+        {
+          "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
+          "media": {"type": "image", "file": "images/Settings Shortcuts.png", "caption": "Navigate to Shortcuts in Settings"}
+        },
+        {
+          "text": "Select Advanced",
+          "media": {"type": "image", "file": "images/shortcuts advanced.png", "caption": "Tap on Advanced in the Shortcuts settings"}
+        },
+        {
+          "text": "Make sure Allow Running Scripts is on",
+          "media": {"type": "image", "file": "images/Allow Running script.png", "caption": "Enable Allow Running Scripts toggle"}
+        },
+        {
+          "text": "Open this url on your efk and add this shortcut. https://www.icloud.com/shortcuts/1c4eea69ff5e4130b05eb8d6ac28f99d",
+          "media": [
+            {"type": "image", "file": "images/Airdrop install.PNG", "caption": "Shortcut installation screen"},
+            {"type": "image", "file": "images/Airdrop settings view.png", "caption": "Shortcut settings configuration"}
+          ]
+        },
+        {
+          "text": "Open the flightops.inside.ups.com website in safari on your efk. This only works in SAFARI. Select the share button on the top right and select \"Add to Home Screen\".",
+          "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
+        },
+        {
+          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
+          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+        },
+        {
+          "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop Edit Actions.png", "caption": "Select Edit Actions from the Share menu"},
+            {"type": "image", "file": "images/Add to favorites.png", "caption": "Add to favorites for quick access"}
+          ]
+        },
+        {
+          "text": "Almost done. Select the Share button and use the shortcut. Accept any permissions that come up.",
+          "media": [
+            {"type": "image", "file": "images/Airdrop to Crewlu.png", "caption": "Select the shortcut from the share menu"},
+            {"type": "image", "file": "images/Second Airdrop prompt.png", "caption": "Follow the prompts"}
+          ]
+        },
+        {
+          "text": "Your EFK will now prepare the roster page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done.",
+          "media": [
+            {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Data is prepared and copied"},
+            {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Open CrewLu and paste to import"}
+          ]
+        }
+      ]
     }
   },
   "_instructions": {

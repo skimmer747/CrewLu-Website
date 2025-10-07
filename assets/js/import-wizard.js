@@ -35,7 +35,12 @@
             // Check if it's an iCloud shortcuts URL and use descriptive text
             let linkText = url;
             if (url.includes('icloud.com/shortcuts')) {
-                linkText = 'Airdrop Shortcut Link';
+                // Check for the new clipboard shortcut
+                if (url.includes('1c4eea69ff5e4130b05eb8d6ac28f99d')) {
+                    linkText = 'Clipboard Shortcut Link';
+                } else {
+                    linkText = 'Airdrop Shortcut Link';
+                }
             }
             return `<a href="${url}" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
         });
@@ -273,17 +278,29 @@
         // Add current step to history
         stepHistory.push(currentStep);
 
-        // Auto-skip data_source_device step for EFK when importing Full Roster or One Trip
+        // Auto-skip data_source_device step for EFK when importing Full Roster, One Trip, or Jumpseat ON the EFK device
+        if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
+            const importType = userChoices.import_type.id;
+            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'deadhead') {
+                // Skip directly to instructions for EFK device installations
+                nextStep = 'instructions';
+            }
+        }
+
+        // Auto-skip data_source_device step for EFK when importing Full Roster or One Trip FROM another device
         if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
             if (importType === 'fullroster' || importType === 'onetrip') {
-                // Automatically set data_source_device to EFK and skip to apple_id_check
-                userChoices.data_source_device = {
-                    id: 'efk',
-                    label: 'Your EFK'
-                };
-                stepHistory.push('data_source_device');
-                nextStep = 'apple_id_check';
+                // Only apply this logic if we haven't already routed to instructions above
+                if (nextStep !== 'instructions') {
+                    // Automatically set data_source_device to EFK and skip to apple_id_check
+                    userChoices.data_source_device = {
+                        id: 'efk',
+                        label: 'Your EFK'
+                    };
+                    stepHistory.push('data_source_device');
+                    nextStep = 'apple_id_check';
+                }
             }
         }
 
@@ -395,6 +412,15 @@
         if (userChoices.import_type && userChoices.import_type.id === 'crewmembers' && userChoices.crewmember_type) {
             key += '-' + userChoices.crewmember_type.id;
             return key;
+        }
+
+        // For EFK device installations of fullroster, onetrip, or deadhead, use simplified key
+        if (userChoices.device && userChoices.device.id === 'efk' && userChoices.import_type) {
+            const importType = userChoices.import_type.id;
+            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'deadhead') {
+                // Return simplified key: importType-efk
+                return key + '-efk';
+            }
         }
 
         if (userChoices.device) {
