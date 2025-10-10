@@ -9,7 +9,7 @@
 	#footer {
 		@include color(alt);
 		@include vendor('display', 'flex');
-		background-color: _palette(alt, bg);
+		background-color: transparent;
 		color: _palette(fg-light);
 		cursor: default;
 		position: relative;

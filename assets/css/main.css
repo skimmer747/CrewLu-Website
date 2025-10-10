@@ -4509,7 +4509,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #f5f5f5;
+  background-color: transparent;
   color: #6b6b6b;
   cursor: default;
   position: relative;
