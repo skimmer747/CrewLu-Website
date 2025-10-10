@@ -197,6 +197,15 @@
 		max-width: _size(wrapper);
 		z-index: 2;
 
+		// Dark mode override - ensure text is visible on dark backgrounds
+		@media (prefers-color-scheme: dark) {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		:root[data-theme="dark"] & {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
 		a {
 			color: inherit;
 			border-bottom-color: inherit;
