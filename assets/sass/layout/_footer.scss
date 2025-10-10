@@ -197,6 +197,15 @@
 		max-width: _size(wrapper);
 		z-index: 2;
 
+		// Light mode override - ensure text is visible on light backgrounds
+		@media (prefers-color-scheme: light) {
+			color: rgba(0, 0, 0, 0.4);
+		}
+
+		:root[data-theme="light"] & {
+			color: rgba(0, 0, 0, 0.4);
+		}
+
 		// Dark mode override - ensure text is visible on dark backgrounds
 		@media (prefers-color-scheme: dark) {
 			color: rgba(255, 255, 255, 0.5);
