@@ -28,14 +28,50 @@
 					linear-gradient(-135deg, var(--color-success) 0%, transparent 60%),
 					var(--color-bg);
 
-		h1 {
-			font-size: 5rem;
-			line-height: 1;
-			background: var(--color-gradient-primary);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-			background-clip: text;
-			text-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
+		.intro-logo {
+			max-width: 400px;
+			width: 100%;
+			height: auto;
+			margin-bottom: 2rem;
+			filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+			@include vendor('transition', 'transform 0.3s ease');
+
+			&:hover {
+				@include vendor('transform', 'scale(1.05)');
+			}
+
+			// Theme-based logo visibility
+			&.logo-light {
+				display: block;
+			}
+
+			&.logo-dark {
+				display: none;
+			}
+		}
+
+		// Dark mode logo switching
+		:root[data-theme="dark"] & {
+			.intro-logo.logo-light {
+				display: none;
+			}
+
+			.intro-logo.logo-dark {
+				display: block;
+			}
+		}
+
+		// System preference dark mode (when no data-theme is set)
+		@media (prefers-color-scheme: dark) {
+			:root:not([data-theme]) & {
+				.intro-logo.logo-light {
+					display: none;
+				}
+
+				.intro-logo.logo-dark {
+					display: block;
+				}
+			}
 		}
 
 		p {
@@ -132,10 +168,8 @@
 			@include padding(_size(padding) * 1.5, _size(padding) * 1);
 			min-height: 80vh;
 
-			h1 {
-				font-size: 3.25rem;
-				line-height: 1.1;
-				margin-bottom: _size(element-margin) * 0.5;
+			.intro-logo {
+				max-width: 250px;
 			}
 
 			p {

@@ -3694,14 +3694,42 @@ body.is-preload #wrapper.fade-in:before {
   color: var(--color-fg);
   background: linear-gradient(135deg, var(--color-accent) 0%, transparent 60%), linear-gradient(-135deg, var(--color-success) 0%, transparent 60%), var(--color-bg);
 }
-#intro h1 {
-  font-size: 5rem;
-  line-height: 1;
-  background: var(--color-gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
+#intro .intro-logo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  -moz-transition: -moz-transform 0.3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -ms-transition: -ms-transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+#intro .intro-logo:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#intro .intro-logo.logo-light {
+  display: block;
+}
+#intro .intro-logo.logo-dark {
+  display: none;
+}
+:root[data-theme=dark] #intro .intro-logo.logo-light {
+  display: none;
+}
+:root[data-theme=dark] #intro .intro-logo.logo-dark {
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) #intro .intro-logo.logo-light {
+    display: none;
+  }
+  :root:not([data-theme]) #intro .intro-logo.logo-dark {
+    display: block;
+  }
 }
 #intro p {
   font-size: 1.25rem;
@@ -3793,10 +3821,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding: 3rem 2rem 1rem 2rem;
     min-height: 80vh;
   }
-  #intro h1 {
-    font-size: 3.25rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
+  #intro .intro-logo {
+    max-width: 250px;
   }
   #intro p {
     font-size: 1rem;
@@ -3864,26 +3890,50 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   z-index: 2;
 }
 #header .logo {
-  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+  -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+  -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+  transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
   pointer-events: auto;
-  border-style: solid;
-  border-color: #3a3a3a;
-  border-width: 5px !important;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 2.25rem;
-  font-weight: 900;
-  letter-spacing: 0.075em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-transform: uppercase;
   visibility: visible;
+  display: block;
 }
-#header .logo:hover {
-  border-color: #3b82f6 !important;
-  color: #3b82f6 !important;
+#header .logo img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  -moz-transition: -moz-transform 0.3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -ms-transition: -ms-transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+#header .logo img.logo-light {
+  display: block;
+}
+#header .logo img.logo-dark {
+  display: none;
+}
+#header .logo:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+:root[data-theme=dark] #header .logo img.logo-light {
+  display: none;
+}
+:root[data-theme=dark] #header .logo img.logo-dark {
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) #header .logo img.logo-light {
+    display: none;
+  }
+  :root:not([data-theme]) #header .logo img.logo-dark {
+    display: block;
+  }
 }
 @media screen and (max-width: 980px) {
   #header {
@@ -3895,9 +3945,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #header {
     padding-bottom: 3rem;
   }
-  #header .logo {
-    font-size: 1.75rem;
-    border-width: 3px !important;
+  #header .logo img {
+    max-width: 150px;
   }
 }
 
