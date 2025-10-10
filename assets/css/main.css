@@ -3546,12 +3546,71 @@ table.alt tbody tr td {
   font-style: italic;
 }
 
+@media (prefers-color-scheme: dark) {
+  .import-wizard .wizard-progress .progress-steps .step:not(.active):not(.completed) {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .import-wizard .wizard-question h2 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .import-wizard .wizard-instructions h2 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .wizard-summary h3 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .wizard-summary p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .wizard-options .option-btn {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .wizard-options .option-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(59, 130, 246, 0.5);
+  }
+  .wizard-instructions .media-container .instruction-image, .wizard-instructions .media-container video {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  #loading-message p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
 [data-theme=dark] .import-wizard .wizard-progress .progress-steps .step:not(.active):not(.completed) {
-  color: #1a1a1a;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+[data-theme=dark] .import-wizard .wizard-question h2 {
+  color: rgba(255, 255, 255, 0.9);
+}
+[data-theme=dark] .import-wizard .wizard-instructions h2 {
+  color: rgba(255, 255, 255, 0.9);
+}
+[data-theme=dark] .wizard-summary h3 {
+  color: rgba(255, 255, 255, 0.9);
+}
+[data-theme=dark] .wizard-summary p {
+  color: rgba(255, 255, 255, 0.8);
+}
+[data-theme=dark] .wizard-options .option-btn {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.9);
 }
 [data-theme=dark] .wizard-options .option-btn:hover {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(59, 130, 246, 0.5);
 }
+[data-theme=dark] .wizard-instructions .media-container .instruction-image, [data-theme=dark] .wizard-instructions .media-container video {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+[data-theme=dark] #loading-message p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 @media screen and (max-width: 980px) {
   .wizard-options {
     grid-template-columns: 1fr;

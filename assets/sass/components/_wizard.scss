@@ -229,29 +229,103 @@
 }
 
 // Dark mode adjustments
-[data-theme="dark"] {
+@media (prefers-color-scheme: dark) {
 	.import-wizard {
 		.wizard-progress .progress-steps .step {
 			&:not(.active):not(.completed) {
-				background: _palette(border-bg-alt);
-				color: _palette(fg);
+				background: rgba(255, 255, 255, 0.1);
+				color: rgba(255, 255, 255, 0.7);
 			}
+		}
+
+		.wizard-question h2 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		.wizard-instructions h2 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+	}
+
+	.wizard-summary {
+		h3 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		p {
+			color: rgba(255, 255, 255, 0.8);
 		}
 	}
 
 	.wizard-options .option-btn {
-		border-color: _palette(border-alt);
-		background: _palette(bg-alt);
+		border-color: rgba(255, 255, 255, 0.2);
+		background: rgba(255, 255, 255, 0.05);
+		color: rgba(255, 255, 255, 0.9);
 
 		&:hover {
-			background: _palette(bg);
+			background: rgba(255, 255, 255, 0.1);
+			border-color: rgba(59, 130, 246, 0.5);
 		}
 	}
 
 	.wizard-instructions .media-container {
 		.instruction-image, video {
-			border-color: _palette(border-alt);
+			border-color: rgba(255, 255, 255, 0.2);
 		}
+	}
+
+	#loading-message p {
+		color: rgba(255, 255, 255, 0.6);
+	}
+}
+
+[data-theme="dark"] {
+	.import-wizard {
+		.wizard-progress .progress-steps .step {
+			&:not(.active):not(.completed) {
+				background: rgba(255, 255, 255, 0.1);
+				color: rgba(255, 255, 255, 0.7);
+			}
+		}
+
+		.wizard-question h2 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		.wizard-instructions h2 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+	}
+
+	.wizard-summary {
+		h3 {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		p {
+			color: rgba(255, 255, 255, 0.8);
+		}
+	}
+
+	.wizard-options .option-btn {
+		border-color: rgba(255, 255, 255, 0.2);
+		background: rgba(255, 255, 255, 0.05);
+		color: rgba(255, 255, 255, 0.9);
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.1);
+			border-color: rgba(59, 130, 246, 0.5);
+		}
+	}
+
+	.wizard-instructions .media-container {
+		.instruction-image, video {
+			border-color: rgba(255, 255, 255, 0.2);
+		}
+	}
+
+	#loading-message p {
+		color: rgba(255, 255, 255, 0.6);
 	}
 }
 
