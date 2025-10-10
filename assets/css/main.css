@@ -3376,8 +3376,9 @@ table.alt tbody tr td {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: rgba(229, 229, 229, 0.25);
-  color: #6b6b6b;
+  background: transparent;
+  border: 2px solid #e5e5e5;
+  color: #1a1a1a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3388,11 +3389,15 @@ table.alt tbody tr td {
 .import-wizard .wizard-progress .progress-steps .step.active {
   background: #3b82f6;
   color: #ffffff;
-  transform: scale(1.1);
+  border-color: #3b82f6;
+  transform: scale(1.05);
 }
 .import-wizard .wizard-progress .progress-steps .step.completed {
   background: #3b82f6;
   color: #ffffff;
+  border-color: #3b82f6;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
 .import-wizard .wizard-progress .progress-steps .step.completed::after {
   content: "✓";

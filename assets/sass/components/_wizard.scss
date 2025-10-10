@@ -20,8 +20,9 @@
 				width: 2.5rem;
 				height: 2.5rem;
 				border-radius: 50%;
-				background: _palette(border-bg);
-				color: _palette(fg-light);
+				background: transparent;
+				border: 2px solid _palette(border);
+				color: _palette(fg);
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -32,12 +33,16 @@
 				&.active {
 					background: _palette(accent);
 					color: _palette(bg);
-					transform: scale(1.1);
+					border-color: _palette(accent);
+					transform: scale(1.05);
 				}
 
 				&.completed {
 					background: _palette(accent);
 					color: _palette(bg);
+					border-color: _palette(accent);
+					transform: scale(1.1);
+					box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 
 					&::after {
 						content: '✓';

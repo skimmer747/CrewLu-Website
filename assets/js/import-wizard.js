@@ -148,16 +148,53 @@
 
     // Go to a specific step (used for editing choices)
     function goToStep(targetStep) {
-        // Clear choices from target step onward
-        const stepOrder = ['import_type', 'crewmember_type', 'device', 'data_source_device', 'apple_id_check'];
-        const targetIndex = stepOrder.indexOf(targetStep);
-
-        for (let i = targetIndex; i < stepOrder.length; i++) {
-            delete userChoices[stepOrder[i]];
+        // Rebuild step history by tracing through the workflow from the beginning
+        // up to (but not including) the target step
+        stepHistory = [];
+        let traceStep = 'import_type';
+        
+        while (traceStep !== targetStep && stepHistory.length < 10) {
+            if (userChoices[traceStep]) {
+                stepHistory.push(traceStep);
+                
+                // Find next step based on this choice
+                const stepData = wizardData.workflow[traceStep];
+                const selectedOption = stepData.options.find(opt => opt.id === userChoices[traceStep].id);
+                
+                if (selectedOption) {
+                    traceStep = selectedOption.next;
+                } else {
+                    break;
+                }
+            } else {
+                break;
+            }
         }
-
-        // Rebuild step history up to target
-        stepHistory = stepOrder.slice(0, targetIndex);
+        
+        // Now delete the target step choice and all choices after it
+        // Trace from target step forward and delete everything
+        let deleteStep = targetStep;
+        let safetyCounter = 0;
+        
+        while (deleteStep && deleteStep !== 'instructions' && safetyCounter < 10) {
+            safetyCounter++;
+            
+            if (userChoices[deleteStep]) {
+                // Find what the next step would be before we delete this choice
+                const stepData = wizardData.workflow[deleteStep];
+                const selectedOption = stepData.options.find(opt => opt.id === userChoices[deleteStep].id);
+                const nextStep = selectedOption ? selectedOption.next : null;
+                
+                // Delete this step's choice
+                delete userChoices[deleteStep];
+                
+                // Move to next step
+                deleteStep = nextStep;
+            } else {
+                break;
+            }
+        }
+        
         currentStep = targetStep;
 
         showStep(currentStep);
@@ -477,34 +514,47 @@
         $summaryArea.show();
     }
 
-    // Update progress indicator
+    // Update progress indicator with progressive reveal
     function updateProgressIndicator(completed = false) {
-        $progressIndicator.show();
+        // Number of steps to show:
+        // - When answering questions: show completed steps + current unfilled step
+        // - When at instructions (completed): show only the completed steps with checkmark on last
+        const totalStepsToShow = completed ? stepHistory.length : (stepHistory.length + 1);
 
-        // Simple 3-step progress (consolidating the 4+ actual steps into 3 visual steps)
-        const stepMap = {
-            'import_type': 1,
-            'crewmember_type': 2,
-            'device': 2,
-            'data_source_device': 2,
-            'apple_id_check': 3,
-            'instructions': 3
-        };
-
-        const currentStepNum = completed ? 3 : (stepMap[currentStep] || 1);
-
-        for (let i = 1; i <= 3; i++) {
-            const $step = $(`#step-${i}`);
-            if (i <= currentStepNum) {
-                $step.addClass('active');
-            } else {
-                $step.removeClass('active');
-            }
-
-            if (completed && i === 3) {
-                $step.addClass('completed');
+        // Get the container
+        const $progressStepsContainer = $('#progress-steps');
+        
+        // Regenerate step circles if count changed
+        const existingStepCount = $progressStepsContainer.children('.step').length;
+        if (existingStepCount !== totalStepsToShow) {
+            $progressStepsContainer.empty();
+            for (let i = 1; i <= totalStepsToShow; i++) {
+                const $stepCircle = $('<span>')
+                    .addClass('step')
+                    .attr('id', `step-${i}`)
+                    .text(i);
+                $progressStepsContainer.append($stepCircle);
             }
         }
+
+        // Update states for all steps
+        for (let i = 1; i <= totalStepsToShow; i++) {
+            const $step = $(`#step-${i}`);
+            
+            // Clean up all state classes first
+            $step.removeClass('active completed');
+
+            if (completed && i === totalStepsToShow) {
+                // Final step gets checkmark when at instructions
+                $step.addClass('completed');
+            } else if (i <= stepHistory.length) {
+                // Completed steps are filled/active
+                $step.addClass('active');
+            }
+            // Current step (stepHistory.length + 1) remains unfilled when not completed
+        }
+
+        $progressIndicator.show();
     }
 
     // Initialize when document is ready
