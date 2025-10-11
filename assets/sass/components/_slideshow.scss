@@ -384,7 +384,19 @@
 			align-items: flex-start;
 		}
 
-		.portrait-slideshow .slide img,
+		// Portrait: Full natural height
+		.portrait-slideshow .slide img {
+			width: 100%;
+			max-width: 100%;
+			max-height: 90vh;
+			height: auto;
+			object-fit: contain;
+			border-radius: 0;
+			box-shadow: none;
+			margin-bottom: 0;
+		}
+
+		// Landscape: Keep working perfectly
 		.landscape-slideshow .slide img {
 			width: 100%;
 			max-width: 100%;
@@ -423,7 +435,19 @@
 			align-items: flex-start;
 		}
 
-		.portrait-slideshow .slide img,
+		// Portrait: Full natural height
+		.portrait-slideshow .slide img {
+			width: 100%;
+			max-width: 100%;
+			max-height: 90vh;
+			height: auto;
+			object-fit: contain;
+			border-radius: 0;
+			box-shadow: none;
+			margin-bottom: 0;
+		}
+
+		// Landscape: Keep working perfectly
 		.landscape-slideshow .slide img {
 			width: 100%;
 			max-width: 100%;
@@ -462,7 +486,19 @@
 			align-items: flex-start;
 		}
 
-		.portrait-slideshow .slide img,
+		// Portrait: Full natural height
+		.portrait-slideshow .slide img {
+			width: 100%;
+			max-width: 100%;
+			max-height: 90vh;
+			height: auto;
+			object-fit: contain;
+			border-radius: 0;
+			box-shadow: none;
+			margin-bottom: 0;
+		}
+
+		// Landscape: Keep working perfectly
 		.landscape-slideshow .slide img {
 			width: 100%;
 			max-width: 100%;
