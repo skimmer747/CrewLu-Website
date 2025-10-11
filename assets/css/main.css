@@ -3299,26 +3299,30 @@ table.alt tbody tr td {
     background: none;
   }
   .slide {
-    padding: 0;
+    padding: 0 !important;
     align-items: stretch;
     justify-content: flex-start;
+    flex-direction: column;
   }
   .portrait-slideshow .slide img,
   .landscape-slideshow .slide img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
-    max-height: 80vh;
-    max-width: 100%;
+    max-height: 70vh;
+    max-width: none;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     flex-shrink: 0;
   }
   .slide-caption {
-    position: relative;
+    position: static !important;
     bottom: auto;
     padding: 0.5rem 0.75rem;
     border-radius: 0;
+    width: 100%;
   }
   .slide-caption h3, .slide-caption h4 {
     font-size: 0.9rem;
@@ -3356,26 +3360,30 @@ table.alt tbody tr td {
     background: none;
   }
   .slide {
-    padding: 0;
+    padding: 0 !important;
     align-items: stretch;
     justify-content: flex-start;
+    flex-direction: column;
   }
   .portrait-slideshow .slide img,
   .landscape-slideshow .slide img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
-    max-height: 80vh;
-    max-width: 100%;
+    max-height: 70vh;
+    max-width: none;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     flex-shrink: 0;
   }
   .slide-caption {
-    position: relative;
+    position: static !important;
     bottom: auto;
     padding: 0.5rem 0.75rem;
     border-radius: 0;
+    width: 100%;
   }
   .slide-caption h3, .slide-caption h4 {
     font-size: 0.875rem;
@@ -3407,26 +3415,30 @@ table.alt tbody tr td {
     background: none;
   }
   .slide {
-    padding: 0;
+    padding: 0 !important;
     align-items: stretch;
     justify-content: flex-start;
+    flex-direction: column;
   }
   .portrait-slideshow .slide img,
   .landscape-slideshow .slide img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
-    max-height: 80vh;
-    max-width: 100%;
+    max-height: 70vh;
+    max-width: none;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     flex-shrink: 0;
   }
   .slide-caption {
-    position: relative;
+    position: static !important;
     bottom: auto;
     padding: 0.4rem 0.625rem;
     border-radius: 0;
+    width: 100%;
   }
   .slide-caption h3, .slide-caption h4 {
     font-size: 0.8125rem;
