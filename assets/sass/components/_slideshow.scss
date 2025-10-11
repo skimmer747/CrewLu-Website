@@ -374,18 +374,18 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 650px; // Much larger for mobile
+			height: 85vh; // Use viewport height for full screen
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 380px; // Increased from 220px
+			height: 50vh; // Use viewport height
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 96%; // Increased to fill more space
+			max-height: 70%; // Leave room for caption below
 			border-radius: 0; // Edge-to-edge, no rounded corners
 			box-shadow: none;
 			margin-bottom: 0;
@@ -393,7 +393,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 85%; // Increased to fill more space
+			max-height: 65%; // Leave room for caption below
 			border-radius: 0; // Edge-to-edge, no rounded corners
 			box-shadow: none;
 			margin-bottom: 0;
@@ -435,18 +435,18 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 550px; // Increased from 350px
+			height: 85vh; // Use viewport height for full screen
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 300px; // Increased from 180px
+			height: 50vh; // Use viewport height
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 96%; // Increased to fill more space
+			max-height: 70%; // Leave room for caption below
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -454,7 +454,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 85%; // Increased to fill more space
+			max-height: 65%; // Leave room for caption below
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -488,18 +488,18 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 500px; // Increased from 300px
+			height: 85vh; // Use viewport height for full screen
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 250px; // Increased from 150px
+			height: 50vh; // Use viewport height
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 96%; // Increased to fill more space
+			max-height: 70%; // Leave room for caption below
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -507,7 +507,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 85%; // Increased to fill more space
+			max-height: 65%; // Leave room for caption below
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
