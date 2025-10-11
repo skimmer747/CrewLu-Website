@@ -3301,7 +3301,9 @@ table.alt tbody tr td {
   .landscape-slideshow .slide img {
     width: 100%;
     max-width: 100%;
-    max-height: none;
+    max-height: 75vh;
+    height: auto;
+    object-fit: contain;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
@@ -3332,7 +3334,9 @@ table.alt tbody tr td {
   .landscape-slideshow .slide img {
     width: 100%;
     max-width: 100%;
-    max-height: none;
+    max-height: 75vh;
+    height: auto;
+    object-fit: contain;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
@@ -3363,7 +3367,9 @@ table.alt tbody tr td {
   .landscape-slideshow .slide img {
     width: 100%;
     max-width: 100%;
-    max-height: none;
+    max-height: 75vh;
+    height: auto;
+    object-fit: contain;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 0;
