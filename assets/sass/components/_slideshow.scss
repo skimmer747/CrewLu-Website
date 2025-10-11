@@ -370,153 +370,180 @@
 
 	@include breakpoint('<=small') {
 		.slideshow-section {
-			padding: 0;
+			padding: 0 !important;
 		}
 
-		.portrait-slideshow .slideshow-container,
-		.landscape-slideshow .slideshow-container {
-			background: none;
+		// PORTRAIT - Full natural height (Option A)
+		.portrait-slideshow {
+			.slideshow-container {
+				height: auto !important;
+				background: transparent !important;
+				overflow: visible !important;
+			}
+
+			.slide {
+				position: absolute;
+				padding: 0 !important;
+				height: auto !important;
+
+				img {
+					width: 100% !important;
+					max-width: 100% !important;
+					height: auto !important;
+					max-height: none !important;
+					border-radius: 0 !important;
+					box-shadow: none !important;
+					margin: 0 !important;
+					display: block !important;
+				}
+			}
+
+			.slide-caption {
+				position: relative !important;
+				width: 100% !important;
+				background: rgba(0,0,0,0.85) !important;
+				padding: 1rem !important;
+			}
 		}
 
-		.portrait-slideshow .slide,
-		.landscape-slideshow .slide {
-			padding: 0;
-			align-items: flex-start;
-		}
+		// LANDSCAPE - Keep working great
+		.landscape-slideshow {
+			.slideshow-container {
+				background: transparent !important;
+			}
 
-		// Portrait: Full natural height
-		.portrait-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 90vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		// Landscape: Keep working perfectly
-		.landscape-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 75vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		.slide-caption {
-			position: relative;
-			bottom: auto;
+			.slide img {
+				width: 100% !important;
+				max-width: 100% !important;
+				max-height: 75vh !important;
+				border-radius: 0 !important;
+				box-shadow: none !important;
+				margin: 0 !important;
+			}
 		}
 
 		.prev-btn,
 		.next-btn {
-			display: none;
+			display: none !important;
 		}
 	}
 
 	@include breakpoint('<=xsmall') {
 		.slideshow-section {
-			padding: 0;
+			padding: 0 !important;
 		}
 
-		.portrait-slideshow .slideshow-container,
-		.landscape-slideshow .slideshow-container {
-			background: none;
+		// PORTRAIT - Full natural height (Option A)
+		.portrait-slideshow {
+			.slideshow-container {
+				height: auto !important;
+				background: transparent !important;
+				overflow: visible !important;
+			}
+
+			.slide {
+				position: absolute;
+				padding: 0 !important;
+				height: auto !important;
+
+				img {
+					width: 100% !important;
+					max-width: 100% !important;
+					height: auto !important;
+					max-height: none !important;
+					border-radius: 0 !important;
+					box-shadow: none !important;
+					margin: 0 !important;
+					display: block !important;
+				}
+			}
+
+			.slide-caption {
+				position: relative !important;
+				width: 100% !important;
+				background: rgba(0,0,0,0.85) !important;
+				padding: 1rem !important;
+			}
 		}
 
-		.portrait-slideshow .slide,
-		.landscape-slideshow .slide {
-			padding: 0;
-			align-items: flex-start;
-		}
+		// LANDSCAPE - Keep working great
+		.landscape-slideshow {
+			.slideshow-container {
+				background: transparent !important;
+			}
 
-		// Portrait: Full natural height
-		.portrait-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 90vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		// Landscape: Keep working perfectly
-		.landscape-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 75vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		.slide-caption {
-			position: relative;
-			bottom: auto;
+			.slide img {
+				width: 100% !important;
+				max-width: 100% !important;
+				max-height: 75vh !important;
+				border-radius: 0 !important;
+				box-shadow: none !important;
+				margin: 0 !important;
+			}
 		}
 
 		.prev-btn,
 		.next-btn {
-			display: none;
+			display: none !important;
 		}
 	}
 
 	@include breakpoint('<=xxsmall') {
 		.slideshow-section {
-			padding: 0;
+			padding: 0 !important;
 		}
 
-		.portrait-slideshow .slideshow-container,
-		.landscape-slideshow .slideshow-container {
-			background: none;
+		// PORTRAIT - Full natural height (Option A)
+		.portrait-slideshow {
+			.slideshow-container {
+				height: auto !important;
+				background: transparent !important;
+				overflow: visible !important;
+			}
+
+			.slide {
+				position: absolute;
+				padding: 0 !important;
+				height: auto !important;
+
+				img {
+					width: 100% !important;
+					max-width: 100% !important;
+					height: auto !important;
+					max-height: none !important;
+					border-radius: 0 !important;
+					box-shadow: none !important;
+					margin: 0 !important;
+					display: block !important;
+				}
+			}
+
+			.slide-caption {
+				position: relative !important;
+				width: 100% !important;
+				background: rgba(0,0,0,0.85) !important;
+				padding: 1rem !important;
+			}
 		}
 
-		.portrait-slideshow .slide,
-		.landscape-slideshow .slide {
-			padding: 0;
-			align-items: flex-start;
-		}
+		// LANDSCAPE - Keep working great
+		.landscape-slideshow {
+			.slideshow-container {
+				background: transparent !important;
+			}
 
-		// Portrait: Full natural height
-		.portrait-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 90vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		// Landscape: Keep working perfectly
-		.landscape-slideshow .slide img {
-			width: 100%;
-			max-width: 100%;
-			max-height: 75vh;
-			height: auto;
-			object-fit: contain;
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
-		}
-
-		.slide-caption {
-			position: relative;
-			bottom: auto;
+			.slide img {
+				width: 100% !important;
+				max-width: 100% !important;
+				max-height: 75vh !important;
+				border-radius: 0 !important;
+				box-shadow: none !important;
+				margin: 0 !important;
+			}
 		}
 
 		.prev-btn,
 		.next-btn {
-			display: none;
+			display: none !important;
 		}
 	}
