@@ -375,15 +375,17 @@
 
 		.portrait-slideshow .slideshow-container {
 			height: 650px; // Much larger for mobile
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
 			height: 380px; // Increased from 220px
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 88%;
+			max-height: 96%; // Increased to fill more space
 			border-radius: 0; // Edge-to-edge, no rounded corners
 			box-shadow: none;
 			margin-bottom: 0;
@@ -391,7 +393,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 70%;
+			max-height: 85%; // Increased to fill more space
 			border-radius: 0; // Edge-to-edge, no rounded corners
 			box-shadow: none;
 			margin-bottom: 0;
@@ -434,15 +436,17 @@
 
 		.portrait-slideshow .slideshow-container {
 			height: 550px; // Increased from 350px
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
 			height: 300px; // Increased from 180px
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 88%;
+			max-height: 96%; // Increased to fill more space
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -450,7 +454,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 70%;
+			max-height: 85%; // Increased to fill more space
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -485,15 +489,17 @@
 
 		.portrait-slideshow .slideshow-container {
 			height: 500px; // Increased from 300px
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
 			height: 250px; // Increased from 150px
+			background: none; // Remove blue gradient on mobile
 		}
 
 		.portrait-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 88%;
+			max-height: 96%; // Increased to fill more space
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
@@ -501,7 +507,7 @@
 
 		.landscape-slideshow .slide img {
 			max-width: 100%; // Full width
-			max-height: 70%;
+			max-height: 85%; // Increased to fill more space
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
