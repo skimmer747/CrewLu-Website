@@ -394,6 +394,27 @@ hr {
   --color-nav-dot-hover: rgba(255, 255, 255, 0.6);
   --color-accent-light: rgba(59, 130, 246, 0.3);
 }
+[data-theme=light] .import-wizard .wizard-progress .progress-steps .step {
+  color: var(--color-fg) !important;
+}
+[data-theme=light] .import-wizard .wizard-progress .progress-steps .step:not(.active):not(.completed) {
+  color: var(--color-fg) !important;
+}
+[data-theme=light] .import-wizard .wizard-question h2 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .import-wizard .wizard-instructions h2 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .wizard-summary h3 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .wizard-summary p {
+  color: var(--color-fg) !important;
+}
+[data-theme=light] .wizard-options .option-btn {
+  color: var(--color-fg-bold) !important;
+}
 
 [data-theme=dark] {
   --color-bg: #000000;
@@ -3377,8 +3398,8 @@ table.alt tbody tr td {
   height: 2.5rem;
   border-radius: 50%;
   background: transparent;
-  border: 2px solid #e5e5e5;
-  color: #1a1a1a;
+  border: 2px solid var(--color-border);
+  color: var(--color-fg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3387,15 +3408,15 @@ table.alt tbody tr td {
   position: relative;
 }
 .import-wizard .wizard-progress .progress-steps .step.active {
-  background: #3b82f6;
-  color: #ffffff;
-  border-color: #3b82f6;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border-color: var(--color-accent);
   transform: scale(1.05);
 }
 .import-wizard .wizard-progress .progress-steps .step.completed {
-  background: #3b82f6;
-  color: #ffffff;
-  border-color: #3b82f6;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border-color: var(--color-accent);
   transform: scale(1.1);
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
@@ -3410,30 +3431,40 @@ table.alt tbody tr td {
   left: 100%;
   width: 1rem;
   height: 2px;
-  background: #e5e5e5;
+  background: var(--color-border);
   transform: translateY(-50%);
   z-index: -1;
 }
 .import-wizard .wizard-progress .progress-steps .step.active:not(:last-child)::before {
-  background: #3b82f6;
+  background: var(--color-accent);
 }
 
 .wizard-summary {
   margin-bottom: 2em;
 }
+.wizard-summary h3 {
+  color: var(--color-fg-bold);
+}
+.wizard-summary p {
+  color: var(--color-fg);
+}
 .wizard-summary .editable-choice {
-  color: #3b82f6;
+  color: var(--color-accent);
   cursor: pointer;
   text-decoration: underline;
   transition: color 0.2s ease;
 }
+.wizard-summary .editable-choice:hover {
+  color: var(--color-accent-secondary);
+}
+
 .wizard-question {
   text-align: center;
   margin-bottom: 2em;
 }
 .wizard-question h2 {
   margin-bottom: 1.5em;
-  color: #000000;
+  color: var(--color-fg-bold);
 }
 
 .wizard-options {
@@ -3451,15 +3482,16 @@ table.alt tbody tr td {
   justify-content: center;
   text-align: center;
   transition: all 0.3s ease;
-  border: 2px solid #e5e5e5;
+  border: 2px solid var(--color-border);
+  color: var(--color-fg-bold);
 }
 .wizard-options .option-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: #3b82f6;
+  border-color: var(--color-accent);
 }
 .wizard-options .option-btn:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
@@ -3467,7 +3499,7 @@ table.alt tbody tr td {
   margin-bottom: 2em;
 }
 .wizard-instructions .instruction-step h3 {
-  color: #3b82f6;
+  color: var(--color-accent);
   margin-bottom: 1em;
   font-size: 1.3em;
 }
@@ -3491,7 +3523,7 @@ table.alt tbody tr td {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--color-border);
 }
 @media screen and (min-width: 981px) {
   .wizard-instructions .instruction-step .media-container .instruction-image {
@@ -3508,11 +3540,11 @@ table.alt tbody tr td {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--color-border);
 }
 .wizard-instructions .instruction-step .media-container .media-caption {
   font-style: italic;
-  color: #6b6b6b;
+  color: var(--color-fg-light);
   margin-top: 0.5em;
   font-size: 0.9em;
   text-align: center;
@@ -3520,7 +3552,7 @@ table.alt tbody tr td {
 .wizard-instructions .step-divider {
   border: 0;
   height: 1px;
-  background: #e5e5e5;
+  background: var(--color-border);
   margin: 3em 0;
   opacity: 0.5;
 }
@@ -3547,7 +3579,7 @@ table.alt tbody tr td {
   text-align: center;
 }
 #loading-message p {
-  color: #6b6b6b;
+  color: var(--color-fg-light);
   font-style: italic;
 }
 
@@ -3614,6 +3646,22 @@ table.alt tbody tr td {
 }
 [data-theme=dark] #loading-message p {
   color: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme=light] .import-wizard .wizard-question h2 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .import-wizard .wizard-instructions h2 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .wizard-summary h3 {
+  color: var(--color-fg-bold) !important;
+}
+[data-theme=light] .wizard-summary p {
+  color: var(--color-fg) !important;
+}
+[data-theme=light] .wizard-options .option-btn {
+  color: var(--color-fg-bold) !important;
 }
 
 @media screen and (max-width: 980px) {

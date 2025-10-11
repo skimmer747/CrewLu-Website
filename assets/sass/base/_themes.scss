@@ -119,6 +119,39 @@
 	--color-nav-dot: rgba(255, 255, 255, 0.4);
 	--color-nav-dot-hover: rgba(255, 255, 255, 0.6);
 	--color-accent-light: rgba(59, 130, 246, 0.3);
+
+	// Wizard text overrides for light mode (to override system dark mode preference)
+	.import-wizard {
+		.wizard-progress .progress-steps .step {
+			color: var(--color-fg) !important;
+			
+			&:not(.active):not(.completed) {
+				color: var(--color-fg) !important;
+			}
+		}
+
+		.wizard-question h2 {
+			color: var(--color-fg-bold) !important;
+		}
+
+		.wizard-instructions h2 {
+			color: var(--color-fg-bold) !important;
+		}
+	}
+
+	.wizard-summary {
+		h3 {
+			color: var(--color-fg-bold) !important;
+		}
+
+		p {
+			color: var(--color-fg) !important;
+		}
+	}
+
+	.wizard-options .option-btn {
+		color: var(--color-fg-bold) !important;
+	}
 }
 
 [data-theme="dark"] {
