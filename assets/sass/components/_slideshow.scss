@@ -374,33 +374,40 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 85vh; // Use viewport height for full screen
+			height: auto; // Auto height to fit image + caption
+			min-height: 85vh; // Minimum screen fill
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 50vh; // Use viewport height
+			height: auto; // Auto height to fit image + caption
+			min-height: 50vh;
 			background: none; // Remove blue gradient on mobile
 		}
 
-		.portrait-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 92%; // Fill most of container
-			border-radius: 0; // Edge-to-edge, no rounded corners
-			box-shadow: none;
-			margin-bottom: 0;
+		.slide {
+			position: relative; // Change from absolute
+			padding: 0; // Remove padding for full width
+			align-items: stretch;
+			justify-content: flex-start;
 		}
 
+		.portrait-slideshow .slide img,
 		.landscape-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 88%; // Fill most of container
+			width: 100%; // Full width
+			height: auto; // Natural height maintains aspect ratio
+			max-height: none; // Remove height constraint
+			max-width: 100%;
 			border-radius: 0; // Edge-to-edge, no rounded corners
 			box-shadow: none;
 			margin-bottom: 0;
 		}
 
 		.slide-caption {
+			position: relative; // Not absolute - sits below image naturally
+			bottom: auto;
 			padding: 0.5rem 0.75rem; // More compact on mobile
+			border-radius: 0; // No rounded corners on mobile
 
 			h3, h4 {
 				font-size: 0.9rem;
@@ -414,7 +421,7 @@
 		}
 
 		.slideshow-nav {
-			bottom: 4.5rem; // Position above caption
+			bottom: 6rem; // Position over bottom of image
 			gap: 0.5rem;
 
 			.nav-dot {
@@ -435,33 +442,40 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 85vh; // Use viewport height for full screen
+			height: auto; // Auto height to fit image + caption
+			min-height: 85vh;
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 50vh; // Use viewport height
+			height: auto; // Auto height to fit image + caption
+			min-height: 50vh;
 			background: none; // Remove blue gradient on mobile
 		}
 
-		.portrait-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 92%; // Fill most of container
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
+		.slide {
+			position: relative; // Change from absolute
+			padding: 0;
+			align-items: stretch;
+			justify-content: flex-start;
 		}
 
+		.portrait-slideshow .slide img,
 		.landscape-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 88%; // Fill most of container
+			width: 100%; // Full width
+			height: auto; // Natural height maintains aspect ratio
+			max-height: none; // Remove height constraint
+			max-width: 100%;
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
 		}
 
 		.slide-caption {
+			position: relative; // Not absolute - sits below image naturally
+			bottom: auto;
 			padding: 0.5rem 0.75rem; // More compact on mobile
+			border-radius: 0;
 
 			h3, h4 {
 				font-size: 0.875rem;
@@ -474,7 +488,7 @@
 		}
 
 		.slideshow-nav {
-			bottom: 4.25rem; // Position above caption
+			bottom: 5.5rem; // Position over bottom of image
 		}
 
 		.prev-btn,
@@ -489,33 +503,40 @@
 		}
 
 		.portrait-slideshow .slideshow-container {
-			height: 85vh; // Use viewport height for full screen
+			height: auto; // Auto height to fit image + caption
+			min-height: 85vh;
 			background: none; // Remove blue gradient on mobile
 		}
 
 		.landscape-slideshow .slideshow-container {
-			height: 50vh; // Use viewport height
+			height: auto; // Auto height to fit image + caption
+			min-height: 50vh;
 			background: none; // Remove blue gradient on mobile
 		}
 
-		.portrait-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 92%; // Fill most of container
-			border-radius: 0;
-			box-shadow: none;
-			margin-bottom: 0;
+		.slide {
+			position: relative; // Change from absolute
+			padding: 0;
+			align-items: stretch;
+			justify-content: flex-start;
 		}
 
+		.portrait-slideshow .slide img,
 		.landscape-slideshow .slide img {
-			max-width: 100%; // Full width
-			max-height: 88%; // Fill most of container
+			width: 100%; // Full width
+			height: auto; // Natural height maintains aspect ratio
+			max-height: none; // Remove height constraint
+			max-width: 100%;
 			border-radius: 0;
 			box-shadow: none;
 			margin-bottom: 0;
 		}
 
 		.slide-caption {
+			position: relative; // Not absolute - sits below image naturally
+			bottom: auto;
 			padding: 0.4rem 0.625rem; // More compact on mobile
+			border-radius: 0;
 
 			h3, h4 {
 				font-size: 0.8125rem;
@@ -529,7 +550,7 @@
 		}
 
 		.slideshow-nav {
-			bottom: 4rem; // Position above caption
+			bottom: 5rem; // Position over bottom of image
 		}
 
 		.prev-btn,
