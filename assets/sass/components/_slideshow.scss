@@ -382,7 +382,8 @@
 			}
 
 			.slide {
-				position: absolute;
+				position: static;
+				display: none;
 				padding: 0 !important;
 				height: auto !important;
 
@@ -398,11 +399,28 @@
 				}
 			}
 
+			// Only show the active slide in portrait on mobile
+			.slide.active {
+				display: block;
+			}
+
 			.slide-caption {
-				position: relative !important;
+				position: static !important;
 				width: 100% !important;
-				background: rgba(0,0,0,0.85) !important;
-				padding: 1rem !important;
+				background: transparent !important;
+				border: none !important;
+				padding: 0.75rem 1rem !important;
+				margin-top: 0.75rem !important;
+			}
+
+			// Place nav dots below the image/caption
+			.slideshow-nav {
+				position: static !important;
+				bottom: auto !important;
+				left: auto !important;
+				transform: none !important;
+				margin-top: 0.75rem !important;
+				justify-content: center !important;
 			}
 		}
 
@@ -442,7 +460,8 @@
 			}
 
 			.slide {
-				position: absolute;
+				position: static;
+				display: none;
 				padding: 0 !important;
 				height: auto !important;
 
@@ -458,11 +477,24 @@
 				}
 			}
 
+			.slide.active { display: block; }
+
 			.slide-caption {
-				position: relative !important;
+				position: static !important;
 				width: 100% !important;
-				background: rgba(0,0,0,0.85) !important;
-				padding: 1rem !important;
+				background: transparent !important;
+				border: none !important;
+				padding: 0.75rem 1rem !important;
+				margin-top: 0.75rem !important;
+			}
+
+			.slideshow-nav {
+				position: static !important;
+				bottom: auto !important;
+				left: auto !important;
+				transform: none !important;
+				margin-top: 0.75rem !important;
+				justify-content: center !important;
 			}
 		}
 
@@ -502,7 +534,8 @@
 			}
 
 			.slide {
-				position: absolute;
+				position: static;
+				display: none;
 				padding: 0 !important;
 				height: auto !important;
 
@@ -518,11 +551,24 @@
 				}
 			}
 
+			.slide.active { display: block; }
+
 			.slide-caption {
-				position: relative !important;
+				position: static !important;
 				width: 100% !important;
-				background: rgba(0,0,0,0.85) !important;
-				padding: 1rem !important;
+				background: transparent !important;
+				border: none !important;
+				padding: 0.75rem 1rem !important;
+				margin-top: 0.75rem !important;
+			}
+
+			.slideshow-nav {
+				position: static !important;
+				bottom: auto !important;
+				left: auto !important;
+				transform: none !important;
+				margin-top: 0.75rem !important;
+				justify-content: center !important;
 			}
 		}
 

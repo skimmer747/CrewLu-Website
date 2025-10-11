@@ -3294,7 +3294,8 @@ table.alt tbody tr td {
     overflow: visible !important;
   }
   .portrait-slideshow .slide {
-    position: absolute;
+    position: static;
+    display: none;
     padding: 0 !important;
     height: auto !important;
   }
@@ -3308,11 +3309,24 @@ table.alt tbody tr td {
     margin: 0 !important;
     display: block !important;
   }
+  .portrait-slideshow .slide.active {
+    display: block;
+  }
   .portrait-slideshow .slide-caption {
-    position: relative !important;
+    position: static !important;
     width: 100% !important;
-    background: rgba(0, 0, 0, 0.85) !important;
-    padding: 1rem !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0.75rem 1rem !important;
+    margin-top: 0.75rem !important;
+  }
+  .portrait-slideshow .slideshow-nav {
+    position: static !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin-top: 0.75rem !important;
+    justify-content: center !important;
   }
   .landscape-slideshow .slideshow-container {
     background: transparent !important;
@@ -3340,7 +3354,8 @@ table.alt tbody tr td {
     overflow: visible !important;
   }
   .portrait-slideshow .slide {
-    position: absolute;
+    position: static;
+    display: none;
     padding: 0 !important;
     height: auto !important;
   }
@@ -3354,11 +3369,24 @@ table.alt tbody tr td {
     margin: 0 !important;
     display: block !important;
   }
+  .portrait-slideshow .slide.active {
+    display: block;
+  }
   .portrait-slideshow .slide-caption {
-    position: relative !important;
+    position: static !important;
     width: 100% !important;
-    background: rgba(0, 0, 0, 0.85) !important;
-    padding: 1rem !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0.75rem 1rem !important;
+    margin-top: 0.75rem !important;
+  }
+  .portrait-slideshow .slideshow-nav {
+    position: static !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin-top: 0.75rem !important;
+    justify-content: center !important;
   }
   .landscape-slideshow .slideshow-container {
     background: transparent !important;
@@ -3386,7 +3414,8 @@ table.alt tbody tr td {
     overflow: visible !important;
   }
   .portrait-slideshow .slide {
-    position: absolute;
+    position: static;
+    display: none;
     padding: 0 !important;
     height: auto !important;
   }
@@ -3400,11 +3429,24 @@ table.alt tbody tr td {
     margin: 0 !important;
     display: block !important;
   }
+  .portrait-slideshow .slide.active {
+    display: block;
+  }
   .portrait-slideshow .slide-caption {
-    position: relative !important;
+    position: static !important;
     width: 100% !important;
-    background: rgba(0, 0, 0, 0.85) !important;
-    padding: 1rem !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0.75rem 1rem !important;
+    margin-top: 0.75rem !important;
+  }
+  .portrait-slideshow .slideshow-nav {
+    position: static !important;
+    bottom: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin-top: 0.75rem !important;
+    justify-content: center !important;
   }
   .landscape-slideshow .slideshow-container {
     background: transparent !important;
