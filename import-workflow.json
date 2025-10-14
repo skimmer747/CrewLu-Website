@@ -203,36 +203,77 @@
       "title": "Import Full Roster from iPhone to iPhone",
       "steps": [
         {
-          "text": "If you're using the same Apple ID, you can use Universal Clipboard for easy copying between devices",
-          "media": {"type": "image", "file": "universal-clipboard-info.jpg", "caption": "Universal Clipboard allows seamless copying between devices"}
+          "text": "Sign in to Crew Access and select Roster."
         },
         {
-          "text": "Open the email containing your full roster schedule",
-          "media": {"type": "image", "file": "iphone-email-step1.jpg", "caption": "Locate and open the email with your crew roster"}
+          "text": "Expand all of the arrows of the trips you want to import."
         },
         {
-          "text": "Long press on the schedule text to start selecting",
-          "media": {"type": "image", "file": "iphone-email-step2.jpg", "caption": "Long press to bring up the selection handles"}
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone. <strong>As long as the word Roster on the top is selected, all of the trips under and above will also be selected.</strong>"
         },
         {
-          "text": "Drag the selection handles to select all roster data",
-          "media": {"type": "video", "file": "iphone-select-text.mp4", "caption": "Drag handles to select the entire roster"}
+          "text": "Tap the word Copy."
         },
         {
-          "text": "Tap 'Copy' to copy the selected text",
-          "media": {"type": "image", "file": "iphone-email-step3.jpg", "caption": "Tap Copy in the popup menu"}
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
         },
         {
-          "text": "The text is now copied and ready to paste",
-          "media": {"type": "image", "file": "text-copied-ready.jpg", "caption": "Your copied content is ready to paste"}
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
         },
         {
-          "text": "Open the CrewLu app and navigate to Import",
-          "media": {"type": "image", "file": "iphone-crewlu-import.jpg", "caption": "Find the Import option in CrewLu"}
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "fullroster-ipad-ipad": {
+      "title": "Import Full Roster from iPad to iPad",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
         },
         {
-          "text": "Paste your roster data and tap Import",
-          "media": {"type": "image", "file": "iphone-paste-import.jpg", "caption": "Long press in the text field and select Paste"}
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the iPad. <strong>As long as the word Roster on the top is selected, all of the trips under and above will also be selected.</strong>"
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "fullroster-iphone-ipad": {
+      "title": "Import Full Roster from iPad to iPhone",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone. <strong>As long as the word Roster on the top is selected, all of the trips under and above will also be selected.</strong>"
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
         }
       ]
     },
@@ -731,6 +772,32 @@
         }
       ]
     },
+    "deadhead-iphone-iphone": {
+      "title": "Import Jumpseat from iPhone to iPhone",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone."
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
     "deadhead-iphone-efk-no": {
       "title": "Import Jumpseat from EFK to iPhone (Different Apple IDs)",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
@@ -782,6 +849,32 @@
             {"type": "image", "file": "images/Accept Airdrop.png", "caption": "Accept the AirDrop transfer on your iPhone"},
             {"type": "image", "file": "images/Press Crewlu button.png", "caption": "Tap the CrewLu button at the bottom to open the app"}
           ]
+        }
+      ]
+    },
+    "deadhead-ipad-ipad": {
+      "title": "Import Jumpseat from iPad to iPad",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the iPad."
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
         }
       ]
     },
