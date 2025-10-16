@@ -6,14 +6,81 @@
 -->
 <html>
 	<head>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9"></script>
+		<!-- Google Analytics 4 - Loads only with user consent -->
 		<script>
+		  // Initialize dataLayer before GA loads
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-1LNXKYWTL9');
+		  
+		  // Check for existing consent
+		  const analyticsConsent = localStorage.getItem('crewlu_analytics_consent');
+		  
+		  if (analyticsConsent === 'granted') {
+		    // Load GA4 if consent already granted
+		    loadGoogleAnalytics();
+		  }
+		  
+		  function loadGoogleAnalytics() {
+		    // Set default consent to denied
+		    gtag('consent', 'default', {
+		      'analytics_storage': 'denied',
+		      'ad_storage': 'denied'
+		    });
+		    
+		    // Update consent to granted
+		    gtag('consent', 'update', {
+		      'analytics_storage': 'granted'
+		    });
+		    
+		    // Load GA4 script
+		    var script = document.createElement('script');
+		    script.async = true;
+		    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9';
+		    document.head.appendChild(script);
+		    
+		    script.onload = function() {
+		      gtag('js', new Date());
+		      // Configure with IP anonymization and privacy settings
+		      gtag('config', 'G-1LNXKYWTL9', {
+		        'anonymize_ip': true,
+		        'allow_google_signals': false,
+		        'allow_ad_personalization_signals': false
+		      });
+		    };
+		  }
+		  
+		  // Expose consent functions globally
+		  window.grantAnalyticsConsent = function() {
+		    localStorage.setItem('crewlu_analytics_consent', 'granted');
+		    localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+		    loadGoogleAnalytics();
+		    hideConsentBanner();
+		  };
+		  
+		  window.denyAnalyticsConsent = function() {
+		    localStorage.setItem('crewlu_analytics_consent', 'denied');
+		    localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+		    hideConsentBanner();
+		  };
+		  
+		  window.revokeAnalyticsConsent = function() {
+		    localStorage.removeItem('crewlu_analytics_consent');
+		    localStorage.removeItem('crewlu_analytics_consent_date');
+		    // Disable GA4
+		    if (window.gtag) {
+		      gtag('consent', 'update', {
+		        'analytics_storage': 'denied'
+		      });
+		    }
+		    alert('Your consent has been revoked. Analytics tracking is now disabled. Please refresh the page for changes to take full effect.');
+		  };
+		  
+		  function hideConsentBanner() {
+		    var banner = document.getElementById('cookie-consent-banner');
+		    if (banner) {
+		      banner.style.display = 'none';
+		    }
+		  }
 		</script>
 		<title>CrewLu - Your Ultimate Roster Management App</title>
 		<meta charset="utf-8" />
@@ -23,8 +90,145 @@
 		<link rel="apple-touch-icon" href="images/favicon.png?v=4" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Cookie Consent Banner Styles */
+			#cookie-consent-banner {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: rgba(25, 25, 35, 0.98);
+				color: #ffffff;
+				padding: 1.5rem;
+				box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+				z-index: 10000;
+				border-top: 2px solid #18bfef;
+				display: none;
+			}
+			
+			#cookie-consent-banner.show {
+				display: block;
+			}
+			
+			.consent-content {
+				max-width: 1200px;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1.5rem;
+				flex-wrap: wrap;
+			}
+			
+			.consent-text {
+				flex: 1;
+				min-width: 300px;
+			}
+			
+			.consent-text h3 {
+				margin: 0 0 0.5rem 0;
+				font-size: 1.1rem;
+				color: #18bfef;
+			}
+			
+			.consent-text p {
+				margin: 0;
+				font-size: 0.9rem;
+				line-height: 1.5;
+				color: #d0d0d0;
+			}
+			
+			.consent-text a {
+				color: #18bfef;
+				text-decoration: underline;
+			}
+			
+			.consent-buttons {
+				display: flex;
+				gap: 0.75rem;
+				flex-wrap: wrap;
+			}
+			
+			.consent-btn {
+				padding: 0.75rem 1.5rem;
+				border: none;
+				border-radius: 4px;
+				font-size: 0.9rem;
+				font-weight: 600;
+				cursor: pointer;
+				transition: all 0.3s ease;
+				white-space: nowrap;
+			}
+			
+			.consent-btn-accept {
+				background: #18bfef;
+				color: #ffffff;
+			}
+			
+			.consent-btn-accept:hover {
+				background: #13a3d1;
+				transform: translateY(-2px);
+				box-shadow: 0 4px 12px rgba(24, 191, 239, 0.4);
+			}
+			
+			.consent-btn-decline {
+				background: transparent;
+				color: #d0d0d0;
+				border: 2px solid #555;
+			}
+			
+			.consent-btn-decline:hover {
+				background: rgba(255, 255, 255, 0.1);
+				border-color: #777;
+			}
+			
+			@media screen and (max-width: 768px) {
+				#cookie-consent-banner {
+					padding: 1rem;
+				}
+				
+				.consent-content {
+					flex-direction: column;
+					align-items: stretch;
+				}
+				
+				.consent-buttons {
+					width: 100%;
+					flex-direction: column;
+				}
+				
+				.consent-btn {
+					width: 100%;
+					text-align: center;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
+		
+		<!-- Cookie Consent Banner -->
+		<div id="cookie-consent-banner">
+			<div class="consent-content">
+				<div class="consent-text">
+					<h3>🍪 Cookie Consent</h3>
+					<p>We use Google Analytics to understand how visitors interact with our website. This involves collecting data such as your IP address (anonymized), browser type, device information, and pages visited. You can <a href="privacy-policy.html#data-collection-analytics">learn more</a> in our Privacy Policy or manage your preferences below.</p>
+				</div>
+				<div class="consent-buttons">
+					<button class="consent-btn consent-btn-accept" onclick="grantAnalyticsConsent()">Accept Analytics</button>
+					<button class="consent-btn consent-btn-decline" onclick="denyAnalyticsConsent()">Decline</button>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			// Show consent banner if no choice has been made
+			document.addEventListener('DOMContentLoaded', function() {
+				const consent = localStorage.getItem('crewlu_analytics_consent');
+				if (!consent) {
+					document.getElementById('cookie-consent-banner').classList.add('show');
+				}
+			});
+		</script>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
