@@ -263,6 +263,13 @@
                         return option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
                     });
                 }
+                // Special handling for Full Roster or One Trip on iPhone
+                else if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'iphone') {
+                    // Only show iPhone, Mac, and EFK as data source options
+                    filteredOptions = stepData.options.filter(function(option) {
+                        return option.id === 'iphone' || option.id === 'mac' || option.id === 'efk';
+                    });
+                }
                 // Special handling for catering and altour_ticket imports - they can use all mobile/computer devices
                 else if (importType === 'catering' || importType === 'altour_ticket') {
                     // Already filtered out EFK above, no additional filtering needed
@@ -324,22 +331,9 @@
             }
         }
 
-        // Auto-skip data_source_device step for EFK when importing Full Roster or One Trip FROM another device
-        if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
-            const importType = userChoices.import_type.id;
-            if (importType === 'fullroster' || importType === 'onetrip') {
-                // Only apply this logic if we haven't already routed to instructions above
-                if (nextStep !== 'instructions') {
-                    // Automatically set data_source_device to EFK and skip to apple_id_check
-                    userChoices.data_source_device = {
-                        id: 'efk',
-                        label: 'Your EFK'
-                    };
-                    stepHistory.push('data_source_device');
-                    nextStep = 'apple_id_check';
-                }
-            }
-        }
+
+
+        // (Removed) Auto-skip for Full Roster on iPhone/iPad — users must choose data source device
 
         if (nextStep === 'instructions') {
             // Show instructions
@@ -468,7 +462,10 @@
             key += '-' + userChoices.data_source_device.id;
         }
 
-        if (userChoices.apple_id_check) {
+        // If pulling from EFK and no apple_id_check was asked, default to '-no'
+        if (userChoices.data_source_device && userChoices.data_source_device.id === 'efk') {
+            key += '-' + (userChoices.apple_id_check ? userChoices.apple_id_check.id : 'no');
+        } else if (userChoices.apple_id_check) {
             key += '-' + userChoices.apple_id_check.id;
         }
 
