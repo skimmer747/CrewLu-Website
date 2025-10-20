@@ -26,7 +26,7 @@
         {"id": "iphone", "label": "Your iPhone", "next": "instructions"},
         {"id": "ipad", "label": "Your personal iPad", "next": "instructions"},
         {"id": "mac", "label": "Your Mac", "next": "instructions"},
-        {"id": "efk", "label": "Your EFK", "next": "apple_id_check"}
+        {"id": "efk", "label": "Your EFK", "next": "instructions"}
       ]
     },
     "apple_id_check": {
