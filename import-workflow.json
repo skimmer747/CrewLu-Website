@@ -707,22 +707,16 @@
     },
     "crewmembers-individual": {
       "title": "Import Individual Crewmember",
+      "summary": "This method will import a photo and contact details for the crewmember into the app.",
       "steps": [
         {
-          "text": "Find the specific crewmember's information you want to import",
-          "media": {"type": "image", "file": "individual-crew-find.jpg", "caption": "Locate the specific crewmember data"}
+          "text": "Find crewmember on the IPA app and take a screenshot of the person."
         },
         {
-          "text": "Select and copy only that crewmember's details",
-          "media": {"type": "video", "file": "select-individual-crew.mp4", "caption": "Select individual crewmember information"}
+          "text": "Select the share button and select Crewlu."
         },
         {
-          "text": "Open CrewLu and navigate to the Import section",
-          "media": {"type": "image", "file": "crewlu-import-nav.jpg", "caption": "Find the Import option in CrewLu"}
-        },
-        {
-          "text": "Paste the individual crew data and tap Import",
-          "media": {"type": "image", "file": "individual-crew-import.jpg", "caption": "Import the single crewmember"}
+          "text": "This should have opened the CrewLu app and you should select Add This Pilot or update information."
         }
       ]
     },
