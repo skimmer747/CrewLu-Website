@@ -609,7 +609,7 @@
           "text": "Select details or the trip number to open the individual trip view."
         },
         {
-          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone."
+          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the iPad."
         },
         {
           "text": "Tap the word Copy."
@@ -683,20 +683,25 @@
       "title": "Import All Crewmembers on Your Aircraft Type",
       "steps": [
         {
-          "text": "Access your crew list or roster data from your company system",
-          "media": {"type": "image", "file": "crew-roster-access.jpg", "caption": "Open your crew roster or list"}
+          "text": "Download the cover page of the bid package from the CMS website."
         },
         {
-          "text": "Select and copy all crewmember information for your aircraft type",
-          "media": {"type": "video", "file": "select-all-crew.mp4", "caption": "Select all relevant crew data"}
+          "text": "Open and select all the crew members."
         },
         {
-          "text": "Open CrewLu and navigate to the Import section",
-          "media": {"type": "image", "file": "crewlu-import-nav.jpg", "caption": "Find the Import option in CrewLu"}
+          "text": "Copy the selected text to your clipboard."
         },
         {
-          "text": "Paste the crew data and tap Import to add all crewmembers",
-          "media": {"type": "image", "file": "crew-paste-import.jpg", "caption": "Import all crewmember data at once"}
+          "text": "Open the CrewLu app on your device."
+        },
+        {
+          "text": "Tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' and accept the prompts to complete the process."
         }
       ]
     },
