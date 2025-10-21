@@ -274,10 +274,10 @@
                 else if (importType === 'catering' || importType === 'altour_ticket') {
                     // Already filtered out EFK above, no additional filtering needed
                 } else {
-                    // For other import types, when importing to Mac or EFK, only show Mac and EFK as data sources
-                    if (selectedDevice === 'mac' || selectedDevice === 'efk') {
+                    // For other import types, when importing to EFK, only show EFK as data source
+                    if (selectedDevice === 'efk') {
                         filteredOptions = stepData.options.filter(function(option) {
-                            return option.id === 'mac' || option.id === 'efk';
+                            return option.id === 'efk';
                         });
                     }
                 }

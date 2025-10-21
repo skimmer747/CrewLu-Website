@@ -16,7 +16,6 @@
       "options": [
         {"id": "iphone", "label": "Your iPhone", "next": "data_source_device"},
         {"id": "ipad", "label": "Your personal iPad", "next": "data_source_device"},
-        {"id": "mac", "label": "Your Mac", "next": "data_source_device"},
         {"id": "efk", "label": "Your EFK", "next": "data_source_device"}
       ]
     },
