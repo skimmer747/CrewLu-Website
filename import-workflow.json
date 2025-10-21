@@ -1255,7 +1255,7 @@
     },
     "altour_ticket-iphone-iphone": {
       "title": "Import Altour Ticket from iPhone to iPhone",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "Open the Mail app and locate the email containing your Altour ticket information."
@@ -1279,7 +1279,7 @@
     },
     "altour_ticket-iphone-ipad": {
       "title": "Import Altour Ticket from iPad to iPhone",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "On your iPad, open the Mail app and locate the email containing your Altour ticket information."
@@ -1306,7 +1306,7 @@
     },
     "altour_ticket-iphone-mac": {
       "title": "Import Altour Ticket from Mac to iPhone",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "On your Mac, open the Mail app and locate the email containing your Altour ticket information."
@@ -1333,7 +1333,7 @@
     },
     "altour_ticket-ipad-iphone": {
       "title": "Import Altour Ticket from iPhone to iPad",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "On your iPhone, open the Mail app and locate the email containing your Altour ticket information."
@@ -1360,7 +1360,7 @@
     },
     "altour_ticket-ipad-ipad": {
       "title": "Import Altour Ticket from iPad to iPad",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "Open the Mail app and locate the email containing your Altour ticket information."
@@ -1384,7 +1384,7 @@
     },
     "altour_ticket-ipad-mac": {
       "title": "Import Altour Ticket from Mac to iPad",
-      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "summary": "<strong>Important:</strong> Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
       "steps": [
         {
           "text": "On your Mac, open the Mail app and locate the email containing your Altour ticket information."

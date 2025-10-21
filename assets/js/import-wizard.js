@@ -374,7 +374,7 @@
             // Add summary if it exists
             if (instructions.summary) {
                 instructionsHtml += '<div class="instruction-summary">';
-                instructionsHtml += `<p><strong>Method Overview:</strong> ${convertUrlsToLinks(instructions.summary)}</p>`;
+                instructionsHtml += `<p>${convertUrlsToLinks(instructions.summary)}</p>`;
                 instructionsHtml += '</div><hr class="summary-divider">';
             }
 
