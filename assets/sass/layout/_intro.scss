@@ -28,13 +28,13 @@
 					linear-gradient(-135deg, var(--color-success) 0%, transparent 60%),
 					var(--color-bg);
 
-		.intro-logo {
-			max-width: 400px;
-			width: 100%;
-			height: auto;
-			margin-bottom: 2rem;
-			filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
-			@include vendor('transition', 'transform 0.3s ease');
+	.intro-logo {
+		max-width: 800px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 2rem;
+		filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+		@include vendor('transition', 'transform 0.3s ease');
 
 			&:hover {
 				@include vendor('transform', 'scale(1.05)');
@@ -168,9 +168,9 @@
 			@include padding(_size(padding) * 1.5, _size(padding) * 1);
 			min-height: 80vh;
 
-			.intro-logo {
-				max-width: 250px;
-			}
+		.intro-logo {
+			max-width: 500px;
+		}
 
 			p {
 				font-size: 1rem;
