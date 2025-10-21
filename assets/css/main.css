@@ -3890,7 +3890,7 @@ body.is-preload #wrapper.fade-in:before {
   background: linear-gradient(135deg, var(--color-accent) 0%, transparent 60%), linear-gradient(-135deg, var(--color-success) 0%, transparent 60%), var(--color-bg);
 }
 #intro .intro-logo {
-  max-width: 400px;
+  max-width: 800px;
   width: 100%;
   height: auto;
   margin-bottom: 2rem;
@@ -4017,7 +4017,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     min-height: 80vh;
   }
   #intro .intro-logo {
-    max-width: 250px;
+    max-width: 500px;
   }
   #intro p {
     font-size: 1rem;
@@ -4094,7 +4094,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: block;
 }
 #header .logo img {
-  max-width: 200px;
+  max-width: 400px;
   width: 100%;
   height: auto;
   display: block;
@@ -4141,7 +4141,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding-bottom: 3rem;
   }
   #header .logo img {
-    max-width: 150px;
+    max-width: 300px;
   }
 }
 
