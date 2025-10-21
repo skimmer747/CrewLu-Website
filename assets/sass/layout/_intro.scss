@@ -61,18 +61,16 @@
 			}
 		}
 
-		// System preference dark mode (when no data-theme is set)
-		@media (prefers-color-scheme: dark) {
-			:root:not([data-theme]) & {
-				.intro-logo.logo-light {
-					display: none;
-				}
-
-				.intro-logo.logo-dark {
-					display: block;
-				}
-			}
+	// System preference dark mode
+	@media (prefers-color-scheme: dark) {
+		.intro-logo.logo-light {
+			display: none;
 		}
+
+		.intro-logo.logo-dark {
+			display: block;
+		}
+	}
 
 		p {
 			font-size: 1.25rem;

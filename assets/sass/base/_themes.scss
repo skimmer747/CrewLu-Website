@@ -2,6 +2,9 @@
 // Automatically switches between light and dark modes based on system preferences
 
 :root {
+	// Declare support for both light and dark color schemes
+	color-scheme: light dark;
+
 	// Light Theme (Default)
 	--color-bg: #ffffff;
 	--color-bg-alt: #f5f5f5;

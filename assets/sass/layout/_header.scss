@@ -68,20 +68,18 @@
 			}
 		}
 
-		// System preference dark mode (when no data-theme is set)
-		@media (prefers-color-scheme: dark) {
-			:root:not([data-theme]) & {
-				.logo {
-					img.logo-light {
-						display: none;
-					}
+	// System preference dark mode
+	@media (prefers-color-scheme: dark) {
+		.logo {
+			img.logo-light {
+				display: none;
+			}
 
-					img.logo-dark {
-						display: block;
-					}
-				}
+			img.logo-dark {
+				display: block;
 			}
 		}
+	}
 
 		@include breakpoint('<=medium') {
 			height: 14rem;

@@ -302,6 +302,7 @@ hr {
 }
 
 :root {
+  color-scheme: light dark;
   --color-bg: #ffffff;
   --color-bg-alt: #f5f5f5;
   --color-wrapper-bg: #f8f8f8;
@@ -3791,10 +3792,10 @@ body.is-preload #wrapper.fade-in:before {
   display: block;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) #intro .intro-logo.logo-light {
+  #intro .intro-logo.logo-light {
     display: none;
   }
-  :root:not([data-theme]) #intro .intro-logo.logo-dark {
+  #intro .intro-logo.logo-dark {
     display: block;
   }
 }
@@ -3995,10 +3996,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: block;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) #header .logo img.logo-light {
+  #header .logo img.logo-light {
     display: none;
   }
-  :root:not([data-theme]) #header .logo img.logo-dark {
+  #header .logo img.logo-dark {
     display: block;
   }
 }
