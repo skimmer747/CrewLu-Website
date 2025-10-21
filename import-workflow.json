@@ -1252,6 +1252,312 @@
           ]
         }
       ]
+    },
+    "altour_ticket-iphone-iphone": {
+      "title": "Import Altour Ticket from iPhone to iPhone",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "Open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Tap and hold on the ticket data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "altour_ticket-iphone-ipad": {
+      "title": "Import Altour Ticket from iPad to iPhone",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "On your iPad, open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Tap and hold on the ticket data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPhone using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPhone, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "altour_ticket-iphone-mac": {
+      "title": "Import Altour Ticket from Mac to iPhone",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "On your Mac, open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Click and drag to select all relevant ticket data, or press Cmd+A to select all."
+        },
+        {
+          "text": "Press Cmd+C to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPhone using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPhone, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "altour_ticket-ipad-iphone": {
+      "title": "Import Altour Ticket from iPhone to iPad",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "On your iPhone, open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Tap and hold on the ticket data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPad using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPad, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "altour_ticket-ipad-ipad": {
+      "title": "Import Altour Ticket from iPad to iPad",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "Open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Tap and hold on the ticket data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "altour_ticket-ipad-mac": {
+      "title": "Import Altour Ticket from Mac to iPad",
+      "summary": "Important: Importing your Altour ticket will enhance your flight details. For 'As Scheduled' tickets, the information will be added to your existing flight's detail view. For non-scheduled flights, a separate trip will be created.",
+      "steps": [
+        {
+          "text": "On your Mac, open the Mail app and locate the email containing your Altour ticket information."
+        },
+        {
+          "text": "Click and drag to select all relevant ticket data, or press Cmd+A to select all."
+        },
+        {
+          "text": "Press Cmd+C to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPad using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPad, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-iphone-iphone": {
+      "title": "Import Catering from iPhone to iPhone",
+      "steps": [
+        {
+          "text": "Open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Tap and hold on the catering data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-iphone-ipad": {
+      "title": "Import Catering from iPad to iPhone",
+      "steps": [
+        {
+          "text": "On your iPad, open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Tap and hold on the catering data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPhone using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPhone, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-iphone-mac": {
+      "title": "Import Catering from Mac to iPhone",
+      "steps": [
+        {
+          "text": "On your Mac, open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Click and drag to select all relevant catering data, or press Cmd+A to select all."
+        },
+        {
+          "text": "Press Cmd+C to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPhone using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPhone, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-ipad-iphone": {
+      "title": "Import Catering from iPhone to iPad",
+      "steps": [
+        {
+          "text": "On your iPhone, open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Tap and hold on the catering data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPad using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPad, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-ipad-ipad": {
+      "title": "Import Catering from iPad to iPad",
+      "steps": [
+        {
+          "text": "Open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Tap and hold on the catering data, then tap 'Select All' to highlight all relevant information."
+        },
+        {
+          "text": "Tap 'Copy' to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
+    },
+    "catering-ipad-mac": {
+      "title": "Import Catering from Mac to iPad",
+      "steps": [
+        {
+          "text": "On your Mac, open the Mail app and locate the email containing your catering information."
+        },
+        {
+          "text": "Click and drag to select all relevant catering data, or press Cmd+A to select all."
+        },
+        {
+          "text": "Press Cmd+C to copy the selected text to your clipboard."
+        },
+        {
+          "text": "Transfer the copied data to your iPad using AirDrop, Messages, Notes, or iCloud clipboard (Universal Clipboard)."
+        },
+        {
+          "text": "On your iPad, open the CrewLu app and tap the + sign in the top right corner of the Trip List view."
+        },
+        {
+          "text": "Tap 'Paste' to insert the copied data into the import field. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap 'Import' to complete the process."
+        }
+      ]
     }
   },
   "_instructions": {
