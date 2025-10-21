@@ -544,24 +544,138 @@
         }
       ]
     },
-    "onetrip-iphone-mac": {
-      "title": "Import One Trip from Mac to iPhone",
+    "onetrip-iphone-iphone": {
+      "title": "Import One Trip from iPhone to iPhone",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
       "steps": [
         {
-          "text": "Open the email containing your trip information",
-          "media": {"type": "image", "file": "iphone-email-step1.jpg", "caption": "Locate and open the email with your trip details"}
+          "text": "Sign in to Crew Access and select Roster."
         },
         {
-          "text": "Select the specific trip data you want to import",
-          "media": {"type": "video", "file": "iphone-select-text.mp4", "caption": "Carefully select only the trip information you need"}
+          "text": "Select details or the trip number to open the individual trip view."
         },
         {
-          "text": "Copy the selected trip data",
-          "media": {"type": "image", "file": "iphone-email-step3.jpg", "caption": "Tap Copy in the popup menu"}
+          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone."
         },
         {
-          "text": "Open CrewLu and paste in the Import section",
-          "media": {"type": "image", "file": "iphone-paste-import.jpg", "caption": "Import your single trip data"}
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "onetrip-ipad-ipad": {
+      "title": "Import One Trip from iPad to iPad",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Select details or the trip number to open the individual trip view."
+        },
+        {
+          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the iPad."
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "onetrip-iphone-ipad": {
+      "title": "Import One Trip from iPad to iPhone",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Select details or the trip number to open the individual trip view."
+        },
+        {
+          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone."
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "onetrip-iphone-mac": {
+      "title": "Import One Trip from Mac to iPhone",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Select details or the trip number to open the individual trip view."
+        },
+        {
+          "text": "Select all the text using Cmd+A."
+        },
+        {
+          "text": "Copy using Cmd+C."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "onetrip-ipad-mac": {
+      "title": "Import One Trip from Mac to iPad",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Select details or the trip number to open the individual trip view."
+        },
+        {
+          "text": "Select all the text using Cmd+A."
+        },
+        {
+          "text": "Copy using Cmd+C."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
         }
       ]
     },
@@ -609,7 +723,7 @@
     },
     "onetrip-iphone-efk-no": {
       "title": "Import One Trip from EFK to iPhone (Different Apple IDs)",
-      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -635,8 +749,7 @@
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
-          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+          "text": "Select details or the trip number. This will open a new window that shows the individual trip."
         },
         {
           "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
@@ -663,7 +776,7 @@
     },
     "onetrip-iphone-efk-yes": {
       "title": "Import One Trip from EFK to iPhone (Same Apple ID)",
-      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -689,8 +802,7 @@
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
-          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+          "text": "Select details or the trip number. This will open a new window that shows the individual trip."
         },
         {
           "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
@@ -717,7 +829,7 @@
     },
     "onetrip-ipad-efk-no": {
       "title": "Import One Trip from EFK to iPad (Different Apple IDs)",
-      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -743,8 +855,7 @@
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
-          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+          "text": "Select details or the trip number. This will open a new window that shows the individual trip."
         },
         {
           "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
@@ -771,7 +882,7 @@
     },
     "onetrip-ipad-efk-yes": {
       "title": "Import One Trip from EFK to iPad (Same Apple ID)",
-      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -797,8 +908,7 @@
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
-          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+          "text": "Select details or the trip number. This will open a new window that shows the individual trip."
         },
         {
           "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
@@ -1305,7 +1415,7 @@
     },
     "onetrip-efk": {
       "title": "Import One Trip on EFK",
-      "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will use the shortcut to import the roster.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will use the shortcut to import the trip.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -1331,8 +1441,7 @@
           "media": {"type": "image", "file": "images/Add to Home Screen.png", "caption": "Open Safari and navigate to your roster page"}
         },
         {
-          "text": "Navigate to your Crew Access Roster. Expand every arrow in your current and future trips. It won't get imported if it can't be seen.",
-          "media": {"type": "image", "file": "images/ExpandArrows.png", "caption": "Expand all arrows to show complete trip details"}
+          "text": "Select details or the trip number. This will open a new window that shows the individual trip."
         },
         {
           "text": "Select the Share button on the top right and select Edit Actions and then add to favorites.",
