@@ -493,6 +493,84 @@
         }
       ]
     },
+    "fullroster-iphone-mac": {
+      "title": "Import Full Roster from Mac to iPhone",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select all the text using Cmd+A."
+        },
+        {
+          "text": "Copy using Cmd+C."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "fullroster-ipad-mac": {
+      "title": "Import Full Roster from Mac to iPad",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select all the text using Cmd+A."
+        },
+        {
+          "text": "Copy using Cmd+C."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "fullroster-mac-mac": {
+      "title": "Import Full Roster from Mac to Mac",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select all the text using Cmd+A."
+        },
+        {
+          "text": "Copy using Cmd+C."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
     "onetrip-iphone-mac": {
       "title": "Import One Trip from Mac to iPhone",
       "steps": [
