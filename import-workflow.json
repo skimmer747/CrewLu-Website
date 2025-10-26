@@ -546,7 +546,7 @@
     },
     "onetrip-iphone-iphone": {
       "title": "Import One Trip from iPhone to iPhone",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
           "text": "Sign in to Crew Access and select Roster."
@@ -573,7 +573,7 @@
     },
     "onetrip-ipad-ipad": {
       "title": "Import One Trip from iPad to iPad",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
           "text": "Sign in to Crew Access and select Roster."
@@ -600,7 +600,7 @@
     },
     "onetrip-iphone-ipad": {
       "title": "Import One Trip from iPad to iPhone",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
           "text": "Sign in to Crew Access and select Roster."
@@ -627,7 +627,7 @@
     },
     "onetrip-iphone-mac": {
       "title": "Import One Trip from Mac to iPhone",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
           "text": "Sign in to Crew Access and select Roster."
@@ -654,7 +654,7 @@
     },
     "onetrip-ipad-mac": {
       "title": "Import One Trip from Mac to iPad",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
           "text": "Sign in to Crew Access and select Roster."
@@ -722,7 +722,7 @@
     },
     "onetrip-iphone-efk-no": {
       "title": "Import One Trip from EFK to iPhone (Different Apple IDs)",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -775,7 +775,7 @@
     },
     "onetrip-iphone-efk-yes": {
       "title": "Import One Trip from EFK to iPhone (Same Apple ID)",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -828,7 +828,7 @@
     },
     "onetrip-ipad-efk-no": {
       "title": "Import One Trip from EFK to iPad (Different Apple IDs)",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -881,7 +881,7 @@
     },
     "onetrip-ipad-efk-yes": {
       "title": "Import One Trip from EFK to iPad (Same Apple ID)",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
@@ -1414,7 +1414,7 @@
     },
     "onetrip-efk": {
       "title": "Import One Trip on EFK",
-      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the roster page. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will use the shortcut to import the trip.",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will use the shortcut to import the trip.",
       "steps": [
         {
           "text": "On your EFK go to settings, then Apps, then select Shortcuts.",
