@@ -1,0 +1,14 @@
+{
+  "name": "crewlu-website",
+  "version": "1.0.0",
+  "description": "CrewLu Website - Massively template",
+  "scripts": {
+    "dev": "live-server --port=8000 --open=/index.html --watch=.",
+    "dev:import": "live-server --port=8000 --open=/import.html --watch=.",
+    "watch:sass": "sass --watch assets/sass/main.scss:assets/css/main.css assets/sass/noscript.scss:assets/css/noscript.css"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
+

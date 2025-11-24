@@ -93,6 +93,218 @@
 			color: var(--color-accent-secondary);
 		}
 	}
+
+	// Wind Difficulty Visualization
+	.wind-visualization {
+		margin-top: 1.5em;
+		padding-top: 1.5em;
+		border-top: 1px solid var(--color-border);
+
+		#windScene {
+			display: block;
+			width: 100%;
+			max-width: 720px;
+			margin: 0 auto;
+		}
+
+		#jetGroup path, #jetGroup rect {
+			filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+		}
+
+		#runwayGroup rect[fill="#2f3338"] {
+			filter: drop-shadow(0 3px 10px rgba(0,0,0,0.25));
+		}
+
+		#infoGroup text {
+			fill: var(--color-fg-light);
+		}
+	}
+
+	.wind-scene {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+		position: relative;
+		min-height: 150px;
+		padding: 1rem;
+
+		.runway-label {
+			position: absolute;
+			top: -0.5rem;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 0.85em;
+			color: var(--color-fg-light);
+			font-weight: bold;
+			letter-spacing: 0.1em;
+		}
+
+		.aircraft-container {
+			position: relative;
+			z-index: 2;
+
+			.aircraft {
+				width: 60px;
+				height: 80px;
+				color: var(--color-fg-bold);
+				filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+			}
+		}
+
+		.windsock-container {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			z-index: 1;
+
+			.windsock-pole {
+				width: 4px;
+				height: 40px;
+				background: linear-gradient(to bottom, #8b6f47 0%, #6b5238 100%);
+				border-radius: 2px;
+				margin-bottom: -5px;
+			}
+
+			.windsock-rotator {
+				transform-origin: center 20px;
+				// Base rotation will be set via inline style
+			}
+
+			.windsock {
+				width: 40px;
+				height: 70px;
+				filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+			}
+		}
+
+		.wind-info {
+			position: absolute;
+			bottom: -0.5rem;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+			font-size: 0.9em;
+			color: var(--color-fg-light);
+
+			.wind-speed {
+				font-weight: bold;
+			}
+		}
+	}
+
+	// Windsock animations based on wind speed
+	#sockCloth {
+		// Default: calm conditions (0-4 kts)
+		animation: windsock-calm 3s ease-in-out infinite;
+		will-change: transform;
+
+		&.wind-gentle {
+			animation-name: windsock-gentle;
+		}
+
+		&.wind-moderate {
+			animation-name: windsock-moderate;
+		}
+
+		&.wind-strong {
+			animation-name: windsock-strong;
+		}
+
+		&.wind-extreme {
+			animation-name: windsock-extreme;
+		}
+	}
+}
+
+// Windsock animation keyframes
+// Note: Only use translateX for movement - rotation is handled by windsock-rotator
+@keyframes windsock-calm {
+	0%, 100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(2px);
+	}
+}
+
+@keyframes windsock-gentle {
+	0%, 100% {
+		transform: translateX(-3px);
+	}
+	50% {
+		transform: translateX(3px);
+	}
+}
+
+@keyframes windsock-moderate {
+	0%, 100% {
+		transform: translateX(-6px);
+	}
+	25% {
+		transform: translateX(5px);
+	}
+	50% {
+		transform: translateX(-5px);
+	}
+	75% {
+		transform: translateX(6px);
+	}
+}
+
+@keyframes windsock-strong {
+	0%, 100% {
+		transform: translateX(-10px);
+	}
+	20% {
+		transform: translateX(8px);
+	}
+	40% {
+		transform: translateX(-8px);
+	}
+	60% {
+		transform: translateX(10px);
+	}
+	80% {
+		transform: translateX(-6px);
+	}
+}
+
+@keyframes windsock-extreme {
+	0% {
+		transform: translateX(-15px);
+	}
+	10% {
+		transform: translateX(12px);
+	}
+	20% {
+		transform: translateX(-10px);
+	}
+	30% {
+		transform: translateX(15px);
+	}
+	40% {
+		transform: translateX(-12px);
+	}
+	50% {
+		transform: translateX(10px);
+	}
+	60% {
+		transform: translateX(-8px);
+	}
+	70% {
+		transform: translateX(13px);
+	}
+	80% {
+		transform: translateX(-15px);
+	}
+	90% {
+		transform: translateX(10px);
+	}
+	100% {
+		transform: translateX(-15px);
+	}
 }
 
 // Question Area

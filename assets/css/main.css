@@ -3413,7 +3413,188 @@ table.alt tbody tr td {
 .wizard-summary .editable-choice:hover {
   color: var(--color-accent-secondary);
 }
+.wizard-summary .wind-visualization {
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--color-border);
+}
+.wizard-summary .wind-visualization #windScene {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.wizard-summary .wind-visualization #jetGroup path, .wizard-summary .wind-visualization #jetGroup rect {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+}
+.wizard-summary .wind-visualization #runwayGroup rect[fill="#2f3338"] {
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.25));
+}
+.wizard-summary .wind-visualization #infoGroup text {
+  fill: var(--color-fg-light);
+}
+.wizard-summary .wind-scene {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  min-height: 150px;
+  padding: 1rem;
+}
+.wizard-summary .wind-scene .runway-label {
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85em;
+  color: var(--color-fg-light);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.wizard-summary .wind-scene .aircraft-container {
+  position: relative;
+  z-index: 2;
+}
+.wizard-summary .wind-scene .aircraft-container .aircraft {
+  width: 60px;
+  height: 80px;
+  color: var(--color-fg-bold);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+.wizard-summary .wind-scene .windsock-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.wizard-summary .wind-scene .windsock-container .windsock-pole {
+  width: 4px;
+  height: 40px;
+  background: linear-gradient(to bottom, #8b6f47 0%, #6b5238 100%);
+  border-radius: 2px;
+  margin-bottom: -5px;
+}
+.wizard-summary .wind-scene .windsock-container .windsock-rotator {
+  transform-origin: center 20px;
+}
+.wizard-summary .wind-scene .windsock-container .windsock {
+  width: 40px;
+  height: 70px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+.wizard-summary .wind-scene .wind-info {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--color-fg-light);
+}
+.wizard-summary .wind-scene .wind-info .wind-speed {
+  font-weight: bold;
+}
+.wizard-summary #sockCloth {
+  animation: windsock-calm 3s ease-in-out infinite;
+  will-change: transform;
+}
+.wizard-summary #sockCloth.wind-gentle {
+  animation-name: windsock-gentle;
+}
+.wizard-summary #sockCloth.wind-moderate {
+  animation-name: windsock-moderate;
+}
+.wizard-summary #sockCloth.wind-strong {
+  animation-name: windsock-strong;
+}
+.wizard-summary #sockCloth.wind-extreme {
+  animation-name: windsock-extreme;
+}
 
+@keyframes windsock-calm {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+}
+@keyframes windsock-gentle {
+  0%, 100% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+@keyframes windsock-moderate {
+  0%, 100% {
+    transform: translateX(-6px);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+@keyframes windsock-strong {
+  0%, 100% {
+    transform: translateX(-10px);
+  }
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-8px);
+  }
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(-6px);
+  }
+}
+@keyframes windsock-extreme {
+  0% {
+    transform: translateX(-15px);
+  }
+  10% {
+    transform: translateX(12px);
+  }
+  20% {
+    transform: translateX(-10px);
+  }
+  30% {
+    transform: translateX(15px);
+  }
+  40% {
+    transform: translateX(-12px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  60% {
+    transform: translateX(-8px);
+  }
+  70% {
+    transform: translateX(13px);
+  }
+  80% {
+    transform: translateX(-15px);
+  }
+  90% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-15px);
+  }
+}
 .wizard-question {
   text-align: center;
   margin-bottom: 2em;
@@ -5017,6 +5198,115 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     transform: translateX(0);
     box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
     visibility: visible;
+  }
+}
+/* Cookie Consent Banner Styles */
+#cookie-consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(25, 25, 35, 0.98);
+  color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+  border-top: 2px solid #18bfef;
+  display: none;
+}
+
+#cookie-consent-banner.show {
+  display: block;
+}
+
+.consent-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.consent-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.consent-text h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #18bfef;
+}
+
+.consent-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #d0d0d0;
+}
+
+.consent-text a {
+  color: #18bfef;
+  text-decoration: underline;
+}
+
+.consent-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.consent-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.consent-btn-accept {
+  background: #18bfef;
+  color: #ffffff;
+}
+
+.consent-btn-accept:hover {
+  background: #13a3d1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(24, 191, 239, 0.4);
+}
+
+.consent-btn-decline {
+  background: transparent;
+  color: #ffffff !important;
+  border: 2px solid #555;
+}
+
+.consent-btn-decline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #777;
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 768px) {
+  #cookie-consent-banner {
+    padding: 1rem;
+  }
+  .consent-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .consent-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+  .consent-btn {
+    width: 100%;
+    text-align: center;
   }
 }
 

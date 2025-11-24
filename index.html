@@ -5,419 +5,328 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<!-- Google Analytics 4 - Loads only with user consent -->
-		<script>
-		  // Initialize dataLayer before GA loads
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  
-		  // Check for existing consent
-		  const analyticsConsent = localStorage.getItem('crewlu_analytics_consent');
-		  
-		  if (analyticsConsent === 'granted') {
-		    // Load GA4 if consent already granted
-		    loadGoogleAnalytics();
-		  }
-		  
-		  function loadGoogleAnalytics() {
-		    // Set default consent to denied
-		    gtag('consent', 'default', {
-		      'analytics_storage': 'denied',
-		      'ad_storage': 'denied'
-		    });
-		    
-		    // Update consent to granted
-		    gtag('consent', 'update', {
-		      'analytics_storage': 'granted'
-		    });
-		    
-		    // Load GA4 script
-		    var script = document.createElement('script');
-		    script.async = true;
-		    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9';
-		    document.head.appendChild(script);
-		    
-		    script.onload = function() {
-		      gtag('js', new Date());
-		      // Configure with IP anonymization and privacy settings
-		      gtag('config', 'G-1LNXKYWTL9', {
-		        'anonymize_ip': true,
-		        'allow_google_signals': false,
-		        'allow_ad_personalization_signals': false
-		      });
-		    };
-		  }
-		  
-		  // Expose consent functions globally
-		  window.grantAnalyticsConsent = function() {
-		    localStorage.setItem('crewlu_analytics_consent', 'granted');
-		    localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
-		    loadGoogleAnalytics();
-		    hideConsentBanner();
-		  };
-		  
-		  window.denyAnalyticsConsent = function() {
-		    localStorage.setItem('crewlu_analytics_consent', 'denied');
-		    localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
-		    hideConsentBanner();
-		  };
-		  
-		  window.revokeAnalyticsConsent = function() {
-		    localStorage.removeItem('crewlu_analytics_consent');
-		    localStorage.removeItem('crewlu_analytics_consent_date');
-		    // Disable GA4
-		    if (window.gtag) {
-		      gtag('consent', 'update', {
-		        'analytics_storage': 'denied'
-		      });
-		    }
-		    alert('Your consent has been revoked. Analytics tracking is now disabled. Please refresh the page for changes to take full effect.');
-		  };
-		  
-		  function hideConsentBanner() {
-		    var banner = document.getElementById('cookie-consent-banner');
-		    if (banner) {
-		      banner.style.display = 'none';
-		    }
-		  }
-		</script>
+
+<head>
+	<!-- Google Analytics 4 - Loads only with user consent -->
+	<script>
+		// Initialize dataLayer before GA loads
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+
+		// Check for existing consent
+		const analyticsConsent = localStorage.getItem('crewlu_analytics_consent');
+
+		if (analyticsConsent === 'granted') {
+			// Load GA4 if consent already granted
+			loadGoogleAnalytics();
+		}
+
+		function loadGoogleAnalytics() {
+			// Set default consent to denied
+			gtag('consent', 'default', {
+				'analytics_storage': 'denied',
+				'ad_storage': 'denied'
+			});
+
+			// Update consent to granted
+			gtag('consent', 'update', {
+				'analytics_storage': 'granted'
+			});
+
+			// Load GA4 script
+			var script = document.createElement('script');
+			script.async = true;
+			script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9';
+			document.head.appendChild(script);
+
+			script.onload = function () {
+				gtag('js', new Date());
+				// Configure with IP anonymization and privacy settings
+				gtag('config', 'G-1LNXKYWTL9', {
+					'anonymize_ip': true,
+					'allow_google_signals': false,
+					'allow_ad_personalization_signals': false
+				});
+			};
+		}
+
+		// Expose consent functions globally
+		window.grantAnalyticsConsent = function () {
+			localStorage.setItem('crewlu_analytics_consent', 'granted');
+			localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+			loadGoogleAnalytics();
+			hideConsentBanner();
+		};
+
+		window.denyAnalyticsConsent = function () {
+			localStorage.setItem('crewlu_analytics_consent', 'denied');
+			localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+			hideConsentBanner();
+		};
+
+		window.revokeAnalyticsConsent = function () {
+			localStorage.removeItem('crewlu_analytics_consent');
+			localStorage.removeItem('crewlu_analytics_consent_date');
+			// Disable GA4
+			if (window.gtag) {
+				gtag('consent', 'update', {
+					'analytics_storage': 'denied'
+				});
+			}
+			alert('Your consent has been revoked. Analytics tracking is now disabled. Please refresh the page for changes to take full effect.');
+		};
+
+		function hideConsentBanner() {
+			var banner = document.getElementById('cookie-consent-banner');
+			if (banner) {
+				banner.style.display = 'none';
+			}
+		}
+	</script>
 	<title>CrewLu - Your Ultimate Roster Management App</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description"
+		content="CrewLu is the ultimate roster management app for pilots. Manage trips, track duties, and export schedules with ease. Coming soon to iOS." />
+	<meta name="keywords"
+		content="CrewLu, pilot app, roster management, aviation, flight crew, schedule, duty tracking" />
+	<meta property="og:title" content="CrewLu - Your Ultimate Roster Management App" />
+	<meta property="og:description"
+		content="Organize your pilot life with the ultimate iOS app for freight dogs. Manage trips, track duties, and export schedules." />
+	<meta property="og:type" content="website" />
 	<meta name="color-scheme" content="light dark" />
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png?v=4" />
-		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png?v=4" />
-		<link rel="apple-touch-icon" href="images/favicon.png?v=4" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			/* Cookie Consent Banner Styles */
-			#cookie-consent-banner {
-				position: fixed;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				background: rgba(25, 25, 35, 0.98);
-				color: #ffffff;
-				padding: 1.5rem;
-				box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
-				z-index: 10000;
-				border-top: 2px solid #18bfef;
-				display: none;
-			}
-			
-			#cookie-consent-banner.show {
-				display: block;
-			}
-			
-			.consent-content {
-				max-width: 1200px;
-				margin: 0 auto;
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				gap: 1.5rem;
-				flex-wrap: wrap;
-			}
-			
-			.consent-text {
-				flex: 1;
-				min-width: 300px;
-			}
-			
-			.consent-text h3 {
-				margin: 0 0 0.5rem 0;
-				font-size: 1.1rem;
-				color: #18bfef;
-			}
-			
-			.consent-text p {
-				margin: 0;
-				font-size: 0.9rem;
-				line-height: 1.5;
-				color: #d0d0d0;
-			}
-			
-			.consent-text a {
-				color: #18bfef;
-				text-decoration: underline;
-			}
-			
-			.consent-buttons {
-				display: flex;
-				gap: 0.75rem;
-				flex-wrap: wrap;
-			}
-			
-			.consent-btn {
-				padding: 0.75rem 1.5rem;
-				border: none;
-				border-radius: 4px;
-				font-size: 0.9rem;
-				font-weight: 600;
-				cursor: pointer;
-				transition: all 0.3s ease;
-				white-space: nowrap;
-			}
-			
-			.consent-btn-accept {
-				background: #18bfef;
-				color: #ffffff;
-			}
-			
-			.consent-btn-accept:hover {
-				background: #13a3d1;
-				transform: translateY(-2px);
-				box-shadow: 0 4px 12px rgba(24, 191, 239, 0.4);
-			}
-			
-			.consent-btn-decline {
-				background: transparent;
-				color: #ffffff !important;
-				border: 2px solid #555;
-			}
-			
-			.consent-btn-decline:hover {
-				background: rgba(255, 255, 255, 0.1);
-				border-color: #777;
-				color: #ffffff !important;
-			}
-			
-			@media screen and (max-width: 768px) {
-				#cookie-consent-banner {
-					padding: 1rem;
-				}
-				
-				.consent-content {
-					flex-direction: column;
-					align-items: stretch;
-				}
-				
-				.consent-buttons {
-					width: 100%;
-					flex-direction: column;
-				}
-				
-				.consent-btn {
-					width: 100%;
-					text-align: center;
-				}
-			}
-		</style>
-	</head>
-	<body class="is-preload">
-		
-		<!-- Cookie Consent Banner -->
-		<div id="cookie-consent-banner">
-			<div class="consent-content">
-				<div class="consent-text">
-					<h3>🍪 Cookie Consent</h3>
-					<p>We use Google Analytics to understand how visitors interact with our website. This involves collecting data such as your IP address (anonymized), browser type, device information, and pages visited. You can <a href="privacy-policy.html#data-collection-analytics">learn more</a> in our Privacy Policy or manage your preferences below.</p>
-				</div>
-				<div class="consent-buttons">
-					<button class="consent-btn consent-btn-accept" onclick="grantAnalyticsConsent()">Accept Analytics</button>
-					<button class="consent-btn consent-btn-decline" onclick="denyAnalyticsConsent()">Decline</button>
-				</div>
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png?v=4" />
+	<link rel="apple-touch-icon" href="images/favicon.png?v=4" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Cookie Consent Banner -->
+	<div id="cookie-consent-banner">
+		<div class="consent-content">
+			<div class="consent-text">
+				<h3>🍪 Cookie Consent</h3>
+				<p>We use Google Analytics to understand how visitors interact with our website. This involves
+					collecting data such as your IP address (anonymized), browser type, device information, and pages
+					visited. You can <a href="privacy-policy.html#data-collection-analytics">learn more</a> in our
+					Privacy Policy or manage your preferences below.</p>
+			</div>
+			<div class="consent-buttons">
+				<button class="consent-btn consent-btn-accept" onclick="grantAnalyticsConsent()">Accept
+					Analytics</button>
+				<button class="consent-btn consent-btn-decline" onclick="denyAnalyticsConsent()">Decline</button>
 			</div>
 		</div>
-		
-		<script>
-			// Show consent banner if no choice has been made
-			document.addEventListener('DOMContentLoaded', function() {
-				const consent = localStorage.getItem('crewlu_analytics_consent');
-				if (!consent) {
-					document.getElementById('cookie-consent-banner').classList.add('show');
-				}
-			});
-		</script>
+	</div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+	<script>
+		// Show consent banner if no choice has been made
+		document.addEventListener('DOMContentLoaded', function () {
+			const consent = localStorage.getItem('crewlu_analytics_consent');
+			if (!consent) {
+				document.getElementById('cookie-consent-banner').classList.add('show');
+			}
+		});
+	</script>
 
-				<!-- Intro -->
-					<div id="intro">
-						<img src="images/Crewlu big App Logo opaque.png" alt="CrewLu" class="intro-logo logo-light" />
-						<img src="images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="intro-logo logo-dark" />
-						<p>Organize your pilot life with the ultimate IOS app for freight dogs. You know who you are.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
-							<li><a href="#" class="button primary" style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></li>
-						</ul>
-					</div>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">
-							<img src="images/Crewlu big App Logo opaque.png" alt="CrewLu" class="logo-light" />
-							<img src="images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="logo-dark" />
-						</a>
-					</header>
+		<!-- Intro -->
+		<div id="intro">
+			<img src="images/Crewlu big App Logo opaque.png" alt="CrewLu" class="intro-logo logo-light" />
+			<img src="images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="intro-logo logo-dark" />
+			<p>Organize your pilot life with the ultimate IOS app for freight dogs. You know who you are.</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
+				<li><a href="#" class="button primary"
+						style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></li>
+			</ul>
+		</div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="import.html">How to Import</a></li>
-						</ul>
-					</nav>
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">
+				<img src="images/Crewlu big App Logo opaque.png" alt="CrewLu" class="logo-light" />
+				<img src="images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="logo-dark" />
+			</a>
+		</header>
 
-				<!-- Main -->
-					<div id="main">
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="import.html">How to Import</a></li>
+			</ul>
+		</nav>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Revolutionize Your<br />
-									Roster Management</h2>
-									<p>CrewLu brings powerful tools to manage your roster efficiently.<br />
-									From scheduling to fatigue, calendar export to jumpseat details, we've got you covered.<br />
-									Available Soon on iOS.</p>
-								</header>
-								<div class="slideshows-container">
-									<div class="slideshow-section">
-										<h3 class="slideshow-title">App Features</h3>
-										<div class="app-slideshow portrait-slideshow" id="portrait-slideshow">
-											<div class="slideshow-container">
-												<div class="slide active">
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2>Revolutionize Your<br />
+						Roster Management</h2>
+					<p>CrewLu brings powerful tools to manage your roster efficiently.<br />
+						From scheduling to fatigue, calendar export to jumpseat details, we've got you covered.<br />
+						Available Soon on iOS.</p>
+				</header>
+				<div class="slideshows-container">
+					<div class="slideshow-section">
+						<h3 class="slideshow-title">App Features</h3>
+						<div class="app-slideshow portrait-slideshow" id="portrait-slideshow">
+							<div class="slideshow-container">
+								<div class="slide active">
 									<img src="images/TripListView-optimized.png" alt="CrewLu Trip List View" />
-													<div class="slide-caption">
-														<h4>Trip Management</h4>
-														<p>Organize and track your crew's trips effortlessly</p>
-													</div>
-												</div>
-												<div class="slide">
-										<img src="images/NewTripListView.png" alt="CrewLu Enhanced Trip List" />
-													<div class="slide-caption">
-														<h4>Enhanced Trip Lists</h4>
-														<p>Advanced filtering and sorting for better trip organization</p>
-													</div>
-												</div>
-												<div class="slide">
-									<img src="images/DutyDetailsOne-optimized.png" alt="CrewLu Duty Details Overview" />
-													<div class="slide-caption">
-														<h4>Duty Details</h4>
-														<p>Comprehensive duty information and scheduling details</p>
-													</div>
-												</div>
-												<div class="slide">
-													<img src="images/DutyDetailsTwo-optimized.jpg" alt="CrewLu Duty Management" />
-													<div class="slide-caption">
-														<h4>Duty Management</h4>
-														<p>Complete duty workflow and status tracking</p>
-													</div>
-												</div>
-												<div class="slide">
-													<img src="images/YokeNoteOptions-optimized.jpg" alt="CrewLu Yoke Note Options" />
-													<div class="slide-caption">
-														<h4>Yoke Notes</h4>
-														<p>Professional note-taking and documentation system</p>
-													</div>
-												</div>
-												<div class="slide">
-													<img src="images/ExportToCalendar-optimized.jpg" alt="CrewLu Export to Calendar" />
-													<div class="slide-caption">
-														<h4>Export to Calendar</h4>
-														<p>Seamlessly sync your crew schedules with personal calendars</p>
-													</div>
-												</div>
-												<div class="slide">
-									<img src="images/JumpseatDetails-optimized.png" alt="CrewLu Jumpseat Details" />
-													<div class="slide-caption">
-														<h4>Jumpseat Details</h4>
-														<p>Complete jumpseat management and tracking system</p>
-													</div>
-												</div>
-											</div>
-											<div class="slideshow-nav">
-												<span class="nav-dot active" data-slide="0"></span>
-												<span class="nav-dot" data-slide="1"></span>
-												<span class="nav-dot" data-slide="2"></span>
-												<span class="nav-dot" data-slide="3"></span>
-												<span class="nav-dot" data-slide="4"></span>
-												<span class="nav-dot" data-slide="5"></span>
-												<span class="nav-dot" data-slide="6"></span>
-											</div>
-											<div class="slideshow-controls">
-												<button class="prev-btn" aria-label="Previous slide">&#8249;</button>
-												<button class="next-btn" aria-label="Next slide">&#8250;</button>
-											</div>
-										</div>
-									</div>
-									
-									<div class="slideshow-section">
-										<h3 class="slideshow-title">Dashboard Views</h3>
-										<div class="app-slideshow landscape-slideshow" id="landscape-slideshow">
-											<div class="slideshow-container">
-												<div class="slide active">
-													<img src="images/HorizontalMapView-optimized.jpg" alt="CrewLu Interactive Maps" />
-													<div class="slide-caption">
-														<h4>Interactive Maps</h4>
-														<p>Visualize your team's locations and routes in real-time</p>
-													</div>
-												</div>
-												<div class="slide">
-									<img src="images/Timeline-optimized.png" alt="CrewLu Timeline Overview" />
-													<div class="slide-caption">
-														<h4>Timeline Overview</h4>
-														<p>Comprehensive timeline view for scheduling and planning</p>
-													</div>
-												</div>
-											</div>
-											<div class="slideshow-nav">
-												<span class="nav-dot active" data-slide="0"></span>
-												<span class="nav-dot" data-slide="1"></span>
-											</div>
-											<div class="slideshow-controls">
-												<button class="prev-btn" aria-label="Previous slide">&#8249;</button>
-												<button class="next-btn" aria-label="Next slide">&#8250;</button>
-											</div>
-										</div>
+									<div class="slide-caption">
+										<h4>Trip Management</h4>
+										<p>Organize and track your crew's trips effortlessly</p>
 									</div>
 								</div>
-								<ul class="actions special">
-									<li><a href="#" class="button large" style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></li>
-									<li><a href="import.html" class="button large">How to Import</a></li>
-								</ul>
-							</article>
-
-
-
+								<div class="slide">
+									<img src="images/NewTripListView.png" alt="CrewLu Enhanced Trip List" />
+									<div class="slide-caption">
+										<h4>Enhanced Trip Lists</h4>
+										<p>Advanced filtering and sorting for better trip organization</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/DutyDetailsOne-optimized.png" alt="CrewLu Duty Details Overview" />
+									<div class="slide-caption">
+										<h4>Duty Details</h4>
+										<p>Comprehensive duty information and scheduling details</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/DutyDetailsTwo-optimized.jpg" alt="CrewLu Duty Management" />
+									<div class="slide-caption">
+										<h4>Duty Management</h4>
+										<p>Complete duty workflow and status tracking</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/YokeNoteOptions-optimized.jpg" alt="CrewLu Yoke Note Options" />
+									<div class="slide-caption">
+										<h4>Yoke Notes</h4>
+										<p>Professional note-taking and documentation system</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/ExportToCalendar-optimized.jpg" alt="CrewLu Export to Calendar" />
+									<div class="slide-caption">
+										<h4>Export to Calendar</h4>
+										<p>Seamlessly sync your crew schedules with personal calendars</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/JumpseatDetails-optimized.png" alt="CrewLu Jumpseat Details" />
+									<div class="slide-caption">
+										<h4>Jumpseat Details</h4>
+										<p>Complete jumpseat management and tracking system</p>
+									</div>
+								</div>
+							</div>
+							<div class="slideshow-nav">
+								<span class="nav-dot active" data-slide="0"></span>
+								<span class="nav-dot" data-slide="1"></span>
+								<span class="nav-dot" data-slide="2"></span>
+								<span class="nav-dot" data-slide="3"></span>
+								<span class="nav-dot" data-slide="4"></span>
+								<span class="nav-dot" data-slide="5"></span>
+								<span class="nav-dot" data-slide="6"></span>
+							</div>
+							<div class="slideshow-controls">
+								<button class="prev-btn" aria-label="Previous slide">&#8249;</button>
+								<button class="next-btn" aria-label="Next slide">&#8250;</button>
+							</div>
+						</div>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Download</h3>
-								<p><a href="#" class="button" style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></p>
-							</section>
-							<section>
-								<h3>Support</h3>
-								<p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
-							</section>
-							<section>
-								<h3>Legal</h3>
-								<p><a href="privacy-policy.html">Privacy Policy</a></p>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; 2025 CrewLu. All rights reserved.</li><li>Coming Soon to iOS App Store</li></ul>
+					<div class="slideshow-section">
+						<h3 class="slideshow-title">Dashboard Views</h3>
+						<div class="app-slideshow landscape-slideshow" id="landscape-slideshow">
+							<div class="slideshow-container">
+								<div class="slide active">
+									<img src="images/HorizontalMapView-optimized.jpg" alt="CrewLu Interactive Maps" />
+									<div class="slide-caption">
+										<h4>Interactive Maps</h4>
+										<p>Visualize your team's locations and routes in real-time</p>
+									</div>
+								</div>
+								<div class="slide">
+									<img src="images/Timeline-optimized.png" alt="CrewLu Timeline Overview" />
+									<div class="slide-caption">
+										<h4>Timeline Overview</h4>
+										<p>Comprehensive timeline view for scheduling and planning</p>
+									</div>
+								</div>
+							</div>
+							<div class="slideshow-nav">
+								<span class="nav-dot active" data-slide="0"></span>
+								<span class="nav-dot" data-slide="1"></span>
+							</div>
+							<div class="slideshow-controls">
+								<button class="prev-btn" aria-label="Previous slide">&#8249;</button>
+								<button class="next-btn" aria-label="Next slide">&#8250;</button>
+							</div>
+						</div>
 					</div>
+				</div>
+				<ul class="actions special">
+					<li><a href="#" class="button large"
+							style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></li>
+					<li><a href="import.html" class="button large">How to Import</a></li>
+				</ul>
+			</article>
 
-			</div>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Download</h3>
+					<p><a href="#" class="button"
+							style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">Coming Soon</a></p>
+				</section>
+				<section>
+					<h3>Support</h3>
+					<p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+				</section>
+				<section>
+					<h3>Legal</h3>
+					<p><a href="privacy-policy.html">Privacy Policy</a></p>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; 2025 CrewLu. All rights reserved.</li>
+				<li>Coming Soon to iOS App Store</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
+
 </html>

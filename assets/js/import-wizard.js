@@ -25,6 +25,69 @@
     let $restartBtn;
     let $loadingMessage;
     let $progressIndicator;
+    let $windVisualization;
+
+    // Wind difficulty data - maps instruction keys to wind conditions (bearing/knots format)
+    // Format: "bearing/knots" where bearing is wind direction in degrees, knots is wind speed
+    // Runway heading: 350° (35R)
+    // User will populate these values manually
+    const windDifficultyData = {
+        // Legacy/simple methods
+        "iphone-email": "",
+        "iphone-website": "",
+        "ipad-email": "",
+        "mac-website": "",
+        "efk-tablet-pdf": "",
+        
+        // Full Roster methods
+        "fullroster-iphone-iphone": "080/36",  // Example: 36kt crosswind (hardest)
+        "fullroster-ipad-ipad": "020/12",
+        "fullroster-iphone-ipad": "",
+        "fullroster-iphone-efk-no": "",
+        "fullroster-iphone-efk-yes": "",
+        "fullroster-ipad-efk-no": "",
+        "fullroster-ipad-efk-yes": "",
+        "fullroster-iphone-mac": "",
+        "fullroster-ipad-mac": "",
+        "fullroster-efk": "",
+        
+        // One Trip methods
+        "onetrip-iphone-iphone": "",
+        "onetrip-ipad-ipad": "",
+        "onetrip-iphone-ipad": "",
+        "onetrip-iphone-mac": "",
+        "onetrip-ipad-mac": "",
+        "onetrip-iphone-efk-no": "",
+        "onetrip-iphone-efk-yes": "",
+        "onetrip-ipad-efk-no": "",
+        "onetrip-ipad-efk-yes": "",
+        "onetrip-efk": "",
+        
+        // Jumpseat methods
+        "deadhead-iphone-iphone": "",
+        "deadhead-iphone-efk-no": "",
+        "deadhead-ipad-ipad": "",
+        "deadhead-iphone-efk-yes": "",
+        "deadhead-ipad-efk-no": "",
+        "deadhead-ipad-efk-yes": "",
+        "deadhead-iphone-ipad": "",
+        "deadhead-ipad-iphone": "",
+        "deadhead-iphone-mac": "",
+        "deadhead-ipad-mac": "",
+        "deadhead-efk": "",
+        
+        // Crewmembers methods
+        "crewmembers-all": "",
+        "crewmembers-individual": "",
+        
+        // Catering methods
+        "catering-iphone-iphone": "",
+        "catering-iphone-ipad": "",
+        "catering-iphone-mac": "",
+        "catering-ipad-iphone": "",
+        "catering-ipad-ipad": "",
+        "catering-ipad-mac": ""
+    };
 
     // Convert URLs in text to clickable links
     function convertUrlsToLinks(text) {
@@ -61,6 +124,7 @@
         $restartBtn = $('#restart-btn');
         $loadingMessage = $('#loading-message');
         $progressIndicator = $('#wizard-progress');
+        $windVisualization = $('#wind-visualization');
 
         // Load workflow data
         loadWorkflowData();
@@ -115,6 +179,7 @@
         startWizard();
         $instructionsArea.hide();
         $summaryArea.hide();
+        $windVisualization.hide();
         $restartBtn.hide();
         $backBtn.hide();
     }
@@ -472,10 +537,157 @@
         return key;
     }
 
+    // Parse wind format (bearing/knots)
+    // Format: "350/00" where 350 is wind bearing in degrees, 00 is wind speed in knots
+    function parseWindCondition(windStr) {
+        if (!windStr || windStr.trim() === '') {
+            return null;
+        }
+
+        const parts = windStr.split('/');
+        if (parts.length !== 2) {
+            console.warn('Invalid wind format:', windStr);
+            return null;
+        }
+
+        const bearing = parseInt(parts[0].trim(), 10);
+        const knots = parseInt(parts[1].trim(), 10);
+
+        if (isNaN(bearing) || isNaN(knots)) {
+            console.warn('Invalid wind values:', windStr);
+            return null;
+        }
+
+        return { bearing, knots };
+    }
+
+    // Calculate wind angle relative to runway heading
+    // Runway heading: 350° (35R)
+    // Returns: angle difference in degrees (0-180)
+    function calculateWindAngleRelativeToRunway(windBearing, runwayHeading = 350) {
+        // Normalize bearings to 0-360
+        let normalizedWind = windBearing % 360;
+        if (normalizedWind < 0) normalizedWind += 360;
+
+        // Calculate the smaller angle difference
+        let angleDiff = Math.abs(normalizedWind - runwayHeading);
+        if (angleDiff > 180) {
+            angleDiff = 360 - angleDiff;
+        }
+
+        return angleDiff;
+    }
+
+    // Calculate crosswind component
+    // Formula: crosswind = wind_speed * sin(angle_diff)
+    function calculateCrosswindComponent(windBearing, windSpeed, runwayHeading = 350) {
+        const angleDiff = calculateWindAngleRelativeToRunway(windBearing, runwayHeading);
+        const angleDiffRad = (angleDiff * Math.PI) / 180;
+        return Math.abs(windSpeed * Math.sin(angleDiffRad));
+    }
+
+    // Get animation class based on wind speed
+    function getWindAnimationClass(windSpeed) {
+        if (windSpeed <= 4) {
+            return ''; // calm - uses default animation
+        } else if (windSpeed <= 16) {
+            return 'wind-gentle';
+        } else if (windSpeed <= 28) {
+            return 'wind-moderate';
+        } else if (windSpeed <= 36) {
+            return 'wind-strong';
+        } else {
+            return 'wind-extreme'; // 36+ knots
+        }
+    }
+
+    // Update wind visualization based on instruction key
+    function updateWindVisualization(instructionKey) {
+        if (!instructionKey) {
+            $windVisualization.hide();
+            return;
+        }
+
+        console.log('Wind visualization check:', { instructionKey, hasData: windDifficultyData.hasOwnProperty(instructionKey), value: windDifficultyData[instructionKey] });
+
+        const windCondition = windDifficultyData[instructionKey];
+        if (!windCondition || windCondition.trim() === '') {
+            // No wind data for this configuration yet - show placeholder in overlay and reset sock
+            $('#windText').html(`Wind: <tspan style="opacity:0.7">not set for <${'code'}>${instructionKey}</${'code'}></tspan>`);
+            $('#xwindText').text('Crosswind: -- kt');
+            $('#hwindText').text('Headwind: -- kt');
+            // Reset sock to neutral
+            $('#sockGroup').attr('transform', 'translate(420,60) rotate(0)');
+            $('#sockBag').attr('transform', 'scale(0.75,1)');
+            $('#sockCloth').removeClass('wind-gentle wind-moderate wind-strong wind-extreme').css('animation-duration', '3s');
+            $windVisualization.show();
+            return;
+        }
+
+        const wind = parseWindCondition(windCondition);
+        if (!wind) {
+            // Invalid format - show error message in overlay and reset sock
+            $('#windText').html(`Wind: <tspan style="fill:#e74c3c">Invalid format: <${'code'}>${windCondition}</${'code'}> (use 080/36)</tspan>`);
+            $('#xwindText').text('Crosswind: -- kt');
+            $('#hwindText').text('Headwind: -- kt');
+            $('#sockGroup').attr('transform', 'translate(420,60) rotate(0)');
+            $('#sockBag').attr('transform', 'scale(0.75,1)');
+            $('#sockCloth').removeClass('wind-gentle wind-moderate wind-strong wind-extreme').css('animation-duration', '3s');
+            $windVisualization.show();
+            return;
+        }
+
+        // Calculate wind angle relative to runway (350°)
+        const angleDiff = calculateWindAngleRelativeToRunway(wind.bearing, 350);
+        const crosswindComponent = calculateCrosswindComponent(wind.bearing, wind.knots, 350);
+
+        // Get animation class based on wind speed
+        const animationClass = getWindAnimationClass(wind.knots);
+
+        // Windsock should point downwind (toward the direction the wind is blowing to)
+        // Convert reported "from" bearing to "to" bearing
+        const toBearing = (wind.bearing + 180) % 360;
+
+        // Our sock bag points to the right (east, 090°) at 0° rotation
+        // So rotation = toBearing - 90
+        let windsockRotation = toBearing - 90;
+
+        // Update SVG-based windsock and info overlay
+        // 1) Rotate sockGroup about its base translate; we rebuild transform with translate + rotate
+        const $sockGroup = $('#sockGroup');
+        const baseTransform = 'translate(420,60)';
+        $sockGroup.attr('transform', `${baseTransform} rotate(${windsockRotation})`);
+
+        // 2) Inflate bag proportional to knots (0.6 .. 1.0)
+        const inflation = Math.max(0.6, Math.min(1.0, 0.6 + (wind.knots / 36) * 0.4));
+        $('#sockBag').attr('transform', `scale(${inflation},1)`);
+
+        // 3) Animate cloth: apply class by wind bracket and set duration inversely with speed
+        const $sockCloth = $('#sockCloth');
+        $sockCloth.removeClass('wind-gentle wind-moderate wind-strong wind-extreme').addClass(animationClass);
+        const minDur = 0.5; // seconds at 36 kt
+        const maxDur = 3.0; // seconds at 0 kt
+        const dur = (maxDur - minDur) * (1 - Math.min(wind.knots, 36) / 36) + minDur;
+        $sockCloth.css('animation-duration', `${dur}s`);
+
+        // 4) Compute components and update text overlays
+        const angleDiffRad = (angleDiff * Math.PI) / 180;
+        const headwind = Math.round(wind.knots * Math.cos(angleDiffRad)); // positive = headwind, negative = tailwind
+        const crosswind = Math.round(crosswindComponent);
+
+        $('#windText').text(`Wind: ${wind.bearing.toString().padStart(3, '0')}°/${wind.knots.toString().padStart(2, '0')}kt`);
+        $('#xwindText').text(`Crosswind: ${crosswind} kt`);
+        $('#hwindText').text(`${headwind >= 0 ? 'Headwind' : 'Tailwind'}: ${Math.abs(headwind)} kt`);
+
+        // Show visualization
+        $windVisualization.show();
+    }
+
     // Update the summary sentence
     function updateSummary() {
         if (Object.keys(userChoices).length === 0) {
             $summaryArea.hide();
+            $windVisualization.hide();
             return;
         }
 
@@ -509,6 +721,10 @@
 
         $summaryText.html(summaryText);
         $summaryArea.show();
+
+        // Update wind visualization if we have enough choices to generate an instruction key
+        const instructionKey = generateInstructionKey();
+        updateWindVisualization(instructionKey);
     }
 
     // Update progress indicator with progressive reveal
