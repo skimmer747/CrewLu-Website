@@ -1,0 +1,390 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- Google Analytics 4 - Loads only with user consent -->
+    <script>
+        // Initialize dataLayer before GA loads
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        // Check for existing consent
+        const analyticsConsent = localStorage.getItem('crewlu_analytics_consent');
+
+        if (analyticsConsent === 'granted') {
+            // Load GA4 if consent already granted
+            loadGoogleAnalytics();
+        }
+
+        function loadGoogleAnalytics() {
+            // Set default consent to denied
+            gtag('consent', 'default', {
+                'analytics_storage': 'denied',
+                'ad_storage': 'denied'
+            });
+
+            // Update consent to granted
+            gtag('consent', 'update', {
+                'analytics_storage': 'granted'
+            });
+
+            // Load GA4 script
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9';
+            document.head.appendChild(script);
+
+            script.onload = function () {
+                gtag('js', new Date());
+                // Configure with IP anonymization and privacy settings
+                gtag('config', 'G-1LNXKYWTL9', {
+                    'anonymize_ip': true,
+                    'allow_google_signals': false,
+                    'allow_ad_personalization_signals': false
+                });
+            };
+        }
+
+        // Expose consent functions globally
+        window.grantAnalyticsConsent = function () {
+            localStorage.setItem('crewlu_analytics_consent', 'granted');
+            localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+            loadGoogleAnalytics();
+            hideConsentBanner();
+        };
+
+        window.denyAnalyticsConsent = function () {
+            localStorage.setItem('crewlu_analytics_consent', 'denied');
+            localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+            hideConsentBanner();
+        };
+
+        window.revokeAnalyticsConsent = function () {
+            localStorage.removeItem('crewlu_analytics_consent');
+            localStorage.removeItem('crewlu_analytics_consent_date');
+            // Disable GA4
+            if (window.gtag) {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'denied'
+                });
+            }
+            alert('Your consent has been revoked. Analytics tracking is now disabled. Please refresh the page for changes to take full effect.');
+        };
+
+        function hideConsentBanner() {
+            var banner = document.getElementById('cookie-consent-banner');
+            if (banner) {
+                banner.style.display = 'none';
+            }
+        }
+    </script>
+    <title>Privacy Policy - Pilot Window</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png?v=3" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.png?v=3" />
+    <link rel="apple-touch-icon" href="../images/favicon.png?v=3" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Cookie Consent Banner Styles */
+        #cookie-consent-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(25, 25, 35, 0.98);
+            color: #ffffff;
+            padding: 1.5rem;
+            box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+            z-index: 10000;
+            border-top: 2px solid #18bfef;
+            display: none;
+        }
+
+        #cookie-consent-banner.show {
+            display: block;
+        }
+
+        .consent-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .consent-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .consent-text h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.1rem;
+            color: #18bfef;
+        }
+
+        .consent-text p {
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #d0d0d0;
+        }
+
+        .consent-text a {
+            color: #18bfef;
+            text-decoration: underline;
+        }
+
+        .consent-buttons {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .consent-btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .consent-btn-accept {
+            background: #18bfef;
+            color: #ffffff;
+        }
+
+        .consent-btn-accept:hover {
+            background: #13a3d1;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(24, 191, 239, 0.4);
+        }
+
+        .consent-btn-decline {
+            background: transparent;
+            color: #ffffff !important;
+            border: 2px solid #555;
+        }
+
+        .consent-btn-decline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #777;
+            color: #ffffff !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            #cookie-consent-banner {
+                padding: 1rem;
+            }
+
+            .consent-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .consent-buttons {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .consent-btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent-banner">
+        <div class="consent-content">
+            <div class="consent-text">
+                <h3>🍪 Cookie Consent</h3>
+                <p>We use Google Analytics to understand how visitors interact with our website. This involves
+                    collecting data such as your IP address (anonymized), browser type, device information, and pages
+                    visited. You can <a href="#data-collection-analytics">learn more</a> in our Privacy Policy or manage
+                    your preferences below.</p>
+            </div>
+            <div class="consent-buttons">
+                <button class="consent-btn consent-btn-accept" onclick="grantAnalyticsConsent()">Accept
+                    Analytics</button>
+                <button class="consent-btn consent-btn-decline" onclick="denyAnalyticsConsent()">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Show consent banner if no choice has been made
+        document.addEventListener('DOMContentLoaded', function () {
+            const consent = localStorage.getItem('crewlu_analytics_consent');
+            if (!consent) {
+                document.getElementById('cookie-consent-banner').classList.add('show');
+            }
+        });
+    </script>
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="../index.html" class="logo">CrewLu</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="index.html">Pilot Window</a></li>
+                <li><a href="../turbometer/index.html">Turbometer</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Privacy Policy Content -->
+            <section class="post">
+                <header class="major">
+                    <h1>Privacy Policy</h1>
+                    <p style="font-size: 0.9rem; color: #717981; margin-bottom: 1rem;">Last Updated: November 24, 2025
+                    </p>
+                    <p>This Privacy Policy describes how your personal information is handled in the Pilot Window iOS
+                        app and on this website.</p>
+                </header>
+
+                <h2>Pilot Window App - No Personal Data Collection</h2>
+                <p>The Pilot Window iOS app itself does not collect, use, save, or have access to any of your personal
+                    data. All data you create or view within the App is stored privately on your device. We do not have
+                    access to this data.</p>
+
+                <h2>Data Storage</h2>
+                <p>The App functions locally on your device. No personal data is transmitted to external servers.</p>
+
+                <h2>Children's Privacy</h2>
+                <p>Our Service does not address anyone under the age of 13 (or 16 in the European Union, where
+                    applicable). We do not knowingly collect personally identifiable information from children under
+                    these age limits.</p>
+
+                <h2 id="data-collection-analytics">Website Analytics Data Collection</h2>
+                <p><strong>What We Collect:</strong> This website uses Google Analytics 4 (GA4) to understand how
+                    visitors use our site. GA4 may collect the following information:</p>
+                <ul>
+                    <li><strong>IP Address:</strong> Your IP address is collected but immediately anonymized to protect
+                        your privacy</li>
+                    <li><strong>Device Information:</strong> Browser type, operating system, device type, and screen
+                        resolution</li>
+                    <li><strong>Usage Data:</strong> Pages viewed, time spent on pages, click interactions, and
+                        navigation paths</li>
+                    <li><strong>Referral Information:</strong> The website that referred you to our site</li>
+                    <li><strong>Approximate Location:</strong> City/region-level location derived from your IP address
+                    </li>
+                </ul>
+
+                <p><strong>Legal Basis:</strong> We collect this data based on your explicit consent (GDPR Article
+                    6(1)(a)) and our legitimate interest in improving website functionality (GDPR Article 6(1)(f)).</p>
+
+                <p><strong>Data Retention:</strong> Google Analytics data is retained for 14 months, after which it is
+                    automatically deleted.</p>
+
+                <p><strong>Third-Party Processing:</strong> Google Analytics is provided by Google LLC. Your data is
+                    processed according to <a href="https://policies.google.com/privacy" target="_blank"
+                        rel="noopener noreferrer">Google's Privacy Policy</a> and <a
+                        href="https://business.safety.google/processorterms/" target="_blank"
+                        rel="noopener noreferrer">Google's Data Processing Terms</a>.</p>
+
+                <p><strong>Privacy Protections:</strong> We have configured Google Analytics with enhanced privacy
+                    settings:
+                <ul>
+                    <li>IP anonymization enabled</li>
+                    <li>Google Signals disabled (no cross-device tracking)</li>
+                    <li>Ad personalization disabled</li>
+                    <li>Analytics only loads after you provide consent</li>
+                </ul>
+                </p>
+
+                <h2>Your Privacy Rights and Choices</h2>
+                <p><strong>Opt-Out of Analytics:</strong> You can opt out of Google Analytics tracking at any time by:
+                </p>
+                <ul>
+                    <li>Declining consent when the cookie banner appears</li>
+                    <li>Clicking the "Revoke Analytics Consent" button below to disable tracking and clear your consent
+                    </li>
+                    <li>Installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank"
+                            rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a></li>
+                    <li>Enabling "Do Not Track" in your browser settings</li>
+                </ul>
+
+                <p style="margin-top: 1rem;"><button onclick="revokeAnalyticsConsent()"
+                        style="background: #dc3545; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem; font-weight: 600;">Revoke
+                        Analytics Consent</button></p>
+
+                <p><strong>Your Rights Under GDPR and CCPA:</strong> You have the right to:</p>
+                <ul>
+                    <li>Access the personal data we collect about you</li>
+                    <li>Request deletion of your data</li>
+                    <li>Withdraw consent at any time</li>
+                    <li>Lodge a complaint with your local data protection authority</li>
+                </ul>
+
+                <h2>Changes to This Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the
+                    new Privacy Policy on this page. You are advised to review this page periodically for any changes.
+                </p>
+
+                <h2>Contact Us</h2>
+                <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at
+                    Todd@crewlu.net.</p>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; CrewLu</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

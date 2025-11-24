@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Turbometer - CrewLu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Custom styles for Turbometer showcase */
+        .app-showcase {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .app-hero {
+            margin-bottom: 4rem;
+        }
+
+        .feature-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem 0;
+            gap: 4rem;
+            width: 100%;
+        }
+
+        .feature-section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .feature-text {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .feature-image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            /* Constrain width for portrait screenshot */
+        }
+
+        .feature-image.landscape {
+            max-width: 800px;
+            /* Wider for landscape screenshots */
+        }
+
+        .feature-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 4px solid #fff;
+        }
+
+        .coming-soon-badge {
+            background: #f59e0b;
+            /* Amber/Yellow for turbulence warning */
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 980px) {
+            .feature-section {
+                flex-direction: column !important;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .feature-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="../index.html" class="logo">CrewLu</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pilot-window/index.html">Pilot Window</a></li>
+                <li class="active"><a href="#">Turbometer</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <span class="coming-soon-badge">In Development</span>
+                    <h1>Turbometer</h1>
+                    <p>Measure the ride. Visualize the bumps.<br />
+                        Precision metering for smooth flights.</p>
+                </header>
+
+                <div class="app-showcase">
+
+                    <!-- Main Feature -->
+                    <div class="feature-section">
+                        <div class="feature-image">
+                            <img src="../assets/images/turbometer/turbulence-monitor.png"
+                                alt="Turbometer App Interface - Turbulence" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Real-Time Monitoring</h2>
+                            <p><strong>Know exactly what your aircraft is experiencing.</strong></p>
+                            <p>Turbometer provides a comprehensive analysis of in-flight turbulence. View real-time
+                                Vertical Acceleration (g), track the Turbometer Score, and monitor Stability Scores.</p>
+                            <p>With a rolling G-RMS display and severity timeline, you can objectively measure "light
+                                chop" vs. "moderate turbulence" and make informed decisions for passenger comfort and
+                                safety.</p>
+                        </div>
+                    </div>
+
+                    <!-- Smooth Air -->
+                    <div class="feature-section">
+                        <div class="feature-image">
+                            <img src="../assets/images/turbometer/smooth-air.png"
+                                alt="Turbometer App Interface - Smooth Air" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Track the Smooth Rides</h2>
+                            <p><strong>Validation for the good days.</strong></p>
+                            <p>It's not just about the bumps. Turbometer confirms when the air is smooth, giving you a
+                                clear "Green" status. Use this data to log flight conditions or simply to appreciate the
+                                calm air.</p>
+                        </div>
+                    </div>
+
+                    <!-- Flight Metrics -->
+                    <div class="feature-section">
+                        <div class="feature-image landscape">
+                            <img src="../assets/images/turbometer/flight-metrics.png" alt="Turbometer Flight Metrics" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Detailed Flight Metrics</h2>
+                            <p><strong>Deep dive into your flight data.</strong></p>
+                            <p>Access a detailed dashboard of flight metrics over time. Analyze rolling G-RMS, weighted
+                                G-RMS, and stability scores across different time windows (8s, 60s). Perfect for
+                                post-flight analysis or understanding turbulence patterns.</p>
+                        </div>
+                    </div>
+
+                    <ul class="actions special">
+                        <li><a href="#" class="button primary disabled">Coming Soon to App Store</a></li>
+                    </ul>
+                </div>
+
+                <hr />
+
+                <h3>Privacy & Legal</h3>
+                <p>Your flight data is yours. Read our <a href="privacy-policy.html">Privacy Policy</a> for more
+                    details.</p>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; CrewLu</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

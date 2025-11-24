@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Pilot Window - CrewLu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Custom styles for Pilot Window showcase */
+        .app-showcase {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .app-hero {
+            margin-bottom: 4rem;
+        }
+
+        .feature-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem 0;
+            gap: 4rem;
+            width: 100%;
+        }
+
+        .feature-section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .feature-text {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .feature-image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 800px;
+        }
+
+        .feature-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .coming-soon-badge {
+            background: #ff3366;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 980px) {
+            .feature-section {
+                flex-direction: column !important;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .feature-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="../index.html" class="logo">CrewLu</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="#">Pilot Window</a></li>
+                <li><a href="../turbometer/index.html">Turbometer</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <span class="coming-soon-badge">In Development</span>
+                    <h1>Pilot Window</h1>
+                    <p>Your augmented reality flight deck companion.<br />
+                        See what's ahead, day or night.</p>
+                </header>
+
+                <div class="app-showcase">
+
+                    <!-- Cloud Level Feature -->
+                    <div class="feature-section">
+                        <div class="feature-image">
+                            <img src="../assets/images/pilot-window/cloud-level.png"
+                                alt="Pilot Window Cloud Level View" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Cloud Level</h2>
+                            <p><strong>Never guess your clearance again.</strong></p>
+                            <p>Use the Cloud Level feature to look ahead at clouds and instantly determine if you can
+                                fly above them or need to deviate. The augmented reality overlay provides precise
+                                elevation angles relative to the horizon, helping you make safer, more efficient flight
+                                path decisions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Star Gazer Feature -->
+                    <div class="feature-section">
+                        <div class="feature-image">
+                            <img src="../assets/images/pilot-window/star-gazer.png"
+                                alt="Pilot Window Star Gazer Mode" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Star Gazer</h2>
+                            <p><strong>Navigate the night sky.</strong></p>
+                            <p>Turn your night flights into an astronomical tour. Star Gazer mode identifies stars,
+                                planets, and constellations in real-time. Whether you're verifying celestial navigation
+                                points or just admiring the view from FL350, Pilot Window shows you exactly what you're
+                                looking at.</p>
+                        </div>
+                    </div>
+
+                    <!-- Visible Objects Feature -->
+                    <div class="feature-section">
+                        <div class="feature-image">
+                            <img src="../assets/images/pilot-window/visible-objects.png"
+                                alt="Pilot Window Visible Objects List" />
+                        </div>
+                        <div class="feature-text">
+                            <h2>Learn While You Fly</h2>
+                            <p><strong>Fun facts and precise data.</strong></p>
+                            <p>Tap on any celestial object to reveal a wealth of information. See the object's current
+                                heading and elevation angle relative to your position. Plus, enjoy curated "fun facts"
+                                about stars and planets to pass the time on those long night hauls.</p>
+                        </div>
+                    </div>
+
+                    <ul class="actions special">
+                        <li><a href="#" class="button primary disabled">Coming Soon to App Store</a></li>
+                    </ul>
+                </div>
+
+                <hr />
+
+                <h3>Privacy & Legal</h3>
+                <p>We prioritize your privacy and flight safety. Read our <a href="privacy-policy.html">Privacy
+                        Policy</a> to learn more.</p>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; CrewLu</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
