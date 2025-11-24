@@ -16,62 +16,125 @@
 
 // Breakpoints.
 
-	@include breakpoints((
-		default:   (1681px,   null     ),
-		xlarge:    (1281px,   1680px   ),
-		large:     (981px,    1280px   ),
-		medium:    (737px,    980px    ),
-		small:     (481px,    736px    ),
-		xsmall:    (361px,    480px    ),
-		xxsmall:   (null,     360px    )
-	));
+@include breakpoints((default: (1681px, null),
+		xlarge: (1281px, 1680px),
+		large: (981px, 1280px),
+		medium: (737px, 980px),
+		small: (481px, 736px),
+		xsmall: (361px, 480px),
+		xxsmall: (null, 360px)));
 
 // Mixins.
 
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-box($p);
-		@include color-button($p);
-		@include color-form($p);
-		@include color-list($p);
-		@include color-section($p);
-		@include color-table($p);
-		@include color-pagination($p);
-	}
+@mixin color($p) {
+	@include color-typography($p);
+	@include color-box($p);
+	@include color-button($p);
+	@include color-form($p);
+	@include color-list($p);
+	@include color-section($p);
+	@include color-table($p);
+	@include color-pagination($p);
+}
 
 // Base.
 
-	@import 'base/reset';
-	@import 'base/page';
-	@import 'base/typography';
-	@import 'base/themes';
+@import 'base/reset';
+@import 'base/page';
+@import 'base/typography';
+@import 'base/themes';
 
 // Component.
 
-	@import 'components/row';
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/actions';
-	@import 'components/icons';
-	@import 'components/list';
-	@import 'components/section';
-	@import 'components/table';
-	@import 'components/pagination';
-	@import 'components/slideshow';
-	@import 'components/wizard';
+@import 'components/row';
+@import 'components/box';
+@import 'components/button';
+@import 'components/form';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/list';
+@import 'components/section';
+@import 'components/table';
+@import 'components/pagination';
+@import 'components/slideshow';
+@import 'components/wizard';
 
 // Layout.
 
-	@import 'layout/wrapper';
-	@import 'layout/intro';
-	@import 'layout/header';
-	@import 'layout/nav';
-	@import 'layout/main';
-	@import 'layout/footer';
-	@import 'layout/navPanel';
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'libs/fixed-grid';
+@import 'fontawesome-all.min.css';
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+
+/*
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+// Breakpoints.
+
+@include breakpoints((default: (1681px, null),
+		xlarge: (1281px, 1680px),
+		large: (981px, 1280px),
+		medium: (737px, 980px),
+		small: (481px, 736px),
+		xsmall: (361px, 480px),
+		xxsmall: (null, 360px)));
+
+// Mixins.
+
+@mixin color($p) {
+	@include color-typography($p);
+	@include color-box($p);
+	@include color-button($p);
+	@include color-form($p);
+	@include color-list($p);
+	@include color-section($p);
+	@include color-table($p);
+	@include color-pagination($p);
+}
+
+// Base.
+
+@import 'base/reset';
+@import 'base/page';
+@import 'base/typography';
+@import 'base/themes';
+
+// Component.
+
+@import 'components/row';
+@import 'components/box';
+@import 'components/button';
+@import 'components/form';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/list';
+@import 'components/section';
+@import 'components/table';
+@import 'components/pagination';
+@import 'components/slideshow';
+@import 'components/wizard';
+
+// Layout.
+
+@import 'layout/wrapper';
+@import 'layout/intro';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/navPanel';
 
 /* Cookie Consent Banner Styles */
 #cookie-consent-banner {
@@ -79,12 +142,12 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(25, 25, 35, 0.98);
+	background: rgba(0, 0, 0, 0.95);
 	color: #ffffff;
 	padding: 1.5rem;
 	box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
 	z-index: 10000;
-	border-top: 2px solid #18bfef;
+	border-top: 2px solid var(--color-info);
 	display: none;
 }
 
@@ -143,14 +206,14 @@
 }
 
 .consent-btn-accept {
-	background: #18bfef;
+	background: var(--color-info);
 	color: #ffffff;
 }
 
 .consent-btn-accept:hover {
-	background: #13a3d1;
+	background: #0a9ec8;
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(24, 191, 239, 0.4);
+	box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
 }
 
 .consent-btn-decline {
@@ -169,17 +232,17 @@
 	#cookie-consent-banner {
 		padding: 1rem;
 	}
-	
+
 	.consent-content {
 		flex-direction: column;
 		align-items: stretch;
 	}
-	
+
 	.consent-buttons {
 		width: 100%;
 		flex-direction: column;
 	}
-	
+
 	.consent-btn {
 		width: 100%;
 		text-align: center;
