@@ -46,8 +46,13 @@
 
         .feature-image {
             flex: 1;
-            min-width: 300px;
-            max-width: 800px;
+            min-width: 280px;
+            max-width: 350px;
+        }
+
+        /* Wider container for landscape screenshots */
+        .feature-image.landscape {
+            max-width: 700px;
         }
 
         .feature-image img {
@@ -92,7 +97,10 @@
 
         <!-- Header -->
         <header id="header">
-            <a href="../index.html" class="logo">CrewLu</a>
+            <a href="../index.html" class="logo">
+                <img src="../images/Crewlu big App Logo opaque.png" alt="CrewLu" class="logo-light" />
+                <img src="../images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="logo-dark" />
+            </a>
         </header>
 
         <!-- Nav -->
@@ -120,7 +128,7 @@
 
                     <!-- Cloud Level Feature -->
                     <div class="feature-section">
-                        <div class="feature-image">
+                        <div class="feature-image landscape">
                             <img src="../assets/images/pilot-window/star-gazer.png"
                                 alt="Pilot Window Cloud Level View" />
                         </div>
