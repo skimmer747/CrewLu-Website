@@ -79,7 +79,7 @@
         /* Badge for live/available apps */
         .available-badge {
             background: #10b981;
-            color: white;
+            color: white !important;
             padding: 0.5rem 1rem;
             border-radius: 50px;
             font-weight: bold;
@@ -88,6 +88,15 @@
             font-size: 0.8rem;
             margin-bottom: 1rem;
             display: inline-block;
+            text-decoration: none;
+            border: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .available-badge:hover {
+            background: #059669;
+            transform: scale(1.05);
+            color: white !important;
         }
 
         @media screen and (max-width: 980px) {
@@ -132,7 +141,7 @@
             <!-- Post -->
             <section class="post">
                 <header class="major">
-                    <span class="available-badge">Available Now</span>
+                    <a href="https://apps.apple.com/us/app/pilot-window/id6755668435" target="_blank" rel="noopener noreferrer" class="available-badge">Available Now</a>
                     <h1>Pilot Window</h1>
                     <p>Your augmented reality flight deck companion.<br />
                         See what's ahead, day or night.</p>
