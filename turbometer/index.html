@@ -46,22 +46,21 @@
 
         .feature-image {
             flex: 1;
-            min-width: 300px;
-            max-width: 400px;
-            /* Constrain width for portrait screenshot */
+            min-width: 280px;
+            max-width: 350px;
         }
 
+        /* Wider container for landscape screenshots */
         .feature-image.landscape {
-            max-width: 800px;
-            /* Wider for landscape screenshots */
+            max-width: 700px;
         }
 
         .feature-image img {
             width: 100%;
             height: auto;
-            border-radius: 20px;
+            border-radius: 12px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-            border: 4px solid #fff;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .coming-soon-badge {
@@ -76,6 +75,29 @@
             font-size: 0.8rem;
             margin-bottom: 1rem;
             display: inline-block;
+        }
+
+        /* Badge for live/available apps */
+        .available-badge {
+            background: #10b981;
+            color: white !important;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .available-badge:hover {
+            background: #059669;
+            transform: scale(1.05);
+            color: white !important;
         }
 
         @media screen and (max-width: 980px) {
@@ -120,7 +142,7 @@
             <!-- Post -->
             <section class="post">
                 <header class="major">
-                    <span class="coming-soon-badge">In Development</span>
+                    <a href="https://apps.apple.com/us/app/turbometer/id6755746044" target="_blank" rel="noopener noreferrer" class="available-badge">Available Now</a>
                     <h1>Turbometer</h1>
                     <p>Measure the ride. Visualize the bumps.<br />
                         Precision metering for smooth flights.</p>
@@ -175,7 +197,11 @@
                     </div>
 
                     <ul class="actions special">
-                        <li><a href="#" class="button primary disabled">Coming Soon to App Store</a></li>
+                        <li>
+                            <a href="https://apps.apple.com/us/app/turbometer/id6755746044?itscg=30200&itsct=apps_box_badge&mttnsubad=6755746044" target="_blank" rel="noopener noreferrer" style="display: inline-block; border: none;">
+                                <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1764115200" alt="Download on the App Store" style="width: 245px; height: 82px; vertical-align: middle; object-fit: contain;" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
