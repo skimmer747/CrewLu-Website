@@ -1,0 +1,556 @@
+<!DOCTYPE HTML>
+<!--
+	Seniority Lookup - CrewLu Website
+	Allows pilots to search their seniority number and see position across all equipment types and domiciles
+-->
+<html>
+
+<head>
+	<!-- Google Analytics 4 - Loads only with user consent -->
+	<script>
+		// Initialize dataLayer before GA loads
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+
+		// Check for existing consent
+		const analyticsConsent = localStorage.getItem('crewlu_analytics_consent');
+
+		if (analyticsConsent === 'granted') {
+			// Load GA4 if consent already granted
+			loadGoogleAnalytics();
+		}
+
+		function loadGoogleAnalytics() {
+			// Set default consent to denied
+			gtag('consent', 'default', {
+				'analytics_storage': 'denied',
+				'ad_storage': 'denied'
+			});
+
+			// Update consent to granted
+			gtag('consent', 'update', {
+				'analytics_storage': 'granted'
+			});
+
+			// Load GA4 script
+			var script = document.createElement('script');
+			script.async = true;
+			script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNXKYWTL9';
+			document.head.appendChild(script);
+
+			script.onload = function () {
+				gtag('js', new Date());
+				// Configure with IP anonymization and privacy settings
+				gtag('config', 'G-1LNXKYWTL9', {
+					'anonymize_ip': true,
+					'allow_google_signals': false,
+					'allow_ad_personalization_signals': false
+				});
+			};
+		}
+
+		// Expose consent functions globally
+		window.grantAnalyticsConsent = function () {
+			localStorage.setItem('crewlu_analytics_consent', 'granted');
+			localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+			loadGoogleAnalytics();
+			hideConsentBanner();
+		};
+
+		window.denyAnalyticsConsent = function () {
+			localStorage.setItem('crewlu_analytics_consent', 'denied');
+			localStorage.setItem('crewlu_analytics_consent_date', new Date().toISOString());
+			hideConsentBanner();
+		};
+
+		window.revokeAnalyticsConsent = function () {
+			localStorage.removeItem('crewlu_analytics_consent');
+			localStorage.removeItem('crewlu_analytics_consent_date');
+			// Disable GA4
+			if (window.gtag) {
+				gtag('consent', 'update', {
+					'analytics_storage': 'denied'
+				});
+			}
+			alert('Your consent has been revoked. Analytics tracking is now disabled. Please refresh the page for changes to take full effect.');
+		};
+
+		function hideConsentBanner() {
+			var banner = document.getElementById('cookie-consent-banner');
+			if (banner) {
+				banner.style.display = 'none';
+			}
+		}
+	</script>
+	<title>Seniority Lookup - CrewLu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description"
+		content="Look up your seniority position across all equipment types and domiciles for both Captain and First Officer positions." />
+	<meta name="color-scheme" content="light dark" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png?v=4" />
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png?v=4" />
+	<link rel="apple-touch-icon" href="images/favicon.png?v=4" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<!-- Chart.js for percentile visualizations -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+	<style>
+		/* Custom styles for Seniority Lookup page */
+		.seniority-input-section {
+			text-align: center;
+			padding: 3rem 0;
+			background: rgba(0, 0, 0, 0.05);
+			border-radius: 8px;
+			margin-bottom: 3rem;
+		}
+
+		.seniority-input-section h2 {
+			margin-bottom: 1.5rem;
+		}
+
+		.seniority-input-wrapper {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 1rem;
+			flex-wrap: wrap;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		.seniority-input {
+			font-size: 1.5rem;
+			padding: 0.75rem 1.5rem;
+			border: 2px solid rgba(255, 255, 255, 0.2);
+			background: rgba(255, 255, 255, 0.05);
+			color: inherit;
+			border-radius: 6px;
+			width: 200px;
+			text-align: center;
+		}
+
+		.seniority-input:focus {
+			outline: none;
+			border-color: #18bfef;
+			background: rgba(255, 255, 255, 0.1);
+		}
+
+		.results-container {
+			display: none;
+		}
+
+		.results-container.active {
+			display: block;
+		}
+
+		.results-summary {
+			text-align: center;
+			margin-bottom: 2rem;
+			padding: 1.5rem;
+			background: rgba(24, 191, 239, 0.1);
+			border-radius: 8px;
+		}
+
+		.equipment-section {
+			margin-bottom: 4rem;
+			/* Increased spacing between equipment sections */
+		}
+
+		.equipment-header {
+			font-size: 1.8rem;
+			margin-bottom: 2rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+		}
+
+		/* Flattened Domicile Layout - Each domicile is a row/container */
+		.domicile-container {
+			margin-bottom: 2.5rem;
+			background: rgba(0, 0, 0, 0.2);
+			border-radius: 8px;
+			padding: 1.5rem;
+			border: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.domicile-header {
+			font-size: 1.4rem;
+			margin-bottom: 1.5rem;
+			color: #18bfef;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+			padding-bottom: 0.5rem;
+		}
+
+		/* Seat Cards Grid */
+		.seat-comparison {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			/* Ensure 300px min width */
+			gap: 2rem;
+			/* Ample gap between cards */
+		}
+
+		.seat-card {
+			background: rgba(255, 255, 255, 0.05);
+			/* Slightly lighter than container */
+			border-radius: 6px;
+			padding: 2rem;
+			/* Increased internal padding */
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+
+		.seat-card-projected {
+			border: 1px dashed rgba(24, 191, 239, 0.5);
+		}
+
+		/* Badge Styling */
+		.seat-header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.seat-title {
+			font-weight: bold;
+			font-size: 1.5rem;
+			line-height: 1.2;
+			margin: 0;
+		}
+
+		.projected-badge {
+			font-size: 0.8rem;
+			background: rgba(24, 191, 239, 0.2);
+			padding: 0.3rem 0.6rem;
+			border-radius: 4px;
+			color: #18bfef;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: bold;
+		}
+
+		.position-info {
+			margin-bottom: 1.5rem;
+			font-size: 1.1rem;
+		}
+
+		.position-info p {
+			margin-bottom: 0.5rem;
+		}
+
+		.position-info strong {
+			color: #18bfef;
+			font-weight: 700;
+		}
+
+		/* Chart Container - Ensure NO Overflow Cutoff */
+		.percentile-chart-container {
+			width: 140px;
+			/* Slightly larger */
+			height: 140px;
+			margin: 1rem auto 1.5rem auto;
+			position: relative;
+			overflow: visible;
+			/* CRITICAL: prevent cutoff */
+		}
+
+		.percentile-chart-container canvas {
+			display: block;
+			filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+			/* Use standard transition */
+			transition: transform 0.3s ease;
+		}
+
+		.percentile-chart-container:hover canvas {
+			transform: scale(1.05);
+			/* Gentle scale on hover */
+		}
+
+		/* Remove the ring effect if causing issues, or keep simple */
+		.percentile-chart-container::after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 120px;
+			height: 120px;
+			border-radius: 50%;
+			border: 2px solid transparent;
+			transform: translate(-50%, -50%);
+			pointer-events: none;
+			transition: all 0.3s ease;
+		}
+
+		.percentile-chart-container:hover::after {
+			width: 150px;
+			height: 150px;
+			border-color: rgba(24, 191, 239, 0.3);
+		}
+
+		.pilots-count {
+			font-size: 1.05rem;
+			color: rgba(255, 255, 255, 0.7);
+			margin-top: auto;
+			/* Push to bottom */
+			line-height: 1.6;
+		}
+
+		/* Light mode adjustments */
+		@media (prefers-color-scheme: light) {
+			.domicile-container {
+				background: #f8f9fa;
+				/* Very light grey */
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+			}
+
+			.seat-card {
+				background: #ffffff;
+				border: 1px solid rgba(0, 0, 0, 0.08);
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+			}
+
+			.seat-card-projected {
+				border: 1px dashed rgba(24, 191, 239, 0.6);
+				background: #fdfdfd;
+			}
+
+			.results-summary {
+				background: rgba(24, 191, 239, 0.1);
+				border: 1px solid rgba(24, 191, 239, 0.2);
+				color: #333;
+			}
+
+			.seniority-input-section {
+				background: rgba(255, 255, 255, 0.8);
+				border: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			.seniority-input {
+				background: #fff;
+				border-color: #ccc;
+				color: #333;
+			}
+
+			.seniority-input:focus {
+				border-color: #0c9bc2;
+			}
+
+			/* Text Colors - High Contrast */
+			.seat-title {
+				color: #111;
+			}
+
+			.position-info {
+				color: #333;
+			}
+
+			.position-info p {
+				color: #333;
+			}
+
+			.pilots-count {
+				color: #555;
+			}
+
+			.position-info strong,
+			.domicile-header,
+			.projected-badge {
+				color: #0c9bc2;
+				/* Darker blue for readability */
+			}
+
+			.projected-badge {
+				background: rgba(12, 155, 194, 0.15);
+			}
+
+			.equipment-header {
+				color: #111;
+				border-bottom-color: rgba(0, 0, 0, 0.1);
+			}
+
+			.percentile-high {
+				color: #047857;
+			}
+
+			.percentile-medium {
+				color: #b45309;
+			}
+
+			.percentile-low {
+				color: #b91c1c;
+			}
+		}
+
+		/* Color coding for percentiles */
+		.percentile-high {
+			color: #10b981;
+			font-weight: 700;
+		}
+
+		.percentile-medium {
+			color: #fbbf24;
+			font-weight: 700;
+		}
+
+		.percentile-low {
+			color: #ef4444;
+			font-weight: 700;
+		}
+
+		/* Responsive adjustments */
+		@media screen and (max-width: 768px) {
+			.seat-comparison {
+				grid-template-columns: 1fr;
+				/* Stack on mobile */
+			}
+
+			.seniority-input {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body class="">
+
+	<!-- Cookie Consent Banner -->
+	<div id="cookie-consent-banner">
+		<div class="consent-content">
+			<div class="consent-text">
+				<h3>🍪 Cookie Consent</h3>
+				<p>We use Google Analytics to understand how visitors interact with our website. This involves
+					collecting data such as your IP address (anonymized), browser type, device information, and pages
+					visited. You can <a href="privacy-policy.html#data-collection-analytics">learn more</a> in our
+					Privacy Policy or manage your preferences below.</p>
+			</div>
+			<div class="consent-buttons">
+				<button class="consent-btn consent-btn-accept" onclick="grantAnalyticsConsent()">Accept
+					Analytics</button>
+				<button class="consent-btn consent-btn-decline" onclick="denyAnalyticsConsent()">Decline</button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// Show consent banner if no choice has been made
+		document.addEventListener('DOMContentLoaded', function () {
+			const consent = localStorage.getItem('crewlu_analytics_consent');
+			if (!consent) {
+				document.getElementById('cookie-consent-banner').classList.add('show');
+			}
+		});
+	</script>
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">
+				<img src="images/Crewlu big App Logo opaque.png" alt="CrewLu" class="logo-light" />
+				<img src="images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="logo-dark" />
+			</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="import.html">How to Import</a></li>
+				<li><a href="pilot-window/index.html">Pilot Window</a></li>
+				<li><a href="turbometer/index.html">Turbometer</a></li>
+				<li class="active"><a href="seniority-lookup.html">Seniority Lookup</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Seniority Lookup Content -->
+			<section class="post">
+				<header class="major">
+					<h1>Seniority Lookup</h1>
+					<p>Enter your seniority number to see your position across all equipment types and domiciles<br />
+						for both Captain (CPT) and First Officer (FO) positions.<br />
+						Use this to compare your seniority position and make informed bidding decisions.</p>
+				</header>
+
+				<!-- Input Section -->
+				<div class="seniority-input-section">
+					<h2>Enter Your Seniority Number</h2>
+					<div class="seniority-input-wrapper">
+						<input type="number" id="seniority-input" class="seniority-input" placeholder="e.g., 534"
+							min="1" />
+						<button class="button primary" id="lookup-btn">Look Up</button>
+					</div>
+				</div>
+
+				<!-- Loading Message -->
+				<div id="loading-message" class="loading-message" style="display: none;">
+					<p>Loading pilot data...</p>
+				</div>
+
+				<!-- Error Message -->
+				<div id="error-message" class="error-message" style="display: none;"></div>
+
+				<!-- Results Container -->
+				<div id="results-container" class="results-container">
+					<div id="results-summary" class="results-summary"></div>
+					<div id="results-content"></div>
+				</div>
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Download</h3>
+					<p><a href="https://apps.apple.com/us/app/crewlu/id6747090381" class="button">Download on the App
+							Store</a></p>
+				</section>
+				<section>
+					<h3>Support</h3>
+					<p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+				</section>
+				<section>
+					<h3>Legal</h3>
+					<p><a href="privacy-policy.html">Privacy Policy</a></p>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; 2025 CrewLu. All rights reserved.</li>
+				<li>Available on the iOS App Store</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/pilot-data.js"></script>
+	<script src="assets/js/seniority-lookup.js"></script>
+
+</body>
+
+</html>
