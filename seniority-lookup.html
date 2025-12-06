@@ -379,73 +379,8 @@
 			box-shadow: 0 4px 12px rgba(12, 155, 194, 0.15);
 		}
 
-		.results-summary {
-			background: rgba(24, 191, 239, 0.1);
-			border: 1px solid rgba(24, 191, 239, 0.2);
-			color: #333;
-		}
 
-		.seniority-input-section {
-			background: rgba(255, 255, 255, 0.8);
-			border: 1px solid rgba(0, 0, 0, 0.1);
-		}
-
-		.seniority-input {
-			background: #fff;
-			border-color: #ccc;
-			color: #333;
-		}
-
-		.seniority-input:focus {
-			border-color: #0c9bc2;
-		}
-
-		/* Text Colors - High Contrast */
-		.seat-title {
-			color: #111;
-		}
-
-		.position-info {
-			color: #333;
-		}
-
-		.position-info p {
-			color: #333;
-		}
-
-		.pilots-count {
-			color: #555;
-		}
-
-		.position-info strong,
-		.domicile-header,
-		.projected-badge {
-			color: #0c9bc2;
-			/* Darker blue for readability */
-		}
-
-		.projected-badge {
-			background: rgba(12, 155, 194, 0.15);
-		}
-
-		.equipment-header {
-			color: #111;
-			border-bottom-color: rgba(0, 0, 0, 0.1);
-		}
-
-		.percentile-high {
-			color: #047857;
-		}
-
-		.percentile-medium {
-			color: #b45309;
-		}
-
-		.percentile-low {
-			color: #b91c1c;
-		}
-
-		/* Color coding for percentiles */
+		/* Color coding for percentiles (Default / Dark Mode) */
 		.percentile-high {
 			color: #10b981;
 			font-weight: 700;
@@ -459,6 +394,74 @@
 		.percentile-low {
 			color: #ef4444;
 			font-weight: 700;
+		}
+
+		@media (prefers-color-scheme: light) {
+			.results-summary {
+				background: rgba(24, 191, 239, 0.1);
+				border: 1px solid rgba(24, 191, 239, 0.2);
+				color: #333;
+			}
+
+			.seniority-input-section {
+				background: rgba(255, 255, 255, 0.8);
+				border: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			.seniority-input {
+				background: #fff;
+				border-color: #ccc;
+				color: #333;
+			}
+
+			.seniority-input:focus {
+				border-color: #0c9bc2;
+			}
+
+			/* Text Colors - High Contrast */
+			.seat-title {
+				color: #111;
+			}
+
+			.position-info {
+				color: #333;
+			}
+
+			.position-info p {
+				color: #333;
+			}
+
+			.pilots-count {
+				color: #555;
+			}
+
+			.position-info strong,
+			.domicile-header,
+			.projected-badge {
+				color: #0c9bc2;
+				/* Darker blue for readability */
+			}
+
+			.projected-badge {
+				background: rgba(12, 155, 194, 0.15);
+			}
+
+			.equipment-header {
+				color: #111;
+				border-bottom-color: rgba(0, 0, 0, 0.1);
+			}
+
+			.percentile-high {
+				color: #047857;
+			}
+
+			.percentile-medium {
+				color: #b45309;
+			}
+
+			.percentile-low {
+				color: #b91c1c;
+			}
 		}
 
 		/* Responsive adjustments */
@@ -841,7 +844,7 @@
 					<h2>Enter Your Seniority Number</h2>
 					<div class="seniority-input-wrapper">
 						<input type="number" id="seniority-input" class="seniority-input" placeholder="e.g., 534"
-							min="1" />
+							min="1" inputmode="numeric" pattern="[0-9]*" />
 						<button class="button primary" id="lookup-btn">Look Up</button>
 					</div>
 				</div>

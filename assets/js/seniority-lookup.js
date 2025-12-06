@@ -135,7 +135,7 @@
         // Create sorted list for slider mapping
         sortedSeniorityList = Array.from(validSeniorityNumbers).sort((a, b) => a - b);
 
-        // Calculate Captain Cutoff (Mosr Junior Captain)
+        // Calculate Captain Cutoff (Most Junior Captain)
         calculateCaptainCutoff();
     }
 
