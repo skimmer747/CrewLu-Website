@@ -14,6 +14,7 @@
     // Global variables
     let pilotData = null;
     let validSeniorityNumbers = new Set(); // Store valid seniority numbers for O(1) lookup
+    let sortedSeniorityList = []; // Sorted array for slider mapping
     let chartInstances = []; // Store chart instances for cleanup
 
     // DOM elements
@@ -27,6 +28,8 @@
     const $seniorityProgressWrapper = $('#seniority-progress-wrapper');
     const $progressFill = $('#progress-fill');
     const $progressIcon = $('#progress-icon');
+    const $stickyHeader = $('#sticky-seniority-header');
+    const $stickyNumber = $('#sticky-seniority-number');
 
     /**
      * Initialize the seniority lookup functionality
@@ -59,6 +62,17 @@
         $seniorityInput.on('input', function () {
             hideError();
         });
+
+        // Initialize slider interaction
+        setupSliderInteraction();
+
+        // Sticky header click - scroll back to top
+        $stickyHeader.on('click', function () {
+            $('html, body').animate({
+                scrollTop: $seniorityInput.offset().top - 200
+            }, 500);
+            $seniorityInput.focus();
+        });
     }
 
     /**
@@ -70,6 +84,7 @@
         $loadingMessage.show();
         $errorMessage.hide();
         $resultsContainer.removeClass('active');
+        $stickyHeader.removeClass('active');
         $seniorityProgressWrapper.removeClass('active');
         $progressFill.css('width', '0%');
         $progressIcon.css('left', '0%');
@@ -116,6 +131,9 @@
             }
         }
         console.log(`Loaded ${validSeniorityNumbers.size} unique pilots.`);
+
+        // Create sorted list for slider mapping
+        sortedSeniorityList = Array.from(validSeniorityNumbers).sort((a, b) => a - b);
     }
 
     /**
@@ -274,6 +292,10 @@
             <h2>Seniority #${seniorityNum}: ${statusDescription}</h2>
             <p>Use this to compare where you are and where you would be across different aircraft and domiciles.</p>
         `);
+
+        // Update sticky header
+        $stickyNumber.text(seniorityNum);
+        $stickyHeader.addClass('active');
 
         // Build HTML content - iterate through ALL equipment types and domiciles
         let html = '';
@@ -785,5 +807,86 @@
     $(document).ready(function () {
         init();
     });
+
+    /**
+     * Set up interactive slider logic
+     */
+    function setupSliderInteraction() {
+        const $track = $seniorityProgressWrapper.find('.progress-track');
+        let isDragging = false;
+
+        function updateSliderFromEvent(clientX) {
+            const rect = $track[0].getBoundingClientRect();
+            let x = clientX - rect.left;
+            let pct = Math.max(0, Math.min(1, x / rect.width));
+
+            // Update Visuals Immediate (no transition due to class)
+            $progressFill.css('width', `${pct * 100}%`);
+            $progressIcon.css('left', `${pct * 100}%`);
+
+            if (sortedSeniorityList.length === 0) return;
+
+            // Map to Seniority Number
+            // 0% (Left) -> Junior (Max Seniority) -> Index: length-1
+            // 100% (Right) -> Senior (Min Seniority) -> Index: 0
+
+            // Invert pct because 0% is Junior (High Index) and 100% is Senior (Low Index)
+            const index = Math.round((1 - pct) * (sortedSeniorityList.length - 1));
+            const safeIndex = Math.max(0, Math.min(sortedSeniorityList.length - 1, index));
+
+            const newSeniority = sortedSeniorityList[safeIndex];
+
+            // Update Input
+            $seniorityInput.val(newSeniority);
+        }
+
+        // Mouse Events
+        $track.on('mousedown', function (e) {
+            if (sortedSeniorityList.length === 0) return;
+            isDragging = true;
+            $track.addClass('is-dragging');
+            updateSliderFromEvent(e.clientX);
+            e.preventDefault(); // Prevent text selection
+        });
+
+        $(document).on('mousemove', function (e) {
+            if (!isDragging) return;
+            updateSliderFromEvent(e.clientX);
+            e.preventDefault();
+        });
+
+        $(document).on('mouseup', function (e) {
+            if (!isDragging) return;
+            isDragging = false;
+            $track.removeClass('is-dragging');
+            // Trigger lookup
+            performLookup();
+        });
+
+        // Touch Events
+        $track.on('touchstart', function (e) {
+            if (sortedSeniorityList.length === 0) return;
+            isDragging = true;
+            $track.addClass('is-dragging');
+            const touch = e.originalEvent.touches[0];
+            updateSliderFromEvent(touch.clientX);
+            // Don't prevent default here to allow potential scrolling if not horizontal?
+            // Actually, for a slider, we probably want to prevent scroll if moving horizontally.
+            // But CSS touch-action: none handles this better.
+        });
+
+        $(document).on('touchmove', function (e) {
+            if (!isDragging) return;
+            const touch = e.originalEvent.touches[0];
+            updateSliderFromEvent(touch.clientX);
+        });
+
+        $(document).on('touchend', function (e) {
+            if (!isDragging) return;
+            isDragging = false;
+            $track.removeClass('is-dragging');
+            performLookup();
+        });
+    }
 
 })(jQuery);
