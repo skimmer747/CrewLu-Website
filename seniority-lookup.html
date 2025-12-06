@@ -99,6 +99,11 @@
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 	<style>
 		/* Custom styles for Seniority Lookup page */
+		/* Override main.css wrapper overflow to allow sticky positioning */
+		#wrapper {
+			overflow: visible !important;
+		}
+
 		.seniority-input-section {
 			text-align: center;
 			padding: 3rem 0;
@@ -164,6 +169,12 @@
 			margin-bottom: 2rem;
 			padding-bottom: 0.5rem;
 			border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+			position: sticky;
+			position: -webkit-sticky;
+			top: 0;
+			z-index: 100;
+			background-color: var(--color-wrapper-bg);
+			padding-top: 10px;
 		}
 
 		/* Flattened Domicile Layout - Each domicile is a row/container */
@@ -181,6 +192,12 @@
 			color: #18bfef;
 			border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 			padding-bottom: 0.5rem;
+			position: sticky;
+			position: -webkit-sticky;
+			top: 3.5rem;
+			z-index: 90;
+			background-color: var(--color-wrapper-bg);
+			padding-top: 5px;
 		}
 
 		/* Seat Cards Grid */
