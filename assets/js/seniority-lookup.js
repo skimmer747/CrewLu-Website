@@ -295,11 +295,6 @@
 
         $resultsContent.html(html);
 
-        // Create charts after DOM is updated
-        setTimeout(() => {
-            createCharts(results);
-        }, 100);
-
         // Show results
         $resultsContainer.addClass('active');
 
@@ -307,6 +302,117 @@
         $('html, body').animate({
             scrollTop: $resultsContainer.offset().top - 100
         }, 500);
+
+        // --- FUN FACTS GENERATION ---
+
+        // 1. Calculate Global Stats
+        const globalStats = calculateGlobalStats(seniorityNum);
+
+        // 2. Generate Fun Facts
+        const funFactsHTML = generateFunFacts(seniorityNum, results, globalStats);
+
+        // 3. Inject Fun Facts
+        // We'll append this to the results summary
+        const $funFactsContainer = $('<div class="fun-facts-container"></div>').html(funFactsHTML);
+        $resultsSummary.append($funFactsContainer);
+
+        // Create charts after DOM is updated
+        setTimeout(() => {
+            createCharts(results);
+        }, 100);
+    }
+
+    /**
+     * Calculate global pilot statistics
+     * Returns: { totalPilots, myRank, percentile }
+     */
+    function calculateGlobalStats(mySeniority) {
+        // Collect ALL unique pilots from the data
+        const allPilotsSet = new Set();
+
+        for (const eqp in pilotData) {
+            for (const dom in pilotData[eqp]) {
+                for (const seat in pilotData[eqp][dom]) {
+                    const list = pilotData[eqp][dom][seat];
+                    list.forEach(p => allPilotsSet.add(p.sen));
+                }
+            }
+        }
+
+        const totalPilots = allPilotsSet.size;
+
+        // Calculate rank: how many pilots have a lower seniority number than me?
+        const allPilots = Array.from(allPilotsSet);
+        const pilotsSenior = allPilots.filter(sen => sen < mySeniority).length;
+
+        const myRank = pilotsSenior + 1;
+        const percentile = ((totalPilots - myRank + 1) / totalPilots) * 100;
+
+        return {
+            totalPilots: totalPilots,
+            myRank: myRank,
+            percentile: percentile
+        };
+    }
+
+    /**
+     * Generate HTML for Fun Facts
+     */
+    function generateFunFacts(seniorityNum, results, globalStats) {
+        let facts = [];
+
+        // --- FACT 1: Global Standing ---
+        const betterThanPercent = ((globalStats.totalPilots - globalStats.myRank) / globalStats.totalPilots * 100).toFixed(1);
+
+        facts.push({
+            icon: '🏆',
+            text: `You are number <strong>${globalStats.myRank}</strong> out of <strong>${globalStats.totalPilots}</strong> total pilots. That puts you in the top <strong>${(100 - betterThanPercent).toFixed(1)}%</strong> of the seniority list!`
+        });
+
+        // --- FACT 2: Captain Upgrades ---
+        const captainLists = results.filter(r => r.seat === 'CPT' && (r.isOnList || r.pilotsBelow > 0));
+        const allCaptainLists = results.filter(r => r.seat === 'CPT');
+
+        if (captainLists.length === allCaptainLists.length && allCaptainLists.length > 0) {
+            facts.push({
+                icon: '👨‍✈️',
+                text: "Wow! You could be <strong>Captain</strong> on <strong>ANY</strong> aircraft and domicile!"
+            });
+        } else if (captainLists.length > 0) {
+            facts.push({
+                icon: '👨‍✈️',
+                text: `You could be a <strong>Captain</strong> on ${captainLists.length} different equipment/domicile combinations!`
+            });
+        } else {
+            facts.push({
+                icon: '⏳',
+                text: `Keep climbing! You're making progress towards that Captain seat.`
+            });
+        }
+
+        // --- FACT 3: Best Relative Scenario ---
+        const bestPosResult = [...results].sort((a, b) => a.position - b.position)[0];
+
+        if (bestPosResult) {
+            facts.push({
+                icon: '🌟',
+                text: `Your best relative standing is on the <strong>${bestPosResult.eqp}</strong> in <strong>${bestPosResult.dom}</strong> as <strong>${bestPosResult.seat}</strong>, where you'd be #<strong>${bestPosResult.position}</strong> out of ${bestPosResult.totalPilots}.`
+            });
+        }
+
+        // Build HTML
+        let html = '<div class="fun-facts-list">';
+        facts.forEach(fact => {
+            html += `
+                <div class="fun-fact-item">
+                    <span class="fun-fact-icon">${fact.icon}</span>
+                    <span class="fun-fact-text">${fact.text}</span>
+                </div>
+            `;
+        });
+        html += '</div>';
+
+        return html;
     }
 
     /**
