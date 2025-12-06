@@ -661,6 +661,79 @@
 				text-align: center;
 			}
 		}
+
+		/* Progress Bar Styles */
+		.seniority-progress-wrapper {
+			display: none;
+			max-width: 800px;
+			margin: 0 auto 3rem auto;
+			padding: 0 1rem;
+		}
+
+		.seniority-progress-wrapper.active {
+			display: block;
+			animation: fadeIn 0.5s ease;
+		}
+
+		.progress-labels {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 0.5rem;
+			font-size: 0.9rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: rgba(255, 255, 255, 0.7);
+		}
+
+		.progress-track {
+			height: 6px;
+			background: rgba(255, 255, 255, 0.1);
+			border-radius: 3px;
+			position: relative;
+			margin: 1.5rem 0;
+		}
+
+		.progress-fill {
+			height: 100%;
+			background: linear-gradient(90deg, #18bfef, #0c9bc2);
+			border-radius: 3px;
+			width: 0%;
+			transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+		}
+
+		.progress-icon {
+			position: absolute;
+			top: 50%;
+			left: 0%;
+			transform: translate(-50%, -50%);
+			font-size: 1.5rem;
+			transition: left 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+			filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+		}
+
+		/* Light mode adjustments for progress bar */
+		@media (prefers-color-scheme: light) {
+			.progress-track {
+				background: rgba(0, 0, 0, 0.1);
+			}
+
+			.progress-labels {
+				color: #555;
+			}
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(10px);
+			}
+
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
 	</style>
 </head>
 
@@ -735,6 +808,18 @@
 						<input type="number" id="seniority-input" class="seniority-input" placeholder="e.g., 534"
 							min="1" />
 						<button class="button primary" id="lookup-btn">Look Up</button>
+					</div>
+				</div>
+
+				<!-- Seniority Progress Bar -->
+				<div id="seniority-progress-wrapper" class="seniority-progress-wrapper">
+					<div class="progress-labels">
+						<span>Junior</span>
+						<span>Senior</span>
+					</div>
+					<div class="progress-track">
+						<div class="progress-fill" id="progress-fill"></div>
+						<div class="progress-icon" id="progress-icon">✈️</div>
 					</div>
 				</div>
 

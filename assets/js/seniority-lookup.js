@@ -13,6 +13,7 @@
 
     // Global variables
     let pilotData = null;
+    let validSeniorityNumbers = new Set(); // Store valid seniority numbers for O(1) lookup
     let chartInstances = []; // Store chart instances for cleanup
 
     // DOM elements
@@ -23,6 +24,9 @@
     const $resultsContainer = $('#results-container');
     const $resultsSummary = $('#results-summary');
     const $resultsContent = $('#results-content');
+    const $seniorityProgressWrapper = $('#seniority-progress-wrapper');
+    const $progressFill = $('#progress-fill');
+    const $progressIcon = $('#progress-icon');
 
     /**
      * Initialize the seniority lookup functionality
@@ -63,11 +67,16 @@
     function loadPilotData() {
         $loadingMessage.show();
         $errorMessage.hide();
+        $loadingMessage.show();
+        $errorMessage.hide();
         $resultsContainer.removeClass('active');
+        $seniorityProgressWrapper.removeClass('active');
+        $progressFill.css('width', '0%');
+        $progressIcon.css('left', '0%');
 
         // Check if data was loaded via script tag (fixes CORS issues on local filesystem)
         if (typeof GLOBAL_PILOT_DATA !== 'undefined') {
-            pilotData = GLOBAL_PILOT_DATA;
+            processPilotData(GLOBAL_PILOT_DATA);
             $loadingMessage.hide();
             console.log('Seniority Lookup: Pilot data loaded from global variable');
             return;
@@ -75,7 +84,7 @@
 
         $.getJSON('assets/data/pilot-data.json')
             .done(function (data) {
-                pilotData = data;
+                processPilotData(data);
                 $loadingMessage.hide();
                 console.log('Pilot data loaded successfully');
             })
@@ -84,6 +93,29 @@
                 showError('Failed to load pilot data. Please refresh the page and try again.');
                 console.error('Error loading pilot data:', textStatus, errorThrown);
             });
+    }
+
+    /**
+     * Process pilot data and build lookup set
+     */
+    function processPilotData(data) {
+        pilotData = data;
+        validSeniorityNumbers.clear();
+
+        // Iterate through all data to find all valid seniority numbers
+        for (const eqp in pilotData) {
+            for (const dom in pilotData[eqp]) {
+                for (const seat in pilotData[eqp][dom]) {
+                    const pilots = pilotData[eqp][dom][seat];
+                    if (pilots && Array.isArray(pilots)) {
+                        pilots.forEach(p => {
+                            if (p.sen) validSeniorityNumbers.add(p.sen);
+                        });
+                    }
+                }
+            }
+        }
+        console.log(`Loaded ${validSeniorityNumbers.size} unique pilots.`);
     }
 
     /**
@@ -104,11 +136,19 @@
             return;
         }
 
+        // Check if seniority number exists in our data
+        if (!validSeniorityNumbers.has(seniorityNum)) {
+            showError('That number does not exist');
+            $resultsContainer.removeClass('active');
+            return;
+        }
+
         // Find all positions for this seniority number
         const results = findPilotPositions(seniorityNum);
 
         if (results.length === 0) {
-            showError(`No pilot found with seniority number ${seniorityNum}. Please check your number and try again.`);
+            // This should be caught by the check above, but as a fallback
+            showError(`That number does not exist`);
             $resultsContainer.removeClass('active');
             return;
         }
@@ -171,6 +211,9 @@
                     // Percentile = (pilotsBelow / totalPilots) * 100
                     percentile = (pilotsBelow / totalPilots) * 100;
 
+                    // Get junior pilot's seniority for "distance to upgrade" calc
+                    const juniorSeniority = pilots[pilots.length - 1].sen;
+
                     results.push({
                         eqp: eqp,
                         dom: dom,
@@ -181,7 +224,8 @@
                         pilotsAbove: pilotsAbove,
                         pilotsBelow: pilotsBelow,
                         percentile: percentile,
-                        isOnList: existingPilotIndex !== -1
+                        isOnList: existingPilotIndex !== -1,
+                        juniorSeniority: juniorSeniority
                     });
                 }
             }
@@ -209,17 +253,25 @@
 
         // Count positions found
         const positionsFound = results.length;
-        const totalCombinations = countTotalCombinations();
+        const totalCombinations = results.length;
 
-        // Count how many positions they're actually on vs projected
-        const actualPositions = results.filter(r => r.isOnList).length;
-        const projectedPositions = results.filter(r => !r.isOnList).length;
+        // Identify current positions
+        const currentPositions = results.filter(r => r.isOnList);
+
+        // Generate description of current status
+        let statusDescription = '';
+        if (currentPositions.length > 0) {
+            statusDescription = currentPositions.map(r => {
+                const seatName = r.seat === 'CPT' ? 'Captain' : 'First Officer';
+                return `<strong>${r.eqp} ${seatName} based in ${r.dom}</strong>`;
+            }).join(', ');
+        } else {
+            statusDescription = 'Not currently on any list';
+        }
 
         // Update summary
         $resultsSummary.html(`
-            <h2>Seniority #${seniorityNum}</h2>
-            <p>Showing all ${totalCombinations} equipment/domicile combinations</p>
-            <p>Currently on ${actualPositions} list${actualPositions !== 1 ? 's' : ''}, projected position shown for ${projectedPositions} other combination${projectedPositions !== 1 ? 's' : ''}</p>
+            <h2>Seniority #${seniorityNum}: ${statusDescription}</h2>
             <p>Use this to compare where you are and where you would be across different aircraft and domiciles.</p>
         `);
 
@@ -320,6 +372,25 @@
         setTimeout(() => {
             createCharts(results);
         }, 100);
+
+        // --- UPDATE PROGRESS BAR ---
+        // Reuse the calculated percentile from globalStats
+        // Note: globalStats.percentile is "percentile based on rank", where 100% = Top (Senior)
+        // We want the bar to go from Left (Junior) to Right (Senior)
+        // So 100% percentile (Senior) should be 100% width (Right)
+
+        let progressPercent = globalStats.percentile;
+
+        // Clamp between 0 and 100
+        progressPercent = Math.max(0, Math.min(100, progressPercent));
+
+        $seniorityProgressWrapper.addClass('active');
+
+        // Small delay to allow fade-in before animating width
+        setTimeout(() => {
+            $progressFill.css('width', `${progressPercent}%`);
+            $progressIcon.css('left', `${progressPercent}%`);
+        }, 100);
     }
 
     /**
@@ -357,13 +428,32 @@
 
     /**
      * Generate HTML for Fun Facts
+     */
+    function generateFunFacts(seniorityNum, results, globalStats) {
+        const facts = [];
+
+        // Determine if pilot is a Captain (currently on any CPT list)
+        const isCaptain = results.some(r => r.seat === 'CPT' && r.isOnList);
+
+        // --- FACT 1: Captain Upgrade Potential / Status ---
+        // Count lists where:
+        // 1. You are already ON the list (isOnList)
+        // 2. OR you are senior to at least one person on that list (pilotsBelow > 0)
+        //    (This implies you could hold the line if you bid it, ignoring vacancy logic)
+        const potentialCaptainLists = results.filter(r => r.seat === 'CPT' && (r.isOnList || r.pilotsBelow > 0));
+
+        // Count total CPT combinations
+        const totalCptCombinations = results.filter(r => r.seat === 'CPT').length;
+
+        if (potentialCaptainLists.length >= totalCptCombinations && totalCptCombinations > 0) {
+            facts.push({
                 icon: '👨‍✈️',
                 text: "Wow! You could be <strong>Captain</strong> on <strong>ANY</strong> aircraft and domicile!"
             });
-        } else if (captainLists.length > 0) {
+        } else if (potentialCaptainLists.length > 0) {
             facts.push({
                 icon: '👨‍✈️',
-                text: `You could be a <strong>Captain</strong> on ${captainLists.length} different equipment/domicile combinations!`
+                text: `You could be a <strong>Captain</strong> on ${potentialCaptainLists.length} different equipment/domicile combinations!`
             });
         } else {
             facts.push({
@@ -372,14 +462,75 @@
             });
         }
 
-        // --- FACT 3: Best Relative Scenario ---
-        const bestPosResult = [...results].sort((a, b) => a.position - b.position)[0];
+        // --- FACT 3: Best Relative Standing ---
+        // Prepare Captain results
+        let cptResults = results.filter(r => r.seat === 'CPT');
 
-        if (bestPosResult) {
-            facts.push({
-                icon: '🌟',
-                text: `Your best relative standing is on the <strong>${bestPosResult.eqp}</strong> in <strong>${bestPosResult.dom}</strong> as <strong>${bestPosResult.seat}</strong>, where you'd be #<strong>${bestPosResult.position}</strong> out of ${bestPosResult.totalPilots}.`
+        // Check if we have any "reachable" Captain positions (on list or senior to someone)
+        const reachableCapt = cptResults.some(r => r.isOnList || r.pilotsBelow > 0);
+
+        if (reachableCapt) {
+            // Sort by PERCENTILE (descending)
+            cptResults.sort((a, b) => b.percentile - a.percentile);
+        } else {
+            // If NOT reachable on any list, sort by "Distance to Upgrade" (ascending)
+            // Distance = seniorityNum - juniorSeniority (smaller is better/closer)
+            cptResults.sort((a, b) => {
+                const distA = seniorityNum - a.juniorSeniority;
+                const distB = seniorityNum - b.juniorSeniority;
+                return distA - distB;
             });
+        }
+
+        const foResults = results.filter(r => r.seat === 'FO').sort((a, b) => b.percentile - a.percentile);
+
+        const bestCapt = cptResults.length > 0 ? cptResults[0] : null;
+        const bestFO = foResults.length > 0 ? foResults[0] : null;
+
+        if (isCaptain) {
+            // CAPTAIN LOGIC: Only show best Captain stats
+            if (bestCapt) {
+                // If OFF THE LIST (position > totalPilots), show "numbers away"
+                if (bestCapt.position > bestCapt.totalPilots) {
+                    const diff = seniorityNum - bestCapt.juniorSeniority;
+                    facts.push({
+                        icon: '🔜',
+                        text: `You are only <strong>${diff}</strong> numbers from a Captain upgrade on the <strong>${bestCapt.eqp}</strong> in <strong>${bestCapt.dom}</strong>.`
+                    });
+                } else {
+                    const topPercent = (100 - bestCapt.percentile).toFixed(1);
+                    facts.push({
+                        icon: '🌟',
+                        text: `Your best relative standing is on the <strong>${bestCapt.eqp}</strong> in <strong>${bestCapt.dom}</strong> as <strong>Captain</strong>, where you'd be in the <strong>Top ${topPercent}%</strong> (#<strong>${bestCapt.position}</strong> out of ${bestCapt.totalPilots}).`
+                    });
+                }
+            }
+        } else {
+            // FO / NEW HIRE LOGIC: Show BOTH
+            if (bestCapt) {
+                // Captain Logic
+                if (bestCapt.position > bestCapt.totalPilots) {
+                    const diff = seniorityNum - bestCapt.juniorSeniority;
+                    facts.push({
+                        icon: '🔜',
+                        text: `You are only <strong>${diff}</strong> numbers from a Captain upgrade on the <strong>${bestCapt.eqp}</strong> in <strong>${bestCapt.dom}</strong>.`
+                    });
+                } else {
+                    const topPercent = (100 - bestCapt.percentile).toFixed(1);
+                    facts.push({
+                        icon: '🌟',
+                        text: `Your best relative standing as <strong>Captain</strong> would be on the <strong>${bestCapt.eqp}</strong> in <strong>${bestCapt.dom}</strong>, where you'd be in the <strong>Top ${topPercent}%</strong> (#<strong>${bestCapt.position}</strong> out of ${bestCapt.totalPilots}).`
+                    });
+                }
+            }
+            if (bestFO) {
+                // FO Logic
+                const topPercent = (100 - bestFO.percentile).toFixed(1);
+                facts.push({
+                    icon: '👨‍✈️',
+                    text: `Your best relative standing as <strong>First Officer</strong> is on the <strong>${bestFO.eqp}</strong> in <strong>${bestFO.dom}</strong>, where you'd be in the <strong>Top ${topPercent}%</strong> (#<strong>${bestFO.position}</strong> out of ${bestFO.totalPilots}).`
+                });
+            }
         }
 
         // Build HTML
@@ -395,25 +546,6 @@
         html += '</div>';
 
         return html;
-    }
-
-    /**
-     * Count total number of equipment/domicile/seat combinations
-     */
-    function countTotalCombinations() {
-        let count = 0;
-        for (const eqp in pilotData) {
-            for (const dom in pilotData[eqp]) {
-                // Count both CPT and FO for each combination
-                if (pilotData[eqp][dom]['CPT'] && pilotData[eqp][dom]['CPT'].length > 0) {
-                    count++;
-                }
-                if (pilotData[eqp][dom]['FO'] && pilotData[eqp][dom]['FO'].length > 0) {
-                    count++;
-                }
-            }
-        }
-        return count;
     }
 
     /**
