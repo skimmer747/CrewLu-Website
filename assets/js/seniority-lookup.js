@@ -357,24 +357,6 @@
 
     /**
      * Generate HTML for Fun Facts
-     */
-    function generateFunFacts(seniorityNum, results, globalStats) {
-        let facts = [];
-
-        // --- FACT 1: Global Standing ---
-        const betterThanPercent = ((globalStats.totalPilots - globalStats.myRank) / globalStats.totalPilots * 100).toFixed(1);
-
-        facts.push({
-            icon: '🏆',
-            text: `You are number <strong>${globalStats.myRank}</strong> out of <strong>${globalStats.totalPilots}</strong> total pilots. That puts you in the top <strong>${(100 - betterThanPercent).toFixed(1)}%</strong> of the seniority list!`
-        });
-
-        // --- FACT 2: Captain Upgrades ---
-        const captainLists = results.filter(r => r.seat === 'CPT' && (r.isOnList || r.pilotsBelow > 0));
-        const allCaptainLists = results.filter(r => r.seat === 'CPT');
-
-        if (captainLists.length === allCaptainLists.length && allCaptainLists.length > 0) {
-            facts.push({
                 icon: '👨‍✈️',
                 text: "Wow! You could be <strong>Captain</strong> on <strong>ANY</strong> aircraft and domicile!"
             });
