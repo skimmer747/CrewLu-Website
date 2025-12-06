@@ -225,6 +225,16 @@
 			border: 1px dashed rgba(24, 191, 239, 0.5);
 		}
 
+		.seat-card-current {
+			border: 2px solid #18bfef;
+			background: rgba(24, 191, 239, 0.08);
+			/* Subtle blue tint */
+			box-shadow: 0 0 20px rgba(24, 191, 239, 0.15);
+			transform: scale(1.02);
+			/* Slight scale up to pop */
+			z-index: 10;
+		}
+
 		/* Badge Styling */
 		.seat-header {
 			display: flex;
@@ -251,6 +261,18 @@
 			text-transform: uppercase;
 			letter-spacing: 1px;
 			font-weight: bold;
+		}
+
+		.current-badge {
+			font-size: 0.8rem;
+			background: #18bfef;
+			padding: 0.3rem 0.6rem;
+			border-radius: 4px;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: bold;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 		}
 
 		.position-info {
@@ -337,6 +359,12 @@
 			.seat-card-projected {
 				border: 1px dashed rgba(24, 191, 239, 0.6);
 				background: #fdfdfd;
+			}
+
+			.seat-card-current {
+				border: 2px solid #0c9bc2;
+				background: #f0f9ff;
+				box-shadow: 0 4px 12px rgba(12, 155, 194, 0.15);
 			}
 
 			.results-summary {

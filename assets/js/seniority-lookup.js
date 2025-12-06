@@ -361,8 +361,8 @@
         const chartId = `chart-${result.eqp}-${result.dom}-${seatType}`;
 
         return `
-            <div class="seat-card">
-                <div class="seat-title">${seatType}</div>
+            <div class="seat-card seat-card-current">
+                <div class="seat-title">${seatType} <span class="current-badge">THIS IS YOU</span></div>
                 <div class="position-info">
                     <p><strong>Position:</strong> ${result.position} of ${result.totalPilots}</p>
                     <p><strong class="${percentileClass}">Percentile:</strong> ${result.percentile.toFixed(1)}%</p>
