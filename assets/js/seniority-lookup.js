@@ -124,7 +124,7 @@
                     const pilots = pilotData[eqp][dom][seat];
                     if (pilots && Array.isArray(pilots)) {
                         pilots.forEach(p => {
-                            if (p.sen) validSeniorityNumbers.add(p.sen);
+                            if (p.sen) validSeniorityNumbers.add(parseInt(p.sen, 10));
                         });
                     }
                 }
@@ -134,6 +134,57 @@
 
         // Create sorted list for slider mapping
         sortedSeniorityList = Array.from(validSeniorityNumbers).sort((a, b) => a - b);
+
+        // Calculate Captain Cutoff (Mosr Junior Captain)
+        calculateCaptainCutoff();
+    }
+
+    /**
+     * Calculate and display the Captain cutoff marker
+     */
+    function calculateCaptainCutoff() {
+        let maxCaptainSeniority = 0;
+
+        for (const eqp in pilotData) {
+            for (const dom in pilotData[eqp]) {
+                const captains = pilotData[eqp][dom]['CPT'];
+                if (captains && captains.length > 0) {
+                    // Find the junior-most captain in this list
+                    // (Lists are sorted by seniority, so last item is junior-most)
+                    const juniorCapt = parseInt(captains[captains.length - 1].sen, 10);
+                    if (juniorCapt > maxCaptainSeniority) {
+                        maxCaptainSeniority = juniorCapt;
+                    }
+                }
+            }
+        }
+        console.log('Max Captain Seniority (Junior-most):', maxCaptainSeniority);
+
+        if (maxCaptainSeniority > 0 && sortedSeniorityList.length > 0) {
+            // Calculate position percentage
+            // Same logic as slider:
+            // 0% (Left) -> Junior (Max Seniority)
+            // 100% (Right) -> Senior (Min Seniority)
+
+            // Find index of maxCaptainSeniority (or closest match)
+            // Since we want the marker at the exact spot
+            const index = sortedSeniorityList.indexOf(maxCaptainSeniority);
+            console.log('Captain Marker:', maxCaptainSeniority, 'Index:', index, 'Total:', sortedSeniorityList.length);
+
+            if (index !== -1) {
+                // Determine percentage
+                // index 0 -> 100% (Right)
+                // index Max -> 0% (Left)
+
+                // pct = 1 - (index / (total - 1))
+                const pct = 1 - (index / (sortedSeniorityList.length - 1));
+
+                const $marker = $('#cpt-marker');
+                $marker.css('left', `${pct * 100}%`);
+                $marker.show();
+                $marker.attr('title', `Most Junior Captain (Sen: ${maxCaptainSeniority})`);
+            }
+        }
     }
 
     /**

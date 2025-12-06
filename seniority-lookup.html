@@ -376,116 +376,85 @@
 			height: 120px;
 			border-radius: 50%;
 			border: 2px solid transparent;
-			transform: translate(-50%, -50%);
-			pointer-events: none;
-			transition: all 0.3s ease;
+			border: 1px solid rgba(0, 0, 0, 0.08);
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
 		}
 
-		.percentile-chart-container:hover::after {
-			width: 150px;
-			height: 150px;
-			border-color: rgba(24, 191, 239, 0.3);
+		.seat-card-projected {
+			border: 1px dashed rgba(24, 191, 239, 0.6);
+			background: #fdfdfd;
+		}
+
+		.seat-card-current {
+			border: 2px solid #0c9bc2;
+			background: #f0f9ff;
+			box-shadow: 0 4px 12px rgba(12, 155, 194, 0.15);
+		}
+
+		.results-summary {
+			background: rgba(24, 191, 239, 0.1);
+			border: 1px solid rgba(24, 191, 239, 0.2);
+			color: #333;
+		}
+
+		.seniority-input-section {
+			background: rgba(255, 255, 255, 0.8);
+			border: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		.seniority-input {
+			background: #fff;
+			border-color: #ccc;
+			color: #333;
+		}
+
+		.seniority-input:focus {
+			border-color: #0c9bc2;
+		}
+
+		/* Text Colors - High Contrast */
+		.seat-title {
+			color: #111;
+		}
+
+		.position-info {
+			color: #333;
+		}
+
+		.position-info p {
+			color: #333;
 		}
 
 		.pilots-count {
-			font-size: 1.05rem;
-			color: rgba(255, 255, 255, 0.7);
-			margin-top: auto;
-			/* Push to bottom */
-			line-height: 1.6;
+			color: #555;
 		}
 
-		/* Light mode adjustments */
-		@media (prefers-color-scheme: light) {
-			.domicile-container {
-				background: #f8f9fa;
-				/* Very light grey */
-				border: 1px solid rgba(0, 0, 0, 0.1);
-				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-			}
+		.position-info strong,
+		.domicile-header,
+		.projected-badge {
+			color: #0c9bc2;
+			/* Darker blue for readability */
+		}
 
-			.seat-card {
-				background: #ffffff;
-				border: 1px solid rgba(0, 0, 0, 0.08);
-				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
-			}
+		.projected-badge {
+			background: rgba(12, 155, 194, 0.15);
+		}
 
-			.seat-card-projected {
-				border: 1px dashed rgba(24, 191, 239, 0.6);
-				background: #fdfdfd;
-			}
+		.equipment-header {
+			color: #111;
+			border-bottom-color: rgba(0, 0, 0, 0.1);
+		}
 
-			.seat-card-current {
-				border: 2px solid #0c9bc2;
-				background: #f0f9ff;
-				box-shadow: 0 4px 12px rgba(12, 155, 194, 0.15);
-			}
+		.percentile-high {
+			color: #047857;
+		}
 
-			.results-summary {
-				background: rgba(24, 191, 239, 0.1);
-				border: 1px solid rgba(24, 191, 239, 0.2);
-				color: #333;
-			}
+		.percentile-medium {
+			color: #b45309;
+		}
 
-			.seniority-input-section {
-				background: rgba(255, 255, 255, 0.8);
-				border: 1px solid rgba(0, 0, 0, 0.1);
-			}
-
-			.seniority-input {
-				background: #fff;
-				border-color: #ccc;
-				color: #333;
-			}
-
-			.seniority-input:focus {
-				border-color: #0c9bc2;
-			}
-
-			/* Text Colors - High Contrast */
-			.seat-title {
-				color: #111;
-			}
-
-			.position-info {
-				color: #333;
-			}
-
-			.position-info p {
-				color: #333;
-			}
-
-			.pilots-count {
-				color: #555;
-			}
-
-			.position-info strong,
-			.domicile-header,
-			.projected-badge {
-				color: #0c9bc2;
-				/* Darker blue for readability */
-			}
-
-			.projected-badge {
-				background: rgba(12, 155, 194, 0.15);
-			}
-
-			.equipment-header {
-				color: #111;
-				border-bottom-color: rgba(0, 0, 0, 0.1);
-			}
-
-			.percentile-high {
-				color: #047857;
-			}
-
-			.percentile-medium {
-				color: #b45309;
-			}
-
-			.percentile-low {
-				color: #b91c1c;
-			}
+		.percentile-low {
+			color: #b91c1c;
 		}
 
 		/* Color coding for percentiles */
@@ -717,7 +686,8 @@
 		.progress-labels {
 			display: flex;
 			justify-content: space-between;
-			margin-bottom: 0.5rem;
+			margin-bottom: 0.1rem;
+			/* Reduced from 0.5rem */
 			font-size: 0.9rem;
 			font-weight: 600;
 			text-transform: uppercase;
@@ -730,7 +700,8 @@
 			background: rgba(255, 255, 255, 0.1);
 			border-radius: 3px;
 			position: relative;
-			margin: 1.5rem 0;
+			margin: 0.5rem 0 1.5rem 0;
+			/* Reduced top margin from 1.5rem */
 			cursor: pointer;
 			/* Make it clickable */
 			touch-action: none;
@@ -761,21 +732,11 @@
 			filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 			cursor: grab;
 			/* distinct cursor */
+			z-index: 10;
 		}
 
 		.progress-track.is-dragging .progress-icon {
 			cursor: grabbing;
-		}
-
-		/* Light mode adjustments for progress bar */
-		@media (prefers-color-scheme: light) {
-			.progress-track {
-				background: rgba(0, 0, 0, 0.1);
-			}
-
-			.progress-labels {
-				color: #555;
-			}
 		}
 
 		@keyframes fadeIn {
@@ -787,6 +748,37 @@
 			to {
 				opacity: 1;
 				transform: translateY(0);
+			}
+		}
+
+		.progress-marker {
+			position: absolute;
+			top: -6px;
+			bottom: -6px;
+			width: 4px;
+			background-color: #ffd700;
+			/* Gold */
+			box-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+			z-index: 5;
+			display: none;
+			/* Hidden until set */
+			border-radius: 2px;
+			pointer-events: none;
+			/* Let clicks pass through to track */
+		}
+
+		/* Light mode adjustments for progress bar */
+		@media (prefers-color-scheme: light) {
+			.progress-track {
+				background: rgba(0, 0, 0, 0.15);
+				/* Darker for visibility */
+				border: 1px solid rgba(0, 0, 0, 0.05);
+				/* Slight border definition */
+			}
+
+			.progress-labels {
+				color: #333;
+				font-weight: 700;
 			}
 		}
 	</style>
@@ -874,6 +866,7 @@
 					</div>
 					<div class="progress-track">
 						<div class="progress-fill" id="progress-fill"></div>
+						<div class="progress-marker" id="cpt-marker" title="Most Junior Captain"></div>
 						<div class="progress-icon" id="progress-icon">✈️</div>
 					</div>
 				</div>
