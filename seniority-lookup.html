@@ -756,6 +756,32 @@
 			/* Let clicks pass through to track */
 		}
 
+
+		/* Footer Download Section */
+		.footer-download-section {
+			display: flex !important;
+			justify-content: center !important;
+			text-align: center;
+		}
+
+		.footer-download-content {
+			width: 100% !important;
+			max-width: 600px;
+			margin: 0 auto !important;
+			flex-shrink: 1 !important;
+			flex-grow: 1 !important;
+		}
+
+		.footer-disclaimer-text {
+			margin-bottom: 1rem;
+			text-align: center;
+		}
+
+		.footer-download-link {
+			margin-bottom: 0;
+			text-align: center;
+		}
+
 		/* Light mode adjustments for progress bar */
 		@media (prefers-color-scheme: light) {
 			.progress-track {
@@ -769,6 +795,10 @@
 				color: #333;
 				font-weight: 700;
 			}
+		}
+
+		@media screen and (max-width: 768px) {
+			/* No specific overrides needed now as it's centered by default */
 		}
 	</style>
 </head>
@@ -883,14 +913,13 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<section class="split contact">
-				<section class="alt" style="display: block;">
-					<p style="margin-bottom: 1rem; width: 100%; text-align: center;"><em>Seniority numbers may be
-							different depending on
-							your source. But
-							it should be very close.</em></p>
-					<div style="display: flex; align-items: center;">
-						<h3 style="width: 6rem; flex-shrink: 0; margin-bottom: 0;">Download</h3>
-						<p style="margin-bottom: 0;"><a href="https://apps.apple.com/us/app/crewlu/id6747090381"
+				<section class="footer-download-section">
+					<div class="footer-download-content">
+						<p class="footer-disclaimer-text"><em>Seniority numbers may be
+								different depending on
+								your source. But
+								it should be very close.</em></p>
+						<p class="footer-download-link"><a href="https://apps.apple.com/us/app/crewlu/id6747090381"
 								class="button">Download on the App
 								Store</a></p>
 					</div>
