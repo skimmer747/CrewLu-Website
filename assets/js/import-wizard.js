@@ -3,7 +3,7 @@
  * Provides interactive step-by-step import instructions
  */
 
-(function($) {
+(function ($) {
     'use strict';
 
     // Wizard state
@@ -25,76 +25,16 @@
     let $restartBtn;
     let $loadingMessage;
     let $progressIndicator;
-    let $windVisualization;
 
-    // Wind difficulty data - maps instruction keys to wind conditions (bearing/knots format)
-    // Format: "bearing/knots" where bearing is wind direction in degrees, knots is wind speed
-    // Runway heading: 350° (35R)
-    // User will populate these values manually
-    const windDifficultyData = {
-        // Legacy/simple methods
-        "iphone-email": "",
-        "iphone-website": "",
-        "ipad-email": "",
-        "mac-website": "",
-        "efk-tablet-pdf": "",
-        
-        // Full Roster methods
-        "fullroster-iphone-iphone": "080/36",  // Example: 36kt crosswind (hardest)
-        "fullroster-ipad-ipad": "020/12",
-        "fullroster-iphone-ipad": "",
-        "fullroster-iphone-efk-no": "",
-        "fullroster-iphone-efk-yes": "",
-        "fullroster-ipad-efk-no": "",
-        "fullroster-ipad-efk-yes": "",
-        "fullroster-iphone-mac": "",
-        "fullroster-ipad-mac": "",
-        "fullroster-efk": "",
-        
-        // One Trip methods
-        "onetrip-iphone-iphone": "",
-        "onetrip-ipad-ipad": "",
-        "onetrip-iphone-ipad": "",
-        "onetrip-iphone-mac": "",
-        "onetrip-ipad-mac": "",
-        "onetrip-iphone-efk-no": "",
-        "onetrip-iphone-efk-yes": "",
-        "onetrip-ipad-efk-no": "",
-        "onetrip-ipad-efk-yes": "",
-        "onetrip-efk": "",
-        
-        // Jumpseat methods
-        "deadhead-iphone-iphone": "",
-        "deadhead-iphone-efk-no": "",
-        "deadhead-ipad-ipad": "",
-        "deadhead-iphone-efk-yes": "",
-        "deadhead-ipad-efk-no": "",
-        "deadhead-ipad-efk-yes": "",
-        "deadhead-iphone-ipad": "",
-        "deadhead-ipad-iphone": "",
-        "deadhead-iphone-mac": "",
-        "deadhead-ipad-mac": "",
-        "deadhead-efk": "",
-        
-        // Crewmembers methods
-        "crewmembers-all": "",
-        "crewmembers-individual": "",
-        
-        // Catering methods
-        "catering-iphone-iphone": "",
-        "catering-iphone-ipad": "",
-        "catering-iphone-mac": "",
-        "catering-ipad-iphone": "",
-        "catering-ipad-ipad": "",
-        "catering-ipad-mac": ""
-    };
+
+
 
     // Convert URLs in text to clickable links
     function convertUrlsToLinks(text) {
         // Regular expression to match URLs
         const urlRegex = /(https?:\/\/[^\s]+)/g;
 
-        return text.replace(urlRegex, function(url) {
+        return text.replace(urlRegex, function (url) {
             // Check if it's an iCloud shortcuts URL and use descriptive text
             let linkText = url;
             if (url.includes('icloud.com/shortcuts')) {
@@ -124,7 +64,7 @@
         $restartBtn = $('#restart-btn');
         $loadingMessage = $('#loading-message');
         $progressIndicator = $('#wizard-progress');
-        $windVisualization = $('#wind-visualization');
+
 
         // Load workflow data
         loadWorkflowData();
@@ -136,12 +76,12 @@
     // Load the workflow JSON data
     function loadWorkflowData() {
         $.getJSON('import-workflow.json')
-            .done(function(data) {
+            .done(function (data) {
                 wizardData = data;
                 $loadingMessage.hide();
                 startWizard();
             })
-            .fail(function() {
+            .fail(function () {
                 $loadingMessage.html('<div class="box error"><p><strong>Error:</strong> Could not load the import wizard. Please refresh the page and try again.</p></div>');
             });
     }
@@ -149,17 +89,17 @@
     // Set up event listeners
     function setupEventListeners() {
         // Back button
-        $backBtn.on('click', function() {
+        $backBtn.on('click', function () {
             goBack();
         });
 
         // Restart button
-        $restartBtn.on('click', function() {
+        $restartBtn.on('click', function () {
             restartWizard();
         });
 
         // Summary text clicks (for editing previous choices)
-        $summaryText.on('click', '.editable-choice', function() {
+        $summaryText.on('click', '.editable-choice', function () {
             const stepId = $(this).data('step');
             goToStep(stepId);
         });
@@ -179,7 +119,7 @@
         startWizard();
         $instructionsArea.hide();
         $summaryArea.hide();
-        $windVisualization.hide();
+
         $restartBtn.hide();
         $backBtn.hide();
     }
@@ -217,15 +157,15 @@
         // up to (but not including) the target step
         stepHistory = [];
         let traceStep = 'import_type';
-        
+
         while (traceStep !== targetStep && stepHistory.length < 10) {
             if (userChoices[traceStep]) {
                 stepHistory.push(traceStep);
-                
+
                 // Find next step based on this choice
                 const stepData = wizardData.workflow[traceStep];
                 const selectedOption = stepData.options.find(opt => opt.id === userChoices[traceStep].id);
-                
+
                 if (selectedOption) {
                     traceStep = selectedOption.next;
                 } else {
@@ -235,31 +175,31 @@
                 break;
             }
         }
-        
+
         // Now delete the target step choice and all choices after it
         // Trace from target step forward and delete everything
         let deleteStep = targetStep;
         let safetyCounter = 0;
-        
+
         while (deleteStep && deleteStep !== 'instructions' && safetyCounter < 10) {
             safetyCounter++;
-            
+
             if (userChoices[deleteStep]) {
                 // Find what the next step would be before we delete this choice
                 const stepData = wizardData.workflow[deleteStep];
                 const selectedOption = stepData.options.find(opt => opt.id === userChoices[deleteStep].id);
                 const nextStep = selectedOption ? selectedOption.next : null;
-                
+
                 // Delete this step's choice
                 delete userChoices[deleteStep];
-                
+
                 // Move to next step
                 deleteStep = nextStep;
             } else {
                 break;
             }
         }
-        
+
         currentStep = targetStep;
 
         showStep(currentStep);
@@ -301,7 +241,7 @@
 
             // When importing catering or altour tickets, don't show EFK as a device option
             if (importType === 'catering' || importType === 'altour_ticket') {
-                filteredOptions = stepData.options.filter(function(option) {
+                filteredOptions = stepData.options.filter(function (option) {
                     return option.id !== 'efk';
                 });
             }
@@ -311,7 +251,7 @@
             // Filter based on import type
             if (userChoices.import_type && (userChoices.import_type.id === 'catering' || userChoices.import_type.id === 'altour_ticket')) {
                 // When importing catering or altour tickets, don't show EFK as a data source option
-                filteredOptions = stepData.options.filter(function(option) {
+                filteredOptions = stepData.options.filter(function (option) {
                     return option.id !== 'efk';
                 });
             }
@@ -324,14 +264,14 @@
                 // Special handling for Full Roster or One Trip on personal iPad
                 if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'ipad') {
                     // Only show personal iPad, Mac, and EFK as data source options
-                    filteredOptions = stepData.options.filter(function(option) {
+                    filteredOptions = stepData.options.filter(function (option) {
                         return option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
                     });
                 }
                 // Special handling for Full Roster or One Trip on iPhone
                 else if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'iphone') {
                     // Only show iPhone, Mac, and EFK as data source options
-                    filteredOptions = stepData.options.filter(function(option) {
+                    filteredOptions = stepData.options.filter(function (option) {
                         return option.id === 'iphone' || option.id === 'mac' || option.id === 'efk';
                     });
                 }
@@ -341,7 +281,7 @@
                 } else {
                     // For other import types, when importing to EFK, only show EFK as data source
                     if (selectedDevice === 'efk') {
-                        filteredOptions = stepData.options.filter(function(option) {
+                        filteredOptions = stepData.options.filter(function (option) {
                             return option.id === 'efk';
                         });
                     }
@@ -349,7 +289,7 @@
             }
         }
 
-        filteredOptions.forEach(function(option) {
+        filteredOptions.forEach(function (option) {
             const $optionBtn = $('<button>')
                 .addClass('button option-btn')
                 .text(option.label)
@@ -360,7 +300,7 @@
         });
 
         // Add click handlers for option buttons
-        $('.option-btn').on('click', function() {
+        $('.option-btn').on('click', function () {
             const optionId = $(this).data('option-id');
             const nextStep = $(this).data('next-step');
             const selectedLabel = $(this).text();
@@ -443,7 +383,7 @@
                 instructionsHtml += '</div><hr class="summary-divider">';
             }
 
-            instructions.steps.forEach(function(step, index) {
+            instructions.steps.forEach(function (step, index) {
                 instructionsHtml += '<div class="instruction-step">';
                 instructionsHtml += `<h3>Step ${index + 1}</h3>`;
                 instructionsHtml += `<p>${convertUrlsToLinks(step.text)}</p>`;
@@ -452,7 +392,7 @@
                 if (step.media) {
                     const mediaItems = Array.isArray(step.media) ? step.media : [step.media];
 
-                    mediaItems.forEach(function(media, mediaIndex) {
+                    mediaItems.forEach(function (media, mediaIndex) {
                         const mediaPath = (media.file.startsWith('../') || media.file.startsWith('images/')) ? media.file : `import-guide-media/${media.file}`;
                         const caption = media.caption || '';
 
@@ -537,157 +477,13 @@
         return key;
     }
 
-    // Parse wind format (bearing/knots)
-    // Format: "350/00" where 350 is wind bearing in degrees, 00 is wind speed in knots
-    function parseWindCondition(windStr) {
-        if (!windStr || windStr.trim() === '') {
-            return null;
-        }
 
-        const parts = windStr.split('/');
-        if (parts.length !== 2) {
-            console.warn('Invalid wind format:', windStr);
-            return null;
-        }
-
-        const bearing = parseInt(parts[0].trim(), 10);
-        const knots = parseInt(parts[1].trim(), 10);
-
-        if (isNaN(bearing) || isNaN(knots)) {
-            console.warn('Invalid wind values:', windStr);
-            return null;
-        }
-
-        return { bearing, knots };
-    }
-
-    // Calculate wind angle relative to runway heading
-    // Runway heading: 350° (35R)
-    // Returns: angle difference in degrees (0-180)
-    function calculateWindAngleRelativeToRunway(windBearing, runwayHeading = 350) {
-        // Normalize bearings to 0-360
-        let normalizedWind = windBearing % 360;
-        if (normalizedWind < 0) normalizedWind += 360;
-
-        // Calculate the smaller angle difference
-        let angleDiff = Math.abs(normalizedWind - runwayHeading);
-        if (angleDiff > 180) {
-            angleDiff = 360 - angleDiff;
-        }
-
-        return angleDiff;
-    }
-
-    // Calculate crosswind component
-    // Formula: crosswind = wind_speed * sin(angle_diff)
-    function calculateCrosswindComponent(windBearing, windSpeed, runwayHeading = 350) {
-        const angleDiff = calculateWindAngleRelativeToRunway(windBearing, runwayHeading);
-        const angleDiffRad = (angleDiff * Math.PI) / 180;
-        return Math.abs(windSpeed * Math.sin(angleDiffRad));
-    }
-
-    // Get animation class based on wind speed
-    function getWindAnimationClass(windSpeed) {
-        if (windSpeed <= 4) {
-            return ''; // calm - uses default animation
-        } else if (windSpeed <= 16) {
-            return 'wind-gentle';
-        } else if (windSpeed <= 28) {
-            return 'wind-moderate';
-        } else if (windSpeed <= 36) {
-            return 'wind-strong';
-        } else {
-            return 'wind-extreme'; // 36+ knots
-        }
-    }
-
-    // Update wind visualization based on instruction key
-    function updateWindVisualization(instructionKey) {
-        if (!instructionKey) {
-            $windVisualization.hide();
-            return;
-        }
-
-        console.log('Wind visualization check:', { instructionKey, hasData: windDifficultyData.hasOwnProperty(instructionKey), value: windDifficultyData[instructionKey] });
-
-        const windCondition = windDifficultyData[instructionKey];
-        if (!windCondition || windCondition.trim() === '') {
-            // No wind data for this configuration yet - show placeholder in overlay and reset sock
-            $('#windText').html(`Wind: <tspan style="opacity:0.7">not set for <${'code'}>${instructionKey}</${'code'}></tspan>`);
-            $('#xwindText').text('Crosswind: -- kt');
-            $('#hwindText').text('Headwind: -- kt');
-            // Reset sock to neutral
-            $('#sockGroup').attr('transform', 'translate(420,60) rotate(0)');
-            $('#sockBag').attr('transform', 'scale(0.75,1)');
-            $('#sockCloth').removeClass('wind-gentle wind-moderate wind-strong wind-extreme').css('animation-duration', '3s');
-            $windVisualization.show();
-            return;
-        }
-
-        const wind = parseWindCondition(windCondition);
-        if (!wind) {
-            // Invalid format - show error message in overlay and reset sock
-            $('#windText').html(`Wind: <tspan style="fill:#e74c3c">Invalid format: <${'code'}>${windCondition}</${'code'}> (use 080/36)</tspan>`);
-            $('#xwindText').text('Crosswind: -- kt');
-            $('#hwindText').text('Headwind: -- kt');
-            $('#sockGroup').attr('transform', 'translate(420,60) rotate(0)');
-            $('#sockBag').attr('transform', 'scale(0.75,1)');
-            $('#sockCloth').removeClass('wind-gentle wind-moderate wind-strong wind-extreme').css('animation-duration', '3s');
-            $windVisualization.show();
-            return;
-        }
-
-        // Calculate wind angle relative to runway (350°)
-        const angleDiff = calculateWindAngleRelativeToRunway(wind.bearing, 350);
-        const crosswindComponent = calculateCrosswindComponent(wind.bearing, wind.knots, 350);
-
-        // Get animation class based on wind speed
-        const animationClass = getWindAnimationClass(wind.knots);
-
-        // Windsock should point downwind (toward the direction the wind is blowing to)
-        // Convert reported "from" bearing to "to" bearing
-        const toBearing = (wind.bearing + 180) % 360;
-
-        // Our sock bag points to the right (east, 090°) at 0° rotation
-        // So rotation = toBearing - 90
-        let windsockRotation = toBearing - 90;
-
-        // Update SVG-based windsock and info overlay
-        // 1) Rotate sockGroup about its base translate; we rebuild transform with translate + rotate
-        const $sockGroup = $('#sockGroup');
-        const baseTransform = 'translate(420,60)';
-        $sockGroup.attr('transform', `${baseTransform} rotate(${windsockRotation})`);
-
-        // 2) Inflate bag proportional to knots (0.6 .. 1.0)
-        const inflation = Math.max(0.6, Math.min(1.0, 0.6 + (wind.knots / 36) * 0.4));
-        $('#sockBag').attr('transform', `scale(${inflation},1)`);
-
-        // 3) Animate cloth: apply class by wind bracket and set duration inversely with speed
-        const $sockCloth = $('#sockCloth');
-        $sockCloth.removeClass('wind-gentle wind-moderate wind-strong wind-extreme').addClass(animationClass);
-        const minDur = 0.5; // seconds at 36 kt
-        const maxDur = 3.0; // seconds at 0 kt
-        const dur = (maxDur - minDur) * (1 - Math.min(wind.knots, 36) / 36) + minDur;
-        $sockCloth.css('animation-duration', `${dur}s`);
-
-        // 4) Compute components and update text overlays
-        const angleDiffRad = (angleDiff * Math.PI) / 180;
-        const headwind = Math.round(wind.knots * Math.cos(angleDiffRad)); // positive = headwind, negative = tailwind
-        const crosswind = Math.round(crosswindComponent);
-
-        $('#windText').text(`Wind: ${wind.bearing.toString().padStart(3, '0')}°/${wind.knots.toString().padStart(2, '0')}kt`);
-        $('#xwindText').text(`Crosswind: ${crosswind} kt`);
-        $('#hwindText').text(`${headwind >= 0 ? 'Headwind' : 'Tailwind'}: ${Math.abs(headwind)} kt`);
-
-        // Show visualization
-        $windVisualization.show();
-    }
 
     // Update the summary sentence
     function updateSummary() {
         if (Object.keys(userChoices).length === 0) {
             $summaryArea.hide();
-            $windVisualization.hide();
+
             return;
         }
 
@@ -722,9 +518,7 @@
         $summaryText.html(summaryText);
         $summaryArea.show();
 
-        // Update wind visualization if we have enough choices to generate an instruction key
-        const instructionKey = generateInstructionKey();
-        updateWindVisualization(instructionKey);
+
     }
 
     // Update progress indicator with progressive reveal
@@ -736,7 +530,7 @@
 
         // Get the container
         const $progressStepsContainer = $('#progress-steps');
-        
+
         // Regenerate step circles if count changed
         const existingStepCount = $progressStepsContainer.children('.step').length;
         if (existingStepCount !== totalStepsToShow) {
@@ -753,7 +547,7 @@
         // Update states for all steps
         for (let i = 1; i <= totalStepsToShow; i++) {
             const $step = $(`#step-${i}`);
-            
+
             // Clean up all state classes first
             $step.removeClass('active completed');
 
@@ -771,7 +565,7 @@
     }
 
     // Initialize when document is ready
-    $(document).ready(function() {
+    $(document).ready(function () {
         initWizard();
     });
 
