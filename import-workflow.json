@@ -142,271 +142,6 @@
     }
   },
   "instructions": {
-    "iphone-email": {
-      "title": "Import from Email on Your iPhone",
-      "steps": [
-        {
-          "text": "Open the email containing your schedule",
-          "media": {
-            "type": "image",
-            "file": "iphone-email-step1.jpg",
-            "caption": "Locate and open the email with your crew schedule"
-          }
-        },
-        {
-          "text": "Long press on the schedule text to start selecting",
-          "media": {
-            "type": "image",
-            "file": "iphone-email-step2.jpg",
-            "caption": "Long press to bring up the selection handles"
-          }
-        },
-        {
-          "text": "Drag the selection handles to select all schedule text",
-          "media": {
-            "type": "video",
-            "file": "iphone-select-text.mp4",
-            "caption": "Drag handles to select the entire schedule"
-          }
-        },
-        {
-          "text": "Tap 'Copy' to copy the selected text",
-          "media": {
-            "type": "image",
-            "file": "iphone-email-step3.jpg",
-            "caption": "Tap Copy in the popup menu"
-          }
-        },
-        {
-          "text": "Open the CrewLu app and navigate to Import",
-          "media": {
-            "type": "image",
-            "file": "iphone-crewlu-import.jpg",
-            "caption": "Find the Import option in CrewLu"
-          }
-        },
-        {
-          "text": "Paste your schedule data and tap Import",
-          "media": {
-            "type": "image",
-            "file": "iphone-paste-import.jpg",
-            "caption": "Long press in the text field and select Paste"
-          }
-        }
-      ]
-    },
-    "iphone-website": {
-      "title": "Import from Company Website on Your iPhone",
-      "steps": [
-        {
-          "text": "Open Safari and navigate to your company's crew scheduling website",
-          "media": {
-            "type": "image",
-            "file": "iphone-safari-website.jpg",
-            "caption": "Open your crew scheduling website"
-          }
-        },
-        {
-          "text": "Log into your account if required",
-          "media": {
-            "type": "image",
-            "file": "iphone-website-login.jpg",
-            "caption": "Enter your credentials"
-          }
-        },
-        {
-          "text": "Find and view your schedule page",
-          "media": {
-            "type": "image",
-            "file": "iphone-website-schedule.jpg",
-            "caption": "Navigate to your schedule view"
-          }
-        },
-        {
-          "text": "Long press and select your schedule data",
-          "media": {
-            "type": "video",
-            "file": "iphone-website-select.mp4",
-            "caption": "Select the schedule information"
-          }
-        },
-        {
-          "text": "Copy the selected text",
-          "media": {
-            "type": "image",
-            "file": "iphone-website-copy.jpg",
-            "caption": "Tap Copy from the menu"
-          }
-        },
-        {
-          "text": "Switch to CrewLu app and paste in the Import section",
-          "media": {
-            "type": "image",
-            "file": "iphone-app-switch.jpg",
-            "caption": "Use app switcher to go to CrewLu"
-          }
-        }
-      ]
-    },
-    "ipad-email": {
-      "title": "Import from Email on Your Personal iPad",
-      "steps": [
-        {
-          "text": "Open the Mail app on your iPad",
-          "media": {
-            "type": "image",
-            "file": "ipad-mail-app.jpg",
-            "caption": "Launch the Mail app"
-          }
-        },
-        {
-          "text": "Find and open the email with your schedule",
-          "media": {
-            "type": "image",
-            "file": "ipad-email-open.jpg",
-            "caption": "Open the schedule email"
-          }
-        },
-        {
-          "text": "Use two fingers or double-tap to select the schedule text",
-          "media": {
-            "type": "video",
-            "file": "ipad-text-selection.mp4",
-            "caption": "iPad text selection techniques"
-          }
-        },
-        {
-          "text": "Tap 'Copy' from the popup menu",
-          "media": {
-            "type": "image",
-            "file": "ipad-copy-menu.jpg",
-            "caption": "Select Copy from the context menu"
-          }
-        },
-        {
-          "text": "Open CrewLu app using the dock or home screen",
-          "media": {
-            "type": "image",
-            "file": "ipad-open-crewlu.jpg",
-            "caption": "Launch CrewLu from dock or home screen"
-          }
-        },
-        {
-          "text": "Navigate to Import and paste your schedule",
-          "media": {
-            "type": "image",
-            "file": "ipad-crewlu-import.jpg",
-            "caption": "Use the Import feature in CrewLu"
-          }
-        }
-      ]
-    },
-    "mac-website": {
-      "title": "Import from Company Website on Your Mac",
-      "steps": [
-        {
-          "text": "Open your preferred web browser (Safari, Chrome, etc.)",
-          "media": {
-            "type": "image",
-            "file": "mac-browser-open.jpg",
-            "caption": "Launch your web browser"
-          }
-        },
-        {
-          "text": "Navigate to your company's crew scheduling website",
-          "media": {
-            "type": "image",
-            "file": "mac-website-navigate.jpg",
-            "caption": "Go to your scheduling website"
-          }
-        },
-        {
-          "text": "Log in with your credentials",
-          "media": {
-            "type": "image",
-            "file": "mac-website-login.jpg",
-            "caption": "Enter your login information"
-          }
-        },
-        {
-          "text": "Find your schedule and select the text (click and drag)",
-          "media": {
-            "type": "video",
-            "file": "mac-text-select.mp4",
-            "caption": "Click and drag to select schedule text"
-          }
-        },
-        {
-          "text": "Copy the text (Cmd+C or right-click Copy)",
-          "media": {
-            "type": "image",
-            "file": "mac-copy-text.jpg",
-            "caption": "Copy using keyboard shortcut or context menu"
-          }
-        },
-        {
-          "text": "Since CrewLu is iOS-only, you'll need to transfer this data to your iPhone/iPad using AirDrop, email, or Messages",
-          "media": {
-            "type": "image",
-            "file": "mac-transfer-options.jpg",
-            "caption": "Options to transfer data to iOS device"
-          }
-        }
-      ]
-    },
-    "efk-tablet-pdf": {
-      "title": "Import from PDF on EFK Tablet",
-      "steps": [
-        {
-          "text": "Open the PDF containing your schedule",
-          "media": {
-            "type": "image",
-            "file": "efk-tablet-pdf-open.jpg",
-            "caption": "Launch your PDF viewer app"
-          }
-        },
-        {
-          "text": "Long press and drag to select the schedule text",
-          "media": {
-            "type": "video",
-            "file": "efk-tablet-select.mp4",
-            "caption": "Select text in PDF viewer"
-          }
-        },
-        {
-          "text": "Copy the selected text",
-          "media": {
-            "type": "image",
-            "file": "efk-tablet-copy.jpg",
-            "caption": "Use copy function"
-          }
-        },
-        {
-          "text": "Since EFK runs Android and CrewLu is iOS-only, you'll need to transfer this data to your iPhone/iPad",
-          "media": {
-            "type": "image",
-            "file": "efk-transfer-methods.jpg",
-            "caption": "Transfer options from Android to iOS"
-          }
-        },
-        {
-          "text": "Use email, cloud storage, or messaging apps to send the data to your iOS device",
-          "media": {
-            "type": "image",
-            "file": "efk-cloud-transfer.jpg",
-            "caption": "Cloud transfer methods"
-          }
-        },
-        {
-          "text": "On your iOS device, open the transferred data and import to CrewLu",
-          "media": {
-            "type": "image",
-            "file": "ios-receive-data.jpg",
-            "caption": "Receive and import data on iOS"
-          }
-        }
-      ]
-    },
     "fullroster-iphone-iphone": {
       "title": "Import Full Roster from iPhone to iPhone",
       "steps": [
@@ -459,11 +194,11 @@
         }
       ]
     },
-    "fullroster-iphone-ipad": {
-      "title": "Import Full Roster from iPad to iPhone",
+    "fullroster-ipad-iphone": {
+      "title": "Import Full Roster from iPhone to iPad",
       "steps": [
         {
-          "text": "Sign in to Crew Access and select Roster."
+          "text": "Sign in to Crew Access on your iPhone and select Roster."
         },
         {
           "text": "Expand all of the arrows of the trips you want to import."
@@ -478,7 +213,33 @@
           "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
         },
         {
-          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+          "text": "Open Crewlu on your iPad and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
+    "fullroster-iphone-ipad": {
+      "title": "Import Full Roster from iPad to iPhone",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access on your iPad and select Roster."
+        },
+        {
+          "text": "Expand all of the arrows of the trips you want to import."
+        },
+        {
+          "text": "Select the trips. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the iPad. <strong>As long as the word Roster on the top is selected, all of the trips under and above will also be selected.</strong>"
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu on your iPhone and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
         },
         {
           "text": "Tap Import and accept the prompts."
@@ -1015,12 +776,39 @@
         }
       ]
     },
+    "onetrip-ipad-iphone": {
+      "title": "Import One Trip from iPhone to iPad",
+      "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
+      "steps": [
+        {
+          "text": "Sign in to Crew Access on your iPhone and select Roster."
+        },
+        {
+          "text": "Select details or the trip number to open the individual trip view."
+        },
+        {
+          "text": "Select the trip. The best way I've found is to scroll to the bottom and hold your finger on the bottom most right text. Then hold the left corner and drag to the top of the phone."
+        },
+        {
+          "text": "Tap the word Copy."
+        },
+        {
+          "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
+        },
+        {
+          "text": "Open Crewlu on your iPad and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+        },
+        {
+          "text": "Tap Import and accept the prompts."
+        }
+      ]
+    },
     "onetrip-iphone-ipad": {
       "title": "Import One Trip from iPad to iPhone",
       "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated.",
       "steps": [
         {
-          "text": "Sign in to Crew Access and select Roster."
+          "text": "Sign in to Crew Access on your iPad and select Roster."
         },
         {
           "text": "Select details or the trip number to open the individual trip view."
@@ -1035,7 +823,7 @@
           "text": "Tap the blue cloud icon in the bottom right, then tap the clipboard. Then tap Copy to isolation. Make sure there is text in the box or you did something wrong."
         },
         {
-          "text": "Open Crewlu and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
+          "text": "Open Crewlu on your iPhone and hit the + sign in the top right of the Trip list view. Tap Paste. You don't need to select an import method. The app will know and show you after you hit the paste button."
         },
         {
           "text": "Tap Import and accept the prompts."
@@ -2302,7 +2090,10 @@
           ]
         },
         {
-          "text": "Almost done. Select the Share button and use the shortcut."
+          "text": "Almost done. Select the Share button and tap the Clipboard to CrewLu shortcut. Accept any permissions that come up."
+        },
+        {
+          "text": "Your EFK will now prepare the roster page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done."
         }
       ]
     },
@@ -2376,7 +2167,10 @@
           ]
         },
         {
-          "text": "Almost done. Select the Share button and use the shortcut."
+          "text": "Almost done. Select the Share button and tap the Clipboard to CrewLu shortcut. Accept any permissions that come up."
+        },
+        {
+          "text": "Your EFK will now prepare the trip page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done."
         }
       ]
     },
@@ -2410,18 +2204,33 @@
         }
       ]
     },
-    "tripboard-iphone-ipad": {
-      "title": "Import TripBoard from iPad to iPhone",
+    "tripboard-ipad-iphone": {
+      "title": "Import TripBoard from iPhone to iPad",
       "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
       "steps": [
         {
-          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+          "text": "On your iPhone, open a trip on TripBoard on the web or on the Bidpro app."
         },
         {
           "text": "Select all the text, then tap Copy."
         },
         {
-          "text": "Paste into the CrewLu app. Wow that was easy!"
+          "text": "Open CrewLu on your iPad and paste. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-iphone-ipad": {
+      "title": "Import TripBoard from iPad to iPhone",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "On your iPad, open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Open CrewLu on your iPhone and paste. Wow that was easy!"
         }
       ]
     },

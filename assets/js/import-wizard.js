@@ -261,18 +261,13 @@
                 const selectedDevice = userChoices.device.id;
                 const importType = userChoices.import_type ? userChoices.import_type.id : null;
 
-                // Special handling for Full Roster, One Trip, or TripBoard on personal iPad
-                if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && selectedDevice === 'ipad') {
-                    // Only show personal iPad, Mac, and EFK as data source options
+                // Special handling for Full Roster, One Trip, or TripBoard on iPhone or iPad
+                // Allow cross-device imports: iPhone, iPad, Mac, and EFK are all valid data sources
+                if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && 
+                    (selectedDevice === 'ipad' || selectedDevice === 'iphone')) {
+                    // Show iPhone, iPad, Mac, and EFK as data source options
                     filteredOptions = stepData.options.filter(function (option) {
-                        return option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
-                    });
-                }
-                // Special handling for Full Roster, One Trip, or TripBoard on iPhone
-                else if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && selectedDevice === 'iphone') {
-                    // Only show iPhone, Mac, and EFK as data source options
-                    filteredOptions = stepData.options.filter(function (option) {
-                        return option.id === 'iphone' || option.id === 'mac' || option.id === 'efk';
+                        return option.id === 'iphone' || option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
                     });
                 }
                 // Special handling for catering and altour_ticket imports - they can use all mobile/computer devices
