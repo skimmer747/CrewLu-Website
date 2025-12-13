@@ -261,15 +261,15 @@
                 const selectedDevice = userChoices.device.id;
                 const importType = userChoices.import_type ? userChoices.import_type.id : null;
 
-                // Special handling for Full Roster or One Trip on personal iPad
-                if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'ipad') {
+                // Special handling for Full Roster, One Trip, or TripBoard on personal iPad
+                if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && selectedDevice === 'ipad') {
                     // Only show personal iPad, Mac, and EFK as data source options
                     filteredOptions = stepData.options.filter(function (option) {
                         return option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
                     });
                 }
-                // Special handling for Full Roster or One Trip on iPhone
-                else if ((importType === 'fullroster' || importType === 'onetrip') && selectedDevice === 'iphone') {
+                // Special handling for Full Roster, One Trip, or TripBoard on iPhone
+                else if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && selectedDevice === 'iphone') {
                     // Only show iPhone, Mac, and EFK as data source options
                     filteredOptions = stepData.options.filter(function (option) {
                         return option.id === 'iphone' || option.id === 'mac' || option.id === 'efk';
@@ -327,10 +327,10 @@
         // Add current step to history
         stepHistory.push(currentStep);
 
-        // Auto-skip data_source_device step for EFK when importing Full Roster, One Trip, or Jumpseat ON the EFK device
+        // Auto-skip data_source_device step for EFK when importing Full Roster, One Trip, TripBoard, or Jumpseat ON the EFK device
         if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
-            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'deadhead') {
+            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard' || importType === 'deadhead') {
                 // Skip directly to instructions for EFK device installations
                 nextStep = 'instructions';
             }
@@ -450,10 +450,10 @@
             return key;
         }
 
-        // For EFK device installations of fullroster, onetrip, or deadhead, use simplified key
+        // For EFK device installations of fullroster, onetrip, tripboard, or deadhead, use simplified key
         if (userChoices.device && userChoices.device.id === 'efk' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
-            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'deadhead') {
+            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard' || importType === 'deadhead') {
                 // Return simplified key: importType-efk
                 return key + '-efk';
             }

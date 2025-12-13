@@ -14,6 +14,11 @@
           "next": "device"
         },
         {
+          "id": "tripboard",
+          "label": "TripBoard",
+          "next": "device"
+        },
+        {
           "id": "altour_ticket",
           "label": "Altour Ticket",
           "next": "device"
@@ -2372,6 +2377,142 @@
         },
         {
           "text": "Almost done. Select the Share button and use the shortcut."
+        }
+      ]
+    },
+    "tripboard-iphone-iphone": {
+      "title": "Import TripBoard from iPhone to iPhone",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-ipad-ipad": {
+      "title": "Import TripBoard from iPad to iPad",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-iphone-ipad": {
+      "title": "Import TripBoard from iPad to iPhone",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-iphone-mac": {
+      "title": "Import TripBoard from Mac to iPhone",
+      "steps": [
+        {
+          "text": "This will not work on a Mac because you can't copy the text. Use your iPhone or iPad."
+        }
+      ]
+    },
+    "tripboard-ipad-mac": {
+      "title": "Import TripBoard from Mac to iPad",
+      "steps": [
+        {
+          "text": "This will not work on a Mac because you can't copy the text. Use your iPhone or iPad."
+        }
+      ]
+    },
+    "tripboard-iphone-efk-yes": {
+      "title": "Import TripBoard from EFK to iPhone (Same Apple ID)",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-iphone-efk-no": {
+      "title": "Import TripBoard from EFK to iPhone (Different Apple IDs)",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-ipad-efk-yes": {
+      "title": "Import TripBoard from EFK to iPad (Same Apple ID)",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-ipad-efk-no": {
+      "title": "Import TripBoard from EFK to iPad (Different Apple IDs)",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
+        }
+      ]
+    },
+    "tripboard-efk": {
+      "title": "Import TripBoard on EFK",
+      "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
+      "steps": [
+        {
+          "text": "Open a trip on TripBoard on the web or on the Bidpro app."
+        },
+        {
+          "text": "Select all the text, then tap Copy."
+        },
+        {
+          "text": "Paste into the CrewLu app. Wow that was easy!"
         }
       ]
     },
