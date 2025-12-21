@@ -22,18 +22,19 @@
 	--wizard-card-outline: rgba(255, 255, 255, 0.6);
 }
 
-// Light mode overrides
-[data-theme="light"] .import-wizard,
-:root:not([data-theme="dark"]) .import-wizard {
-	--wizard-glass-bg: rgba(0, 0, 0, 0.02);
-	--wizard-glass-border: rgba(0, 0, 0, 0.08);
-	--wizard-glass-hover: rgba(0, 0, 0, 0.05);
-	--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-	--wizard-text-primary: rgba(0, 0, 0, 0.9);
-	--wizard-text-secondary: rgba(0, 0, 0, 0.7);
-	--wizard-text-muted: rgba(0, 0, 0, 0.5);
-	// Card outline border color (visible around all cards) - black in light mode
-	--wizard-card-outline: #1a1a1a;
+// Light mode overrides - use media query to detect system preference
+@media (prefers-color-scheme: light) {
+	.import-wizard {
+		--wizard-glass-bg: rgba(0, 0, 0, 0.02);
+		--wizard-glass-border: rgba(0, 0, 0, 0.08);
+		--wizard-glass-hover: rgba(0, 0, 0, 0.05);
+		--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+		--wizard-text-primary: rgba(0, 0, 0, 0.9);
+		--wizard-text-secondary: rgba(0, 0, 0, 0.7);
+		--wizard-text-muted: rgba(0, 0, 0, 0.5);
+		// Card outline border color (visible around all cards) - black in light mode
+		--wizard-card-outline: #1a1a1a;
+	}
 }
 
 // ============================================
