@@ -175,10 +175,11 @@
         if (stepHistory.length === 0) return;
 
         // Get the previous step from history
-            const previousStep = stepHistory.pop();
+        const previousStep = stepHistory.pop();
 
-            // Remove the choice for current step
-                delete userChoices[currentStep];
+        // Remove the choice for the step we're returning to
+        // (this is the selection that moved us forward, now being undone)
+        delete userChoices[previousStep];
 
         // Animate the transition
         $wizardStep.addClass('exiting');

@@ -663,9 +663,9 @@
 
 	// Limit image size on larger screens
 	@include breakpoint('>medium') {
-					max-width: 500px;
-				}
-			}
+		max-width: 500px;
+	}
+}
 
 // Image caption
 .step-caption {
