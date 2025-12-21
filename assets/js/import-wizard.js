@@ -24,6 +24,96 @@
     };
 
     // ========================================
+    // Difficulty Matrix
+    // Maps user path choices to difficulty levels (1, 2, or 3)
+    // Level 3 = red with border (hardest)
+    // Level 2 = yellow with border (medium)
+    // Level 1 = yellow, no border (easiest)
+    // ========================================
+    const DIFFICULTY_MATRIX = {
+        // Device step difficulties by import_type
+        device: {
+            fullroster: { iphone: 3, ipad: 3, efk: 3 },
+            onetrip: { iphone: 3, ipad: 3, efk: 3 },
+            tripboard: { iphone: 2, ipad: 2, efk: 2 },
+            altour_ticket: { iphone: 1, ipad: 1 },
+            deadhead: { iphone: 3, ipad: 3, efk: 3 },
+            catering: { iphone: 1, ipad: 1 }
+        },
+        // Data source step difficulties by import_type and device
+        data_source_device: {
+            fullroster: {
+                iphone: { iphone: 3, ipad: 3, mac: 1, efk: 2 },
+                ipad: { iphone: 3, ipad: 3, mac: 2, efk: 3 }
+            },
+            onetrip: {
+                iphone: { iphone: 3, ipad: 3, mac: 1, efk: 2 },
+                ipad: { iphone: 3, ipad: 3, mac: 2, efk: 3 }
+            },
+            tripboard: {
+                iphone: { iphone: 1, ipad: 2, mac: 2, efk: 2 },
+                ipad: { iphone: 2, ipad: 2, mac: 3, efk: 3 }
+            },
+            altour_ticket: {
+                iphone: { iphone: 1, ipad: 1, mac: 1 },
+                ipad: { iphone: 1, ipad: 1, mac: 1 }
+            },
+            deadhead: {
+                iphone: { iphone: 3, ipad: 3, mac: 2, efk: 3 },
+                ipad: { iphone: 3, ipad: 3, mac: 2, efk: 3 }
+            },
+            catering: {
+                iphone: { iphone: 1, ipad: 1, mac: 1 },
+                ipad: { iphone: 1, ipad: 1, mac: 1 }
+            }
+        },
+        // Crewmember type step difficulties
+        crewmember_type: {
+            all: 2,
+            individual: 1
+        }
+    };
+
+    /**
+     * Get the difficulty level for an option based on current context
+     * Returns the difficulty level (1, 2, or 3) or null if no difficulty
+     */
+    function getDifficultyForOption(stepId, optionId) {
+        // First step (import_type) - use difficulty from JSON data
+        if (stepId === 'import_type') {
+            return null; // Handled by JSON data directly
+        }
+
+        // Crewmember type step
+        if (stepId === 'crewmember_type') {
+            return DIFFICULTY_MATRIX.crewmember_type[optionId] || null;
+        }
+
+        // Device step - depends on import_type
+        if (stepId === 'device') {
+            const importType = userChoices.import_type ? userChoices.import_type.id : null;
+            if (importType && DIFFICULTY_MATRIX.device[importType]) {
+                return DIFFICULTY_MATRIX.device[importType][optionId] || null;
+            }
+            return null;
+        }
+
+        // Data source step - depends on import_type and device
+        if (stepId === 'data_source_device') {
+            const importType = userChoices.import_type ? userChoices.import_type.id : null;
+            const device = userChoices.device ? userChoices.device.id : null;
+            if (importType && device && 
+                DIFFICULTY_MATRIX.data_source_device[importType] &&
+                DIFFICULTY_MATRIX.data_source_device[importType][device]) {
+                return DIFFICULTY_MATRIX.data_source_device[importType][device][optionId] || null;
+            }
+            return null;
+        }
+
+        return null;
+    }
+
+    // ========================================
     // Wizard State
     // ========================================
 
@@ -327,11 +417,26 @@
     /**
      * Create an option card element
      * Returns a jQuery element with proper structure and data attributes
+     * If the option has a difficulty level (1-3), the card gets styled with colored borders and text
+     * Level 3 = red border + red text, Level 2 = yellow border + yellow text, Level 1 = yellow text only
+     * A "Lvl X" badge is shown in the top-right corner for all difficulty levels
      */
     function createOptionCard(option, stepId, index) {
-        // Build the card HTML (clean design - title only)
+        // Get difficulty level - either from option data (import_type step) or from matrix (other steps)
+        const difficulty = option.difficulty || getDifficultyForOption(stepId, option.id);
+
+        // Add difficulty class to card if difficulty level exists
+        const difficultyClass = difficulty ? `difficulty-${difficulty}` : '';
+
+        // Build the difficulty badge HTML if difficulty level exists
+        const difficultyBadge = difficulty 
+            ? `<span class="card-difficulty level-${difficulty}">Lvl ${difficulty}</span>` 
+            : '';
+
+        // Build the card HTML with difficulty styling via class and badge in top-right
         const $card = $(`
-            <button class="wizard-card" data-option-id="${option.id}" data-next-step="${option.next}">
+            <button class="wizard-card ${difficultyClass}" data-option-id="${option.id}" data-next-step="${option.next}">
+                ${difficultyBadge}
                 <div class="card-content">
                     <span class="card-title">${option.label}</span>
                 </div>

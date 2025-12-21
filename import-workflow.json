@@ -6,36 +6,43 @@
         {
           "id": "fullroster",
           "label": "Full Roster",
+          "difficulty": 3,
           "next": "device"
         },
         {
           "id": "onetrip",
           "label": "One Trip",
+          "difficulty": 3,
           "next": "device"
         },
         {
           "id": "tripboard",
           "label": "TripBoard",
+          "difficulty": 2,
           "next": "device"
         },
         {
           "id": "altour_ticket",
           "label": "Altour Ticket",
+          "difficulty": 1,
           "next": "device"
         },
         {
           "id": "deadhead",
           "label": "Jumpseat",
+          "difficulty": 3,
           "next": "device"
         },
         {
           "id": "crewmembers",
           "label": "Crewmembers",
+          "difficulty": 2,
           "next": "crewmember_type"
         },
         {
           "id": "catering",
           "label": "Catering",
+          "difficulty": 1,
           "next": "device"
         }
       ]

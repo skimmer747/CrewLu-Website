@@ -18,6 +18,8 @@
 	--wizard-text-primary: rgba(255, 255, 255, 0.95);
 	--wizard-text-secondary: rgba(255, 255, 255, 0.7);
 	--wizard-text-muted: rgba(255, 255, 255, 0.5);
+	// Card outline border color (visible around all cards)
+	--wizard-card-outline: rgba(255, 255, 255, 0.6);
 }
 
 // Light mode overrides
@@ -30,6 +32,8 @@
 	--wizard-text-primary: rgba(0, 0, 0, 0.9);
 	--wizard-text-secondary: rgba(0, 0, 0, 0.7);
 	--wizard-text-muted: rgba(0, 0, 0, 0.5);
+	// Card outline border color (visible around all cards) - black in light mode
+	--wizard-card-outline: #1a1a1a;
 }
 
 // ============================================
@@ -373,7 +377,8 @@
 	background: var(--wizard-glass-bg);
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
-	border: 1px solid var(--wizard-glass-border);
+	// Solid border visible on all cards (black in light mode, light gray in dark mode)
+	border: 2px solid var(--wizard-card-outline);
 	border-radius: 12px;
 	cursor: pointer;
 	transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -399,7 +404,8 @@
 
 	&:hover {
 		transform: translateX(4px);
-		border-color: rgba(59, 130, 246, 0.3);
+		// Keep outline border on hover
+		border-color: var(--wizard-card-outline);
 		box-shadow: var(--wizard-card-shadow);
 		background: var(--wizard-glass-hover);
 
@@ -477,6 +483,110 @@
 	font-weight: 300;
 	flex-shrink: 0;
 	margin-left: 0.5rem;
+}
+
+// ============================================
+// Difficulty Styling for Wizard Cards
+// Applies colored inner borders and text based on difficulty level
+// Level 3 = red inner border + red text (hardest)
+// Level 2 = yellow inner border + yellow text (medium)
+// Level 1 = yellow text only, no border (easiest)
+// The original black card outline remains visible with colored border inside it
+// ============================================
+
+// Level 3 - Red inner border and red text (hardest)
+.wizard-card.difficulty-3 {
+	// Red inner border sits inside the existing black card outline
+	box-shadow: inset 0 0 0 3px #ef4444;
+
+	.card-title {
+		color: #ef4444;
+	}
+
+	.card-arrow {
+		color: #ef4444;
+		opacity: 0.7;
+	}
+
+	&:hover {
+		box-shadow: inset 0 0 0 3px #ef4444, var(--wizard-card-shadow);
+	}
+}
+
+// Level 2 - Yellow inner border and yellow text (medium)
+.wizard-card.difficulty-2 {
+	// Yellow inner border sits inside the existing black card outline
+	box-shadow: inset 0 0 0 3px #eab308;
+
+	.card-title {
+		color: #eab308;
+	}
+
+	.card-arrow {
+		color: #eab308;
+		opacity: 0.7;
+	}
+
+	&:hover {
+		box-shadow: inset 0 0 0 3px #eab308, var(--wizard-card-shadow);
+	}
+}
+
+// Level 1 - Default text color (black in light mode, white in dark mode), no inner border (easiest)
+.wizard-card.difficulty-1 {
+	// Text uses default color from theme (inherits from card)
+	.card-title {
+		color: var(--wizard-text-primary);
+	}
+
+	.card-arrow {
+		color: var(--wizard-text-primary);
+		opacity: 0.7;
+	}
+}
+
+// ============================================
+// Difficulty Badge (Lvl X label in top-right)
+// Shows "Lvl 1", "Lvl 2", "Lvl 3" in the top-right corner
+// Color matches the difficulty level styling
+// ============================================
+.card-difficulty {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	font-size: 0.65rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	padding: 0.2rem 0.45rem;
+	border-radius: 4px;
+	z-index: 2;
+	line-height: 1;
+
+	// Level 3 - Red badge
+	&.level-3 {
+		color: #ef4444;
+	}
+
+	// Level 2 - Yellow badge
+	&.level-2 {
+		color: #eab308;
+	}
+
+	// Level 1 - Default text color badge (black in light mode, white in dark mode)
+	&.level-1 {
+		color: var(--wizard-text-primary);
+	}
+}
+
+// Mobile: Smaller difficulty badges
+@include breakpoint('<=small') {
+	.card-difficulty {
+		font-size: 0.6rem;
+		padding: 0.15rem 0.35rem;
+		top: 0.4rem;
+		right: 0.4rem;
+	}
 }
 
 // Tablet: 2 column grid
