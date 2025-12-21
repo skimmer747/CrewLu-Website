@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import 'fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -2961,6 +2960,28 @@ table.alt tbody tr td {
     --wizard-card-outline: #1a1a1a;
   }
 }
+[data-theme=light] .import-wizard {
+  --wizard-glass-bg: rgba(0, 0, 0, 0.02);
+  --wizard-glass-border: rgba(0, 0, 0, 0.08);
+  --wizard-glass-hover: rgba(0, 0, 0, 0.05);
+  --wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --wizard-text-primary: rgba(0, 0, 0, 0.9);
+  --wizard-text-secondary: rgba(0, 0, 0, 0.7);
+  --wizard-text-muted: rgba(0, 0, 0, 0.5);
+  --wizard-card-outline: #1a1a1a;
+}
+
+[data-theme=dark] .import-wizard {
+  --wizard-glass-bg: rgba(255, 255, 255, 0.03);
+  --wizard-glass-border: rgba(255, 255, 255, 0.08);
+  --wizard-glass-hover: rgba(255, 255, 255, 0.08);
+  --wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  --wizard-text-primary: rgba(255, 255, 255, 0.95);
+  --wizard-text-secondary: rgba(255, 255, 255, 0.7);
+  --wizard-text-muted: rgba(255, 255, 255, 0.5);
+  --wizard-card-outline: rgba(255, 255, 255, 0.6);
+}
+
 .import-wizard {
   margin: 2em 0;
   max-width: 700px;
@@ -6967,6 +6988,28 @@ table.alt tbody tr td {
     --wizard-card-outline: #1a1a1a;
   }
 }
+[data-theme=light] .import-wizard {
+  --wizard-glass-bg: rgba(0, 0, 0, 0.02);
+  --wizard-glass-border: rgba(0, 0, 0, 0.08);
+  --wizard-glass-hover: rgba(0, 0, 0, 0.05);
+  --wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --wizard-text-primary: rgba(0, 0, 0, 0.9);
+  --wizard-text-secondary: rgba(0, 0, 0, 0.7);
+  --wizard-text-muted: rgba(0, 0, 0, 0.5);
+  --wizard-card-outline: #1a1a1a;
+}
+
+[data-theme=dark] .import-wizard {
+  --wizard-glass-bg: rgba(255, 255, 255, 0.03);
+  --wizard-glass-border: rgba(255, 255, 255, 0.08);
+  --wizard-glass-hover: rgba(255, 255, 255, 0.08);
+  --wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  --wizard-text-primary: rgba(255, 255, 255, 0.95);
+  --wizard-text-secondary: rgba(255, 255, 255, 0.7);
+  --wizard-text-muted: rgba(255, 255, 255, 0.5);
+  --wizard-card-outline: rgba(255, 255, 255, 0.6);
+}
+
 .import-wizard {
   margin: 2em 0;
   max-width: 700px;

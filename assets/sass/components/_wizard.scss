@@ -23,6 +23,7 @@
 }
 
 // Light mode overrides - use media query to detect system preference
+// This is the FALLBACK when no explicit data-theme attribute is set
 @media (prefers-color-scheme: light) {
 	.import-wizard {
 		--wizard-glass-bg: rgba(0, 0, 0, 0.02);
@@ -35,6 +36,43 @@
 		// Card outline border color (visible around all cards) - black in light mode
 		--wizard-card-outline: #1a1a1a;
 	}
+}
+
+// ============================================
+// Explicit Theme Overrides (data-theme attribute)
+// These selectors take PRECEDENCE over the media query above.
+// When a user manually sets data-theme="light" or data-theme="dark"
+// on :root or html, these rules override the system preference.
+// Placed AFTER the media query so CSS cascade ensures they win.
+// ============================================
+
+// Explicit light mode - honors manual theme toggle to light
+// Applies when user sets data-theme="light" regardless of system preference
+[data-theme="light"] .import-wizard {
+	--wizard-glass-bg: rgba(0, 0, 0, 0.02);
+	--wizard-glass-border: rgba(0, 0, 0, 0.08);
+	--wizard-glass-hover: rgba(0, 0, 0, 0.05);
+	--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+	--wizard-text-primary: rgba(0, 0, 0, 0.9);
+	--wizard-text-secondary: rgba(0, 0, 0, 0.7);
+	--wizard-text-muted: rgba(0, 0, 0, 0.5);
+	// Card outline border color (visible around all cards) - black in light mode
+	--wizard-card-outline: #1a1a1a;
+}
+
+// Explicit dark mode - honors manual theme toggle to dark
+// Applies when user sets data-theme="dark" regardless of system preference
+// Re-asserts the default dark mode values to override light media query
+[data-theme="dark"] .import-wizard {
+	--wizard-glass-bg: rgba(255, 255, 255, 0.03);
+	--wizard-glass-border: rgba(255, 255, 255, 0.08);
+	--wizard-glass-hover: rgba(255, 255, 255, 0.08);
+	--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+	--wizard-text-primary: rgba(255, 255, 255, 0.95);
+	--wizard-text-secondary: rgba(255, 255, 255, 0.7);
+	--wizard-text-muted: rgba(255, 255, 255, 0.5);
+	// Card outline border color (visible around all cards) - white in dark mode
+	--wizard-card-outline: rgba(255, 255, 255, 0.6);
 }
 
 // ============================================
