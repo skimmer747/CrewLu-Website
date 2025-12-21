@@ -724,8 +724,8 @@
 	}
 }
 
-// Step content card
-.step-content {
+// Step content card - nested inside .import-wizard for higher specificity
+.import-wizard .step-content {
 	background: var(--wizard-glass-bg);
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
@@ -741,7 +741,7 @@
 
 	p {
 		font-size: 1rem;
-			line-height: 1.6;
+		line-height: 1.6;
 		color: var(--wizard-text-primary);
 		margin: 0;
 
