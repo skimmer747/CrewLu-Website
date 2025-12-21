@@ -1,356 +1,959 @@
 ///
 /// Import Wizard Styles for CrewLu Website
-/// Styles for the interactive import instructions wizard
+/// "Flight Plan" themed interactive import instructions wizard
+/// A beautiful, aviation-inspired design that works seamlessly on phone, tablet, and desktop
 ///
 
-// Wizard Container
+// ============================================
+// CSS Variables for the Wizard
+// ============================================
+.import-wizard {
+	// Glass effect variables (CSS custom properties for easy theming)
+	--wizard-glass-bg: rgba(255, 255, 255, 0.03);
+	--wizard-glass-border: rgba(255, 255, 255, 0.08);
+	--wizard-glass-hover: rgba(255, 255, 255, 0.08);
+	--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+	--wizard-accent-glow: rgba(59, 130, 246, 0.3);
+	--wizard-accent-gradient: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	--wizard-text-primary: rgba(255, 255, 255, 0.95);
+	--wizard-text-secondary: rgba(255, 255, 255, 0.7);
+	--wizard-text-muted: rgba(255, 255, 255, 0.5);
+}
+
+// Light mode overrides
+[data-theme="light"] .import-wizard,
+:root:not([data-theme="dark"]) .import-wizard {
+	--wizard-glass-bg: rgba(0, 0, 0, 0.02);
+	--wizard-glass-border: rgba(0, 0, 0, 0.08);
+	--wizard-glass-hover: rgba(0, 0, 0, 0.05);
+	--wizard-card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+	--wizard-text-primary: rgba(0, 0, 0, 0.9);
+	--wizard-text-secondary: rgba(0, 0, 0, 0.7);
+	--wizard-text-muted: rgba(0, 0, 0, 0.5);
+}
+
+// ============================================
+// Main Wizard Container
+// ============================================
 .import-wizard {
 	margin: 2em 0;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	.wizard-progress {
-		margin-bottom: 2em;
-		text-align: center;
-
-		.progress-steps {
-			display: inline-flex;
-			align-items: center;
-			gap: 1rem;
-
-			.step {
-				width: 2.5rem;
-				height: 2.5rem;
-				border-radius: 50%;
-				background: transparent;
-				border: 2px solid var(--color-border);
-				color: var(--color-fg);
+// ============================================
+// Flight Path Progress Indicator
+// A horizontal flight path with waypoints and animated plane
+// ============================================
+.flight-path {
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				font-weight: bold;
-				transition: all 0.3s ease;
+	padding: 1.5rem 1rem 2rem;
+	margin-bottom: 1rem;
 				position: relative;
+	overflow: hidden;
 
-				&.active {
-					background: var(--color-accent);
-					color: var(--color-bg);
-					border-color: var(--color-accent);
-					transform: scale(1.05);
-				}
+	// Subtle background glow
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 80%;
+		height: 60px;
+		background: radial-gradient(ellipse, var(--wizard-accent-glow) 0%, transparent 70%);
+		opacity: 0.3;
+		pointer-events: none;
+	}
+}
 
-				&.completed {
+// Individual waypoint (each step in the journey)
+.waypoint {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+}
+
+// The circular dot for each waypoint
+.waypoint-dot {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: var(--wizard-glass-bg);
+	border: 2px solid var(--wizard-glass-border);
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+
+	// Glow effect for completed/current states
+	&::after {
+		content: '';
+		position: absolute;
+		inset: -4px;
+		border-radius: 50%;
+		background: transparent;
+		transition: all 0.4s ease;
+	}
+}
+
+// Completed waypoint state - solid accent color with glow
+.waypoint.completed .waypoint-dot {
 					background: var(--color-accent);
-					color: var(--color-bg);
 					border-color: var(--color-accent);
-					transform: scale(1.1);
-					box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+	box-shadow: 0 0 12px var(--wizard-accent-glow);
 
 					&::after {
-						content: '✓';
-						font-size: 1.2em;
-					}
-				}
+		background: radial-gradient(circle, var(--wizard-accent-glow) 0%, transparent 70%);
+	}
+}
 
-				// Connecting lines between steps
-				&:not(:last-child)::before {
-					content: '';
-					position: absolute;
-					top: 50%;
-					left: 100%;
-					width: 1rem;
-					height: 2px;
-					background: var(--color-border);
-					transform: translateY(-50%);
-					z-index: -1;
-				}
+// Current waypoint state - pulsing indicator
+.waypoint.current .waypoint-dot {
+	background: var(--color-bg);
+	border-color: var(--color-accent);
+	box-shadow: 0 0 0 3px var(--wizard-accent-glow);
+	animation: waypoint-pulse 2s ease-in-out infinite;
+}
 
-				&.active:not(:last-child)::before {
-					background: var(--color-accent);
-				}
-			}
+@keyframes waypoint-pulse {
+	0%, 100% {
+		box-shadow: 0 0 0 3px var(--wizard-accent-glow);
+	}
+	50% {
+		box-shadow: 0 0 0 6px var(--wizard-accent-glow), 0 0 20px var(--wizard-accent-glow);
+	}
+}
+
+// Label below the waypoint (optional, shows step name)
+.waypoint-label {
+	position: absolute;
+	top: 100%;
+	margin-top: 0.5rem;
+	font-size: 0.7rem;
+	color: var(--wizard-text-muted);
+	white-space: nowrap;
+	opacity: 0;
+	transform: translateY(-5px);
+	transition: all 0.3s ease;
+}
+
+.waypoint.completed .waypoint-label,
+.waypoint.current .waypoint-label {
+	opacity: 1;
+	transform: translateY(0);
+	color: var(--wizard-text-secondary);
+}
+
+// Connecting line between waypoints (flight segment)
+.flight-segment {
+	width: 50px;
+	height: 2px;
+	background: var(--wizard-glass-border);
+	position: relative;
+	margin: 0 4px;
+	transition: all 0.4s ease;
+
+	// Gradient fill for completed segments
+	&.completed {
+		background: linear-gradient(90deg, var(--color-accent), var(--color-accent));
+		box-shadow: 0 0 8px var(--wizard-accent-glow);
+	}
+
+	// Animated segment (currently being traveled)
+	&.traveling {
+		overflow: visible;
+
+		&::before {
+			content: '✈';
+			position: absolute;
+			font-size: 0.9rem;
+			top: -8px;
+			animation: fly-segment 1s ease-out forwards;
+		color: var(--color-accent);
+			filter: drop-shadow(0 0 4px var(--wizard-accent-glow));
 		}
 	}
 }
 
-// Wizard Summary
-.wizard-summary {
-	margin-bottom: 2em;
+@keyframes fly-segment {
+	0% {
+		left: -10px;
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	100% {
+		left: calc(100% - 5px);
+		opacity: 1;
+	}
+}
 
-	h3 {
-		color: var(--color-fg-bold);
+// Responsive flight path for mobile
+@include breakpoint('<=small') {
+	.flight-path {
+		padding: 1rem 0.5rem 1.5rem;
 	}
 
-	p {
-		color: var(--color-fg);
+	.flight-segment {
+		width: 30px;
 	}
 
-	.editable-choice {
-		color: var(--color-accent);
-		cursor: pointer;
-		text-decoration: underline;
-		transition: color 0.2s ease;
+	.waypoint-dot {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+// ============================================
+// Choice Breadcrumbs
+// Tappable pills showing the user's selections
+// ============================================
+.choice-breadcrumbs {
+		display: flex;
+	flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	gap: 0.5rem;
+		padding: 1rem;
+	margin-bottom: 1.5rem;
+	min-height: 50px;
+}
+
+// Individual choice pill
+.choice-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.45rem 1rem;
+	background: var(--wizard-glass-bg);
+	border: 1px solid var(--wizard-glass-border);
+	border-radius: 999px;
+	font-size: 0.82rem;
+	color: var(--wizard-text-secondary);
+	transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: default;
+	font-weight: 500;
+
+	// Label text
+	.pill-label {
+		white-space: nowrap;
+	}
+}
+
+// Completed choice pill - clickable to edit
+.choice-pill.completed {
+	background: rgba(59, 130, 246, 0.1);
+	border-color: rgba(59, 130, 246, 0.25);
+	color: var(--wizard-text-primary);
+	cursor: pointer;
+
+	&:hover {
+		background: rgba(59, 130, 246, 0.18);
+		border-color: rgba(59, 130, 246, 0.4);
+		transform: scale(1.02);
+		box-shadow: 0 2px 12px rgba(59, 130, 246, 0.15);
+	}
+
+	&:active {
+		transform: scale(0.98);
+	}
+}
+
+// Current step pill (shows the question)
+.choice-pill.current {
+	background: transparent;
+	border-style: dashed;
+	border-color: var(--wizard-text-muted);
+	color: var(--wizard-text-muted);
+	font-style: italic;
+}
+
+// Connector text between breadcrumbs ("from", "to the CrewLu app on", "→")
+.breadcrumb-connector {
+	color: var(--wizard-text-secondary);
+	font-size: 0.85rem;
+	font-weight: 500;
+	margin: 0 0.5rem;
+	text-transform: lowercase;
+	font-style: italic;
+
+	// Brand name emphasis within connector
+	.connector-brand {
+		font-weight: 700;
+		font-style: normal;
+		color: var(--wizard-text-primary);
+	}
+}
+
+// Mobile: Adjust breadcrumbs for smaller screens
+@include breakpoint('<=small') {
+	.choice-breadcrumbs {
+		gap: 0.4rem;
+	}
+
+	.choice-pill {
+		font-size: 0.75rem;
+		padding: 0.35rem 0.7rem;
+	}
+
+	.breadcrumb-connector {
+		font-size: 0.75rem;
+		margin: 0 0.3rem;
+	}
+}
+
+// ============================================
+// Wizard Step Container (Question + Options)
+// ============================================
+.wizard-step {
+	animation: step-enter 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.wizard-step.exiting {
+	animation: step-exit 0.3s ease forwards;
+}
+
+@keyframes step-enter {
+	from {
+		opacity: 0;
+		transform: translateX(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes step-exit {
+	to {
+		opacity: 0;
+		transform: translateX(-30px);
+	}
+}
+
+// ============================================
+// Question Text
+// ============================================
+.wizard-question-text {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--wizard-text-primary);
+	line-height: 1.3;
+
+	@include breakpoint('<=small') {
+		font-size: 1.2rem;
+		margin-bottom: 1.2rem;
+	}
+}
+
+// ============================================
+// Wizard Cards (Option Selection)
+// Beautiful cards with icons, hover effects, and animations
+// ============================================
+.wizard-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 0 0.5rem;
+}
+
+// Individual option card
+.wizard-card {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1.1rem 1.5rem;
+	background: var(--wizard-glass-bg);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border: 1px solid var(--wizard-glass-border);
+	border-radius: 12px;
+	cursor: pointer;
+	transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+	text-align: left;
+	width: 100%;
+	position: relative;
+	overflow: visible;
+	min-height: 0;
+	height: auto;
+
+	// Subtle left accent border on hover
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 3px;
+		background: var(--wizard-accent-gradient);
+		opacity: 0;
+		transition: opacity 0.25s ease;
+	}
+
+	&:hover {
+		transform: translateX(4px);
+		border-color: rgba(59, 130, 246, 0.3);
+		box-shadow: var(--wizard-card-shadow);
+		background: var(--wizard-glass-hover);
+
+		&::before {
+			opacity: 1;
+		}
+
+		.card-arrow {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	&:active {
+		transform: scale(0.98) translateX(4px);
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--color-accent);
+		box-shadow: 0 0 0 3px var(--wizard-accent-glow);
+	}
+
+	// Staggered animation for cards entering
+	@for $i from 1 through 8 {
+		&:nth-child(#{$i}) {
+			animation-delay: #{($i - 1) * 0.05}s;
+		}
+	}
+
+	animation: card-enter 0.35s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+@keyframes card-enter {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Card content area (title + subtitle)
+.card-content {
+	flex: 1;
+	min-width: 0;
+	position: relative;
+	z-index: 1;
+	overflow: visible;
+}
+
+.card-title {
+	display: block;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--wizard-text-primary);
+	letter-spacing: -0.01em;
+	line-height: 1.4;
+	white-space: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+// Arrow indicator on the right
+.card-arrow {
+	font-size: 1.1rem;
+	color: var(--color-accent);
+	opacity: 0.4;
+	transform: translateX(-4px);
+	transition: all 0.25s ease;
+	position: relative;
+	z-index: 1;
+	font-weight: 300;
+	flex-shrink: 0;
+	margin-left: 0.5rem;
+}
+
+// Tablet: 2 column grid
+@include breakpoint('>medium') {
+	.wizard-cards {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.85rem;
+	}
+
+	.wizard-card {
+		padding: 1.1rem 1.3rem;
+	}
+}
+
+// Tablet adjustments
+@include breakpoint('<=medium') {
+	.wizard-card {
+		// Allow cards to grow for longer text
+		min-height: auto;
+	}
+
+	.card-title {
+		font-size: 0.95rem;
+	}
+}
+
+// Mobile adjustments
+@include breakpoint('<=small') {
+	.wizard-cards {
+		padding: 0;
+	}
+
+	.wizard-card {
+		padding: 0.85rem 1rem;
+		border-radius: 10px;
 
 		&:hover {
-			color: var(--color-accent-secondary);
+			transform: translateX(3px);
 		}
 	}
 
-	// Wind Difficulty Visualization
-	.wind-visualization {
-		margin-top: 1.5em;
-		padding-top: 1.5em;
-		border-top: 1px solid var(--color-border);
+	.card-title {
+		font-size: 0.9rem;
+	}
 
-		#windScene {
-			display: block;
-			width: 100%;
-			max-width: 720px;
-			margin: 0 auto;
-		}
+	.card-arrow {
+		font-size: 1rem;
+		flex-shrink: 0;
+	}
+}
 
-		#jetGroup path, #jetGroup rect {
-			filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
-		}
+// Extra small screens
+@include breakpoint('<=xsmall') {
+	.card-title {
+		font-size: 0.85rem;
+	}
+}
 
-		#runwayGroup rect[fill="#2f3338"] {
-			filter: drop-shadow(0 3px 10px rgba(0,0,0,0.25));
-		}
+// ============================================
+// Instruction Timeline
+// Beautiful vertical timeline for final instructions
+// ============================================
+.instruction-timeline {
+	position: relative;
+	padding-left: 3.5rem;
+	margin-top: 1rem;
 
-		#infoGroup text {
-			fill: var(--color-fg-light);
+	// Vertical timeline line
+	&::before {
+		content: '';
+		position: absolute;
+		left: 1rem;
+		top: 0;
+		bottom: 2rem;
+		width: 2px;
+		background: linear-gradient(
+			to bottom,
+			var(--color-accent) 0%,
+			var(--color-accent) 70%,
+			transparent 100%
+		);
+		border-radius: 1px;
+	}
+}
+
+// Individual timeline step
+.timeline-step {
+	position: relative;
+	padding-bottom: 2rem;
+	opacity: 0;
+	animation: timeline-step-enter 0.5s ease forwards;
+
+	// Staggered animation delay
+	@for $i from 1 through 20 {
+		&:nth-child(#{$i}) {
+			animation-delay: #{($i - 1) * 0.12}s;
 		}
 	}
 
-	.wind-scene {
+	// Step number circle
+	&::before {
+		content: attr(data-step);
+		position: absolute;
+		left: -2.5rem;
+		top: 0;
+		width: 2rem;
+		height: 2rem;
+		background: var(--wizard-accent-gradient);
+		border-radius: 50%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 2rem;
-		position: relative;
-		min-height: 150px;
+		color: white;
+		font-weight: 700;
+		font-size: 0.85rem;
+		box-shadow: 0 2px 12px var(--wizard-accent-glow);
+	}
+
+	// Last step has no bottom padding
+	&:last-child {
+		padding-bottom: 0;
+	}
+}
+
+@keyframes timeline-step-enter {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+// Step content card
+.step-content {
+	background: var(--wizard-glass-bg);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border: 1px solid var(--wizard-glass-border);
+	border-radius: 12px;
+	padding: 1.25rem 1.5rem;
+	transition: all 0.3s ease;
+
+	&:hover {
+		border-color: rgba(59, 130, 246, 0.2);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	}
+
+	p {
+		font-size: 1rem;
+			line-height: 1.6;
+		color: var(--wizard-text-primary);
+		margin: 0;
+
+		a {
+			color: var(--color-accent);
+			text-decoration: underline;
+			text-underline-offset: 2px;
+
+			&:hover {
+				color: var(--color-accent-secondary, #60a5fa);
+			}
+		}
+	}
+}
+
+// Step images
+.step-image {
+	margin-top: 1rem;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid var(--wizard-glass-border);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+	img, video {
+		display: block;
+		width: 100%;
+				height: auto;
+		max-width: 100%;
+	}
+
+	// Limit image size on larger screens
+	@include breakpoint('>medium') {
+					max-width: 500px;
+				}
+			}
+
+// Image caption
+.step-caption {
+	margin-top: 0.6rem;
+	font-size: 0.85rem;
+	color: var(--wizard-text-muted);
+				font-style: italic;
+				text-align: center;
+}
+
+// Mobile timeline adjustments
+@include breakpoint('<=small') {
+	.instruction-timeline {
+		padding-left: 2.5rem;
+
+		&::before {
+			left: 0.6rem;
+		}
+	}
+
+	.timeline-step {
+		&::before {
+			left: -1.9rem;
+			width: 1.6rem;
+			height: 1.6rem;
+			font-size: 0.75rem;
+		}
+	}
+
+	.step-content {
 		padding: 1rem;
 
-		.runway-label {
-			position: absolute;
-			top: -0.5rem;
-			left: 50%;
-			transform: translateX(-50%);
-			font-size: 0.85em;
-			color: var(--color-fg-light);
-			font-weight: bold;
-			letter-spacing: 0.1em;
-		}
-
-		.aircraft-container {
-			position: relative;
-			z-index: 2;
-
-			.aircraft {
-				width: 60px;
-				height: 80px;
-				color: var(--color-fg-bold);
-				filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-			}
-		}
-
-		.windsock-container {
-			position: relative;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			z-index: 1;
-
-			.windsock-pole {
-				width: 4px;
-				height: 40px;
-				background: linear-gradient(to bottom, #8b6f47 0%, #6b5238 100%);
-				border-radius: 2px;
-				margin-bottom: -5px;
-			}
-
-			.windsock-rotator {
-				transform-origin: center 20px;
-				// Base rotation will be set via inline style
-			}
-
-			.windsock {
-				width: 40px;
-				height: 70px;
-				filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-			}
-		}
-
-		.wind-info {
-			position: absolute;
-			bottom: -0.5rem;
-			left: 50%;
-			transform: translateX(-50%);
-			text-align: center;
-			font-size: 0.9em;
-			color: var(--color-fg-light);
-
-			.wind-speed {
-				font-weight: bold;
-			}
-		}
-	}
-
-	// Windsock animations based on wind speed
-	#sockCloth {
-		// Default: calm conditions (0-4 kts)
-		animation: windsock-calm 3s ease-in-out infinite;
-		will-change: transform;
-
-		&.wind-gentle {
-			animation-name: windsock-gentle;
-		}
-
-		&.wind-moderate {
-			animation-name: windsock-moderate;
-		}
-
-		&.wind-strong {
-			animation-name: windsock-strong;
-		}
-
-		&.wind-extreme {
-			animation-name: windsock-extreme;
+		p {
+			font-size: 0.95rem;
 		}
 	}
 }
 
-// Windsock animation keyframes
-// Note: Only use translateX for movement - rotation is handled by windsock-rotator
-@keyframes windsock-calm {
-	0%, 100% {
-		transform: translateX(0);
+// ============================================
+// Instructions Header
+// ============================================
+.instructions-header {
+	text-align: center;
+	margin-bottom: 2rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid var(--wizard-glass-border);
+
+	h2 {
+		font-size: 1.5rem;
+		color: var(--wizard-text-primary);
+		margin-bottom: 0.5rem;
 	}
-	50% {
-		transform: translateX(2px);
+
+	.instructions-summary {
+		font-size: 1rem;
+		color: var(--wizard-text-secondary);
+		line-height: 1.5;
+
+		a {
+			color: var(--color-accent);
+		}
 	}
 }
 
-@keyframes windsock-gentle {
-	0%, 100% {
-		transform: translateX(-3px);
-	}
-	50% {
-		transform: translateX(3px);
+// ============================================
+// Navigation Buttons
+// ============================================
+.wizard-nav {
+	display: flex;
+	gap: 0.75rem;
+	justify-content: center;
+	margin-top: 2rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--wizard-glass-border);
+}
+
+.nav-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.7rem 1.5rem;
+	border-radius: 10px;
+	font-size: 0.9rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	border: none;
+
+	&:focus {
+		outline: none;
+		box-shadow: 0 0 0 3px var(--wizard-accent-glow);
 	}
 }
 
-@keyframes windsock-moderate {
-	0%, 100% {
-		transform: translateX(-6px);
-	}
-	25% {
-		transform: translateX(5px);
-	}
-	50% {
-		transform: translateX(-5px);
-	}
-	75% {
-		transform: translateX(6px);
+// Back button - subtle style
+.nav-btn-back {
+	background: var(--wizard-glass-bg);
+	border: 1px solid var(--wizard-glass-border);
+	color: var(--wizard-text-secondary);
+
+	&:hover {
+		background: var(--wizard-glass-hover);
+		color: var(--wizard-text-primary);
+		transform: translateX(-2px);
 	}
 }
 
-@keyframes windsock-strong {
-	0%, 100% {
-		transform: translateX(-10px);
-	}
-	20% {
-		transform: translateX(8px);
-	}
-	40% {
-		transform: translateX(-8px);
-	}
-	60% {
-		transform: translateX(10px);
-	}
-	80% {
-		transform: translateX(-6px);
+// Restart button - accent style
+.nav-btn-restart {
+	background: var(--wizard-accent-gradient);
+	color: white;
+	box-shadow: 0 2px 12px var(--wizard-accent-glow);
+
+		&:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 20px var(--wizard-accent-glow);
 	}
 }
 
-@keyframes windsock-extreme {
-	0% {
-		transform: translateX(-15px);
+// Mobile nav adjustments
+@include breakpoint('<=small') {
+	.wizard-nav {
+		flex-direction: column;
+		align-items: stretch;
 	}
-	10% {
-		transform: translateX(12px);
-	}
-	20% {
-		transform: translateX(-10px);
-	}
-	30% {
-		transform: translateX(15px);
-	}
-	40% {
-		transform: translateX(-12px);
-	}
-	50% {
-		transform: translateX(10px);
-	}
-	60% {
-		transform: translateX(-8px);
-	}
-	70% {
-		transform: translateX(13px);
-	}
-	80% {
-		transform: translateX(-15px);
-	}
-	90% {
-		transform: translateX(10px);
-	}
-	100% {
-		transform: translateX(-15px);
+
+	.nav-btn {
+		justify-content: center;
+		padding: 0.8rem 1.5rem;
 	}
 }
 
-// Question Area
+// ============================================
+// Loading State
+// ============================================
+#loading-message {
+	text-align: center;
+	padding: 3rem 1rem;
+
+	p {
+		color: var(--wizard-text-muted);
+		font-style: italic;
+	}
+}
+
+// Loading spinner animation
+.wizard-loading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding: 3rem;
+
+	.loading-spinner {
+		width: 40px;
+		height: 40px;
+		border: 3px solid var(--wizard-glass-border);
+		border-top-color: var(--color-accent);
+		border-radius: 50%;
+		animation: spin 1s linear infinite;
+	}
+
+	.loading-text {
+		color: var(--wizard-text-muted);
+		font-size: 0.9rem;
+	}
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+// ============================================
+// Error State
+// ============================================
+.wizard-error {
+	background: rgba(239, 68, 68, 0.1);
+	border: 1px solid rgba(239, 68, 68, 0.3);
+	border-radius: 12px;
+	padding: 1.5rem;
+	text-align: center;
+
+	h3 {
+		color: #ef4444;
+		margin-bottom: 0.5rem;
+	}
+
+	p {
+		color: var(--wizard-text-secondary);
+	}
+}
+
+// ============================================
+// Legacy Support & Transitions
+// Keep old class names working during transition
+// ============================================
+
+// Old question area (map to new styles)
 .wizard-question {
 	text-align: center;
 	margin-bottom: 2em;
 
 	h2 {
-		margin-bottom: 1.5em;
-		color: var(--color-fg-bold);
+		// Replicate wizard-question-text styles
+		text-align: center;
+		margin-bottom: 1.5rem;
+		font-size: 1.4rem;
+		font-weight: 600;
+		color: var(--wizard-text-primary);
+		line-height: 1.3;
+
+		@include breakpoint('<=small') {
+			font-size: 1.2rem;
+			margin-bottom: 1.2rem;
+		}
 	}
 }
 
-// Options
+// Old options area (map to new card styles)
 .wizard-options {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-	gap: 1rem;
-	margin-bottom: 2em;
+	// Replicate wizard-cards styles
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 0 0.5rem;
+
+	@include breakpoint('>medium') {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.85rem;
+	}
+
+	@include breakpoint('<=small') {
+		padding: 0;
+	}
 
 	.option-btn {
-		padding: 1.5rem 2rem;
-		font-size: 1.1em;
-		min-height: 4rem;
+		// Replicate wizard-card styles
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		gap: 1rem;
+		padding: 1rem 1.25rem;
+		background: var(--wizard-glass-bg);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		border: 1px solid var(--wizard-glass-border);
+		border-radius: 14px;
+		cursor: pointer;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		text-align: center;
-		transition: all 0.3s ease;
-		border: 2px solid var(--color-border);
-		color: var(--color-fg-bold);
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		font-size: 1rem;
+		font-weight: 500;
+		color: var(--wizard-text-primary);
 
 		&:hover {
-			transform: translateY(-2px);
-			box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-			border-color: var(--color-accent);
+			transform: translateX(6px);
+			border-color: rgba(59, 130, 246, 0.4);
+			box-shadow: var(--wizard-card-shadow), 0 0 20px var(--wizard-accent-glow);
+		}
+
+		&:active {
+			transform: scale(0.98) translateX(6px);
 		}
 
 		&:focus {
-			outline: 2px solid var(--color-accent);
-			outline-offset: 2px;
+			outline: none;
+			border-color: var(--color-accent);
+			box-shadow: 0 0 0 3px var(--wizard-accent-glow);
+		}
+
+		@include breakpoint('<=small') {
+			padding: 0.9rem 1rem;
+			border-radius: 12px;
+
+			&:hover {
+				transform: translateX(4px);
+			}
 		}
 	}
 }
 
-// Instructions Area
+// Old instructions area
 .wizard-instructions {
 	.instruction-step {
 		margin-bottom: 2em;
@@ -358,11 +961,11 @@
 		h3 {
 			color: var(--color-accent);
 			margin-bottom: 1em;
-			font-size: 1.3em;
+			font-size: 1.2em;
 		}
 
 		p {
-			font-size: 1.1em;
+			font-size: 1rem;
 			line-height: 1.6;
 			margin-bottom: 1em;
 			word-break: break-word;
@@ -371,6 +974,7 @@
 			a {
 				word-break: break-word;
 				overflow-wrap: break-word;
+				color: var(--color-accent);
 			}
 		}
 
@@ -381,16 +985,11 @@
 			.instruction-image {
 				max-width: 100%;
 				height: auto;
-				border-radius: 8px;
-				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-				border: 1px solid var(--color-border);
+				border-radius: 10px;
+				box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+				border: 1px solid var(--wizard-glass-border);
 
-				// Responsive max-width constraints for desktop
 				@include breakpoint('>medium') {
-					max-width: 600px;
-				}
-
-				@include breakpoint('<=medium') {
 					max-width: 500px;
 				}
 			}
@@ -398,17 +997,16 @@
 			video {
 				max-width: 100%;
 				height: auto;
-				border-radius: 8px;
-				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-				border: 1px solid var(--color-border);
+				border-radius: 10px;
+				box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+				border: 1px solid var(--wizard-glass-border);
 			}
 
 			.media-caption {
 				font-style: italic;
-				color: var(--color-fg-light);
-				margin-top: 0.5em;
-				font-size: 0.9em;
-				text-align: center;
+				color: var(--wizard-text-muted);
+				margin-top: 0.6rem;
+				font-size: 0.85rem;
 			}
 		}
 	}
@@ -416,237 +1014,81 @@
 	.step-divider {
 		border: 0;
 		height: 1px;
-		background: var(--color-border);
-		margin: 3em 0;
-		opacity: 0.5;
+		background: var(--wizard-glass-border);
+		margin: 2.5em 0;
+		opacity: 0.6;
+	}
+
+	.summary-divider {
+		margin: 1.5em 0;
+	}
+
+	.instruction-summary {
+		background: var(--wizard-glass-bg);
+		border: 1px solid var(--wizard-glass-border);
+		border-radius: 12px;
+		padding: 1rem 1.25rem;
+		margin-bottom: 1rem;
+
+		p {
+			margin: 0;
+			color: var(--wizard-text-secondary);
+
+			a {
+				color: var(--color-accent);
+			}
+		}
 	}
 }
 
-// Navigation
-.wizard-nav {
-	display: flex;
-	gap: 1rem;
-	justify-content: center;
-	margin-top: 2em;
-	flex-wrap: wrap;
-
-	button {
-		min-width: 120px;
-	}
-}
-
-// Error states
-.error {
-	border-left: 4px solid #e74c3c !important;
+// Old wizard summary
+.wizard-summary {
+	margin-bottom: 2em;
 
 	h3 {
-		color: #e74c3c;
+		color: var(--wizard-text-primary);
 	}
-}
-
-// Loading message
-#loading-message {
-	text-align: center;
 
 	p {
-		color: var(--color-fg-light);
-		font-style: italic;
-	}
-}
-
-// Dark mode adjustments
-@media (prefers-color-scheme: dark) {
-	.import-wizard {
-		.wizard-progress .progress-steps .step {
-			&:not(.active):not(.completed) {
-				background: rgba(255, 255, 255, 0.1);
-				color: rgba(255, 255, 255, 0.7);
-			}
-		}
-
-		.wizard-question h2 {
-			color: rgba(255, 255, 255, 0.9);
-		}
-
-		.wizard-instructions h2 {
-			color: rgba(255, 255, 255, 0.9);
-		}
+		color: var(--wizard-text-secondary);
 	}
 
-	.wizard-summary {
-		h3 {
-			color: rgba(255, 255, 255, 0.9);
-		}
-
-		p {
-			color: rgba(255, 255, 255, 0.8);
-		}
-	}
-
-	.wizard-options .option-btn {
-		border-color: rgba(255, 255, 255, 0.2);
-		background: rgba(255, 255, 255, 0.05);
-		color: rgba(255, 255, 255, 0.9);
+	.editable-choice {
+		color: var(--color-accent);
+		cursor: pointer;
+		text-decoration: underline;
+		text-underline-offset: 2px;
+		transition: all 0.2s ease;
 
 		&:hover {
-			background: rgba(255, 255, 255, 0.1);
-			border-color: rgba(59, 130, 246, 0.5);
-		}
-	}
-
-	.wizard-instructions .media-container {
-		.instruction-image, video {
-			border-color: rgba(255, 255, 255, 0.2);
-		}
-	}
-
-	#loading-message p {
-		color: rgba(255, 255, 255, 0.6);
-	}
-}
-
-[data-theme="dark"] {
-	.import-wizard {
-		.wizard-progress .progress-steps .step {
-			&:not(.active):not(.completed) {
-				background: rgba(255, 255, 255, 0.1);
-				color: rgba(255, 255, 255, 0.7);
-			}
-		}
-
-		.wizard-question h2 {
-			color: rgba(255, 255, 255, 0.9);
-		}
-
-		.wizard-instructions h2 {
-			color: rgba(255, 255, 255, 0.9);
-		}
-	}
-
-	.wizard-summary {
-		h3 {
-			color: rgba(255, 255, 255, 0.9);
-		}
-
-		p {
-			color: rgba(255, 255, 255, 0.8);
-		}
-	}
-
-	.wizard-options .option-btn {
-		border-color: rgba(255, 255, 255, 0.2);
-		background: rgba(255, 255, 255, 0.05);
-		color: rgba(255, 255, 255, 0.9);
-
-		&:hover {
-			background: rgba(255, 255, 255, 0.1);
-			border-color: rgba(59, 130, 246, 0.5);
-		}
-	}
-
-	.wizard-instructions .media-container {
-		.instruction-image, video {
-			border-color: rgba(255, 255, 255, 0.2);
-		}
-	}
-
-	#loading-message p {
-		color: rgba(255, 255, 255, 0.6);
-	}
-}
-
-// Light mode overrides (higher specificity to override system preference)
-[data-theme="light"] {
-	.import-wizard {
-		.wizard-question h2 {
-			color: var(--color-fg-bold) !important;
-		}
-
-		.wizard-instructions h2 {
-			color: var(--color-fg-bold) !important;
-		}
-	}
-
-	.wizard-summary {
-		h3 {
-			color: var(--color-fg-bold) !important;
-		}
-
-		p {
-			color: var(--color-fg) !important;
-		}
-	}
-
-	.wizard-options .option-btn {
-		color: var(--color-fg-bold) !important;
-	}
-}
-
-// Responsive Design
-@include breakpoint('<=medium') {
-	.wizard-options {
-		grid-template-columns: 1fr;
-
-		.option-btn {
-			padding: 1.2rem 1.5rem;
-			min-height: 3.5rem;
-		}
-	}
-
-	.wizard-nav {
-		button {
-			min-width: 100px;
-			font-size: 0.9em;
-		}
-	}
-
-	.wizard-progress .progress-steps {
-		gap: 0.5rem;
-
-		.step {
-			width: 2rem;
-			height: 2rem;
-			font-size: 0.9em;
-
-			&:not(:last-child)::before {
-				width: 0.5rem;
-			}
+			color: var(--color-accent-secondary, #60a5fa);
+			text-decoration-thickness: 2px;
 		}
 	}
 }
 
-@include breakpoint('<=small') {
-	.wizard-instructions .instruction-step {
-		.media-container {
-			margin: 1em 0;
-		}
-
-		h3 {
-			font-size: 1.2em;
-		}
-
-		p {
-			font-size: 1em;
-		}
-	}
-
-	.wizard-nav {
-		flex-direction: column;
-		align-items: center;
-
-		button {
-			width: 100%;
-			max-width: 280px;
-		}
-	}
+// Old progress indicator (keep for backward compatibility)
+.wizard-progress {
+	display: none; // Hide old progress, use flight-path instead
 }
 
-// Animation for step transitions
-.wizard-question, .wizard-instructions {
-	animation: fadeInUp 0.5s ease-out;
+// ============================================
+// Animation Utilities
+// ============================================
+.fade-in {
+	animation: fadeIn 0.3s ease forwards;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.slide-up {
+	animation: slideUp 0.4s ease forwards;
+}
+
+@keyframes slideUp {
 	from {
 		opacity: 0;
 		transform: translateY(20px);
@@ -655,4 +1097,34 @@
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+
+// ============================================
+// Accessibility
+// ============================================
+@media (prefers-reduced-motion: reduce) {
+	.wizard-card,
+	.wizard-step,
+	.timeline-step,
+	.waypoint-dot,
+	.choice-pill {
+		animation: none !important;
+		transition: opacity 0.2s ease !important;
+	}
+
+	.waypoint.current .waypoint-dot {
+		animation: none;
+	}
+
+	.flight-segment.traveling::before {
+		animation: none;
+	}
+}
+
+// Focus visible for keyboard navigation
+.wizard-card:focus-visible,
+.choice-pill:focus-visible,
+.nav-btn:focus-visible {
+	outline: 2px solid var(--color-accent);
+	outline-offset: 2px;
 }

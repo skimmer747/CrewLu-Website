@@ -247,7 +247,7 @@
       ]
     },
     "fullroster-iphone-efk-no": {
-      "title": "Import Full Roster from EFK to iPhone (Different Apple IDs)",
+      "title": "Import Full Roster from EFK to iPhone",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
@@ -459,7 +459,7 @@
       ]
     },
     "fullroster-ipad-efk-no": {
-      "title": "Import Full Roster from EFK to iPad (Different Apple IDs)",
+      "title": "Import Full Roster from EFK to iPad",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and expand all the arrows of all present and future trips, then we will airdrop the roster to your device.",
       "steps": [
         {
@@ -929,7 +929,7 @@
       ]
     },
     "onetrip-iphone-efk-no": {
-      "title": "Import One Trip from EFK to iPhone (Different Apple IDs)",
+      "title": "Import One Trip from EFK to iPhone",
       "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
@@ -1131,7 +1131,7 @@
       ]
     },
     "onetrip-ipad-efk-no": {
-      "title": "Import One Trip from EFK to iPad (Different Apple IDs)",
+      "title": "Import One Trip from EFK to iPad",
       "summary": "This method should mainly be used if you want your credit listed. Otherwise, there is no advantage from using the full-roster method. If the trip does not exist, it will be imported with the Credit, but there will be no additional crewmembers. If the trip is already imported, the only change will be that the Credit will be added or updated. This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your roster and select the individual trip, then we will airdrop the trip to your device.",
       "steps": [
         {
@@ -1359,7 +1359,7 @@
       ]
     },
     "deadhead-iphone-efk-no": {
-      "title": "Import Jumpseat from EFK to iPhone (Different Apple IDs)",
+      "title": "Import Jumpseat from EFK to iPhone",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your jumpseats and expand all the arrows of all present and future jumpseats, then we will airdrop the jumpseats to your device.",
       "steps": [
         {
@@ -1597,7 +1597,7 @@
       ]
     },
     "deadhead-ipad-efk-no": {
-      "title": "Import Jumpseat from EFK to iPad (Different Apple IDs)",
+      "title": "Import Jumpseat from EFK to iPad",
       "summary": "This method will use safari on your efk. You must be signed in to Zscaler in order for Safari to show your schedule. You need to add a shortcut to your efk, then go to your jumpseats and expand all the arrows of all present and future jumpseats, then we will airdrop the jumpseats to your device.",
       "steps": [
         {
@@ -2269,7 +2269,7 @@
       ]
     },
     "tripboard-iphone-efk-no": {
-      "title": "Import TripBoard from EFK to iPhone (Different Apple IDs)",
+      "title": "Import TripBoard from EFK to iPhone",
       "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
       "steps": [
         {
@@ -2299,7 +2299,7 @@
       ]
     },
     "tripboard-ipad-efk-no": {
-      "title": "Import TripBoard from EFK to iPad (Different Apple IDs)",
+      "title": "Import TripBoard from EFK to iPad",
       "summary": "Importing using this method is not as complete as Crew Access method. And this app is in no way associated with Bidpro.",
       "steps": [
         {

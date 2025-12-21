@@ -1,79 +1,93 @@
 /*
  * Import Wizard for CrewLu Website
- * Provides interactive step-by-step import instructions
+ * "Flight Plan" themed interactive step-by-step import instructions
+ * 
+ * This wizard guides users through selecting their import configuration
+ * with a beautiful, aviation-inspired interface that works seamlessly
+ * on phones, tablets, and desktops.
  */
 
 (function ($) {
     'use strict';
 
-    // Wizard state
-    let wizardData = null;
-    let currentStep = 'device';
-    let userChoices = {};
-    let stepHistory = [];
+    // ========================================
+    // Configuration & Constants
+    // ========================================
 
-    // DOM elements
+    // Step display names for breadcrumbs
+    const STEP_NAMES = {
+        import_type: 'Import Type',
+        device: 'Device',
+        data_source_device: 'Data Source',
+        apple_id_check: 'Apple ID',
+        crewmember_type: 'Crew Type'
+    };
+
+    // ========================================
+    // Wizard State
+    // ========================================
+
+    let wizardData = null;           // The workflow JSON data
+    let currentStep = 'import_type'; // Current step in the wizard
+    let userChoices = {};            // Object storing user's selections
+    let stepHistory = [];            // Array tracking navigation history
+
+    // ========================================
+    // DOM Element References
+    // ========================================
+
     let $wizardContainer;
+    let $flightPath;
+    let $breadcrumbs;
+    let $wizardStep;
     let $questionText;
     let $wizardOptions;
     let $instructionsArea;
     let $instructionsTitle;
+    let $instructionsSummary;
     let $instructionsContent;
-    let $summaryArea;
-    let $summaryText;
     let $backBtn;
     let $restartBtn;
+    let $wizardNav;
     let $loadingMessage;
-    let $progressIndicator;
 
+    // ========================================
+    // Initialization
+    // ========================================
 
-
-
-    // Convert URLs in text to clickable links
-    function convertUrlsToLinks(text) {
-        // Regular expression to match URLs
-        const urlRegex = /(https?:\/\/[^\s]+)/g;
-
-        return text.replace(urlRegex, function (url) {
-            // Check if it's an iCloud shortcuts URL and use descriptive text
-            let linkText = url;
-            if (url.includes('icloud.com/shortcuts')) {
-                // Check for the new clipboard shortcut
-                if (url.includes('1c4eea69ff5e4130b05eb8d6ac28f99d')) {
-                    linkText = 'Clipboard Shortcut Link';
-                } else {
-                    linkText = 'Airdrop Shortcut Link';
-                }
-            }
-            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
-        });
-    }
-
-    // Initialize the wizard
+    /**
+     * Initialize the wizard when the DOM is ready
+     * Caches DOM elements and loads the workflow data
+     */
     function initWizard() {
-        // Cache DOM elements
+        // Cache DOM elements for performance
         $wizardContainer = $('#import-wizard');
+        $flightPath = $('#flight-path');
+        $breadcrumbs = $('#choice-breadcrumbs');
+        $wizardStep = $('#wizard-step');
         $questionText = $('#question-text');
         $wizardOptions = $('#wizard-options');
         $instructionsArea = $('#wizard-instructions');
         $instructionsTitle = $('#instructions-title');
+        $instructionsSummary = $('#instructions-summary');
         $instructionsContent = $('#instructions-content');
-        $summaryArea = $('#wizard-summary');
-        $summaryText = $('#summary-text');
         $backBtn = $('#back-btn');
         $restartBtn = $('#restart-btn');
+        $wizardNav = $('#wizard-nav');
         $loadingMessage = $('#loading-message');
-        $progressIndicator = $('#wizard-progress');
 
-
-        // Load workflow data
+        // Load the workflow data from JSON file
         loadWorkflowData();
 
-        // Set up event listeners
+        // Set up button click handlers
         setupEventListeners();
     }
 
-    // Load the workflow JSON data
+    /**
+     * Fetch the workflow JSON data from the server
+     * On success, starts the wizard
+     * On failure, shows an error message
+     */
     function loadWorkflowData() {
         $.getJSON('import-workflow.json')
             .done(function (data) {
@@ -82,90 +96,129 @@
                 startWizard();
             })
             .fail(function () {
-                $loadingMessage.html('<div class="box error"><p><strong>Error:</strong> Could not load the import wizard. Please refresh the page and try again.</p></div>');
+                $loadingMessage.html(
+                    '<div class="wizard-error">' +
+                    '<h3>Unable to Load</h3>' +
+                    '<p>Could not load the import wizard. Please refresh the page and try again.</p>' +
+                    '</div>'
+                );
             });
     }
 
-    // Set up event listeners
+    /**
+     * Set up click handlers for navigation buttons
+     */
     function setupEventListeners() {
-        // Back button
+        // Back button - go to previous step
         $backBtn.on('click', function () {
             goBack();
         });
 
-        // Restart button
+        // Restart button - start over from beginning
         $restartBtn.on('click', function () {
             restartWizard();
         });
 
-        // Summary text clicks (for editing previous choices)
-        $summaryText.on('click', '.editable-choice', function () {
+        // Breadcrumb pills - click to edit a previous choice
+        $breadcrumbs.on('click', '.choice-pill.completed', function () {
             const stepId = $(this).data('step');
+            if (stepId) {
             goToStep(stepId);
+            }
         });
     }
 
-    // Start the wizard
+    // ========================================
+    // Wizard Flow Control
+    // ========================================
+
+    /**
+     * Start the wizard from the beginning
+     * Resets all state and shows the first question
+     */
     function startWizard() {
         currentStep = 'import_type';
         userChoices = {};
         stepHistory = [];
-        showStep(currentStep);
-        updateProgressIndicator();
-    }
 
-    // Restart the wizard
-    function restartWizard() {
-        startWizard();
+        // Hide elements that shouldn't show initially
         $instructionsArea.hide();
-        $summaryArea.hide();
-
+        $breadcrumbs.hide();
+        $flightPath.hide();
         $restartBtn.hide();
         $backBtn.hide();
+        $wizardNav.hide();
+
+        // Show the first question
+        $wizardStep.show();
+        showStep(currentStep);
     }
 
-    // Go back to previous step
+    /**
+     * Restart the wizard - reset everything and start fresh
+     */
+    function restartWizard() {
+        // Add exit animation to current content
+        $wizardStep.addClass('exiting');
+
+        setTimeout(function () {
+            $wizardStep.removeClass('exiting');
+            startWizard();
+        }, 300);
+    }
+
+    /**
+     * Go back to the previous step
+     * Removes the current choice and shows the previous question
+     */
     function goBack() {
-        if (stepHistory.length > 0) {
+        if (stepHistory.length === 0) return;
+
+        // Get the previous step from history
             const previousStep = stepHistory.pop();
 
             // Remove the choice for current step
-            const stepData = wizardData.workflow[currentStep];
-            if (stepData) {
                 delete userChoices[currentStep];
-            }
 
+        // Animate the transition
+        $wizardStep.addClass('exiting');
+
+        setTimeout(function () {
+            $wizardStep.removeClass('exiting');
             currentStep = previousStep;
             showStep(currentStep);
-            updateProgressIndicator();
-            updateSummary();
+            updateFlightPath();
+            updateBreadcrumbs();
 
+            // Update navigation visibility
             if (stepHistory.length === 0) {
                 $backBtn.hide();
             }
 
-            // Hide instructions if we're back to questions
+            // If we're going back from instructions, show questions again
             $instructionsArea.hide();
-            $('#wizard-question').show();
+            $wizardStep.show();
             $restartBtn.hide();
-        }
+        }, 300);
     }
 
-    // Go to a specific step (used for editing choices)
+    /**
+     * Go to a specific step (used when clicking breadcrumb pills)
+     * Rebuilds history and removes choices after the target step
+     */
     function goToStep(targetStep) {
-        // Rebuild step history by tracing through the workflow from the beginning
-        // up to (but not including) the target step
+        // Rebuild step history by tracing from start to target
         stepHistory = [];
         let traceStep = 'import_type';
+        let safetyCounter = 0;
 
-        while (traceStep !== targetStep && stepHistory.length < 10) {
+        // Trace through the workflow to rebuild history
+        while (traceStep !== targetStep && safetyCounter < 10) {
+            safetyCounter++;
             if (userChoices[traceStep]) {
                 stepHistory.push(traceStep);
-
-                // Find next step based on this choice
                 const stepData = wizardData.workflow[traceStep];
                 const selectedOption = stepData.options.find(opt => opt.id === userChoices[traceStep].id);
-
                 if (selectedOption) {
                     traceStep = selectedOption.next;
                 } else {
@@ -176,49 +229,54 @@
             }
         }
 
-        // Now delete the target step choice and all choices after it
-        // Trace from target step forward and delete everything
+        // Delete choices from target step onward
         let deleteStep = targetStep;
-        let safetyCounter = 0;
-
+        safetyCounter = 0;
         while (deleteStep && deleteStep !== 'instructions' && safetyCounter < 10) {
             safetyCounter++;
-
             if (userChoices[deleteStep]) {
-                // Find what the next step would be before we delete this choice
                 const stepData = wizardData.workflow[deleteStep];
                 const selectedOption = stepData.options.find(opt => opt.id === userChoices[deleteStep].id);
                 const nextStep = selectedOption ? selectedOption.next : null;
-
-                // Delete this step's choice
                 delete userChoices[deleteStep];
-
-                // Move to next step
                 deleteStep = nextStep;
             } else {
                 break;
             }
         }
 
+        // Animate transition to the target step
+        $wizardStep.addClass('exiting');
+
+        setTimeout(function () {
+            $wizardStep.removeClass('exiting');
         currentStep = targetStep;
-
         showStep(currentStep);
-        updateProgressIndicator();
-        updateSummary();
+            updateFlightPath();
+            updateBreadcrumbs();
 
-        // Hide instructions and show questions again
+            // Show/hide navigation
         $instructionsArea.hide();
-        $('#wizard-question').show();
+            $wizardStep.show();
         $restartBtn.hide();
+            $wizardNav.show();
 
         if (stepHistory.length > 0) {
             $backBtn.show();
         } else {
             $backBtn.hide();
         }
+        }, 300);
     }
 
-    // Show a specific step
+    // ========================================
+    // Step Display
+    // ========================================
+
+    /**
+     * Show a specific step (question with options)
+     * Filters options based on previous selections and renders cards
+     */
     function showStep(stepId) {
         const stepData = wizardData.workflow[stepId];
 
@@ -227,211 +285,365 @@
             return;
         }
 
-        // Update question text
+        // Update the question text
         $questionText.text(stepData.question);
 
-        // Clear and populate options
+        // Get filtered options based on user's previous choices
+        let filteredOptions = getFilteredOptions(stepId, stepData.options);
+
+        // Clear existing options
         $wizardOptions.empty();
 
-        // Filter options based on previous selections for logical flow
-        let filteredOptions = stepData.options;
-
-        if (stepId === 'device' && userChoices.import_type) {
-            const importType = userChoices.import_type.id;
-
-            // When importing catering or altour tickets, don't show EFK as a device option
-            if (importType === 'catering' || importType === 'altour_ticket') {
-                filteredOptions = stepData.options.filter(function (option) {
-                    return option.id !== 'efk';
-                });
-            }
-        }
-
-        if (stepId === 'data_source_device') {
-            // Filter based on import type
-            if (userChoices.import_type && (userChoices.import_type.id === 'catering' || userChoices.import_type.id === 'altour_ticket')) {
-                // When importing catering or altour tickets, don't show EFK as a data source option
-                filteredOptions = stepData.options.filter(function (option) {
-                    return option.id !== 'efk';
-                });
-            }
-
-            // Filter based on selected device
-            if (userChoices.device) {
-                const selectedDevice = userChoices.device.id;
-                const importType = userChoices.import_type ? userChoices.import_type.id : null;
-
-                // Special handling for Full Roster, One Trip, or TripBoard on iPhone or iPad
-                // Allow cross-device imports: iPhone, iPad, Mac, and EFK are all valid data sources
-                if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && 
-                    (selectedDevice === 'ipad' || selectedDevice === 'iphone')) {
-                    // Show iPhone, iPad, Mac, and EFK as data source options
-                    filteredOptions = stepData.options.filter(function (option) {
-                        return option.id === 'iphone' || option.id === 'ipad' || option.id === 'mac' || option.id === 'efk';
-                    });
-                }
-                // Special handling for catering and altour_ticket imports - they can use all mobile/computer devices
-                else if (importType === 'catering' || importType === 'altour_ticket') {
-                    // Already filtered out EFK above, no additional filtering needed
-                } else {
-                    // For other import types, when importing to EFK, only show EFK as data source
-                    if (selectedDevice === 'efk') {
-                        filteredOptions = stepData.options.filter(function (option) {
-                            return option.id === 'efk';
-                        });
-                    }
-                }
-            }
-        }
-
-        filteredOptions.forEach(function (option) {
-            const $optionBtn = $('<button>')
-                .addClass('button option-btn')
-                .text(option.label)
-                .data('option-id', option.id)
-                .data('next-step', option.next);
-
-            $wizardOptions.append($optionBtn);
+        // Create option cards
+        filteredOptions.forEach(function (option, index) {
+            const $card = createOptionCard(option, stepId, index);
+            $wizardOptions.append($card);
         });
 
-        // Add click handlers for option buttons
-        $('.option-btn').on('click', function () {
+        // Add click handlers to the new cards
+        $('.wizard-card').on('click', function () {
             const optionId = $(this).data('option-id');
             const nextStep = $(this).data('next-step');
-            const selectedLabel = $(this).text();
-
+            const selectedLabel = $(this).find('.card-title').text();
             handleOptionSelect(optionId, selectedLabel, nextStep);
         });
 
-        // Show/hide back button
+        // Update navigation visibility
+        $wizardNav.show();
         if (stepHistory.length > 0) {
             $backBtn.show();
         } else {
             $backBtn.hide();
         }
+
+        // Show flight path and breadcrumbs after first selection
+        if (Object.keys(userChoices).length > 0) {
+            $flightPath.show();
+            $breadcrumbs.show();
+        }
     }
 
-    // Handle option selection
+    /**
+     * Create an option card element
+     * Returns a jQuery element with proper structure and data attributes
+     */
+    function createOptionCard(option, stepId, index) {
+        // Build the card HTML (clean design - title only)
+        const $card = $(`
+            <button class="wizard-card" data-option-id="${option.id}" data-next-step="${option.next}">
+                <div class="card-content">
+                    <span class="card-title">${option.label}</span>
+                </div>
+                <div class="card-arrow">→</div>
+            </button>
+        `);
+
+        return $card;
+    }
+
+    /**
+     * Filter options based on previous user selections
+     * Implements the business logic for which options should be shown
+     */
+    function getFilteredOptions(stepId, options) {
+        let filtered = options;
+
+        // Filter device options based on import type
+        if (stepId === 'device' && userChoices.import_type) {
+            const importType = userChoices.import_type.id;
+            // Catering and Altour tickets can't be imported on EFK
+            if (importType === 'catering' || importType === 'altour_ticket') {
+                filtered = options.filter(opt => opt.id !== 'efk');
+            }
+        }
+
+        // Filter data source options based on device and import type
+        if (stepId === 'data_source_device') {
+            const importType = userChoices.import_type ? userChoices.import_type.id : null;
+
+            // Filter out EFK for catering and altour tickets
+            if (importType === 'catering' || importType === 'altour_ticket') {
+                filtered = options.filter(opt => opt.id !== 'efk');
+            }
+
+            // Filter based on selected device
+            if (userChoices.device) {
+                const selectedDevice = userChoices.device.id;
+
+                // For Full Roster, One Trip, or TripBoard on iPhone/iPad
+                // Allow cross-device imports (iPhone, iPad, Mac, EFK as sources)
+                if ((importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard') && 
+                    (selectedDevice === 'ipad' || selectedDevice === 'iphone')) {
+                    filtered = options.filter(opt =>
+                        opt.id === 'iphone' || opt.id === 'ipad' || opt.id === 'mac' || opt.id === 'efk'
+                    );
+                }
+                // For EFK device, only show EFK as data source
+                else if (selectedDevice === 'efk' &&
+                    !(importType === 'catering' || importType === 'altour_ticket')) {
+                    filtered = options.filter(opt => opt.id === 'efk');
+                }
+            }
+        }
+
+        return filtered;
+    }
+
+    // ========================================
+    // Option Selection Handler
+    // ========================================
+
+    /**
+     * Handle when user clicks an option card
+     * Saves the choice, updates UI, and navigates to next step
+     */
     function handleOptionSelect(optionId, optionLabel, nextStep) {
-        // Save the choice
+        // Save the user's choice
         userChoices[currentStep] = {
             id: optionId,
             label: optionLabel
         };
 
-        // Add current step to history
+        // Add current step to history for back navigation
         stepHistory.push(currentStep);
 
-        // Auto-skip data_source_device step for EFK when importing Full Roster, One Trip, TripBoard, or Jumpseat ON the EFK device
+        // Auto-skip data_source_device for EFK when importing certain types ON the EFK
         if (currentStep === 'device' && optionId === 'efk' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
-            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard' || importType === 'deadhead') {
-                // Skip directly to instructions for EFK device installations
+            if (['fullroster', 'onetrip', 'tripboard', 'deadhead'].includes(importType)) {
                 nextStep = 'instructions';
             }
         }
 
+        // Animate the transition
+        $wizardStep.addClass('exiting');
 
-
-        // (Removed) Auto-skip for Full Roster on iPhone/iPad — users must choose data source device
+        setTimeout(function () {
+            $wizardStep.removeClass('exiting');
 
         if (nextStep === 'instructions') {
-            // Show instructions
+                // Show final instructions
             showInstructions();
         } else {
-            // Go to next step
+                // Go to next question
             currentStep = nextStep;
             showStep(currentStep);
-            updateProgressIndicator();
-        }
+            }
 
-        updateSummary();
+            updateFlightPath();
+            updateBreadcrumbs();
+        }, 300);
     }
 
-    // Show final instructions
+    // ========================================
+    // Flight Path Progress Indicator
+    // ========================================
+
+    /**
+     * Update the flight path progress indicator
+     * Shows completed waypoints, current position, and future steps
+     */
+    function updateFlightPath() {
+        const completedSteps = stepHistory.length;
+        const totalSteps = completedSteps + 1; // +1 for current step
+
+        $flightPath.empty();
+
+        for (let i = 0; i < totalSteps; i++) {
+            // Add waypoint
+            const isCompleted = i < completedSteps;
+            const isCurrent = i === completedSteps;
+
+            const $waypoint = $('<div>')
+                .addClass('waypoint')
+                .addClass(isCompleted ? 'completed' : '')
+                .addClass(isCurrent ? 'current' : '');
+
+            const $dot = $('<div>').addClass('waypoint-dot');
+            $waypoint.append($dot);
+
+            $flightPath.append($waypoint);
+
+            // Add connecting segment (except after last waypoint)
+            if (i < totalSteps - 1) {
+                const $segment = $('<div>')
+                    .addClass('flight-segment')
+                    .addClass(isCompleted ? 'completed' : '');
+
+                // Add traveling animation to the last completed segment
+                if (i === completedSteps - 1) {
+                    $segment.addClass('traveling');
+                }
+
+                $flightPath.append($segment);
+            }
+        }
+
+        $flightPath.show();
+    }
+
+    // ========================================
+    // Breadcrumb Pills
+    // ========================================
+
+    /**
+     * Update the choice breadcrumbs display
+     * Shows tappable pills for each completed choice
+     * Uses "from" and "to" connectors for clarity
+     */
+    function updateBreadcrumbs() {
+        $breadcrumbs.empty();
+
+        // Add pills for each choice made
+        let stepKeys = Object.keys(userChoices);
+
+        stepKeys.forEach(function (stepId, index) {
+            const choice = userChoices[stepId];
+
+            // Create the pill (clean design without icons)
+            const $pill = $(`
+                <button class="choice-pill completed" data-step="${stepId}">
+                    <span class="pill-label">${choice.label}</span>
+                </button>
+            `);
+
+            $breadcrumbs.append($pill);
+
+            // Add connector text between pills (except after last)
+            // First connector: "to the CrewLu app on" (what → to destination)
+            // Second connector: "from" (destination → from source)
+            // Any additional: "→"
+            if (index < stepKeys.length - 1) {
+                let connectorText = '→';
+                if (index === 0) {
+                    connectorText = 'to the <strong class="connector-brand">CrewLu</strong> app on';
+                } else if (index === 1) {
+                    connectorText = 'from';
+                }
+                $breadcrumbs.append(`<span class="breadcrumb-connector">${connectorText}</span>`);
+            }
+        });
+
+        // Show breadcrumbs if there are choices
+        if (stepKeys.length > 0) {
+            $breadcrumbs.show();
+        } else {
+            $breadcrumbs.hide();
+        }
+    }
+
+    // ========================================
+    // Instructions Display
+    // ========================================
+
+    /**
+     * Show the final instructions based on user's choices
+     * Generates the instruction key and renders the timeline
+     */
     function showInstructions() {
         const instructionKey = generateInstructionKey();
         const instructions = wizardData.instructions[instructionKey];
 
+        // Hide question area, show instructions area
+        $wizardStep.hide();
+        $instructionsArea.show();
+
         if (!instructions) {
-            // Fallback if exact match not found
+            // Show error if no instructions found for this combination
+            $instructionsTitle.text('Instructions Not Available');
+            $instructionsSummary.html(
+                '<p>We don\'t have specific instructions for this combination yet. ' +
+                'Please try a different configuration or contact support.</p>'
+            );
             $instructionsContent.html(
-                '<div class="box error">' +
-                '<h3>Instructions Not Available</h3>' +
-                '<p>We don\'t have specific instructions for this combination yet. Please check back later or contact support.</p>' +
+                '<div class="wizard-error">' +
                 '<p><strong>Your selections:</strong></p>' +
                 '<ul>' +
                 Object.keys(userChoices).map(step =>
-                    `<li><strong>${step}:</strong> ${userChoices[step].label}</li>`
+                    `<li>${STEP_NAMES[step] || step}: ${userChoices[step].label}</li>`
                 ).join('') +
                 '</ul>' +
                 '</div>'
             );
         } else {
-            // Build instructions HTML
-            let instructionsHtml = '';
+            // Render instructions
+            $instructionsTitle.text(instructions.title);
 
-            // Add summary if it exists
+            // Add summary if available
             if (instructions.summary) {
-                instructionsHtml += '<div class="instruction-summary">';
-                instructionsHtml += `<p>${convertUrlsToLinks(instructions.summary)}</p>`;
-                instructionsHtml += '</div><hr class="summary-divider">';
+                $instructionsSummary.html(`<p>${convertUrlsToLinks(instructions.summary)}</p>`);
+            } else {
+                $instructionsSummary.empty();
             }
 
+            // Build timeline HTML
+            let timelineHtml = '';
+
             instructions.steps.forEach(function (step, index) {
-                instructionsHtml += '<div class="instruction-step">';
-                instructionsHtml += `<h3>Step ${index + 1}</h3>`;
-                instructionsHtml += `<p>${convertUrlsToLinks(step.text)}</p>`;
-
-                // Handle media - can be single object or array of objects
-                if (step.media) {
-                    const mediaItems = Array.isArray(step.media) ? step.media : [step.media];
-
-                    mediaItems.forEach(function (media, mediaIndex) {
-                        const mediaPath = (media.file.startsWith('../') || media.file.startsWith('images/')) ? media.file : `import-guide-media/${media.file}`;
-                        const caption = media.caption || '';
-
-                        if (media.type === 'video') {
-                            instructionsHtml += `
-                                <div class="media-container">
-                                    <video controls>
-                                        <source src="${mediaPath}" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
-                                    ${caption ? `<p class="media-caption">${caption}</p>` : ''}
+                timelineHtml += `
+                    <div class="timeline-step" data-step="${index + 1}" style="--step-index: ${index}">
+                        <div class="step-content">
+                            <p>${convertUrlsToLinks(step.text)}</p>
+                            ${renderStepMedia(step.media)}
+                                </div>
                                 </div>
                             `;
-                        } else {
-                            instructionsHtml += `
-                                <div class="media-container">
-                                    <img src="${mediaPath}" alt="${caption}" class="instruction-image" />
-                                    ${caption ? `<p class="media-caption">${caption}</p>` : ''}
-                                </div>
-                            `;
-                        }
-                    });
-                }
-
-                instructionsHtml += '</div>';
-
-                if (index < instructions.steps.length - 1) {
-                    instructionsHtml += '<hr class="step-divider">';
-                }
             });
 
-            $instructionsContent.html(instructionsHtml);
-            $instructionsTitle.text(instructions.title);
+            $instructionsContent.html(timelineHtml);
         }
 
-        // Show instructions area and hide question area
-        $instructionsArea.show();
-        $('#wizard-question').hide();
-        $restartBtn.show();
+        // Show navigation buttons
+        $wizardNav.show();
         $backBtn.show();
-        updateProgressIndicator(true);
+        $restartBtn.show();
+
+        // Update flight path to show completion
+        updateFlightPath();
     }
 
-    // Generate instruction key based on user choices
+    /**
+     * Render media (images/videos) for an instruction step
+     */
+    function renderStepMedia(media) {
+        if (!media) return '';
+
+        const mediaItems = Array.isArray(media) ? media : [media];
+        let html = '';
+
+        mediaItems.forEach(function (item) {
+            const path = (item.file.startsWith('../') || item.file.startsWith('images/'))
+                ? item.file
+                : `import-guide-media/${item.file}`;
+            const caption = item.caption || '';
+
+            if (item.type === 'video') {
+                html += `
+                    <div class="step-image">
+                        <video controls>
+                            <source src="${path}" type="video/mp4">
+                            Your browser does not support video.
+                        </video>
+                    </div>
+                    ${caption ? `<p class="step-caption">${caption}</p>` : ''}
+                `;
+            } else {
+                html += `
+                    <div class="step-image">
+                        <img src="${path}" alt="${caption}" loading="lazy" />
+                    </div>
+                    ${caption ? `<p class="step-caption">${caption}</p>` : ''}
+                `;
+            }
+        });
+
+        return html;
+    }
+
+    /**
+     * Generate the instruction key based on user choices
+     * This key is used to look up the correct instructions in the JSON
+     */
     function generateInstructionKey() {
         let key = '';
 
@@ -439,17 +651,16 @@
             key += userChoices.import_type.id;
         }
 
-        // For crewmembers, use the crewmember_type instead of device flow
+        // Special handling for crewmembers - use crewmember_type
         if (userChoices.import_type && userChoices.import_type.id === 'crewmembers' && userChoices.crewmember_type) {
             key += '-' + userChoices.crewmember_type.id;
             return key;
         }
 
-        // For EFK device installations of fullroster, onetrip, tripboard, or deadhead, use simplified key
+        // For EFK device, use simplified key
         if (userChoices.device && userChoices.device.id === 'efk' && userChoices.import_type) {
             const importType = userChoices.import_type.id;
-            if (importType === 'fullroster' || importType === 'onetrip' || importType === 'tripboard' || importType === 'deadhead') {
-                // Return simplified key: importType-efk
+            if (['fullroster', 'onetrip', 'tripboard', 'deadhead'].includes(importType)) {
                 return key + '-efk';
             }
         }
@@ -462,7 +673,7 @@
             key += '-' + userChoices.data_source_device.id;
         }
 
-        // If pulling from EFK and no apple_id_check was asked, default to '-no'
+        // Add Apple ID check if pulling from EFK
         if (userChoices.data_source_device && userChoices.data_source_device.id === 'efk') {
             key += '-' + (userChoices.apple_id_check ? userChoices.apple_id_check.id : 'no');
         } else if (userChoices.apple_id_check) {
@@ -472,94 +683,37 @@
         return key;
     }
 
+    // ========================================
+    // Utility Functions
+    // ========================================
 
+    /**
+     * Convert URLs in text to clickable links
+     * Special handling for iCloud shortcuts links
+     */
+    function convertUrlsToLinks(text) {
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
 
-    // Update the summary sentence
-    function updateSummary() {
-        if (Object.keys(userChoices).length === 0) {
-            $summaryArea.hide();
+        return text.replace(urlRegex, function (url) {
+            let linkText = url;
 
-            return;
-        }
+            // Use friendly names for known iCloud shortcuts
+            if (url.includes('icloud.com/shortcuts')) {
+                if (url.includes('1c4eea69ff5e4130b05eb8d6ac28f99d')) {
+                    linkText = 'Clipboard Shortcut Link';
+                } else {
+                    linkText = 'Airdrop Shortcut Link';
+                }
+            }
 
-        let summaryText = 'These instructions are for importing';
-
-        if (userChoices.import_type) {
-            summaryText += ` <span class="editable-choice" data-step="import_type">${userChoices.import_type.label}</span>`;
-        }
-
-        // For crewmembers, show the type selection
-        if (userChoices.import_type && userChoices.import_type.id === 'crewmembers' && userChoices.crewmember_type) {
-            summaryText += ` (<span class="editable-choice" data-step="crewmember_type">${userChoices.crewmember_type.label}</span>)`;
-        }
-
-        summaryText += ' data into CrewLu';
-
-        if (userChoices.device) {
-            summaryText += ` on <span class="editable-choice" data-step="device">${userChoices.device.label}</span>`;
-        }
-
-        if (userChoices.data_source_device) {
-            summaryText += ` from <span class="editable-choice" data-step="data_source_device">${userChoices.data_source_device.label}</span>`;
-        }
-
-        if (userChoices.apple_id_check) {
-            const appleIdStatus = userChoices.apple_id_check.id === 'yes' ? 'using the same Apple ID' : 'using different Apple IDs';
-            summaryText += ` (${appleIdStatus})`;
-        }
-
-        summaryText += '.';
-
-        $summaryText.html(summaryText);
-        $summaryArea.show();
-
-
+            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${linkText}</a>`;
+        });
     }
 
-    // Update progress indicator with progressive reveal
-    function updateProgressIndicator(completed = false) {
-        // Number of steps to show:
-        // - When answering questions: show completed steps + current unfilled step
-        // - When at instructions (completed): show only the completed steps with checkmark on last
-        const totalStepsToShow = completed ? stepHistory.length : (stepHistory.length + 1);
+    // ========================================
+    // Initialize on Document Ready
+    // ========================================
 
-        // Get the container
-        const $progressStepsContainer = $('#progress-steps');
-
-        // Regenerate step circles if count changed
-        const existingStepCount = $progressStepsContainer.children('.step').length;
-        if (existingStepCount !== totalStepsToShow) {
-            $progressStepsContainer.empty();
-            for (let i = 1; i <= totalStepsToShow; i++) {
-                const $stepCircle = $('<span>')
-                    .addClass('step')
-                    .attr('id', `step-${i}`)
-                    .text(i);
-                $progressStepsContainer.append($stepCircle);
-            }
-        }
-
-        // Update states for all steps
-        for (let i = 1; i <= totalStepsToShow; i++) {
-            const $step = $(`#step-${i}`);
-
-            // Clean up all state classes first
-            $step.removeClass('active completed');
-
-            if (completed && i === totalStepsToShow) {
-                // Final step gets checkmark when at instructions
-                $step.addClass('completed');
-            } else if (i <= stepHistory.length) {
-                // Completed steps are filled/active
-                $step.addClass('active');
-            }
-            // Current step (stepHistory.length + 1) remains unfilled when not completed
-        }
-
-        $progressIndicator.show();
-    }
-
-    // Initialize when document is ready
     $(document).ready(function () {
         initWizard();
     });
