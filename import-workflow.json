@@ -900,7 +900,7 @@
           "text": "Open the CrewLu app on your device."
         },
         {
-          "text": "Tap the Pilot icon on the top right of the apps starting view, this will open the Pilot Information view. Scroll down to the box that says, \"Upload Pilots\""
+          "text": "Tap the Pilot icon on the top right of the app's starting view. This will open the Pilot Information view. Scroll down to the box that says \"Upload Pilots.\""
         },
         {
           "text": "Tap 'Paste' to insert the copied data into the import field. Then tap \"Parse Pilot Data\". Then tap Ok. Next tap \"Preview 262 Pilots\"."
@@ -909,7 +909,7 @@
           "text": "Select the pilots you want to add to the app, or just Add them all. When done you can go back to Pilot Information view to look through the pilot directory."
         },
         {
-          "text": "If you'd like to add a photo and crewmember contact information, use the \"Import Individual Crewmember\" method and it will merge the crewmembers information."
+          "text": "If you'd like to add a photo and crewmember contact information, use the \"Import Individual Crewmember\" method and it will merge the crewmember's information."
         }
       ]
     },
