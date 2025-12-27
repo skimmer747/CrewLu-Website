@@ -1952,12 +1952,12 @@
           "media": [
             {
               "type": "image",
-              "file": "images/Airdrop install.PNG",
+              "file": "images/clipboard_shortcut_install.png",
               "caption": "Shortcut installation screen"
             },
             {
               "type": "image",
-              "file": "images/Airdrop settings view.png",
+              "file": "images/clipboard_shortcut_details.png",
               "caption": "Shortcut settings configuration"
             }
           ]
@@ -1983,45 +1983,21 @@
           "media": [
             {
               "type": "image",
-              "file": "images/Airdrop Edit Actions.png",
+              "file": "images/Clipboard Crewlu Edit actions1.png",
               "caption": "Select Edit Actions from the Share menu"
             },
             {
               "type": "image",
-              "file": "images/Add to favorites.png",
+              "file": "images/Clipboard Crewlu Edit 2.png",
               "caption": "Add to favorites for quick access"
             }
           ]
         },
         {
-          "text": "Almost done. Select the Share button and use the shortcut. Accept any permissions that come up.",
-          "media": [
-            {
-              "type": "image",
-              "file": "images/Airdrop to Crewlu.png",
-              "caption": "Select the shortcut from the share menu"
-            },
-            {
-              "type": "image",
-              "file": "images/Second Airdrop prompt.png",
-              "caption": "Follow the prompts"
-            }
-          ]
+          "text": "Almost done. Select the Share button and tap the Clipboard to CrewLu shortcut. Accept any permissions that come up."
         },
         {
-          "text": "Your EFK will now prepare the jumpseat page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done.",
-          "media": [
-            {
-              "type": "image",
-              "file": "images/Accept Airdrop.png",
-              "caption": "Data is prepared and copied"
-            },
-            {
-              "type": "image",
-              "file": "images/Press Crewlu button.png",
-              "caption": "Open CrewLu and paste to import"
-            }
-          ]
+          "text": "Your EFK will now prepare the jumpseat page. The data will be copied to your clipboard and ready to paste into CrewLu. Open CrewLu and paste in the Import box, then select import and you are done."
         }
       ]
     },
