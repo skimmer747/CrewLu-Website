@@ -114,7 +114,20 @@
      * Process pilot data and build lookup set
      */
     function processPilotData(data) {
-        pilotData = data;
+        // Extract metadata if present (PDF format includes _metadata)
+        let metadata = null;
+        if (data._metadata) {
+            metadata = data._metadata;
+            // Remove metadata from pilot data
+            const { _metadata, ...pilotDataOnly } = data;
+            pilotData = pilotDataOnly;
+        } else {
+            pilotData = data;
+        }
+
+        // Update the list date display if available
+        updateListDate(metadata);
+
         validSeniorityNumbers.clear();
 
         // Iterate through all data to find all valid seniority numbers
@@ -137,6 +150,39 @@
 
         // Calculate Captain Cutoff (Most Junior Captain)
         calculateCaptainCutoff();
+    }
+
+    /**
+     * Update the list date display
+     */
+    function updateListDate(metadata) {
+        let listDate = null;
+
+        // Try to get date from metadata first
+        if (metadata && metadata.list_date) {
+            listDate = metadata.list_date;
+        }
+        // Fallback: check if PILOT_LIST_DATE constant exists (from JS file)
+        else if (typeof PILOT_LIST_DATE !== 'undefined') {
+            listDate = PILOT_LIST_DATE;
+        }
+
+        // Update the display
+        const $dateText = $('#list-date-text');
+        if (listDate) {
+            // Format date nicely: convert MM/DD/YY to readable format
+            const [month, day, year] = listDate.split('/');
+            const fullYear = '20' + year; // Convert YY to YYYY
+            const dateObj = new Date(fullYear, parseInt(month) - 1, parseInt(day));
+            const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric', 
+                year: 'numeric' 
+            });
+            $dateText.text(formattedDate);
+        } else {
+            $dateText.text('Date not available');
+        }
     }
 
     /**

@@ -121,7 +121,7 @@
 
 		.seniority-input-section {
 			text-align: center;
-			padding: 3rem 0;
+			padding: 2rem 0 1.5rem 0;
 			background: rgba(0, 0, 0, 0.05);
 			border-radius: 8px;
 			margin-bottom: 3rem;
@@ -156,6 +156,19 @@
 			outline: none;
 			border-color: #18bfef;
 			background: rgba(255, 255, 255, 0.1);
+		}
+
+		.list-update-date {
+			margin-top: 0.75rem;
+			margin-bottom: 0;
+			font-size: 0.9rem;
+			color: rgba(255, 255, 255, 0.7);
+			font-style: italic;
+		}
+
+		.list-update-date #list-date-text {
+			font-weight: 600;
+			color: rgba(255, 255, 255, 0.9);
 		}
 
 		.results-container {
@@ -414,6 +427,14 @@
 
 			.seniority-input:focus {
 				border-color: #0c9bc2;
+			}
+
+			.list-update-date {
+				color: #666;
+			}
+
+			.list-update-date #list-date-text {
+				color: #333;
 			}
 
 			/* Text Colors - High Contrast */
@@ -875,6 +896,7 @@
 							min="1" inputmode="numeric" pattern="[0-9]*" />
 						<button class="button primary" id="lookup-btn">Look Up</button>
 					</div>
+					<p class="list-update-date" id="list-update-date">List as of:&nbsp;&nbsp;<span id="list-date-text">Loading...</span></p>
 				</div>
 
 				<!-- Seniority Progress Bar -->
