@@ -170,16 +170,80 @@
         // Update the display
         const $dateText = $('#list-date-text');
         if (listDate) {
-            // Format date nicely: convert MM/DD/YY to readable format
-            const [month, day, year] = listDate.split('/');
-            const fullYear = '20' + year; // Convert YY to YYYY
-            const dateObj = new Date(fullYear, parseInt(month) - 1, parseInt(day));
-            const formattedDate = dateObj.toLocaleDateString('en-US', { 
-                month: 'short', 
-                day: 'numeric', 
-                year: 'numeric' 
-            });
-            $dateText.text(formattedDate);
+            // Validate and format date: convert MM/DD/YY to readable format
+            try {
+                // Step 1: Validate listDate is a non-empty string matching MM/DD/YY format
+                if (typeof listDate !== 'string' || listDate.trim() === '') {
+                    throw new Error('listDate is not a valid non-empty string');
+                }
+                
+                // Check format matches MM/DD/YY pattern (exactly 2 digits, slash, 2 digits, slash, 2 digits)
+                const dateFormatRegex = /^\d{2}\/\d{2}\/\d{2}$/;
+                if (!dateFormatRegex.test(listDate.trim())) {
+                    throw new Error('listDate does not match MM/DD/YY format');
+                }
+                
+                // Step 2: Split and validate we have exactly 3 parts
+                const splitParts = listDate.trim().split('/');
+                if (splitParts.length !== 3) {
+                    throw new Error('listDate split does not produce exactly 3 parts');
+                }
+                
+                const [monthStr, dayStr, yearStr] = splitParts;
+                
+                // Step 3: Validate all parts are numeric and in valid ranges
+                const month = parseInt(monthStr, 10);
+                const day = parseInt(dayStr, 10);
+                const year = parseInt(yearStr, 10);
+                
+                // Check if parse results are valid numbers
+                if (isNaN(month) || isNaN(day) || isNaN(year)) {
+                    throw new Error('Month, day, or year is not numeric');
+                }
+                
+                // Validate month range (1-12)
+                if (month < 1 || month > 12) {
+                    throw new Error('Month is not in valid range (1-12)');
+                }
+                
+                // Validate day range (1-31) - basic check; Date constructor handles invalid combinations
+                if (day < 1 || day > 31) {
+                    throw new Error('Day is not in valid range (1-31)');
+                }
+                
+                // Validate year range (00-99 for two-digit year)
+                if (year < 0 || year > 99) {
+                    throw new Error('Year is not in valid range (00-99)');
+                }
+                
+                // Step 4: Convert two-digit year to four-digit year (20XX) only after validation passes
+                const fullYear = '20' + yearStr; // Use yearStr to preserve leading zero if needed
+                const fullYearNum = parseInt(fullYear, 10);
+                
+                // Step 5: Create Date object and format (wrapped in try/catch)
+                const dateObj = new Date(fullYearNum, month - 1, day);
+                
+                // Validate the Date object is valid (handles cases like Feb 30)
+                if (isNaN(dateObj.getTime())) {
+                    throw new Error('Invalid date: date object is invalid');
+                }
+                
+                // Format the date
+                const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric', 
+                    year: 'numeric' 
+                });
+                
+                $dateText.text(formattedDate);
+            } catch (error) {
+                // Step 6: Set safe fallback on any validation failure or exception
+                // Use original listDate if it's a valid string, otherwise use "Invalid date"
+                const fallbackText = (typeof listDate === 'string' && listDate.trim() !== '') 
+                    ? listDate.trim() 
+                    : 'Invalid date';
+                $dateText.text(fallbackText);
+            }
         } else {
             $dateText.text('Date not available');
         }
