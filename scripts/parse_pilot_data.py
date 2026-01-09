@@ -165,7 +165,15 @@ def parse_pdf_file(file_path):
                 for pilot in pilots:
                     eqp = pilot['eqp']
                     dom = pilot['dom']
-                    seat = pilot['seat']
+                    seat = pilot['seat'] or current_seat_section  # Use fallback if seat is missing
+                    
+                    # Normalize seat code: F/O -> FO for consistency (same as Seat: marker handling)
+                    if seat == 'F/O':
+                        seat = 'FO'
+                    
+                    # Skip this pilot if we still don't have a valid seat
+                    if not seat:
+                        continue
                     
                     # Create nested structure if it doesn't exist
                     if eqp not in data:
