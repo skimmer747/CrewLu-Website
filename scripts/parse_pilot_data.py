@@ -23,6 +23,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from datetime import datetime
 
 # ============================================================================
 # CONFIGURATION - Update the INPUT_FILE path when you have a new seniority list
@@ -31,9 +32,10 @@ from pathlib import Path
 # Get the project root directory (parent of scripts directory)
 PROJECT_ROOT = Path(__file__).parent.parent
 
-# Input file - supports both PDF and RTF formats
-# Change this filename when you have a new seniority list PDF
+# Input file - supports PDF, RTF, and TXT formats
+# Change this filename when you have a new seniority list
 INPUT_FILE = PROJECT_ROOT / "26-02 Updated Senlist.pdf"
+TEXT_INPUT_FILE = PROJECT_ROOT / "new_seniority_list.txt"  # New text dump
 
 # Legacy RTF file (fallback if PDF not found)
 LEGACY_RTF_FILE = PROJECT_ROOT / "All pilots 1252025.rtf"
@@ -69,6 +71,77 @@ def strip_rtf_formatting(text):
     # Collapse multiple whitespace into single space
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
+
+
+# ============================================================================
+# TEXT FILE PARSING (New format support)
+# ============================================================================
+
+def parse_text_file(file_path):
+    """
+    Parse a TXT file and extract all pilot seniority data.
+    
+    This handles the new 2026 text dump format where Position column is missing
+    and the list is sorted by Seniority Number.
+    
+    Args:
+        file_path: Path to the TXT file
+        
+    Returns:
+        tuple: (data_dict, list_date)
+    """
+    print(f"Reading Text file: {file_path}")
+    
+    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+        content = f.read()
+    
+    # Initialize data structure
+    data = {}
+    
+    # Extract date - look for "as of MM/DD/YY"
+    list_date = None
+    date_match = re.search(r'as of (\d{2}/\d{2}/\d{2})', content, re.IGNORECASE)
+    if date_match:
+        list_date = date_match.group(1)
+        print(f"  Found list date: {list_date}")
+    
+    lines = content.split('\n')
+    
+    for line in lines:
+        pilots = parse_pilot_line(line)
+        for pilot in pilots:
+            eqp = pilot['eqp']
+            dom = pilot['dom']
+            seat = pilot['seat']
+            
+            # Normalize seat code
+            if seat == 'F/O':
+                seat = 'FO'
+                
+            # Create nested structure if needed
+            if eqp not in data:
+                data[eqp] = {}
+            if dom not in data[eqp]:
+                data[eqp][dom] = {'CPT': [], 'FO': []}
+            
+            # Add pilot to appropriate list
+            data[eqp][dom][seat].append(pilot)
+            
+    # Post-process to assign positions
+    # Since the new format doesn't have explicit Position column, we must
+    # sort by Seniority Number and then assign Position 1..N
+    print("  Recalculating positions based on seniority order...")
+    for eqp in data:
+        for dom in data[eqp]:
+            for seat in ['CPT', 'FO']:
+                # Sort by seniority number
+                data[eqp][dom][seat].sort(key=lambda x: x['sen'])
+                
+                # Assign sequential positions
+                for idx, pilot in enumerate(data[eqp][dom][seat], 1):
+                    pilot['pos'] = idx
+                    
+    return data, list_date
 
 
 # ============================================================================
@@ -253,11 +326,24 @@ def parse_pilot_line(line):
     # Note: Name pattern uses non-greedy match and stops before the 7-digit ID
     pdf_pattern = r'(?:NB\s+)?(\d+)\s+(\d+)\s+([A-Za-z\s\.,\'\-]+?(?:\s+(?:Jr\.?|Sr\.?|II|III|IV))?)\s+(\d{7})\s+([A-Z0-9]+)\s+([A-Z0-9]+)\s+(CPT|F/O)\s+\d{2}/\d{2}/\d{2}\s+\d{2}/\d{2}/\d{2}'
     
+    # NEW 2026 Format: Sen# Name ID Dom Eqp Seat DOH DOB (No Position Column)
+    # Example: 1   Maxwell, ED             0557068 SDF  74Y CPT  08/25/86 09/24/64
+    # Pattern breakdown:
+    #   \s*(\d+)        - Seniority number (at start of line)
+    #   \s+([A-Za-z\s\.,\'\-]+?(?:\s+(?:Jr\.?|Sr\.?|II|III|IV))?)  - Name
+    #   \s+(\d{7})      - 7-digit employee ID
+    #   \s+([A-Z0-9]+)  - Domicile
+    #   \s+([A-Z0-9]+)  - Equipment
+    #   \s+(CPT|F/O)    - Seat
+    #   \s+\d{2}/\d{2}/\d{2}  - DOH
+    #   \s+\d{2}/\d{2}/\d{2}  - DOB
+    text_pattern_2026 = r'^\s*(\d+)\s+([A-Za-z\s\.,\'\-]+?(?:\s+(?:Jr\.?|Sr\.?|II|III|IV))?)\s+(\d{7})\s+([A-Z0-9]+)\s+([A-Z0-9]+)\s+(CPT|F/O)\s+\d{2}/\d{2}/\d{2}\s+\d{2}/\d{2}/\d{2}'
+    
     matches = re.finditer(pdf_pattern, line)
-    found_pdf_match = False
+    found_match = False
     
     for match in matches:
-        found_pdf_match = True
+        found_match = True
         # Extract all the fields from the regex match
         pos = int(match.group(1))      # Position on this specific list
         sen = int(match.group(2))      # Company-wide seniority number
@@ -271,21 +357,45 @@ def parse_pilot_line(line):
         if seat == 'F/O':
             seat = 'FO'
         
-        # Create the pilot record dictionary
-        # Note: PDF format doesn't have award, so we use '*' as placeholder
         pilots.append({
-            'pos': pos,      # Position on this equipment/domicile/seat list
-            'sen': sen,      # Company seniority number (lower = more senior)
-            'name': name,    # Full name in LASTNAME, FIRSTNAME format
-            'id': pilot_id,  # 7-digit employee ID
-            'dom': dom,      # Domicile code (SDF, ANC, MEM, CVG, etc.)
-            'eqp': eqp,      # Equipment type (74Y, 757, A30, M1F, etc.)
-            'seat': seat,    # CPT or FO
-            'award': '*'     # PDF format doesn't include award, use placeholder
+            'pos': pos,
+            'sen': sen,
+            'name': name,
+            'id': pilot_id,
+            'dom': dom,
+            'eqp': eqp,
+            'seat': seat,
+            'award': '*'
         })
+        
+    # Try the new 2026 format if no PDF match
+    if not found_match:
+        matches = re.finditer(text_pattern_2026, line)
+        for match in matches:
+            found_match = True
+            sen = int(match.group(1))      # Seniority number is first
+            name = match.group(2).strip()
+            pilot_id = match.group(3)
+            dom = match.group(4)
+            eqp = match.group(5)
+            seat = match.group(6)
+            
+            if seat == 'F/O':
+                seat = 'FO'
+                
+            pilots.append({
+                'pos': 0,        # Placeholder, will be recalculated
+                'sen': sen,
+                'name': name,
+                'id': pilot_id,
+                'dom': dom,
+                'eqp': eqp,
+                'seat': seat,
+                'award': '*'
+            })
     
-    # If PDF pattern didn't match, try OLD RTF format: Pos Sen# Name ID Dom Eqp Seat Award
-    if not found_pdf_match:
+    # If PDF/New patterns didn't match, try OLD RTF format: Pos Sen# Name ID Dom Eqp Seat Award
+    if not found_match:
         # Pattern for RTF format (with Award field)
         rtf_pattern = r'\s*(\d+)\s+(\d+)\s+([A-Z\s\.,\'\-]+?)\s+(\d{7})\s+([A-Z0-9]+)\s+([A-Z0-9]+)\s+(CPT|F/O)\s+(\d+|\*)'
         
@@ -538,8 +648,13 @@ def main():
     input_file = None
     file_type = None
     
-    # Check for PDF file first (preferred)
-    if INPUT_FILE.exists():
+    # Check for Text file first (user provided)
+    if TEXT_INPUT_FILE.exists():
+        input_file = TEXT_INPUT_FILE
+        file_type = 'txt'
+        print(f"\nFound Text input: {TEXT_INPUT_FILE.name}")
+    # Check for PDF file next
+    elif INPUT_FILE.exists():
         input_file = INPUT_FILE
         file_type = 'pdf'
         print(f"\nFound PDF input: {INPUT_FILE.name}")
@@ -557,7 +672,9 @@ def main():
     # Parse the input file based on its type
     list_date = None
     try:
-        if file_type == 'pdf':
+        if file_type == 'txt':
+            pilot_data, list_date = parse_text_file(input_file)
+        elif file_type == 'pdf':
             pilot_data, list_date = parse_pdf_file(input_file)
         else:
             pilot_data, list_date = parse_rtf_file(input_file)
