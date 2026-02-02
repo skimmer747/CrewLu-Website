@@ -102,8 +102,15 @@ def parse_text_file(file_path):
     list_date = None
     date_match = re.search(r'as of (\d{2}/\d{2}/\d{2})', content, re.IGNORECASE)
     if date_match:
-        list_date = date_match.group(1)
-        print(f"  Found list date: {list_date}")
+        raw_date = date_match.group(1)
+        try:
+            # Convert MM/DD/YY to YYYY-MM-DD
+            dt = datetime.strptime(raw_date, "%m/%d/%y")
+            list_date = dt.strftime("%Y-%m-%d")
+            print(f"  Found list date: {list_date} (converted from {raw_date})")
+        except ValueError:
+            print(f"  WARNING: Could not parse date {raw_date}")
+            list_date = raw_date
     
     lines = content.split('\n')
     
@@ -198,8 +205,15 @@ def parse_pdf_file(file_path):
             if not list_date and page_num <= 3:
                 date_match = re.search(r'as of (\d{2}/\d{2}/\d{2})', text, re.IGNORECASE)
                 if date_match:
-                    list_date = date_match.group(1)
-                    print(f"  Found list date: {list_date}")
+                    raw_date = date_match.group(1)
+                    try:
+                        # Convert MM/DD/YY to YYYY-MM-DD
+                        dt = datetime.strptime(raw_date, "%m/%d/%y")
+                        list_date = dt.strftime("%Y-%m-%d")
+                        print(f"  Found list date: {list_date} (converted from {raw_date})")
+                    except ValueError:
+                        print(f"  WARNING: Could not parse date {raw_date}")
+                        list_date = raw_date
             
             # Split into lines and process each one
             lines = text.split('\n')
@@ -581,11 +595,7 @@ def write_js_output(pilot_data, output_path, list_date=None):
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(f"const GLOBAL_PILOT_DATA = \n{json_string};\n")
     
-    # Also write the date as a separate constant for easy access
-    if list_date:
-        with open(output_path, 'a', encoding='utf-8') as f:
-            f.write(f"\n// List updated date: {list_date}\n")
-            f.write(f"const PILOT_LIST_DATE = '{list_date}';\n")
+    # Redundant constant PILOT_LIST_DATE removed in favor of GLOBAL_PILOT_DATA._metadata.list_date
     
     print(f"  JavaScript file created: {output_path}")
 

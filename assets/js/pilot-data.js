@@ -1,4 +1,4 @@
-const GLOBAL_PILOT_DATA =
+const GLOBAL_PILOT_DATA = 
 {
   "_metadata": {
     "list_date": "2026-02-02",
@@ -27669,6 +27669,3 @@ const GLOBAL_PILOT_DATA =
     }
   }
 };
-
-// List updated date: 02/02/26
-const PILOT_LIST_DATE = '02/02/26';

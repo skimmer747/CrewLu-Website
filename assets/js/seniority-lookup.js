@@ -158,50 +158,42 @@
     function updateListDate(metadata) {
         let listDate = null;
 
-        // Try to get date from metadata first
+        // Try to get date from metadata first (Expects ISO: YYYY-MM-DD)
         if (metadata && metadata.list_date) {
             listDate = metadata.list_date;
-        }
-        // Fallback: check if PILOT_LIST_DATE constant exists (from JS file)
-        else if (typeof PILOT_LIST_DATE !== 'undefined') {
-            listDate = PILOT_LIST_DATE;
         }
 
         // Update the display
         const $dateText = $('#list-date-text');
         if (listDate) {
-            // Validate and format date: convert MM/DD/YY to readable format
             try {
-                const trimmedDate = listDate.trim();
-                const dateFormatRegex = /^\d{2}\/\d{2}\/\d{2}$/;
-                
-                if (!dateFormatRegex.test(trimmedDate)) {
-                    throw new Error('Invalid date format');
+                // Parse ISO date (YYYY-MM-DD) manually to avoid timezone issues
+                const parts = listDate.split('-');
+                if (parts.length !== 3) {
+                    throw new Error('Invalid ISO date format');
                 }
-                
-                const [monthStr, dayStr, yearStr] = trimmedDate.split('/');
-                const month = parseInt(monthStr, 10);
-                const day = parseInt(dayStr, 10);
-                const fullYear = '20' + yearStr;
-                const fullYearNum = parseInt(fullYear, 10);
-                
-                const dateObj = new Date(fullYearNum, month - 1, day);
-                
-                if (isNaN(dateObj.getTime()) || 
-                    dateObj.getMonth() !== month - 1 || 
-                    dateObj.getDate() !== day) {
+
+                const year = parseInt(parts[0], 10);
+                const month = parseInt(parts[1], 10);
+                const day = parseInt(parts[2], 10);
+
+                // Create date object (Month is 0-indexed in JS Date)
+                const dateObj = new Date(year, month - 1, day);
+
+                if (isNaN(dateObj.getTime())) {
                     throw new Error('Invalid date');
                 }
-                
-                const formattedDate = dateObj.toLocaleDateString('en-US', { 
-                    month: 'short', 
-                    day: 'numeric', 
-                    year: 'numeric' 
+
+                const formattedDate = dateObj.toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
                 });
-                
+
                 $dateText.text(formattedDate);
             } catch (error) {
-                $dateText.text(listDate.trim() || 'Invalid date');
+                console.warn('Date parsing error:', error);
+                $dateText.text(listDate || 'Invalid date');
             }
         } else {
             $dateText.text('Date not available');
