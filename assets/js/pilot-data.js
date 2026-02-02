@@ -1,8 +1,8 @@
-const GLOBAL_PILOT_DATA = 
+const GLOBAL_PILOT_DATA =
 {
   "_metadata": {
-    "list_date": "02/02/26",
-    "updated": "02/02/26"
+    "list_date": "2026-02-02",
+    "updated": "2026-02-02"
   },
   "74Y": {
     "SDF": {
@@ -10,8 +10,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 1,
-          "name": "Maxwell, ED",
-          "id": "0557068",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -20,8 +18,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 5,
-          "name": "Fogarty, PATRICK",
-          "id": "0555167",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -30,8 +26,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 7,
-          "name": "Roberts, SCOTT",
-          "id": "0555203",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -40,8 +34,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 9,
-          "name": "Schmid, Maura",
-          "id": "0554489",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -50,8 +42,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 10,
-          "name": "Plonski, BRIAN",
-          "id": "0554317",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -60,8 +50,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 26,
-          "name": "Derderian, ANTHONY",
-          "id": "0554422",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -70,8 +58,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 30,
-          "name": "De Noto, Felix",
-          "id": "0554578",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -80,8 +66,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 35,
-          "name": "Stimson, Chris",
-          "id": "0556304",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -90,8 +74,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 37,
-          "name": "Duffy, CHRIS",
-          "id": "0556399",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -100,8 +82,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 40,
-          "name": "Moser, Gary",
-          "id": "0554715",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -110,8 +90,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 46,
-          "name": "Lewek, ERIC",
-          "id": "0555726",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -120,8 +98,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 87,
-          "name": "Shumaker, LYNDON",
-          "id": "0556333",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -130,8 +106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 91,
-          "name": "Price, RODERICK",
-          "id": "0555108",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -140,8 +114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 122,
-          "name": "Knight, Derrick S.",
-          "id": "0556372",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -150,8 +122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 134,
-          "name": "Meisinger, Cole A.",
-          "id": "0555557",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -160,8 +130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 150,
-          "name": "Lakah, BRIGITTE",
-          "id": "0554498",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -170,8 +138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 152,
-          "name": "Joseph IV, Link",
-          "id": "0556848",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -180,8 +146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 159,
-          "name": "Cushman, BRAD",
-          "id": "0556726",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -190,8 +154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 167,
-          "name": "Humphrey, Kip",
-          "id": "0556456",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -200,8 +162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 195,
-          "name": "Traver, JEFFREY",
-          "id": "0555500",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -210,8 +170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 198,
-          "name": "Lopez, GERRY",
-          "id": "0557191",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -220,8 +178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 201,
-          "name": "Ose, Ronald",
-          "id": "0555635",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -230,8 +186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 213,
-          "name": "Haro, Carlos H.",
-          "id": "0556259",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -240,8 +194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 224,
-          "name": "Young, RICK J.",
-          "id": "0556570",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -250,8 +202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 226,
-          "name": "Potter, TIM",
-          "id": "0556174",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -260,8 +210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 228,
-          "name": "Cook III, Peyton",
-          "id": "0555079",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -270,8 +218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 229,
-          "name": "Johnson, SCOTT R.",
-          "id": "0556692",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -280,8 +226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 234,
-          "name": "McMaster, WAYNE",
-          "id": "0554621",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -290,8 +234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 237,
-          "name": "Daus, JEFFREY",
-          "id": "0555416",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -300,8 +242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 240,
-          "name": "Leduc, Ronald",
-          "id": "0555031",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -310,8 +250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 245,
-          "name": "Robinson, DAVID",
-          "id": "0557139",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -320,8 +258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 254,
-          "name": "Starnes, Michael",
-          "id": "0556190",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -330,8 +266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 258,
-          "name": "Flagg, MARCUS",
-          "id": "0556942",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -340,8 +274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 275,
-          "name": "Zahorik, BRIAN",
-          "id": "0555747",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -350,8 +282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 280,
-          "name": "Huggins, Kenneth",
-          "id": "0554545",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -360,8 +290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 282,
-          "name": "Barkley III, HANK",
-          "id": "0555013",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -370,8 +298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 296,
-          "name": "Lapointe Jr., PAUL",
-          "id": "0557218",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -380,8 +306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 330,
-          "name": "Napier, CHRIS",
-          "id": "0556506",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -390,8 +314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 338,
-          "name": "Claybourne, Michael",
-          "id": "0555162",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -400,8 +322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 344,
-          "name": "Avera, BRUCE",
-          "id": "0555094",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -410,8 +330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 360,
-          "name": "Burnett, Mark",
-          "id": "0556120",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -420,8 +338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 365,
-          "name": "Gentz, Jeff",
-          "id": "0555758",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -430,8 +346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 380,
-          "name": "Dunlap, CHRISTOPHER",
-          "id": "0555106",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -440,8 +354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 384,
-          "name": "Kogl, JOHN",
-          "id": "0556541",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -450,8 +362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 389,
-          "name": "Falkner, STEPHEN",
-          "id": "0557072",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -460,8 +370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 401,
-          "name": "Logan, BOB",
-          "id": "0556218",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -470,8 +378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 406,
-          "name": "Gibbs, Iver",
-          "id": "0556659",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -480,8 +386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 420,
-          "name": "Mildenburger, FREDERICK",
-          "id": "0857450",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -490,8 +394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 435,
-          "name": "Hennings, Joel",
-          "id": "0990072",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -500,8 +402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 448,
-          "name": "Mohler, JOHN",
-          "id": "1012518",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -510,8 +410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 480,
-          "name": "Starr, BRIAN M.",
-          "id": "1069569",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -520,8 +418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 485,
-          "name": "Campbell, Neil",
-          "id": "1077419",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -530,8 +426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 487,
-          "name": "Fratangeli Jr., FRANCO",
-          "id": "1077397",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -540,8 +434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 497,
-          "name": "Johnson III, Aj",
-          "id": "1101978",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -550,8 +442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 498,
-          "name": "Saewert, JEFFREY",
-          "id": "1101957",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -560,8 +450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 502,
-          "name": "Lally, Todd",
-          "id": "1101962",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -570,8 +458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 503,
-          "name": "Kerr, STEVEN R.",
-          "id": "1113977",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -580,8 +466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 504,
-          "name": "Williams, DOUGLAS D.",
-          "id": "1114060",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -590,8 +474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 508,
-          "name": "Horne, Jennifer",
-          "id": "1113992",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -600,8 +482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 509,
-          "name": "Beisner, Bryan",
-          "id": "1114015",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -610,8 +490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 517,
-          "name": "Reed, Eduardo",
-          "id": "1141395",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -620,8 +498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 547,
-          "name": "Pepmiller, SCOTT",
-          "id": "1208724",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -630,8 +506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 552,
-          "name": "Scharre, Steven C.",
-          "id": "1208740",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -640,8 +514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 553,
-          "name": "Roesler, David E.",
-          "id": "1208779",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -650,8 +522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 571,
-          "name": "Meadows, CHRISTOPHE",
-          "id": "1225402",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -660,8 +530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 590,
-          "name": "Kasper, Glenn",
-          "id": "1251389",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -670,8 +538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 591,
-          "name": "Volkman, RANDY",
-          "id": "1251402",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -680,8 +546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 594,
-          "name": "Welch, TIMOTHY",
-          "id": "1251390",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -690,8 +554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 600,
-          "name": "Musleh, YURII",
-          "id": "1251394",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -700,8 +562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 605,
-          "name": "Patton, DOUGLAS J.",
-          "id": "1274658",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -710,8 +570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 609,
-          "name": "Kirk, John G.",
-          "id": "1274772",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -720,8 +578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 616,
-          "name": "Toder, JIM",
-          "id": "1274400",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -730,8 +586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 621,
-          "name": "Kucmierz, CHRISTOPHE",
-          "id": "1274356",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -740,8 +594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 627,
-          "name": "Hitchcock, Todd M.",
-          "id": "1286748",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -750,8 +602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 648,
-          "name": "Hill, JEFFREY",
-          "id": "1314661",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -760,8 +610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 661,
-          "name": "Stasiowski, JOHN",
-          "id": "1739094",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -770,8 +618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 668,
-          "name": "Joseph, Wilner",
-          "id": "1776924",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -780,8 +626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 675,
-          "name": "Klein, BRAD",
-          "id": "1777417",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -790,8 +634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 681,
-          "name": "Copeland, George",
-          "id": "1791313",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -800,8 +642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 692,
-          "name": "Collette, PERRY",
-          "id": "1793478",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -810,8 +650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 699,
-          "name": "Flinn, KELLY",
-          "id": "1793488",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -820,8 +658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 706,
-          "name": "Michaelson, ERIC",
-          "id": "1797628",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -830,8 +666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 711,
-          "name": "Lowes, MIKE",
-          "id": "1797630",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -840,8 +674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 717,
-          "name": "Sturgeon, Karin",
-          "id": "1797625",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -850,8 +682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 729,
-          "name": "Lacher, ROBERT",
-          "id": "1803782",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -860,8 +690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 737,
-          "name": "Lund, Mark",
-          "id": "0707536",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -870,8 +698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 739,
-          "name": "Bowers, Zach",
-          "id": "1805971",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -880,8 +706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 751,
-          "name": "Mc Spadden, CLIFF",
-          "id": "1812121",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -890,8 +714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 762,
-          "name": "Harding, Dave",
-          "id": "1812137",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -900,8 +722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 766,
-          "name": "Fines, RON",
-          "id": "1819829",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -910,8 +730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 768,
-          "name": "Esmurdoc, Rafael",
-          "id": "1819816",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -920,8 +738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 775,
-          "name": "Booe, Scott",
-          "id": "1819848",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -930,8 +746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 779,
-          "name": "Cooper, DANA",
-          "id": "1819851",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -940,8 +754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 786,
-          "name": "Orr, BRET",
-          "id": "1829669",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -950,8 +762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 803,
-          "name": "Morris Jr., Joel",
-          "id": "1834800",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -960,8 +770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 806,
-          "name": "Young, JEFF",
-          "id": "1838170",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -970,8 +778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 810,
-          "name": "Reynolds, Tim",
-          "id": "1838169",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -980,8 +786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 825,
-          "name": "Gaikis, ROBERT",
-          "id": "1844022",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -990,8 +794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 835,
-          "name": "Jurgensmeyer, Dennis",
-          "id": "1853735",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1000,8 +802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 838,
-          "name": "Johnson, Chris",
-          "id": "1857549",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1010,8 +810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 843,
-          "name": "Skjeveland, PAUL",
-          "id": "1857542",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1020,8 +818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 870,
-          "name": "Richardson, JOHN",
-          "id": "1772525",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1030,8 +826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 872,
-          "name": "Smith, KT",
-          "id": "1946057",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1040,8 +834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 898,
-          "name": "Clarke, FLOYD",
-          "id": "2014408",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1050,8 +842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 899,
-          "name": "Thompson, CHRIS",
-          "id": "2014416",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1060,8 +850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 904,
-          "name": "Berger, BRYAN",
-          "id": "2016714",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1070,8 +858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 910,
-          "name": "August, Don",
-          "id": "2020944",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1080,8 +866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 917,
-          "name": "Thompson, Clinton",
-          "id": "2031066",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1090,8 +874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 936,
-          "name": "Winter, John",
-          "id": "2051446",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1100,8 +882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 941,
-          "name": "Mondello, Anthony",
-          "id": "2051688",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1110,8 +890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 942,
-          "name": "Elgin, Mike",
-          "id": "2057212",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1120,8 +898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 949,
-          "name": "Lemaire, PATRICK",
-          "id": "2057096",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1130,8 +906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 983,
-          "name": "Rager, Byron",
-          "id": "2090630",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1140,8 +914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 984,
-          "name": "Dayman, Pat",
-          "id": "2090584",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1150,8 +922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 994,
-          "name": "Santora, Mark",
-          "id": "2107481",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1160,8 +930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 1023,
-          "name": "Rupp, GREG",
-          "id": "2176713",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1170,8 +938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 1037,
-          "name": "Hegedus, BRUCE",
-          "id": "3163540",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1180,8 +946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 1039,
-          "name": "Morgan, Scott",
-          "id": "3163898",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1190,8 +954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 1049,
-          "name": "Kimzey, BILL",
-          "id": "3166965",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1200,8 +962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 1057,
-          "name": "Bailey, Marrio",
-          "id": "3170080",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1210,8 +970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 1058,
-          "name": "Adams, Ryan",
-          "id": "3170081",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1220,8 +978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 1059,
-          "name": "Reay, Laurence",
-          "id": "3169898",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1230,8 +986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 1065,
-          "name": "Rosato, KEVIN",
-          "id": "1513757",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1240,8 +994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 1094,
-          "name": "Showalter Jr., GENE",
-          "id": "0225414",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1250,8 +1002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 1106,
-          "name": "Pensiero, Chad",
-          "id": "3188834",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1260,8 +1010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 1123,
-          "name": "Baker, THAD",
-          "id": "3196712",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1270,8 +1018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 1125,
-          "name": "Dezzutto, MICHAEL",
-          "id": "3202942",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1280,8 +1026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 1126,
-          "name": "Wyland, TODD",
-          "id": "3202957",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1290,8 +1034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 1128,
-          "name": "Hollister, BOB",
-          "id": "3202915",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1300,8 +1042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 1145,
-          "name": "Groh, STEVEN",
-          "id": "3213895",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1310,8 +1050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 1243,
-          "name": "Morris, ROD",
-          "id": "4251109",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1320,8 +1058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 1246,
-          "name": "Walters, MICHAEL",
-          "id": "4251123",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1330,8 +1066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 1270,
-          "name": "Lare, MATT",
-          "id": "4433902",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1340,8 +1074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 1336,
-          "name": "Crimmins, NATE",
-          "id": "4741420",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1352,8 +1084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 562,
-          "name": "Klap, SACHA",
-          "id": "1219558",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1362,8 +1092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 691,
-          "name": "Hover, Jason",
-          "id": "1791335",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1372,8 +1100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 756,
-          "name": "Shultz, STEPHEN",
-          "id": "1812123",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1382,8 +1108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 757,
-          "name": "Dill, Kevin",
-          "id": "1812127",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1392,8 +1116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 791,
-          "name": "Baber, Sean",
-          "id": "1829675",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1402,8 +1124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 826,
-          "name": "Hefley Jr., CHARLES",
-          "id": "1844034",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1412,8 +1132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 873,
-          "name": "Nickson, TED",
-          "id": "1946032",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1422,8 +1140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 906,
-          "name": "Cassel, STEPHEN",
-          "id": "2020938",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1432,8 +1148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 914,
-          "name": "Rinker, DAVID",
-          "id": "1502860",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1442,8 +1156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 918,
-          "name": "Aldrich, Brock",
-          "id": "2031064",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1452,8 +1164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 955,
-          "name": "Trotter, Scott",
-          "id": "2068801",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1462,8 +1172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 977,
-          "name": "Abiuso, PETER",
-          "id": "2090420",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1472,8 +1180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1133,
-          "name": "Gudukas, TIMOTHY",
-          "id": "3202914",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1482,8 +1188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1208,
-          "name": "Greenberg, Jeffrey",
-          "id": "3280085",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1492,8 +1196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1256,
-          "name": "McClish, ERIC",
-          "id": "4430844",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1502,8 +1204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1468,
-          "name": "Donaghey, MIKE",
-          "id": "5063151",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1512,8 +1212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1476,
-          "name": "Goetzelman, Sara",
-          "id": "5069045",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1522,8 +1220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1477,
-          "name": "Jarchow, Greg",
-          "id": "5068322",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1532,8 +1228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1480,
-          "name": "Innes, Keith",
-          "id": "5068326",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1542,8 +1236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1482,
-          "name": "Hans, CHARLIE",
-          "id": "0424111",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1552,8 +1244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1486,
-          "name": "White Jr, Jamie",
-          "id": "5070062",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1562,8 +1252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1490,
-          "name": "Dunphy, Matthew",
-          "id": "5068320",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1572,8 +1260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1496,
-          "name": "Rogan, Melanie",
-          "id": "5075857",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1582,8 +1268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1541,
-          "name": "Nolan, DONALD",
-          "id": "5084805",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1592,8 +1276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1573,
-          "name": "Haynes, MARQUIS",
-          "id": "5107898",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1602,8 +1284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1655,
-          "name": "Rife, Jerod",
-          "id": "5207761",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1612,8 +1292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1656,
-          "name": "Wintermeyer, Tad",
-          "id": "5207763",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1622,8 +1300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 1663,
-          "name": "Thompson, MATT",
-          "id": "5279724",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1632,8 +1308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 1664,
-          "name": "Jerome, Katya",
-          "id": "5279720",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1642,8 +1316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 1685,
-          "name": "Jenkins, Gregory",
-          "id": "5413019",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1652,8 +1324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 1694,
-          "name": "Kochanski, Tony",
-          "id": "5413014",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1662,8 +1332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 1703,
-          "name": "Percy, Bradley",
-          "id": "5474513",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1672,8 +1340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 1711,
-          "name": "Patterson, Aaron",
-          "id": "5473803",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1682,8 +1348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 1736,
-          "name": "Kharin, Dmitry",
-          "id": "5479285",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1692,8 +1356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 1741,
-          "name": "Eriksson, LIZ",
-          "id": "5489931",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1702,8 +1364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 1748,
-          "name": "Cameron, BEN",
-          "id": "5478949",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1712,8 +1372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 1769,
-          "name": "Padgett, Julie",
-          "id": "5506874",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1722,8 +1380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 1780,
-          "name": "Elza, JON",
-          "id": "5496419",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1732,8 +1388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 1788,
-          "name": "Pindado, JUAN",
-          "id": "5497100",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1742,8 +1396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 1791,
-          "name": "White II, GORDON",
-          "id": "5497370",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1752,8 +1404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 1806,
-          "name": "Krebs, DAN",
-          "id": "5540756",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1762,8 +1412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 1856,
-          "name": "Nikolich, Nick",
-          "id": "5636234",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1772,8 +1420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 1879,
-          "name": "Ray Jr., DANNY",
-          "id": "1125821",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1782,8 +1428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 1887,
-          "name": "Kolk, Paul",
-          "id": "3356138",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1792,8 +1436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 1888,
-          "name": "Tinaglia, David",
-          "id": "5818772",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1802,8 +1444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 1896,
-          "name": "Kolan, JAIME",
-          "id": "5737312",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1812,8 +1452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 1898,
-          "name": "Kobbeman, AARON",
-          "id": "1297080",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1822,8 +1460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 1900,
-          "name": "Malone, Matt",
-          "id": "5737313",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1832,8 +1468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 1929,
-          "name": "Dominy, CHAD",
-          "id": "5922943",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1842,8 +1476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 1971,
-          "name": "Burks, CHRIS",
-          "id": "5933114",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1852,8 +1484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 1978,
-          "name": "Conliffe, Matthew",
-          "id": "5927852",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1862,8 +1492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1991,
-          "name": "O'Neill, KYLE",
-          "id": "5944278",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1872,8 +1500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1994,
-          "name": "Lund, JESSE",
-          "id": "5941337",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1882,8 +1508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 2005,
-          "name": "Cardona, XAVIER",
-          "id": "5966105",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1892,8 +1516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 2010,
-          "name": "Frost, Jonathan",
-          "id": "5966102",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1902,8 +1524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 2011,
-          "name": "Elias, DANIEL",
-          "id": "5968413",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1912,8 +1532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 2025,
-          "name": "Graham, STEPHEN",
-          "id": "5960323",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1922,8 +1540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 2026,
-          "name": "Hildebrand, MIKE",
-          "id": "5936431",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1932,8 +1548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 2029,
-          "name": "Wernimont, TIM",
-          "id": "5984526",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1942,8 +1556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 2033,
-          "name": "Bawagad, ABE",
-          "id": "2102090",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1952,8 +1564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 2034,
-          "name": "Browning, Eric",
-          "id": "5987793",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1962,8 +1572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 2053,
-          "name": "Cain, JARRED",
-          "id": "5983383",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1972,8 +1580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 2060,
-          "name": "Burchett, Derrick",
-          "id": "6014824",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1982,8 +1588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 2070,
-          "name": "Magrath, JAMES",
-          "id": "6066371",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1992,8 +1596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 2080,
-          "name": "Doolittle, IAN",
-          "id": "6079244",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2002,8 +1604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 2081,
-          "name": "Anderson, Art",
-          "id": "6104967",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2012,8 +1612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 2083,
-          "name": "Slater, Steven",
-          "id": "6106207",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2022,8 +1620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 2096,
-          "name": "Arens, KORY",
-          "id": "6294776",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2032,8 +1628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 2097,
-          "name": "Barnes, JORDAN",
-          "id": "6295635",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2042,8 +1636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 2098,
-          "name": "Opris, Cristian",
-          "id": "6248097",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2052,8 +1644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 2099,
-          "name": "Points, JASON",
-          "id": "6246595",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2062,8 +1652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 2102,
-          "name": "Sprankle, Byron",
-          "id": "6295627",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2072,8 +1660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 2111,
-          "name": "Foy Jr., BILL",
-          "id": "6295632",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2082,8 +1668,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 2137,
-          "name": "Bourgeois, CLAUDE",
-          "id": "6356469",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2092,8 +1676,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 2138,
-          "name": "Shomali, Ala",
-          "id": "6355004",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2102,8 +1684,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 2139,
-          "name": "Janda, WAYNE",
-          "id": "6301766",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2112,8 +1692,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 2142,
-          "name": "Simon, Peter",
-          "id": "6301771",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2122,8 +1700,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 2156,
-          "name": "Evans Jr., RODNEY",
-          "id": "6357019",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2132,8 +1708,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 2169,
-          "name": "Cela, SOKOL",
-          "id": "6365601",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2142,8 +1716,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 2176,
-          "name": "McCalla, DWIGHT",
-          "id": "6353931",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2152,8 +1724,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 2188,
-          "name": "Court, ADAM",
-          "id": "6384312",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2162,8 +1732,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 2246,
-          "name": "Duck, ZACHARY",
-          "id": "6468834",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2172,8 +1740,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 2256,
-          "name": "Yarbrough, Sean",
-          "id": "6503501",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2182,8 +1748,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 2258,
-          "name": "Knerr, SCOTT",
-          "id": "6502123",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2192,8 +1756,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 2260,
-          "name": "Floro, John",
-          "id": "6502797",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2202,8 +1764,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 2262,
-          "name": "Hudson, TREVOR",
-          "id": "1277076",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2212,8 +1772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 2263,
-          "name": "Delker, Kevin",
-          "id": "6503499",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2222,8 +1780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 2265,
-          "name": "Buckley Jr., SHANNON",
-          "id": "6504681",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2232,8 +1788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 2272,
-          "name": "Bruyere, Scott",
-          "id": "7000650",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2242,8 +1796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2274,
-          "name": "Quiros, Gonzalo",
-          "id": "1869177",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2252,8 +1804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2275,
-          "name": "Snavely, Darien",
-          "id": "7000713",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2262,8 +1812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2292,
-          "name": "Kleven, Mike",
-          "id": "7110688",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2272,8 +1820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 2293,
-          "name": "James, NICK",
-          "id": "7112741",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2282,8 +1828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 2302,
-          "name": "Dorsey, Jordan",
-          "id": "7119449",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2292,8 +1836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 2303,
-          "name": "Roman-Amador, Bex",
-          "id": "7248767",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2302,8 +1844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 2308,
-          "name": "Rodriguez, VICTOR",
-          "id": "7273355",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2312,8 +1852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 2320,
-          "name": "Brown, ZACKARY",
-          "id": "7273351",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2322,8 +1860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 2330,
-          "name": "Lewis, IAN",
-          "id": "7276370",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2332,8 +1868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 2339,
-          "name": "Morris, CALEB",
-          "id": "7276369",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2342,8 +1876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 2351,
-          "name": "Coleman, MATTHEW",
-          "id": "0565442",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2352,8 +1884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 2353,
-          "name": "Emhoff, John",
-          "id": "7278501",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2362,8 +1892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 2355,
-          "name": "Kieler, JOSHUA",
-          "id": "7278506",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2372,8 +1900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 2366,
-          "name": "Wolff, Tyson",
-          "id": "7281619",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2382,8 +1908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 2369,
-          "name": "Britt, Michael",
-          "id": "7281660",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2392,8 +1916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 2371,
-          "name": "Seubert, CHRIS",
-          "id": "7281659",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2402,8 +1924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 2373,
-          "name": "Maloney, CHRIS",
-          "id": "7281618",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2412,8 +1932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 2375,
-          "name": "Poyser, JONATHAN",
-          "id": "7281617",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2422,8 +1940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 2385,
-          "name": "Williams, Daniel",
-          "id": "7282019",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2432,8 +1948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 2394,
-          "name": "Zielinski, MATT",
-          "id": "7291283",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2442,8 +1956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 2395,
-          "name": "McMullen, Marshall",
-          "id": "7291335",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2452,8 +1964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 2396,
-          "name": "Schroeder, Scott",
-          "id": "7291332",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2462,8 +1972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 2397,
-          "name": "Khan, IMRAN",
-          "id": "7291934",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2472,8 +1980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 2399,
-          "name": "Lebovitz, MICHAEL",
-          "id": "7291284",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2482,8 +1988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 2400,
-          "name": "Reyes, ALEX",
-          "id": "7291334",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2492,8 +1996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 2414,
-          "name": "Adams, Keaven",
-          "id": "0280437",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2502,8 +2004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 2416,
-          "name": "Aly, AHMED",
-          "id": "7304508",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2512,8 +2012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 2422,
-          "name": "Kenzik, ERIC",
-          "id": "7304399",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2522,8 +2020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 2427,
-          "name": "Messenger, Mark",
-          "id": "7305626",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2532,8 +2028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 2435,
-          "name": "Bucher, BRIAN",
-          "id": "7330633",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2542,8 +2036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 2436,
-          "name": "Hafidh, NAWAF",
-          "id": "7330895",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2552,8 +2044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 2437,
-          "name": "Agbe, Mawuko",
-          "id": "7330625",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2562,8 +2052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 2438,
-          "name": "Pennell, BRIAN",
-          "id": "7332567",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2572,8 +2060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 2443,
-          "name": "Crawford, Ian",
-          "id": "7330626",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2582,8 +2068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 2444,
-          "name": "Jones III, TREY",
-          "id": "7330517",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2592,8 +2076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 2457,
-          "name": "Winston, LENARD",
-          "id": "7332452",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2602,8 +2084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 2459,
-          "name": "Quick, JEFF",
-          "id": "7355429",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2612,8 +2092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 2466,
-          "name": "Early, TODD",
-          "id": "7355428",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2622,8 +2100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 2488,
-          "name": "Gonzalez, Jesus",
-          "id": "7381902",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2632,8 +2108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 2504,
-          "name": "Dedmon, CHRISTOPHER",
-          "id": "7383990",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2642,8 +2116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 2510,
-          "name": "Stegner, KURT",
-          "id": "7406320",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2652,8 +2124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 2511,
-          "name": "Anderson, Jeffrey",
-          "id": "7406196",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2662,8 +2132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 2512,
-          "name": "Bahari, NAZ",
-          "id": "7406292",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2672,8 +2140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 2516,
-          "name": "Riner, Jack",
-          "id": "7406272",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2682,8 +2148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 2539,
-          "name": "Neider, RYAN",
-          "id": "7431896",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2692,8 +2156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 2541,
-          "name": "Moree, DALE",
-          "id": "7431945",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2702,8 +2164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 2542,
-          "name": "Digiorgioenderl, RODRIG",
-          "id": "7431895",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2712,8 +2172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 2547,
-          "name": "Brown, Christopher",
-          "id": "7431948",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2722,8 +2180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 2548,
-          "name": "Enghauser, CHASE",
-          "id": "7431898",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2732,8 +2188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 2554,
-          "name": "Meyer, DANIEL",
-          "id": "7434235",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2742,8 +2196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 2556,
-          "name": "Edwards, MARK",
-          "id": "7464920",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2752,8 +2204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 2558,
-          "name": "Bagby, David",
-          "id": "7464818",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2762,8 +2212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 2559,
-          "name": "Hall, JUSTIN",
-          "id": "0580066",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2772,8 +2220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 2560,
-          "name": "Glatthaar, CARL",
-          "id": "7465035",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2782,8 +2228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 2561,
-          "name": "Boelscher, CHRISTOPHER",
-          "id": "7464816",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2792,8 +2236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 2563,
-          "name": "Klepper, DANIEL",
-          "id": "7464922",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2802,8 +2244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 2564,
-          "name": "Busch, Paul",
-          "id": "7544780",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2812,8 +2252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 2565,
-          "name": "Beek, CARY",
-          "id": "7544777",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2822,8 +2260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 2568,
-          "name": "Bliss, JEFFREY",
-          "id": "7544779",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2832,8 +2268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 2569,
-          "name": "Abuzeinab, SAAD",
-          "id": "7544778",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2842,8 +2276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 2570,
-          "name": "Bawcom, Braden",
-          "id": "7544677",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2852,8 +2284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 2572,
-          "name": "Hamilton, MARK",
-          "id": "7700144",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2862,8 +2292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 2573,
-          "name": "Chrismon, Joshua",
-          "id": "7700328",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2872,8 +2300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 2578,
-          "name": "Bowen, MICHAEL",
-          "id": "7700249",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2882,8 +2308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 2590,
-          "name": "Steele, MARK",
-          "id": "7718353",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2892,8 +2316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 2593,
-          "name": "Bhatti, Haroon",
-          "id": "7718330",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2902,8 +2324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 2600,
-          "name": "Scott, Travis",
-          "id": "7718329",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2912,8 +2332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 2603,
-          "name": "Anderson, Dillon",
-          "id": "3774754",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2922,8 +2340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 2606,
-          "name": "Redies, Nicholas",
-          "id": "7718341",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2932,8 +2348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 2617,
-          "name": "Vercesi, Francesco",
-          "id": "7723832",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2942,8 +2356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 2628,
-          "name": "Rogers, RICHARD",
-          "id": "7723768",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2952,8 +2364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 2644,
-          "name": "Hunsberger, Mark",
-          "id": "7735080",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2962,8 +2372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 2680,
-          "name": "Jorgensen, THOMAS",
-          "id": "7751862",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2972,8 +2380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 2681,
-          "name": "Barea Sandi, Rafael",
-          "id": "7751821",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2982,8 +2388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 2690,
-          "name": "Melzer, TYLER",
-          "id": "7751848",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2992,8 +2396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 2713,
-          "name": "Roseveare, Nathaniel",
-          "id": "7753254",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3002,8 +2404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 2716,
-          "name": "Graham, Justin",
-          "id": "5224602",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3012,8 +2412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 2718,
-          "name": "Jacobsen II, Jed",
-          "id": "7771954",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3022,8 +2420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 2721,
-          "name": "Hay, IAN",
-          "id": "7772098",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3032,8 +2428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 2725,
-          "name": "Westveer, Jason",
-          "id": "7771920",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3042,8 +2436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 2741,
-          "name": "McNutt, Seth",
-          "id": "7773786",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3052,8 +2444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 2745,
-          "name": "McKinney, DREW",
-          "id": "7773583",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3062,8 +2452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 2748,
-          "name": "May, BYRON",
-          "id": "7773589",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3072,8 +2460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 2751,
-          "name": "Habecker, DENNIS",
-          "id": "7773813",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3082,8 +2468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 2770,
-          "name": "Wayte, ERIC",
-          "id": "7793993",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3092,8 +2476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 2771,
-          "name": "Buntin, GREG",
-          "id": "7793922",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3102,8 +2484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 2779,
-          "name": "Coop, Casey",
-          "id": "7795770",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3112,8 +2492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 2797,
-          "name": "Cheng, Yen",
-          "id": "7824838",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3122,8 +2500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 2798,
-          "name": "Edinboro Jr., Christoph",
-          "id": "7824851",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3132,8 +2508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 2800,
-          "name": "Daley, Dennis",
-          "id": "7827280",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3142,8 +2516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 2807,
-          "name": "Flippin, Justin",
-          "id": "7824864",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3152,8 +2524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 2812,
-          "name": "Vincent, Peter",
-          "id": "7825002",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3162,8 +2532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 2828,
-          "name": "Reynolds, SHANE",
-          "id": "7827081",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3172,8 +2540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 2837,
-          "name": "Batista De Cast, BRUNO",
-          "id": "7845199",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3182,8 +2548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 2874,
-          "name": "Stone Jr., LARRY",
-          "id": "7874014",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3192,8 +2556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 2880,
-          "name": "Kusmic, Alan",
-          "id": "7874112",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3202,8 +2564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 2915,
-          "name": "Leao Da Silva, Pietro",
-          "id": "7917181",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3212,8 +2572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 2916,
-          "name": "Vannatter, Jordan",
-          "id": "7917318",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3222,8 +2580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 2917,
-          "name": "Clark, Thomas",
-          "id": "7917175",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3232,8 +2588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 2929,
-          "name": "Goad Jr., Thomas",
-          "id": "7917537",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3242,8 +2596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 2959,
-          "name": "Reyes Frugone, GIANCARL",
-          "id": "8019201",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3252,8 +2604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 2961,
-          "name": "Boyle, MATT",
-          "id": "8018713",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3262,8 +2612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 2964,
-          "name": "Hudik, Ryan",
-          "id": "8018710",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3272,8 +2620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 2966,
-          "name": "McCoy, Zack",
-          "id": "8018711",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3282,8 +2628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 2970,
-          "name": "Peltier, PJ",
-          "id": "8130873",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3292,8 +2636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 2971,
-          "name": "Roberts, JASON",
-          "id": "8130925",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3302,8 +2644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 2992,
-          "name": "Forsman, Keith",
-          "id": "8517922",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3312,8 +2652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 3023,
-          "name": "Williamson, TAY",
-          "id": "8528951",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3322,8 +2660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 3086,
-          "name": "Ovalles, ALEJANDRO",
-          "id": "8558128",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3332,8 +2668,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 3152,
-          "name": "Guimaraes Junio, Fernan",
-          "id": "8598381",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3342,8 +2676,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 3153,
-          "name": "Teixeira Pinto, Rodrigo",
-          "id": "8598457",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3352,8 +2684,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 3155,
-          "name": "Lacerda Delgado, Rodrig",
-          "id": "8598371",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3362,8 +2692,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 3187,
-          "name": "Schweickert, Andrew",
-          "id": "8643766",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3372,8 +2700,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 3229,
-          "name": "Williams, Ryon",
-          "id": "8851207",
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -3386,8 +2712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 4,
-          "name": "Williams, MIKE",
-          "id": "0554460",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3396,8 +2720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 28,
-          "name": "Hansen, KEITH",
-          "id": "0556856",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3406,8 +2728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 31,
-          "name": "Mastomaki, TUULA",
-          "id": "0554935",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3416,8 +2736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 36,
-          "name": "Maioriello, ART",
-          "id": "0556885",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3426,8 +2744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 52,
-          "name": "Hinshaw, Martin E.",
-          "id": "0554463",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3436,8 +2752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 66,
-          "name": "Warmbold, PATRICK C.",
-          "id": "0556495",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3446,8 +2760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 72,
-          "name": "Jipsen, SHANNON L.",
-          "id": "0556591",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3456,8 +2768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 84,
-          "name": "Andersen, John E",
-          "id": "0554533",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3466,8 +2776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 88,
-          "name": "Kelley, James A.",
-          "id": "0556929",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3476,8 +2784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 89,
-          "name": "Clark, Richard",
-          "id": "0556841",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3486,8 +2792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 99,
-          "name": "Appell Jr., RON",
-          "id": "0554671",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3496,8 +2800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 103,
-          "name": "Gross, BILL",
-          "id": "0556652",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3506,8 +2808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 104,
-          "name": "Hebble, Scott",
-          "id": "0555411",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3516,8 +2816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 118,
-          "name": "Wettstein, JAMES",
-          "id": "0555762",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3526,8 +2824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 136,
-          "name": "Afont, ALFREDO",
-          "id": "0557190",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3536,8 +2832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 145,
-          "name": "Toliver, MICHAEL",
-          "id": "0556815",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3546,8 +2840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 161,
-          "name": "Jones, STEPHEN",
-          "id": "0556896",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3556,8 +2848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 165,
-          "name": "Abell, JOHN",
-          "id": "0554951",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3566,8 +2856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 174,
-          "name": "Kasowski, Jeffrey",
-          "id": "0556866",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3576,8 +2864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 192,
-          "name": "Colebrook, CINDY",
-          "id": "0556918",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3586,8 +2872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 207,
-          "name": "Noppert, JAMES",
-          "id": "0554858",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3596,8 +2880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 236,
-          "name": "Matchette, ROBERT",
-          "id": "0555424",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3606,8 +2888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 242,
-          "name": "Davis, Steven",
-          "id": "0554398",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3616,8 +2896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 253,
-          "name": "Skinner, John",
-          "id": "0555622",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3626,8 +2904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 267,
-          "name": "Ross, Jonathan",
-          "id": "0556524",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3636,8 +2912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 269,
-          "name": "McNeill IV, Charles",
-          "id": "0557042",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3646,8 +2920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 276,
-          "name": "Noska IV, Frank",
-          "id": "0556394",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3656,8 +2928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 284,
-          "name": "Nelson, MARK",
-          "id": "0556466",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3666,8 +2936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 298,
-          "name": "Anderson, John",
-          "id": "0554810",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3676,8 +2944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 302,
-          "name": "Orlando, JEFFREY",
-          "id": "0556985",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3686,8 +2952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 305,
-          "name": "Svenning, PETER",
-          "id": "0555277",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3696,8 +2960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 306,
-          "name": "Crowley, JAMES",
-          "id": "0556342",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3706,8 +2968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 310,
-          "name": "Berg Jr., ROBERT",
-          "id": "0554334",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3716,8 +2976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 318,
-          "name": "Harris, KENNETH",
-          "id": "0556882",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3726,8 +2984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 321,
-          "name": "Stahla, Russell",
-          "id": "0556673",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3736,8 +2992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 324,
-          "name": "Carr, DONNA",
-          "id": "0554770",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3746,8 +3000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 339,
-          "name": "Stevens, CHRIS",
-          "id": "0554333",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3756,8 +3008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 340,
-          "name": "Keller, Kevin",
-          "id": "0554873",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3766,8 +3016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 341,
-          "name": "Jackson Jr., WAYNE",
-          "id": "0554352",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3776,8 +3024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 343,
-          "name": "Lawson, KENT",
-          "id": "0555605",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3786,8 +3032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 353,
-          "name": "Patino, WILLIAM",
-          "id": "0557215",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3796,8 +3040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 354,
-          "name": "Moline, JAMES",
-          "id": "0555621",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3806,8 +3048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 379,
-          "name": "Martini, Frank",
-          "id": "0555328",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3816,8 +3056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 399,
-          "name": "Cryan, Chris",
-          "id": "0557023",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3826,8 +3064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 402,
-          "name": "Barber, Steven",
-          "id": "0556877",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3836,8 +3072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 408,
-          "name": "Ireland, JOHN",
-          "id": "0554866",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3846,8 +3080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 409,
-          "name": "Smith, MICHAEL",
-          "id": "0554523",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3856,8 +3088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 411,
-          "name": "Thiele, Georg",
-          "id": "0557169",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3866,8 +3096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 412,
-          "name": "Harper, CHRIS",
-          "id": "0556717",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3876,8 +3104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 417,
-          "name": "Perry, BILL",
-          "id": "0857481",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3886,8 +3112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 426,
-          "name": "Neal, GARY",
-          "id": "0955774",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3896,8 +3120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 428,
-          "name": "Wyzykowski, Joseph",
-          "id": "0955763",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3906,8 +3128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 434,
-          "name": "Sullivan, Kelly C.",
-          "id": "0972792",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3916,8 +3136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 436,
-          "name": "Huybrechts, LEILANI",
-          "id": "0990088",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3926,8 +3144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 454,
-          "name": "Murray, LANCE",
-          "id": "1012577",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3936,8 +3152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 455,
-          "name": "Sutter, Justin",
-          "id": "0608823",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3946,8 +3160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 456,
-          "name": "Mills, IAN C.",
-          "id": "1028709",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3956,8 +3168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 466,
-          "name": "Parsons, KENNETH A.",
-          "id": "1046848",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3966,8 +3176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 475,
-          "name": "Richard, PAUL",
-          "id": "1069457",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3976,8 +3184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 499,
-          "name": "Riahi, SHABAB",
-          "id": "1101994",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3986,8 +3192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 510,
-          "name": "Carrillo, GERALD A.",
-          "id": "1114090",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3996,8 +3200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 515,
-          "name": "O'Connor, Michael R.",
-          "id": "1130905",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4006,8 +3208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 519,
-          "name": "Dahl, CHRISTINE",
-          "id": "1141412",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4016,8 +3216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 523,
-          "name": "Wolff, DEAN E.",
-          "id": "1181142",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4026,8 +3224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 525,
-          "name": "Hopkins, ERIC J.",
-          "id": "1181129",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4036,8 +3232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 544,
-          "name": "Baker, BRADLEY L.",
-          "id": "1208696",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4046,8 +3240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 557,
-          "name": "Overcast, CHAD",
-          "id": "1213761",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4056,8 +3248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 596,
-          "name": "Lofgren, BRIAN",
-          "id": "1251404",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4066,8 +3256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 603,
-          "name": "Warren, GEOFFREY",
-          "id": "1269933",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4076,8 +3264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 604,
-          "name": "Boles, Todd",
-          "id": "1274340",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4086,8 +3272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 623,
-          "name": "Johnson, THOR",
-          "id": "1286724",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4096,8 +3280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 632,
-          "name": "Goza, RANDY H",
-          "id": "1286845",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4106,8 +3288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 635,
-          "name": "Bare, Daniel J.",
-          "id": "1286846",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4116,8 +3296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 636,
-          "name": "Lepley, Kelly C.",
-          "id": "1286790",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4126,8 +3304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 640,
-          "name": "Schoen, Kurt E.",
-          "id": "1301268",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4136,8 +3312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 663,
-          "name": "Kooy, CRAIG",
-          "id": "1739019",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4146,8 +3320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 664,
-          "name": "Satulovsky, CARLOS",
-          "id": "1739095",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4156,8 +3328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 665,
-          "name": "Stephen, IAIN",
-          "id": "1739030",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4166,8 +3336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 670,
-          "name": "Kaufman, ERIC",
-          "id": "1777428",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4176,8 +3344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 671,
-          "name": "Hewette III, JAMES",
-          "id": "1777464",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4186,8 +3352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 672,
-          "name": "Leipold, ANDRE",
-          "id": "1776837",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4196,8 +3360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 678,
-          "name": "Hurd, PETE",
-          "id": "0010649",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4206,8 +3368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 679,
-          "name": "Baker, TODD",
-          "id": "1774879",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4216,8 +3376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 702,
-          "name": "Hancock, Jeff",
-          "id": "1797695",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4226,8 +3384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 708,
-          "name": "Karumuna, DAVID",
-          "id": "1797633",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4236,8 +3392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 723,
-          "name": "Shenkin, MICHAEL",
-          "id": "1803754",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4246,8 +3400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 736,
-          "name": "Sharp, Travis",
-          "id": "1803805",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4256,8 +3408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 753,
-          "name": "Ross, Don",
-          "id": "1812118",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4266,8 +3416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 758,
-          "name": "Jasper, Jj",
-          "id": "1812139",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4276,8 +3424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 764,
-          "name": "Kelly, THAD",
-          "id": "1812143",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4286,8 +3432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 781,
-          "name": "Wrobel, KATIE",
-          "id": "1819874",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4296,8 +3440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 782,
-          "name": "Massey, Scott",
-          "id": "1829677",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4306,8 +3448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 789,
-          "name": "Bryant, Ted",
-          "id": "1829802",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4316,8 +3456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 800,
-          "name": "Blackwell, PATRICK",
-          "id": "1834779",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4326,8 +3464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 819,
-          "name": "Moyers, NICK",
-          "id": "1844129",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4336,8 +3472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 830,
-          "name": "Schwab III, Al",
-          "id": "1853748",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4346,8 +3480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 837,
-          "name": "Van Dyke, DEREK",
-          "id": "1853738",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4356,8 +3488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 839,
-          "name": "Walker, ELIZABETH",
-          "id": "1857553",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4366,8 +3496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 847,
-          "name": "Greer, GARY",
-          "id": "1862080",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4376,8 +3504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 858,
-          "name": "McBride, TOM",
-          "id": "1872253",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4386,8 +3512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 868,
-          "name": "Ross, Andrew",
-          "id": "1888301",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4396,8 +3520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 877,
-          "name": "Robertson, Mark",
-          "id": "1946102",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4406,8 +3528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 880,
-          "name": "Bass, Kristin",
-          "id": "1946085",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4416,8 +3536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 885,
-          "name": "Cobb, ERIK",
-          "id": "1966315",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4426,8 +3544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 891,
-          "name": "Farnsworth, Debra",
-          "id": "1972866",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4436,8 +3552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 900,
-          "name": "Moreno, ROSS",
-          "id": "2016510",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4446,8 +3560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 902,
-          "name": "Lang, DANIEL",
-          "id": "2016514",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4456,8 +3568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 903,
-          "name": "Leon, Vince",
-          "id": "2016507",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4466,8 +3576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 907,
-          "name": "Youngblood, Allyson",
-          "id": "2020939",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4476,8 +3584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 911,
-          "name": "Waters, JEREMY",
-          "id": "2020911",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4486,8 +3592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 916,
-          "name": "Brumby III, Rob",
-          "id": "2031068",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4496,8 +3600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 920,
-          "name": "Sartorello, Laura",
-          "id": "2031065",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4506,8 +3608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 921,
-          "name": "Griffin, DAVID",
-          "id": "2037153",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4516,8 +3616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 922,
-          "name": "Distefano Jr., JOHN",
-          "id": "2037182",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4526,8 +3624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 924,
-          "name": "Holmbjork, Erik",
-          "id": "2037155",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4536,8 +3632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 925,
-          "name": "Paris, DOUG",
-          "id": "2037177",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4546,8 +3640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 943,
-          "name": "Johnson, JOSH",
-          "id": "2057213",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4556,8 +3648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 944,
-          "name": "Thomas, STEVE",
-          "id": "2057089",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4566,8 +3656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 951,
-          "name": "Bohn, Hunter",
-          "id": "2057077",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4576,8 +3664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 957,
-          "name": "Gribble, David",
-          "id": "2068703",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4586,8 +3672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 961,
-          "name": "Gridley, Scott",
-          "id": "2068803",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4596,8 +3680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 965,
-          "name": "Lutzker, MARK",
-          "id": "2068677",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4606,8 +3688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 966,
-          "name": "Cahill, BRYAN",
-          "id": "2068587",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4616,8 +3696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 972,
-          "name": "Grattopp, GREG",
-          "id": "2074099",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4626,8 +3704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 973,
-          "name": "Meyer, JON",
-          "id": "1215600",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4636,8 +3712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 975,
-          "name": "Schmitz, DAVID",
-          "id": "2074042",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4646,8 +3720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 986,
-          "name": "Nelson, JAKE",
-          "id": "2090647",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4656,8 +3728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 996,
-          "name": "Croly, TODD",
-          "id": "2108534",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4666,8 +3736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 1004,
-          "name": "Rodriguez Angel, IVAN",
-          "id": "2167414",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4676,8 +3744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 1005,
-          "name": "Neuman, Cort",
-          "id": "2172449",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4686,8 +3752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 1006,
-          "name": "Hoehn, JIM",
-          "id": "2172503",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4696,8 +3760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 1016,
-          "name": "Yarger, DENIM",
-          "id": "2172478",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4706,8 +3768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 1019,
-          "name": "Edun, Russell",
-          "id": "2176575",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4716,8 +3776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 1024,
-          "name": "Hixssen, Michael",
-          "id": "2176652",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4726,8 +3784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 1026,
-          "name": "Yotsuuye, BOBBY",
-          "id": "2176579",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4736,8 +3792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 1028,
-          "name": "Walkerley, SEAN",
-          "id": "2176715",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4746,8 +3800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 1031,
-          "name": "Khalighi, Bahram",
-          "id": "2176584",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4756,8 +3808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 1036,
-          "name": "Palladino, Albert",
-          "id": "2176714",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4766,8 +3816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 1038,
-          "name": "Qualls, Jeffery",
-          "id": "3163544",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4776,8 +3824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 1040,
-          "name": "Studley, James",
-          "id": "3163546",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4786,8 +3832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 1042,
-          "name": "Dicello, Todd",
-          "id": "3163538",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4796,8 +3840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 1044,
-          "name": "Imposimato, ANTHONY",
-          "id": "3166230",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4806,8 +3848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 1045,
-          "name": "Nieder, Brady",
-          "id": "3166220",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4816,8 +3856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 1047,
-          "name": "Latham, DAVE",
-          "id": "3167079",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4826,8 +3864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 1050,
-          "name": "Hansen, CHAD",
-          "id": "3166228",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4836,8 +3872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 1051,
-          "name": "Woodford, Douglas",
-          "id": "3170078",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4846,8 +3880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 1052,
-          "name": "Dusse, CHRIS",
-          "id": "3170176",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4856,8 +3888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 1053,
-          "name": "Levy, STEVEN",
-          "id": "3169838",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4866,8 +3896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 1056,
-          "name": "Dienstl, KEITH",
-          "id": "3169842",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4876,8 +3904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 1061,
-          "name": "Jones, Frank",
-          "id": "3169839",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4886,8 +3912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 1062,
-          "name": "McDermont, Marc",
-          "id": "3170084",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4896,8 +3920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 1063,
-          "name": "Day, KEVIN",
-          "id": "0390949",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4906,8 +3928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 1064,
-          "name": "Teo, Michael",
-          "id": "3170227",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4916,8 +3936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 1071,
-          "name": "Beck III, JOHN",
-          "id": "3172088",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4926,8 +3944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 1072,
-          "name": "Sexton, Scott",
-          "id": "3172083",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4936,8 +3952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 1074,
-          "name": "Rockhold, ERIC",
-          "id": "3172215",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4946,8 +3960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 1075,
-          "name": "De Lascurain, Andres",
-          "id": "3172082",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4956,8 +3968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 1076,
-          "name": "Booth, Michelle",
-          "id": "3173647",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4966,8 +3976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 1078,
-          "name": "Joye, JEFFREY",
-          "id": "3176035",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4976,8 +3984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 1079,
-          "name": "Kragt, Thomas",
-          "id": "3176037",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4986,8 +3992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 1081,
-          "name": "Roberts, CHRISTOPHER",
-          "id": "3176047",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4996,8 +4000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 1083,
-          "name": "Johnston, Lance",
-          "id": "3176031",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5006,8 +4008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 1085,
-          "name": "Powell, GREGORY",
-          "id": "3176044",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5016,8 +4016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 1086,
-          "name": "Beauchamp, Craig",
-          "id": "3176020",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5026,8 +4024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 1090,
-          "name": "Waddoups III, MAX",
-          "id": "3183042",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5036,8 +4032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 1093,
-          "name": "Gomez, Martin",
-          "id": "3188819",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5046,8 +4040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 1095,
-          "name": "Webb, GUS",
-          "id": "3188820",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5056,8 +4048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 1098,
-          "name": "Wallace, LAMAR",
-          "id": "3188826",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5066,8 +4056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 1102,
-          "name": "Johnson, Steven",
-          "id": "3188829",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5076,8 +4064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 1107,
-          "name": "Ekberg, BRUNO",
-          "id": "3188843",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5086,8 +4072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 1111,
-          "name": "Peters, PATRICK",
-          "id": "3196714",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5096,8 +4080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 1117,
-          "name": "Carter, Liesl",
-          "id": "3196720",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5106,8 +4088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 1118,
-          "name": "Pemberton, TIMOTHY",
-          "id": "3196722",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5116,8 +4096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 1119,
-          "name": "Collins, SHANE",
-          "id": "3196721",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5126,8 +4104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 1146,
-          "name": "Oldenkamp, Michael",
-          "id": "3213906",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5136,8 +4112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 1147,
-          "name": "Zumwalt, Michel",
-          "id": "3213894",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5146,8 +4120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 1153,
-          "name": "Fairbanks, Andre",
-          "id": "3213885",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5156,8 +4128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 1156,
-          "name": "Spatz, Douglas",
-          "id": "3213917",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5166,8 +4136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 1161,
-          "name": "Brosig, FREDY",
-          "id": "3225424",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5176,8 +4144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 1172,
-          "name": "Chiplock, BOB",
-          "id": "3235650",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5186,8 +4152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 1175,
-          "name": "Goolsby, WILL",
-          "id": "3236186",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5196,8 +4160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 1178,
-          "name": "Sweeney, BRETT",
-          "id": "3236206",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5206,8 +4168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 1186,
-          "name": "Wynn, TOM",
-          "id": "3250717",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5216,8 +4176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 1187,
-          "name": "Merriman Jr., Larry",
-          "id": "3250716",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5226,8 +4184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 1189,
-          "name": "Brown, Chris",
-          "id": "3250700",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5236,8 +4192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 1192,
-          "name": "Recker, Matt",
-          "id": "3259715",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5246,8 +4200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 1229,
-          "name": "Prosio, JOEL",
-          "id": "4238965",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5256,8 +4208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 1254,
-          "name": "Halsey, Jenna",
-          "id": "4430846",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5266,8 +4216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 1283,
-          "name": "Wisgerhof, DAVID",
-          "id": "4450270",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5276,8 +4224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 1288,
-          "name": "La Jeunesse, CHRIS",
-          "id": "4450268",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5286,8 +4232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 1292,
-          "name": "Ebhardt, AMELIA",
-          "id": "4450269",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5296,8 +4240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 1322,
-          "name": "Laverde, SERGIO",
-          "id": "4490295",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5306,8 +4248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 1325,
-          "name": "Birman, PABLO",
-          "id": "4491247",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5316,8 +4256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 1359,
-          "name": "Lysen, RAY",
-          "id": "4744908",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5326,8 +4264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 1366,
-          "name": "Klipper, Alec",
-          "id": "4759701",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5336,8 +4272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 1382,
-          "name": "Doidge, Jennifer",
-          "id": "4782147",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5346,8 +4280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 1384,
-          "name": "Fundeen, KELLY",
-          "id": "4899593",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5356,8 +4288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 1386,
-          "name": "Hensley IV, LEW",
-          "id": "5027292",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5366,8 +4296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 1393,
-          "name": "Forsgren, Kyle",
-          "id": "5037080",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5376,8 +4304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 1405,
-          "name": "Lord, PETER",
-          "id": "5028954",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5386,8 +4312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 1411,
-          "name": "Ouart, BRENTT",
-          "id": "5034704",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5396,8 +4320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 1412,
-          "name": "Gelabert, HECTOR",
-          "id": "4899608",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5406,8 +4328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 1454,
-          "name": "Roquett, Walter",
-          "id": "5063155",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5416,8 +4336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 1467,
-          "name": "Benjaminson, Mark",
-          "id": "5056900",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5426,8 +4344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 1474,
-          "name": "Langford, JACKSON",
-          "id": "5068324",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5436,8 +4352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 1483,
-          "name": "Meduna, Chad",
-          "id": "5068319",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5446,8 +4360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 1485,
-          "name": "Lucke, Myriam",
-          "id": "5068330",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5456,8 +4368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 1495,
-          "name": "Strickland, Jonathan",
-          "id": "5068323",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5466,8 +4376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 1499,
-          "name": "Aufmuth, AL",
-          "id": "5048132",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5476,8 +4384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 1501,
-          "name": "Vogel, MARK",
-          "id": "5070456",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5486,8 +4392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 1511,
-          "name": "Louderback, BRIAN",
-          "id": "5070452",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5496,8 +4400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 1526,
-          "name": "Gilman, Gregory",
-          "id": "5072234",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5506,8 +4408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 1530,
-          "name": "Saroyan III, Albert",
-          "id": "5082051",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5516,8 +4416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 1544,
-          "name": "Lewis, Steven",
-          "id": "5083333",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5526,8 +4424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 1547,
-          "name": "Pearson, Patrick",
-          "id": "5088860",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5536,8 +4432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 1550,
-          "name": "Livingston, BRETT",
-          "id": "5094341",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5546,8 +4440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 1553,
-          "name": "Lewis, Rob",
-          "id": "5094817",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5556,8 +4448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 1557,
-          "name": "Pye, Jenny",
-          "id": "5097783",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5566,8 +4456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 1577,
-          "name": "Drake, Nathan",
-          "id": "5109433",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5576,8 +4464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 1583,
-          "name": "Juliano, Jonathan",
-          "id": "5109258",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5586,8 +4472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 1588,
-          "name": "Losch, Zeke",
-          "id": "5089483",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5596,8 +4480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 1602,
-          "name": "Pelkola, Ryan",
-          "id": "5137324",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5606,8 +4488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 1611,
-          "name": "Knutson, ERIC",
-          "id": "5139621",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5616,8 +4496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 1625,
-          "name": "Howard, Joseph",
-          "id": "5163152",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5626,8 +4504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 1631,
-          "name": "Adenwala, Shahid",
-          "id": "0294651",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5636,8 +4512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 1633,
-          "name": "Lallis, Spiro",
-          "id": "5149938",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5646,8 +4520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 1635,
-          "name": "Newkirk, Chad",
-          "id": "5151285",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5656,8 +4528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 1636,
-          "name": "Leuenberger, Lukas",
-          "id": "5184857",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5666,8 +4536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 1642,
-          "name": "Van Noy, Greg",
-          "id": "5144664",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5676,8 +4544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 1649,
-          "name": "Wright, BRIAN",
-          "id": "5279701",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5686,8 +4552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 1675,
-          "name": "Rutledge, Joel",
-          "id": "5279708",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5696,8 +4560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 1680,
-          "name": "Moritz, David",
-          "id": "5412985",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5706,8 +4568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 1702,
-          "name": "Diehl, MATT",
-          "id": "5464843",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5716,8 +4576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 1709,
-          "name": "Chastain, Matthew",
-          "id": "5473771",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5726,8 +4584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 1731,
-          "name": "Markowski IV, JOE",
-          "id": "5481692",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5736,8 +4592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 1733,
-          "name": "Seeley, CRAIG",
-          "id": "5479287",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5746,8 +4600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 1740,
-          "name": "Pease, MARK",
-          "id": "5487681",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5756,8 +4608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 1742,
-          "name": "Kirby, John",
-          "id": "5497097",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5766,8 +4616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 1746,
-          "name": "Hecker, John",
-          "id": "5479286",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5776,8 +4624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 1751,
-          "name": "Rollins, Chris",
-          "id": "5496343",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5786,8 +4632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 1757,
-          "name": "Looney, BRYON",
-          "id": "5490011",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5796,8 +4640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 1774,
-          "name": "Gandin, JEFF",
-          "id": "5496581",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5806,8 +4648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 1787,
-          "name": "Downing, Mike",
-          "id": "5540612",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -5818,8 +4658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 403,
-          "name": "Morrison, Lynne",
-          "id": "0556637",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5828,8 +4666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 514,
-          "name": "Schwab, Allison Lynn",
-          "id": "1114020",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5838,8 +4674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 741,
-          "name": "Lemelson, BETH",
-          "id": "1805973",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5848,8 +4682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 929,
-          "name": "Bodelson, MARK",
-          "id": "2037154",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5858,8 +4690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 1029,
-          "name": "Anderson, JENNIFER",
-          "id": "2176581",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5868,8 +4698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 1046,
-          "name": "Press, Lance",
-          "id": "3166223",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5878,8 +4706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 1060,
-          "name": "Finnegan, CANDICE",
-          "id": "3170082",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5888,8 +4714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 1110,
-          "name": "Delay IV, JULES",
-          "id": "3188855",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5898,8 +4722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 1127,
-          "name": "Colyer, Leslie",
-          "id": "3202343",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5908,8 +4730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 1130,
-          "name": "Baumgartner, MICHAEL",
-          "id": "3202934",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5918,8 +4738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 1233,
-          "name": "Bailey, SARA",
-          "id": "4238978",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5928,8 +4746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 1268,
-          "name": "Parker, MICHAEL",
-          "id": "4433907",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5938,8 +4754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1389,
-          "name": "Solomonson, CHRIS",
-          "id": "4899598",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5948,8 +4762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1437,
-          "name": "Oswald, Jason",
-          "id": "0624428",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5958,8 +4770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1442,
-          "name": "Christianson, Brian",
-          "id": "5034696",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5968,8 +4778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1448,
-          "name": "Metzen, NICHOLAS",
-          "id": "5052636",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5978,8 +4786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1465,
-          "name": "Flores, Michelle",
-          "id": "5060768",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5988,8 +4794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1503,
-          "name": "Carlson, PHIL",
-          "id": "5070450",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5998,8 +4802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1527,
-          "name": "Arnold, Daniel",
-          "id": "5061171",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6008,8 +4810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1537,
-          "name": "Corrigan, CHUCK",
-          "id": "5089981",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6018,8 +4818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1539,
-          "name": "Quillen, MARC",
-          "id": "5076067",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6028,8 +4826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1621,
-          "name": "Haley, Caleb",
-          "id": "5133431",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6038,8 +4834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1641,
-          "name": "Sicheneder, SCOTT",
-          "id": "5167588",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6048,8 +4842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1650,
-          "name": "Gohler, PETER",
-          "id": "5207755",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6058,8 +4850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1657,
-          "name": "Dickson, KERRY",
-          "id": "5191059",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6068,8 +4858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1674,
-          "name": "Gast, Aaron",
-          "id": "5279723",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6078,8 +4866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1683,
-          "name": "King, WAYNE",
-          "id": "5412984",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6088,8 +4874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 1691,
-          "name": "Langley, Chris",
-          "id": "5473698",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6098,8 +4882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 1705,
-          "name": "Jenkins, CODY",
-          "id": "5476452",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6108,8 +4890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 1729,
-          "name": "Smith, JEFF",
-          "id": "5479281",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6118,8 +4898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 1732,
-          "name": "Sharon, CHRIS",
-          "id": "5481691",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6128,8 +4906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 1749,
-          "name": "Dainty, PAUL",
-          "id": "5478945",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6138,8 +4914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 1763,
-          "name": "Briley, CARL",
-          "id": "5515042",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6148,8 +4922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 1764,
-          "name": "Morgan, DARRIN",
-          "id": "0018529",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6158,8 +4930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 1765,
-          "name": "Herschman, David",
-          "id": "5496570",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6168,8 +4938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 1775,
-          "name": "Fowler, Gregory",
-          "id": "5496566",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6178,8 +4946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 1779,
-          "name": "Worth, CARRIE",
-          "id": "5543195",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6188,8 +4954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 1783,
-          "name": "Clement, ASH",
-          "id": "5496415",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6198,8 +4962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 1789,
-          "name": "Jarmuz, Craig",
-          "id": "5496567",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6208,8 +4970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 1792,
-          "name": "Gunzinger, TOBIAS",
-          "id": "5496565",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6218,8 +4978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 1795,
-          "name": "Witt, Erin",
-          "id": "5551553",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6228,8 +4986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 1808,
-          "name": "Kangas, MATT",
-          "id": "5570201",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6238,8 +4994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 1820,
-          "name": "Deloney, JOHN",
-          "id": "5570202",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6248,8 +5002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 1822,
-          "name": "Prentzas, GEORGE",
-          "id": "5598348",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6258,8 +5010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 1824,
-          "name": "South, LANCE",
-          "id": "5581121",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6268,8 +5018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 1829,
-          "name": "Martin, BEN",
-          "id": "5600849",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6278,8 +5026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 1830,
-          "name": "Suciu, ADAM",
-          "id": "5597616",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6288,8 +5034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 1831,
-          "name": "Massey, ERIC",
-          "id": "5597985",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6298,8 +5042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 1849,
-          "name": "Shook, David",
-          "id": "5632815",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6308,8 +5050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 1890,
-          "name": "Larson, Anthony",
-          "id": "5798392",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6318,8 +5058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 1899,
-          "name": "Perris, George",
-          "id": "5737326",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6328,8 +5066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1901,
-          "name": "Bond, DANIEL",
-          "id": "5843143",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6338,8 +5074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1902,
-          "name": "Green, TODD",
-          "id": "5915780",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6348,8 +5082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 1904,
-          "name": "Jones, BRIAN",
-          "id": "5915730",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6358,8 +5090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 1907,
-          "name": "Noordwijk, ALKO",
-          "id": "5738527",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6368,8 +5098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 1910,
-          "name": "Miller, CASEY",
-          "id": "5843148",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6378,8 +5106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 1914,
-          "name": "Hill, JOSH",
-          "id": "5822572",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6388,8 +5114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 1916,
-          "name": "Thompson, SCOTT",
-          "id": "5918470",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6398,8 +5122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 1917,
-          "name": "Jago, VANESSA",
-          "id": "5917169",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6408,8 +5130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 1934,
-          "name": "Giese, DENNIS",
-          "id": "5923619",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6418,8 +5138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 1948,
-          "name": "Lantz, WILLIAM",
-          "id": "5925301",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6428,8 +5146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 1949,
-          "name": "Carty, Samuel",
-          "id": "5925006",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6438,8 +5154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 1968,
-          "name": "Arteaga, GORDY",
-          "id": "5952784",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6448,8 +5162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 1969,
-          "name": "Hornish, Neil",
-          "id": "5926636",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6458,8 +5170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 1989,
-          "name": "Christensen, COLT",
-          "id": "5935607",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6468,8 +5178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 1990,
-          "name": "Robin, LUDOVIC",
-          "id": "5925983",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6478,8 +5186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 2006,
-          "name": "Wean, JENNIFER",
-          "id": "5968083",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6488,8 +5194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 2008,
-          "name": "Cossette, BRIAN",
-          "id": "5966099",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6498,8 +5202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 2009,
-          "name": "Lauterbach, JOSEPH",
-          "id": "5966100",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6508,8 +5210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 2012,
-          "name": "Berry, Tom",
-          "id": "5969310",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6518,8 +5218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 2028,
-          "name": "Ackerson, DAVE",
-          "id": "5987794",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6528,8 +5226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 2030,
-          "name": "Valk, Kris",
-          "id": "5984383",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6538,8 +5234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 2035,
-          "name": "Moore, Jared",
-          "id": "5959941",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6548,8 +5242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 2037,
-          "name": "McInelly, MELISSA",
-          "id": "5987795",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6558,8 +5250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 2059,
-          "name": "Cotter, PATRICK",
-          "id": "6016057",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6568,8 +5258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 2062,
-          "name": "Johnston, KIRK",
-          "id": "6015234",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6578,8 +5266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 2065,
-          "name": "Wong, Arthur",
-          "id": "6015235",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6588,8 +5274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 2074,
-          "name": "Donough, CAMERON",
-          "id": "6161999",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6598,8 +5282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 2089,
-          "name": "Capozzi, MIKE",
-          "id": "6128764",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6608,8 +5290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 2109,
-          "name": "Crowley, George",
-          "id": "6294781",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6618,8 +5298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 2110,
-          "name": "Lowell, Josh",
-          "id": "6295623",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6628,8 +5306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 2120,
-          "name": "Burns, Brandon",
-          "id": "6295630",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6638,8 +5314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 2124,
-          "name": "Bancroft, Ryan",
-          "id": "6341166",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6648,8 +5322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 2127,
-          "name": "Hooton, SHAWN",
-          "id": "6301769",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6658,8 +5330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 2128,
-          "name": "Clinefelter, DAN",
-          "id": "6354755",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6668,8 +5338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 2140,
-          "name": "Saez, Michael",
-          "id": "6357688",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6678,8 +5346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 2153,
-          "name": "Bowlby, Nathan",
-          "id": "6355178",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6688,8 +5354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 2173,
-          "name": "Hartlaub, Tina",
-          "id": "6358926",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6698,8 +5362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 2185,
-          "name": "Fuentes, TITO",
-          "id": "6384216",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6708,8 +5370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2186,
-          "name": "Van Grunsven, DENISE",
-          "id": "6386115",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6718,8 +5378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2213,
-          "name": "Whyte, ERIC",
-          "id": "6414987",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6728,8 +5386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2216,
-          "name": "Mueller, Thomas",
-          "id": "6414807",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6738,8 +5394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 2223,
-          "name": "Bakkes, FRANCOIS",
-          "id": "6458794",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6748,8 +5402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 2239,
-          "name": "Kroontje, David",
-          "id": "6459151",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6758,8 +5410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 2257,
-          "name": "Poeppelman, Philip",
-          "id": "6505286",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6768,8 +5418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 2261,
-          "name": "Smith, JUSTIN",
-          "id": "6506159",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6778,8 +5426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 2264,
-          "name": "Kassel, JASON",
-          "id": "6503780",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6788,8 +5434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 2266,
-          "name": "Reese, Michael",
-          "id": "6484894",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6798,8 +5442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 2270,
-          "name": "Suryawanshi, PRAVEEN",
-          "id": "7000759",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6808,8 +5450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 2277,
-          "name": "Fahrenbruck, WES",
-          "id": "7000646",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6818,8 +5458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 2287,
-          "name": "Koeritz, STEVEN",
-          "id": "7017864",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6828,8 +5466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 2290,
-          "name": "Barwick, Michael",
-          "id": "7110689",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6838,8 +5474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 2294,
-          "name": "Stephens, JARED",
-          "id": "7110691",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6848,8 +5482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 2309,
-          "name": "Doherty, CONOR",
-          "id": "7273343",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6858,8 +5490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 2310,
-          "name": "Fitzpatrick, JAMES",
-          "id": "7273344",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6868,8 +5498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 2323,
-          "name": "Tymitz, Peter",
-          "id": "7273361",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6878,8 +5506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 2337,
-          "name": "Lemons, ANDY",
-          "id": "7276362",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6888,8 +5514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 2338,
-          "name": "Munden, Jeffrey",
-          "id": "7276355",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6898,8 +5522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 2340,
-          "name": "Kemp, RYAN",
-          "id": "7276363",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6908,8 +5530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 2350,
-          "name": "De Alba, Florentino",
-          "id": "7278502",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6918,8 +5538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 2352,
-          "name": "Harris, CHAD",
-          "id": "7015340",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6928,8 +5546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 2356,
-          "name": "Stanley, RYAN",
-          "id": "7278503",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6938,8 +5554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 2357,
-          "name": "Briesmaster, AARON",
-          "id": "7278505",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6948,8 +5562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 2367,
-          "name": "Schlottmann, OLIVER",
-          "id": "7281661",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6958,8 +5570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 2368,
-          "name": "Smith, Owen",
-          "id": "7281620",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6968,8 +5578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 2388,
-          "name": "Paliwoda, KIMBERLY",
-          "id": "7282035",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6978,8 +5586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 2389,
-          "name": "Brock Jr., DEWEY",
-          "id": "7291285",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6988,8 +5594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 2391,
-          "name": "Friedel, CHRISTIANE",
-          "id": "7076762",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6998,8 +5602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 2393,
-          "name": "Parish, Brian",
-          "id": "7291329",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7008,8 +5610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 2398,
-          "name": "Curry, MICHAEL",
-          "id": "7291333",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7018,8 +5618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 2403,
-          "name": "Dunlap, TYLER",
-          "id": "7291953",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7028,8 +5626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 2410,
-          "name": "Van Meurs, Leonard",
-          "id": "7304539",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7038,8 +5634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 2412,
-          "name": "Cabrera, Vianey",
-          "id": "7304396",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7048,8 +5642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 2415,
-          "name": "Pope, RYAN",
-          "id": "7304537",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7058,8 +5650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 2417,
-          "name": "Mengesha, Elias",
-          "id": "7304541",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7068,8 +5658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 2421,
-          "name": "Harrington, RYAN",
-          "id": "7304495",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7078,8 +5666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 2432,
-          "name": "Redal, Timothy",
-          "id": "7330783",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7088,8 +5674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 2439,
-          "name": "Serafin, AJ",
-          "id": "7330627",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7098,8 +5682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 2440,
-          "name": "Clavo, OSCAR",
-          "id": "7330791",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7108,8 +5690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 2441,
-          "name": "Alexander, BARRETT",
-          "id": "7330622",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7118,8 +5698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 2442,
-          "name": "Huber, Colin",
-          "id": "7330623",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7128,8 +5706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 2460,
-          "name": "Sheldon, JEROMIE",
-          "id": "7355400",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7138,8 +5714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 2461,
-          "name": "Hansen, Alan",
-          "id": "7355403",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7148,8 +5722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 2464,
-          "name": "Zorrilla, ALBERT",
-          "id": "7355401",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7158,8 +5730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 2465,
-          "name": "Phipps, JAMES",
-          "id": "7356150",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7168,8 +5738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 2467,
-          "name": "Blair, GERREN",
-          "id": "7355431",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7178,8 +5746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 2468,
-          "name": "Baltis, Ariel",
-          "id": "7355402",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7188,8 +5754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 2469,
-          "name": "Busch, John",
-          "id": "7355511",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7198,8 +5762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 2474,
-          "name": "Gaona, JOSEPH",
-          "id": "7355490",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7208,8 +5770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 2486,
-          "name": "Nelms, Chandler",
-          "id": "7381903",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7218,8 +5778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 2489,
-          "name": "Clark, MICHAEL",
-          "id": "7381904",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7228,8 +5786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 2492,
-          "name": "Petersen, ANDREW",
-          "id": "7381951",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7238,8 +5794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 2500,
-          "name": "Anderson, RYAN",
-          "id": "7383939",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7248,8 +5802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 2509,
-          "name": "Wiltshire, NICHOLAS",
-          "id": "7406195",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7258,8 +5810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 2515,
-          "name": "Webb, Andrew",
-          "id": "7406321",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7268,8 +5818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 2517,
-          "name": "Morgan, Alan",
-          "id": "7406380",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7278,8 +5826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 2521,
-          "name": "Nini, CHRISTOPHER",
-          "id": "7406317",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7288,8 +5834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 2522,
-          "name": "Wilson, Brandon",
-          "id": "7406294",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7298,8 +5842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 2523,
-          "name": "Moseley, CALDER",
-          "id": "3217172",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7308,8 +5850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 2524,
-          "name": "Joiner, Steven",
-          "id": "7406379",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7318,8 +5858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 2534,
-          "name": "Dudley, Scott",
-          "id": "7409520",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7328,8 +5866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 2538,
-          "name": "Chapman, DARRIN",
-          "id": "7431946",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7338,8 +5874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 2544,
-          "name": "Zerbinos, NICHOLAS",
-          "id": "1669071",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7348,8 +5882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 2545,
-          "name": "Peguero, HAMLET",
-          "id": "7431894",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7358,8 +5890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 2546,
-          "name": "Rutherford, Andrew",
-          "id": "7431947",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7368,8 +5898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 2549,
-          "name": "Ford, Jared",
-          "id": "7431897",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7378,8 +5906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 2557,
-          "name": "Behrens, GERARDO",
-          "id": "7465010",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7388,8 +5914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 2562,
-          "name": "Szabolcs, CHRISTOPHER",
-          "id": "7464817",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7398,8 +5922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 2567,
-          "name": "Olson, DUSTIN",
-          "id": "7544509",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7408,8 +5930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 2588,
-          "name": "Rios, RUDY",
-          "id": "7718350",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7418,8 +5938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 2589,
-          "name": "Volonakis, CHRISTOS",
-          "id": "7718368",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7428,8 +5946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 2591,
-          "name": "Whisenand, Shawn",
-          "id": "7718548",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7438,8 +5954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 2592,
-          "name": "Von Pronay, Nicolai",
-          "id": "7718374",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7448,8 +5962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 2594,
-          "name": "Nelson, John",
-          "id": "7718483",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7458,8 +5970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 2596,
-          "name": "Patel, Ketan",
-          "id": "7718354",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7468,8 +5978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 2598,
-          "name": "Bunn, AARON",
-          "id": "7718336",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7478,8 +5986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 2599,
-          "name": "Zaccagnini, RYAN",
-          "id": "7718317",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7488,8 +5994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 2604,
-          "name": "Jones, Derek",
-          "id": "7718351",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7498,8 +6002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 2605,
-          "name": "Rudyk, DENYS",
-          "id": "7718314",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7508,8 +6010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 2607,
-          "name": "Komishock, MATTHEW",
-          "id": "7718378",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7518,8 +6018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 2608,
-          "name": "Gamboa, Felix",
-          "id": "7718479",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7528,8 +6026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 2609,
-          "name": "Hodur, Billy",
-          "id": "7718502",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7538,8 +6034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 2616,
-          "name": "Wick, ROBERT",
-          "id": "7718477",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7548,8 +6042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 2618,
-          "name": "Garrison III, Charles",
-          "id": "7723786",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7558,8 +6050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 2619,
-          "name": "Rodriguez, ROCIO",
-          "id": "7723774",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7568,8 +6058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 2621,
-          "name": "Biga, Matthew",
-          "id": "7723779",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7578,8 +6066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 2623,
-          "name": "Leon, RAMSES",
-          "id": "7723780",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7588,8 +6074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 2624,
-          "name": "Geary, Jared",
-          "id": "7723789",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7598,8 +6082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 2626,
-          "name": "Foote, ADAM",
-          "id": "7723778",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7608,8 +6090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 2629,
-          "name": "Barnhard, Gregory",
-          "id": "7723777",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7618,8 +6098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 2630,
-          "name": "Kyst, Christian",
-          "id": "7723773",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7628,8 +6106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 2631,
-          "name": "Thiele, ZACHARY",
-          "id": "7723794",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7638,8 +6114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 2645,
-          "name": "Perkin, GRANT",
-          "id": "7735043",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7648,8 +6122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 2646,
-          "name": "Moore, Matthew",
-          "id": "7735097",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7658,8 +6130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 2647,
-          "name": "Goddard, STEVEN",
-          "id": "7735077",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7668,8 +6138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 2648,
-          "name": "Laursen, ULRIK",
-          "id": "7735094",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7678,8 +6146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 2649,
-          "name": "Settle, JASON",
-          "id": "7735212",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7688,8 +6154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 2651,
-          "name": "Ferris, Patrick",
-          "id": "7735062",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7698,8 +6162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 2652,
-          "name": "Turner, Christopher",
-          "id": "7735098",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7708,8 +6170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 2653,
-          "name": "Mayfield, Justin",
-          "id": "7735038",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7718,8 +6178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 2654,
-          "name": "Stevens, Cayce",
-          "id": "7735093",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7728,8 +6186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 2655,
-          "name": "Aldridge, Stephen",
-          "id": "7735014",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7738,8 +6194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 2656,
-          "name": "Campbell, RYAN",
-          "id": "7735214",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7748,8 +6202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 2658,
-          "name": "Kelly, MICHAEL",
-          "id": "7735085",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7758,8 +6210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 2659,
-          "name": "Ayers, MERCEDES",
-          "id": "7735015",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7768,8 +6218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 2663,
-          "name": "Christensen, CHRIS",
-          "id": "1003392",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7778,8 +6226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 2675,
-          "name": "Stratton, Robert",
-          "id": "7751800",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7788,8 +6234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 2678,
-          "name": "Ross, Cameron",
-          "id": "7751809",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7798,8 +6242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 2679,
-          "name": "Bonaccorso, MARIANO",
-          "id": "7751820",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7808,8 +6250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 2682,
-          "name": "Cousins, MICHAEL",
-          "id": "7751796",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7818,8 +6258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 2683,
-          "name": "Glass, ZACHRY",
-          "id": "7751807",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7828,8 +6266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 2685,
-          "name": "Guinnee, JASON",
-          "id": "7751861",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7838,8 +6274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 2686,
-          "name": "Lechner, PAUL",
-          "id": "7751860",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7848,8 +6282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 2687,
-          "name": "Certo, Michael",
-          "id": "7751808",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7858,8 +6290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 2688,
-          "name": "Brozzetti, Justin",
-          "id": "7751840",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7868,8 +6298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 2689,
-          "name": "Metzger, ANDREW",
-          "id": "7751834",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7878,8 +6306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 2720,
-          "name": "Hajar, BILAL",
-          "id": "7771935",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7888,8 +6314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 2722,
-          "name": "Shapiro, JOURDAN",
-          "id": "7771941",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7898,8 +6322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 2726,
-          "name": "Braddock, John",
-          "id": "7771909",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7908,8 +6330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 2728,
-          "name": "Mullany, Jim",
-          "id": "7771977",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7918,8 +6338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 2731,
-          "name": "Lee, John",
-          "id": "7771976",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7928,8 +6346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 2732,
-          "name": "Tye, MASON",
-          "id": "7771943",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7938,8 +6354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 2733,
-          "name": "Harootounian, Henry",
-          "id": "7771942",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7948,8 +6362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 2756,
-          "name": "Chamberlain, KEVIN",
-          "id": "7773866",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7958,8 +6370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 2758,
-          "name": "Funeno, Satoshi",
-          "id": "7793942",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7968,8 +6378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 2759,
-          "name": "Colson, JOHN",
-          "id": "7794146",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7978,8 +6386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 2760,
-          "name": "Schmidt, Mark",
-          "id": "7794145",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7988,8 +6394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 2762,
-          "name": "Radford Jr., Ken",
-          "id": "7793959",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7998,8 +6402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 2763,
-          "name": "Wuenstel, SCOTT",
-          "id": "7794004",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8008,8 +6410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 2764,
-          "name": "Vizier, Marcus",
-          "id": "7794034",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8018,8 +6418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 2766,
-          "name": "Thompson, Elbert",
-          "id": "0030170",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8028,8 +6426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 2769,
-          "name": "Foreman, Chad",
-          "id": "7793938",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8038,8 +6434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 2772,
-          "name": "Rizkalla, PAUL",
-          "id": "7793960",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8048,8 +6442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 2799,
-          "name": "Caley, PAUL",
-          "id": "7824811",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8058,8 +6450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 2804,
-          "name": "Menovsky, Filip",
-          "id": "7824840",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8068,8 +6458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 2805,
-          "name": "McGregor, Shawn",
-          "id": "7825191",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8078,8 +6466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 2806,
-          "name": "Savarese, Frank",
-          "id": "7824862",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8088,8 +6474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 2808,
-          "name": "Skribanek, Peter",
-          "id": "7827082",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8098,8 +6482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 2809,
-          "name": "Kirstein, Nathaniel",
-          "id": "7824908",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8108,8 +6490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 2814,
-          "name": "Wheeler, Richard",
-          "id": "7825001",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8118,8 +6498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 2815,
-          "name": "Brorman, BO",
-          "id": "7824961",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8128,8 +6506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 2836,
-          "name": "Scott, KEITH",
-          "id": "7845264",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8138,8 +6514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 2838,
-          "name": "Pereyda, Enrique",
-          "id": "7845209",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8148,8 +6522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 2839,
-          "name": "Muller, WAYNE",
-          "id": "7845259",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8158,8 +6530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 2840,
-          "name": "Bryant, JEFFREY",
-          "id": "7845210",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8168,8 +6538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 2841,
-          "name": "Rawlinson, Julian",
-          "id": "7845252",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8178,8 +6546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 2842,
-          "name": "Milligan, MICHAEL",
-          "id": "7845258",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8188,8 +6554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 2843,
-          "name": "Larsen, John",
-          "id": "7847031",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8198,8 +6562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 2844,
-          "name": "Leiendecker, JEFFREY",
-          "id": "7845255",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8208,8 +6570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 2847,
-          "name": "Westbrook, Bryan",
-          "id": "7845265",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8218,8 +6578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 2872,
-          "name": "Jakab, STEVE",
-          "id": "7874009",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8228,8 +6586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 2873,
-          "name": "Kilduff, Sean",
-          "id": "7874008",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8238,8 +6594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 2875,
-          "name": "Wingfield, Emmett",
-          "id": "7874016",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8248,8 +6602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 244,
           "sen": 2876,
-          "name": "Newton, Chris",
-          "id": "7874002",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8258,8 +6610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 245,
           "sen": 2877,
-          "name": "Hansen, JOHAN",
-          "id": "7874026",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8268,8 +6618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 246,
           "sen": 2878,
-          "name": "Martin, ANTHONY",
-          "id": "7874017",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8278,8 +6626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 247,
           "sen": 2879,
-          "name": "Forman, Patrick",
-          "id": "7874015",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8288,8 +6634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 248,
           "sen": 2881,
-          "name": "Chandler, DANIEL",
-          "id": "7874028",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8298,8 +6642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 249,
           "sen": 2882,
-          "name": "Crossman, MATTHEW",
-          "id": "7874006",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8308,8 +6650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 250,
           "sen": 2883,
-          "name": "Boyce, RILEY",
-          "id": "7874003",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8318,8 +6658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 251,
           "sen": 2884,
-          "name": "Anderson, JEREMY",
-          "id": "7873988",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8328,8 +6666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 252,
           "sen": 2885,
-          "name": "Vamosy, Patrick",
-          "id": "7874027",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8338,8 +6674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 253,
           "sen": 2895,
-          "name": "Gambrell III, ROBERT",
-          "id": "0801866",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8348,8 +6682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 254,
           "sen": 2914,
-          "name": "Jones, Anthony",
-          "id": "7917218",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8358,8 +6690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 255,
           "sen": 2918,
-          "name": "Ensminger, SAMUEL",
-          "id": "7917197",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8368,8 +6698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 256,
           "sen": 2919,
-          "name": "Smith, ADAM",
-          "id": "7917290",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8378,8 +6706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 257,
           "sen": 2920,
-          "name": "Cardella, DOMINIC",
-          "id": "7917130",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8388,8 +6714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 258,
           "sen": 2921,
-          "name": "Hickman, BENJAMIN",
-          "id": "7917195",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8398,8 +6722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 259,
           "sen": 2922,
-          "name": "Dickerson, Christopher",
-          "id": "7917180",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8408,8 +6730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 260,
           "sen": 2925,
-          "name": "Zumwalde, STEVEN",
-          "id": "7917317",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8418,8 +6738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 261,
           "sen": 2926,
-          "name": "Jessurun, Shane",
-          "id": "7917196",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8428,8 +6746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 262,
           "sen": 2927,
-          "name": "Sapper, BRADLEY",
-          "id": "7917219",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8438,8 +6754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 263,
           "sen": 2928,
-          "name": "Thomascarey, JUSTUS",
-          "id": "7917289",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8448,8 +6762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 264,
           "sen": 2956,
-          "name": "Greenwood, STAN",
-          "id": "8018707",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8458,8 +6770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 265,
           "sen": 2957,
-          "name": "Enright, ADAM",
-          "id": "8018708",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8468,8 +6778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 266,
           "sen": 2958,
-          "name": "Griggs, David",
-          "id": "8018774",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8478,8 +6786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 267,
           "sen": 2960,
-          "name": "Saez Mari, DIEGO",
-          "id": "8018876",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8488,8 +6794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 268,
           "sen": 2962,
-          "name": "Tinari, Rob",
-          "id": "8018981",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8498,8 +6802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 269,
           "sen": 2965,
-          "name": "Rosenkrantz, Lidor",
-          "id": "8018786",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8508,8 +6810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 270,
           "sen": 2977,
-          "name": "Harrison, CHRISTOPHER",
-          "id": "8135728",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8518,8 +6818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 271,
           "sen": 2983,
-          "name": "Mahan, Lawrence",
-          "id": "8166939",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8528,8 +6826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 272,
           "sen": 2993,
-          "name": "Ching, Douglas",
-          "id": "8521022",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8538,8 +6834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 273,
           "sen": 2995,
-          "name": "McCarthy, Adam",
-          "id": "8517917",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8548,8 +6842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 274,
           "sen": 2996,
-          "name": "Seibert, Stephen",
-          "id": "8517924",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8558,8 +6850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 275,
           "sen": 3015,
-          "name": "De La Harpe, BRENTON",
-          "id": "8528718",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8568,8 +6858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 276,
           "sen": 3016,
-          "name": "Ballard, JEFF",
-          "id": "8528602",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8578,8 +6866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 277,
           "sen": 3017,
-          "name": "Sparrow, James",
-          "id": "8528734",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8588,8 +6874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 278,
           "sen": 3018,
-          "name": "Rosado, Michael",
-          "id": "8528732",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8598,8 +6882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 279,
           "sen": 3024,
-          "name": "Richards, Chad",
-          "id": "8528945",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8608,8 +6890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 280,
           "sen": 3025,
-          "name": "Hale, BRECK",
-          "id": "8528628",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8618,8 +6898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 281,
           "sen": 3026,
-          "name": "Hollett, Ben",
-          "id": "8528722",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8628,8 +6906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 282,
           "sen": 3027,
-          "name": "Bredin, William",
-          "id": "8529916",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8638,8 +6914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 283,
           "sen": 3028,
-          "name": "Carmichael, KEVIN",
-          "id": "8529919",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8648,8 +6922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 284,
           "sen": 3029,
-          "name": "Atkins, AARON",
-          "id": "8528596",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8658,8 +6930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 285,
           "sen": 3030,
-          "name": "Duclos, LUC",
-          "id": "8528938",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8668,8 +6938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 286,
           "sen": 3050,
-          "name": "Oliver, MICHAEL",
-          "id": "8540460",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8678,8 +6946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 287,
           "sen": 3051,
-          "name": "Walker, Nate",
-          "id": "8540461",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8688,8 +6954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 288,
           "sen": 3082,
-          "name": "Fuccillo, JOHN",
-          "id": "8557914",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8698,8 +6962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 289,
           "sen": 3083,
-          "name": "Draves, LOGAN",
-          "id": "8557793",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8708,8 +6970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 290,
           "sen": 3084,
-          "name": "Tees Leite, PABLO",
-          "id": "8557940",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8718,8 +6978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 291,
           "sen": 3085,
-          "name": "Baskett, RICHARD",
-          "id": "8557751",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8728,8 +6986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 292,
           "sen": 3088,
-          "name": "Dougherty, Joe",
-          "id": "8557767",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8738,8 +6994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 293,
           "sen": 3115,
-          "name": "Ladd, Jason",
-          "id": "8575921",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8748,8 +7002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 294,
           "sen": 3118,
-          "name": "Arena, James",
-          "id": "8580823",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8758,8 +7010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 295,
           "sen": 3119,
-          "name": "Schubert, Michael",
-          "id": "8575967",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8768,8 +7018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 296,
           "sen": 3120,
-          "name": "Marx, Gregory",
-          "id": "8575922",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8778,8 +7026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 297,
           "sen": 3121,
-          "name": "Hering, Bobby",
-          "id": "4714865",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8788,8 +7034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 298,
           "sen": 3124,
-          "name": "Hock, William",
-          "id": "8575915",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8798,8 +7042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 299,
           "sen": 3125,
-          "name": "Plaumann, Mike",
-          "id": "8575933",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8808,8 +7050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 300,
           "sen": 3126,
-          "name": "Clark, Noah",
-          "id": "8575910",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8818,8 +7058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 301,
           "sen": 3182,
-          "name": "Gonzalez Arias, Esteban",
-          "id": "8643748",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8828,8 +7066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 302,
           "sen": 3183,
-          "name": "Trevino Moreno, Juan Tr",
-          "id": "8643768",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8838,8 +7074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 303,
           "sen": 3185,
-          "name": "Holcomb, Keith",
-          "id": "8643752",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8848,8 +7082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 304,
           "sen": 3188,
-          "name": "Madden, Joe",
-          "id": "8643755",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8858,8 +7090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 305,
           "sen": 3199,
-          "name": "Maloney, Michael",
-          "id": "8700948",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8868,8 +7098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 306,
           "sen": 3200,
-          "name": "Christman, Eric",
-          "id": "8700934",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8878,8 +7106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 307,
           "sen": 3225,
-          "name": "Thevabalasingha, Johnny",
-          "id": "8847966",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8888,8 +7114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 308,
           "sen": 3226,
-          "name": "Pittman, Stephen",
-          "id": "8847918",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8898,8 +7122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 309,
           "sen": 3228,
-          "name": "Knab, Jason",
-          "id": "8847895",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8908,8 +7130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 310,
           "sen": 3248,
-          "name": "Beaumont, Raoul",
-          "id": "8936484",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8918,8 +7138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 311,
           "sen": 3252,
-          "name": "Garcia, Miguel",
-          "id": "8936603",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8928,8 +7146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 312,
           "sen": 3253,
-          "name": "Brumbaugh, David",
-          "id": "8936486",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8938,8 +7154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 313,
           "sen": 3255,
-          "name": "Ross, Will",
-          "id": "8936493",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8948,8 +7162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 314,
           "sen": 3256,
-          "name": "Daley, Zach",
-          "id": "8936487",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8958,8 +7170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 315,
           "sen": 3257,
-          "name": "Pryce, Ian",
-          "id": "8936491",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8968,8 +7178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 316,
           "sen": 3258,
-          "name": "Bellomo, John",
-          "id": "8936485",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8978,8 +7186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 317,
           "sen": 3259,
-          "name": "Ortiz Gonzalez, Chris",
-          "id": "8936489",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8988,8 +7194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 318,
           "sen": 3260,
-          "name": "Myers, Tom",
-          "id": "8936633",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -8998,8 +7202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 319,
           "sen": 3261,
-          "name": "Gavakis, Mike",
-          "id": "8936625",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9008,8 +7210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 320,
           "sen": 3262,
-          "name": "Miller, Brandon",
-          "id": "8936635",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9018,8 +7218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 321,
           "sen": 3263,
-          "name": "Goldsmith, GEOFF",
-          "id": "8936626",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9028,8 +7226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 322,
           "sen": 3264,
-          "name": "Fenwick, Dan",
-          "id": "8936622",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9038,8 +7234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 323,
           "sen": 3265,
-          "name": "Dixon, Gerren",
-          "id": "8937811",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9048,8 +7242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 324,
           "sen": 3266,
-          "name": "Firmin, Madison",
-          "id": "8936634",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9058,8 +7250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 325,
           "sen": 3267,
-          "name": "Linhares Junior, Enio",
-          "id": "8945079",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9068,8 +7258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 326,
           "sen": 3268,
-          "name": "Tsuru, Igor",
-          "id": "8945063",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9078,8 +7266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 327,
           "sen": 3269,
-          "name": "Fagan, Brian",
-          "id": "8945048",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9088,8 +7274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 328,
           "sen": 3270,
-          "name": "Williams II, Kirby",
-          "id": "8945064",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9098,8 +7282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 329,
           "sen": 3271,
-          "name": "Morrow, John",
-          "id": "8945061",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9108,8 +7290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 330,
           "sen": 3272,
-          "name": "McCarthy, Tom",
-          "id": "8945055",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9118,8 +7298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 331,
           "sen": 3287,
-          "name": "Kirk, MIKE",
-          "id": "8950152",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9128,8 +7306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 332,
           "sen": 3289,
-          "name": "Grover, LANDON",
-          "id": "8950149",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9138,8 +7314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 333,
           "sen": 3300,
-          "name": "Sierra Hoyos, PAULO",
-          "id": "8955243",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9148,8 +7322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 334,
           "sen": 3302,
-          "name": "Giare, ARJUN",
-          "id": "8955177",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9158,8 +7330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 335,
           "sen": 3306,
-          "name": "Bartonicek, SEAN",
-          "id": "8955175",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9168,8 +7338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 336,
           "sen": 3307,
-          "name": "Rosell IV, SANDY",
-          "id": "8955227",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9178,8 +7346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 337,
           "sen": 3308,
-          "name": "Thulasidas, ABHI",
-          "id": "8955245",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9188,8 +7354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 338,
           "sen": 3309,
-          "name": "Van Hook IV, ASHTON",
-          "id": "8955246",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9198,8 +7362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 339,
           "sen": 3310,
-          "name": "Rowlett, MICHAEL",
-          "id": "8955229",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9208,8 +7370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 340,
           "sen": 3311,
-          "name": "Owens, GAGE",
-          "id": "8955226",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9218,8 +7378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 341,
           "sen": 3312,
-          "name": "Losey, GRANT",
-          "id": "8955220",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9228,8 +7386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 342,
           "sen": 3325,
-          "name": "Richards, BOB",
-          "id": "8968969",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9238,8 +7394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 343,
           "sen": 3328,
-          "name": "Izakson, JOSHUA",
-          "id": "8968957",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9248,8 +7402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 344,
           "sen": 3329,
-          "name": "Nobiling, KEVIN",
-          "id": "8968964",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9258,8 +7410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 345,
           "sen": 3330,
-          "name": "Delgado, MACK",
-          "id": "8968982",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9268,8 +7418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 346,
           "sen": 3331,
-          "name": "Pallav, PREET",
-          "id": "8968967",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9278,8 +7426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 347,
           "sen": 3332,
-          "name": "Teague, JON",
-          "id": "8968981",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9288,8 +7434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 348,
           "sen": 3333,
-          "name": "Montgomery, TATE",
-          "id": "8968963",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9298,8 +7442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 349,
           "sen": 3352,
-          "name": "Morris, WILL",
-          "id": "8986093",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9308,8 +7450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 350,
           "sen": 3353,
-          "name": "Webb, BRITTON",
-          "id": "8986095",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9318,8 +7458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 351,
           "sen": 3354,
-          "name": "Foster, SHELBY",
-          "id": "8986089",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9328,8 +7466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 352,
           "sen": 3355,
-          "name": "Beatty, SPENCER",
-          "id": "8986082",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9338,8 +7474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 353,
           "sen": 3361,
-          "name": "Rivera Cano, EDUARDO",
-          "id": "9003518",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9348,8 +7482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 354,
           "sen": 3362,
-          "name": "Todd, SAM",
-          "id": "9003521",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9358,8 +7490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 355,
           "sen": 3363,
-          "name": "Cleek, ADAM",
-          "id": "9003489",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9368,8 +7498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 356,
           "sen": 3364,
-          "name": "Unks, KEVIN",
-          "id": "9003522",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9378,8 +7506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 357,
           "sen": 3366,
-          "name": "Hartsock, NICK",
-          "id": "9003659",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9388,8 +7514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 358,
           "sen": 3385,
-          "name": "Buchheister, INGO",
-          "id": "9015277",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9398,8 +7522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 359,
           "sen": 3386,
-          "name": "De Souza Henkin, FELIPE",
-          "id": "9015280",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9408,8 +7530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 360,
           "sen": 3387,
-          "name": "Stark, RYAN",
-          "id": "9015283",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9418,8 +7538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 361,
           "sen": 3389,
-          "name": "Daniels, MATT",
-          "id": "9015279",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9428,8 +7546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 362,
           "sen": 3407,
-          "name": "De Almeida Fran, FABIO",
-          "id": "9032496",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9438,8 +7554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 363,
           "sen": 3408,
-          "name": "Bracho, JOE",
-          "id": "9032489",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9448,8 +7562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 364,
           "sen": 3409,
-          "name": "Gause, GREG",
-          "id": "9033657",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9458,8 +7570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 365,
           "sen": 3410,
-          "name": "Beegle, ZACH",
-          "id": "9032487",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9468,8 +7578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 366,
           "sen": 3411,
-          "name": "Mathews, CHRISTOPHER",
-          "id": "9032503",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9478,8 +7586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 367,
           "sen": 3412,
-          "name": "Livingstone, CAMERON",
-          "id": "9032502",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9488,8 +7594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 368,
           "sen": 3413,
-          "name": "Elliott, BRYAN",
-          "id": "9032498",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9498,8 +7602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 369,
           "sen": 3414,
-          "name": "Dong, ADRIANNA",
-          "id": "9032497",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9508,8 +7610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 370,
           "sen": 3431,
-          "name": "Allen, JEFFREY",
-          "id": "9074429",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9518,8 +7618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 371,
           "sen": 3432,
-          "name": "Marshall, PETER",
-          "id": "9074462",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9528,8 +7626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 372,
           "sen": 3433,
-          "name": "Johnston, GARETH",
-          "id": "9074454",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9538,8 +7634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 373,
           "sen": 3434,
-          "name": "Barkley, JOE",
-          "id": "9032484",
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -9554,8 +7648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 2,
-          "name": "Reifert, Todd",
-          "id": "0556553",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9564,8 +7656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 6,
-          "name": "Patrick, RON",
-          "id": "0555684",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9574,8 +7664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 21,
-          "name": "White, Kevin",
-          "id": "0556364",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9584,8 +7672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 27,
-          "name": "Willetts, CRAIG",
-          "id": "0555017",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9594,8 +7680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 33,
-          "name": "Ackerman, DAVID M.",
-          "id": "0556374",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9604,8 +7688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 39,
-          "name": "Hagler Jr., JAMES",
-          "id": "0555058",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9614,8 +7696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 51,
-          "name": "Jauch, ROBERT S.",
-          "id": "0555395",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9624,8 +7704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 63,
-          "name": "Maurette, NICHOLAS J",
-          "id": "0554585",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9634,8 +7712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 73,
-          "name": "Kump, BRIAN C.",
-          "id": "0554484",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9644,8 +7720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 81,
-          "name": "Hasl, ROBERT C.",
-          "id": "0555366",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9654,8 +7728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 86,
-          "name": "Abel, ROBERT",
-          "id": "0554834",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9664,8 +7736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 94,
-          "name": "Winbigler, DAVE B",
-          "id": "0555329",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9674,8 +7744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 100,
-          "name": "Bennett, TIM",
-          "id": "0555009",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9684,8 +7752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 105,
-          "name": "Dixon, DERRICK",
-          "id": "0554572",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9694,8 +7760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 120,
-          "name": "Jensen, JEFF",
-          "id": "0554407",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9704,8 +7768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 126,
-          "name": "Jones Sr., PHILLIP A.",
-          "id": "0554927",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9714,8 +7776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 137,
-          "name": "Flud, JOE",
-          "id": "0555213",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9724,8 +7784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 139,
-          "name": "Martin, J J",
-          "id": "0554344",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9734,8 +7792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 148,
-          "name": "Holmes, ROBERT",
-          "id": "0554933",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9744,8 +7800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 153,
-          "name": "Brickner II, MIKE",
-          "id": "0557175",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9754,8 +7808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 157,
-          "name": "Eakle, DARIN",
-          "id": "0556598",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9764,8 +7816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 170,
-          "name": "Travis, ROBERT",
-          "id": "0557054",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9774,8 +7824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 183,
-          "name": "Kockelman, JEFF",
-          "id": "0557177",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9784,8 +7832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 184,
-          "name": "Patterson, DOUGLAS",
-          "id": "0556613",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9794,8 +7840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 188,
-          "name": "Ries, THOMAS",
-          "id": "0555525",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9804,8 +7848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 194,
-          "name": "Hurley, LAURA",
-          "id": "0555547",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9814,8 +7856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 227,
-          "name": "Griffin, WENDY",
-          "id": "0555255",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9824,8 +7864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 231,
-          "name": "Fink, BRIAN",
-          "id": "0554799",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9834,8 +7872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 233,
-          "name": "Millett, PHIL",
-          "id": "0554963",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9844,8 +7880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 239,
-          "name": "Middleton Jr., DREW",
-          "id": "0554900",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9854,8 +7888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 261,
-          "name": "Barber, DONALD",
-          "id": "0554805",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9864,8 +7896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 263,
-          "name": "Harrison, Brian",
-          "id": "0554541",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9874,8 +7904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 301,
-          "name": "Malone, TODD",
-          "id": "0556927",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9884,8 +7912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 304,
-          "name": "Paulson, MONICA",
-          "id": "0555260",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9894,8 +7920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 309,
-          "name": "Crutchfield Jr., Michae",
-          "id": "0554990",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9904,8 +7928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 311,
-          "name": "Daniels, MICHAEL",
-          "id": "0554842",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9914,8 +7936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 317,
-          "name": "Ruggiero, THOMAS",
-          "id": "0554625",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9924,8 +7944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 322,
-          "name": "Whitestone, JAY",
-          "id": "0554375",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9934,8 +7952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 334,
-          "name": "Trammel, MICHAEL",
-          "id": "0556233",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9944,8 +7960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 336,
-          "name": "Waggener Jr., JIM",
-          "id": "0555997",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9954,8 +7968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 346,
-          "name": "Halsema, TED",
-          "id": "0555453",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9964,8 +7976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 347,
-          "name": "Bentsen, EIVIND",
-          "id": "0555705",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9974,8 +7984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 350,
-          "name": "Hollon, GARY",
-          "id": "0554886",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9984,8 +7992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 391,
-          "name": "Carek, Randy",
-          "id": "0555301",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -9994,8 +8000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 396,
-          "name": "Schellinger, LEO",
-          "id": "0555741",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10004,8 +8008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 400,
-          "name": "McCoy, DANIEL",
-          "id": "0555433",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10014,8 +8016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 404,
-          "name": "Rich, JEFFREY",
-          "id": "0555110",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10024,8 +8024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 416,
-          "name": "Bolcik, Scott",
-          "id": "0554851",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10034,8 +8032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 424,
-          "name": "Downs, JEFF",
-          "id": "0857440",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10044,8 +8040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 425,
-          "name": "Lefan, BRUCE W.",
-          "id": "0867323",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10054,8 +8048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 429,
-          "name": "Scorsone, MARC",
-          "id": "0955758",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10064,8 +8056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 433,
-          "name": "Reilly Jr., BILL",
-          "id": "0972819",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10074,8 +8064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 437,
-          "name": "Bernard, GARY",
-          "id": "0990087",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10084,8 +8072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 442,
-          "name": "Davis, MATT",
-          "id": "0993718",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10094,8 +8080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 445,
-          "name": "Thompson, JON",
-          "id": "1004894",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10104,8 +8088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 447,
-          "name": "Snyder, ROBERT A.",
-          "id": "1012621",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10114,8 +8096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 449,
-          "name": "Moore, TIMOTHY D.",
-          "id": "1012523",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10124,8 +8104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 460,
-          "name": "Loyd, BRETT A.",
-          "id": "1046878",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10134,8 +8112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 462,
-          "name": "Paleka Jr., JOHN T.",
-          "id": "1046893",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10144,8 +8120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 467,
-          "name": "Geoghegan, SEAN C.",
-          "id": "1046827",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10154,8 +8128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 477,
-          "name": "Armagno, JIM",
-          "id": "1069412",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10164,8 +8136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 489,
-          "name": "Grady, ERIC L.",
-          "id": "1077408",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10174,8 +8144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 491,
-          "name": "Winters, LEE J.",
-          "id": "1086583",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10184,8 +8152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 494,
-          "name": "Bonds, STERLING",
-          "id": "1086585",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10194,8 +8160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 501,
-          "name": "Morrow, WILLIAM",
-          "id": "1101997",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10204,8 +8168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 531,
-          "name": "Marty, DAN",
-          "id": "1181064",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10214,8 +8176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 535,
-          "name": "Norris, BRIAN",
-          "id": "1199143",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10224,8 +8184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 536,
-          "name": "Firestone, MATTHEW G.",
-          "id": "1199181",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10234,8 +8192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 555,
-          "name": "Lau, KIPP",
-          "id": "1213743",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10244,8 +8200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 556,
-          "name": "Powell, DAVID L.",
-          "id": "1213750",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10254,8 +8208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 559,
-          "name": "Pearce, STANLEY E.",
-          "id": "1219572",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10264,8 +8216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 561,
-          "name": "Mizzell, BRYAN",
-          "id": "1219551",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10274,8 +8224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 565,
-          "name": "Girdley, KEVIN",
-          "id": "1219559",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10284,8 +8232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 567,
-          "name": "Goebel, TODD A.",
-          "id": "1225371",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10294,8 +8240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 574,
-          "name": "Clark, BRADLEY A.",
-          "id": "1225404",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10304,8 +8248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 575,
-          "name": "Schubargo, JONATHAN",
-          "id": "1225358",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10314,8 +8256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 576,
-          "name": "Osearo, CHUCK T.",
-          "id": "1231606",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10324,8 +8264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 583,
-          "name": "Hafell, LARS A.",
-          "id": "1237339",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10334,8 +8272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 587,
-          "name": "Freedlund II, ROBERT A.",
-          "id": "1237352",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10344,8 +8280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 597,
-          "name": "Hylander III, ROB",
-          "id": "1251412",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10354,8 +8288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 612,
-          "name": "Coulter, DAN",
-          "id": "1274236",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10364,8 +8296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 615,
-          "name": "Radasch, MICHAEL D.",
-          "id": "1274320",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10374,8 +8304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 631,
-          "name": "Hayes, STEVEN H.",
-          "id": "1286677",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10384,8 +8312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 634,
-          "name": "Cochran, PAT",
-          "id": "1286847",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10394,8 +8320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 638,
-          "name": "Barber, SONIA J.",
-          "id": "1286714",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10404,8 +8328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 644,
-          "name": "Hlavacek, JEFFERY J",
-          "id": "1301286",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10414,8 +8336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 645,
-          "name": "Howe Jr., PAUL E.",
-          "id": "1301377",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10424,8 +8344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 651,
-          "name": "Fuller, Paul A.",
-          "id": "1314657",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10434,8 +8352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 658,
-          "name": "Becker, JOHN",
-          "id": "1739090",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10444,8 +8360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 659,
-          "name": "Houfek, MIKE",
-          "id": "1739075",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10454,8 +8368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 701,
-          "name": "Korff, CRYSTAL",
-          "id": "0588179",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10464,8 +8376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 704,
-          "name": "Hicks, ROBIN",
-          "id": "1797629",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10474,8 +8384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 738,
-          "name": "Dillman, TIMOTHY",
-          "id": "1805974",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10484,8 +8392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 760,
-          "name": "Miller, DEREK",
-          "id": "1812095",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10494,8 +8400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 770,
-          "name": "White IV, THOMAS",
-          "id": "1819817",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10504,8 +8408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 777,
-          "name": "Pease, ROSS",
-          "id": "1819872",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10514,8 +8416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 785,
-          "name": "Carden, ED",
-          "id": "1830783",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10524,8 +8424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 788,
-          "name": "Buchanan, BRUCE",
-          "id": "1829753",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10534,8 +8432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 790,
-          "name": "Sobotka Jr., BOB",
-          "id": "1829754",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10544,8 +8440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 793,
-          "name": "Watson, JONATHAN",
-          "id": "1829819",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10554,8 +8448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 795,
-          "name": "Shackleton, TED",
-          "id": "1829679",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10564,8 +8456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 798,
-          "name": "Lindsey, WILLIAM",
-          "id": "1834770",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10574,8 +8464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 801,
-          "name": "Frederick, IAN",
-          "id": "1834783",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10584,8 +8472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 804,
-          "name": "Valenzuela, APRIL",
-          "id": "1834784",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10594,8 +8480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 820,
-          "name": "Bolen, DAVID",
-          "id": "1844101",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10604,8 +8488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 827,
-          "name": "Vander Woude, ROBERT",
-          "id": "1843985",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10614,8 +8496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 828,
-          "name": "Randolph, MARK",
-          "id": "1853731",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10624,8 +8504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 840,
-          "name": "Shortridge Jr., DAVID",
-          "id": "1857535",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10634,8 +8512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 852,
-          "name": "Kronoveter, KEVIN",
-          "id": "1862081",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10644,8 +8520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 886,
-          "name": "Marks, GREGORY",
-          "id": "1966316",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10654,8 +8528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 901,
-          "name": "Lynch, DENNIS",
-          "id": "2016508",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10664,8 +8536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 913,
-          "name": "Tetrick, MATTHEW",
-          "id": "2031063",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10674,8 +8544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 926,
-          "name": "Radcliffe, JOHN",
-          "id": "2037165",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10684,8 +8552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 933,
-          "name": "Neely, CHRIS",
-          "id": "2037185",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10694,8 +8560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 938,
-          "name": "Hopkins, GREGORY",
-          "id": "2051666",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10704,8 +8568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 950,
-          "name": "Heichel, TIMOTHY",
-          "id": "2057205",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10714,8 +8576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 962,
-          "name": "Flynn, DAVID",
-          "id": "2068611",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10724,8 +8584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 967,
-          "name": "Parham, JOE",
-          "id": "2068784",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10734,8 +8592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 991,
-          "name": "Adams, RYAN",
-          "id": "2090589",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10744,8 +8600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 993,
-          "name": "Case, GREG",
-          "id": "2108343",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10754,8 +8608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 997,
-          "name": "Moody, BILLY",
-          "id": "2108392",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10764,8 +8616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 998,
-          "name": "Price, SCOTT",
-          "id": "2108401",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10774,8 +8624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 1000,
-          "name": "Carrara, TONY",
-          "id": "2108388",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10784,8 +8632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 1021,
-          "name": "Shoemaker II, JAMES",
-          "id": "2176578",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10794,8 +8640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 1068,
-          "name": "Gawel, BLAKE",
-          "id": "3172090",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10804,8 +8648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 1092,
-          "name": "Avigni, Andrea",
-          "id": "3183027",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10814,8 +8656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 1096,
-          "name": "Walk, GREG",
-          "id": "3188821",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10824,8 +8664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 1104,
-          "name": "Thomas, KEN",
-          "id": "3188831",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10834,8 +8672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 1108,
-          "name": "Schmitt, ERIC",
-          "id": "3188847",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10844,8 +8680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 1113,
-          "name": "Burkhart, KYLE",
-          "id": "3196711",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10854,8 +8688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 1129,
-          "name": "Donofrio, ANTHONY",
-          "id": "3202902",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10864,8 +8696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 1131,
-          "name": "McGrady, JAMES",
-          "id": "3202926",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10874,8 +8704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 1138,
-          "name": "Kahler, ANTHONY",
-          "id": "3202946",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10884,8 +8712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 1140,
-          "name": "Bergen, ROB",
-          "id": "3202910",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10894,8 +8720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 1150,
-          "name": "Thigpen II, LAMAR",
-          "id": "3213918",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10904,8 +8728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 1151,
-          "name": "Renz, SCOTT",
-          "id": "3213908",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10914,8 +8736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 1165,
-          "name": "Hann, JAMES",
-          "id": "3225445",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10924,8 +8744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 1184,
-          "name": "Bukaty, GORDON",
-          "id": "3250721",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10934,8 +8752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 1188,
-          "name": "Hill, JOHN",
-          "id": "3252089",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10944,8 +8760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 1191,
-          "name": "Blelloch, DAVID",
-          "id": "3259711",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10954,8 +8768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 1194,
-          "name": "Groke, JEFF",
-          "id": "3259780",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10964,8 +8776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 1198,
-          "name": "Bosiljevac, MICHAEL",
-          "id": "3259714",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10974,8 +8784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 1203,
-          "name": "Cudar, JOHN",
-          "id": "3259718",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10984,8 +8792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 1205,
-          "name": "McCabe, PATRICK",
-          "id": "3276369",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -10994,8 +8800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 1211,
-          "name": "Reynolds Jr., DAVE",
-          "id": "4227214",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11004,8 +8808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 1212,
-          "name": "Armstrong, BORIS",
-          "id": "4227212",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11014,8 +8816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 1213,
-          "name": "Wiesinger, JON",
-          "id": "4227280",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11024,8 +8824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 1214,
-          "name": "Wilkerson III, JAY",
-          "id": "4227215",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11034,8 +8832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 1215,
-          "name": "Evans, RANDY",
-          "id": "4227217",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11044,8 +8840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 1216,
-          "name": "Plaisier, MATT",
-          "id": "4227213",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11054,8 +8848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 1217,
-          "name": "Oberg, NATE",
-          "id": "4227211",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11064,8 +8856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 1220,
-          "name": "Cesarz, DENNY",
-          "id": "4227218",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11074,8 +8864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 1221,
-          "name": "Wlotko, AJ",
-          "id": "4227276",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11084,8 +8872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 1225,
-          "name": "Muse Sr, GERRICK",
-          "id": "4238964",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11094,8 +8880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 1231,
-          "name": "Simms, KEITH",
-          "id": "4239006",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11104,8 +8888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 1236,
-          "name": "Koetter, DUSTIN",
-          "id": "1790277",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11114,8 +8896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 1237,
-          "name": "Collins II, James",
-          "id": "4250970",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11124,8 +8904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 1249,
-          "name": "Lucas, PAUL",
-          "id": "1790652",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11134,8 +8912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 1274,
-          "name": "Harding Jr, RON",
-          "id": "4443864",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11144,8 +8920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 1279,
-          "name": "Sallee, MARC",
-          "id": "4443870",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11154,8 +8928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 1304,
-          "name": "Jackson, CHAD",
-          "id": "4476178",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11164,8 +8936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 1305,
-          "name": "Cantu, JOHN",
-          "id": "4476180",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11174,8 +8944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 1314,
-          "name": "Stansberry, JOHN",
-          "id": "0518049",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11184,8 +8952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 1316,
-          "name": "Pena, JAMES",
-          "id": "4491767",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11194,8 +8960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 1317,
-          "name": "Gottwald, CHRISTOPHER",
-          "id": "4478671",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11204,8 +8968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 1320,
-          "name": "Genson, MARCUS",
-          "id": "4491768",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11214,8 +8976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 1326,
-          "name": "Bownas, BEN",
-          "id": "4486749",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11224,8 +8984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 1343,
-          "name": "Riggs, BEN",
-          "id": "4741005",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11234,8 +8992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 1344,
-          "name": "Mentzer, JORDAN",
-          "id": "4742902",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11244,8 +9000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 1346,
-          "name": "Farc, SORIN",
-          "id": "4750349",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11254,8 +9008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 1398,
-          "name": "Taylor, TIMOTHY",
-          "id": "5013774",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11264,8 +9016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 1400,
-          "name": "Miles, NICHOLAS",
-          "id": "5028951",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11274,8 +9024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 1402,
-          "name": "Bigwood, DAVID",
-          "id": "4899615",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11284,8 +9032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 1403,
-          "name": "Jackson, MICHAEL",
-          "id": "5034703",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11294,8 +9040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 1413,
-          "name": "Duhon, DAMIAN",
-          "id": "5045099",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11304,8 +9048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 1445,
-          "name": "Bernard, SHON",
-          "id": "5034695",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11314,8 +9056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 1446,
-          "name": "Biggers, BRAD",
-          "id": "5034694",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11324,8 +9064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 1458,
-          "name": "Romano, JOSEPH",
-          "id": "5061184",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11334,8 +9072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 1459,
-          "name": "Cross, CAREY",
-          "id": "5061181",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11344,8 +9080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 1463,
-          "name": "Walsh, MATTHEW",
-          "id": "5034699",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11354,8 +9088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 1464,
-          "name": "Mills, CHRISTOPHER",
-          "id": "5061166",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11364,8 +9096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 1472,
-          "name": "Coon, JP",
-          "id": "5061170",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11374,8 +9104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 1484,
-          "name": "Boyd, JEREMY",
-          "id": "5068328",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11384,8 +9112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 1489,
-          "name": "Schiller, MARK",
-          "id": "5068327",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11394,8 +9120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 1493,
-          "name": "Jones, BRANDON",
-          "id": "5063265",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11404,8 +9128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 1504,
-          "name": "Raney, SCOTT",
-          "id": "0617184",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11414,8 +9136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 1505,
-          "name": "Franklin, STEPHEN",
-          "id": "5070753",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11424,8 +9144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 1506,
-          "name": "Guthman, Jason",
-          "id": "5070439",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11434,8 +9152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 1510,
-          "name": "Waithe, VON",
-          "id": "5070449",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11444,8 +9160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 1512,
-          "name": "Lawson, RYAN",
-          "id": "5070448",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11454,8 +9168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 1542,
-          "name": "Mc Cluskey, PAUL",
-          "id": "5076543",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11464,8 +9176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 1543,
-          "name": "Cohen, JEFFREY",
-          "id": "5094168",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11474,8 +9184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 1546,
-          "name": "Candido, Robert",
-          "id": "5084812",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11484,8 +9192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 1549,
-          "name": "Delaney, LUKAS",
-          "id": "5094814",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11494,8 +9200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 1556,
-          "name": "Lynch, BILL",
-          "id": "5107126",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11504,8 +9208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 1559,
-          "name": "Helget, LOWELL",
-          "id": "5094810",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11514,8 +9216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 1561,
-          "name": "Hicks, JASON",
-          "id": "5094165",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11524,8 +9224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 1562,
-          "name": "Swan, JARED",
-          "id": "5094343",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11534,8 +9232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 1569,
-          "name": "Ferry, TOM",
-          "id": "5114712",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11544,8 +9240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 1572,
-          "name": "Consalo, RON",
-          "id": "0708197",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11554,8 +9248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 1578,
-          "name": "Haan, GEOFFREY",
-          "id": "5108360",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11564,8 +9256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 1594,
-          "name": "Shuler III, BUCK",
-          "id": "5137078",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11574,8 +9264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 1600,
-          "name": "Jones, JEREMY",
-          "id": "5128602",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11584,8 +9272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 1601,
-          "name": "Huesman, CHAD",
-          "id": "5112761",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11594,8 +9280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 1604,
-          "name": "Smith, MATTHEW",
-          "id": "5128598",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11604,8 +9288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 1606,
-          "name": "Kimmell, ROBERT",
-          "id": "5133428",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11614,8 +9296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 1607,
-          "name": "Banet, DARYL",
-          "id": "5131402",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11624,8 +9304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 1632,
-          "name": "Bains, MATT",
-          "id": "5157478",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11634,8 +9312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 1637,
-          "name": "Simerman II, BEN",
-          "id": "5174704",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11644,8 +9320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 1639,
-          "name": "Walters, JAMIE",
-          "id": "5164670",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11654,8 +9328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 1640,
-          "name": "Kovach, DOUG",
-          "id": "5162653",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11664,8 +9336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 1673,
-          "name": "Bogenreif, MATTHEW",
-          "id": "5279730",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11674,8 +9344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 1676,
-          "name": "O'Brien, GAVIN",
-          "id": "5356669",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11684,8 +9352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 1677,
-          "name": "Stephens, PHILIP",
-          "id": "5279722",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11694,8 +9360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 1682,
-          "name": "Larkin, James",
-          "id": "5413016",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11704,8 +9368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 1690,
-          "name": "Gonzalez Martin, Jovani",
-          "id": "5413011",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11714,8 +9376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 1695,
-          "name": "Gettelfinger, DOUG",
-          "id": "5473802",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11724,8 +9384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 1710,
-          "name": "Campione, JAKE",
-          "id": "5473809",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11734,8 +9392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 1714,
-          "name": "Donner, NICHOLAS",
-          "id": "5473801",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11744,8 +9400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 1717,
-          "name": "Wyler, Tim",
-          "id": "5484472",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11754,8 +9408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 1724,
-          "name": "Turner, BRAD",
-          "id": "5474033",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11764,8 +9416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 1726,
-          "name": "Lucas, John",
-          "id": "5473861",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11774,8 +9424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 1730,
-          "name": "Jones, DAVEY",
-          "id": "5473855",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11784,8 +9432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 1734,
-          "name": "Hickson, PETER",
-          "id": "5481740",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11794,8 +9440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 1738,
-          "name": "Oney, RICK",
-          "id": "5498824",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11804,8 +9448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 1739,
-          "name": "Monahan, MIKE",
-          "id": "5479284",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11814,8 +9456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 1786,
-          "name": "Bychowski, SCOTT",
-          "id": "5540610",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11824,8 +9464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 1842,
-          "name": "Stanko, STEFAN",
-          "id": "5593847",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11834,8 +9472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 1847,
-          "name": "Olson, ERIC",
-          "id": "5600854",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11844,8 +9480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 1848,
-          "name": "Hinkle, MATTHEW",
-          "id": "5490009",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11854,8 +9488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 1876,
-          "name": "Martinez, MIGUEL",
-          "id": "5692251",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11864,8 +9496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 1877,
-          "name": "Macko, David",
-          "id": "5692257",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11874,8 +9504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 1880,
-          "name": "Corrales, GABRIEL",
-          "id": "5887412",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11884,8 +9512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 1882,
-          "name": "Becker Jr., SKIP",
-          "id": "5864454",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11894,8 +9520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 1886,
-          "name": "Simpkins, MATT",
-          "id": "5692256",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11904,8 +9528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 1893,
-          "name": "Stahlschmidt, Timothy",
-          "id": "5743039",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11914,8 +9536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 1895,
-          "name": "Baron, Ian",
-          "id": "0690460",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11924,8 +9544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 1912,
-          "name": "Korell, Jason",
-          "id": "5741455",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11934,8 +9552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 1915,
-          "name": "Grass, CRAIG",
-          "id": "5741453",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11944,8 +9560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 1919,
-          "name": "St-Amour, BRUNO",
-          "id": "5915604",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11954,8 +9568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 1921,
-          "name": "Whittemore, Jon",
-          "id": "5918464",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11964,8 +9576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 1922,
-          "name": "Jensen, Fran",
-          "id": "5921000",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -11976,8 +9586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 300,
-          "name": "Hillman, CHUCK",
-          "id": "0555669",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -11986,8 +9594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 470,
-          "name": "Ratliff, JOHN W.",
-          "id": "1055341",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -11996,8 +9602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 572,
-          "name": "Velander, DOUG",
-          "id": "1225399",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12006,8 +9610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 695,
-          "name": "Foley Jr., LOU",
-          "id": "1793481",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12016,8 +9618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 844,
-          "name": "Trotta, David",
-          "id": "1857559",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12026,8 +9626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 1141,
-          "name": "Kosko, NICOLAS",
-          "id": "3202918",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12036,8 +9634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 1195,
-          "name": "Grayson, THOMAS",
-          "id": "3262605",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12046,8 +9642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 1202,
-          "name": "Holladay, AARON",
-          "id": "3262869",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12056,8 +9650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 1244,
-          "name": "Palumbo, JOHN",
-          "id": "4251113",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12066,8 +9658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 1303,
-          "name": "Von Wuthenau, JAN",
-          "id": "4476172",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12076,8 +9666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 1416,
-          "name": "Needham III, LARRY",
-          "id": "5034702",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12086,8 +9674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 1461,
-          "name": "Weedman, AARON",
-          "id": "5063960",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12096,8 +9682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1517,
-          "name": "Mc Manus, BRIAN",
-          "id": "5074174",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12106,8 +9690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1548,
-          "name": "Bailey, CLAYTON",
-          "id": "5076541",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12116,8 +9698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1575,
-          "name": "Vonah, BOB",
-          "id": "5113746",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12126,8 +9706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1629,
-          "name": "Zaccarelli, TONY",
-          "id": "5153878",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12136,8 +9714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1692,
-          "name": "Fingerson, JAKE",
-          "id": "5473895",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12146,8 +9722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1698,
-          "name": "Perry, TODD",
-          "id": "5473796",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12156,8 +9730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1718,
-          "name": "Menendez, RIC",
-          "id": "5473858",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12166,8 +9738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1720,
-          "name": "Van Houten, BRYAN",
-          "id": "5473854",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12176,8 +9746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1838,
-          "name": "Aulner, BRYAN",
-          "id": "5593849",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12186,8 +9754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1855,
-          "name": "Williams, SEAN",
-          "id": "5691096",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12196,8 +9762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1871,
-          "name": "Landis, TODD",
-          "id": "5822565",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12206,8 +9770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1883,
-          "name": "Mickelson, KENT",
-          "id": "5739727",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12216,8 +9778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1908,
-          "name": "Vojta, TODD",
-          "id": "5914349",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12226,8 +9786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1930,
-          "name": "Crow, DAN",
-          "id": "5922422",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12236,8 +9794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1982,
-          "name": "Zapko, RYAN",
-          "id": "5931693",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12246,8 +9802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 2020,
-          "name": "Clemens III, ROB",
-          "id": "5936132",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12256,8 +9810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 2021,
-          "name": "Boyer, JON",
-          "id": "5970953",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12266,8 +9818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 2022,
-          "name": "Young, CHRISTOPHER",
-          "id": "3209202",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12276,8 +9826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 2049,
-          "name": "Roessner, SHAUN",
-          "id": "5987792",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12286,8 +9834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 2050,
-          "name": "Brown, BASSAN",
-          "id": "5960324",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12296,8 +9842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 2051,
-          "name": "Hayes, JAMES",
-          "id": "5932010",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12306,8 +9850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 2052,
-          "name": "Erwin, MATT",
-          "id": "5985648",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12316,8 +9858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 2064,
-          "name": "Nocera, DJ",
-          "id": "6014940",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12326,8 +9866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 2108,
-          "name": "Collins, NATHAN",
-          "id": "6295619",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12336,8 +9874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 2113,
-          "name": "Bartels, Lance",
-          "id": "6295625",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12346,8 +9882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 2115,
-          "name": "Glunt, JEREMY",
-          "id": "6274623",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12356,8 +9890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 2118,
-          "name": "Woodrow, Scott",
-          "id": "6297386",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12366,8 +9898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 2152,
-          "name": "Cooper, DANIEL",
-          "id": "6355546",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12376,8 +9906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 2154,
-          "name": "Taul, Juston",
-          "id": "1280388",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12386,8 +9914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 2155,
-          "name": "Varwig, DALLAS",
-          "id": "6355375",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12396,8 +9922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 2157,
-          "name": "Galimski, PAWEL",
-          "id": "6357731",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12406,8 +9930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 2158,
-          "name": "Toews, SPENCER",
-          "id": "6355300",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12416,8 +9938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 2161,
-          "name": "Lamaster, BRIAN",
-          "id": "6359775",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12426,8 +9946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 2167,
-          "name": "Campbell, STEVEN",
-          "id": "6362331",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12436,8 +9954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 2187,
-          "name": "Templeman II, CHIP",
-          "id": "6384310",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12446,8 +9962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 2192,
-          "name": "Hawes, SIDNEY",
-          "id": "6384219",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12456,8 +9970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 2197,
-          "name": "Shanor, AARON",
-          "id": "6384997",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12466,8 +9978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 2201,
-          "name": "Braden, NICHOLAS",
-          "id": "6384996",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12476,8 +9986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 2202,
-          "name": "Syhre, NICHOLAS",
-          "id": "6384441",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12486,8 +9994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 2218,
-          "name": "Bingham, Michael",
-          "id": "6425571",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12496,8 +10002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 2225,
-          "name": "Watson, RACHAEL",
-          "id": "6463725",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12506,8 +10010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 2233,
-          "name": "Martin, JASON",
-          "id": "6474992",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12516,8 +10018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 2236,
-          "name": "Thornton, RYAN",
-          "id": "6472631",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12526,8 +10026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 2237,
-          "name": "Harrington, JUSTIN",
-          "id": "6473112",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12536,8 +10034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 2242,
-          "name": "Ray II, GARY",
-          "id": "6478994",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12546,8 +10042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 2247,
-          "name": "Ebner, MICHAEL",
-          "id": "6485300",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12556,8 +10050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 2249,
-          "name": "Till, PAUL",
-          "id": "6484889",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12566,8 +10058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 2259,
-          "name": "Chapman, CHAPPY",
-          "id": "6500280",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12576,8 +10066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 2288,
-          "name": "Cotter, KENNETH",
-          "id": "7016942",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12586,8 +10074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 2289,
-          "name": "Grady, LYNN",
-          "id": "7017814",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12596,8 +10082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 2291,
-          "name": "Lowe, Scott",
-          "id": "7110789",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12606,8 +10090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 2324,
-          "name": "Drysdale, RYAN",
-          "id": "7273362",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12616,8 +10098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 2326,
-          "name": "Shuler, ZACHARY",
-          "id": "7273350",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12626,8 +10106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 2328,
-          "name": "Gurtz, ZACHARY",
-          "id": "7273363",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12636,8 +10114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 2332,
-          "name": "Metcalf, Michael",
-          "id": "7276510",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12646,8 +10122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 2344,
-          "name": "Rutgers IV, NICHOLAS",
-          "id": "7276863",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12656,8 +10130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 2345,
-          "name": "Douglas, MATTHEW",
-          "id": "7276864",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12666,8 +10138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 2346,
-          "name": "Nail, BEN",
-          "id": "7276987",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12676,8 +10146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 2348,
-          "name": "Sloat, WESLEY",
-          "id": "7276861",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12686,8 +10154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 2349,
-          "name": "Keeling, BYRON",
-          "id": "7276860",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12696,8 +10162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 2374,
-          "name": "Cahill, CHRIS",
-          "id": "7281662",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12706,8 +10170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 2379,
-          "name": "Nudi, RYAN",
-          "id": "7164315",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12716,8 +10178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 2382,
-          "name": "Burley, Ryan",
-          "id": "7282021",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12726,8 +10186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 2383,
-          "name": "Esposito, DEAN",
-          "id": "7282036",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12736,8 +10194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 2418,
-          "name": "Denikiewicz, PATRYK",
-          "id": "7304398",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12746,8 +10202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 2428,
-          "name": "Teeter, KEVIN",
-          "id": "7305629",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12756,8 +10210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 2430,
-          "name": "Lynch, LANCE",
-          "id": "7305642",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12766,8 +10218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 2431,
-          "name": "Egart, AUSTIN",
-          "id": "7305638",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12776,8 +10226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 2458,
-          "name": "Fearneyhough, DANE",
-          "id": "7332454",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12786,8 +10234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 2478,
-          "name": "Ellenbrand, JONATHAN",
-          "id": "1306605",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12796,8 +10242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 2480,
-          "name": "Gordon, DAREN",
-          "id": "7355491",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12806,8 +10250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 2481,
-          "name": "Smith, ELLIOTT",
-          "id": "1985065",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12816,8 +10258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 2482,
-          "name": "Bell, TIMOTHY",
-          "id": "7355587",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12826,8 +10266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 2483,
-          "name": "Nelson, SHAWN",
-          "id": "7355492",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12836,8 +10274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 2484,
-          "name": "Munoz, GABRIEL",
-          "id": "7355588",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12846,8 +10282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 2493,
-          "name": "Hart, Donald",
-          "id": "7381950",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12856,8 +10290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 2502,
-          "name": "Masters, COLLIN",
-          "id": "7384009",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12866,8 +10298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2503,
-          "name": "Generous, ANTHONY",
-          "id": "7383957",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12876,8 +10306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2506,
-          "name": "Albert Jr., ANDREW",
-          "id": "7383958",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12886,8 +10314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2507,
-          "name": "Desantis, JOSEPH",
-          "id": "7383989",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12896,8 +10322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 2508,
-          "name": "Alley, MICHAEL",
-          "id": "7383955",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12906,8 +10330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 2518,
-          "name": "Rast, ANDREW",
-          "id": "7406319",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12916,8 +10338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 2529,
-          "name": "Anderson, ROBERT",
-          "id": "7409529",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12926,8 +10346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 2532,
-          "name": "Dobson, NICHOLAS",
-          "id": "7409555",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12936,8 +10354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 2535,
-          "name": "Price, MILES",
-          "id": "7409604",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12946,8 +10362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 2553,
-          "name": "Ng, DANIEL",
-          "id": "7434201",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12956,8 +10370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 2595,
-          "name": "Paradis IV, AL",
-          "id": "7718331",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12966,8 +10378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 2611,
-          "name": "Karrs, Nathanael",
-          "id": "7718544",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12976,8 +10386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 2613,
-          "name": "Bordenave, CHRISTOPHER",
-          "id": "7718473",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12986,8 +10394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 2614,
-          "name": "Dellinger Jr., DOUGLAS",
-          "id": "7718523",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -12996,8 +10402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 2615,
-          "name": "Kinder, JARRETT",
-          "id": "7718517",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13006,8 +10410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 2637,
-          "name": "Fessler, MICHAEL",
-          "id": "7724679",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13016,8 +10418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 2638,
-          "name": "Rizzo, JOSEPH",
-          "id": "7724732",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13026,8 +10426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 2639,
-          "name": "Pavlischek, Joshua",
-          "id": "7724712",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13036,8 +10434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 2641,
-          "name": "Kocyigit, ALPER",
-          "id": "7724680",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13046,8 +10442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 2642,
-          "name": "Anchondo, BAILEY",
-          "id": "4816962",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13056,8 +10450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 2669,
-          "name": "Johnson, LUKE",
-          "id": "7736058",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13066,8 +10458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 2670,
-          "name": "Helm, SKYLOR",
-          "id": "7735904",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13076,8 +10466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 2671,
-          "name": "Haskins, SAMMY",
-          "id": "7735905",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13086,8 +10474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 2672,
-          "name": "Cox, KENDALL",
-          "id": "3966490",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13096,8 +10482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 2695,
-          "name": "Unruh, DAVID",
-          "id": "7753407",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13106,8 +10490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 2707,
-          "name": "Rauenzahn, BRETT",
-          "id": "7753237",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13116,8 +10498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 2714,
-          "name": "McGreal, Craig",
-          "id": "7753283",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13126,8 +10506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 2737,
-          "name": "Lapsley, ROB",
-          "id": "7773670",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13136,8 +10514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 2749,
-          "name": "Salmon, Jesse",
-          "id": "7773865",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13146,8 +10522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 2750,
-          "name": "Rice, MATTHEW",
-          "id": "7773814",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13156,8 +10530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 2773,
-          "name": "Michael, MARK",
-          "id": "7796042",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13166,8 +10538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 2789,
-          "name": "McCleskey, ANDREW",
-          "id": "7796040",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13176,8 +10546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 2792,
-          "name": "Nygaard, CRAIG",
-          "id": "7796159",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13186,8 +10554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 2793,
-          "name": "Zenk, CHRISTOPHER",
-          "id": "7796254",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13196,8 +10562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 2794,
-          "name": "Dunleavy, BRIAN",
-          "id": "7796154",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13206,8 +10570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 2795,
-          "name": "Hohnstein, KEVIN",
-          "id": "7796158",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13216,8 +10578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 2796,
-          "name": "Peck, JONATHAN",
-          "id": "7796155",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13226,8 +10586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 2825,
-          "name": "Woody, ABRAM",
-          "id": "7828265",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13236,8 +10594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 2829,
-          "name": "O'Neal, Jonathan",
-          "id": "7827332",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13246,8 +10602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 2830,
-          "name": "Langferman, MATT",
-          "id": "7826771",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13256,8 +10610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 2832,
-          "name": "Russell, JAMES",
-          "id": "7827281",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13266,8 +10618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 2833,
-          "name": "Stoddard, MICAH",
-          "id": "7826769",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13276,8 +10626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 2834,
-          "name": "Gillette, KYLE",
-          "id": "7826682",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13286,8 +10634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 2835,
-          "name": "Warnke, KEVIN",
-          "id": "7827333",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13296,8 +10642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 2846,
-          "name": "Holland, Tyler",
-          "id": "7845254",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13306,8 +10650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 2866,
-          "name": "Villarroel Jr., EDWIN",
-          "id": "7847247",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13316,8 +10658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 2867,
-          "name": "Schwer Jr, Gary",
-          "id": "7847202",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13326,8 +10666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 2868,
-          "name": "Lichtenfeld, ALEX",
-          "id": "7847060",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13336,8 +10674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 2870,
-          "name": "Harberg, TOM",
-          "id": "7847248",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13346,8 +10682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 2871,
-          "name": "Sapcoe, RYAN",
-          "id": "7847198",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13356,8 +10690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 2891,
-          "name": "Landwer, ANDREW",
-          "id": "7875891",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13366,8 +10698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 2894,
-          "name": "Durand, RYAN",
-          "id": "7875893",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13376,8 +10706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 2902,
-          "name": "Noble, DAVID",
-          "id": "7875892",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13386,8 +10714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 2905,
-          "name": "Murray, RICHARD",
-          "id": "7875888",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13396,8 +10722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 2907,
-          "name": "Aultman, ALEXANDER",
-          "id": "3829620",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13406,8 +10730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 2908,
-          "name": "Lurie, ADAM",
-          "id": "7875894",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13416,8 +10738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 2909,
-          "name": "Soodoo, SALIH",
-          "id": "7875999",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13426,8 +10746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 2924,
-          "name": "McGrath, LUKE",
-          "id": "7917192",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13436,8 +10754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 2930,
-          "name": "Loyd, JONATHAN",
-          "id": "7917179",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13446,8 +10762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 2943,
-          "name": "Walker, GINNY",
-          "id": "7920172",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13456,8 +10770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 2944,
-          "name": "Crosby, KYLE",
-          "id": "7919997",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13466,8 +10778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 2946,
-          "name": "Ruthrauff, DREW",
-          "id": "1948579",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13476,8 +10786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 2948,
-          "name": "Martel, JONATHAN",
-          "id": "7920061",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13486,8 +10794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 2952,
-          "name": "Epperly, JASON",
-          "id": "7919843",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13496,8 +10802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 2953,
-          "name": "Godbey, JUSTIN",
-          "id": "3422390",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13506,8 +10810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 2954,
-          "name": "Huth, KAYLEIGH",
-          "id": "4879946",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13516,8 +10818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 2955,
-          "name": "Trayer, TRISTON",
-          "id": "5540616",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13526,8 +10826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 2967,
-          "name": "Hall, RUSS",
-          "id": "8026107",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13536,8 +10834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 2968,
-          "name": "Pruden, JAMES",
-          "id": "8026052",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13546,8 +10842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 2969,
-          "name": "Bain, NICOLE",
-          "id": "8029061",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13556,8 +10850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 2972,
-          "name": "Buckman, JACOB",
-          "id": "8130840",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13566,8 +10858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 2973,
-          "name": "Parsram, TONY",
-          "id": "8130849",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13576,8 +10866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 2978,
-          "name": "Pelley, SAMUEL",
-          "id": "8135680",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13586,8 +10874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 2979,
-          "name": "Robbins, DREW",
-          "id": "8135583",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13596,8 +10882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 2980,
-          "name": "Mills, DEREK",
-          "id": "8135584",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13606,8 +10890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 2984,
-          "name": "Bevis, NATHAN",
-          "id": "1587007",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13616,8 +10898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 2988,
-          "name": "Na, ANDREW",
-          "id": "8166941",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13626,8 +10906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 3003,
-          "name": "Martin IV, ROY",
-          "id": "8517935",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13636,8 +10914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 3008,
-          "name": "Radler, BRIAN",
-          "id": "8518138",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13646,8 +10922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 3009,
-          "name": "Falcone, GAETANO",
-          "id": "8517932",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13656,8 +10930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 3010,
-          "name": "Hensler, CHRISTOPHER",
-          "id": "8517930",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13666,8 +10938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 3011,
-          "name": "Von Husen, ERIK",
-          "id": "8517931",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13676,8 +10946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 3012,
-          "name": "Wyatt, PAUL",
-          "id": "8517934",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13686,8 +10954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 3013,
-          "name": "Lochner, MIKE",
-          "id": "8517923",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13696,8 +10962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 3014,
-          "name": "Alston, BENNETT",
-          "id": "8516891",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13706,8 +10970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 3039,
-          "name": "Missi, ERIC",
-          "id": "8528748",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13716,8 +10978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 3042,
-          "name": "Applegate, CHAD",
-          "id": "8528959",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13726,8 +10986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 3044,
-          "name": "Cavenagh, Matt",
-          "id": "8529923",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13736,8 +10994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 3046,
-          "name": "Pate, SHELDON",
-          "id": "8529103",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13746,8 +11002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 3047,
-          "name": "Crowl, TYLER",
-          "id": "7020458",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13756,8 +11010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 3048,
-          "name": "Vincent, BAILEY",
-          "id": "8528773",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13766,8 +11018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 3073,
-          "name": "Flynn, COLIN",
-          "id": "8543181",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13776,8 +11026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 3076,
-          "name": "Johnson, ZAC",
-          "id": "8544955",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13786,8 +11034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 3077,
-          "name": "Razzeto, NICK",
-          "id": "8546860",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13796,8 +11042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 3078,
-          "name": "Adams, JORDAN",
-          "id": "8545835",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13806,8 +11050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 3079,
-          "name": "Lanfranki, MARK",
-          "id": "8544956",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13816,8 +11058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 3080,
-          "name": "Schuh, CHRISTOPHER",
-          "id": "8546212",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13826,8 +11066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 3081,
-          "name": "Ziebert, JEREMIAH",
-          "id": "8540462",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13836,8 +11074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 3095,
-          "name": "Browning, GREGORY",
-          "id": "8559229",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13846,8 +11082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 3104,
-          "name": "Roth, Tim",
-          "id": "8559253",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13856,8 +11090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 3109,
-          "name": "Stanley, Jordan",
-          "id": "8559259",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13866,8 +11098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 3110,
-          "name": "Gordon, Evan",
-          "id": "8560216",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13876,8 +11106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 3111,
-          "name": "Koch, Andrew",
-          "id": "8559248",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13886,8 +11114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 3112,
-          "name": "Guidry-Lair, Dylan",
-          "id": "8564970",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13896,8 +11122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 3113,
-          "name": "Jackson, Drew",
-          "id": "8559236",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13906,8 +11130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 3139,
-          "name": "Magnuson, Cale",
-          "id": "8576000",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13916,8 +11138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 3146,
-          "name": "McGee, Miles",
-          "id": "8575996",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13926,8 +11146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 3150,
-          "name": "Ford, Brandon",
-          "id": "8576039",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13936,8 +11154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 3164,
-          "name": "Hauke, Andreas",
-          "id": "8602768",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13946,8 +11162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 3167,
-          "name": "Ragan, Jonathan",
-          "id": "1893648",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13956,8 +11170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 3190,
-          "name": "Myers, Andrew",
-          "id": "8644627",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13966,8 +11178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 3198,
-          "name": "Hartman, Mercedes",
-          "id": "5535326",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13976,8 +11186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 3210,
-          "name": "Wiemann, Kevin",
-          "id": "8701704",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13986,8 +11194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 3216,
-          "name": "Vandegriff, Cody",
-          "id": "8701696",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -13996,8 +11202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 3217,
-          "name": "Bentley, Austin",
-          "id": "8700959",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14006,8 +11210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 3218,
-          "name": "Butler III, Corydon",
-          "id": "8701039",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14016,8 +11218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 3219,
-          "name": "Callen, Jimmy",
-          "id": "8701051",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14026,8 +11226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 3220,
-          "name": "Riel, Anthony",
-          "id": "8701679",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14036,8 +11234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 3221,
-          "name": "Stengel, Mike",
-          "id": "8701689",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14046,8 +11242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 3222,
-          "name": "Walthall, Mac",
-          "id": "8701703",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14056,8 +11250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 3223,
-          "name": "Hernandez Sardu, Iggy",
-          "id": "8701596",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14066,8 +11258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 3224,
-          "name": "Booe, Caitlin",
-          "id": "7216112",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14076,8 +11266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 3241,
-          "name": "Boudiette, Corey",
-          "id": "8859345",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14086,8 +11274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 3243,
-          "name": "Jenkins, Jeremy",
-          "id": "8859855",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14096,8 +11282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 3245,
-          "name": "Thompson, Christina",
-          "id": "8860132",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14106,8 +11290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 3246,
-          "name": "Johnston, Matt",
-          "id": "8859939",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14116,8 +11298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 3247,
-          "name": "Colwell, Philip",
-          "id": "8859403",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14126,8 +11306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 3276,
-          "name": "Russell, Chad",
-          "id": "8945090",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14136,8 +11314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 3279,
-          "name": "Hitt, Travis",
-          "id": "8945091",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14146,8 +11322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 3281,
-          "name": "Terry, Kyle",
-          "id": "8945099",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14156,8 +11330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 3298,
-          "name": "Wilckens, ERIC",
-          "id": "8950175",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14166,8 +11338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 3299,
-          "name": "Jeffries, EMMA",
-          "id": "8950170",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14176,8 +11346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 3317,
-          "name": "Linnig III, BILL",
-          "id": "8955522",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14186,8 +11354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 3319,
-          "name": "Granzella, JASON",
-          "id": "8955511",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14196,8 +11362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 3320,
-          "name": "Porter, WYATT",
-          "id": "8955528",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14206,8 +11370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 3321,
-          "name": "Lopez-Caro, RICHARD",
-          "id": "8955525",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14216,8 +11378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 3322,
-          "name": "Jinks, WES",
-          "id": "8955513",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14226,8 +11386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 3323,
-          "name": "Collier, DANE",
-          "id": "8955509",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14236,8 +11394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 3324,
-          "name": "Jordan, MIKEL",
-          "id": "8955514",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14246,8 +11402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 3341,
-          "name": "Deacon, CODY",
-          "id": "8969505",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14256,8 +11410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 3342,
-          "name": "Tope, MICHAEL",
-          "id": "8969372",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14266,8 +11418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 3343,
-          "name": "Heikkinen, TOMMY",
-          "id": "8969363",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14276,8 +11426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 3344,
-          "name": "Gruber, JORDAN",
-          "id": "8969362",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14286,8 +11434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 3345,
-          "name": "Flowers, AUSTIN",
-          "id": "8969507",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14296,8 +11442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 3346,
-          "name": "Rockwell, LUKE",
-          "id": "8969373",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14306,8 +11450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 3347,
-          "name": "Kaijala, MELODY",
-          "id": "8969364",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14316,8 +11458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 3348,
-          "name": "Perkins, DOUGLAS",
-          "id": "8969370",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14326,8 +11466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 3349,
-          "name": "Clement, JESSE",
-          "id": "8969504",
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -14342,8 +11480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 3,
-          "name": "Paterson, RONALD",
-          "id": "0555091",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14352,8 +11488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 12,
-          "name": "Kropik, STEPHEN A.",
-          "id": "0555723",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14362,8 +11496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 13,
-          "name": "Toennies, MICHAEL",
-          "id": "0556872",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14372,8 +11504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 14,
-          "name": "Damigos, PETE",
-          "id": "0554604",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14382,8 +11512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 17,
-          "name": "Weaver, RANDALL L.",
-          "id": "0554821",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14392,8 +11520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 18,
-          "name": "Shogren, John J.",
-          "id": "0555616",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14402,8 +11528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 42,
-          "name": "Hudnutt, Randy",
-          "id": "0556559",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14412,8 +11536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 43,
-          "name": "Kolis II, Joseph",
-          "id": "0555511",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14422,8 +11544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 55,
-          "name": "James, JOHN M.",
-          "id": "0555163",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14432,8 +11552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 58,
-          "name": "Petersen, Chris",
-          "id": "0556835",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14442,8 +11560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 59,
-          "name": "Villarreal, Michael",
-          "id": "0556430",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14452,8 +11568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 61,
-          "name": "Vaccari, ROBERTO F.",
-          "id": "0554881",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14462,8 +11576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 62,
-          "name": "Parks, Jim",
-          "id": "0555088",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14472,8 +11584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 64,
-          "name": "Kyer, KATHLEEN",
-          "id": "0555552",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14482,8 +11592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 67,
-          "name": "Jackson, DYKEANDREW",
-          "id": "0554626",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14492,8 +11600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 71,
-          "name": "Gibbons, BRETT A.",
-          "id": "0556455",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14502,8 +11608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 96,
-          "name": "McDonald, JOHN",
-          "id": "0555224",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14512,8 +11616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 97,
-          "name": "Morton, Scott",
-          "id": "0557225",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14522,8 +11624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 98,
-          "name": "Christmas, CREGG L.",
-          "id": "0555015",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14532,8 +11632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 101,
-          "name": "Spotto, MICHAEL",
-          "id": "0554503",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14542,8 +11640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 109,
-          "name": "Snyder, Michael",
-          "id": "0555645",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14552,8 +11648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 111,
-          "name": "Doherty, GERRY  A.",
-          "id": "0554650",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14562,8 +11656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 114,
-          "name": "Wanner Jr., JOHN M.",
-          "id": "0555636",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14572,8 +11664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 121,
-          "name": "Brinkman, Marc J",
-          "id": "0555581",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14582,8 +11672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 125,
-          "name": "Pruet, ALEXANDER",
-          "id": "0556238",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14592,8 +11680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 128,
-          "name": "Walters, Greg",
-          "id": "0555062",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14602,8 +11688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 131,
-          "name": "Hawkes, SHAWN M.",
-          "id": "0554323",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14612,8 +11696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 132,
-          "name": "Lott, Stephen D.",
-          "id": "0554847",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14622,8 +11704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 135,
-          "name": "Nance Jr., Jay T.",
-          "id": "0556741",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14632,8 +11712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 138,
-          "name": "Clark, Dean",
-          "id": "0554829",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14642,8 +11720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 141,
-          "name": "Miyamoto, HAL",
-          "id": "0557174",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14652,8 +11728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 143,
-          "name": "Falkner, Thomas",
-          "id": "0554554",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14662,8 +11736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 144,
-          "name": "Lasalle, JOHN",
-          "id": "0554325",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14672,8 +11744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 146,
-          "name": "Boylan, ROBERT",
-          "id": "0556200",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14682,8 +11752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 147,
-          "name": "Nelson, Stacy",
-          "id": "0555678",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14692,8 +11760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 151,
-          "name": "Gore, Lawrence",
-          "id": "0556415",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14702,8 +11768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 155,
-          "name": "Aven, MIKE",
-          "id": "0556595",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14712,8 +11776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 158,
-          "name": "Dieudonne, CARL",
-          "id": "0555510",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14722,8 +11784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 164,
-          "name": "McCormick, John",
-          "id": "0557084",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14732,8 +11792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 171,
-          "name": "Reinkoester, WARD",
-          "id": "0555107",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14742,8 +11800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 175,
-          "name": "Paul, Darryl",
-          "id": "0555674",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14752,8 +11808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 176,
-          "name": "Bradley, DAN",
-          "id": "0555676",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14762,8 +11816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 181,
-          "name": "Kirkhuff, Jeffrey",
-          "id": "0556340",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14772,8 +11824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 189,
-          "name": "Wilson, ADAM",
-          "id": "0554330",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14782,8 +11832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 193,
-          "name": "Fussell, Shawn",
-          "id": "0556167",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14792,8 +11840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 200,
-          "name": "Johnson, PATRICK",
-          "id": "0555135",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14802,8 +11848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 203,
-          "name": "Auermann, John",
-          "id": "0555190",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14812,8 +11856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 204,
-          "name": "Thompson, SHANE",
-          "id": "0556651",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14822,8 +11864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 217,
-          "name": "Cossio III, Luis",
-          "id": "0555626",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14832,8 +11872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 218,
-          "name": "Beck, HANS",
-          "id": "0556231",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14842,8 +11880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 221,
-          "name": "Boise, MARTIN",
-          "id": "0556332",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14852,8 +11888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 230,
-          "name": "Brown, GREGORY",
-          "id": "0554379",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14862,8 +11896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 243,
-          "name": "Crowl, Larry",
-          "id": "0557065",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14872,8 +11904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 244,
-          "name": "Sayles Jr., BRAD",
-          "id": "0556219",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14882,8 +11912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 246,
-          "name": "Christoff, DAVID",
-          "id": "0556758",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14892,8 +11920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 249,
-          "name": "Quigley, DALE",
-          "id": "0556585",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14902,8 +11928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 251,
-          "name": "Sluder, MALCOLM",
-          "id": "0555007",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14912,8 +11936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 256,
-          "name": "Cason Jr., BILL",
-          "id": "0556412",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14922,8 +11944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 257,
-          "name": "Laforest, Michael",
-          "id": "0556385",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14932,8 +11952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 262,
-          "name": "Eriksson, DAN",
-          "id": "0556166",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14942,8 +11960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 268,
-          "name": "Theophilou, PHILIP",
-          "id": "0557123",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14952,8 +11968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 270,
-          "name": "Cramlet, Todd",
-          "id": "0556478",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14962,8 +11976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 277,
-          "name": "O'Farrell, THOMAS",
-          "id": "0554587",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14972,8 +11984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 286,
-          "name": "McDuffie, Margaret",
-          "id": "0555051",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14982,8 +11992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 288,
-          "name": "Siwa, DAVID",
-          "id": "0555367",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14992,8 +12000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 290,
-          "name": "Jespersen, RENE",
-          "id": "0556175",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15002,8 +12008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 291,
-          "name": "Fitzgerald Jr., DAVE",
-          "id": "0556603",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15012,8 +12016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 292,
-          "name": "Steinbeck, JOHN",
-          "id": "0556581",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15022,8 +12024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 303,
-          "name": "Eads, TIMOTHY",
-          "id": "0555418",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15032,8 +12032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 320,
-          "name": "Lagrand, GREGORY",
-          "id": "0554581",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15042,8 +12040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 325,
-          "name": "Bergquist, Patrick",
-          "id": "0556476",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15052,8 +12048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 327,
-          "name": "Luttrell Jr, Jerry",
-          "id": "0556636",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15062,8 +12056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 331,
-          "name": "Allen, JOHN",
-          "id": "0555404",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15072,8 +12064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 335,
-          "name": "Baldwin, SCOTT",
-          "id": "0556577",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15082,8 +12072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 348,
-          "name": "McCloskey, DAVID",
-          "id": "0555128",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15092,8 +12080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 349,
-          "name": "Campbell, Baird",
-          "id": "0555606",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15102,8 +12088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 352,
-          "name": "Fuscardo, JEFF",
-          "id": "0554977",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15112,8 +12096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 361,
-          "name": "Bania, RANDALL",
-          "id": "0555771",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15122,8 +12104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 362,
-          "name": "Murray, MATTHEW",
-          "id": "0556316",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15132,8 +12112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 368,
-          "name": "Dolezal, PETER",
-          "id": "0556675",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15142,8 +12120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 374,
-          "name": "Adams, BRIAN",
-          "id": "0557008",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15152,8 +12128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 382,
-          "name": "Goetz, JEFFREY",
-          "id": "0556661",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15162,8 +12136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 383,
-          "name": "Littel, MICHAEL",
-          "id": "0555567",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15172,8 +12144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 387,
-          "name": "Lazzari, PETER",
-          "id": "0554372",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15182,8 +12152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 390,
-          "name": "Duggan, Russell",
-          "id": "0556571",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15192,8 +12160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 407,
-          "name": "Vaughan, T. Rudy",
-          "id": "0554928",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15202,8 +12168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 410,
-          "name": "Ogburn Jr., BEN",
-          "id": "0557220",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15212,8 +12176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 413,
-          "name": "Forshner, JOHN",
-          "id": "0555126",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15222,8 +12184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 418,
-          "name": "Waters, Rowland",
-          "id": "0858359",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15232,8 +12192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 422,
-          "name": "Cook, JOHN",
-          "id": "0857477",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15242,8 +12200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 423,
-          "name": "Hoffmann, DAVID",
-          "id": "0631876",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15252,8 +12208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 431,
-          "name": "Cook, Dan",
-          "id": "0966303",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15262,8 +12216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 438,
-          "name": "Lipinski, Douglas",
-          "id": "0990073",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15272,8 +12224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 439,
-          "name": "Bohachevsky, John",
-          "id": "0990089",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15282,8 +12232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 441,
-          "name": "Smith, KRISTOPHER",
-          "id": "0993715",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15292,8 +12240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 443,
-          "name": "Caldwell III, Pen",
-          "id": "1004877",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15302,8 +12248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 446,
-          "name": "Muldoon, Michael",
-          "id": "1012615",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15312,8 +12256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 451,
-          "name": "Gilder, TAMMY LYNN",
-          "id": "1012587",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15322,8 +12264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 453,
-          "name": "Lewis, ROBERT E.",
-          "id": "1012508",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15332,8 +12272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 465,
-          "name": "Bartlett, JULIE",
-          "id": "1046898",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15342,8 +12280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 471,
-          "name": "Dahlgren, ANDREW W.",
-          "id": "1055357",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15352,8 +12288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 472,
-          "name": "Steenberg, Gregory",
-          "id": "1055333",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15362,8 +12296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 476,
-          "name": "Desautelle Jr., WILL. P",
-          "id": "1070647",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15372,8 +12304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 478,
-          "name": "McKen, PETE L.",
-          "id": "1069462",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15382,8 +12312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 482,
-          "name": "Masten, KEEVAN",
-          "id": "1077391",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15392,8 +12320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 511,
-          "name": "Pistole, JERRY F.",
-          "id": "1114188",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15402,8 +12328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 512,
-          "name": "Roeder, JEFFREY J.",
-          "id": "1114208",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15412,8 +12336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 518,
-          "name": "Merry, DARRYL R.",
-          "id": "1141488",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15422,8 +12344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 532,
-          "name": "Livesey, THOMAS",
-          "id": "1199185",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15432,8 +12352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 537,
-          "name": "Conley, Andrew F.",
-          "id": "1199176",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15442,8 +12360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 539,
-          "name": "Hillje II, CHARLES F.",
-          "id": "1199180",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15452,8 +12368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 548,
-          "name": "Macdonald, Billy Mac",
-          "id": "1208834",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15462,8 +12376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 551,
-          "name": "Longshore, Caroline",
-          "id": "1208714",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15472,8 +12384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 560,
-          "name": "Baumgartner, KIM",
-          "id": "1219556",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15482,8 +12392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 564,
-          "name": "Theriault, Scott A.",
-          "id": "1219576",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15492,8 +12400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 566,
-          "name": "Mattsson, LARS",
-          "id": "1225393",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15502,8 +12408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 585,
-          "name": "Leonard, MATTHEW T.",
-          "id": "1237326",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15512,8 +12416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 586,
-          "name": "Wilkins, Derron G.",
-          "id": "1237400",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15522,8 +12424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 588,
-          "name": "North III, John C.",
-          "id": "1237333",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15532,8 +12432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 593,
-          "name": "Anderson, JT",
-          "id": "1251387",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15542,8 +12440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 595,
-          "name": "Saunders II, John",
-          "id": "1251388",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15552,8 +12448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 602,
-          "name": "Walsh, John D.",
-          "id": "1261176",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15562,8 +12456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 606,
-          "name": "Fox, JOSEPH",
-          "id": "1274796",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15572,8 +12464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 607,
-          "name": "Loguidice, John J.",
-          "id": "1274750",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15582,8 +12472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 611,
-          "name": "Newman, Elvan W",
-          "id": "1274397",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15592,8 +12480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 613,
-          "name": "Hummel, JOHN W.",
-          "id": "1274420",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15602,8 +12488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 617,
-          "name": "Burgess, KEVIN R.",
-          "id": "1274268",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15612,8 +12496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 622,
-          "name": "Williams, GREGORY L.",
-          "id": "1286764",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15622,8 +12504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 624,
-          "name": "Pasden, GREG",
-          "id": "1286756",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15632,8 +12512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 629,
-          "name": "Coronado, GUILLERMO",
-          "id": "1286694",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15642,8 +12520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 630,
-          "name": "Jones III, JAMES T.",
-          "id": "1286759",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15652,8 +12528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 633,
-          "name": "Gartenschlaeger, RONALD",
-          "id": "1286683",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15662,8 +12536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 639,
-          "name": "Jones Jr., ROB",
-          "id": "1286769",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15672,8 +12544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 646,
-          "name": "Darnell, Christina",
-          "id": "1301321",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15682,8 +12552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 652,
-          "name": "Harrison, Jeff",
-          "id": "1314663",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15692,8 +12560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 666,
-          "name": "Bettega, GERRY",
-          "id": "1739088",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15702,8 +12568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 667,
-          "name": "Hope, Wes",
-          "id": "1739021",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15712,8 +12576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 680,
-          "name": "Mikan, Christine",
-          "id": "1777419",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15722,8 +12584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 685,
-          "name": "Baxter, ERINN",
-          "id": "1791272",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15732,8 +12592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 686,
-          "name": "Sommers, STUART",
-          "id": "1791343",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15742,8 +12600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 687,
-          "name": "Farrar, ADRIANNE",
-          "id": "1791320",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15752,8 +12608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 688,
-          "name": "Burrell, BILL",
-          "id": "1791275",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15762,8 +12616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 707,
-          "name": "Sendaydiego, Wed",
-          "id": "1797632",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15772,8 +12624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 713,
-          "name": "Beasley II, RICK",
-          "id": "1750417",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15782,8 +12632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 716,
-          "name": "Walsh Jr., ED",
-          "id": "1797687",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15792,8 +12640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 719,
-          "name": "Schwebach, Victoria",
-          "id": "1803736",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15802,8 +12648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 721,
-          "name": "Diersing, TIM",
-          "id": "1803869",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15812,8 +12656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 725,
-          "name": "Clark, LISA",
-          "id": "1803740",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15822,8 +12664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 730,
-          "name": "Allen, STEPHEN",
-          "id": "1803799",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15832,8 +12672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 731,
-          "name": "Mauzy, Bret",
-          "id": "1803752",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15842,8 +12680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 735,
-          "name": "Sellars, DOUG",
-          "id": "1803815",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15852,8 +12688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 744,
-          "name": "Sullivan, Stu",
-          "id": "1809070",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15862,8 +12696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 745,
-          "name": "Tonguis, Scott",
-          "id": "1809077",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15872,8 +12704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 748,
-          "name": "Meyer, MICHAEL",
-          "id": "1809055",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15882,8 +12712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 754,
-          "name": "Mitchell, MARK",
-          "id": "1812141",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15892,8 +12720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 755,
-          "name": "Feist, WILLIAM",
-          "id": "1812098",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15902,8 +12728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 763,
-          "name": "Rhea III, Robert",
-          "id": "1812089",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15912,8 +12736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 771,
-          "name": "Antonenko, Mark",
-          "id": "1819836",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15922,8 +12744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 772,
-          "name": "Kern, DAVID",
-          "id": "1819864",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15932,8 +12752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 780,
-          "name": "Zajac, MONIKA",
-          "id": "1819869",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15942,8 +12760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 783,
-          "name": "Floyd, GARRETH",
-          "id": "1829755",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15952,8 +12768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 794,
-          "name": "Cottone, Michael",
-          "id": "1829654",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15962,8 +12776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 797,
-          "name": "Newton, ROLAND",
-          "id": "1829657",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15972,8 +12784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 799,
-          "name": "Gonzalez, Efrain",
-          "id": "1835547",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15982,8 +12792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 808,
-          "name": "Palleija, GUILLERMO",
-          "id": "1838165",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15992,8 +12800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 809,
-          "name": "Hobbs, Mitch",
-          "id": "0736768",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16002,8 +12808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 816,
-          "name": "Larkins, Steve",
-          "id": "1844004",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16012,8 +12816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 831,
-          "name": "Rippe, CHRIS",
-          "id": "1853739",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16022,8 +12824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 832,
-          "name": "Thureson, DARCEY",
-          "id": "1853729",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16032,8 +12832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 834,
-          "name": "Capuano, David",
-          "id": "1853726",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16042,8 +12840,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 841,
-          "name": "Arnett Jr., JIM",
-          "id": "1857539",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16052,8 +12848,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 842,
-          "name": "Maher, BRENDAN",
-          "id": "1857526",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16062,8 +12856,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 846,
-          "name": "Phelps, DAVID",
-          "id": "1857536",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16072,8 +12864,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 850,
-          "name": "Van Winkle II, Pete",
-          "id": "1862075",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16082,8 +12872,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 859,
-          "name": "Ponsonby, SEAN",
-          "id": "1872258",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16092,8 +12880,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 869,
-          "name": "Tresler, JOHN",
-          "id": "1887966",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16102,8 +12888,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 874,
-          "name": "Barrow, BILL",
-          "id": "1946086",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16112,8 +12896,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 878,
-          "name": "Anderson, ERIK",
-          "id": "1946095",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16122,8 +12904,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 887,
-          "name": "Dombay, KEVIN",
-          "id": "0470514",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16132,8 +12912,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 888,
-          "name": "Backers, NIELS",
-          "id": "1972833",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16142,8 +12920,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 889,
-          "name": "Zachman, David",
-          "id": "1972834",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16152,8 +12928,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 895,
-          "name": "Zeafla, RANDALL",
-          "id": "1988420",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16162,8 +12936,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 896,
-          "name": "Mize, MATT",
-          "id": "0337836",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16172,8 +12944,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 905,
-          "name": "Hockman, BOB",
-          "id": "2020903",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16182,8 +12952,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 915,
-          "name": "Wong, Joe",
-          "id": "2031057",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16192,8 +12960,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 928,
-          "name": "Richardson, MITCHELL",
-          "id": "2037150",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16202,8 +12968,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 930,
-          "name": "Deluise, Michael",
-          "id": "2037178",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16212,8 +12976,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 946,
-          "name": "Meredith, LANCE",
-          "id": "2057092",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16222,8 +12984,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 956,
-          "name": "Kelly, JOHN",
-          "id": "2068788",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16232,8 +12992,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 969,
-          "name": "Branson, DAVID",
-          "id": "2074055",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16242,8 +13000,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 978,
-          "name": "Kelsch, DOUG",
-          "id": "2090349",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16252,8 +13008,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 1003,
-          "name": "Coon, JOSH",
-          "id": "2108537",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16262,8 +13016,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 1008,
-          "name": "Eskin, ALEX",
-          "id": "2171300",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16272,8 +13024,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 1009,
-          "name": "Murray, MICHAEL",
-          "id": "2172541",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16282,8 +13032,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 1012,
-          "name": "Ferguson, SCOTT",
-          "id": "2172466",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16292,8 +13040,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 1013,
-          "name": "Troutman, TERRY",
-          "id": "2172512",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16302,8 +13048,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 1022,
-          "name": "Oliver, JERALD",
-          "id": "2176576",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16312,8 +13056,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 1030,
-          "name": "Tree, Sterling",
-          "id": "2176586",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16322,8 +13064,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 1032,
-          "name": "Truong, DANNY",
-          "id": "2176588",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16332,8 +13072,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 1048,
-          "name": "Wilson, BRIAN",
-          "id": "3166225",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16342,8 +13080,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 1055,
-          "name": "Sanders, Darin",
-          "id": "3169843",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16352,8 +13088,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 1082,
-          "name": "Hatch, Tom",
-          "id": "3176024",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16362,8 +13096,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 1099,
-          "name": "Dickenson, Will",
-          "id": "3188827",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16372,8 +13104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 1100,
-          "name": "Conley, Tim",
-          "id": "0610631",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16382,8 +13112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 1112,
-          "name": "Geisler, Matthew",
-          "id": "3196707",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16392,8 +13120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 1115,
-          "name": "Rights, SCOTT",
-          "id": "3196700",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16402,8 +13128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 1136,
-          "name": "Huebel, SCOTT",
-          "id": "3202945",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16412,8 +13136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 1137,
-          "name": "Clark Jr., TOM",
-          "id": "3202912",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16422,8 +13144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 1139,
-          "name": "Peterson, JOHN",
-          "id": "3202905",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16432,8 +13152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 1144,
-          "name": "Lalumia, DAN",
-          "id": "3213896",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16442,8 +13160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 1148,
-          "name": "Roche, JOSEPH",
-          "id": "3213887",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16452,8 +13168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 1158,
-          "name": "Bernardi, MICHAEL",
-          "id": "3213900",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16462,8 +13176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 1159,
-          "name": "Teasley, DANA",
-          "id": "3225428",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16472,8 +13184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 1163,
-          "name": "Spain Jr., KIERAN",
-          "id": "3225455",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16482,8 +13192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 1170,
-          "name": "Morford, JASON",
-          "id": "3225446",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16492,8 +13200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 1176,
-          "name": "Haynes, EVAN",
-          "id": "3235667",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16502,8 +13208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 1210,
-          "name": "Heie, JONATHAN",
-          "id": "3276380",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16512,8 +13216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 1240,
-          "name": "Erwin, MACK",
-          "id": "4250978",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16522,8 +13224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 1251,
-          "name": "McMaster, Justin",
-          "id": "4430843",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16532,8 +13232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 1257,
-          "name": "Riffle, Bruce",
-          "id": "4430842",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16542,8 +13240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 1258,
-          "name": "Des Anges, Jervais",
-          "id": "4430848",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16552,8 +13248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 1265,
-          "name": "Mendez, RAUL",
-          "id": "4433906",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16562,8 +13256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 1267,
-          "name": "Thompson, RANDY",
-          "id": "0025629",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16572,8 +13264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 1271,
-          "name": "Hyde, SHEILA",
-          "id": "4438421",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16582,8 +13272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 1278,
-          "name": "Koch, CJ",
-          "id": "4443866",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16592,8 +13280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 1282,
-          "name": "Paterson, Jeffrey",
-          "id": "4450276",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16602,8 +13288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 1290,
-          "name": "Gonzalez, LUIS",
-          "id": "4450260",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16612,8 +13296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 1300,
-          "name": "Sullivan, KEVIN",
-          "id": "0741020",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16622,8 +13304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 1323,
-          "name": "Boone, Keith",
-          "id": "4479442",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16632,8 +13312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 1324,
-          "name": "Smith, RJ",
-          "id": "4501088",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16642,8 +13320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 1327,
-          "name": "Alexanian, Vache",
-          "id": "4741003",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16652,8 +13328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 1328,
-          "name": "Hill, Marc",
-          "id": "4741004",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16662,8 +13336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 1333,
-          "name": "Strahm, JOSHUA",
-          "id": "4741011",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16672,8 +13344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 1334,
-          "name": "Hignite, Sonny",
-          "id": "4741009",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16682,8 +13352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 1335,
-          "name": "Davis, BRION",
-          "id": "4740522",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16692,8 +13360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 1337,
-          "name": "Stromberg, MICHAEL",
-          "id": "4741007",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16702,8 +13368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 1338,
-          "name": "Passmore, Mark",
-          "id": "4741008",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16712,8 +13376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 1342,
-          "name": "Noble, JACK",
-          "id": "4741013",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16722,8 +13384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 1354,
-          "name": "Boyter, NICHOLAS",
-          "id": "4744899",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16732,8 +13392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 1357,
-          "name": "Torgerson, MATT",
-          "id": "4744898",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16742,8 +13400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 1367,
-          "name": "Nice, STEVEN",
-          "id": "4759007",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16752,8 +13408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 1376,
-          "name": "Ebersole, Randall",
-          "id": "4762595",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16762,8 +13416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 1406,
-          "name": "Sandford, Chris",
-          "id": "4899595",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16772,8 +13424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 244,
           "sen": 1408,
-          "name": "Vaughan, BILL",
-          "id": "5045106",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16782,8 +13432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 245,
           "sen": 1415,
-          "name": "Barretto, SAVIO",
-          "id": "5060245",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16792,8 +13440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 246,
           "sen": 1421,
-          "name": "Smith, Cameron",
-          "id": "1311922",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16802,8 +13448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 247,
           "sen": 1429,
-          "name": "Liebman, DAVID",
-          "id": "5061176",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16812,8 +13456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 248,
           "sen": 1451,
-          "name": "Hughes, DAVID",
-          "id": "5061165",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16822,8 +13464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 249,
           "sen": 1514,
-          "name": "Tuomala, SCOTT",
-          "id": "5076530",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16832,8 +13472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 250,
           "sen": 1515,
-          "name": "Wainscott, MARK",
-          "id": "5074172",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16842,8 +13480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 251,
           "sen": 1518,
-          "name": "Klempay, CHRISTOPHER",
-          "id": "5076537",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16852,8 +13488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 252,
           "sen": 1520,
-          "name": "Patak, DANIEL",
-          "id": "5076538",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16862,8 +13496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 253,
           "sen": 1532,
-          "name": "De Mott, JAMES",
-          "id": "5080508",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16872,8 +13504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 254,
           "sen": 1545,
-          "name": "Ferguson Jr., James",
-          "id": "5094811",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16882,8 +13512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 255,
           "sen": 1579,
-          "name": "Mullins, Charlie",
-          "id": "5116942",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16892,8 +13520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 256,
           "sen": 1584,
-          "name": "James, Stephen",
-          "id": "5071550",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16902,8 +13528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 257,
           "sen": 1614,
-          "name": "Fleming, RALPH",
-          "id": "5142004",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16912,8 +13536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 258,
           "sen": 1628,
-          "name": "Osman, ATIF",
-          "id": "5182631",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16922,8 +13544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 259,
           "sen": 1634,
-          "name": "Farnsworth II, DAN",
-          "id": "5155793",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16932,8 +13552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 260,
           "sen": 1644,
-          "name": "Yu, SOLOMON",
-          "id": "5146097",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16942,8 +13560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 261,
           "sen": 1646,
-          "name": "Erickson, DANIEL",
-          "id": "5175850",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16952,8 +13568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 262,
           "sen": 1648,
-          "name": "Knight, SEYMOUR",
-          "id": "5188646",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16962,8 +13576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 263,
           "sen": 1697,
-          "name": "Garcia, ISAAC",
-          "id": "5473860",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16972,8 +13584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 264,
           "sen": 1712,
-          "name": "Feliz, Abraham",
-          "id": "5473806",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16982,8 +13592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 265,
           "sen": 1715,
-          "name": "Willoughby, WES",
-          "id": "5478839",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16992,8 +13600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 266,
           "sen": 1753,
-          "name": "Poet, Justin",
-          "id": "5479283",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17002,8 +13608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 267,
           "sen": 1755,
-          "name": "Watt III, FRANK",
-          "id": "5496418",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17012,8 +13616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 268,
           "sen": 1766,
-          "name": "Wainscott, ERIC",
-          "id": "5490010",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17022,8 +13624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 269,
           "sen": 1801,
-          "name": "El-Asmar, Aliyah",
-          "id": "5568066",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17032,8 +13632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 270,
           "sen": 1802,
-          "name": "Mesmer, SCOTT",
-          "id": "5568061",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17042,8 +13640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 271,
           "sen": 1807,
-          "name": "Choo-Yick Jr., ANTHONY",
-          "id": "5540608",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17052,8 +13648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 272,
           "sen": 1809,
-          "name": "Allen, Jacob",
-          "id": "5582986",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17062,8 +13656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 273,
           "sen": 1813,
-          "name": "Fontenot, Mitchell",
-          "id": "5578235",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17072,8 +13664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 274,
           "sen": 1814,
-          "name": "Choate, WESLEY",
-          "id": "5569075",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17082,8 +13672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 275,
           "sen": 1816,
-          "name": "Gibson, ELWOOD",
-          "id": "5540762",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17092,8 +13680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 276,
           "sen": 1817,
-          "name": "Aull, RYAN",
-          "id": "5540611",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17102,8 +13688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 277,
           "sen": 1818,
-          "name": "Sewell, CHRISTIAN",
-          "id": "5569320",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17112,8 +13696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 278,
           "sen": 1819,
-          "name": "Brownlee, BRYAN",
-          "id": "5567757",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17122,8 +13704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 279,
           "sen": 1826,
-          "name": "Stone, Michael",
-          "id": "0304395",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17132,8 +13712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 280,
           "sen": 1839,
-          "name": "Powers, Garrin",
-          "id": "5593850",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17142,8 +13720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 281,
           "sen": 1843,
-          "name": "Haug, RYAN",
-          "id": "5600855",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17152,8 +13728,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 282,
           "sen": 1844,
-          "name": "McCain, THOMAS",
-          "id": "5600850",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17162,8 +13736,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 283,
           "sen": 1853,
-          "name": "Lewis, ANN MARIE",
-          "id": "5658475",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17172,8 +13744,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 284,
           "sen": 1854,
-          "name": "Johnson, PAUL",
-          "id": "5656384",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17182,8 +13752,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 285,
           "sen": 1925,
-          "name": "Ivan, DOUGLAS",
-          "id": "5915221",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17192,8 +13760,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 286,
           "sen": 1926,
-          "name": "Woods, Darren",
-          "id": "5918467",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17202,8 +13768,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 287,
           "sen": 1935,
-          "name": "Ruttkofsky, Joshua",
-          "id": "5923451",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17212,8 +13776,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 288,
           "sen": 1936,
-          "name": "Guenther, DIEDRICH",
-          "id": "0772494",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17222,8 +13784,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 289,
           "sen": 1937,
-          "name": "Benson, NICHOLAS",
-          "id": "5923456",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17232,8 +13792,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 290,
           "sen": 1941,
-          "name": "Tinsley, William",
-          "id": "5923454",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17242,8 +13800,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 291,
           "sen": 1970,
-          "name": "Teaford, Reid",
-          "id": "5952785",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17252,8 +13808,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 292,
           "sen": 1980,
-          "name": "Rick, JEROD",
-          "id": "5927380",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17262,8 +13816,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 293,
           "sen": 2007,
-          "name": "Crain, COURTNEY",
-          "id": "5967148",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17272,8 +13824,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 294,
           "sen": 2023,
-          "name": "Hacker, Will",
-          "id": "5944276",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17282,8 +13832,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 295,
           "sen": 2024,
-          "name": "Schell, CHARLES",
-          "id": "5969307",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -17294,8 +13842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 160,
-          "name": "Rexroad, Kerry",
-          "id": "0555620",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17304,8 +13850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 185,
-          "name": "Walek, THOMAS",
-          "id": "0556472",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17314,8 +13858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 187,
-          "name": "Jackson, MIKE",
-          "id": "0555574",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17324,8 +13866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 252,
-          "name": "Toennies, KELLY",
-          "id": "0556768",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17334,8 +13874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 427,
-          "name": "Beach, JIM",
-          "id": "0955759",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17344,8 +13882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 592,
-          "name": "Southworth, GREGG",
-          "id": "1253256",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17354,8 +13890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 752,
-          "name": "Morgan, TIMOTHY",
-          "id": "1812138",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17364,8 +13898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 796,
-          "name": "Olson, JENNIFER",
-          "id": "1829664",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17374,8 +13906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 833,
-          "name": "Ward Jr., Nat",
-          "id": "1853747",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17384,8 +13914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 845,
-          "name": "Davis, Preston",
-          "id": "1857552",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17394,8 +13922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 851,
-          "name": "Murray, AMANDA",
-          "id": "1862084",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17404,8 +13930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 853,
-          "name": "Scheller Jr., Rich",
-          "id": "1862077",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17414,8 +13938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 892,
-          "name": "Kuhtik, ANDY",
-          "id": "1973772",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17424,8 +13946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 912,
-          "name": "Smith, STEVEN",
-          "id": "2031059",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17434,8 +13954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 935,
-          "name": "Bodnar, Mary",
-          "id": "2051692",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17444,8 +13962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1091,
-          "name": "Valencia, BRUCE",
-          "id": "3183038",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17454,8 +13970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1103,
-          "name": "Koelb, JAY",
-          "id": "3188830",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17464,8 +13978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1168,
-          "name": "Vandermeyden, Dirk",
-          "id": "3225447",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17474,8 +13986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1207,
-          "name": "Mathews Jr., TED",
-          "id": "3276392",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17484,8 +13994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1242,
-          "name": "Darby, ROBERT",
-          "id": "4251098",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17494,8 +14002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1248,
-          "name": "Sanecki, TOM",
-          "id": "4251117",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17504,8 +14010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1250,
-          "name": "Beale, ADRIAN",
-          "id": "4430852",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17514,8 +14018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1252,
-          "name": "Desserich, JEN",
-          "id": "4430849",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17524,8 +14026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1266,
-          "name": "Evers, BRIAN",
-          "id": "4433898",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17534,8 +14034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1269,
-          "name": "Walsh, JOHN",
-          "id": "1641192",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17544,8 +14042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1299,
-          "name": "Feeley, J.R.",
-          "id": "4476177",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17554,8 +14050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1310,
-          "name": "Gerne, Tim",
-          "id": "4476181",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17564,8 +14058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 1350,
-          "name": "Ezell, Thomas",
-          "id": "4744903",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17574,8 +14066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 1351,
-          "name": "Wasen, KJ",
-          "id": "4745367",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17584,8 +14074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 1378,
-          "name": "Waples, Ann",
-          "id": "4752353",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17594,8 +14082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 1394,
-          "name": "Silbaugh, KATE",
-          "id": "4899609",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17604,8 +14090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 1427,
-          "name": "Bunke, JEFFREY",
-          "id": "4899591",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17614,8 +14098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 1428,
-          "name": "Newman, BRIAN",
-          "id": "5061177",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17624,8 +14106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 1440,
-          "name": "Mc Reynolds, Brian",
-          "id": "5061194",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17634,8 +14114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 1449,
-          "name": "Harris Jr., Billy",
-          "id": "5067680",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17644,8 +14122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 1457,
-          "name": "Mattiuz, MAURO",
-          "id": "5061172",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17654,8 +14130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 1460,
-          "name": "Sorci, Bret",
-          "id": "5063152",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17664,8 +14138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 1475,
-          "name": "Culen, ROB",
-          "id": "5068581",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17674,8 +14146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 1478,
-          "name": "Farley, Doug",
-          "id": "5068579",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17684,8 +14154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 1492,
-          "name": "Sherman, MITCH",
-          "id": "5062374",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17694,8 +14162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 1502,
-          "name": "Carver, JONATHON",
-          "id": "5070443",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17704,8 +14170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 1516,
-          "name": "Sendelbach, KEVIN",
-          "id": "5076539",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17714,8 +14178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 1536,
-          "name": "Hooper, JEFFREY",
-          "id": "5095245",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17724,8 +14186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 1554,
-          "name": "Lee, Michael",
-          "id": "5108573",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17734,8 +14194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 1558,
-          "name": "Salom, JOHN",
-          "id": "5106120",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17744,8 +14202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 1564,
-          "name": "Pfannenstiel, SHANNON",
-          "id": "5095347",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17754,8 +14210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 1567,
-          "name": "Franke, KEITH",
-          "id": "5112762",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17764,8 +14218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 1605,
-          "name": "Bethscheider, ADAM",
-          "id": "5137323",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17774,8 +14226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 1610,
-          "name": "Elsner, Jeff",
-          "id": "5146952",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17784,8 +14234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 1612,
-          "name": "Holmes, Steven",
-          "id": "5140063",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17794,8 +14242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 1613,
-          "name": "Miethaner, David",
-          "id": "5132830",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17804,8 +14250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1615,
-          "name": "King, RYAN",
-          "id": "5140961",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17814,8 +14258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1638,
-          "name": "Polsley, WES",
-          "id": "5156252",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17824,8 +14266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 1647,
-          "name": "Baker III, John",
-          "id": "5148921",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17834,8 +14274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 1651,
-          "name": "Staniewicz, TODD",
-          "id": "5208230",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17844,8 +14282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 1659,
-          "name": "Mc Elroy, TERRY",
-          "id": "5272357",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17854,8 +14290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 1661,
-          "name": "Ibrahim, Samer",
-          "id": "5279733",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17864,8 +14298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 1662,
-          "name": "Booth, David",
-          "id": "5279716",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17874,8 +14306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 1688,
-          "name": "Farley, Scott",
-          "id": "5284279",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17884,8 +14314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 1693,
-          "name": "Cronauer, Chad",
-          "id": "5441873",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17894,8 +14322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 1707,
-          "name": "Krogh, Jared",
-          "id": "5473812",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17904,8 +14330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 1737,
-          "name": "Woldemariam, NAHU",
-          "id": "5509007",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17914,8 +14338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 1744,
-          "name": "Dell, Graham",
-          "id": "5494146",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17924,8 +14346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 1750,
-          "name": "Maness, KEITH",
-          "id": "5509074",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17934,8 +14354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 1759,
-          "name": "Marston Jr, FRANKLIN",
-          "id": "5496420",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17944,8 +14362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 1760,
-          "name": "McCarthy, TREVOR",
-          "id": "5508395",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17954,8 +14370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 1778,
-          "name": "Rawe, Ryan",
-          "id": "5503656",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17964,8 +14378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 1793,
-          "name": "Kuhns, LINDA",
-          "id": "5128854",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17974,8 +14386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 1794,
-          "name": "Chesire, SUZIE",
-          "id": "5528343",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17984,8 +14394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 1811,
-          "name": "King, Benjamin",
-          "id": "5568351",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17994,8 +14402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 1833,
-          "name": "Harcourt, Steven",
-          "id": "5593845",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18004,8 +14410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 1835,
-          "name": "Nackers, JEFFREY",
-          "id": "5594164",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18014,8 +14418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 1851,
-          "name": "Sylvester, Steven",
-          "id": "5581123",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18024,8 +14426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 1860,
-          "name": "Taylor Jr., Donald",
-          "id": "5770432",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18034,8 +14434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 1863,
-          "name": "Bramble, JEFFERSON",
-          "id": "5702975",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18044,8 +14442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 1865,
-          "name": "Broyles, TRAVIS",
-          "id": "1043957",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18054,8 +14450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 1869,
-          "name": "Karis, STEVE",
-          "id": "5738538",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18064,8 +14458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 1881,
-          "name": "San Miguel, RICK",
-          "id": "5692260",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18074,8 +14466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 1911,
-          "name": "Matte, NATHAN",
-          "id": "5915233",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18084,8 +14474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 1927,
-          "name": "Roszell, CASEY",
-          "id": "5918565",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18094,8 +14482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 1928,
-          "name": "Ilschner, CRAIG",
-          "id": "5918441",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18104,8 +14490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 1933,
-          "name": "Kuitems, PHILIP M",
-          "id": "5914259",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18114,8 +14498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 1942,
-          "name": "Hall, PATRICK",
-          "id": "5925168",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18124,8 +14506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 1943,
-          "name": "Barnett, JEREMY",
-          "id": "5920036",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18134,8 +14514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 1956,
-          "name": "Bruyere, Mark",
-          "id": "5923455",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18144,8 +14522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 1958,
-          "name": "Webb, William",
-          "id": "5925207",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18154,8 +14530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 1964,
-          "name": "Hoeschen, NICK",
-          "id": "5925302",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18164,8 +14538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 1976,
-          "name": "Rau, RICKEY",
-          "id": "5928202",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18174,8 +14546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 1993,
-          "name": "Gibbons, RYAN",
-          "id": "5936049",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18184,8 +14554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2002,
-          "name": "Schuett, Aaron",
-          "id": "5935782",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18194,8 +14562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2018,
-          "name": "Hoover, NATHAN",
-          "id": "5970951",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18204,8 +14570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2027,
-          "name": "Hawkins, Rich",
-          "id": "5986630",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18214,8 +14578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 2031,
-          "name": "Oxley, BEN",
-          "id": "5985649",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18224,8 +14586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 2039,
-          "name": "Kawanobe, Sato",
-          "id": "2065049",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18234,8 +14594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 2040,
-          "name": "McMahon, Jason",
-          "id": "5984385",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18244,8 +14602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 2042,
-          "name": "Higgins, Adam",
-          "id": "5987789",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18254,8 +14610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 2047,
-          "name": "Gibeault, Danielle",
-          "id": "5984386",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18264,8 +14618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 2048,
-          "name": "Evart, Jason",
-          "id": "5960333",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18274,8 +14626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 2057,
-          "name": "Heusinkveld, MARK",
-          "id": "6015242",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18284,8 +14634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 2061,
-          "name": "Akins, DAVID",
-          "id": "6030096",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18294,8 +14642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 2067,
-          "name": "Baer, JAY",
-          "id": "6040111",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18304,8 +14650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 2072,
-          "name": "Sullivan, SEAN",
-          "id": "6041816",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18314,8 +14658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 2073,
-          "name": "Graham, David",
-          "id": "6075922",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18324,8 +14666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 2077,
-          "name": "Lobban, DAMON",
-          "id": "6079656",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18334,8 +14674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 2079,
-          "name": "Zuniga, GIL",
-          "id": "6072370",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18344,8 +14682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 2082,
-          "name": "Gregory, NORM",
-          "id": "6112860",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18354,8 +14690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 2084,
-          "name": "Theodoro, Alex",
-          "id": "6079913",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18364,8 +14698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 2085,
-          "name": "Fink, Lance",
-          "id": "6103964",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18374,8 +14706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 2086,
-          "name": "Alabin, ANDREY",
-          "id": "6125477",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18384,8 +14714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 2087,
-          "name": "Guyot, FAREED",
-          "id": "6104448",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18394,8 +14722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 2088,
-          "name": "Chiecchio, JERONIMO",
-          "id": "6109957",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18404,8 +14730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 2093,
-          "name": "Henderson Rosa, ABE",
-          "id": "6124057",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18414,8 +14738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 2103,
-          "name": "Izenour, JOSH",
-          "id": "6294785",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18424,8 +14746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 2106,
-          "name": "Albert, BRADLEY",
-          "id": "6295620",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18434,8 +14754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 2112,
-          "name": "Cabral, Susan",
-          "id": "6245895",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18444,8 +14762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 2119,
-          "name": "Gann, CHRIS",
-          "id": "6294775",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18454,8 +14770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 2125,
-          "name": "Jablonski, TOM",
-          "id": "6331472",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18464,8 +14778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 2126,
-          "name": "Mueller, MIKE",
-          "id": "6336293",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18474,8 +14786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 2130,
-          "name": "Warren, Todd",
-          "id": "6343799",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18484,8 +14794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 2133,
-          "name": "Strong, Colin",
-          "id": "6336295",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18494,8 +14802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 2136,
-          "name": "Sutherland, Trevor",
-          "id": "6353930",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18504,8 +14810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 2143,
-          "name": "Keiter, CRAIG",
-          "id": "6356834",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18514,8 +14818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 2149,
-          "name": "Pacherres-Rodri, JUAN",
-          "id": "6355080",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18524,8 +14826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 2159,
-          "name": "Marinakis, CHRISTOS",
-          "id": "6362801",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18534,8 +14834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 2163,
-          "name": "Sutherland, REID",
-          "id": "5928036",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18544,8 +14842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 2164,
-          "name": "Toler, DARREN",
-          "id": "6364550",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18554,8 +14850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 2168,
-          "name": "Kibbey, JUSTIN",
-          "id": "6359774",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18564,8 +14858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 2171,
-          "name": "Hankins, Dan",
-          "id": "6364686",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18574,8 +14866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 2172,
-          "name": "Lavelle, TIMOTHY",
-          "id": "6366547",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18584,8 +14874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 2174,
-          "name": "Dury, Joseph",
-          "id": "1213569",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18594,8 +14882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 2175,
-          "name": "Smith, DREW",
-          "id": "3358698",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18604,8 +14890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 2177,
-          "name": "Dormond, BRENT",
-          "id": "6365602",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18614,8 +14898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 2178,
-          "name": "Burnham, JEFFREY",
-          "id": "6359772",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18624,8 +14906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 2180,
-          "name": "Bennett, Andrew",
-          "id": "6379235",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18634,8 +14914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 2181,
-          "name": "Ruechel, Paul",
-          "id": "6362489",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18644,8 +14922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 2182,
-          "name": "Sugiyama, YUKI",
-          "id": "6362488",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18654,8 +14930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 2189,
-          "name": "Dorsey, CHRIS",
-          "id": "6384309",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18664,8 +14938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 2193,
-          "name": "Kleinheinz, Adam",
-          "id": "6384314",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18674,8 +14946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 2194,
-          "name": "Ng, PATRICK",
-          "id": "6384311",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18684,8 +14954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 2195,
-          "name": "Campbell, THOMAS",
-          "id": "6384218",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18694,8 +14962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 2198,
-          "name": "Dembek, WESLEY",
-          "id": "6364552",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18704,8 +14970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 2200,
-          "name": "Strand, GENE",
-          "id": "6396419",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18714,8 +14978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 2211,
-          "name": "Stasik, TROY",
-          "id": "6414800",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18724,8 +14986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 2212,
-          "name": "Ferrell, Dan",
-          "id": "6414799",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18734,8 +14994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 2215,
-          "name": "Eckels, SHAD",
-          "id": "6414805",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18744,8 +15002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 2221,
-          "name": "Centenera, GABRIEL",
-          "id": "6474986",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18754,8 +15010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 2222,
-          "name": "Pentoney, RODNEY",
-          "id": "6458795",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18764,8 +15018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 2224,
-          "name": "Cristler, SHAUN",
-          "id": "6473114",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18774,8 +15026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 2226,
-          "name": "Pace, CHRISTOPHER",
-          "id": "6520097",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18784,8 +15034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 2228,
-          "name": "Polanco, Jhonny",
-          "id": "0361609",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18794,8 +15042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 2230,
-          "name": "Baran, Mark",
-          "id": "6473118",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18804,8 +15050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 2234,
-          "name": "Frana, GREGORY",
-          "id": "6466114",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18814,8 +15058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 2240,
-          "name": "Owen, SCOTT",
-          "id": "6474450",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18824,8 +15066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 2241,
-          "name": "Webb, MICHAEL",
-          "id": "6476796",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18834,8 +15074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 2243,
-          "name": "Warden, MATTHEW",
-          "id": "6478990",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18844,8 +15082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 2245,
-          "name": "Kassahun, Ezra",
-          "id": "6473113",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18854,8 +15090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 2250,
-          "name": "Williams, TREVOR",
-          "id": "6485299",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18864,8 +15098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 2251,
-          "name": "Blanton, MICHAEL",
-          "id": "1647788",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18874,8 +15106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 2252,
-          "name": "Martinez, Edgar",
-          "id": "6498400",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18884,8 +15114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 2253,
-          "name": "Gallaher, Grayson",
-          "id": "6503225",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18894,8 +15122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 2254,
-          "name": "Beckman, Jasen",
-          "id": "6503781",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18904,8 +15130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 2255,
-          "name": "Pham, Ryan",
-          "id": "6502798",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18914,8 +15138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 2268,
-          "name": "Alamo JR, Carmelo",
-          "id": "7000468",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18924,8 +15146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 2280,
-          "name": "Wilchcombe Jr., MICHAEL",
-          "id": "7003320",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18934,8 +15154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 2282,
-          "name": "Jean-Charles, ANGEL",
-          "id": "7003240",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18944,8 +15162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 2301,
-          "name": "Zajia, JORGE",
-          "id": "7118979",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18954,8 +15170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 2313,
-          "name": "Thomas, JOSEPH",
-          "id": "7273358",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18964,8 +15178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 2315,
-          "name": "Chrysicopoulos, GEORGE",
-          "id": "7273348",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18974,8 +15186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 2317,
-          "name": "Solomon, Dan",
-          "id": "7273360",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18984,8 +15194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 2318,
-          "name": "Hartman, WILL",
-          "id": "7273342",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18994,8 +15202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 2321,
-          "name": "Shoup, ELLIOTT",
-          "id": "7273359",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19004,8 +15210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 2329,
-          "name": "Edwards III, REM",
-          "id": "7277100",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19014,8 +15218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 2331,
-          "name": "Ervin, Eric",
-          "id": "7276364",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19024,8 +15226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 2341,
-          "name": "Koppi, Mary Kay",
-          "id": "7276834",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19034,8 +15234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 2342,
-          "name": "Davis, BRIAN",
-          "id": "7276833",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19044,8 +15242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 2343,
-          "name": "Collazo III, HECTOR",
-          "id": "7276862",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19054,8 +15250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 2354,
-          "name": "Schweitzer, Pieter",
-          "id": "7278504",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19064,8 +15258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 2358,
-          "name": "Carson, Karl",
-          "id": "7278507",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19074,8 +15266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 2359,
-          "name": "Ottoson, ROB",
-          "id": "7278985",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19084,8 +15274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 2360,
-          "name": "Aalborg Jr., Jack",
-          "id": "7279018",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19094,8 +15282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 2361,
-          "name": "Mills, DARRYLL",
-          "id": "7279002",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19104,8 +15290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 2362,
-          "name": "Galloway Jr., LUKE",
-          "id": "1399001",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19114,8 +15298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 2363,
-          "name": "Govea, MARK",
-          "id": "7278983",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19124,8 +15306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 2364,
-          "name": "Hanley, JEFF",
-          "id": "7279003",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19134,8 +15314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 2365,
-          "name": "Oder, ALLEN",
-          "id": "7279004",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19144,8 +15322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 2378,
-          "name": "Haas, PAUL",
-          "id": "7282018",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19154,8 +15330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 2380,
-          "name": "Mararac, Carlos",
-          "id": "7282050",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19164,8 +15338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 2381,
-          "name": "Kusmez, BILL",
-          "id": "7282071",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19174,8 +15346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 2384,
-          "name": "Foster, SCOT",
-          "id": "7282033",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19184,8 +15354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 2386,
-          "name": "Salcedo, Joseph",
-          "id": "7282020",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19194,8 +15362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 2392,
-          "name": "Brown, Fraser",
-          "id": "7291330",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19204,8 +15370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 2405,
-          "name": "Christen, SAMUEL",
-          "id": "7291951",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19214,8 +15378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 2407,
-          "name": "Pedersen, Kenneth",
-          "id": "7291968",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19224,8 +15386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 2409,
-          "name": "Escobar, David",
-          "id": "7304540",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19234,8 +15394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 2411,
-          "name": "Brown Jr., MICHAEL",
-          "id": "7304353",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19244,8 +15402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 2420,
-          "name": "McCormick, DEREK",
-          "id": "7304538",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19254,8 +15410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 2423,
-          "name": "Busenitz, David",
-          "id": "7305644",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19264,8 +15418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 2433,
-          "name": "Whiteman, EDDIE",
-          "id": "7330624",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19274,8 +15426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 2434,
-          "name": "Asay, SETH",
-          "id": "7330632",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19284,8 +15434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 2445,
-          "name": "Houchins, Todd",
-          "id": "7332451",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19294,8 +15442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 2446,
-          "name": "Grunzinger III, RAYMOND",
-          "id": "7332456",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19304,8 +15450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 2447,
-          "name": "Guy, DAVID",
-          "id": "7332431",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19314,8 +15458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 2449,
-          "name": "Wolsey, MICHAEL",
-          "id": "7332420",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19324,8 +15466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 2452,
-          "name": "Lindgren, RICK",
-          "id": "7332453",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19334,8 +15474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 2453,
-          "name": "Siros, JAMES",
-          "id": "7332457",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19344,8 +15482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 2463,
-          "name": "Kleinhenz, Chris",
-          "id": "7355404",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19354,8 +15490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 2476,
-          "name": "Kociban, Chris",
-          "id": "7355578",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19364,8 +15498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 2495,
-          "name": "Cruz Hernandez, Fernand",
-          "id": "7381901",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19374,8 +15506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 2496,
-          "name": "Andrews, BILLY",
-          "id": "7383978",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19384,8 +15514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 2498,
-          "name": "Yerxa, CHRISTIAN",
-          "id": "7383956",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19394,8 +15522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 2514,
-          "name": "Bowden, STEVEN",
-          "id": "7406377",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19404,8 +15530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 2531,
-          "name": "Humphrey, THOMAS",
-          "id": "7409703",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19414,8 +15538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 2537,
-          "name": "Matteau, LYDIA",
-          "id": "4777319",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19424,8 +15546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 2540,
-          "name": "Benson, Lance",
-          "id": "7431868",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19434,8 +15554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 2550,
-          "name": "Triplett III, Henry",
-          "id": "7434232",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19444,8 +15562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 2577,
-          "name": "Barnett, Timothy",
-          "id": "7703057",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19454,8 +15570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 2581,
-          "name": "Franzen, MIKE",
-          "id": "7705716",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19464,8 +15578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 2582,
-          "name": "Marrs, ROBERT",
-          "id": "7705923",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19474,8 +15586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 2584,
-          "name": "Cirulis, Karl",
-          "id": "7705660",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19484,8 +15594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 2587,
-          "name": "Clements, Benjamin",
-          "id": "7705818",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19494,8 +15602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 2610,
-          "name": "Luna III, SERGIO",
-          "id": "7718476",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19504,8 +15610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 2620,
-          "name": "Alves Motta, CARLOS",
-          "id": "7723916",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19514,8 +15618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 2636,
-          "name": "Blase, John",
-          "id": "7724683",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19524,8 +15626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 2643,
-          "name": "Sutherland, MARTIN",
-          "id": "7735084",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19534,8 +15634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 2660,
-          "name": "Norwood, KAREN",
-          "id": "7735998",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19544,8 +15642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 2662,
-          "name": "Everett, DEVYN",
-          "id": "7736017",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19554,8 +15650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 2664,
-          "name": "Cruz Jr., MIKE",
-          "id": "7735946",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19564,8 +15658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 2667,
-          "name": "Rember, JONATHAN",
-          "id": "7736059",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19574,8 +15666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 2674,
-          "name": "Burt, ROBBIE",
-          "id": "7751863",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19584,8 +15674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 2676,
-          "name": "Newman, Adam",
-          "id": "7751799",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19594,8 +15682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 2677,
-          "name": "Aloan, MARCIO",
-          "id": "7751806",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19604,8 +15690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 2697,
-          "name": "Scott, Robert",
-          "id": "7753238",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19614,8 +15698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 2700,
-          "name": "Bainbridge, PAUL-MICHAE",
-          "id": "7753281",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19624,8 +15706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 2701,
-          "name": "Verrill, JOHN",
-          "id": "7753167",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19634,8 +15714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 2702,
-          "name": "Brockman, DAVID",
-          "id": "7753333",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19644,8 +15722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 2703,
-          "name": "Ng, JEREMY",
-          "id": "7753616",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19654,8 +15730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 2705,
-          "name": "Bennett, ERIC",
-          "id": "7753168",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19664,8 +15738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 2706,
-          "name": "Roberts, SPENCER",
-          "id": "7753406",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19674,8 +15746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 2711,
-          "name": "Hall, JOSHUA",
-          "id": "7753331",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19684,8 +15754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 2724,
-          "name": "Fitzharris, JUSTIN",
-          "id": "7771932",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19694,8 +15762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 2735,
-          "name": "Losievsky, Joseph",
-          "id": "7773588",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19704,8 +15770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 2747,
-          "name": "Cecil, Stephen",
-          "id": "7773587",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19714,8 +15778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 2755,
-          "name": "McMaster Jr., JT",
-          "id": "7773538",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19724,8 +15786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 244,
           "sen": 2757,
-          "name": "James Jr., Johnmark",
-          "id": "5149945",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19734,8 +15794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 245,
           "sen": 2775,
-          "name": "Hilliker, JESSE",
-          "id": "7796910",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19744,8 +15802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 246,
           "sen": 2777,
-          "name": "Young III, ROBERT",
-          "id": "7796241",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19754,8 +15810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 247,
           "sen": 2781,
-          "name": "Rosensweet, ADAM",
-          "id": "7796157",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19764,8 +15818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 248,
           "sen": 2784,
-          "name": "Berry, AARON",
-          "id": "7795769",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19774,8 +15826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 249,
           "sen": 2787,
-          "name": "Smith, BRANDON",
-          "id": "1801580",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19784,8 +15834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 250,
           "sen": 2790,
-          "name": "Geyer, MICHAEL",
-          "id": "1776284",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19794,8 +15842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 251,
           "sen": 2817,
-          "name": "Sexton Jr., Thomas",
-          "id": "7826772",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19804,8 +15850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 252,
           "sen": 2819,
-          "name": "Herschbach, JOEY",
-          "id": "7826748",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19814,8 +15858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 253,
           "sen": 2853,
-          "name": "Kolbusz-Buttaca, DELANE",
-          "id": "7847200",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19824,8 +15866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 254,
           "sen": 2854,
-          "name": "Cain, SHALEN",
-          "id": "7847172",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19834,8 +15874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 255,
           "sen": 2855,
-          "name": "Crume, JEREMY",
-          "id": "7847199",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19844,8 +15882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 256,
           "sen": 2859,
-          "name": "Minzes, MATTHEW",
-          "id": "7847153",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19854,8 +15890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 257,
           "sen": 2864,
-          "name": "Taranto, JONATHAN",
-          "id": "7847201",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19864,8 +15898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 258,
           "sen": 2892,
-          "name": "Berkey, KARL",
-          "id": "7875834",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19874,8 +15906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 259,
           "sen": 2906,
-          "name": "Schwall, Matthew",
-          "id": "7875998",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19884,8 +15914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 260,
           "sen": 2910,
-          "name": "Thesiger, CHARLES",
-          "id": "7917291",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19894,8 +15922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 261,
           "sen": 2911,
-          "name": "Romero Kruger, Rene",
-          "id": "7917222",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19904,8 +15930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 262,
           "sen": 2912,
-          "name": "Sherrod, NICK",
-          "id": "7917273",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19914,8 +15938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 263,
           "sen": 2932,
-          "name": "Tidball, IAN",
-          "id": "7920318",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19924,8 +15946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 264,
           "sen": 2934,
-          "name": "Dinh, JOHN",
-          "id": "7920053",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19934,8 +15954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 265,
           "sen": 2951,
-          "name": "Lazzaro, ANDREA",
-          "id": "7920001",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19944,8 +15962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 266,
           "sen": 2974,
-          "name": "Dejaco, CURTIS",
-          "id": "8130926",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19954,8 +15970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 267,
           "sen": 2981,
-          "name": "King, KEVIN",
-          "id": "0321976",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19964,8 +15978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 268,
           "sen": 2982,
-          "name": "Williams-Ettien, DANYEL",
-          "id": "8166943",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19974,8 +15986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 269,
           "sen": 2985,
-          "name": "Skavdal, NATHAN",
-          "id": "8166948",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19984,8 +15994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 270,
           "sen": 2991,
-          "name": "Ozyjowski, JAMES",
-          "id": "8172731",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19994,8 +16002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 271,
           "sen": 3036,
-          "name": "Curtin, SEAN",
-          "id": "8529006",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20004,8 +16010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 272,
           "sen": 3040,
-          "name": "Baker, JOHN",
-          "id": "8528736",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20014,8 +16018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 273,
           "sen": 3041,
-          "name": "Rushmore, JOHN",
-          "id": "8528770",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20024,8 +16026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 274,
           "sen": 3056,
-          "name": "Riffle, DON",
-          "id": "8544960",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20034,8 +16034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 275,
           "sen": 3057,
-          "name": "Caterinichio, GUS",
-          "id": "8542921",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20044,8 +16042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 276,
           "sen": 3069,
-          "name": "Gilreath, JOSHUA",
-          "id": "8546208",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20054,8 +16050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 277,
           "sen": 3070,
-          "name": "Lewis, ANDREW",
-          "id": "8545840",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20064,8 +16058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 278,
           "sen": 3091,
-          "name": "Urquhart, STEVE",
-          "id": "8560229",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20074,8 +16066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 279,
           "sen": 3101,
-          "name": "Fallon, MICHAEL",
-          "id": "8559231",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20084,8 +16074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 280,
           "sen": 3103,
-          "name": "Rush, Joseph",
-          "id": "8559255",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20094,8 +16082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 281,
           "sen": 3105,
-          "name": "Burgart Jr, Taylor",
-          "id": "8559227",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20104,8 +16090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 282,
           "sen": 3108,
-          "name": "Zabilansky, Justin",
-          "id": "8560292",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20114,8 +16098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 283,
           "sen": 3114,
-          "name": "Miller, Jake",
-          "id": "8580826",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20124,8 +16106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 284,
           "sen": 3116,
-          "name": "Melsby, Robert",
-          "id": "8575924",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20134,8 +16114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 285,
           "sen": 3122,
-          "name": "Parker, John",
-          "id": "8575932",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20144,8 +16122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 286,
           "sen": 3128,
-          "name": "Bader, Stephanie",
-          "id": "8575977",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20154,8 +16130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 287,
           "sen": 3134,
-          "name": "Skelley, Austin",
-          "id": "8576014",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20164,8 +16138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 288,
           "sen": 3140,
-          "name": "Madison, Nick",
-          "id": "8576037",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20174,8 +16146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 289,
           "sen": 3148,
-          "name": "Mylonas, Dimitri",
-          "id": "8577643",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20184,8 +16154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 290,
           "sen": 3191,
-          "name": "Ebanks, Andrew",
-          "id": "8644623",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20194,8 +16162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 291,
           "sen": 3204,
-          "name": "Contreras, John",
-          "id": "8701054",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20204,8 +16170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 292,
           "sen": 3205,
-          "name": "Gannon, Christopher",
-          "id": "8701588",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20214,8 +16178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 293,
           "sen": 3208,
-          "name": "Johnson, Clint",
-          "id": "3322516",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20224,8 +16186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 294,
           "sen": 3213,
-          "name": "Duffy, Tom",
-          "id": "8701581",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20234,8 +16194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 295,
           "sen": 3214,
-          "name": "Palan Jr, Kirk",
-          "id": "8701675",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20244,8 +16202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 296,
           "sen": 3238,
-          "name": "Eulberg, Justin",
-          "id": "8859714",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20254,8 +16210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 297,
           "sen": 3242,
-          "name": "Aguayo, Andrea",
-          "id": "8859438",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20264,8 +16218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 298,
           "sen": 3274,
-          "name": "Egan, Josh",
-          "id": "8945083",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20274,8 +16226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 299,
           "sen": 3277,
-          "name": "Ribeiro Ferraz, Paulo C",
-          "id": "8945085",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20284,8 +16234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 300,
           "sen": 3282,
-          "name": "Doenitz, Andrew",
-          "id": "8945078",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20294,8 +16242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 301,
           "sen": 3285,
-          "name": "Gengenbach, Gareth",
-          "id": "8945086",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20304,8 +16250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 302,
           "sen": 3292,
-          "name": "Haney, MARC",
-          "id": "8950167",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20314,8 +16258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 303,
           "sen": 3293,
-          "name": "Rose, SCOTT",
-          "id": "8950174",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20324,8 +16266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 304,
           "sen": 3295,
-          "name": "Hovanas, JOSH",
-          "id": "8950168",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20334,8 +16274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 305,
           "sen": 3314,
-          "name": "Kreykes, JOE",
-          "id": "8955520",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20344,8 +16282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 306,
           "sen": 3316,
-          "name": "Kinders, CASEY",
-          "id": "1591178",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20354,8 +16290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 307,
           "sen": 3318,
-          "name": "Peters, AJ",
-          "id": "8955526",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20364,8 +16298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 308,
           "sen": 3334,
-          "name": "Maccallum, SCOTT",
-          "id": "8969367",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20374,8 +16306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 309,
           "sen": 3335,
-          "name": "Tributino Da Si, JOAO",
-          "id": "8969361",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20384,8 +16314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 310,
           "sen": 3337,
-          "name": "Blake, SEAN",
-          "id": "8969358",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20394,8 +16322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 311,
           "sen": 3338,
-          "name": "Bock, TOM",
-          "id": "8969359",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20404,8 +16330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 312,
           "sen": 3340,
-          "name": "Laner, ALEX",
-          "id": "8969365",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20414,8 +16338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 313,
           "sen": 3356,
-          "name": "Davis III, KENNETH",
-          "id": "8986962",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20424,8 +16346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 314,
           "sen": 3357,
-          "name": "Koehler, MICHAEL",
-          "id": "8986162",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20434,8 +16354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 315,
           "sen": 3368,
-          "name": "Boyle III, CHARLES",
-          "id": "9004356",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20444,8 +16362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 316,
           "sen": 3369,
-          "name": "Kruse IV, ED",
-          "id": "9003847",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20454,8 +16370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 317,
           "sen": 3373,
-          "name": "Wilhite, JAKE",
-          "id": "9003876",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20464,8 +16378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 318,
           "sen": 3392,
-          "name": "Rowland, CHARLES",
-          "id": "9016938",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20474,8 +16386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 319,
           "sen": 3393,
-          "name": "Ciaffoni, CRAIG",
-          "id": "3457011",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20484,8 +16394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 320,
           "sen": 3395,
-          "name": "Szmajda, RYAN",
-          "id": "9016941",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20494,8 +16402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 321,
           "sen": 3418,
-          "name": "Roth, ADAM",
-          "id": "9032676",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20504,8 +16410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 322,
           "sen": 3419,
-          "name": "Salazar, JAMES",
-          "id": "9032678",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20514,8 +16418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 323,
           "sen": 3435,
-          "name": "Canli, JOHN",
-          "id": "9077218",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20524,8 +16426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 324,
           "sen": 3437,
-          "name": "Hough, JEREMY",
-          "id": "9081865",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20534,8 +16434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 325,
           "sen": 3443,
-          "name": "Williams Jr., BRYAN",
-          "id": "9077668",
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -20548,8 +16446,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 8,
-          "name": "Coe, DIANE",
-          "id": "0555178",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20558,8 +16454,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 22,
-          "name": "Povich, JOHN",
-          "id": "0554728",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20568,8 +16462,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 29,
-          "name": "Hedrick, MARK",
-          "id": "0555044",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20578,8 +16470,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 34,
-          "name": "Sutton, BRENT",
-          "id": "0555027",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20588,8 +16478,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 38,
-          "name": "Dieter, GLENN",
-          "id": "0554952",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20598,8 +16486,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 48,
-          "name": "Norton, TOM",
-          "id": "0555734",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20608,8 +16494,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 50,
-          "name": "Kaiser, MARK A.",
-          "id": "0556464",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20618,8 +16502,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 54,
-          "name": "Esposito, RALPH",
-          "id": "0556663",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20628,8 +16510,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 80,
-          "name": "Rodriguez, Nelson A.",
-          "id": "0555204",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20638,8 +16518,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 90,
-          "name": "Johnson III, MILLER",
-          "id": "0555093",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20648,8 +16526,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 95,
-          "name": "Thompson, DAVID C",
-          "id": "0556328",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20658,8 +16534,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 106,
-          "name": "Waller, LOUIS W.",
-          "id": "0556240",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20668,8 +16542,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 113,
-          "name": "Dillard, PETE",
-          "id": "0554642",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20678,8 +16550,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 149,
-          "name": "Paylor, EDWARD",
-          "id": "0555276",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20688,8 +16558,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 166,
-          "name": "Morales, MAURICIO",
-          "id": "0554505",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20698,8 +16566,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 173,
-          "name": "Battle, JUBY",
-          "id": "0555221",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20708,8 +16574,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 177,
-          "name": "Falter, DAVID",
-          "id": "0554860",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20718,8 +16582,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 202,
-          "name": "Elizee, RICHARD",
-          "id": "0557180",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20728,8 +16590,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 223,
-          "name": "Benzaquen, ALBERTO",
-          "id": "0557221",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20738,8 +16598,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 247,
-          "name": "Kottcamp, ROBERT",
-          "id": "0554748",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20748,8 +16606,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 248,
-          "name": "Elm, JOSEPH",
-          "id": "0554740",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20758,8 +16614,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 259,
-          "name": "Andon, JOHN",
-          "id": "0554346",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20768,8 +16622,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 279,
-          "name": "Russo, GREG",
-          "id": "0555558",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20778,8 +16630,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 281,
-          "name": "Mendez Molina, CARLOS",
-          "id": "0557223",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20788,8 +16638,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 312,
-          "name": "Barlow, GEORGE",
-          "id": "0555150",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20798,8 +16646,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 326,
-          "name": "Hogan, JOHN",
-          "id": "0554850",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20808,8 +16654,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 342,
-          "name": "Curlee, PAUL",
-          "id": "0555014",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20818,8 +16662,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 355,
-          "name": "Kristoffersen, KARL",
-          "id": "0556168",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20828,8 +16670,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 366,
-          "name": "Donnelly-Mclay, DEBORAH",
-          "id": "0554436",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20838,8 +16678,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 414,
-          "name": "Hansen, GRANT",
-          "id": "0555231",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20848,8 +16686,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 421,
-          "name": "Rashkow, RANDALL",
-          "id": "0857429",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20858,8 +16694,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 474,
-          "name": "Lillquist, CARL M.",
-          "id": "1069556",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20868,8 +16702,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 479,
-          "name": "Contee Jr., CLAY",
-          "id": "1069510",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20878,8 +16710,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 490,
-          "name": "Wilson, MICHAEL F.",
-          "id": "1086555",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20888,8 +16718,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 530,
-          "name": "Fazekas, CARL K.",
-          "id": "1181007",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20898,8 +16726,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 538,
-          "name": "Farahmandfar, MATT",
-          "id": "1199300",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20908,8 +16734,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 569,
-          "name": "Papes, ROBERT F.",
-          "id": "1225365",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20918,8 +16742,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 584,
-          "name": "Matthews, KEN L.",
-          "id": "1237318",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20928,8 +16750,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 655,
-          "name": "Hencken, Gray",
-          "id": "1314729",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20938,8 +16758,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 669,
-          "name": "Carbonero, David",
-          "id": "1776897",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20948,8 +16766,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 684,
-          "name": "Jones Jr., PAUL",
-          "id": "1791338",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20958,8 +16774,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 690,
-          "name": "Scotchman, JEFF",
-          "id": "1791340",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20968,8 +16782,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 697,
-          "name": "Oswald, ROB",
-          "id": "1793497",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20978,8 +16790,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 710,
-          "name": "Freeman, ERIC",
-          "id": "1797623",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20988,8 +16798,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 715,
-          "name": "Daniels, Robert",
-          "id": "1797627",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20998,8 +16806,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 750,
-          "name": "Hewitt, SHELDON",
-          "id": "1808985",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21008,8 +16814,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 854,
-          "name": "White, PAUL",
-          "id": "1862090",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21018,8 +16822,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 862,
-          "name": "Tiedge, CHRISTA",
-          "id": "1872268",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21028,8 +16830,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 871,
-          "name": "Folks, BRENT",
-          "id": "1383670",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21038,8 +16838,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 970,
-          "name": "Bane, Russell",
-          "id": "2074094",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21048,8 +16846,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 990,
-          "name": "Carrera, Jorge",
-          "id": "2090357",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21058,8 +16854,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1035,
-          "name": "Norby, Jacob",
-          "id": "2176582",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21068,8 +16862,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1041,
-          "name": "Rocker, STEVEN",
-          "id": "3163545",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21078,8 +16870,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 1157,
-          "name": "Rueda, Frank",
-          "id": "3213909",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21088,8 +16878,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 1230,
-          "name": "Waugh, CHRISTINA",
-          "id": "4239019",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21098,8 +16886,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 1272,
-          "name": "De Sosa, JON",
-          "id": "4444432",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21108,8 +16894,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 1365,
-          "name": "Roemmich, DEAN",
-          "id": "0015192",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21118,8 +16902,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 1370,
-          "name": "Deutsch, Amaury",
-          "id": "4762594",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21128,8 +16910,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 1375,
-          "name": "Zolnierek, JAMIE",
-          "id": "4781881",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21138,8 +16918,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 1380,
-          "name": "Bramwell Jr., COURTNEY",
-          "id": "4754265",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21148,8 +16926,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 1381,
-          "name": "Strait, Perry",
-          "id": "4767015",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21158,8 +16934,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 1409,
-          "name": "Wormuth, THOMAS",
-          "id": "4899592",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21168,8 +16942,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 1470,
-          "name": "Young, John",
-          "id": "5061175",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21178,8 +16950,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 1481,
-          "name": "Medeiros, MARCELO",
-          "id": "5069129",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21188,8 +16958,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 1522,
-          "name": "Pratt, ZACHARY",
-          "id": "5074171",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21198,8 +16966,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 1560,
-          "name": "Edrei, Alexandre",
-          "id": "5094816",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21208,8 +16974,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 1565,
-          "name": "Brantley, JAMES",
-          "id": "5094813",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21218,8 +16982,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 1566,
-          "name": "Rosenthal Aliag, Carlos",
-          "id": "5101571",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21228,8 +16990,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 1599,
-          "name": "Coronado, Julio",
-          "id": "5094815",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21238,8 +16998,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 1626,
-          "name": "Mc Farlane, DANTE",
-          "id": "5148035",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21248,8 +17006,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 1630,
-          "name": "Honderd, Ari",
-          "id": "5151032",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21258,8 +17014,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 1672,
-          "name": "Thomas III, BILL",
-          "id": "5279717",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21268,8 +17022,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 1708,
-          "name": "Butler, ROSS",
-          "id": "5473807",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21278,8 +17030,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 1728,
-          "name": "Masino, ERIC",
-          "id": "5474032",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21288,8 +17038,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 1745,
-          "name": "Milosavljevic, NIKO",
-          "id": "5508297",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21298,8 +17046,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 1747,
-          "name": "Maloney, JIM",
-          "id": "5490008",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21308,8 +17054,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 1758,
-          "name": "Brumar, ADRIAN",
-          "id": "5490006",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21318,8 +17062,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 1761,
-          "name": "Chapela, DIEGO",
-          "id": "5478944",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21328,8 +17070,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 1762,
-          "name": "Villasana, GABE",
-          "id": "5511423",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21338,8 +17078,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 1797,
-          "name": "Jones, CRAIG",
-          "id": "5497101",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21348,8 +17086,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 1845,
-          "name": "Maensivu, JUHA",
-          "id": "5597608",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21358,8 +17094,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 1858,
-          "name": "Riley Jr., Willie",
-          "id": "5687699",
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21370,8 +17104,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 241,
-          "name": "Besu, TIB",
-          "id": "0555720",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21380,8 +17112,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 293,
-          "name": "Arguelles, BENNY",
-          "id": "0554615",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21390,8 +17120,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 351,
-          "name": "Berris, HERSCHEL",
-          "id": "0554659",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21400,8 +17128,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 363,
-          "name": "Wiedenmann, DAVID",
-          "id": "0557212",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21410,8 +17136,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 506,
-          "name": "Carter, CHRISTOPHE",
-          "id": "1114383",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21420,8 +17144,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 743,
-          "name": "Mugrage, CHRISTINE",
-          "id": "1809083",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21430,8 +17152,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 807,
-          "name": "Pyburn, MICHAEL",
-          "id": "1838164",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21440,8 +17160,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 811,
-          "name": "Collier, Keith",
-          "id": "1844154",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21450,8 +17168,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 927,
-          "name": "Howard, DEREK",
-          "id": "2037161",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21460,8 +17176,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 931,
-          "name": "Benfield, KIM",
-          "id": "2037157",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21470,8 +17184,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 1010,
-          "name": "Rackard, Bryan",
-          "id": "2172495",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21480,8 +17192,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 1020,
-          "name": "Englehart, DALLAS",
-          "id": "2176711",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21490,8 +17200,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1179,
-          "name": "Roy-Larentry, ELISABETH",
-          "id": "3235662",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21500,8 +17208,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1508,
-          "name": "Sterling, GRANT",
-          "id": "5070454",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21510,8 +17216,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1944,
-          "name": "Sobers Garcia, CHRISTIA",
-          "id": "5925680",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21520,8 +17224,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1995,
-          "name": "Gower, MARK",
-          "id": "5948186",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21530,8 +17232,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1997,
-          "name": "Hart, SIMON",
-          "id": "5932407",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21540,8 +17240,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 2019,
-          "name": "Douglass, Jared",
-          "id": "5936133",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21550,8 +17248,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 2036,
-          "name": "Gomez, CARLOS",
-          "id": "5984384",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21560,8 +17256,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 2055,
-          "name": "Lara, CARLOS",
-          "id": "6005030",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21570,8 +17264,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 2068,
-          "name": "Rodriguez, LUIS",
-          "id": "6071699",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21580,8 +17272,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 2105,
-          "name": "Rios, DOUGLAS",
-          "id": "6294787",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21590,8 +17280,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 2148,
-          "name": "Neal, PRINCE",
-          "id": "6303583",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21600,8 +17288,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 2179,
-          "name": "Corona, CHRIS",
-          "id": "6364551",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21610,8 +17296,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 2214,
-          "name": "Brandt, CARLOS",
-          "id": "6414804",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21620,8 +17304,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 2217,
-          "name": "Verga, RAFAEL",
-          "id": "6414803",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21630,8 +17312,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 2219,
-          "name": "Gole, TONY",
-          "id": "6414806",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21640,8 +17320,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 2231,
-          "name": "Osborne, JEREMY",
-          "id": "6468837",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21650,8 +17328,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 2238,
-          "name": "Cole, ADAM",
-          "id": "6478995",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21660,8 +17336,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 2267,
-          "name": "Sapag, THIAGO",
-          "id": "6502124",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21670,8 +17344,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 2269,
-          "name": "Avila, EITEL",
-          "id": "7000663",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21680,8 +17352,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 2286,
-          "name": "Roselio, J",
-          "id": "7017911",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21690,8 +17360,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 2295,
-          "name": "Calazans, PAULO",
-          "id": "7118423",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21700,8 +17368,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 2314,
-          "name": "Perez, RAMIRO",
-          "id": "7273356",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21710,8 +17376,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 2316,
-          "name": "Perdue, MADELEINE",
-          "id": "7273353",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21720,8 +17384,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 2333,
-          "name": "Medau, CARLOS",
-          "id": "7276357",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21730,8 +17392,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 2370,
-          "name": "Marin, JULIAN",
-          "id": "7281789",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21740,8 +17400,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 2408,
-          "name": "Rodriguez, EDSEL",
-          "id": "7304489",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21750,8 +17408,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 2424,
-          "name": "White, ANTHONY",
-          "id": "7305627",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21760,8 +17416,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 2448,
-          "name": "Lee, DUSTY",
-          "id": "7332432",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21770,8 +17424,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 2473,
-          "name": "Kimberly, DAN",
-          "id": "7355489",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21780,8 +17432,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 2485,
-          "name": "Oliva, EMIL",
-          "id": "7381948",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21790,8 +17440,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 2497,
-          "name": "Peters, ROHAN",
-          "id": "7383954",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21800,8 +17448,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 2525,
-          "name": "Burke, KRISTIN",
-          "id": "7409530",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21810,8 +17456,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 2528,
-          "name": "Noach, LIOR",
-          "id": "7409607",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21820,8 +17464,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 2552,
-          "name": "Almeida, BRUNO",
-          "id": "7434231",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21830,8 +17472,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 2566,
-          "name": "Azpurua Sr., MARIO",
-          "id": "7544781",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21840,8 +17480,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 2571,
-          "name": "Malan, MARK",
-          "id": "7700248",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21850,8 +17488,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 2601,
-          "name": "Jensen, JAKE",
-          "id": "7718373",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21860,8 +17496,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 2657,
-          "name": "Campbell, RAEBURN",
-          "id": "7735039",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21870,8 +17504,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 2694,
-          "name": "Ruppel Rolim, ALESSANDR",
-          "id": "7753251",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21880,8 +17512,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 2696,
-          "name": "Shimyou, NEIL",
-          "id": "7753878",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21890,8 +17520,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 2704,
-          "name": "Fernandez Garci, Omar",
-          "id": "7753287",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21900,8 +17528,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 2791,
-          "name": "Tomaselli, ANDREA",
-          "id": "7796240",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21910,8 +17536,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 2816,
-          "name": "Reuscher, Britain",
-          "id": "7824850",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21920,8 +17544,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 2822,
-          "name": "Harding, JOSEPH",
-          "id": "7826734",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21930,8 +17552,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 2852,
-          "name": "Demio, Al",
-          "id": "7847417",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21940,8 +17560,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 2888,
-          "name": "Kitchen Jr., Gregory",
-          "id": "7875835",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21950,8 +17568,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 2937,
-          "name": "Mundy, ZACHARY",
-          "id": "7920058",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21960,8 +17576,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 2942,
-          "name": "Armstrong, JASON",
-          "id": "7919961",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21970,8 +17584,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 2976,
-          "name": "Quinn, RYAN",
-          "id": "8130874",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21980,8 +17592,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 2987,
-          "name": "Leonardes, Anton",
-          "id": "8166938",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21990,8 +17600,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 2990,
-          "name": "Gramulha, Ricardo",
-          "id": "8172716",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22000,8 +17608,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 2999,
-          "name": "Brooks, Jasen",
-          "id": "8518263",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22010,8 +17616,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 3038,
-          "name": "Fredotovic, Boyan",
-          "id": "1574184",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22020,8 +17624,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 3135,
-          "name": "Anoshkin, Igor",
-          "id": "8575975",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22030,8 +17632,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 3165,
-          "name": "Walker, Peter",
-          "id": "8602837",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22040,8 +17640,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 3166,
-          "name": "Ellington, Kenneth",
-          "id": "8602709",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22050,8 +17648,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 3240,
-          "name": "Robbins, Matt",
-          "id": "8860114",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22060,8 +17656,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 3273,
-          "name": "Walters, Edgardo",
-          "id": "8945100",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22070,8 +17664,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 3275,
-          "name": "De Grandis Puch, Marcus",
-          "id": "8945089",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22080,8 +17672,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 3280,
-          "name": "Russell, Ronaqua",
-          "id": "8945096",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22090,8 +17680,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 3291,
-          "name": "Fernandes Ziolk, RODRIG",
-          "id": "8950166",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22100,8 +17688,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 3297,
-          "name": "Karaboev, BEK",
-          "id": "8950288",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22110,8 +17696,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 3339,
-          "name": "Sebastiani, RENZO",
-          "id": "8969375",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22120,8 +17704,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 3390,
-          "name": "Etchart Vidal, ALEX",
-          "id": "9016792",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22130,8 +17712,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 3436,
-          "name": "Porta, MANUEL",
-          "id": "9077508",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22140,8 +17720,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 3450,
-          "name": "Busto, DOM",
-          "id": "9077201",
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -22154,8 +17732,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 11,
-          "name": "Skinner, Craig W.",
-          "id": "0554663",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22164,8 +17740,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 16,
-          "name": "Hazuda, RONALD M.",
-          "id": "0554833",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22174,8 +17748,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 19,
-          "name": "Osborne, KATHY",
-          "id": "0555995",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22184,8 +17756,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 23,
-          "name": "Robison, RON",
-          "id": "0556588",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22194,8 +17764,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 24,
-          "name": "Bodhaine Jr., DOUGLAS",
-          "id": "0556775",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22204,8 +17772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 41,
-          "name": "Davis, BARRY",
-          "id": "0556587",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22214,8 +17780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 44,
-          "name": "Secor, John",
-          "id": "0555438",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22224,8 +17788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 45,
-          "name": "Brown, BOB J.",
-          "id": "0555780",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22234,8 +17796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 56,
-          "name": "Buckey, DOUGLAS A.",
-          "id": "0555326",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22244,8 +17804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 57,
-          "name": "Viner III, JAMES W.",
-          "id": "0556242",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22254,8 +17812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 68,
-          "name": "Mayrose, JEFFREY T",
-          "id": "0555379",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22264,8 +17820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 69,
-          "name": "Evans, MARK E.",
-          "id": "0556797",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22274,8 +17828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 70,
-          "name": "Coughlan, CALEY T.",
-          "id": "0555571",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22284,8 +17836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 76,
-          "name": "Grueninger, MARK D.",
-          "id": "0555577",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22294,8 +17844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 83,
-          "name": "Koch, ANDREW F",
-          "id": "0554983",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22304,8 +17852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 93,
-          "name": "Aycock, KENT D",
-          "id": "0555123",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22314,8 +17860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 108,
-          "name": "Kaine, GLENN",
-          "id": "0556968",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22324,8 +17868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 116,
-          "name": "Dowling, Jeffrey T.",
-          "id": "0555568",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22334,8 +17876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 124,
-          "name": "Derby, CYNTHIA K.",
-          "id": "0555541",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22344,8 +17884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 127,
-          "name": "Belton Jr., JOHN F.",
-          "id": "0554462",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22354,8 +17892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 133,
-          "name": "Owens, PETE",
-          "id": "0555096",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22364,8 +17900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 140,
-          "name": "Hardin, JEFF",
-          "id": "0554639",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22374,8 +17908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 162,
-          "name": "Grubbs, STEVEN",
-          "id": "0555448",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22384,8 +17916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 168,
-          "name": "Michaud, JOHN",
-          "id": "0556806",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22394,8 +17924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 178,
-          "name": "Shanholtz, KENT",
-          "id": "0554974",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22404,8 +17932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 179,
-          "name": "Grubb, Eric",
-          "id": "0554767",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22414,8 +17940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 180,
-          "name": "Attardo, CIRO",
-          "id": "0554684",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22424,8 +17948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 182,
-          "name": "Smaney, STEVEN",
-          "id": "0557030",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22434,8 +17956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 186,
-          "name": "Carico II, DEAN",
-          "id": "0554924",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22444,8 +17964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 197,
-          "name": "Eneix, DAVID",
-          "id": "0554562",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22454,8 +17972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 208,
-          "name": "Butler III, RANDY",
-          "id": "0556228",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22464,8 +17980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 210,
-          "name": "Eisenmann, DANIEL",
-          "id": "0555530",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22474,8 +17988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 211,
-          "name": "Johnston, JEFFREY S.",
-          "id": "0555431",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22484,8 +17996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 216,
-          "name": "Kratholm, LARS D.",
-          "id": "0555408",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22494,8 +18004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 222,
-          "name": "Van Havel, JEFFREY",
-          "id": "0555689",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22504,8 +18012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 232,
-          "name": "Snow, David",
-          "id": "0555000",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22514,8 +18020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 250,
-          "name": "Hanson, BRAD",
-          "id": "0556662",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22524,8 +18028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 255,
-          "name": "Wiegel, DIANE",
-          "id": "0556514",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22534,8 +18036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 260,
-          "name": "Bricker, TIMOTHY",
-          "id": "0554859",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22544,8 +18044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 264,
-          "name": "Antolick, DAVID",
-          "id": "0554803",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22554,8 +18052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 265,
-          "name": "Rodell, PAUL",
-          "id": "0555294",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22564,8 +18060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 266,
-          "name": "Robbeloth, Ken",
-          "id": "0555434",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22574,8 +18068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 271,
-          "name": "Williams, JEFFREY",
-          "id": "0555522",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22584,8 +18076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 272,
-          "name": "Cook, RANDAL",
-          "id": "0555232",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22594,8 +18084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 273,
-          "name": "Flynn, JACK",
-          "id": "0554393",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22604,8 +18092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 285,
-          "name": "Hibbler Jr., JIM",
-          "id": "0556179",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22614,8 +18100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 289,
-          "name": "Piche, PATRICK",
-          "id": "0555084",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22624,8 +18108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 297,
-          "name": "Marquardt, JIM",
-          "id": "0555629",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22634,8 +18116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 314,
-          "name": "Moody Jr., MICHAEL",
-          "id": "0554532",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22644,8 +18124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 315,
-          "name": "Bohling, Michael",
-          "id": "0555394",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22654,8 +18132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 316,
-          "name": "Stober, MARK",
-          "id": "0555965",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22664,8 +18140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 329,
-          "name": "Lund, GEORGE",
-          "id": "0556469",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22674,8 +18148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 345,
-          "name": "Dayton, TED",
-          "id": "0555353",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22684,8 +18156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 356,
-          "name": "Sirohman, ANTHONY",
-          "id": "0555359",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22694,8 +18164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 358,
-          "name": "Roup, Mark",
-          "id": "0555344",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22704,8 +18172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 359,
-          "name": "Morrison, MICHAEL",
-          "id": "0554944",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22714,8 +18180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 364,
-          "name": "Nelson, CARL",
-          "id": "0554676",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22724,8 +18188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 371,
-          "name": "Jewett, MARK",
-          "id": "0554703",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22734,8 +18196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 372,
-          "name": "Eichler, JEFFREY",
-          "id": "0555707",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22744,8 +18204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 376,
-          "name": "Threlkeld, JOHN",
-          "id": "0554628",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22754,8 +18212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 381,
-          "name": "Grant, ROBERT",
-          "id": "0557095",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22764,8 +18220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 386,
-          "name": "Cleary, DAVID",
-          "id": "0555390",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22774,8 +18228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 388,
-          "name": "Schmidt, DANIEL",
-          "id": "0555733",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22784,8 +18236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 398,
-          "name": "Fender, GREGORY",
-          "id": "0555258",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22794,8 +18244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 430,
-          "name": "Mazarakis, PERRY",
-          "id": "0966302",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22804,8 +18252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 432,
-          "name": "Rist, JOSEPH P.",
-          "id": "0972812",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22814,8 +18260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 444,
-          "name": "Schad, PARKE",
-          "id": "1004867",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22824,8 +18268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 458,
-          "name": "Kaufmann, ZACHARY",
-          "id": "1028687",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22834,8 +18276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 464,
-          "name": "Tucker, CURTIS L.",
-          "id": "1046835",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22844,8 +18284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 468,
-          "name": "Ertel, NICOLE A.",
-          "id": "1046880",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22854,8 +18292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 481,
-          "name": "Slaven, SCOTT",
-          "id": "1077399",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22864,8 +18300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 483,
-          "name": "Fowler, RICHARD D.",
-          "id": "1077413",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22874,8 +18308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 486,
-          "name": "Hickman, MITCH",
-          "id": "1077373",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22884,8 +18316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 488,
-          "name": "Donelson, ANDY",
-          "id": "1077383",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22894,8 +18324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 492,
-          "name": "Glover, TONY",
-          "id": "1086596",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22904,8 +18332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 496,
-          "name": "Nelson, JIM",
-          "id": "1101953",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22914,8 +18340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 505,
-          "name": "Shartzer Jr., RONALD L.",
-          "id": "1114238",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22924,8 +18348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 507,
-          "name": "Pemberton, HOLLY",
-          "id": "1114358",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22934,8 +18356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 513,
-          "name": "Wilson, STEVEN S.",
-          "id": "1114050",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22944,8 +18364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 522,
-          "name": "Sharfner, LESLIE E.",
-          "id": "1181083",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22954,8 +18372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 524,
-          "name": "Laplante, MICHAEL",
-          "id": "1181086",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22964,8 +18380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 533,
-          "name": "Timmins, RONALD J.",
-          "id": "1199194",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22974,8 +18388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 534,
-          "name": "Lawyer, ROBERT F.",
-          "id": "1199195",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22984,8 +18396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 540,
-          "name": "Peterman, Keith A.",
-          "id": "1199114",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -22994,8 +18404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 541,
-          "name": "Daigneau, JUDD A.",
-          "id": "1199134",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23004,8 +18412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 543,
-          "name": "Ertel, BRAD",
-          "id": "1199139",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23014,8 +18420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 546,
-          "name": "Clements, STEVEN K.",
-          "id": "1208673",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23024,8 +18428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 549,
-          "name": "Waldrep Jr., Chuck",
-          "id": "1208770",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23034,8 +18436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 550,
-          "name": "Ruiz, IRIAN",
-          "id": "1208747",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23044,8 +18444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 554,
-          "name": "Zawisza, MICHAEL",
-          "id": "1208798",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23054,8 +18452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 558,
-          "name": "Copenhaver, HEATH",
-          "id": "1213808",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23064,8 +18460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 570,
-          "name": "Lafayette, JAMIE K.",
-          "id": "1225407",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23074,8 +18468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 573,
-          "name": "Peterworth, JOHN R.",
-          "id": "1225382",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23084,8 +18476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 578,
-          "name": "Salvadalena, ALAN R.",
-          "id": "1231599",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23094,8 +18484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 579,
-          "name": "Ehrenborg, ROBERT J.",
-          "id": "0430932",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23104,8 +18492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 580,
-          "name": "Kadolph, JUDSON A.",
-          "id": "1231601",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23114,8 +18500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 589,
-          "name": "Ehrenborg, SHERI",
-          "id": "1237414",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23124,8 +18508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 598,
-          "name": "Dewitt Jr., DENNIS",
-          "id": "1251396",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23134,8 +18516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 599,
-          "name": "Peters, PAUL",
-          "id": "1251385",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23144,8 +18524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 601,
-          "name": "Woodward, Matthew D.",
-          "id": "1261192",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23154,8 +18532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 608,
-          "name": "Dary II, R. JOHN",
-          "id": "1274722",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23164,8 +18540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 618,
-          "name": "Larson, CHRISTINA",
-          "id": "1274800",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23174,8 +18548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 619,
-          "name": "Kellar, BRETT L.",
-          "id": "1274758",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23184,8 +18556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 620,
-          "name": "Ratliff, RANDY A.",
-          "id": "1274428",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23194,8 +18564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 625,
-          "name": "Major, MICHAEL K.",
-          "id": "1286688",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23204,8 +18572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 626,
-          "name": "Waurio, ARTHUR D.",
-          "id": "1286749",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23214,8 +18580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 628,
-          "name": "Isenhart, DAVID J.",
-          "id": "1286848",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23224,8 +18588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 641,
-          "name": "Walker, JOHN P.",
-          "id": "1301423",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23234,8 +18596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 642,
-          "name": "Crampton Jr., JOSEPH L.",
-          "id": "1301344",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23244,8 +18604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 649,
-          "name": "Hutchinson, DAVID E.",
-          "id": "1314722",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23254,8 +18612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 653,
-          "name": "Lowe, PATRICK",
-          "id": "1314642",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23264,8 +18620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 654,
-          "name": "Smith, ALAN M.",
-          "id": "1314727",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23274,8 +18628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 656,
-          "name": "Brabec, KARIANN",
-          "id": "1314674",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23284,8 +18636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 657,
-          "name": "Margheim, MARK",
-          "id": "1739024",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23294,8 +18644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 660,
-          "name": "Hall, MARC",
-          "id": "1739070",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23304,8 +18652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 673,
-          "name": "Daisey, RODNEY",
-          "id": "0458116",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23314,8 +18660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 676,
-          "name": "Ward, ERICK",
-          "id": "1776833",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23324,8 +18668,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 693,
-          "name": "Kraus Jr., GARY",
-          "id": "1793498",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23334,8 +18676,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 703,
-          "name": "Bergquist, JOHN",
-          "id": "1797691",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23344,8 +18684,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 712,
-          "name": "Frazer, RANDY",
-          "id": "1797694",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23354,8 +18692,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 714,
-          "name": "Ols, CHRIS",
-          "id": "1797624",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23364,8 +18700,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 718,
-          "name": "Snyder Jr., PHIL",
-          "id": "1797679",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23374,8 +18708,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 720,
-          "name": "Lee, RON",
-          "id": "1803844",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23384,8 +18716,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 726,
-          "name": "Krupp, RICH",
-          "id": "1803801",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23394,8 +18724,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 727,
-          "name": "Convery, JOHN",
-          "id": "1803816",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23404,8 +18732,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 728,
-          "name": "McDonald, Todd",
-          "id": "1803832",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23414,8 +18740,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 732,
-          "name": "Piendel, JEFF",
-          "id": "1803771",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23424,8 +18748,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 734,
-          "name": "Mattingly, SHAWN",
-          "id": "1803791",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23434,8 +18756,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 742,
-          "name": "Buelt, GREG",
-          "id": "1808979",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23444,8 +18764,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 746,
-          "name": "Kleespie, MICHAEL",
-          "id": "1809084",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23454,8 +18772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 747,
-          "name": "Amirkhan, KEVIN",
-          "id": "1809414",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23464,8 +18780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 749,
-          "name": "Tarkin, CARRIE",
-          "id": "1809237",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23474,8 +18788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 759,
-          "name": "Simpson, JEFF",
-          "id": "0004363",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23484,8 +18796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 761,
-          "name": "Harris, TROY",
-          "id": "1812102",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23494,8 +18804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 767,
-          "name": "Boudreau, VAN",
-          "id": "1819814",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23504,8 +18812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 769,
-          "name": "Burris, RUSS",
-          "id": "1819818",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23514,8 +18820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 773,
-          "name": "Walsh, MICHAEL",
-          "id": "1819813",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23524,8 +18828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 776,
-          "name": "Baird Jr., ROBERT",
-          "id": "0565170",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23534,8 +18836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 778,
-          "name": "Reid, BRYAN",
-          "id": "1819873",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23544,8 +18844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 784,
-          "name": "Mack, JOHN",
-          "id": "1829772",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23554,8 +18852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 792,
-          "name": "Petit, JOHN",
-          "id": "1829667",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23564,8 +18860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 814,
-          "name": "Gast, SCOT",
-          "id": "1844158",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23574,8 +18868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 817,
-          "name": "Sullivan, BOB",
-          "id": "1844150",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23584,8 +18876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 829,
-          "name": "Fitzgerald, TIM",
-          "id": "1853732",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23594,8 +18884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 848,
-          "name": "Strobel, LARRY",
-          "id": "1862122",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23604,8 +18892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 849,
-          "name": "Seaver, DAVID",
-          "id": "1862079",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23614,8 +18900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 855,
-          "name": "Worthington, GUY",
-          "id": "1872277",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23624,8 +18908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 857,
-          "name": "Burke, EMMANUEL",
-          "id": "1872261",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23634,8 +18916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 860,
-          "name": "Cherry, BRYAN",
-          "id": "1873377",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23644,8 +18924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 863,
-          "name": "Hill, JARED",
-          "id": "1872260",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23654,8 +18932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 864,
-          "name": "Neville, VINNY",
-          "id": "1887910",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23664,8 +18940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 865,
-          "name": "Sundberg, Todd",
-          "id": "1888307",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23674,8 +18948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 866,
-          "name": "Fields, BRIAN",
-          "id": "1887912",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23684,8 +18956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 875,
-          "name": "Courtney, MATT",
-          "id": "0130017",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23694,8 +18964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 879,
-          "name": "Latka, Robert",
-          "id": "1946045",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23704,8 +18972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 881,
-          "name": "Davidson, CLIFF",
-          "id": "1946082",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23714,8 +18980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 883,
-          "name": "McNaull III, WILLIAM",
-          "id": "1966317",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23724,8 +18988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 893,
-          "name": "Yu, DONALD",
-          "id": "1974644",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23734,8 +18996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 894,
-          "name": "Smith, MATT",
-          "id": "1987904",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23744,8 +19004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 897,
-          "name": "Parrish, DAVID",
-          "id": "0550890",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23754,8 +19012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 908,
-          "name": "Macdonald Jr., ROSS",
-          "id": "2020925",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23764,8 +19020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 909,
-          "name": "Peterson II, ROB",
-          "id": "2020924",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23774,8 +19028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 919,
-          "name": "Goodwin II, DANNY",
-          "id": "2031034",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23784,8 +19036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 923,
-          "name": "Macke, ROBERT",
-          "id": "2037132",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23794,8 +19044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 932,
-          "name": "Cochran, Greg",
-          "id": "0513737",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23804,8 +19052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 934,
-          "name": "Hawkins, SCOTT",
-          "id": "2051673",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23814,8 +19060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 937,
-          "name": "Nussbaum, ANDREW",
-          "id": "2051659",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23824,8 +19068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 952,
-          "name": "Cunningham, SCOTT",
-          "id": "2057090",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23834,8 +19076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 953,
-          "name": "McHugh, BILL",
-          "id": "2068783",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23844,8 +19084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 959,
-          "name": "McCarty, MIKE",
-          "id": "1463924",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23854,8 +19092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 960,
-          "name": "Walton, GREG",
-          "id": "0692236",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23864,8 +19100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 963,
-          "name": "Knight, MICHAEL",
-          "id": "2068687",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23874,8 +19108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 964,
-          "name": "Nordquist, Jared",
-          "id": "2068693",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23884,8 +19116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 971,
-          "name": "Kerr, BRANNON",
-          "id": "2074083",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23894,8 +19124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 989,
-          "name": "Barrett III, WILLIAM",
-          "id": "2090609",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23904,8 +19132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 992,
-          "name": "Zimmer, Sven",
-          "id": "2090351",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23914,8 +19140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 999,
-          "name": "Demming, Perry",
-          "id": "2108558",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23924,8 +19148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 1001,
-          "name": "Allen, JAMES",
-          "id": "2108406",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23934,8 +19156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 1002,
-          "name": "Jones, Josh",
-          "id": "0880597",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23944,8 +19164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 1007,
-          "name": "Falkenberg, ANDY",
-          "id": "2172529",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23954,8 +19172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 1011,
-          "name": "Newby, MICHAEL",
-          "id": "2171260",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23964,8 +19180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 1018,
-          "name": "Anderson, JIM",
-          "id": "2172401",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23974,8 +19188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 1043,
-          "name": "Giacalone, JONATHAN",
-          "id": "3163539",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23984,8 +19196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 1066,
-          "name": "Myers, DOUG",
-          "id": "3173973",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -23994,8 +19204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 1067,
-          "name": "Hurst, MARK",
-          "id": "3173648",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24004,8 +19212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 1070,
-          "name": "Brady III, Seth",
-          "id": "3172372",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24014,8 +19220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 1089,
-          "name": "Rice, SCOTT",
-          "id": "3183035",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24024,8 +19228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 1101,
-          "name": "Amaya, DAVID",
-          "id": "3188828",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24034,8 +19236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 1105,
-          "name": "Ripley, CHRISTOPHER",
-          "id": "3188833",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24044,8 +19244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 1109,
-          "name": "Hoy, MICHAEL",
-          "id": "3188853",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24054,8 +19252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 1114,
-          "name": "Williams, COREY",
-          "id": "3196715",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24064,8 +19260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 1116,
-          "name": "Apice, JIM",
-          "id": "3196719",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24074,8 +19268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 1120,
-          "name": "Barnett, GREGORY",
-          "id": "3196708",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24084,8 +19276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 1124,
-          "name": "Wood, TRAVIS",
-          "id": "3196716",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24094,8 +19284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 1134,
-          "name": "Elton III, STAR",
-          "id": "3202917",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24104,8 +19292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 1135,
-          "name": "Sylvan, JONAS",
-          "id": "3202916",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24114,8 +19300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 1142,
-          "name": "Bell, DEREK",
-          "id": "3202906",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24124,8 +19308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 1143,
-          "name": "Romine, WILLIAM",
-          "id": "3213890",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24134,8 +19316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 1149,
-          "name": "Wenson, RAY",
-          "id": "3213899",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24144,8 +19324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 1162,
-          "name": "Fredriksson, CONNY",
-          "id": "3225448",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24154,8 +19332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 1167,
-          "name": "Beery, CHARLIE",
-          "id": "3225440",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24164,8 +19340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 1171,
-          "name": "Finley Jr., ROBERT",
-          "id": "3225442",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24174,8 +19348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 1173,
-          "name": "Chmura Jr., STANLEY",
-          "id": "3236916",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24184,8 +19356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 1180,
-          "name": "Orlowski, MICHAEL",
-          "id": "3235655",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24194,8 +19364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 1181,
-          "name": "Tobias, DAVID",
-          "id": "3235660",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24204,8 +19372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 1182,
-          "name": "Owen, James",
-          "id": "3243683",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24214,8 +19380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 1185,
-          "name": "Grzesiak, VINCENT",
-          "id": "3250723",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24224,8 +19388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 1190,
-          "name": "Kobielush, CHADD",
-          "id": "3250705",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24234,8 +19396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 1193,
-          "name": "Guider, DAVID",
-          "id": "3259757",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24244,8 +19404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 1196,
-          "name": "Woolhiser, CHRISTOPHER",
-          "id": "3259763",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24254,8 +19412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 1197,
-          "name": "Underwood, BOBBY",
-          "id": "3259760",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24264,8 +19420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 1201,
-          "name": "Quinn, BRIAN",
-          "id": "3262607",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24274,8 +19428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 1204,
-          "name": "Wright, JAMEY",
-          "id": "3263910",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24284,8 +19436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 1206,
-          "name": "Ray, STEVEN",
-          "id": "3276403",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24294,8 +19444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 1209,
-          "name": "Stapert, JOSEPH",
-          "id": "3276375",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24304,8 +19452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 1219,
-          "name": "Cobb, NICK",
-          "id": "4227216",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24314,8 +19460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 1223,
-          "name": "Weller, BRYAN",
-          "id": "4239017",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24324,8 +19468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 1224,
-          "name": "Davison Jr., REX",
-          "id": "4238951",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24334,8 +19476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 1226,
-          "name": "Harrell III, RICK",
-          "id": "0552969",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24344,8 +19484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 1227,
-          "name": "Leblanc, JASON",
-          "id": "4239104",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24354,8 +19492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 1232,
-          "name": "Lewis, KRISTOFFER",
-          "id": "4238952",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24364,8 +19500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 1238,
-          "name": "Consie, RYAN",
-          "id": "4251400",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24374,8 +19508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 1239,
-          "name": "Prijatelj II, ROBERT",
-          "id": "4251144",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24384,8 +19516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 1241,
-          "name": "Aholt, JOSEPH",
-          "id": "0880590",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24394,8 +19524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 1245,
-          "name": "Padilla, DAVID",
-          "id": "4251111",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24404,8 +19532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 1247,
-          "name": "Emig, JASON",
-          "id": "4250972",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24414,8 +19540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 1253,
-          "name": "Strider Jr., WAYNE",
-          "id": "4430841",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24424,8 +19548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 1255,
-          "name": "Copeland, ERIK",
-          "id": "4430850",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24434,8 +19556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 1261,
-          "name": "Wigginton, RYAN",
-          "id": "4430840",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24444,8 +19564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 1262,
-          "name": "Long, JOHN",
-          "id": "4433905",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24454,8 +19572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 1263,
-          "name": "De Haan, Jim",
-          "id": "4433895",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24464,8 +19580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 1264,
-          "name": "Kriz II, GEORGE",
-          "id": "4433901",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24474,8 +19588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 1273,
-          "name": "Korner, KNUT",
-          "id": "4444069",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24484,8 +19596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 1275,
-          "name": "England, STEVEN",
-          "id": "4443861",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24494,8 +19604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 1276,
-          "name": "Smith, NATE",
-          "id": "4443872",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24504,8 +19612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 1277,
-          "name": "Pieri, CHRISTOPHER",
-          "id": "4443868",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24514,8 +19620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 1280,
-          "name": "Emig, RANDY",
-          "id": "4443859",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24524,8 +19628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 1284,
-          "name": "Chaplin, CHRIS",
-          "id": "4450257",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24534,8 +19636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 1285,
-          "name": "Camacho, JOE",
-          "id": "4450244",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24544,8 +19644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 1287,
-          "name": "Patrick, TIM",
-          "id": "4450273",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24554,8 +19652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 1289,
-          "name": "McInvale Jr., JAY",
-          "id": "4450271",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24564,8 +19660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 1291,
-          "name": "Gerbick, JASON",
-          "id": "4450249",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24574,8 +19668,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 1293,
-          "name": "Graves, BRYAN",
-          "id": "1404222",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24584,8 +19676,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 244,
           "sen": 1294,
-          "name": "Childers, DUSTIN",
-          "id": "4450246",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24594,8 +19684,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 245,
           "sen": 1295,
-          "name": "Salisbury, RYAN",
-          "id": "4327681",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24604,8 +19692,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 246,
           "sen": 1296,
-          "name": "Davidson, RICHIE",
-          "id": "4476171",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24614,8 +19700,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 247,
           "sen": 1297,
-          "name": "Dermer, JAMIE",
-          "id": "4476182",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24624,8 +19708,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 248,
           "sen": 1301,
-          "name": "Sutton, CHRISTOPHER",
-          "id": "4476391",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24634,8 +19716,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 249,
           "sen": 1306,
-          "name": "McStoots Jr., Hallam",
-          "id": "1203733",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24644,8 +19724,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 250,
           "sen": 1308,
-          "name": "Woodall Jr., PAT",
-          "id": "4476186",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24654,8 +19732,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 251,
           "sen": 1311,
-          "name": "Hesler, NICK",
-          "id": "1963677",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24664,8 +19740,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 252,
           "sen": 1315,
-          "name": "Cooksey, WESLEY",
-          "id": "4485817",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24674,8 +19748,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 253,
           "sen": 1319,
-          "name": "Bundy, NATHAN",
-          "id": "4491766",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24684,8 +19756,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 254,
           "sen": 1321,
-          "name": "Kersting, PATRICK",
-          "id": "4491765",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24694,8 +19764,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 255,
           "sen": 1330,
-          "name": "Carnevale, SCOTT",
-          "id": "4740525",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24704,8 +19772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 256,
           "sen": 1331,
-          "name": "Allen, BRADLEY",
-          "id": "4743164",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24714,8 +19780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 257,
           "sen": 1332,
-          "name": "Anderson, BRIAN",
-          "id": "0583068",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24724,8 +19788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 258,
           "sen": 1339,
-          "name": "Kracht, Barret",
-          "id": "4741883",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24734,8 +19796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 259,
           "sen": 1341,
-          "name": "Rash, JEFFREY",
-          "id": "4741010",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24744,8 +19804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 260,
           "sen": 1345,
-          "name": "Palermo, NICK",
-          "id": "4752359",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24754,8 +19812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 261,
           "sen": 1347,
-          "name": "Welch, THOMAS",
-          "id": "4745368",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24764,8 +19820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 262,
           "sen": 1348,
-          "name": "Kraan, JASON",
-          "id": "4744902",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24774,8 +19828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 263,
           "sen": 1349,
-          "name": "Jones, Jym",
-          "id": "4750354",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24784,8 +19836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 264,
           "sen": 1352,
-          "name": "Palmer, Gretchen",
-          "id": "4744766",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24794,8 +19844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 265,
           "sen": 1353,
-          "name": "Thye, HANK",
-          "id": "4741422",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24804,8 +19852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 266,
           "sen": 1355,
-          "name": "Reynolds, Shane",
-          "id": "4742105",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24814,8 +19860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 267,
           "sen": 1356,
-          "name": "Redding, REGINALD",
-          "id": "4744904",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24824,8 +19868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 268,
           "sen": 1358,
-          "name": "Ystaas, TRAVIS",
-          "id": "4750350",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24834,8 +19876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 269,
           "sen": 1360,
-          "name": "Brice, JASON",
-          "id": "1399705",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24844,8 +19884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 270,
           "sen": 1361,
-          "name": "Kuzman, David",
-          "id": "4744905",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24854,8 +19892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 271,
           "sen": 1362,
-          "name": "Prifogle, SCOTT",
-          "id": "4744910",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24864,8 +19900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 272,
           "sen": 1368,
-          "name": "Newell III, NEAL",
-          "id": "4768977",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24874,8 +19908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 273,
           "sen": 1369,
-          "name": "Kliethermes, MATT",
-          "id": "4762597",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24884,8 +19916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 274,
           "sen": 1371,
-          "name": "Willis, DEREK",
-          "id": "4771612",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24894,8 +19924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 275,
           "sen": 1372,
-          "name": "Buesing, AARON",
-          "id": "0942088",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24904,8 +19932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 276,
           "sen": 1373,
-          "name": "Bethel, MATTHEW",
-          "id": "4770460",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24914,8 +19940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 277,
           "sen": 1374,
-          "name": "Roberts, AVERY",
-          "id": "4759004",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24924,8 +19948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 278,
           "sen": 1377,
-          "name": "Martin, HUEY",
-          "id": "4760499",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24934,8 +19956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 279,
           "sen": 1379,
-          "name": "Tafel, ADDISON",
-          "id": "4766893",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24944,8 +19964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 280,
           "sen": 1385,
-          "name": "Curtsinger, CHAD",
-          "id": "4899602",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24954,8 +19972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 281,
           "sen": 1387,
-          "name": "Morey, SHANE",
-          "id": "4899590",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24964,8 +19980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 282,
           "sen": 1390,
-          "name": "Newham, Jason",
-          "id": "5059204",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24974,8 +19988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 283,
           "sen": 1391,
-          "name": "Hawthorne, IAN",
-          "id": "4899610",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24984,8 +19996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 284,
           "sen": 1392,
-          "name": "Brown, JAMES",
-          "id": "0740340",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -24994,8 +20004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 285,
           "sen": 1395,
-          "name": "Yaden, PAUL",
-          "id": "4899612",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25004,8 +20012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 286,
           "sen": 1396,
-          "name": "Smedile, THOMAS",
-          "id": "4899600",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25014,8 +20020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 287,
           "sen": 1407,
-          "name": "Zenach, CHRIS",
-          "id": "4899601",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25024,8 +20028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 288,
           "sen": 1410,
-          "name": "Vissepo, JEFF",
-          "id": "4899611",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25034,8 +20036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 289,
           "sen": 1414,
-          "name": "Arenzana, LUIS",
-          "id": "5045094",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25044,8 +20044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 290,
           "sen": 1417,
-          "name": "Ray, HEATH",
-          "id": "0574367",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25054,8 +20052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 291,
           "sen": 1418,
-          "name": "Burch, Stephen",
-          "id": "4899613",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25064,8 +20060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 292,
           "sen": 1420,
-          "name": "Gremmert, RYAN",
-          "id": "5045093",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25074,8 +20068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 293,
           "sen": 1422,
-          "name": "Hawkins, TIMOTHY",
-          "id": "4899597",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25084,8 +20076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 294,
           "sen": 1423,
-          "name": "Noble, JEFFREY",
-          "id": "4899603",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25094,8 +20084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 295,
           "sen": 1425,
-          "name": "Wilson, ADAM",
-          "id": "5028944",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25104,8 +20092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 296,
           "sen": 1430,
-          "name": "Shaffner, CURT",
-          "id": "5045097",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25114,8 +20100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 297,
           "sen": 1432,
-          "name": "Hoaglin, Mark",
-          "id": "5062334",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25124,8 +20108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 298,
           "sen": 1433,
-          "name": "Wilkerson, SEAN",
-          "id": "5057625",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25134,8 +20116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 299,
           "sen": 1434,
-          "name": "Perry, George",
-          "id": "5062333",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25144,8 +20124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 300,
           "sen": 1435,
-          "name": "Bair, KURT",
-          "id": "5048131",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25154,8 +20132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 301,
           "sen": 1438,
-          "name": "Arganbright, DANIEL",
-          "id": "5046263",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25164,8 +20140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 302,
           "sen": 1439,
-          "name": "Wright Jr, RICK",
-          "id": "0256847",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25174,8 +20148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 303,
           "sen": 1443,
-          "name": "Barrett, SHAWN",
-          "id": "5056895",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25184,8 +20156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 304,
           "sen": 1444,
-          "name": "Crider, TIMOTHY",
-          "id": "5063688",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25194,8 +20164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 305,
           "sen": 1447,
-          "name": "Pinson, BRENT",
-          "id": "5050939",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25204,8 +20172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 306,
           "sen": 1450,
-          "name": "Scott, Christopher",
-          "id": "5063343",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25214,8 +20180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 307,
           "sen": 1453,
-          "name": "Gran, ERAM",
-          "id": "1156614",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25224,8 +20188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 308,
           "sen": 1455,
-          "name": "Stickney, Michael",
-          "id": "5061182",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25234,8 +20196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 309,
           "sen": 1456,
-          "name": "Lindsted, Byron",
-          "id": "5063531",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25244,8 +20204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 310,
           "sen": 1462,
-          "name": "Scott, Cory",
-          "id": "5061183",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25254,8 +20212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 311,
           "sen": 1466,
-          "name": "O'Keefe, Sean",
-          "id": "5061169",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25264,8 +20220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 312,
           "sen": 1469,
-          "name": "Meehan, SEAN",
-          "id": "5061167",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25274,8 +20228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 313,
           "sen": 1471,
-          "name": "Morales Chong, Moises",
-          "id": "5061168",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25284,8 +20236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 314,
           "sen": 1473,
-          "name": "Cellemme, Matt",
-          "id": "5061173",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25294,8 +20244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 315,
           "sen": 1488,
-          "name": "Andrews, ERIC",
-          "id": "5073281",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25304,8 +20252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 316,
           "sen": 1491,
-          "name": "Porter, Micah",
-          "id": "5068580",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25314,8 +20260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 317,
           "sen": 1494,
-          "name": "Higgins, COLIN",
-          "id": "5063958",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25324,8 +20268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 318,
           "sen": 1497,
-          "name": "Flamik, DAVID",
-          "id": "5070447",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25334,8 +20276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 319,
           "sen": 1498,
-          "name": "Redmond, GENE",
-          "id": "5070444",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25344,8 +20284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 320,
           "sen": 1500,
-          "name": "Sears, KEVIN",
-          "id": "5070442",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25354,8 +20292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 321,
           "sen": 1509,
-          "name": "Hathorn, JEFFREY",
-          "id": "5070451",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25364,8 +20300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 322,
           "sen": 1513,
-          "name": "Weyhmuller, JULEE",
-          "id": "5070455",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25374,8 +20308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 323,
           "sen": 1519,
-          "name": "Brown, ROD",
-          "id": "5070536",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25384,8 +20316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 324,
           "sen": 1521,
-          "name": "Martinez, Tristan",
-          "id": "5074248",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25394,8 +20324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 325,
           "sen": 1525,
-          "name": "Mier, JASON",
-          "id": "5080501",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25404,8 +20332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 326,
           "sen": 1528,
-          "name": "Mc Lendon, Dax",
-          "id": "5068325",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25414,8 +20340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 327,
           "sen": 1531,
-          "name": "Evans, MARC",
-          "id": "5080505",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25424,8 +20348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 328,
           "sen": 1535,
-          "name": "Wyler, WILLIAM",
-          "id": "5094340",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25434,8 +20356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 329,
           "sen": 1538,
-          "name": "Strickland, JASON",
-          "id": "5084806",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25444,8 +20364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 330,
           "sen": 1540,
-          "name": "Griffin, DREW",
-          "id": "5094903",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25454,8 +20372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 331,
           "sen": 1563,
-          "name": "Bean, CHRIS",
-          "id": "5095344",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25464,8 +20380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 332,
           "sen": 1568,
-          "name": "De Zafra III, ROD",
-          "id": "5080502",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25474,8 +20388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 333,
           "sen": 1570,
-          "name": "Gerdes, JEFF",
-          "id": "5107740",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25484,8 +20396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 334,
           "sen": 1580,
-          "name": "Shapter, BEN",
-          "id": "5112760",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25494,8 +20404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 335,
           "sen": 1582,
-          "name": "Martinez Kloste, CRISTI",
-          "id": "1647329",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25504,8 +20412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 336,
           "sen": 1585,
-          "name": "Hamm, DAN",
-          "id": "5128856",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25514,8 +20420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 337,
           "sen": 1586,
-          "name": "Long III, PERRY",
-          "id": "5070453",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25524,8 +20428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 338,
           "sen": 1587,
-          "name": "Brownell, JOSH",
-          "id": "5138201",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25534,8 +20436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 339,
           "sen": 1589,
-          "name": "Nickol, BEN",
-          "id": "5127516",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25544,8 +20444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 340,
           "sen": 1591,
-          "name": "Baird, Tyrone",
-          "id": "5128025",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25554,8 +20452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 341,
           "sen": 1593,
-          "name": "Wartman, SPENCER",
-          "id": "5128024",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25564,8 +20460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 342,
           "sen": 1595,
-          "name": "Hempel, Rebecca",
-          "id": "5131403",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25574,8 +20468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 343,
           "sen": 1596,
-          "name": "Willig, KENNETH",
-          "id": "5133656",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25584,8 +20476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 344,
           "sen": 1598,
-          "name": "Buttrey, Brent",
-          "id": "0509567",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25594,8 +20484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 345,
           "sen": 1608,
-          "name": "Krukar, JOSEPH",
-          "id": "5133430",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25604,8 +20492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 346,
           "sen": 1609,
-          "name": "Saucier Jr., JAMES",
-          "id": "5128597",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25614,8 +20500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 347,
           "sen": 1617,
-          "name": "Le Prell, Stephen",
-          "id": "5094902",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25624,8 +20508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 348,
           "sen": 1619,
-          "name": "Cosme, ZEUS",
-          "id": "5153076",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25634,8 +20516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 349,
           "sen": 1620,
-          "name": "Williams, MIKE",
-          "id": "5145812",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25644,8 +20524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 350,
           "sen": 1622,
-          "name": "Millette, NICK",
-          "id": "5142007",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25654,8 +20532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 351,
           "sen": 1623,
-          "name": "Blucher, Gregg",
-          "id": "5094809",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25664,8 +20540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 352,
           "sen": 1652,
-          "name": "Sliwoski, Jeffery",
-          "id": "5195709",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25674,8 +20548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 353,
           "sen": 1654,
-          "name": "Quinn Jr., ROBERT",
-          "id": "5207754",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25684,8 +20556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 354,
           "sen": 1658,
-          "name": "Merenda, Timothy",
-          "id": "5207760",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25694,8 +20564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 355,
           "sen": 1660,
-          "name": "Richards, Grant",
-          "id": "5279699",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25704,8 +20572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 356,
           "sen": 1666,
-          "name": "Poe, JEFFREY",
-          "id": "5279718",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25714,8 +20580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 357,
           "sen": 1667,
-          "name": "Sand, Korey",
-          "id": "5279714",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25724,8 +20588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 358,
           "sen": 1669,
-          "name": "Kaplan, Jason",
-          "id": "5456178",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25734,8 +20596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 359,
           "sen": 1670,
-          "name": "Sigler, Geoffrey",
-          "id": "5279698",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25744,8 +20604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 360,
           "sen": 1678,
-          "name": "Semones Jr., BOB",
-          "id": "0742339",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25754,8 +20612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 361,
           "sen": 1679,
-          "name": "Gori, Stephen",
-          "id": "5284737",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25764,8 +20620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 362,
           "sen": 1681,
-          "name": "Anderton, BRIAN",
-          "id": "5284278",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25774,8 +20628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 363,
           "sen": 1686,
-          "name": "Todd, Judson",
-          "id": "5413010",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25784,8 +20636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 364,
           "sen": 1689,
-          "name": "Helgeson, Tor",
-          "id": "5473505",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25794,8 +20644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 365,
           "sen": 1696,
-          "name": "Boyce, DAVID",
-          "id": "5473479",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25804,8 +20652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 366,
           "sen": 1699,
-          "name": "Roberts, RICH",
-          "id": "5473810",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25814,8 +20660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 367,
           "sen": 1700,
-          "name": "Parker, Greg",
-          "id": "5061180",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25824,8 +20668,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 368,
           "sen": 1701,
-          "name": "Lacy, MARK",
-          "id": "5474315",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25834,8 +20676,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 369,
           "sen": 1706,
-          "name": "Liggett, ESAIAS",
-          "id": "5387173",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25844,8 +20684,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 370,
           "sen": 1719,
-          "name": "Lamb, GARY",
-          "id": "5486619",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25854,8 +20692,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 371,
           "sen": 1721,
-          "name": "Seals, JEREMY",
-          "id": "5473857",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25864,8 +20700,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 372,
           "sen": 1723,
-          "name": "Morgan, PAUL",
-          "id": "5478838",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25874,8 +20708,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 373,
           "sen": 1743,
-          "name": "Good, Dan",
-          "id": "5479280",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25884,8 +20716,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 374,
           "sen": 1756,
-          "name": "Beckler, Eric",
-          "id": "5490015",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25894,8 +20724,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 375,
           "sen": 1767,
-          "name": "Williams, Stephen",
-          "id": "5493665",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25904,8 +20732,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 376,
           "sen": 1770,
-          "name": "Laird, Dustin",
-          "id": "1024022",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25914,8 +20740,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 377,
           "sen": 1772,
-          "name": "Shrewsbury, Dylan",
-          "id": "5490016",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25924,8 +20748,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 378,
           "sen": 1773,
-          "name": "Kingan, SCOT",
-          "id": "5496569",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25934,8 +20756,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 379,
           "sen": 1781,
-          "name": "Supper, ELIJAH",
-          "id": "5496582",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25944,8 +20764,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 380,
           "sen": 1782,
-          "name": "Hildreth, Eli",
-          "id": "2063752",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25954,8 +20772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 381,
           "sen": 1784,
-          "name": "Hutson, Jim",
-          "id": "5496568",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25964,8 +20780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 382,
           "sen": 1785,
-          "name": "Sandlin, KEVIN",
-          "id": "5552082",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25974,8 +20788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 383,
           "sen": 1796,
-          "name": "Doumis, EVAN",
-          "id": "5496564",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25984,8 +20796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 384,
           "sen": 1798,
-          "name": "Brabant, CHARLES",
-          "id": "5496576",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -25994,8 +20804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 385,
           "sen": 1799,
-          "name": "Webb, Andrew",
-          "id": "5497102",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26004,8 +20812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 386,
           "sen": 1810,
-          "name": "Kozloski, CHAD",
-          "id": "5568350",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26014,8 +20820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 387,
           "sen": 1812,
-          "name": "Bond, BRANDON",
-          "id": "5540614",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26024,8 +20828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 388,
           "sen": 1821,
-          "name": "Parr, BRETT",
-          "id": "5497104",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26034,8 +20836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 389,
           "sen": 1823,
-          "name": "Dailey, John",
-          "id": "5594166",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26044,8 +20844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 390,
           "sen": 1827,
-          "name": "McCracken, Adam",
-          "id": "5540765",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26054,8 +20852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 391,
           "sen": 1846,
-          "name": "Sturgeon Jr., John",
-          "id": "5649752",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26064,8 +20860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 392,
           "sen": 1859,
-          "name": "Driscoll, PATRICK",
-          "id": "5707845",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26074,8 +20868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 393,
           "sen": 1862,
-          "name": "Wallace, MICHAEL",
-          "id": "5770435",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26084,8 +20876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 394,
           "sen": 1864,
-          "name": "Welle III, TONY",
-          "id": "5798396",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26094,8 +20884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 395,
           "sen": 1866,
-          "name": "Wigginton, ANDREW",
-          "id": "5896933",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26104,8 +20892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 396,
           "sen": 1867,
-          "name": "Nicholson, CARL",
-          "id": "5692258",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26114,8 +20900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 397,
           "sen": 1873,
-          "name": "Winters, DAVID",
-          "id": "5811320",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26124,8 +20908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 398,
           "sen": 1874,
-          "name": "Culpepper, David",
-          "id": "5915469",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26134,8 +20916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 399,
           "sen": 1884,
-          "name": "Manucci, RAFAEL",
-          "id": "5796702",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26144,8 +20924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 400,
           "sen": 1892,
-          "name": "Ferencak, FRANK",
-          "id": "5743051",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26154,8 +20932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 401,
           "sen": 1894,
-          "name": "Oberg, BRIAN",
-          "id": "5894261",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26164,8 +20940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 402,
           "sen": 1903,
-          "name": "Simpson, Scott",
-          "id": "5741456",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26174,8 +20948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 403,
           "sen": 1909,
-          "name": "Wrobel, SEAN",
-          "id": "5915234",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26184,8 +20956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 404,
           "sen": 1918,
-          "name": "Halverson, Brent",
-          "id": "5915086",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26194,8 +20964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 405,
           "sen": 1923,
-          "name": "Crooke, Steward",
-          "id": "5924029",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26204,8 +20972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 406,
           "sen": 1938,
-          "name": "Deman, CRAIG",
-          "id": "5924915",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26214,8 +20980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 407,
           "sen": 1945,
-          "name": "Glaser, Eric",
-          "id": "5915220",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26224,8 +20988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 408,
           "sen": 1950,
-          "name": "Harmount, Jonathan",
-          "id": "5929511",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26234,8 +20996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 409,
           "sen": 1952,
-          "name": "Myszka, Adam",
-          "id": "5737327",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26244,8 +21004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 410,
           "sen": 1954,
-          "name": "Piersall II, PAUL",
-          "id": "5928203",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26254,8 +21012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 411,
           "sen": 1960,
-          "name": "Peterson, JEFF",
-          "id": "5927438",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26264,8 +21020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 412,
           "sen": 1962,
-          "name": "Halsmer, ELISABETH",
-          "id": "5925755",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26274,8 +21028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 413,
           "sen": 1965,
-          "name": "Alderman, KYLE",
-          "id": "5813586",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26284,8 +21036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 414,
           "sen": 1966,
-          "name": "Violette, JASON",
-          "id": "5931138",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26294,8 +21044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 415,
           "sen": 1967,
-          "name": "Soodoo, BILAL",
-          "id": "3586155",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26304,8 +21052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 416,
           "sen": 1975,
-          "name": "Hancock, MARK",
-          "id": "5934153",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26314,8 +21060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 417,
           "sen": 1977,
-          "name": "Gundlach, SCOTT",
-          "id": "5928709",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26324,8 +21068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 418,
           "sen": 1983,
-          "name": "Hourigan, JT",
-          "id": "1742847",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26334,8 +21076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 419,
           "sen": 1985,
-          "name": "Woods, BEN",
-          "id": "3164567",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26344,8 +21084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 420,
           "sen": 1999,
-          "name": "Baggett, BILLY",
-          "id": "5925206",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26354,8 +21092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 421,
           "sen": 2014,
-          "name": "Kloos, LEE",
-          "id": "5961429",
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -26366,8 +21102,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 319,
-          "name": "Griffith, JOHN",
-          "id": "0554975",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26376,8 +21110,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 323,
-          "name": "Babits, THOMAS",
-          "id": "0555667",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26386,8 +21118,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 370,
-          "name": "Zander, Donald",
-          "id": "0557214",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26396,8 +21126,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 392,
-          "name": "O'Donnell, Eric",
-          "id": "0554329",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26406,8 +21134,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 405,
-          "name": "Atwood, Anthony",
-          "id": "0555099",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26416,8 +21142,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 568,
-          "name": "Klein, ROLF D.",
-          "id": "1225388",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26426,8 +21150,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 774,
-          "name": "Shaffer, JASON",
-          "id": "1819861",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26436,8 +21158,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 836,
-          "name": "Elder, MARTIN",
-          "id": "1853728",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26446,8 +21166,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 876,
-          "name": "Glueck Jr., THOMAS",
-          "id": "1946090",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26456,8 +21174,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 974,
-          "name": "Matsushima, MIYOKO",
-          "id": "2074610",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26466,8 +21182,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 979,
-          "name": "Lemon, SAMUEL",
-          "id": "2090616",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26476,8 +21190,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 985,
-          "name": "Franks, TODD",
-          "id": "2090425",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26486,8 +21198,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1027,
-          "name": "Anderson, KEAHI",
-          "id": "2176651",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26496,8 +21206,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1073,
-          "name": "Shaw Jr., BUDDY",
-          "id": "3172094",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26506,8 +21214,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1152,
-          "name": "Pabon Jr., HUMBERTO",
-          "id": "3213898",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26516,8 +21222,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1307,
-          "name": "Williams, Michelle",
-          "id": "0570866",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26526,8 +21230,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1312,
-          "name": "Baldwin, CHAYCE",
-          "id": "2174078",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26536,8 +21238,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1329,
-          "name": "Wooldridge, JEFFREY",
-          "id": "4741006",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26546,8 +21246,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1363,
-          "name": "Baker, SAMUEL",
-          "id": "4745366",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26556,8 +21254,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1452,
-          "name": "Hartman, CLIFFORD",
-          "id": "5061193",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26566,8 +21262,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1479,
-          "name": "Walter, CHRIS",
-          "id": "5062904",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26576,8 +21270,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1487,
-          "name": "Roberts, JOSH",
-          "id": "5068329",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26586,8 +21278,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1523,
-          "name": "Belter, GREG",
-          "id": "5076540",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26596,8 +21286,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1524,
-          "name": "Cunning, CARRIE",
-          "id": "5080504",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26606,8 +21294,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1534,
-          "name": "Denny, TODD",
-          "id": "5094808",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26616,8 +21302,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1603,
-          "name": "Stark, ALEXANDER",
-          "id": "5127512",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26626,8 +21310,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1616,
-          "name": "Anderson, KYLE",
-          "id": "5152341",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26636,8 +21318,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 1627,
-          "name": "Kisselburgh, DARREN",
-          "id": "5153879",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26646,8 +21326,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 1671,
-          "name": "Dailey, Aaron",
-          "id": "5282359",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26656,8 +21334,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 1684,
-          "name": "Hoysradt II, JAMES",
-          "id": "5284751",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26666,8 +21342,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 1687,
-          "name": "Klotz, MIKE",
-          "id": "5473811",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26676,8 +21350,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 1722,
-          "name": "Baldwin, ROBIN",
-          "id": "5473805",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26686,8 +21358,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 1777,
-          "name": "Nickol, JENNIFER",
-          "id": "5543395",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26696,8 +21366,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 1790,
-          "name": "Woerth II, MATT",
-          "id": "5529458",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26706,8 +21374,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 1815,
-          "name": "Etheridge, JUPE",
-          "id": "5583540",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26716,8 +21382,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 1828,
-          "name": "Boland, BRIAN",
-          "id": "5597615",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26726,8 +21390,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 1832,
-          "name": "Watkins, HUNTER",
-          "id": "5597614",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26736,8 +21398,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 1836,
-          "name": "Nerwin, JULIE",
-          "id": "5595136",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26746,8 +21406,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 1837,
-          "name": "Gore, THOMAS",
-          "id": "5592765",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26756,8 +21414,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 1840,
-          "name": "Fleming, BRENT",
-          "id": "5593852",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26766,8 +21422,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 1852,
-          "name": "Bigwood, LINZI",
-          "id": "5602712",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26776,8 +21430,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 1868,
-          "name": "Zinn, CARL",
-          "id": "5724703",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26786,8 +21438,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 1870,
-          "name": "Bridgers, SCOTT",
-          "id": "5738548",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26796,8 +21446,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 1875,
-          "name": "Hoy, JENNIFER",
-          "id": "5804187",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26806,8 +21454,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 1913,
-          "name": "Brumfiel, Eric",
-          "id": "5914361",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26816,8 +21462,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 1924,
-          "name": "Oilar, DOUGLAS",
-          "id": "5919529",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26826,8 +21470,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 1939,
-          "name": "Davidson, FRANK",
-          "id": "5923452",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26836,8 +21478,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 1940,
-          "name": "Murphy, BILL",
-          "id": "5926723",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26846,8 +21486,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 1955,
-          "name": "Bilek, Brian",
-          "id": "5738544",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26856,8 +21494,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 1957,
-          "name": "Stanford, SCOTT",
-          "id": "5925754",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26866,8 +21502,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 1959,
-          "name": "Kuhns, Jason",
-          "id": "5934051",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26876,8 +21510,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1961,
-          "name": "Gebbie, DAVE",
-          "id": "5929554",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26886,8 +21518,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1963,
-          "name": "Ketterer, JOSHUA",
-          "id": "5925303",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26896,8 +21526,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 1973,
-          "name": "Macdonald, CAROL",
-          "id": "5934155",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26906,8 +21534,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 1979,
-          "name": "Campau, DAVID",
-          "id": "5931690",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26916,8 +21542,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 1981,
-          "name": "Kaercher, DAN",
-          "id": "5927947",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26926,8 +21550,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 1984,
-          "name": "Herrmann, JUSTIN",
-          "id": "5928708",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26936,8 +21558,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 1986,
-          "name": "O'Meara, WILLIAM",
-          "id": "5925598",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26946,8 +21566,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 1996,
-          "name": "Suttlemyre, RYAN",
-          "id": "5935608",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26956,8 +21574,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 1998,
-          "name": "Coppola, MATT",
-          "id": "5935784",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26966,8 +21582,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 2000,
-          "name": "Kupresin, SAM",
-          "id": "1488452",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26976,8 +21590,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 2001,
-          "name": "Kiefer, JOSHUA",
-          "id": "1641211",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26986,8 +21598,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 2003,
-          "name": "Meunier, JOSHUA",
-          "id": "5935539",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -26996,8 +21606,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 2004,
-          "name": "Beck, CHRISTIAN",
-          "id": "5935477",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27006,8 +21614,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 2017,
-          "name": "Christiansen, NEAL",
-          "id": "1693949",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27016,8 +21622,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 2032,
-          "name": "McGowan, NEIL",
-          "id": "5985917",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27026,8 +21630,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 2043,
-          "name": "Pelkington, AJ",
-          "id": "5960330",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27036,8 +21638,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 2044,
-          "name": "Magnuson, ROB",
-          "id": "5959942",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27046,8 +21646,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 2045,
-          "name": "Wylie, ROY",
-          "id": "5985516",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27056,8 +21654,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 2046,
-          "name": "Gates, AARON",
-          "id": "5985520",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27066,8 +21662,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 2056,
-          "name": "Daigle, DUSTIN",
-          "id": "6015233",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27076,8 +21670,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 2058,
-          "name": "Hutchinson, ANDREW",
-          "id": "6014941",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27086,8 +21678,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 2063,
-          "name": "Partridge, Jennifer",
-          "id": "6019848",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27096,8 +21686,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 2069,
-          "name": "Sumja, TIMOTHY",
-          "id": "6057363",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27106,8 +21694,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 2076,
-          "name": "Paxton, THAYER",
-          "id": "6075926",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27116,8 +21702,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 2078,
-          "name": "Timmermann, AARON",
-          "id": "6041818",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27126,8 +21710,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 2090,
-          "name": "McCallie, LANCE",
-          "id": "6080922",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27136,8 +21718,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 2091,
-          "name": "Gilmore, MIKE",
-          "id": "6103967",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27146,8 +21726,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 2092,
-          "name": "Grunzinger, JOHN",
-          "id": "6125475",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27156,8 +21734,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 2094,
-          "name": "Lapin, JUSTIN",
-          "id": "6124783",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27166,8 +21742,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 2095,
-          "name": "Mitchell, Amelia",
-          "id": "6124052",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27176,8 +21750,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 2100,
-          "name": "Gittner, AARON",
-          "id": "6295629",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27186,8 +21758,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 2101,
-          "name": "Quinton, MICHAEL",
-          "id": "6246598",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27196,8 +21766,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 2104,
-          "name": "Peck Jr., JOHN",
-          "id": "6295628",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27206,8 +21774,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 2114,
-          "name": "Donohoo IV, LEE",
-          "id": "6295633",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27216,8 +21782,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 2116,
-          "name": "Zetts, ANDREW",
-          "id": "6294788",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27226,8 +21790,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 2122,
-          "name": "Burnette, ALEX",
-          "id": "6295634",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27236,8 +21798,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 2123,
-          "name": "Nance, BRANDON",
-          "id": "6294789",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27246,8 +21806,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 2129,
-          "name": "Taylor, SCOTT",
-          "id": "6352590",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27256,8 +21814,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2131,
-          "name": "Wilde, STEVEN",
-          "id": "6331475",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27266,8 +21822,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2132,
-          "name": "Holcak, TONY",
-          "id": "6341170",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27276,8 +21830,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2134,
-          "name": "Hufnagle, JOE",
-          "id": "6354940",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27286,8 +21838,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 2135,
-          "name": "Bishop, ZACHARY",
-          "id": "1683631",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27296,8 +21846,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 2141,
-          "name": "Garrett, THOMAS",
-          "id": "6356769",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27306,8 +21854,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 2144,
-          "name": "Akut, KEM",
-          "id": "6357362",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27316,8 +21862,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 2146,
-          "name": "Bartee, GARRETT",
-          "id": "6357687",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27326,8 +21870,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 2150,
-          "name": "Allen, Jeremy",
-          "id": "6355144",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27336,8 +21878,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 2151,
-          "name": "Woten, JOSHUA",
-          "id": "6336303",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27346,8 +21886,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 2160,
-          "name": "Lee, PETER",
-          "id": "6359825",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27356,8 +21894,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 2165,
-          "name": "Kaser, BRANDON",
-          "id": "6361080",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27366,8 +21902,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 2166,
-          "name": "Edwards, TONY",
-          "id": "0226262",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27376,8 +21910,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 2190,
-          "name": "Ryno, DAVID",
-          "id": "6384313",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27386,8 +21918,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 2191,
-          "name": "Bubonic, NATHAN",
-          "id": "6384220",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27396,8 +21926,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 2196,
-          "name": "Fleisher, Jaron",
-          "id": "6384215",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27406,8 +21934,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 2199,
-          "name": "Torres, ANDRE",
-          "id": "6384315",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27416,8 +21942,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 2227,
-          "name": "Livolsi, MARC",
-          "id": "6474993",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27426,8 +21950,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 2232,
-          "name": "Justice, KEVIN",
-          "id": "6459154",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27436,8 +21958,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 2244,
-          "name": "Willis, DOMINIQUE",
-          "id": "6466113",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27446,8 +21966,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 2279,
-          "name": "Powers Jr., MARK",
-          "id": "1791133",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27456,8 +21974,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 2281,
-          "name": "Martin, BENJAMIN",
-          "id": "7003260",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27466,8 +21982,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 2296,
-          "name": "Stitzel, MARC",
-          "id": "7119296",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27476,8 +21990,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 2298,
-          "name": "Nezier, Gabby",
-          "id": "7118425",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27486,8 +21998,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 2299,
-          "name": "Hamad, TALAL",
-          "id": "7118424",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27496,8 +22006,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 2300,
-          "name": "Jackson, KEYNAN",
-          "id": "7118980",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27506,8 +22014,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 2305,
-          "name": "Kammeyer, ERICK",
-          "id": "7248553",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27516,8 +22022,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 2306,
-          "name": "Guerra, CHRISTOPHER",
-          "id": "7249938",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27526,8 +22030,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 2307,
-          "name": "Bastian, MATT",
-          "id": "7248552",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27536,8 +22038,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 2311,
-          "name": "Brown, TODD",
-          "id": "7273223",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27546,8 +22046,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 2312,
-          "name": "Zumbrunnen, CLINTON",
-          "id": "7273357",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27556,8 +22054,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 2319,
-          "name": "Tollman, TYLER",
-          "id": "7273354",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27566,8 +22062,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 2322,
-          "name": "Trettin, TAYLOR",
-          "id": "7273364",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27576,8 +22070,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 2325,
-          "name": "Smith, SPENCER",
-          "id": "7273352",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27586,8 +22078,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 2335,
-          "name": "Stone, Shawn",
-          "id": "7276361",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27596,8 +22086,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 2372,
-          "name": "Snakenberg, SHANE",
-          "id": "7281597",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27606,8 +22094,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 2376,
-          "name": "Branson, TIMOTHY",
-          "id": "2030246",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27616,8 +22102,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 2387,
-          "name": "Huff, ZACHARY",
-          "id": "7282034",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27626,8 +22110,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 2401,
-          "name": "Robeson, STACE",
-          "id": "7291969",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27636,8 +22118,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 2402,
-          "name": "Webb, JASON",
-          "id": "7291967",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27646,8 +22126,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 2419,
-          "name": "Wyatt II, RONALD",
-          "id": "0955226",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27656,8 +22134,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 2425,
-          "name": "Bobinski, TIMOTHY",
-          "id": "7305628",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27666,8 +22142,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 2426,
-          "name": "Parrott, STACIA",
-          "id": "7305641",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27676,8 +22150,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 2450,
-          "name": "Brumley, JUSTIN",
-          "id": "7332433",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27686,8 +22158,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 2451,
-          "name": "Mira, JACK",
-          "id": "7332458",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27696,8 +22166,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 2454,
-          "name": "Barmby, GRANT",
-          "id": "7332429",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27706,8 +22174,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 2455,
-          "name": "Johnson, BRIAN",
-          "id": "7332669",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27716,8 +22182,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 2456,
-          "name": "Harrington, KYLE",
-          "id": "7332455",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27726,8 +22190,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 2471,
-          "name": "Hudepohl, JAMES",
-          "id": "7355514",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27736,8 +22198,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 138,
           "sen": 2472,
-          "name": "Ortiz, ORLANDO",
-          "id": "7355582",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27746,8 +22206,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 139,
           "sen": 2477,
-          "name": "Sutherland, JACOB",
-          "id": "7355513",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27756,8 +22214,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 140,
           "sen": 2479,
-          "name": "Anderson, AARON",
-          "id": "1360257",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27766,8 +22222,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 141,
           "sen": 2490,
-          "name": "Burgess, GARRETT",
-          "id": "7381949",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27776,8 +22230,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 142,
           "sen": 2491,
-          "name": "Reinke, NICHOLAS",
-          "id": "7381994",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27786,8 +22238,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 143,
           "sen": 2494,
-          "name": "Kom, JEREMY",
-          "id": "3204486",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27796,8 +22246,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 144,
           "sen": 2499,
-          "name": "Jindrich III, CHAZ",
-          "id": "7383984",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27806,8 +22254,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 145,
           "sen": 2501,
-          "name": "Higgins, MARK",
-          "id": "7383953",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27816,8 +22262,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 146,
           "sen": 2505,
-          "name": "Powers, DREW",
-          "id": "7383996",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27826,8 +22270,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 147,
           "sen": 2520,
-          "name": "Cloud, Brandon",
-          "id": "7406378",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27836,8 +22278,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 148,
           "sen": 2526,
-          "name": "Boomer, JOSHUA",
-          "id": "7409407",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27846,8 +22286,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 149,
           "sen": 2527,
-          "name": "Moritz, RICHARD",
-          "id": "7409605",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27856,8 +22294,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 150,
           "sen": 2530,
-          "name": "Febres Rodrigue, JOSE",
-          "id": "7409602",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27866,8 +22302,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 151,
           "sen": 2533,
-          "name": "Smith, David",
-          "id": "7409406",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27876,8 +22310,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 152,
           "sen": 2543,
-          "name": "Duke, DUSTIN",
-          "id": "7431893",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27886,8 +22318,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 153,
           "sen": 2551,
-          "name": "Fann, SCOTT",
-          "id": "7434233",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27896,8 +22326,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 154,
           "sen": 2555,
-          "name": "Barnes, CODY",
-          "id": "7434234",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27906,8 +22334,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 155,
           "sen": 2574,
-          "name": "Cannariato, Paul",
-          "id": "7700146",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27916,8 +22342,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 156,
           "sen": 2575,
-          "name": "Marlatt, MICHAEL",
-          "id": "7700228",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27926,8 +22350,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 157,
           "sen": 2576,
-          "name": "Querl IV, JOHN",
-          "id": "7700143",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27936,8 +22358,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 158,
           "sen": 2583,
-          "name": "Sharp, CARSON",
-          "id": "7705714",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27946,8 +22366,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 159,
           "sen": 2586,
-          "name": "Brdlik, CLINTON",
-          "id": "7705817",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27956,8 +22374,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 160,
           "sen": 2597,
-          "name": "Diamantis, Andreas",
-          "id": "7718322",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27966,8 +22382,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 161,
           "sen": 2602,
-          "name": "Malyuta, DMITRY",
-          "id": "7718340",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27976,8 +22390,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 162,
           "sen": 2625,
-          "name": "Childs, Matthew",
-          "id": "2125016",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27986,8 +22398,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 163,
           "sen": 2627,
-          "name": "Selleh, TRAVIS",
-          "id": "7723787",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -27996,8 +22406,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 164,
           "sen": 2632,
-          "name": "Melville, COREY",
-          "id": "7724710",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28006,8 +22414,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 165,
           "sen": 2633,
-          "name": "Daley, PATRICK",
-          "id": "7724682",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28016,8 +22422,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 166,
           "sen": 2634,
-          "name": "Kovalcik, Brian",
-          "id": "7724762",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28026,8 +22430,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 167,
           "sen": 2666,
-          "name": "Roemer, ERIK",
-          "id": "7736019",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28036,8 +22438,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 168,
           "sen": 2668,
-          "name": "Field, EWART",
-          "id": "7736057",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28046,8 +22446,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 169,
           "sen": 2684,
-          "name": "Boytim, DAVID",
-          "id": "7751822",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28056,8 +22454,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 170,
           "sen": 2691,
-          "name": "Penner, TRAVIS",
-          "id": "7751811",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28066,8 +22462,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 171,
           "sen": 2692,
-          "name": "Davis, PARKER",
-          "id": "7751801",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28076,8 +22470,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 172,
           "sen": 2693,
-          "name": "Novotny, DAVID",
-          "id": "7751847",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28086,8 +22478,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 173,
           "sen": 2698,
-          "name": "Kozminski, DAVID",
-          "id": "7753282",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28096,8 +22486,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 174,
           "sen": 2708,
-          "name": "England, BENJAMIN",
-          "id": "7753432",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28106,8 +22494,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 175,
           "sen": 2710,
-          "name": "Burckhard, ANDREW",
-          "id": "7753252",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28116,8 +22502,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 176,
           "sen": 2712,
-          "name": "Stolworthy, Richard",
-          "id": "7753166",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28126,8 +22510,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 177,
           "sen": 2717,
-          "name": "Crall, DOUGLAS",
-          "id": "7771910",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28136,8 +22518,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 178,
           "sen": 2719,
-          "name": "Riddle, JAMISON",
-          "id": "7771908",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28146,8 +22526,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 179,
           "sen": 2723,
-          "name": "Zahnd, JEFFREY",
-          "id": "7771931",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28156,8 +22534,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 180,
           "sen": 2727,
-          "name": "Ramirez, JUAN",
-          "id": "7771902",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28166,8 +22542,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 181,
           "sen": 2729,
-          "name": "Weisz, SHEP",
-          "id": "7771911",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28176,8 +22550,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 182,
           "sen": 2730,
-          "name": "Hoff, ABRAM",
-          "id": "7771955",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28186,8 +22558,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 183,
           "sen": 2734,
-          "name": "Melchior, MICHAEL",
-          "id": "7773785",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28196,8 +22566,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 184,
           "sen": 2736,
-          "name": "Windham, MICHAEL",
-          "id": "7773584",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28206,8 +22574,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 185,
           "sen": 2738,
-          "name": "Brown, MATT",
-          "id": "7773671",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28216,8 +22582,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 186,
           "sen": 2739,
-          "name": "Svec, AARON",
-          "id": "7774435",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28226,8 +22590,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 187,
           "sen": 2740,
-          "name": "Spiva, BRETT",
-          "id": "7773784",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28236,8 +22598,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 188,
           "sen": 2742,
-          "name": "Swank, SCOTT",
-          "id": "7773669",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28246,8 +22606,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 189,
           "sen": 2743,
-          "name": "Billington, IAN",
-          "id": "7773586",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28256,8 +22614,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 190,
           "sen": 2744,
-          "name": "Schutte, Patrick",
-          "id": "7773812",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28266,8 +22622,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 191,
           "sen": 2746,
-          "name": "Bidwell, CRAIG",
-          "id": "7773582",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28276,8 +22630,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 192,
           "sen": 2753,
-          "name": "Peters, CHRISTIAN",
-          "id": "7773771",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28286,8 +22638,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 193,
           "sen": 2754,
-          "name": "Wadach, LUKE",
-          "id": "7773864",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28296,8 +22646,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 194,
           "sen": 2761,
-          "name": "Tornikoski, Mika",
-          "id": "7793986",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28306,8 +22654,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 195,
           "sen": 2767,
-          "name": "Gustavson, Robert",
-          "id": "7793948",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28316,8 +22662,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 196,
           "sen": 2768,
-          "name": "Godwin, Dan",
-          "id": "7793947",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28326,8 +22670,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 197,
           "sen": 2776,
-          "name": "Meeks, CHRISTOPHER",
-          "id": "7796043",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28336,8 +22678,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 198,
           "sen": 2778,
-          "name": "Schaafsma, JONATHAN",
-          "id": "1337669",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28346,8 +22686,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 199,
           "sen": 2780,
-          "name": "Stark, DAVID",
-          "id": "7796232",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28356,8 +22694,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 200,
           "sen": 2783,
-          "name": "Montgomery, MARK",
-          "id": "7796041",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28366,8 +22702,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 201,
           "sen": 2785,
-          "name": "Durfee, CAMERON",
-          "id": "7796160",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28376,8 +22710,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 202,
           "sen": 2786,
-          "name": "Smergut, CASEY",
-          "id": "7796156",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28386,8 +22718,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 203,
           "sen": 2801,
-          "name": "Kretz, KEVIN",
-          "id": "7824938",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28396,8 +22726,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 204,
           "sen": 2810,
-          "name": "Sumner, ANTHONY",
-          "id": "7824960",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28406,8 +22734,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 205,
           "sen": 2813,
-          "name": "Crump, TYLER",
-          "id": "7824843",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28416,8 +22742,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 206,
           "sen": 2818,
-          "name": "McKerring, MATHEW",
-          "id": "7826825",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28426,8 +22750,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 207,
           "sen": 2820,
-          "name": "Winslow, TRAVIS",
-          "id": "7826824",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28436,8 +22758,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 208,
           "sen": 2821,
-          "name": "Solis, NICHOLAS",
-          "id": "7826770",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28446,8 +22766,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 209,
           "sen": 2823,
-          "name": "Philyaw  III, BILLY",
-          "id": "7826726",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28456,8 +22774,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 210,
           "sen": 2824,
-          "name": "Stathopoulos, NICK",
-          "id": "7827250",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28466,8 +22782,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 211,
           "sen": 2826,
-          "name": "Nelson, NATHAN",
-          "id": "7827029",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28476,8 +22790,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 212,
           "sen": 2848,
-          "name": "Pellington, BRADLEY",
-          "id": "7845197",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28486,8 +22798,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 213,
           "sen": 2849,
-          "name": "Reddout, Jeffrey",
-          "id": "7845253",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28496,8 +22806,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 214,
           "sen": 2850,
-          "name": "Stowe, Darren",
-          "id": "7845263",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28506,8 +22814,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 215,
           "sen": 2851,
-          "name": "Kren, NATHAN",
-          "id": "7845196",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28516,8 +22822,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 216,
           "sen": 2856,
-          "name": "Dale, JASON",
-          "id": "7847197",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28526,8 +22830,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 217,
           "sen": 2857,
-          "name": "Ketterer, CHRISTOPHER",
-          "id": "7847249",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28536,8 +22838,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 218,
           "sen": 2858,
-          "name": "Knasas, ARAS",
-          "id": "7847251",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28546,8 +22846,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 219,
           "sen": 2860,
-          "name": "O'Neil, JASON",
-          "id": "7847159",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28556,8 +22854,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 220,
           "sen": 2861,
-          "name": "Lloyd III, HAL",
-          "id": "7847115",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28566,8 +22862,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 221,
           "sen": 2862,
-          "name": "Ginther, AARON",
-          "id": "7847250",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28576,8 +22870,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 222,
           "sen": 2863,
-          "name": "Binns, WINSTON",
-          "id": "1590970",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28586,8 +22878,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 223,
           "sen": 2865,
-          "name": "Brown, RUSSELL",
-          "id": "7847160",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28596,8 +22886,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 224,
           "sen": 2869,
-          "name": "Brisepierre, QUENTIN",
-          "id": "7847061",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28606,8 +22894,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 225,
           "sen": 2886,
-          "name": "Retan, Joel",
-          "id": "7874007",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28616,8 +22902,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 226,
           "sen": 2887,
-          "name": "Harper, LAURA",
-          "id": "7875805",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28626,8 +22910,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 227,
           "sen": 2889,
-          "name": "Andrew, Meredith",
-          "id": "7876743",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28636,8 +22918,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 228,
           "sen": 2893,
-          "name": "Skovran, DREW",
-          "id": "7876267",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28646,8 +22926,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 229,
           "sen": 2896,
-          "name": "Collins, MATTHEW",
-          "id": "7876798",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28656,8 +22934,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 230,
           "sen": 2897,
-          "name": "Kramer, GENTRY",
-          "id": "7875895",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28666,8 +22942,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 231,
           "sen": 2898,
-          "name": "Esposito, JOHN",
-          "id": "7875887",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28676,8 +22950,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 232,
           "sen": 2899,
-          "name": "Gallrein, JUSTIN",
-          "id": "7875803",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28686,8 +22958,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 233,
           "sen": 2900,
-          "name": "Mays, JOSEPH",
-          "id": "7875889",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28696,8 +22966,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 234,
           "sen": 2901,
-          "name": "Amos, ANTHONY",
-          "id": "7876084",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28706,8 +22974,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 235,
           "sen": 2904,
-          "name": "Protos, CHRISTOPHER",
-          "id": "7875890",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28716,8 +22982,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 236,
           "sen": 2913,
-          "name": "Javed, Nadir",
-          "id": "7917221",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28726,8 +22990,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 237,
           "sen": 2923,
-          "name": "Hall, JONATHAN",
-          "id": "7917193",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28736,8 +22998,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 238,
           "sen": 2931,
-          "name": "Murray, PATRICK",
-          "id": "7920170",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28746,8 +23006,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 239,
           "sen": 2933,
-          "name": "Skouse, BRIAN",
-          "id": "7920062",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28756,8 +23014,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 240,
           "sen": 2935,
-          "name": "Pearson, TODD",
-          "id": "7920055",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28766,8 +23022,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 241,
           "sen": 2936,
-          "name": "Garcia, GLENN",
-          "id": "7919960",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28776,8 +23030,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 242,
           "sen": 2938,
-          "name": "Bucklew, KEITH",
-          "id": "7919999",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28786,8 +23038,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 243,
           "sen": 2939,
-          "name": "Brown Jr., CLINT",
-          "id": "7919998",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28796,8 +23046,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 244,
           "sen": 2940,
-          "name": "Gamauf, ERIC",
-          "id": "7919977",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28806,8 +23054,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 245,
           "sen": 2941,
-          "name": "Galloway, Stephen",
-          "id": "7921294",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28816,8 +23062,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 246,
           "sen": 2945,
-          "name": "Finnegan, JASON",
-          "id": "7921295",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28826,8 +23070,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 247,
           "sen": 2947,
-          "name": "Elmstedt, KRIS",
-          "id": "7920054",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28836,8 +23078,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 248,
           "sen": 2963,
-          "name": "Hall III, BOBBY",
-          "id": "8018712",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28846,8 +23086,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 249,
           "sen": 2986,
-          "name": "Stevenson, BRAD",
-          "id": "8166942",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28856,8 +23094,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 250,
           "sen": 2989,
-          "name": "Wilkinson, JOHN",
-          "id": "8172730",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28866,8 +23102,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 251,
           "sen": 3000,
-          "name": "Maloney, BRIAN",
-          "id": "8518735",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28876,8 +23110,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 252,
           "sen": 3001,
-          "name": "Rosa-Miranda, ROZY",
-          "id": "8521042",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28886,8 +23118,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 253,
           "sen": 3002,
-          "name": "Vuolo, ROB",
-          "id": "8518264",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28896,8 +23126,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 254,
           "sen": 3004,
-          "name": "Troyer, Chris",
-          "id": "8517929",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28906,8 +23134,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 255,
           "sen": 3005,
-          "name": "McEwen, TUCKER",
-          "id": "8517956",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28916,8 +23142,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 256,
           "sen": 3006,
-          "name": "Rorex, CALEB",
-          "id": "8517928",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28926,8 +23150,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 257,
           "sen": 3007,
-          "name": "Foreman, RYAN",
-          "id": "8518137",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28936,8 +23158,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 258,
           "sen": 3031,
-          "name": "Martinez, CHRIS",
-          "id": "8529790",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28946,8 +23166,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 259,
           "sen": 3032,
-          "name": "Lizarraga Vielm, Frankl",
-          "id": "8528747",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28956,8 +23174,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 260,
           "sen": 3033,
-          "name": "Brushaber, Peter",
-          "id": "8529763",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28966,8 +23182,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 261,
           "sen": 3034,
-          "name": "Hamilton, CHRISTIAN",
-          "id": "8529929",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28976,8 +23190,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 262,
           "sen": 3035,
-          "name": "Elliott, SETH",
-          "id": "8529037",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28986,8 +23198,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 263,
           "sen": 3043,
-          "name": "Leis, PATRICIA",
-          "id": "8529039",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -28996,8 +23206,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 264,
           "sen": 3045,
-          "name": "Garlisi Jr, Anthony",
-          "id": "8529927",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29006,8 +23214,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 265,
           "sen": 3055,
-          "name": "Frank, TIM",
-          "id": "8549920",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29016,8 +23222,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 266,
           "sen": 3058,
-          "name": "Sanders, DANIEL",
-          "id": "8546210",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29026,8 +23230,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 267,
           "sen": 3059,
-          "name": "Coto Gonzalez, MARLON",
-          "id": "8542963",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29036,8 +23238,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 268,
           "sen": 3060,
-          "name": "Heublein, SHAUN",
-          "id": "8548349",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29046,8 +23246,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 269,
           "sen": 3061,
-          "name": "Merrigan, BRENDEN",
-          "id": "8545875",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29056,8 +23254,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 270,
           "sen": 3062,
-          "name": "Van Dusen, SHANNA",
-          "id": "8545075",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29066,8 +23262,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 271,
           "sen": 3063,
-          "name": "Ahrens, JASON",
-          "id": "8545839",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29076,8 +23270,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 272,
           "sen": 3064,
-          "name": "Roper, AJ",
-          "id": "8544967",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29086,8 +23278,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 273,
           "sen": 3065,
-          "name": "Faull II, DONALD",
-          "id": "8543010",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29096,8 +23286,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 274,
           "sen": 3066,
-          "name": "Gibson, ADAM",
-          "id": "8544907",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29106,8 +23294,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 275,
           "sen": 3067,
-          "name": "Briery, LOGAN",
-          "id": "8545837",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29116,8 +23302,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 276,
           "sen": 3068,
-          "name": "Whitmer, JUSTIN",
-          "id": "8545074",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29126,8 +23310,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 277,
           "sen": 3071,
-          "name": "Fontaine, GARRET",
-          "id": "8543200",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29136,8 +23318,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 278,
           "sen": 3072,
-          "name": "Duehmig, DEREK",
-          "id": "8542968",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29146,8 +23326,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 279,
           "sen": 3074,
-          "name": "Cook, KYLE",
-          "id": "8542927",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29156,8 +23334,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 280,
           "sen": 3075,
-          "name": "Uecker, Tim",
-          "id": "8545076",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29166,8 +23342,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 281,
           "sen": 3093,
-          "name": "Young, KEITH",
-          "id": "8559267",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29176,8 +23350,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 282,
           "sen": 3094,
-          "name": "Braun, MICHAEL",
-          "id": "8559226",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29186,8 +23358,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 283,
           "sen": 3096,
-          "name": "Hutchinson, JOSEPH",
-          "id": "8559240",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29196,8 +23366,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 284,
           "sen": 3097,
-          "name": "Baker, BRIAN",
-          "id": "8559243",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29206,8 +23374,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 285,
           "sen": 3099,
-          "name": "Jones, NICK",
-          "id": "8559313",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29216,8 +23382,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 286,
           "sen": 3100,
-          "name": "Rosenau, JAMES",
-          "id": "8559250",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29226,8 +23390,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 287,
           "sen": 3102,
-          "name": "Deans, Devin",
-          "id": "8560223",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29236,8 +23398,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 288,
           "sen": 3107,
-          "name": "Shockley, Nate",
-          "id": "8559314",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29246,8 +23406,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 289,
           "sen": 3117,
-          "name": "Dardenne, Darrell",
-          "id": "8575911",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29256,8 +23414,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 290,
           "sen": 3123,
-          "name": "Melnikov, Dmitry",
-          "id": "8575923",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29266,8 +23422,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 291,
           "sen": 3129,
-          "name": "Galloway Jr., Doug",
-          "id": "8575983",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29276,8 +23430,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 292,
           "sen": 3131,
-          "name": "Woodards, Robert",
-          "id": "8576019",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29286,8 +23438,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 293,
           "sen": 3132,
-          "name": "Rossi, John",
-          "id": "8576011",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29296,8 +23446,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 294,
           "sen": 3133,
-          "name": "Huston, Brian",
-          "id": "8575988",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29306,8 +23454,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 295,
           "sen": 3137,
-          "name": "Small, Adam",
-          "id": "8576015",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29316,8 +23462,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 296,
           "sen": 3141,
-          "name": "Meyer, Tom",
-          "id": "8576002",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29326,8 +23470,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 297,
           "sen": 3142,
-          "name": "Marlatt, Clayton",
-          "id": "8576001",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29336,8 +23478,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 298,
           "sen": 3143,
-          "name": "Geiger, Robert",
-          "id": "8575984",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29346,8 +23486,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 299,
           "sen": 3144,
-          "name": "Schuler, Katie",
-          "id": "8576012",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29356,8 +23494,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 300,
           "sen": 3145,
-          "name": "Nguyen, Pete",
-          "id": "8576006",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29366,8 +23502,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 301,
           "sen": 3147,
-          "name": "McMillen, Clint",
-          "id": "8581541",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29376,8 +23510,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 302,
           "sen": 3149,
-          "name": "Moughamian, Brian",
-          "id": "8576004",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29386,8 +23518,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 303,
           "sen": 3151,
-          "name": "Lamb, Cj",
-          "id": "8575994",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29396,8 +23526,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 304,
           "sen": 3163,
-          "name": "Sowers, Scott",
-          "id": "8602834",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29406,8 +23534,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 305,
           "sen": 3168,
-          "name": "Ibsen, Chris",
-          "id": "8602775",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29416,8 +23542,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 306,
           "sen": 3169,
-          "name": "Faulkner, Garrett",
-          "id": "8602712",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29426,8 +23550,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 307,
           "sen": 3170,
-          "name": "Machniak Jr., Frank",
-          "id": "8602818",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29436,8 +23558,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 308,
           "sen": 3171,
-          "name": "Smith, Marvin",
-          "id": "8602826",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29446,8 +23566,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 309,
           "sen": 3172,
-          "name": "Walker, Spencer",
-          "id": "8602839",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29456,8 +23574,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 310,
           "sen": 3173,
-          "name": "Keutmann, Patrick",
-          "id": "8602793",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29466,8 +23582,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 311,
           "sen": 3174,
-          "name": "Keranen, Jon",
-          "id": "2128523",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29476,8 +23590,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 312,
           "sen": 3176,
-          "name": "Foss, Douglas",
-          "id": "8602758",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29486,8 +23598,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 313,
           "sen": 3178,
-          "name": "McBreairty, Drake",
-          "id": "8602822",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29496,8 +23606,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 314,
           "sen": 3180,
-          "name": "Lenhart, Andrew",
-          "id": "3775189",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29506,8 +23614,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 315,
           "sen": 3181,
-          "name": "Long, Kurt",
-          "id": "8602816",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29516,8 +23622,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 316,
           "sen": 3193,
-          "name": "Dodson, Mark",
-          "id": "8603334",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29526,8 +23630,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 317,
           "sen": 3195,
-          "name": "Griffiths, Stuart",
-          "id": "8644624",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29536,8 +23638,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 318,
           "sen": 3196,
-          "name": "Hanson, Garrick",
-          "id": "8650707",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29546,8 +23646,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 319,
           "sen": 3197,
-          "name": "Shuttleworth, Will",
-          "id": "8650758",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29556,8 +23654,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 320,
           "sen": 3203,
-          "name": "Livingston, Chad",
-          "id": "8721770",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29566,8 +23662,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 321,
           "sen": 3206,
-          "name": "Sexsmith, Landon",
-          "id": "8701680",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29576,8 +23670,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 322,
           "sen": 3207,
-          "name": "Fridinger, Robert",
-          "id": "8701584",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29586,8 +23678,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 323,
           "sen": 3209,
-          "name": "Brown, Gregory",
-          "id": "8701005",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29596,8 +23686,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 324,
           "sen": 3211,
-          "name": "Manter, Josh",
-          "id": "8701671",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29606,8 +23694,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 325,
           "sen": 3234,
-          "name": "Van Dusen, Jeffrey",
-          "id": "8860141",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29616,8 +23702,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 326,
           "sen": 3235,
-          "name": "Egan, Matt",
-          "id": "8859684",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29626,8 +23710,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 327,
           "sen": 3237,
-          "name": "McCain, Casey",
-          "id": "8859962",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29636,8 +23718,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 328,
           "sen": 3239,
-          "name": "Mason, Jackson",
-          "id": "8859981",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29646,8 +23726,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 329,
           "sen": 3278,
-          "name": "Huang, Bengi",
-          "id": "8945092",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29656,8 +23734,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 330,
           "sen": 3283,
-          "name": "Sopko, Patrick",
-          "id": "8945098",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29666,8 +23742,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 331,
           "sen": 3284,
-          "name": "Austin, Zack",
-          "id": "8945075",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29676,8 +23750,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 332,
           "sen": 3286,
-          "name": "Ferguson, Luke",
-          "id": "4745880",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29686,8 +23758,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 333,
           "sen": 3294,
-          "name": "Raham, STEPHEN",
-          "id": "8950173",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29696,8 +23766,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 334,
           "sen": 3296,
-          "name": "Andrews, ERIK",
-          "id": "8950164",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29706,8 +23774,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 335,
           "sen": 3313,
-          "name": "Del Pizzo III, CHARLES",
-          "id": "8955510",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29716,8 +23782,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 336,
           "sen": 3315,
-          "name": "Sullivan, JOSH",
-          "id": "8955530",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29726,8 +23790,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 337,
           "sen": 3336,
-          "name": "Murphy, MICHAEL",
-          "id": "8969369",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29736,8 +23798,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 338,
           "sen": 3351,
-          "name": "Nanna, BRYAN",
-          "id": "8986094",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29746,8 +23806,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 339,
           "sen": 3358,
-          "name": "Lawson, CLAY",
-          "id": "8986163",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29756,8 +23814,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 340,
           "sen": 3359,
-          "name": "Fromknecht, GREG",
-          "id": "8986160",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29766,8 +23822,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 341,
           "sen": 3365,
-          "name": "Erion, JAKE",
-          "id": "9003511",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29776,8 +23830,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 342,
           "sen": 3367,
-          "name": "Kersten, ADAM",
-          "id": "9003516",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29786,8 +23838,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 343,
           "sen": 3370,
-          "name": "Hutchens, CHRIS",
-          "id": "0562365",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29796,8 +23846,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 344,
           "sen": 3371,
-          "name": "Teixeira Junior, JOSE C",
-          "id": "9003869",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29806,8 +23854,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 345,
           "sen": 3372,
-          "name": "Jackson, JOSH",
-          "id": "9003842",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29816,8 +23862,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 346,
           "sen": 3374,
-          "name": "Roberts, CHRISTOPHER",
-          "id": "9003868",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29826,8 +23870,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 347,
           "sen": 3375,
-          "name": "Alissandratos, ANDREW",
-          "id": "9003668",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29836,8 +23878,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 348,
           "sen": 3376,
-          "name": "Palan, AARON",
-          "id": "9003848",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29846,8 +23886,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 349,
           "sen": 3377,
-          "name": "Aschenbrenner, JARED",
-          "id": "9003673",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29856,8 +23894,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 350,
           "sen": 3378,
-          "name": "Hudson, MATT",
-          "id": "9004359",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29866,8 +23902,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 351,
           "sen": 3379,
-          "name": "Turnbull, JASON",
-          "id": "9004363",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29876,8 +23910,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 352,
           "sen": 3380,
-          "name": "Garcia De Souza, JONATA",
-          "id": "9003835",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29886,8 +23918,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 353,
           "sen": 3382,
-          "name": "Kratochvil, MIKE",
-          "id": "9003844",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29896,8 +23926,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 354,
           "sen": 3383,
-          "name": "Mickle, ALEX",
-          "id": "9007263",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29906,8 +23934,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 355,
           "sen": 3388,
-          "name": "Alverson, JOE",
-          "id": "9015269",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29916,8 +23942,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 356,
           "sen": 3394,
-          "name": "Gorman, JC",
-          "id": "9016824",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29926,8 +23950,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 357,
           "sen": 3396,
-          "name": "James, DON",
-          "id": "9016897",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29936,8 +23958,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 358,
           "sen": 3398,
-          "name": "Basanta, ANDREW",
-          "id": "9016516",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29946,8 +23966,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 359,
           "sen": 3399,
-          "name": "Hilsen, AMELIA",
-          "id": "9016894",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29956,8 +23974,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 360,
           "sen": 3400,
-          "name": "Aldinger, EVAN",
-          "id": "9016511",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29966,8 +23982,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 361,
           "sen": 3401,
-          "name": "Neal, BUCK",
-          "id": "9016932",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29976,8 +23990,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 362,
           "sen": 3402,
-          "name": "Morris, MATT",
-          "id": "9016927",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29986,8 +23998,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 363,
           "sen": 3403,
-          "name": "Oleck, ROSS",
-          "id": "9016936",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -29996,8 +24006,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 364,
           "sen": 3406,
-          "name": "Baker, MIKE",
-          "id": "9034147",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30006,8 +24014,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 365,
           "sen": 3415,
-          "name": "Mislevy, ALEX",
-          "id": "9033779",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30016,8 +24022,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 366,
           "sen": 3416,
-          "name": "Hawk, CONNOR",
-          "id": "9032500",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30026,8 +24030,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 367,
           "sen": 3420,
-          "name": "Bush, RYAN",
-          "id": "9032543",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30036,8 +24038,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 368,
           "sen": 3421,
-          "name": "Call, ETHAN",
-          "id": "9032547",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30046,8 +24046,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 369,
           "sen": 3422,
-          "name": "Welch, TYLER",
-          "id": "9033661",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30056,8 +24054,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 370,
           "sen": 3423,
-          "name": "Rommel, MICHAEL",
-          "id": "9032675",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30066,8 +24062,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 371,
           "sen": 3424,
-          "name": "Benner, CAMERON",
-          "id": "9032538",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30076,8 +24070,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 372,
           "sen": 3425,
-          "name": "Pitsas, DEMETRIOS",
-          "id": "9033579",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30086,8 +24078,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 373,
           "sen": 3427,
-          "name": "Millspaugh, JAMESON",
-          "id": "9032659",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30096,8 +24086,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 374,
           "sen": 3428,
-          "name": "Brown, TAYLOR",
-          "id": "9032542",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30106,8 +24094,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 375,
           "sen": 3429,
-          "name": "Driver, KEGAN",
-          "id": "5088344",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30116,8 +24102,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 376,
           "sen": 3430,
-          "name": "Andres, PARKER",
-          "id": "4893907",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30126,8 +24110,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 377,
           "sen": 3438,
-          "name": "Ekiss, DEREK",
-          "id": "9077230",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30136,8 +24118,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 378,
           "sen": 3440,
-          "name": "Stewart, TOM",
-          "id": "9077627",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30146,8 +24126,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 379,
           "sen": 3441,
-          "name": "Miller, MARISSA",
-          "id": "9077431",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30156,8 +24134,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 380,
           "sen": 3442,
-          "name": "Scott, BRIAN",
-          "id": "9077619",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30166,8 +24142,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 381,
           "sen": 3444,
-          "name": "Brisco, TIMOTHY",
-          "id": "9077106",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30176,8 +24150,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 382,
           "sen": 3445,
-          "name": "Maschner, KYLE",
-          "id": "9077423",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30186,8 +24158,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 383,
           "sen": 3446,
-          "name": "Blahut, MICHAEL",
-          "id": "9077097",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30196,8 +24166,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 384,
           "sen": 3447,
-          "name": "Borders, MIKE",
-          "id": "1602141",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30206,8 +24174,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 385,
           "sen": 3448,
-          "name": "Van Der Merwe, JARED",
-          "id": "9082024",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30216,8 +24182,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 386,
           "sen": 3449,
-          "name": "Koroluk, MARK",
-          "id": "9081859",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30226,8 +24190,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 387,
           "sen": 3453,
-          "name": "Russell, NORMAN",
-          "id": "9249296",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30236,8 +24198,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 388,
           "sen": 3454,
-          "name": "Macholtz, STEVEN",
-          "id": "9249204",
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -30250,8 +24210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 20,
-          "name": "Jordan, JOHN",
-          "id": "0555550",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30260,8 +24218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 47,
-          "name": "Skonieczny, PAUL",
-          "id": "0554444",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30270,8 +24226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 75,
-          "name": "Trocki III, JOSEPH F.",
-          "id": "0554421",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30280,8 +24234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 77,
-          "name": "Rosen, STEPHEN",
-          "id": "0557149",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30290,8 +24242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 119,
-          "name": "Robelotto, DEAN W.",
-          "id": "0556952",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30300,8 +24250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 154,
-          "name": "Haworth, Steve",
-          "id": "0555531",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30310,8 +24258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 163,
-          "name": "Stickney, BINGHAM",
-          "id": "0556910",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30320,8 +24266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 172,
-          "name": "Luebbermann, BRAD",
-          "id": "0556668",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30330,8 +24274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 196,
-          "name": "Kelly, BRIAN",
-          "id": "0554347",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30340,8 +24282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 206,
-          "name": "Ward Jr., WILLIAM",
-          "id": "0555885",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30350,8 +24290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 212,
-          "name": "Petrolino, STEVEN D.",
-          "id": "0554478",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30360,8 +24298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 214,
-          "name": "Mozden, MARK E.",
-          "id": "0554365",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30370,8 +24306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 219,
-          "name": "Simon, ERIK",
-          "id": "0557028",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30380,8 +24314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 238,
-          "name": "Delaurenti, JOHN",
-          "id": "0555637",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30390,8 +24322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 299,
-          "name": "Chamberlain, MARK",
-          "id": "0557176",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30400,8 +24330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 333,
-          "name": "Godfrey, DONALD",
-          "id": "0554778",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30410,8 +24338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 337,
-          "name": "Rawding, STEPHEN",
-          "id": "0557076",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30420,8 +24346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 373,
-          "name": "Morgan, JEFFREY",
-          "id": "0554960",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30430,8 +24354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 375,
-          "name": "Garfield, MITCHEL",
-          "id": "0556976",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30440,8 +24362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 378,
-          "name": "Medore, DOUGLAS",
-          "id": "0554700",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30450,8 +24370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 395,
-          "name": "Andersen, KIM",
-          "id": "0556949",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30460,8 +24378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 397,
-          "name": "Renslow, TIMOTHY",
-          "id": "0557012",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30470,8 +24386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 450,
-          "name": "Strain, BRAD L.",
-          "id": "1012528",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30480,8 +24394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 452,
-          "name": "Loose, DAVID W.",
-          "id": "1012574",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30490,8 +24402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 457,
-          "name": "Cooper, JOHN C.",
-          "id": "1028820",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30500,8 +24410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 459,
-          "name": "Pierce, DOUGLAS J.",
-          "id": "1028860",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30510,8 +24418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 610,
-          "name": "Christensen III, WAYNE",
-          "id": "1274303",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30520,8 +24426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 614,
-          "name": "Martinez, DAVID J.",
-          "id": "1274671",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30530,8 +24434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 689,
-          "name": "Cerri, DONALD",
-          "id": "1791276",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30540,8 +24442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 709,
-          "name": "Tauer, MAX",
-          "id": "1797676",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30550,8 +24450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 722,
-          "name": "Lindgren, RICK",
-          "id": "1803745",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30560,8 +24458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 815,
-          "name": "Melling, WAYNE",
-          "id": "1843989",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30570,8 +24466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 818,
-          "name": "Hoffman, JOEY",
-          "id": "1844109",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30580,8 +24474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 821,
-          "name": "Nguyen, DAO",
-          "id": "1844153",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30590,8 +24482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 823,
-          "name": "Calimlim, JOBERT",
-          "id": "1844142",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30600,8 +24490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 861,
-          "name": "McMillen, JEFF",
-          "id": "1872265",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30610,8 +24498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 882,
-          "name": "Shankland, JON",
-          "id": "1966319",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30620,8 +24506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 884,
-          "name": "Cates, CLINTON",
-          "id": "1966313",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30630,8 +24514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 940,
-          "name": "Wright, WILL",
-          "id": "2051470",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30640,8 +24522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 947,
-          "name": "Stacy, CHRIS",
-          "id": "2057100",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30650,8 +24530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 976,
-          "name": "Fairon, DANIEL",
-          "id": "2074041",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30660,8 +24538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 980,
-          "name": "Pugh, MICHAEL",
-          "id": "2090603",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30670,8 +24546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 987,
-          "name": "Carter, BRENT",
-          "id": "2090612",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30680,8 +24554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 988,
-          "name": "Keck, DEREK",
-          "id": "2090624",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30690,8 +24562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 1014,
-          "name": "Carpino, NICHOLAS",
-          "id": "0625520",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30700,8 +24570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 1017,
-          "name": "Johnson, GUY",
-          "id": "2174156",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30710,8 +24578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 1077,
-          "name": "Swerdlow, GILAD",
-          "id": "3172086",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30720,8 +24586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 1084,
-          "name": "Rising II, ALLEN",
-          "id": "3176046",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30730,8 +24594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 1087,
-          "name": "Hart, Daniel",
-          "id": "3176023",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30740,8 +24602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 1121,
-          "name": "Hiddessen, MICHAEL",
-          "id": "3196704",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30750,8 +24610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 1122,
-          "name": "McVeigh, SCOTT",
-          "id": "3196701",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30760,8 +24618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 1166,
-          "name": "Argento, JAMES",
-          "id": "3225449",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30770,8 +24626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 1174,
-          "name": "Thomas, KEITH",
-          "id": "3235658",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30780,8 +24634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 1177,
-          "name": "Jenkins, KEN",
-          "id": "3236791",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30790,8 +24642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 1183,
-          "name": "Williams, KENT",
-          "id": "3243686",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30800,8 +24650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 1199,
-          "name": "Sonstein, PAUL",
-          "id": "3259758",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30810,8 +24658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 1200,
-          "name": "McMahon, MICHELLE",
-          "id": "3262649",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30820,8 +24666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 1260,
-          "name": "Krell, BRAD",
-          "id": "4430845",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30830,8 +24674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 1286,
-          "name": "Harty, CHRIS",
-          "id": "4450266",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30840,8 +24682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 1298,
-          "name": "Seals, FLOYD",
-          "id": "4476173",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30850,8 +24690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 1302,
-          "name": "Etlinger, MATTHEW",
-          "id": "4476174",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30860,8 +24698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 1313,
-          "name": "Vaughn, KYLE",
-          "id": "4476175",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30870,8 +24706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 1340,
-          "name": "Milaszewicz, MICHAEL",
-          "id": "4742901",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30880,8 +24714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 1364,
-          "name": "Radovcich, NICK",
-          "id": "4752356",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30890,8 +24722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 1388,
-          "name": "Wielenga, JULIE",
-          "id": "4899614",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30900,8 +24730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 1399,
-          "name": "Hupfeld, BRIAN",
-          "id": "4899596",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30910,8 +24738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 1401,
-          "name": "Pewe, KEVIN",
-          "id": "4899607",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30920,8 +24746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 1419,
-          "name": "Kelly Jr., EDWARD",
-          "id": "4899599",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30930,8 +24754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 1424,
-          "name": "Anderson, JEREMY",
-          "id": "5045096",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30940,8 +24762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 1431,
-          "name": "Kaplan, Christopher",
-          "id": "5061179",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30950,8 +24770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 1552,
-          "name": "Bharath, ANDY",
-          "id": "5094164",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30960,8 +24778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 1571,
-          "name": "Gordon, ARUSHA",
-          "id": "5107900",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30970,8 +24786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 1574,
-          "name": "Pelegrin, GREG",
-          "id": "5112549",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30980,8 +24794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 1576,
-          "name": "Nelson, JIMMY",
-          "id": "5094169",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -30990,8 +24802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 1581,
-          "name": "Pizano, JULIO",
-          "id": "5118531",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31000,8 +24810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 1618,
-          "name": "Wiser, Clark",
-          "id": "5140722",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31010,8 +24818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 1645,
-          "name": "Diaz Jr., MARCOS",
-          "id": "5185764",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31020,8 +24826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 1653,
-          "name": "Gulati, ANDY",
-          "id": "5185230",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31030,8 +24834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 1668,
-          "name": "Harrison, KELLY",
-          "id": "5279725",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31040,8 +24842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 1716,
-          "name": "Laird IV, CHARLIE",
-          "id": "5473800",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31050,8 +24850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 1725,
-          "name": "Phungsonthorn, Ty",
-          "id": "5474848",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31060,8 +24858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 1735,
-          "name": "Hilsabeck, Cris",
-          "id": "5479289",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31070,8 +24866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 1752,
-          "name": "Gadd, KEVIN",
-          "id": "0990005",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31080,8 +24874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 1768,
-          "name": "Rocher IV, JOHN",
-          "id": "5490012",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31090,8 +24882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 1776,
-          "name": "Kaczorowski, BRIAN",
-          "id": "5496573",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31100,8 +24890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 1805,
-          "name": "Coler, MICHAEL",
-          "id": "5568349",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31110,8 +24898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 1850,
-          "name": "Ennis, Ciaran",
-          "id": "5619596",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31120,8 +24906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 1897,
-          "name": "Baldwin, Philip",
-          "id": "5741454",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31130,8 +24914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 1947,
-          "name": "Uhlenhop, Eric",
-          "id": "5925679",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31140,8 +24922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 2013,
-          "name": "Killingsworth, TREVOR",
-          "id": "5966103",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31150,8 +24930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 2016,
-          "name": "Nobriga, NICHOLAS",
-          "id": "5935853",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31160,8 +24938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 2038,
-          "name": "Butler, COREY",
-          "id": "5960328",
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -31172,8 +24948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 469,
-          "name": "Hayward, BERNADETTE",
-          "id": "1055344",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31182,8 +24956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 484,
-          "name": "Kibby, JIM",
-          "id": "1077421",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31192,8 +24964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 643,
-          "name": "Braunbeck, DEAN E.",
-          "id": "1301296",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31202,8 +24972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 813,
-          "name": "Kiltz, LOIE",
-          "id": "1844155",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31212,8 +24980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 856,
-          "name": "Van Der Linde, BRENT",
-          "id": "1872257",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31222,8 +24988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 958,
-          "name": "Taillon, EDWARD",
-          "id": "2068615",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31232,8 +24996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 1164,
-          "name": "Frauenfelder, MATTHEW",
-          "id": "3225439",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31242,8 +25004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 1169,
-          "name": "Buchanan, MICHAEL",
-          "id": "3225434",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31252,8 +25012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 1704,
-          "name": "Beitel, JASON",
-          "id": "5473798",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31262,8 +25020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 1872,
-          "name": "Jaseph, GUY",
-          "id": "5729288",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31272,8 +25028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 1878,
-          "name": "Debeb, JONATHAN",
-          "id": "5691478",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31282,8 +25036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 1905,
-          "name": "Muir, SCOTT",
-          "id": "5741770",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31292,8 +25044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1932,
-          "name": "Meyers, JOHN",
-          "id": "5918912",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31302,8 +25052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1987,
-          "name": "Hartzell III, BOBBY",
-          "id": "5932009",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31312,8 +25060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 2015,
-          "name": "Kihm, ROB",
-          "id": "5935850",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31322,8 +25068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 2041,
-          "name": "Paine, JARED",
-          "id": "5986632",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31332,8 +25076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 2071,
-          "name": "Schwartz, ASH",
-          "id": "6040112",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31342,8 +25084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 2075,
-          "name": "Mesquita, FILIPE",
-          "id": "6065732",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31352,8 +25092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 2117,
-          "name": "Currie, ERIC",
-          "id": "6295631",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31362,8 +25100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 2121,
-          "name": "Sieradzki, JEFF",
-          "id": "6295621",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31372,8 +25108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 2145,
-          "name": "Kemp, STEPHEN",
-          "id": "6356879",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31382,8 +25116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 2147,
-          "name": "Kenareki, ARMEN",
-          "id": "6356074",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31392,8 +25124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 2162,
-          "name": "Hamblin, VINCENT",
-          "id": "6361192",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31402,8 +25132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 2183,
-          "name": "Bowens, DESOBRY",
-          "id": "6362416",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31412,8 +25140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 2229,
-          "name": "Hafner, GREGORY",
-          "id": "6481678",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31422,8 +25148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 2284,
-          "name": "Sisilas, Thanos",
-          "id": "7017912",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31432,8 +25156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 2297,
-          "name": "Wagner, RENE",
-          "id": "7118981",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31442,8 +25164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 2304,
-          "name": "Hinson, NEAL",
-          "id": "7248765",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31452,8 +25172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 2327,
-          "name": "Beyer, Brian",
-          "id": "7273341",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31462,8 +25180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 2347,
-          "name": "Rommel, KURT",
-          "id": "7276859",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31472,8 +25188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 2377,
-          "name": "Vance, SHAWN",
-          "id": "7282031",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31482,8 +25196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 2429,
-          "name": "Dineen, EVAN",
-          "id": "7305643",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31492,8 +25204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 2470,
-          "name": "Lane, DAVID",
-          "id": "7355432",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31502,8 +25212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 2475,
-          "name": "Picazo, MARTIN",
-          "id": "7355512",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31512,8 +25220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 2487,
-          "name": "Heugly, BRANDEN",
-          "id": "1796651",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31522,8 +25228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 2519,
-          "name": "Reynolds, COREY",
-          "id": "7406376",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31532,8 +25236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 2536,
-          "name": "Hill Jr., PETER",
-          "id": "7409554",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31542,8 +25244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 2585,
-          "name": "Kellner, MARK",
-          "id": "7705715",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31552,8 +25252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 2612,
-          "name": "Iruoje, SCOTT",
-          "id": "7718520",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31562,8 +25260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 2635,
-          "name": "McCarthy, JOHN",
-          "id": "7724709",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31572,8 +25268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 2640,
-          "name": "Gardner, DAVID",
-          "id": "7724681",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31582,8 +25276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 2650,
-          "name": "Ovenstone, Mark",
-          "id": "7735095",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31592,8 +25284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 2661,
-          "name": "Gibson, JAY",
-          "id": "7735947",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31602,8 +25292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 2665,
-          "name": "Rogers, PHILLIP",
-          "id": "7736056",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31612,8 +25300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 2673,
-          "name": "Hamacher, STEPHEN",
-          "id": "7735879",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31622,8 +25308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 2699,
-          "name": "Christen, BEN",
-          "id": "7753253",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31632,8 +25316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 2709,
-          "name": "Lefebre, MATTHEW",
-          "id": "7753284",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31642,8 +25324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 2752,
-          "name": "Carnahan, CORY",
-          "id": "7773585",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31652,8 +25332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 2765,
-          "name": "McGee, SEAN",
-          "id": "7793958",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31662,8 +25340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 2774,
-          "name": "Calder, ADRIAN",
-          "id": "7795768",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31672,8 +25348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 2782,
-          "name": "Decker, BRANDON",
-          "id": "7795981",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31682,8 +25356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 2788,
-          "name": "Wetzel, ERIC",
-          "id": "7796242",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31692,8 +25364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 2811,
-          "name": "Gottlieb, Derek",
-          "id": "7824899",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31702,8 +25372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 2827,
-          "name": "Haun, BRIAN",
-          "id": "7826733",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31712,8 +25380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 2831,
-          "name": "Crews, JUSTIN",
-          "id": "7826683",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31722,8 +25388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 2890,
-          "name": "Wilson, JOHN",
-          "id": "0169481",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31732,8 +25396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 2903,
-          "name": "Marsh, ADAM",
-          "id": "7875896",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31742,8 +25404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 2949,
-          "name": "Hallum, Charles",
-          "id": "7920063",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31752,8 +25412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 2950,
-          "name": "Giffen, TAYLOR",
-          "id": "7919949",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31762,8 +25420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 2975,
-          "name": "Christy, JOHN",
-          "id": "8130848",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31772,8 +25428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 3037,
-          "name": "Birckett, OWEN",
-          "id": "8529002",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31782,8 +25436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 3092,
-          "name": "Allen, Chad",
-          "id": "8560240",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31792,8 +25444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 3098,
-          "name": "Anderson, Rob",
-          "id": "8559221",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31802,8 +25452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 3106,
-          "name": "O'Connor, Sean",
-          "id": "8560220",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31812,8 +25460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 3127,
-          "name": "Miller, Rex",
-          "id": "8576003",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31822,8 +25468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 3130,
-          "name": "Irvine, Jeff",
-          "id": "8575992",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31832,8 +25476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 3136,
-          "name": "Ireland, Bryan",
-          "id": "8575990",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31842,8 +25484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 3138,
-          "name": "Marks, Steven",
-          "id": "8576038",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31852,8 +25492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 3175,
-          "name": "Harvey, Anson",
-          "id": "8602766",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31862,8 +25500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 3177,
-          "name": "L'Huillier, Bradley",
-          "id": "8603344",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31872,8 +25508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 3179,
-          "name": "Cornelius, Michael",
-          "id": "8602707",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31882,8 +25516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 3189,
-          "name": "Bryan, Benjamin",
-          "id": "8644621",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31892,8 +25524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 3192,
-          "name": "Snelgrove, Elliott",
-          "id": "8644628",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31902,8 +25532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 3194,
-          "name": "Hogan, Thomas",
-          "id": "8644625",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31912,8 +25540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 3212,
-          "name": "Smith, Jeff",
-          "id": "8701684",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31922,8 +25548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 3215,
-          "name": "Lee, Ian",
-          "id": "8701621",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31932,8 +25556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 3236,
-          "name": "Cornell, Kiwedin",
-          "id": "8859489",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31942,8 +25564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 3244,
-          "name": "Medley, Jason",
-          "id": "8860003",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31952,8 +25572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 3360,
-          "name": "Ose, MITCHELL",
-          "id": "8986165",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31962,8 +25580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 3381,
-          "name": "Richardson, BRADEN",
-          "id": "9003866",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31972,8 +25588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 3384,
-          "name": "Abbott, KEVIN",
-          "id": "9003665",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31982,8 +25596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 3391,
-          "name": "Guitar, PAUL",
-          "id": "9016859",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -31992,8 +25604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 3397,
-          "name": "Gregg, DAN",
-          "id": "9016858",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32002,8 +25612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 3404,
-          "name": "Barber, DANE",
-          "id": "9017353",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32012,8 +25620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 3405,
-          "name": "Vonderwell, ISAAC",
-          "id": "9016945",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32022,8 +25628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 3417,
-          "name": "Cotton, LADD",
-          "id": "9032551",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32032,8 +25636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 3426,
-          "name": "Harrison, PATRICK",
-          "id": "9032552",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32042,8 +25644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 3439,
-          "name": "Temesvari, GREGORY",
-          "id": "9077643",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32052,8 +25652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 3451,
-          "name": "Ramirez Araya, HELBERTH",
-          "id": "4449974",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32062,8 +25660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 3452,
-          "name": "Heidorn, MAYRA",
-          "id": "7020114",
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -32078,8 +25674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 15,
-          "name": "Young, John B",
-          "id": "0555973",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32088,8 +25682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 25,
-          "name": "Hershman, MARK",
-          "id": "0554739",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32098,8 +25690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 32,
-          "name": "Hanson, GLENN A",
-          "id": "0556475",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32108,8 +25698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 49,
-          "name": "Waller, PAUL G.",
-          "id": "0555020",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32118,8 +25706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 53,
-          "name": "Witt, TODD R.",
-          "id": "0556526",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32128,8 +25714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 60,
-          "name": "Duhe, John K",
-          "id": "0556454",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32138,8 +25722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 65,
-          "name": "Schreur, J.B.",
-          "id": "0556561",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32148,8 +25730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 74,
-          "name": "Gonzalez, MARCELO A.",
-          "id": "0556891",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32158,8 +25738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 78,
-          "name": "Neuman, PAUL D.",
-          "id": "0556977",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32168,8 +25746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 79,
-          "name": "Douglas, Thomas",
-          "id": "0555584",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32178,8 +25754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 82,
-          "name": "Buntin, David P.",
-          "id": "0555888",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32188,8 +25762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 85,
-          "name": "Ross, JOHN R.",
-          "id": "0554804",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32198,8 +25770,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 92,
-          "name": "Gordon, James",
-          "id": "0555281",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32208,8 +25778,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 102,
-          "name": "Graf, JANEEN M.",
-          "id": "0556556",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32218,8 +25786,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 107,
-          "name": "Dragush Jr., George M.",
-          "id": "0556697",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32228,8 +25794,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 110,
-          "name": "Wilson, Gregory",
-          "id": "0555306",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32238,8 +25802,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 112,
-          "name": "Campbell, RANDY C",
-          "id": "0556268",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32248,8 +25810,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 115,
-          "name": "Jones, RUSSELL E.",
-          "id": "0556253",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32258,8 +25818,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 117,
-          "name": "Hallett, Chuck",
-          "id": "0554515",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32268,8 +25826,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 123,
-          "name": "Reed, JAY R.",
-          "id": "0555422",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32278,8 +25834,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 129,
-          "name": "Gage, Scott A.",
-          "id": "0556250",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32288,8 +25842,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 142,
-          "name": "Holden, CHARLES",
-          "id": "0554898",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32298,8 +25850,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 156,
-          "name": "Hedley, DIETRICH",
-          "id": "0554435",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32308,8 +25858,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 169,
-          "name": "Drenter, CHRIS",
-          "id": "0556567",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32318,8 +25866,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 190,
-          "name": "Gould, Jim",
-          "id": "0555619",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32328,8 +25874,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 191,
-          "name": "Funk, HUGH",
-          "id": "0555043",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32338,8 +25882,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 199,
-          "name": "Griffin, TODD",
-          "id": "0556443",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32348,8 +25890,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 205,
-          "name": "Whyte, STEPHEN",
-          "id": "0555543",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32358,8 +25898,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 209,
-          "name": "Pastina, JOSEPH",
-          "id": "0555212",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32368,8 +25906,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 215,
-          "name": "Amason, Darryl J.",
-          "id": "0556201",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32378,8 +25914,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 220,
-          "name": "Mingari, WILLIAM",
-          "id": "0555761",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32388,8 +25922,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 225,
-          "name": "Koerner, Margot",
-          "id": "0554446",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32398,8 +25930,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 235,
-          "name": "Gerdes, Erick",
-          "id": "0555548",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32408,8 +25938,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 274,
-          "name": "McCauley, MICHAEL",
-          "id": "0556928",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32418,8 +25946,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 278,
-          "name": "Bowen, John",
-          "id": "0554584",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32428,8 +25954,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 283,
-          "name": "Fetter III, TRIP",
-          "id": "0555790",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32438,8 +25962,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 287,
-          "name": "Marx, Steve",
-          "id": "0556029",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32448,8 +25970,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 294,
-          "name": "Maxwell, George",
-          "id": "0556703",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32458,8 +25978,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 295,
-          "name": "Blaser, KEVIN",
-          "id": "0556165",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32468,8 +25986,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 307,
-          "name": "Briscoe III, Frank",
-          "id": "0554452",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32478,8 +25994,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 308,
-          "name": "Martin, ZIP",
-          "id": "0555333",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32488,8 +26002,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 313,
-          "name": "Harrod, Jim  J.",
-          "id": "0556543",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32498,8 +26010,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 328,
-          "name": "Murray, PATRICK",
-          "id": "0556530",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32508,8 +26018,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 332,
-          "name": "Coleman, NICK",
-          "id": "0556428",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32518,8 +26026,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 367,
-          "name": "Breedy, Gregory",
-          "id": "0556262",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32528,8 +26034,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 369,
-          "name": "Loring, MARK",
-          "id": "0555984",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32538,8 +26042,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 377,
-          "name": "Pratt, MICHAEL",
-          "id": "0555693",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32548,8 +26050,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 385,
-          "name": "Pozega, ROBERT",
-          "id": "0555671",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32558,8 +26058,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 393,
-          "name": "Schaeffler, Mark",
-          "id": "0554899",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32568,8 +26066,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 394,
-          "name": "Chancellor, ERIC",
-          "id": "0556244",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32578,8 +26074,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 419,
-          "name": "Deegan, SHARON",
-          "id": "0857478",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32588,8 +26082,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 440,
-          "name": "Neely, PAUL",
-          "id": "0993714",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32598,8 +26090,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 461,
-          "name": "Monasterio, Eugene",
-          "id": "1046890",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32608,8 +26098,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 463,
-          "name": "Owen, ANDY",
-          "id": "1046851",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32618,8 +26106,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 473,
-          "name": "Sipley, BRENT A.",
-          "id": "1055338",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32628,8 +26114,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 493,
-          "name": "Farley, Scott S.",
-          "id": "1086603",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32638,8 +26122,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 495,
-          "name": "Diemer, Timothy",
-          "id": "1101986",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32648,8 +26130,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 500,
-          "name": "Pitts II, FRANK W.",
-          "id": "1101950",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32658,8 +26138,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 516,
-          "name": "Robinson IV, Raymond S.",
-          "id": "1130925",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32668,8 +26146,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 520,
-          "name": "Ramberg, Stephen",
-          "id": "1141422",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32678,8 +26154,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 521,
-          "name": "Anderson, TODD W.",
-          "id": "1181072",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32688,8 +26162,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 526,
-          "name": "Veness, WAYNE R.",
-          "id": "1181043",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32698,8 +26170,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 527,
-          "name": "Hardy, PHILIP D.",
-          "id": "1181028",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32708,8 +26178,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 528,
-          "name": "Vitale, Steve",
-          "id": "1181105",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32718,8 +26186,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 529,
-          "name": "Coats III, BUDDY",
-          "id": "1184549",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32728,8 +26194,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 542,
-          "name": "McMaster, Yogi L.",
-          "id": "1199159",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32738,8 +26202,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 545,
-          "name": "Wahlstedt, ERIC C.",
-          "id": "1208763",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32748,8 +26210,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 563,
-          "name": "Torromeo, MICHELLE",
-          "id": "1219553",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32758,8 +26218,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 577,
-          "name": "Burke, Dean A.",
-          "id": "1231612",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32768,8 +26226,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 581,
-          "name": "O'Donnell, Kevin P.",
-          "id": "1231613",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32778,8 +26234,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 582,
-          "name": "Smith, Mark R.",
-          "id": "1237413",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32788,8 +26242,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 637,
-          "name": "Hagerman, JOHN W.",
-          "id": "1286896",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32798,8 +26250,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 647,
-          "name": "Williams Jr., ROGER E.",
-          "id": "1314668",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32808,8 +26258,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 650,
-          "name": "Graff, MARK L.",
-          "id": "1314726",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32818,8 +26266,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 662,
-          "name": "Meares, LEE",
-          "id": "1739111",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32828,8 +26274,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 674,
-          "name": "Burke, MICHAEL",
-          "id": "1776944",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32838,8 +26282,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 677,
-          "name": "Bischoff, SCOTT",
-          "id": "1777399",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32848,8 +26290,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 682,
-          "name": "Brownfield III, JOHN",
-          "id": "1791274",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32858,8 +26298,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 683,
-          "name": "Commock, GARY",
-          "id": "1791277",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32868,8 +26306,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 694,
-          "name": "Brace, TODD",
-          "id": "1793477",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32878,8 +26314,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 696,
-          "name": "Culligan, DAVID",
-          "id": "1793482",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32888,8 +26322,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 698,
-          "name": "Dewhirst, DANIEL",
-          "id": "1793479",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32898,8 +26330,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 700,
-          "name": "Kapp, Florian",
-          "id": "1793480",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32908,8 +26338,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 705,
-          "name": "West, John",
-          "id": "1797672",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32918,8 +26346,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 724,
-          "name": "Ledford, Scott",
-          "id": "1803762",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32928,8 +26354,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 733,
-          "name": "Knox, JOHN",
-          "id": "1803790",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32938,8 +26362,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 740,
-          "name": "McPherson, OMAR",
-          "id": "1805972",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32948,8 +26370,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 765,
-          "name": "Striegel, MATTHEW",
-          "id": "1813261",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32958,8 +26378,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 787,
-          "name": "Novak, KEVIN",
-          "id": "1829801",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32968,8 +26386,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 802,
-          "name": "Hodgkinson, DAVE",
-          "id": "1835548",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32978,8 +26394,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 805,
-          "name": "Bergquist III, WAYNE",
-          "id": "1835540",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32988,8 +26402,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 812,
-          "name": "Williams, JAY",
-          "id": "1844126",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -32998,8 +26410,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 822,
-          "name": "Doty, PRESTON",
-          "id": "1844156",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33008,8 +26418,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 824,
-          "name": "Nelson, MARCUS",
-          "id": "1844002",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33018,8 +26426,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 867,
-          "name": "Novak, Erich",
-          "id": "1888302",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33028,8 +26434,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 939,
-          "name": "Lindeman, MARK",
-          "id": "2051667",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33038,8 +26442,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 948,
-          "name": "Barram, JAY",
-          "id": "2057041",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33048,8 +26450,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 954,
-          "name": "Wathen, Pat",
-          "id": "2068798",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33058,8 +26458,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 968,
-          "name": "Silva, DAVID",
-          "id": "2068786",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33068,8 +26466,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 981,
-          "name": "Anderies, SHAWN",
-          "id": "2090423",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33078,8 +26474,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 982,
-          "name": "Tucker, Sean",
-          "id": "2090645",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33088,8 +26482,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 995,
-          "name": "Smith, Brent",
-          "id": "2108577",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33098,8 +26490,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 1015,
-          "name": "Smith, SAM",
-          "id": "2172538",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33108,8 +26498,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 1025,
-          "name": "Perich, MATT",
-          "id": "2176577",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33118,8 +26506,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 1034,
-          "name": "Whitehead II, Charles",
-          "id": "2176302",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33128,8 +26514,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 1054,
-          "name": "Nelson, SCOTT",
-          "id": "3170079",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33138,8 +26522,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 1069,
-          "name": "Voehl, CHRISTOPHER",
-          "id": "3173635",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33148,8 +26530,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 1097,
-          "name": "Zimpfer, Scott",
-          "id": "3188822",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33158,8 +26538,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 1132,
-          "name": "Klarich, RICHARD",
-          "id": "3202953",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33168,8 +26546,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 1160,
-          "name": "Buelow Jr., Rick",
-          "id": "3225450",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33178,8 +26554,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 1228,
-          "name": "Pichirilo, KENNAN",
-          "id": "4239105",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33188,8 +26562,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 1234,
-          "name": "Creel, JAKE",
-          "id": "4239015",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33198,8 +26570,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 113,
           "sen": 1235,
-          "name": "Toms, RYAN",
-          "id": "4239099",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33208,8 +26578,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 114,
           "sen": 1259,
-          "name": "Belcher III, LARRY",
-          "id": "4430851",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33218,8 +26586,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 115,
           "sen": 1281,
-          "name": "Hodson, Jessica",
-          "id": "1963667",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33228,8 +26594,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 116,
           "sen": 1309,
-          "name": "Healey, Kristopher",
-          "id": "4476392",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33238,8 +26602,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 117,
           "sen": 1318,
-          "name": "Ryan, CHRISTOPHER",
-          "id": "4492025",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33248,8 +26610,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 118,
           "sen": 1383,
-          "name": "Turner, TROY",
-          "id": "4899605",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33258,8 +26618,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 119,
           "sen": 1397,
-          "name": "Finklea, Robby",
-          "id": "4899594",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33268,8 +26626,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 120,
           "sen": 1404,
-          "name": "Hauber, Drew",
-          "id": "4899604",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33278,8 +26634,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 121,
           "sen": 1426,
-          "name": "Burch, JOHN",
-          "id": "0783090",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33288,8 +26642,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 122,
           "sen": 1507,
-          "name": "Strohbeen, Jesse",
-          "id": "1178583",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33298,8 +26650,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 123,
           "sen": 1533,
-          "name": "Etheredge, David",
-          "id": "5095246",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33308,8 +26658,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 124,
           "sen": 1551,
-          "name": "Wiegand, Marty",
-          "id": "5095348",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33318,8 +26666,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 125,
           "sen": 1555,
-          "name": "Mattingly, Eric",
-          "id": "5109055",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33328,8 +26674,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 126,
           "sen": 1590,
-          "name": "Killough, DAVID",
-          "id": "5094346",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33338,8 +26682,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 127,
           "sen": 1592,
-          "name": "Strohschein, LISA",
-          "id": "1599774",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33348,8 +26690,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 128,
           "sen": 1624,
-          "name": "Ormsby, Scott",
-          "id": "5161960",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33358,8 +26698,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 129,
           "sen": 1643,
-          "name": "Johnson, Michael",
-          "id": "5175848",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33368,8 +26706,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 130,
           "sen": 1727,
-          "name": "Tilley, Shane",
-          "id": "5473859",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33378,8 +26714,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 131,
           "sen": 1825,
-          "name": "Jimeno, NICO",
-          "id": "5570053",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33388,8 +26722,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 132,
           "sen": 1834,
-          "name": "Potter, TERRY",
-          "id": "5593851",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33398,8 +26730,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 133,
           "sen": 1841,
-          "name": "McKee, Aaron",
-          "id": "5593846",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33408,8 +26738,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 134,
           "sen": 1857,
-          "name": "Zelesnikar, Cassandra",
-          "id": "5638314",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33418,8 +26746,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 135,
           "sen": 1861,
-          "name": "Adams IV, Frank",
-          "id": "5691468",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33428,8 +26754,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 136,
           "sen": 1885,
-          "name": "Palmer, David",
-          "id": "5798391",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33438,8 +26762,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 137,
           "sen": 1891,
-          "name": "Rotmeijer, MARCO",
-          "id": "5736959",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -33450,8 +26772,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 1,
           "sen": 130,
-          "name": "Otto, Vlasta K.",
-          "id": "0557126",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33460,8 +26780,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 2,
           "sen": 357,
-          "name": "Kirchoff, MIKE",
-          "id": "0556873",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33470,8 +26788,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 3,
           "sen": 945,
-          "name": "Johnson, Lyle",
-          "id": "2057214",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33480,8 +26796,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 4,
           "sen": 1033,
-          "name": "Noel, ANNE",
-          "id": "2176585",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33490,8 +26804,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 5,
           "sen": 1088,
-          "name": "Dunn, Brian",
-          "id": "3183033",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33500,8 +26812,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 6,
           "sen": 1154,
-          "name": "Yoschak, GREGORY",
-          "id": "3213919",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33510,8 +26820,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 7,
           "sen": 1155,
-          "name": "Fondy, JEFF",
-          "id": "3213903",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33520,8 +26828,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 8,
           "sen": 1218,
-          "name": "Brown IV, PENN",
-          "id": "4227285",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33530,8 +26836,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 9,
           "sen": 1222,
-          "name": "Mires, Nick",
-          "id": "2174077",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33540,8 +26844,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 10,
           "sen": 1436,
-          "name": "Morrison, Jeremy",
-          "id": "5061174",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33550,8 +26852,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 11,
           "sen": 1441,
-          "name": "Woodman, CLIFF",
-          "id": "5051961",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33560,8 +26860,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 12,
           "sen": 1529,
-          "name": "Collard, KEITH",
-          "id": "5081261",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33570,8 +26868,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 13,
           "sen": 1597,
-          "name": "Ketchum, Steven",
-          "id": "5131407",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33580,8 +26876,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 14,
           "sen": 1665,
-          "name": "McKee, BRAD",
-          "id": "5279719",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33590,8 +26884,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 15,
           "sen": 1713,
-          "name": "Barrett, CHRISTIAN",
-          "id": "5413022",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33600,8 +26892,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 16,
           "sen": 1754,
-          "name": "Goldsberry, JONATHAN",
-          "id": "5489886",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33610,8 +26900,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 17,
           "sen": 1771,
-          "name": "Hight, Chelsea",
-          "id": "5508563",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33620,8 +26908,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 18,
           "sen": 1800,
-          "name": "Johnson, Christopher",
-          "id": "5541031",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33630,8 +26916,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 19,
           "sen": 1803,
-          "name": "Parker, ADAM",
-          "id": "5568056",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33640,8 +26924,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 20,
           "sen": 1804,
-          "name": "Glover, Terry",
-          "id": "5551823",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33650,8 +26932,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 21,
           "sen": 1889,
-          "name": "Kopp, Alex",
-          "id": "5738533",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33660,8 +26940,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 22,
           "sen": 1906,
-          "name": "Grimes, Johnny",
-          "id": "5737329",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33670,8 +26948,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 23,
           "sen": 1920,
-          "name": "Clark, MIKE",
-          "id": "5741772",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33680,8 +26956,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 24,
           "sen": 1931,
-          "name": "Hooke, JEFFREY",
-          "id": "5919257",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33690,8 +26964,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 25,
           "sen": 1946,
-          "name": "Leluc, JEROME",
-          "id": "5922942",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33700,8 +26972,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 26,
           "sen": 1951,
-          "name": "Lochab, Hardeep",
-          "id": "5931691",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33710,8 +26980,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 27,
           "sen": 1953,
-          "name": "Messinger, Mandi",
-          "id": "5930455",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33720,8 +26988,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 28,
           "sen": 1972,
-          "name": "Ryan, MITCHELL",
-          "id": "5933949",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33730,8 +26996,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 29,
           "sen": 1974,
-          "name": "Warrington, STEVEN",
-          "id": "5926724",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33740,8 +27004,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 30,
           "sen": 1988,
-          "name": "Ponce, Andrew",
-          "id": "5927809",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33750,8 +27012,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 31,
           "sen": 1992,
-          "name": "Ramirez, STEVE",
-          "id": "5947068",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33760,8 +27020,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 32,
           "sen": 2054,
-          "name": "Henson, TREVOR",
-          "id": "5985518",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33770,8 +27028,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 33,
           "sen": 2066,
-          "name": "Bromschwig, ERIC",
-          "id": "6014936",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33780,8 +27036,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 34,
           "sen": 2107,
-          "name": "Holy, Michael",
-          "id": "6354224",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33790,8 +27044,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 35,
           "sen": 2170,
-          "name": "Howard, JASON",
-          "id": "6358819",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33800,8 +27052,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 36,
           "sen": 2184,
-          "name": "Betz, Peter",
-          "id": "6365624",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33810,8 +27060,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 37,
           "sen": 2203,
-          "name": "Micolta, Manuel",
-          "id": "6426226",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33820,8 +27068,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 38,
           "sen": 2204,
-          "name": "Spatz, GREGORY",
-          "id": "6414988",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33830,8 +27076,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 39,
           "sen": 2205,
-          "name": "Delacollette, PHILIPPE",
-          "id": "6385813",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33840,8 +27084,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 40,
           "sen": 2206,
-          "name": "Belardo, MICHAEL",
-          "id": "6421570",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33850,8 +27092,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 41,
           "sen": 2207,
-          "name": "Brewer, Joshua",
-          "id": "1007600",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33860,8 +27100,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 42,
           "sen": 2208,
-          "name": "Saleh, Andrew",
-          "id": "6415239",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33870,8 +27108,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 43,
           "sen": 2209,
-          "name": "Ballarati, Lanie",
-          "id": "6414991",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33880,8 +27116,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 44,
           "sen": 2210,
-          "name": "Murphy, SHANNON",
-          "id": "6415240",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33890,8 +27124,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 45,
           "sen": 2220,
-          "name": "Lee, JAMES",
-          "id": "6473110",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33900,8 +27132,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 46,
           "sen": 2235,
-          "name": "Wineman, NICHOLAS",
-          "id": "6474451",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33910,8 +27140,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 47,
           "sen": 2248,
-          "name": "Denny, CHRISTOPHER",
-          "id": "6484892",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33920,8 +27148,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 48,
           "sen": 2271,
-          "name": "Eloian, Johan",
-          "id": "7000679",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33930,8 +27156,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 49,
           "sen": 2273,
-          "name": "Birnbaum, JON",
-          "id": "7000670",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33940,8 +27164,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 50,
           "sen": 2276,
-          "name": "Russell, RYAN",
-          "id": "7000645",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33950,8 +27172,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 51,
           "sen": 2278,
-          "name": "Gwinn, COLTON",
-          "id": "7000556",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33960,8 +27180,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 52,
           "sen": 2283,
-          "name": "Maury, MITCHELL",
-          "id": "7017824",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33970,8 +27188,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 53,
           "sen": 2285,
-          "name": "Cambron, Lenny",
-          "id": "7017874",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33980,8 +27196,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 54,
           "sen": 2334,
-          "name": "Sponseller, HUGH",
-          "id": "7276356",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -33990,8 +27204,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 55,
           "sen": 2336,
-          "name": "Noweder, EYAD",
-          "id": "7276354",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34000,8 +27212,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 56,
           "sen": 2390,
-          "name": "Price, MICHAEL",
-          "id": "7291282",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34010,8 +27220,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 57,
           "sen": 2404,
-          "name": "Bacinski, MICHAEL",
-          "id": "7291971",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34020,8 +27228,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 58,
           "sen": 2406,
-          "name": "Geyer, JEREMY",
-          "id": "7291970",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34030,8 +27236,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 59,
           "sen": 2413,
-          "name": "Brown, Diane",
-          "id": "7304511",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34040,8 +27244,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 60,
           "sen": 2462,
-          "name": "Power, Chris",
-          "id": "7355427",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34050,8 +27252,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 61,
           "sen": 2513,
-          "name": "Buergel, CHRISTOPHER",
-          "id": "7406293",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34060,8 +27260,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 62,
           "sen": 2579,
-          "name": "Burgess, TY",
-          "id": "7700236",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34070,8 +27268,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 63,
           "sen": 2580,
-          "name": "Brady, Kevin",
-          "id": "7700147",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34080,8 +27276,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 64,
           "sen": 2622,
-          "name": "Tolle, NATE",
-          "id": "7723767",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34090,8 +27284,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 65,
           "sen": 2715,
-          "name": "Dierking, CHRIS",
-          "id": "7753239",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34100,8 +27292,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 66,
           "sen": 2802,
-          "name": "Maddock, MIKE",
-          "id": "7824965",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34110,8 +27300,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 67,
           "sen": 2803,
-          "name": "Bosch, Joseph",
-          "id": "7827251",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34120,8 +27308,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 68,
           "sen": 2845,
-          "name": "Rademacher, JAMIE",
-          "id": "7845223",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34130,8 +27316,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 69,
           "sen": 2994,
-          "name": "Hildebrand, Howie",
-          "id": "8517916",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34140,8 +27324,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 70,
           "sen": 2997,
-          "name": "Schumacher, Chris",
-          "id": "8517918",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34150,8 +27332,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 71,
           "sen": 2998,
-          "name": "Miron Cossa, Daniel",
-          "id": "8517919",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34160,8 +27340,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 72,
           "sen": 3019,
-          "name": "Benitez Camacho, JAVIER",
-          "id": "8528615",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34170,8 +27348,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 73,
           "sen": 3020,
-          "name": "Martinez, JEFF",
-          "id": "8528943",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34180,8 +27356,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 74,
           "sen": 3021,
-          "name": "Deitz, SCOTT",
-          "id": "1447943",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34190,8 +27364,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 75,
           "sen": 3022,
-          "name": "Alday, KEVIN",
-          "id": "8529849",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34200,8 +27372,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 76,
           "sen": 3049,
-          "name": "Hernandez Acost, Luis",
-          "id": "8540459",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34210,8 +27380,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 77,
           "sen": 3052,
-          "name": "Lewton, Brian",
-          "id": "8540464",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34220,8 +27388,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 78,
           "sen": 3053,
-          "name": "Dyer, WYATT",
-          "id": "8540465",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34230,8 +27396,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 79,
           "sen": 3054,
-          "name": "Van Treese, KOLE",
-          "id": "8540463",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34240,8 +27404,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 80,
           "sen": 3087,
-          "name": "Wood, COLT",
-          "id": "8558283",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34250,8 +27412,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 81,
           "sen": 3089,
-          "name": "Ludwig, MATT",
-          "id": "8557997",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34260,8 +27420,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 82,
           "sen": 3090,
-          "name": "Fleming, Reed",
-          "id": "8557879",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34270,8 +27428,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 83,
           "sen": 3154,
-          "name": "Ravelo Morales, Francis",
-          "id": "8600661",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34280,8 +27436,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 84,
           "sen": 3156,
-          "name": "Parsons, Aaron",
-          "id": "8598451",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34290,8 +27444,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 85,
           "sen": 3157,
-          "name": "Danker, Garrett",
-          "id": "8598370",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34300,8 +27452,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 86,
           "sen": 3158,
-          "name": "Noall, Ryan",
-          "id": "8598444",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34310,8 +27460,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 87,
           "sen": 3159,
-          "name": "Holder, Andrew",
-          "id": "8598423",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34320,8 +27468,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 88,
           "sen": 3160,
-          "name": "Chimienti, Michael",
-          "id": "8598351",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34330,8 +27476,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 89,
           "sen": 3161,
-          "name": "Hantla, Luke",
-          "id": "8598386",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34340,8 +27484,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 90,
           "sen": 3162,
-          "name": "Jones, True",
-          "id": "8598434",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34350,8 +27492,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 91,
           "sen": 3184,
-          "name": "Rogers, Robert",
-          "id": "8643762",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34360,8 +27500,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 92,
           "sen": 3186,
-          "name": "Speer, Mike",
-          "id": "8644381",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34370,8 +27508,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 93,
           "sen": 3201,
-          "name": "Crain, Jade",
-          "id": "8700941",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34380,8 +27516,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 94,
           "sen": 3202,
-          "name": "Motta Teixeira, Tiago",
-          "id": "8701576",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34390,8 +27524,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 95,
           "sen": 3227,
-          "name": "Sumner Jr., Carlton",
-          "id": "8847954",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34400,8 +27532,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 96,
           "sen": 3230,
-          "name": "Young, Aaron",
-          "id": "8848065",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34410,8 +27540,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 97,
           "sen": 3231,
-          "name": "Camp, Devin",
-          "id": "8847835",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34420,8 +27548,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 98,
           "sen": 3232,
-          "name": "Judah, Kal",
-          "id": "8847880",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34430,8 +27556,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 99,
           "sen": 3233,
-          "name": "Kern, Trent",
-          "id": "8847891",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34440,8 +27564,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 100,
           "sen": 3249,
-          "name": "Van Den Berg, Charl",
-          "id": "8936494",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34450,8 +27572,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 101,
           "sen": 3250,
-          "name": "Downing, Matthew",
-          "id": "8936488",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34460,8 +27580,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 102,
           "sen": 3251,
-          "name": "Mann, Shane",
-          "id": "8936602",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34470,8 +27588,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 103,
           "sen": 3254,
-          "name": "Quigley, Peter",
-          "id": "8936503",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34480,8 +27596,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 104,
           "sen": 3288,
-          "name": "Espinal, ERICK",
-          "id": "8950148",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34490,8 +27604,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 105,
           "sen": 3290,
-          "name": "Matherly, DAVE",
-          "id": "8950153",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34500,8 +27612,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 106,
           "sen": 3301,
-          "name": "Nemeth, LISA",
-          "id": "8955225",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34510,8 +27620,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 107,
           "sen": 3303,
-          "name": "Williams, JOHN",
-          "id": "8955250",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34520,8 +27628,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 108,
           "sen": 3304,
-          "name": "Stock, BRANDON",
-          "id": "8955244",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34530,8 +27636,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 109,
           "sen": 3305,
-          "name": "Lentz, CURT",
-          "id": "8955219",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34540,8 +27644,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 110,
           "sen": 3326,
-          "name": "Steele, VIRGIL",
-          "id": "8968974",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34550,8 +27652,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 111,
           "sen": 3327,
-          "name": "Baker, DERRICK",
-          "id": "8968953",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -34560,8 +27660,6 @@ const GLOBAL_PILOT_DATA =
         {
           "pos": 112,
           "sen": 3350,
-          "name": "Karahan, UNAL",
-          "id": "8986090",
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",

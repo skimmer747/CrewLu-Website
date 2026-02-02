@@ -360,8 +360,6 @@ def parse_pilot_line(line):
         pilots.append({
             'pos': pos,
             'sen': sen,
-            'name': name,
-            'id': pilot_id,
             'dom': dom,
             'eqp': eqp,
             'seat': seat,
@@ -386,8 +384,6 @@ def parse_pilot_line(line):
             pilots.append({
                 'pos': 0,        # Placeholder, will be recalculated
                 'sen': sen,
-                'name': name,
-                'id': pilot_id,
                 'dom': dom,
                 'eqp': eqp,
                 'seat': seat,
@@ -420,8 +416,6 @@ def parse_pilot_line(line):
             pilots.append({
                 'pos': pos,      # Position on this equipment/domicile/seat list
                 'sen': sen,      # Company seniority number (lower = more senior)
-                'name': name,    # Full name in LASTNAME, FIRSTNAME format
-                'id': pilot_id,  # 7-digit employee ID
                 'dom': dom,      # Domicile code (ANC, MEM, CVG, etc.)
                 'eqp': eqp,      # Equipment type (74Y, M1F, etc.)
                 'seat': seat,    # CPT or FO
