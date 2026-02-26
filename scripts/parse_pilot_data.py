@@ -34,7 +34,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 
 # Input file - supports PDF, RTF, and TXT formats
 # Change this filename when you have a new seniority list
-INPUT_FILE = PROJECT_ROOT / "26-02 Updated Senlist.pdf"
+INPUT_FILE = PROJECT_ROOT / "26-03 Updated Senlist 2.26.26.pdf"
 TEXT_INPUT_FILE = PROJECT_ROOT / "new_seniority_list.txt"  # New text dump
 
 # Legacy RTF file (fallback if PDF not found)
