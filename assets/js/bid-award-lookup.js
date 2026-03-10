@@ -555,6 +555,7 @@
 			$overlay.on('click', function (ev) {
 				if ($(ev.target).hasClass('bid-popup-overlay') || $(ev.target).hasClass('bid-popup-close')) {
 					$overlay.remove();
+					$(document).off('keydown.bidPopup');
 				}
 			});
 			$(document).on('keydown.bidPopup', function (ev) {

@@ -33,4 +33,5 @@ npm-debug.log*
 # Seniority list source files (contain PII)
 *seniority*.bak
 *Senlist*.bak
-new_seniority_list.txt*Senlist*.pdf
+new_seniority_list.txt
+*Senlist*.pdf
