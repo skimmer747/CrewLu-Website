@@ -8,9 +8,16 @@
 		var pilots = [];
 		var currentPilot = null;
 		var currentBidType = 'SCHEDULE';
+		var bidAsOfText = null;
 
 		for (var i = 0; i < lines.length; i++) {
 			var line = lines[i];
+
+			// Extract "bids as of" timestamp
+			var asOfMatch = line.match(/ONLY PILOTS WITH BIDS ON FILE AS OF\s+(.+?)\s+WILL BE LISTED/i);
+			if (asOfMatch) {
+				bidAsOfText = asOfMatch[1];
+			}
 
 			// Skip empty lines
 			if ($.trim(line) === '') continue;
@@ -57,7 +64,7 @@
 			}
 		}
 
-		return pilots;
+		return { pilots: pilots, bidAsOfText: bidAsOfText };
 	}
 
 	function isHeaderLine(line) {
@@ -289,24 +296,30 @@
 		return html;
 	}
 
-	function displayResults(userGroupData, userId, showBidTypeLabels) {
+	function displayResults(userGroupData, userId, showBidTypeLabels, bidAsOfText) {
 		var $summary = $('#award-summary');
 		var $tableContainer = $('#group-table-container');
 		$summary.empty();
 		$tableContainer.empty();
 
 		if (userGroupData.length === 0) {
-			$summary.html(
-				'<div class="award-summary no-award">' +
+			var notFoundHtml = '';
+			if (bidAsOfText) {
+				notFoundHtml += '<div class="bid-as-of">Bids on file as of ' + escapeHtml(bidAsOfText) + '</div>';
+			}
+			notFoundHtml += '<div class="award-summary no-award">' +
 				'<h2>Employee ID Not Found</h2>' +
 				'<p class="award-detail">ID "' + escapeHtml(userId) + '" was not found in the parsed bid data.</p>' +
 				'<p class="award-detail">Make sure you entered the correct Employee ID and pasted the complete bid data.</p>' +
-				'</div>'
-			);
+				'</div>';
+			$summary.html(notFoundHtml);
 			return;
 		}
 
 		var summaryHtml = '';
+		if (bidAsOfText) {
+			summaryHtml += '<div class="bid-as-of">Bids on file as of ' + escapeHtml(bidAsOfText) + '</div>';
+		}
 		var tableHtml = '';
 		var tableIndex = 0;
 
@@ -334,7 +347,7 @@
 			if (isSystem) {
 				// System bid summary card (no table for system bids)
 				var effectHtml = userResult.effectDate
-					? '<p class="award-detail">Effect Date: ' + escapeHtml(userResult.effectDate) + '</p>'
+					? '<p class="award-detail">Effective Date: ' + escapeHtml(userResult.effectDate) + '</p>'
 					: '';
 				var bidsListHtml = '';
 				if (userResult.bids.length > 0) {
@@ -408,8 +421,8 @@
 					' data-user-sen="' + userSen + '">' +
 					'<h3>' + tableTitle + '</h3>' +
 					'<div class="sort-toggle">' +
-					'<button class="sort-btn active" data-sort="seniority">Seniority</button>' +
-					'<button class="sort-btn" data-sort="bid-order">My Bid Order</button>' +
+					'<button class="sort-btn" data-sort="seniority">Seniority</button>' +
+					'<button class="sort-btn active" data-sort="bid-order">My Bid Order</button>' +
 					'</div>' +
 					'<table class="group-table">' +
 					'<thead><tr>' +
@@ -419,7 +432,7 @@
 					'<th>Line</th>' +
 					'<th>Choice</th>' +
 					'</tr></thead><tbody>' +
-					buildTableBody(results, userId, userBidSet, userSen) +
+					buildTableBody(sortByUserBidOrder(results, userResult), userId, userBidSet, userSen) +
 					'</tbody></table></div>';
 			}
 		}
@@ -635,7 +648,9 @@
 				return;
 			}
 
-			var pilots = parseBidData(rawData);
+			var parsed = parseBidData(rawData);
+			var pilots = parsed.pilots;
+			var bidAsOfText = parsed.bidAsOfText;
 			if (pilots.length === 0) {
 				showError('No pilot records were found in the pasted data. Please check the format and try again.');
 				return;
@@ -731,7 +746,7 @@
 
 			$step2.removeClass('active');
 			$results.addClass('active');
-			displayResults(userGroupData, userId, showBidTypeLabels);
+			displayResults(userGroupData, userId, showBidTypeLabels, bidAsOfText);
 		}
 
 		function startOver() {
