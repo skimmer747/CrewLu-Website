@@ -196,7 +196,7 @@
 	}
 
 	function getChoiceLabel(choiceNum) {
-		if (choiceNum === null) return 'No Award';
+		if (choiceNum === null) return 'No Bid';
 		var suffix = 'th';
 		if (choiceNum === 1) suffix = 'st';
 		else if (choiceNum === 2) suffix = 'nd';
@@ -285,6 +285,7 @@
 					escapeHtml(userResult.base) + ' ' + escapeHtml(userResult.eqp) + ' ' + escapeHtml(userResult.sta) + '</p>' +
 					effectHtml +
 					'<div class="system-bids-list">' + bidsListHtml + '</div>' +
+					'<p class="system-bid-disclaimer">These are your current system bid preferences on file. They are not bids that have been awarded and can be changed at any time.</p>' +
 					'<p class="award-group">Seniority #' + userResult.sen + '</p>' +
 					'</div>';
 			} else {
@@ -298,7 +299,7 @@
 				if (userResult.awardedLine !== null) {
 					summaryHtml +=
 						'<div class="award-summary">' +
-						'<h2>' + titlePrefix + 'Your Award</h2>' +
+						'<h2>' + titlePrefix + 'Your Bid</h2>' +
 						'<div class="award-line">Line ' + userResult.awardedLine + '</div>' +
 						'<p class="award-detail"><span class="' + getChoiceClass(userResult.choiceNumber) + '">' +
 						getChoiceLabel(userResult.choiceNumber) + '</span> out of ' + userResult.totalBids + ' bid(s)</p>' +
@@ -308,7 +309,7 @@
 				} else {
 					summaryHtml +=
 						'<div class="award-summary no-award">' +
-						'<h2>' + titlePrefix + 'No Award</h2>' +
+						'<h2>' + titlePrefix + 'No Bid</h2>' +
 						'<div class="award-line">--</div>' +
 						'<p class="award-detail">All of your bid choices were taken by more senior pilots.</p>' +
 						'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
@@ -317,7 +318,7 @@
 
 				// Schedule/Training bid table
 				var tableTitle = (showBidTypeLabels ? (bidTypeLabel + ' - ') : '') +
-					groupLabel + ' - All Awards (' + results.length + ' pilots)';
+					groupLabel + ' - All Bids (' + results.length + ' pilots)';
 
 				tableHtml +=
 					'<div class="group-table-wrapper">' +
@@ -327,7 +328,7 @@
 					'<th>#</th>' +
 					'<th>Name</th>' +
 					'<th>Sen</th>' +
-					'<th>Awarded Line</th>' +
+					'<th>Line</th>' +
 					'<th>Choice</th>' +
 					'</tr></thead><tbody>';
 
@@ -386,8 +387,9 @@
 		var $empInput = $('#employee-id-input');
 		var $textarea = $('#bid-data-textarea');
 
+		// Renders msg as plain text (no HTML) so it is safe to pass user-derived content.
 		function showError(msg) {
-			$error.html(msg).show();
+			$error.text(msg).show();
 		}
 
 		function hideError() {
@@ -440,7 +442,7 @@
 			}
 
 			if (userPilots.length === 0) {
-				showError('Employee ID "' + escapeHtml(userId) + '" was not found in the pasted data. Found ' +
+				showError('Employee ID "' + userId + '" was not found in the pasted data. Found ' +
 					pilots.length + ' pilot(s) total. Please verify your ID and data.');
 				return;
 			}

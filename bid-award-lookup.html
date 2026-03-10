@@ -83,7 +83,7 @@
 			}
 		}
 	</script>
-	<title>Bid Award Lookup - CrewLu</title>
+	<title>Bid Summary Lookup - CrewLu</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description"
@@ -274,6 +274,13 @@
 		.system-bid-num {
 			color: rgba(255, 255, 255, 0.5);
 			margin-right: 0.25rem;
+		}
+
+		.system-bid-disclaimer {
+			font-size: 0.85rem;
+			font-style: italic;
+			color: rgba(255, 255, 255, 0.45);
+			margin: 0.75rem 0 0.5rem;
 		}
 
 		.award-summary.no-award {
@@ -596,6 +603,10 @@
 				color: rgba(0, 0, 0, 0.4);
 			}
 
+			.system-bid-disclaimer {
+				color: rgba(0, 0, 0, 0.45);
+			}
+
 			.choice-1 { color: #047857; }
 			.choice-2, .choice-3 { color: #b45309; }
 			.choice-4plus { color: #b91c1c; }
@@ -659,7 +670,7 @@
 				<li><a href="pilot-window/index.html">Pilot Window</a></li>
 				<li><a href="turbometer/index.html">Turbometer</a></li>
 				<li><a href="seniority-lookup.html">Seniority Lookup</a></li>
-				<li class="active"><a href="bid-award-lookup.html">Bid Award Lookup</a></li>
+				<li class="active"><a href="bid-award-lookup.html">Bid Summary Lookup</a></li>
 			</ul>
 		</nav>
 
@@ -669,10 +680,12 @@
 			<!-- Bid Award Lookup Content -->
 			<section class="post">
 				<header class="major">
-					<h1>Bid Award Lookup</h1>
-					<p>Enter your Employee ID and paste the raw bid data from your scheduling system<br />
-						to see which line you'll be awarded. Works with Schedule Bids,<br />
-						Short Term Training Bids, Long Term Training Bids, and System Bids.</p>
+					<h1>Bid Summary Lookup</h1>
+					<p>Enter your Employee ID, go to View Bid Summary on the Crew website, select ALL,<br />
+						Copy to Isolation, Paste everything in the CrewLu website box.<br />
+						Should work with Schedule, VTO, Short Term Training, Long Term Training, etc...<br />
+						This is only accurate the second you paste it in.<br />
+						And could be totally wrong for all I know but let me know if it is.</p>
 				</header>
 
 				<!-- Step 1: Employee ID -->

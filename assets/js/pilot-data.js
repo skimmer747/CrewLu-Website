@@ -1,8 +1,8 @@
 const GLOBAL_PILOT_DATA = 
 {
   "_metadata": {
-    "list_date": "2026-03-22",
-    "updated": "2026-03-22"
+    "list_date": "2026-02-26",
+    "updated": "2026-02-26"
   },
   "74Y": {
     "SDF": {
