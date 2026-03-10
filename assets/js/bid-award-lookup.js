@@ -21,6 +21,8 @@
 				currentBidType = 'SHORT TERM TRAINING';
 			} else if (/LONG\s+TERM\s+TRAINING\s+BIDS/i.test(trimmedLine)) {
 				currentBidType = 'LONG TERM TRAINING';
+			} else if (/SYSTEM\s+BIDS/i.test(trimmedLine)) {
+				currentBidType = 'SYSTEM';
 			} else if (/SCHEDULE\s+BIDS/i.test(trimmedLine) && !/TRAINING/i.test(trimmedLine)) {
 				currentBidType = 'SCHEDULE';
 			}
@@ -36,8 +38,8 @@
 				continue;
 			}
 
-			// Try to match a pilot record line
-			var pilotMatch = line.match(/^\s*(.+?)\s{2,}(\d+)\s+(\d+)\s+([A-Z]{3,4})\s+(\w{2,3})\s+(CPT|F\/O)\s+([\d\s]*)$/);
+			// Try to match a pilot record line (optional EFFECT date before bids for system bids)
+			var pilotMatch = line.match(/^\s*(.+?)\s{2,}(\d+)\s+(\d+)\s+([A-Z]{3,4})\s+(\w{2,3})\s+(CPT|F\/O)\s+(?:(\d{2}\/\d{2}\/\d{2})\s+)?([\d\s]*)$/);
 			if (pilotMatch) {
 				currentPilot = {
 					name: $.trim(pilotMatch[1]),
@@ -46,7 +48,8 @@
 					base: pilotMatch[4],
 					eqp: pilotMatch[5],
 					sta: pilotMatch[6],
-					bids: parseBidNumbers(pilotMatch[7]),
+					effectDate: pilotMatch[7] || null,
+					bids: parseBidNumbers(pilotMatch[8]),
 					bidType: currentBidType
 				};
 				pilots.push(currentPilot);
@@ -67,6 +70,8 @@
 		if (/TRAINING BIDS\s+Page/.test(trimmed)) return true;
 		if (/TRAINING BIDS\s*$/.test(trimmed)) return true;
 		if (/SCHEDULE BIDS\s*$/.test(trimmed)) return true;
+		if (/SYSTEM BIDS\s+Page/.test(trimmed)) return true;
+		if (/SYSTEM BIDS\s*$/.test(trimmed)) return true;
 		return false;
 	}
 
@@ -82,13 +87,31 @@
 		return nums;
 	}
 
+	// --- System Bid Decoding ---
+
+	var FLEET_MAP = {1: 'MD-11', 3: 'A300', 5: '757', 7: '747-100'};
+	var SEAT_MAP = {1: 'CPT', 2: 'F/O'};
+	var DOM_MAP = {1: 'SDF', 2: 'SDFZ', 3: 'ONT', 4: 'MIA', 5: 'ANC'};
+
+	function decodeSystemBid(code) {
+		var s = String(code);
+		if (s.length !== 3) return s;
+		var fleet = FLEET_MAP[parseInt(s[0], 10)];
+		var seat = SEAT_MAP[parseInt(s[1], 10)];
+		var dom = DOM_MAP[parseInt(s[2], 10)];
+		if (!fleet || !seat || !dom) return s;
+		return fleet + ' ' + seat + ' ' + dom;
+	}
+
 	// --- Grouping ---
 
 	function groupPilots(pilots) {
 		var groups = {};
 		for (var i = 0; i < pilots.length; i++) {
 			var p = pilots[i];
-			var key = p.bidType + '|' + p.base + '-' + p.eqp + '-' + p.sta;
+			var key = (p.bidType === 'SYSTEM')
+				? 'SYSTEM|ALL'
+				: p.bidType + '|' + p.base + '-' + p.eqp + '-' + p.sta;
 			if (!groups[key]) groups[key] = [];
 			groups[key].push(p);
 		}
@@ -184,11 +207,13 @@
 	function getBidTypeLabel(bidType) {
 		if (bidType === 'SHORT TERM TRAINING') return 'Short Term Training';
 		if (bidType === 'LONG TERM TRAINING') return 'Long Term Training';
+		if (bidType === 'SYSTEM') return 'System';
 		return 'Schedule';
 	}
 
 	function formatGroupLabel(groupKey) {
-		// groupKey format: "BIDTYPE|BASE-EQP-STA"
+		// groupKey format: "BIDTYPE|BASE-EQP-STA" or "SYSTEM|ALL"
+		if (groupKey === 'SYSTEM|ALL') return 'System Preference List';
 		var pipeIdx = groupKey.indexOf('|');
 		var seatPart = groupKey.substring(pipeIdx + 1);
 		var parts = seatPart.split('-');
@@ -220,6 +245,7 @@
 			var results = data.results;
 			var groupKey = data.groupKey;
 			var partner = data.partner;
+			var isSystem = (groupKey === 'SYSTEM|ALL');
 
 			var userResult = null;
 			for (var i = 0; i < results.length; i++) {
@@ -235,69 +261,97 @@
 			var bidTypeLabel = getBidTypeLabel(userResult.bidType);
 			var titlePrefix = showBidTypeLabels ? (bidTypeLabel + ' - ') : '';
 
-			// Build summary card
-			var partnerHtml = '';
-			if (partner) {
-				partnerHtml = '<p class="award-partner">Flying with: ' +
-					escapeHtml(partner.name) + ' (Sen #' + partner.sen + ')</p>';
-			}
+			if (isSystem) {
+				// System bid summary card (no table for system bids)
+				var effectHtml = userResult.effectDate
+					? '<p class="award-detail">Effect Date: ' + escapeHtml(userResult.effectDate) + '</p>'
+					: '';
+				var bidsListHtml = '';
+				if (userResult.bids.length > 0) {
+					for (var b = 0; b < userResult.bids.length; b++) {
+						bidsListHtml += '<div class="system-bid-item">' +
+							'<span class="system-bid-num">' + (b + 1) + '.</span> ' +
+							escapeHtml(decodeSystemBid(userResult.bids[b])) +
+							'</div>';
+					}
+				} else {
+					bidsListHtml = 'None';
+				}
 
-			if (userResult.awardedLine !== null) {
 				summaryHtml +=
 					'<div class="award-summary">' +
-					'<h2>' + titlePrefix + 'Your Award</h2>' +
-					'<div class="award-line">Line ' + userResult.awardedLine + '</div>' +
-					'<p class="award-detail"><span class="' + getChoiceClass(userResult.choiceNumber) + '">' +
-					getChoiceLabel(userResult.choiceNumber) + '</span> out of ' + userResult.totalBids + ' bid(s)</p>' +
-					partnerHtml +
-					'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
+					'<h2>' + titlePrefix + 'Your System Bids</h2>' +
+					'<p class="award-detail">Current Assignment: ' +
+					escapeHtml(userResult.base) + ' ' + escapeHtml(userResult.eqp) + ' ' + escapeHtml(userResult.sta) + '</p>' +
+					effectHtml +
+					'<div class="system-bids-list">' + bidsListHtml + '</div>' +
+					'<p class="award-group">Seniority #' + userResult.sen + '</p>' +
 					'</div>';
 			} else {
-				summaryHtml +=
-					'<div class="award-summary no-award">' +
-					'<h2>' + titlePrefix + 'No Award</h2>' +
-					'<div class="award-line">--</div>' +
-					'<p class="award-detail">All of your bid choices were taken by more senior pilots.</p>' +
-					'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
-					'</div>';
-			}
+				// Schedule/Training bid summary card
+				var partnerHtml = '';
+				if (partner) {
+					partnerHtml = '<p class="award-partner">Flying with: ' +
+						escapeHtml(partner.name) + ' (Sen #' + partner.sen + ')</p>';
+				}
 
-			// Build group table
-			var tableTitle = (showBidTypeLabels ? (bidTypeLabel + ' - ') : '') +
-				groupLabel + ' - All Awards (' + results.length + ' pilots)';
+				if (userResult.awardedLine !== null) {
+					summaryHtml +=
+						'<div class="award-summary">' +
+						'<h2>' + titlePrefix + 'Your Award</h2>' +
+						'<div class="award-line">Line ' + userResult.awardedLine + '</div>' +
+						'<p class="award-detail"><span class="' + getChoiceClass(userResult.choiceNumber) + '">' +
+						getChoiceLabel(userResult.choiceNumber) + '</span> out of ' + userResult.totalBids + ' bid(s)</p>' +
+						partnerHtml +
+						'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
+						'</div>';
+				} else {
+					summaryHtml +=
+						'<div class="award-summary no-award">' +
+						'<h2>' + titlePrefix + 'No Award</h2>' +
+						'<div class="award-line">--</div>' +
+						'<p class="award-detail">All of your bid choices were taken by more senior pilots.</p>' +
+						'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
+						'</div>';
+				}
 
-			tableHtml +=
-				'<div class="group-table-wrapper">' +
-				'<h3>' + tableTitle + '</h3>' +
-				'<table class="group-table">' +
-				'<thead><tr>' +
-				'<th>#</th>' +
-				'<th>Name</th>' +
-				'<th>Sen</th>' +
-				'<th>Awarded Line</th>' +
-				'<th>Choice</th>' +
-				'</tr></thead><tbody>';
-
-			for (var i = 0; i < results.length; i++) {
-				var r = results[i];
-				var isUser = (r.id === userId);
-				var rowClass = isUser ? ' class="highlight-row"' : '';
-				var youBadge = isUser ? '<span class="you-badge">YOU</span>' : '';
-				var lineText = r.awardedLine !== null ? r.awardedLine : '--';
-				var choiceText = '<span class="' + getChoiceClass(r.choiceNumber) + '">' +
-					getChoiceLabel(r.choiceNumber) + '</span>';
+				// Schedule/Training bid table
+				var tableTitle = (showBidTypeLabels ? (bidTypeLabel + ' - ') : '') +
+					groupLabel + ' - All Awards (' + results.length + ' pilots)';
 
 				tableHtml +=
-					'<tr' + rowClass + '>' +
-					'<td>' + (i + 1) + '</td>' +
-					'<td>' + escapeHtml(r.name) + youBadge + '</td>' +
-					'<td>' + r.sen + '</td>' +
-					'<td>' + lineText + '</td>' +
-					'<td>' + choiceText + '</td>' +
-					'</tr>';
-			}
+					'<div class="group-table-wrapper">' +
+					'<h3>' + tableTitle + '</h3>' +
+					'<table class="group-table">' +
+					'<thead><tr>' +
+					'<th>#</th>' +
+					'<th>Name</th>' +
+					'<th>Sen</th>' +
+					'<th>Awarded Line</th>' +
+					'<th>Choice</th>' +
+					'</tr></thead><tbody>';
 
-			tableHtml += '</tbody></table></div>';
+				for (var i = 0; i < results.length; i++) {
+					var r = results[i];
+					var isUser = (r.id === userId);
+					var rowClass = isUser ? ' class="highlight-row"' : '';
+					var youBadge = isUser ? '<span class="you-badge">YOU</span>' : '';
+					var lineText = r.awardedLine !== null ? r.awardedLine : '--';
+					var choiceText = '<span class="' + getChoiceClass(r.choiceNumber) + '">' +
+						getChoiceLabel(r.choiceNumber) + '</span>';
+
+					tableHtml +=
+						'<tr' + rowClass + '>' +
+						'<td>' + (i + 1) + '</td>' +
+						'<td>' + escapeHtml(r.name) + youBadge + '</td>' +
+						'<td>' + r.sen + '</td>' +
+						'<td>' + lineText + '</td>' +
+						'<td>' + choiceText + '</td>' +
+						'</tr>';
+				}
+
+				tableHtml += '</tbody></table></div>';
+			}
 		}
 
 		$summary.html(summaryHtml);
@@ -400,31 +454,66 @@
 
 			for (var i = 0; i < userPilots.length; i++) {
 				var up = userPilots[i];
-				var groupKey = up.bidType + '|' + up.base + '-' + up.eqp + '-' + up.sta;
+				var isSystem = (up.bidType === 'SYSTEM');
+				var groupKey = isSystem
+					? 'SYSTEM|ALL'
+					: up.bidType + '|' + up.base + '-' + up.eqp + '-' + up.sta;
 				bidTypes[up.bidType] = true;
 
-				// Calculate awards for this group if not already done
-				if (!allGroupResults[groupKey]) {
-					allGroupResults[groupKey] = calculateAwards(groups[groupKey]);
-				}
+				// Skip if we already processed this group
+				if (allGroupResults[groupKey]) continue;
 
-				// Find user result for crew partner lookup
-				var results = allGroupResults[groupKey];
-				var userResult = null;
-				for (var j = 0; j < results.length; j++) {
-					if (results[j].id === userId) {
-						userResult = results[j];
-						break;
+				if (isSystem) {
+					// System bids: no awarding, just sort by seniority and pass through
+					var sorted = groups[groupKey].slice().sort(function (a, b) {
+						return a.sen - b.sen;
+					});
+					var systemResults = [];
+					for (var j = 0; j < sorted.length; j++) {
+						var sp = sorted[j];
+						systemResults.push({
+							name: sp.name,
+							id: sp.id,
+							sen: sp.sen,
+							base: sp.base,
+							eqp: sp.eqp,
+							sta: sp.sta,
+							effectDate: sp.effectDate,
+							bids: sp.bids,
+							bidType: sp.bidType,
+							awardedLine: null,
+							choiceNumber: null,
+							totalBids: sp.bids.length
+						});
 					}
+					allGroupResults[groupKey] = systemResults;
+
+					userGroupData.push({
+						groupKey: groupKey,
+						results: systemResults,
+						partner: null
+					});
+				} else {
+					// Schedule/Training bids: calculate awards
+					allGroupResults[groupKey] = calculateAwards(groups[groupKey]);
+
+					var results = allGroupResults[groupKey];
+					var userResult = null;
+					for (var j = 0; j < results.length; j++) {
+						if (results[j].id === userId) {
+							userResult = results[j];
+							break;
+						}
+					}
+
+					var partner = findCrewPartner(userResult, groups, allGroupResults);
+
+					userGroupData.push({
+						groupKey: groupKey,
+						results: results,
+						partner: partner
+					});
 				}
-
-				var partner = findCrewPartner(userResult, groups, allGroupResults);
-
-				userGroupData.push({
-					groupKey: groupKey,
-					results: results,
-					partner: partner
-				});
 			}
 
 			var bidTypeCount = Object.keys(bidTypes).length;

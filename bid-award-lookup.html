@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 
 <head>
 	<!-- Google Analytics 4 - Loads only with user consent -->
@@ -258,6 +258,22 @@
 
 		.award-summary + .award-summary {
 			margin-top: 1.5rem;
+		}
+
+		/* System bids preference list */
+		.system-bids-list {
+			font-size: 1rem;
+			color: #18bfef;
+			margin: 0.75rem 0;
+		}
+
+		.system-bid-item {
+			padding: 0.25rem 0;
+		}
+
+		.system-bid-num {
+			color: rgba(255, 255, 255, 0.5);
+			margin-right: 0.25rem;
 		}
 
 		.award-summary.no-award {
@@ -572,6 +588,14 @@
 				background: rgba(24, 191, 239, 0.08);
 			}
 
+			.system-bids-list {
+				color: #0c9bc2;
+			}
+
+			.system-bid-num {
+				color: rgba(0, 0, 0, 0.4);
+			}
+
 			.choice-1 { color: #047857; }
 			.choice-2, .choice-3 { color: #b45309; }
 			.choice-4plus { color: #b91c1c; }
@@ -648,7 +672,7 @@
 					<h1>Bid Award Lookup</h1>
 					<p>Enter your Employee ID and paste the raw bid data from your scheduling system<br />
 						to see which line you'll be awarded. Works with Schedule Bids,<br />
-						Short Term Training Bids, and Long Term Training Bids.</p>
+						Short Term Training Bids, Long Term Training Bids, and System Bids.</p>
 				</header>
 
 				<!-- Step 1: Employee ID -->
@@ -665,7 +689,7 @@
 				<div class="bid-paste-section" id="step-2">
 					<h2>Step 2: Paste Bid Data</h2>
 					<p class="instructions">Copy and paste the raw bid data from your scheduling system below.
-						Works with Schedule Bids, Short Term Training Bids, and Long Term Training Bids.
+						Works with Schedule Bids, Short Term Training Bids, Long Term Training Bids, and System Bids.
 						You can paste one section or "select all" - the parser handles headers, page breaks, and multiple bid types automatically.</p>
 					<textarea id="bid-data-textarea" class="bid-textarea"
 						placeholder="Paste your raw bid data here..."></textarea>
