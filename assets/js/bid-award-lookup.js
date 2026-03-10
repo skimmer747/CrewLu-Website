@@ -152,6 +152,7 @@
 				eqp: pilot.eqp,
 				sta: pilot.sta,
 				bidType: pilot.bidType,
+				bids: pilot.bids,
 				awardedLine: awarded,
 				choiceNumber: choiceNum,
 				totalBids: pilot.bids.length
@@ -197,10 +198,17 @@
 
 	function getChoiceLabel(choiceNum) {
 		if (choiceNum === null) return 'No Bid';
-		var suffix = 'th';
-		if (choiceNum === 1) suffix = 'st';
-		else if (choiceNum === 2) suffix = 'nd';
-		else if (choiceNum === 3) suffix = 'rd';
+		var suffix;
+		var lastTwo = choiceNum % 100;
+		if (lastTwo >= 11 && lastTwo <= 13) {
+			suffix = 'th';
+		} else {
+			var lastOne = choiceNum % 10;
+			if (lastOne === 1) suffix = 'st';
+			else if (lastOne === 2) suffix = 'nd';
+			else if (lastOne === 3) suffix = 'rd';
+			else suffix = 'th';
+		}
 		return choiceNum + suffix + ' choice';
 	}
 
@@ -218,6 +226,67 @@
 		var seatPart = groupKey.substring(pipeIdx + 1);
 		var parts = seatPart.split('-');
 		return parts[1] + ' ' + parts[2] + ' - ' + parts[0];
+	}
+
+	function sortByUserBidOrder(results, userResult) {
+		var userBidMap = {};
+		if (userResult && userResult.bids) {
+			for (var i = 0; i < userResult.bids.length; i++) {
+				userBidMap[userResult.bids[i]] = i;
+			}
+		}
+
+		return results.slice().sort(function (a, b) {
+			var aIdx = (a.awardedLine !== null && userBidMap.hasOwnProperty(a.awardedLine))
+				? userBidMap[a.awardedLine] : Infinity;
+			var bIdx = (b.awardedLine !== null && userBidMap.hasOwnProperty(b.awardedLine))
+				? userBidMap[b.awardedLine] : Infinity;
+
+			if (aIdx !== bIdx) return aIdx - bIdx;
+
+			// Both unmatched: no-award goes after awarded
+			var aHasAward = a.awardedLine !== null ? 0 : 1;
+			var bHasAward = b.awardedLine !== null ? 0 : 1;
+			if (aHasAward !== bHasAward) return aHasAward - bHasAward;
+
+			return a.sen - b.sen;
+		});
+	}
+
+	function buildTableBody(sortedResults, userId, userBidSet, userSen) {
+		var html = '';
+		for (var i = 0; i < sortedResults.length; i++) {
+			var r = sortedResults[i];
+			var isUser = (r.id === userId);
+			var rowClass = isUser ? ' class="highlight-row"' : '';
+			var youBadge = isUser ? '<span class="you-badge">YOU</span>' : '';
+			var lineText;
+			if (r.awardedLine !== null) {
+				if (!isUser && userBidSet[r.awardedLine]) {
+					if (r.sen < userSen) {
+						lineText = '<span class="line-senior">' + r.awardedLine + '</span>';
+					} else {
+						lineText = '<span class="line-junior">' + r.awardedLine + '</span>';
+					}
+				} else {
+					lineText = '' + r.awardedLine;
+				}
+			} else {
+				lineText = '--';
+			}
+			var choiceText = '<span class="' + getChoiceClass(r.choiceNumber) + '">' +
+				getChoiceLabel(r.choiceNumber) + '</span>';
+
+			html +=
+				'<tr' + rowClass + '>' +
+				'<td>' + (i + 1) + '</td>' +
+				'<td><a class="pilot-name-link" data-pilot-id="' + escapeHtml(r.id) + '">' + escapeHtml(r.name) + '</a>' + youBadge + '</td>' +
+				'<td>' + r.sen + '</td>' +
+				'<td>' + lineText + '</td>' +
+				'<td>' + choiceText + '</td>' +
+				'</tr>';
+		}
+		return html;
 	}
 
 	function displayResults(userGroupData, userId, showBidTypeLabels) {
@@ -239,6 +308,7 @@
 
 		var summaryHtml = '';
 		var tableHtml = '';
+		var tableIndex = 0;
 
 		for (var g = 0; g < userGroupData.length; g++) {
 			var data = userGroupData[g];
@@ -316,13 +386,31 @@
 						'</div>';
 				}
 
+				// Build a set of lines the user bid on for color-coding
+				var userBidSet = {};
+				if (userResult && userResult.bids) {
+					for (var b = 0; b < userResult.bids.length; b++) {
+						userBidSet[userResult.bids[b]] = true;
+					}
+				}
+				var userSen = userResult ? userResult.sen : 0;
+
 				// Schedule/Training bid table
 				var tableTitle = (showBidTypeLabels ? (bidTypeLabel + ' - ') : '') +
 					groupLabel + ' - All Bids (' + results.length + ' pilots)';
 
+				var wrapperId = 'group-table-' + tableIndex;
+				tableIndex++;
+
 				tableHtml +=
-					'<div class="group-table-wrapper">' +
+					'<div class="group-table-wrapper" id="' + wrapperId + '"' +
+					' data-user-id="' + escapeHtml(userId) + '"' +
+					' data-user-sen="' + userSen + '">' +
 					'<h3>' + tableTitle + '</h3>' +
+					'<div class="sort-toggle">' +
+					'<button class="sort-btn active" data-sort="seniority">Seniority</button>' +
+					'<button class="sort-btn" data-sort="bid-order">My Bid Order</button>' +
+					'</div>' +
 					'<table class="group-table">' +
 					'<thead><tr>' +
 					'<th>#</th>' +
@@ -330,33 +418,152 @@
 					'<th>Sen</th>' +
 					'<th>Line</th>' +
 					'<th>Choice</th>' +
-					'</tr></thead><tbody>';
-
-				for (var i = 0; i < results.length; i++) {
-					var r = results[i];
-					var isUser = (r.id === userId);
-					var rowClass = isUser ? ' class="highlight-row"' : '';
-					var youBadge = isUser ? '<span class="you-badge">YOU</span>' : '';
-					var lineText = r.awardedLine !== null ? r.awardedLine : '--';
-					var choiceText = '<span class="' + getChoiceClass(r.choiceNumber) + '">' +
-						getChoiceLabel(r.choiceNumber) + '</span>';
-
-					tableHtml +=
-						'<tr' + rowClass + '>' +
-						'<td>' + (i + 1) + '</td>' +
-						'<td>' + escapeHtml(r.name) + youBadge + '</td>' +
-						'<td>' + r.sen + '</td>' +
-						'<td>' + lineText + '</td>' +
-						'<td>' + choiceText + '</td>' +
-						'</tr>';
-				}
-
-				tableHtml += '</tbody></table></div>';
+					'</tr></thead><tbody>' +
+					buildTableBody(results, userId, userBidSet, userSen) +
+					'</tbody></table></div>';
 			}
 		}
 
 		$summary.html(summaryHtml);
 		$tableContainer.html(tableHtml);
+
+		// Store data on each table wrapper for re-sorting
+		tableIndex = 0;
+		for (var g = 0; g < userGroupData.length; g++) {
+			var data = userGroupData[g];
+			if (data.groupKey === 'SYSTEM|ALL') continue;
+
+			var userResult = null;
+			for (var i = 0; i < data.results.length; i++) {
+				if (data.results[i].id === userId) {
+					userResult = data.results[i];
+					break;
+				}
+			}
+			if (!userResult) continue;
+
+			var userBidSet = {};
+			if (userResult && userResult.bids) {
+				for (var b = 0; b < userResult.bids.length; b++) {
+					userBidSet[userResult.bids[b]] = true;
+				}
+			}
+
+			var $wrapper = $('#group-table-' + tableIndex);
+			$wrapper.data('groupData', {
+				results: data.results,
+				userResult: userResult,
+				userBidSet: userBidSet
+			});
+			tableIndex++;
+		}
+
+		// Sort toggle click handler
+		$tableContainer.on('click', '.sort-btn', function () {
+			var $btn = $(this);
+			var $wrapper = $btn.closest('.group-table-wrapper');
+			var $toggle = $btn.closest('.sort-toggle');
+
+			$toggle.find('.sort-btn').removeClass('active');
+			$btn.addClass('active');
+
+			var groupData = $wrapper.data('groupData');
+			var uid = $wrapper.attr('data-user-id');
+			var uSen = parseInt($wrapper.attr('data-user-sen'), 10);
+			var sortType = $btn.attr('data-sort');
+
+			var sorted;
+			if (sortType === 'bid-order') {
+				sorted = sortByUserBidOrder(groupData.results, groupData.userResult);
+			} else {
+				sorted = groupData.results.slice();
+			}
+
+			$wrapper.find('tbody').html(
+				buildTableBody(sorted, uid, groupData.userBidSet, uSen)
+			);
+		});
+
+		// Pilot name click handler - show bid list popup
+		$tableContainer.on('click', '.pilot-name-link', function (e) {
+			e.preventDefault();
+			var pilotId = $(this).attr('data-pilot-id');
+			var $wrapper = $(this).closest('.group-table-wrapper');
+			var groupData = $wrapper.data('groupData');
+			if (!groupData) return;
+
+			var pilot = null;
+			for (var i = 0; i < groupData.results.length; i++) {
+				if (groupData.results[i].id === pilotId) {
+					pilot = groupData.results[i];
+					break;
+				}
+			}
+			if (!pilot) return;
+
+			// Build set of lines taken by more senior pilots
+			var takenLines = {};
+			for (var k = 0; k < groupData.results.length; k++) {
+				var r = groupData.results[k];
+				if (r.sen < pilot.sen && r.awardedLine !== null) {
+					takenLines[r.awardedLine] = true;
+				}
+			}
+
+			// Build bid list HTML with availability-based coloring
+			var bidsHtml = '';
+			for (var j = 0; j < pilot.bids.length; j++) {
+				var bidNum = pilot.bids[j];
+				var choicePos = j + 1;
+				var colorClass = takenLines[bidNum] ? 'line-senior' : 'line-junior';
+				var isAwarded = (bidNum === pilot.awardedLine);
+				var awardedBadge = isAwarded ? ' <span class="bid-awarded-badge">AWARDED</span>' : '';
+				var itemClass = 'bid-list-item ' + colorClass + (isAwarded ? ' bid-list-awarded' : '');
+				bidsHtml +=
+					'<div class="' + itemClass + '">' +
+					'<span class="bid-list-num">' + choicePos + '.</span> ' +
+					'Line ' + bidNum + awardedBadge +
+					'</div>';
+			}
+			if (pilot.bids.length === 0) {
+				bidsHtml = '<div class="bid-list-empty">No bids on file</div>';
+			}
+
+			var pilotInfo = 'Sen #' + pilot.sen + ' | ' +
+				escapeHtml(pilot.base) + ' ' + escapeHtml(pilot.eqp) + ' ' + escapeHtml(pilot.sta);
+
+			var popupHtml =
+				'<div class="bid-popup-overlay">' +
+				'<div class="bid-popup">' +
+				'<div class="bid-popup-header">' +
+				'<h3>' + escapeHtml(pilot.name) + '</h3>' +
+				'<p>' + pilotInfo + '</p>' +
+				'</div>' +
+				'<div class="bid-popup-body">' + bidsHtml + '</div>' +
+				'<div class="bid-popup-footer">' +
+				'<button class="button bid-popup-close">Close</button>' +
+				'</div>' +
+				'</div>' +
+				'</div>';
+
+			// Remove any existing popup
+			$('.bid-popup-overlay').remove();
+			$('body').append(popupHtml);
+
+			// Close handlers
+			var $overlay = $('.bid-popup-overlay');
+			$overlay.on('click', function (ev) {
+				if ($(ev.target).hasClass('bid-popup-overlay') || $(ev.target).hasClass('bid-popup-close')) {
+					$overlay.remove();
+				}
+			});
+			$(document).on('keydown.bidPopup', function (ev) {
+				if (ev.which === 27) {
+					$overlay.remove();
+					$(document).off('keydown.bidPopup');
+				}
+			});
+		});
 
 		// Scroll to first user row
 		setTimeout(function () {

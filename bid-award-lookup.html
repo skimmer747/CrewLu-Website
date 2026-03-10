@@ -293,6 +293,37 @@
 			color: #ef4444;
 		}
 
+		/* Sort Toggle */
+		.sort-toggle {
+			display: flex;
+			justify-content: center;
+			gap: 0.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.sort-btn {
+			padding: 0.4rem 1rem;
+			font-size: 0.85rem;
+			font-weight: 600;
+			border: 1px solid rgba(24, 191, 239, 0.3);
+			border-radius: 4px;
+			background: transparent;
+			color: rgba(255, 255, 255, 0.5);
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+
+		.sort-btn:hover {
+			color: rgba(255, 255, 255, 0.8);
+			border-color: rgba(24, 191, 239, 0.5);
+		}
+
+		.sort-btn.active {
+			background: rgba(24, 191, 239, 0.2);
+			color: #18bfef;
+			border-color: #18bfef;
+		}
+
 		/* Group Table */
 		.group-table-wrapper {
 			margin-top: 2rem;
@@ -355,6 +386,10 @@
 		.choice-2, .choice-3 { color: #fbbf24; font-weight: 600; }
 		.choice-4plus { color: #ef4444; font-weight: 600; }
 		.choice-none { color: rgba(255, 255, 255, 0.4); font-style: italic; }
+
+		/* Line color coding - user bid on this line */
+		.line-senior { color: #ef4444; font-weight: 700; }
+		.line-junior { color: #10b981; font-weight: 700; }
 
 		/* Error message */
 		.error-message {
@@ -500,6 +535,119 @@
 			}
 		}
 
+		/* Clickable pilot names */
+		.pilot-name-link {
+			color: inherit;
+			text-decoration: none;
+			cursor: pointer;
+			border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+		}
+
+		.pilot-name-link:hover {
+			color: #18bfef;
+			border-bottom-color: #18bfef;
+		}
+
+		/* Bid list popup overlay */
+		.bid-popup-overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.7);
+			z-index: 9999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 1rem;
+		}
+
+		.bid-popup {
+			background: #1a1a2e;
+			border: 1px solid rgba(24, 191, 239, 0.3);
+			border-radius: 8px;
+			max-width: 400px;
+			width: 100%;
+			max-height: 80vh;
+			display: flex;
+			flex-direction: column;
+			box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+		}
+
+		.bid-popup-header {
+			padding: 1.25rem 1.5rem 0.75rem;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.bid-popup-header h3 {
+			margin: 0 0 0.25rem;
+			font-size: 1.15rem;
+			color: #18bfef;
+		}
+
+		.bid-popup-header p {
+			margin: 0;
+			font-size: 0.85rem;
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		.bid-popup-body {
+			padding: 1rem 1.5rem;
+			overflow-y: auto;
+			flex: 1;
+		}
+
+		.bid-list-item {
+			padding: 0.4rem 0.5rem;
+			border-radius: 4px;
+			font-size: 0.95rem;
+		}
+
+		.bid-list-num {
+			display: inline-block;
+			width: 2rem;
+			color: rgba(255, 255, 255, 0.4);
+			text-align: right;
+			margin-right: 0.25rem;
+		}
+
+		.bid-list-awarded {
+			background: rgba(24, 191, 239, 0.12);
+			font-weight: 700;
+		}
+
+		.bid-awarded-badge {
+			display: inline-block;
+			background: #18bfef;
+			color: #fff;
+			font-size: 0.65rem;
+			padding: 0.1rem 0.35rem;
+			border-radius: 3px;
+			margin-left: 0.4rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+			vertical-align: middle;
+		}
+
+		.bid-list-empty {
+			color: rgba(255, 255, 255, 0.4);
+			font-style: italic;
+			text-align: center;
+			padding: 1rem 0;
+		}
+
+		.bid-popup-footer {
+			padding: 0.75rem 1.5rem 1rem;
+			text-align: center;
+			border-top: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.bid-popup-close {
+			margin: 0 !important;
+		}
+
 		/* Light mode overrides */
 		@media (prefers-color-scheme: light) {
 			.bid-input-section {
@@ -607,15 +755,81 @@
 				color: rgba(0, 0, 0, 0.45);
 			}
 
+			.sort-btn {
+				color: rgba(0, 0, 0, 0.4);
+				border-color: rgba(0, 0, 0, 0.15);
+			}
+
+			.sort-btn:hover {
+				color: rgba(0, 0, 0, 0.7);
+				border-color: rgba(12, 155, 194, 0.4);
+			}
+
+			.sort-btn.active {
+				background: rgba(12, 155, 194, 0.12);
+				color: #0c9bc2;
+				border-color: #0c9bc2;
+			}
+
 			.choice-1 { color: #047857; }
 			.choice-2, .choice-3 { color: #b45309; }
 			.choice-4plus { color: #b91c1c; }
 			.choice-none { color: rgba(0, 0, 0, 0.35); }
 
+			.line-senior { color: #b91c1c; }
+			.line-junior { color: #047857; }
+
 			.error-message {
 				color: #b91c1c;
 				background: rgba(185, 28, 28, 0.05);
 				border-color: rgba(185, 28, 28, 0.2);
+			}
+
+			.pilot-name-link {
+				border-bottom-color: rgba(0, 0, 0, 0.2);
+			}
+
+			.pilot-name-link:hover {
+				color: #0c9bc2;
+				border-bottom-color: #0c9bc2;
+			}
+
+			.bid-popup-overlay {
+				background: rgba(0, 0, 0, 0.4);
+			}
+
+			.bid-popup {
+				background: #fff;
+				border-color: rgba(12, 155, 194, 0.3);
+				box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+			}
+
+			.bid-popup-header {
+				border-bottom-color: rgba(0, 0, 0, 0.08);
+			}
+
+			.bid-popup-header h3 {
+				color: #0c9bc2;
+			}
+
+			.bid-popup-header p {
+				color: rgba(0, 0, 0, 0.5);
+			}
+
+			.bid-list-num {
+				color: rgba(0, 0, 0, 0.35);
+			}
+
+			.bid-list-awarded {
+				background: rgba(12, 155, 194, 0.08);
+			}
+
+			.bid-list-empty {
+				color: rgba(0, 0, 0, 0.35);
+			}
+
+			.bid-popup-footer {
+				border-top-color: rgba(0, 0, 0, 0.08);
 			}
 		}
 	</style>
@@ -760,7 +974,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/bid-award-lookup.js"></script>
+	<script src="assets/js/bid-award-lookup.js?v=2"></script>
 
 </body>
 
