@@ -429,13 +429,21 @@
 					' data-user-id="' + escapeHtml(userId) + '"' +
 					' data-user-sen="' + userSen + '">' +
 					'<h3>' + tableTitle + '</h3>' +
-					'<div class="sort-toggle">' +
+					'<div class="table-toolbar">' +
+					'<div class="toolbar-group">' +
+					'<span class="toolbar-label">Sort:</span>' +
+					'<div class="seg-toggle">' +
 					'<button class="sort-btn" data-sort="seniority">Seniority</button>' +
 					'<button class="sort-btn active" data-sort="bid-order">My Bid Order</button>' +
 					'</div>' +
-					'<div class="filter-toggle">' +
+					'</div>' +
+					'<div class="toolbar-group">' +
+					'<span class="toolbar-label">Show:</span>' +
+					'<div class="seg-toggle">' +
 					'<button class="filter-btn" data-filter="all">All Pilots</button>' +
 					'<button class="filter-btn active" data-filter="my-bids">My Bids</button>' +
+					'</div>' +
+					'</div>' +
 					'</div>' +
 					'<table class="group-table">' +
 					'<thead><tr>' +
@@ -488,7 +496,7 @@
 		$tableContainer.on('click', '.sort-btn', function () {
 			var $btn = $(this);
 			var $wrapper = $btn.closest('.group-table-wrapper');
-			var $toggle = $btn.closest('.sort-toggle');
+			var $toggle = $btn.closest('.seg-toggle');
 
 			$toggle.find('.sort-btn').removeClass('active');
 			$btn.addClass('active');
@@ -519,7 +527,7 @@
 		$tableContainer.on('click', '.filter-btn', function () {
 			var $btn = $(this);
 			var $wrapper = $btn.closest('.group-table-wrapper');
-			var $toggle = $btn.closest('.filter-toggle');
+			var $toggle = $btn.closest('.seg-toggle');
 
 			$toggle.find('.filter-btn').removeClass('active');
 			$btn.addClass('active');
