@@ -260,6 +260,12 @@
 		});
 	}
 
+	function filterToBids(results, userId, userBidSet) {
+		return results.filter(function (r) {
+			return r.id === userId || userBidSet[r.awardedLine];
+		});
+	}
+
 	function buildTableBody(sortedResults, userId, userBidSet, userSen, viewMode) {
 		var html = '';
 		for (var i = 0; i < sortedResults.length; i++) {
@@ -427,6 +433,10 @@
 					'<button class="sort-btn" data-sort="seniority">Seniority</button>' +
 					'<button class="sort-btn active" data-sort="bid-order">My Bid Order</button>' +
 					'</div>' +
+					'<div class="filter-toggle">' +
+					'<button class="filter-btn" data-filter="all">All Pilots</button>' +
+					'<button class="filter-btn active" data-filter="my-bids">My Bids</button>' +
+					'</div>' +
 					'<table class="group-table">' +
 					'<thead><tr>' +
 					'<th>#</th>' +
@@ -435,7 +445,7 @@
 					'<th>Line</th>' +
 					'<th>Choice</th>' +
 					'</tr></thead><tbody>' +
-					buildTableBody(sortByUserBidOrder(results, userResult), userId, userBidSet, userSen, 'bid-order') +
+					buildTableBody(filterToBids(sortByUserBidOrder(results, userResult), userId, userBidSet), userId, userBidSet, userSen, 'bid-order') +
 					'</tbody></table></div>';
 			}
 		}
@@ -493,6 +503,43 @@
 				sorted = sortByUserBidOrder(groupData.results, groupData.userResult);
 			} else {
 				sorted = groupData.results.slice();
+			}
+
+			var filterType = $wrapper.find('.filter-btn.active').attr('data-filter');
+			if (filterType === 'my-bids') {
+				sorted = filterToBids(sorted, uid, groupData.userBidSet);
+			}
+
+			$wrapper.find('tbody').html(
+				buildTableBody(sorted, uid, groupData.userBidSet, uSen, sortType)
+			);
+		});
+
+		// Filter toggle click handler
+		$tableContainer.on('click', '.filter-btn', function () {
+			var $btn = $(this);
+			var $wrapper = $btn.closest('.group-table-wrapper');
+			var $toggle = $btn.closest('.filter-toggle');
+
+			$toggle.find('.filter-btn').removeClass('active');
+			$btn.addClass('active');
+
+			var groupData = $wrapper.data('groupData');
+			var uid = $wrapper.attr('data-user-id');
+			var uSen = parseInt($wrapper.attr('data-user-sen'), 10);
+
+			var sortType = $wrapper.find('.sort-btn.active').attr('data-sort');
+			var filterType = $btn.attr('data-filter');
+
+			var sorted;
+			if (sortType === 'bid-order') {
+				sorted = sortByUserBidOrder(groupData.results, groupData.userResult);
+			} else {
+				sorted = groupData.results.slice();
+			}
+
+			if (filterType === 'my-bids') {
+				sorted = filterToBids(sorted, uid, groupData.userBidSet);
 			}
 
 			$wrapper.find('tbody').html(

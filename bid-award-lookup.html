@@ -301,15 +301,21 @@
 			color: #ef4444;
 		}
 
-		/* Sort Toggle */
-		.sort-toggle {
+		/* Sort / Filter Toggle */
+		.sort-toggle,
+		.filter-toggle {
 			display: flex;
 			justify-content: center;
 			gap: 0.5rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.filter-toggle {
 			margin-bottom: 1rem;
 		}
 
-		.sort-btn {
+		.sort-btn,
+		.filter-btn {
 			padding: 0.4rem 1rem;
 			font-size: 0.85rem;
 			font-weight: 600;
@@ -321,12 +327,14 @@
 			transition: all 0.2s ease;
 		}
 
-		.sort-btn:hover {
+		.sort-btn:hover,
+		.filter-btn:hover {
 			color: rgba(255, 255, 255, 0.8);
 			border-color: rgba(24, 191, 239, 0.5);
 		}
 
-		.sort-btn.active {
+		.sort-btn.active,
+		.filter-btn.active {
 			background: rgba(24, 191, 239, 0.2);
 			color: #18bfef;
 			border-color: #18bfef;
@@ -790,17 +798,20 @@
 				color: rgba(0, 0, 0, 0.45);
 			}
 
-			.sort-btn {
+			.sort-btn,
+			.filter-btn {
 				color: rgba(0, 0, 0, 0.4);
 				border-color: rgba(0, 0, 0, 0.15);
 			}
 
-			.sort-btn:hover {
+			.sort-btn:hover,
+			.filter-btn:hover {
 				color: rgba(0, 0, 0, 0.7);
 				border-color: rgba(12, 155, 194, 0.4);
 			}
 
-			.sort-btn.active {
+			.sort-btn.active,
+			.filter-btn.active {
 				background: rgba(12, 155, 194, 0.12);
 				color: #0c9bc2;
 				border-color: #0c9bc2;
