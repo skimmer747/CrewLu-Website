@@ -260,7 +260,7 @@
 		});
 	}
 
-	function buildTableBody(sortedResults, userId, userBidSet, userSen) {
+	function buildTableBody(sortedResults, userId, userBidSet, userSen, viewMode) {
 		var html = '';
 		for (var i = 0; i < sortedResults.length; i++) {
 			var r = sortedResults[i];
@@ -269,11 +269,14 @@
 			var youBadge = isUser ? '<span class="you-badge">YOU</span>' : '';
 			var lineText;
 			if (r.awardedLine !== null) {
-				if (!isUser && userBidSet[r.awardedLine]) {
-					if (r.sen < userSen) {
-						lineText = '<span class="line-senior">' + r.awardedLine + '</span>';
+				if (isUser) {
+					lineText = '<span class="my-award-line">' + r.awardedLine + '</span>';
+				} else if (userBidSet[r.awardedLine]) {
+					var colorClass = (r.sen < userSen) ? 'line-senior' : 'line-junior';
+					if (viewMode === 'bid-order') {
+						lineText = '<span class="bid-line-box ' + colorClass + '">' + r.awardedLine + '</span>';
 					} else {
-						lineText = '<span class="line-junior">' + r.awardedLine + '</span>';
+						lineText = '<span class="' + colorClass + '">' + r.awardedLine + '</span>';
 					}
 				} else {
 					lineText = '' + r.awardedLine;
@@ -432,7 +435,7 @@
 					'<th>Line</th>' +
 					'<th>Choice</th>' +
 					'</tr></thead><tbody>' +
-					buildTableBody(sortByUserBidOrder(results, userResult), userId, userBidSet, userSen) +
+					buildTableBody(sortByUserBidOrder(results, userResult), userId, userBidSet, userSen, 'bid-order') +
 					'</tbody></table></div>';
 			}
 		}
@@ -493,7 +496,7 @@
 			}
 
 			$wrapper.find('tbody').html(
-				buildTableBody(sorted, uid, groupData.userBidSet, uSen)
+				buildTableBody(sorted, uid, groupData.userBidSet, uSen, sortType)
 			);
 		});
 
