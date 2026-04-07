@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Crewluve - CrewLu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png?v=3" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.png?v=3" />
+    <link rel="apple-touch-icon" href="../images/favicon.png?v=3" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Custom styles for Crewluve showcase */
+        .app-showcase {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .app-hero {
+            margin-bottom: 4rem;
+        }
+
+        .feature-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 4rem 0;
+            gap: 4rem;
+            width: 100%;
+        }
+
+        .feature-section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .feature-text {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .feature-image {
+            flex: 1;
+            min-width: 280px;
+            max-width: 350px;
+        }
+
+        /* Wider container for landscape screenshots */
+        .feature-image.landscape {
+            max-width: 700px;
+        }
+
+        .feature-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .coming-soon-badge {
+            background: #ff3366;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        /* Badge for live/available apps */
+        .available-badge {
+            background: #10b981;
+            color: white !important;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .available-badge:hover {
+            background: #059669;
+            transform: scale(1.05);
+            color: white !important;
+        }
+
+        .screenshot-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+            width: 100%;
+        }
+
+        .screenshot-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .screenshot-gallery img:hover {
+            transform: scale(2.5);
+            z-index: 10;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        @media screen and (max-width: 980px) {
+            .feature-section {
+                flex-direction: column !important;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .feature-text {
+                text-align: center;
+            }
+
+            .screenshot-gallery img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="../index.html" class="logo">
+                <img src="../images/Crewlu big App Logo opaque.png" alt="CrewLu" class="logo-light" />
+                <img src="../images/Crewlu big App Logo opaque Dark mode.png" alt="CrewLu" class="logo-dark" />
+            </a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../import.html">How to Import</a></li>
+                <li class="active"><a href="#">Crewluve</a></li>
+                <li><a href="../pilot-window/index.html">Pilot Window</a></li>
+                <li><a href="../turbometer/index.html">Turbometer</a></li>
+                <li><a href="../seniority-lookup.html">Seniority Lookup</a></li>
+                <li><a href="../bid-award-lookup.html">Bid Summary Lookup</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <span class="coming-soon-badge">Coming Soon</span>
+                    <h1>Crewluve</h1>
+                    <p>Your family's window into the pilot's schedule.</p>
+                </header>
+
+                <div class="app-showcase">
+
+                    <!-- Screenshot Gallery -->
+                    <div class="screenshot-gallery">
+                        <img src="../assets/images/crewluve/Better home.PNG" alt="Crewluve home screen with departure countdown" />
+                        <img src="../assets/images/crewluve/Home dark.PNG" alt="Crewluve home screen in dark mode" />
+                        <img src="../assets/images/crewluve/Calendar view.PNG" alt="Crewluve schedule calendar view" />
+                        <img src="../assets/images/crewluve/In flight.PNG" alt="Crewluve in-flight tracking Paris to Hong Kong" />
+                        <img src="../assets/images/crewluve/Layover Hono.PNG" alt="Crewluve layover in Honolulu" />
+                        <img src="../assets/images/crewluve/Delay.PNG" alt="Crewluve flight delay notification" />
+                        <img src="../assets/images/crewluve/In flight 2.PNG" alt="Crewluve in-flight tracking domestic route" />
+                        <img src="../assets/images/crewluve/Sundial Paris.PNG" alt="Crewluve sundial time zone detail for Paris" />
+                        <img src="../assets/images/crewluve/Sundial dark.PNG" alt="Crewluve sundial in dark mode" />
+                    </div>
+
+                    <!-- Placeholder Feature Section 1 -->
+                    <div class="feature-section">
+                        <div class="feature-text">
+                            <h2>Stay Connected</h2>
+                            <p>Crewluve is a companion app to CrewLu that lets family members view the pilot's
+                                schedule in an easy-to-read format. Know when they're home, when they're flying,
+                                and what's coming up next.</p>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Feature Section 2 -->
+                    <div class="feature-section">
+                        <div class="feature-text">
+                            <h2>Seamless Sync</h2>
+                            <p>Schedule data is automatically shared from the pilot's CrewLu app. No manual
+                                entry required - just install and go.</p>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Feature Section 3 -->
+                    <div class="feature-section">
+                        <div class="feature-text">
+                            <h2>Privacy First</h2>
+                            <p>All data stays on your devices and in your private iCloud account. No external
+                                servers, no third-party access.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <h3>Privacy & Legal</h3>
+                <p>We prioritize your privacy. Read our <a href="privacy-policy.html">Privacy
+                        Policy</a> to learn more.</p>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; CrewLu</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
