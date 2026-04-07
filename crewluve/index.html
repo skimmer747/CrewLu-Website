@@ -121,10 +121,33 @@
             cursor: pointer;
         }
 
-        .screenshot-gallery img:hover {
-            transform: scale(2.5);
+        .screenshot-gallery img:hover,
+        .screenshot-gallery img:focus {
+            transform: scale(1.5);
             z-index: 10;
             box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+            outline: 2px solid rgba(255, 255, 255, 0.6);
+            outline-offset: 4px;
+        }
+
+        .screenshot-lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            cursor: pointer;
+        }
+
+        .screenshot-lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 12px;
         }
 
         @media screen and (max-width: 980px) {
@@ -138,8 +161,27 @@
                 text-align: center;
             }
 
+            .screenshot-gallery {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                justify-content: flex-start;
+                -webkit-overflow-scrolling: touch;
+                scroll-snap-type: x mandatory;
+                padding: 1rem 0;
+            }
+
             .screenshot-gallery img {
-                width: 150px;
+                width: 200px;
+                flex-shrink: 0;
+                scroll-snap-align: center;
+            }
+
+            .screenshot-gallery img:hover,
+            .screenshot-gallery img:focus {
+                transform: none;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+                outline: 2px solid rgba(255, 255, 255, 0.6);
+                outline-offset: 4px;
             }
         }
     </style>
@@ -186,15 +228,15 @@
 
                     <!-- Screenshot Gallery -->
                     <div class="screenshot-gallery">
-                        <img src="../assets/images/crewluve/Better home.PNG" alt="Crewluve home screen with departure countdown" />
-                        <img src="../assets/images/crewluve/Home dark.PNG" alt="Crewluve home screen in dark mode" />
-                        <img src="../assets/images/crewluve/Calendar view.PNG" alt="Crewluve schedule calendar view" />
-                        <img src="../assets/images/crewluve/In flight.PNG" alt="Crewluve in-flight tracking Paris to Hong Kong" />
-                        <img src="../assets/images/crewluve/Layover Hono.PNG" alt="Crewluve layover in Honolulu" />
-                        <img src="../assets/images/crewluve/Delay.PNG" alt="Crewluve flight delay notification" />
-                        <img src="../assets/images/crewluve/In flight 2.PNG" alt="Crewluve in-flight tracking domestic route" />
-                        <img src="../assets/images/crewluve/Sundial Paris.PNG" alt="Crewluve sundial time zone detail for Paris" />
-                        <img src="../assets/images/crewluve/Sundial dark.PNG" alt="Crewluve sundial in dark mode" />
+                        <img tabindex="0" src="../assets/images/crewluve/Better home.PNG" alt="Crewluve home screen with departure countdown" />
+                        <img tabindex="0" src="../assets/images/crewluve/Home dark.PNG" alt="Crewluve home screen in dark mode" />
+                        <img tabindex="0" src="../assets/images/crewluve/Calendar view.PNG" alt="Crewluve schedule calendar view" />
+                        <img tabindex="0" src="../assets/images/crewluve/In flight.PNG" alt="Crewluve in-flight tracking Paris to Hong Kong" />
+                        <img tabindex="0" src="../assets/images/crewluve/Layover Hono.PNG" alt="Crewluve layover in Honolulu" />
+                        <img tabindex="0" src="../assets/images/crewluve/Delay.PNG" alt="Crewluve flight delay notification" />
+                        <img tabindex="0" src="../assets/images/crewluve/In flight 2.PNG" alt="Crewluve in-flight tracking domestic route" />
+                        <img tabindex="0" src="../assets/images/crewluve/Sundial Paris.PNG" alt="Crewluve sundial time zone detail for Paris" />
+                        <img tabindex="0" src="../assets/images/crewluve/Sundial dark.PNG" alt="Crewluve sundial in dark mode" />
                     </div>
 
                     <!-- Placeholder Feature Section 1 -->
@@ -269,6 +311,47 @@
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script>
+        // Opens a fullscreen lightbox overlay for the given image element
+        function openLightbox(imgElement) {
+            var lightbox = document.createElement('div');
+            lightbox.className = 'screenshot-lightbox';
+            lightbox.setAttribute('role', 'dialog');
+            lightbox.setAttribute('aria-label', imgElement.alt);
+
+            var fullImg = document.createElement('img');
+            fullImg.src = imgElement.src;
+            fullImg.alt = imgElement.alt;
+            lightbox.appendChild(fullImg);
+
+            // Close on click anywhere in the overlay
+            lightbox.addEventListener('click', function () { lightbox.remove(); });
+
+            // Close on Escape key
+            function onKeyDown(e) {
+                if (e.key === 'Escape') {
+                    lightbox.remove();
+                    document.removeEventListener('keydown', onKeyDown);
+                    imgElement.focus();
+                }
+            }
+            document.addEventListener('keydown', onKeyDown);
+
+            document.body.appendChild(lightbox);
+        }
+
+        document.querySelectorAll('.screenshot-gallery img').forEach(function (img) {
+            img.addEventListener('click', function () { openLightbox(this); });
+
+            // Keyboard: Enter or Space opens lightbox (same as click)
+            img.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    openLightbox(this);
+                }
+            });
+        });
+    </script>
 
 </body>
 
