@@ -99,6 +99,8 @@
 	var FLEET_MAP = {1: 'MD-11', 3: 'A300', 5: '757', 7: '747-100'};
 	var SEAT_MAP = {1: 'CPT', 2: 'F/O'};
 	var DOM_MAP = {1: 'SDF', 2: 'SDFZ', 3: 'ONT', 4: 'MIA', 5: 'ANC'};
+	// Pilot roster uses different fleet codes than the display names above.
+	var FLEET_ROSTER_MAP = {1: 'M1F', 3: 'A30', 5: '757', 7: '74Y'};
 
 	function decodeSystemBid(code) {
 		var s = String(code);
@@ -108,6 +110,18 @@
 		var dom = DOM_MAP[parseInt(s[2], 10)];
 		if (!fleet || !seat || !dom) return s;
 		return fleet + ' ' + seat + ' ' + dom;
+	}
+
+	function systemBidRankInfo(code, userSen) {
+		var s = String(code);
+		if (s.length !== 3) return null;
+		var rosterEqp = FLEET_ROSTER_MAP[parseInt(s[0], 10)];
+		var seat = SEAT_MAP[parseInt(s[1], 10)];
+		var dom = DOM_MAP[parseInt(s[2], 10)];
+		if (!rosterEqp || !seat || !dom) return null;
+		var info = lookupExpectedSeniors(rosterEqp, dom, seat, userSen);
+		if (!info) return null;
+		return { rank: info.above.length + 1, total: info.total };
 	}
 
 	// --- Grouping ---
@@ -723,9 +737,15 @@
 				var bidsListHtml = '';
 				if (userResult.bids.length > 0) {
 					for (var b = 0; b < userResult.bids.length; b++) {
+						var bidCode = userResult.bids[b];
+						var rankInfo = systemBidRankInfo(bidCode, userResult.sen);
+						var rankHtml = rankInfo
+							? ' <span class="system-bid-rank">&mdash; ' + rankInfo.rank + ' of ' + rankInfo.total + '</span>'
+							: '';
 						bidsListHtml += '<div class="system-bid-item">' +
 							'<span class="system-bid-num">' + (b + 1) + '.</span> ' +
-							escapeHtml(decodeSystemBid(userResult.bids[b])) +
+							escapeHtml(decodeSystemBid(bidCode)) +
+							rankHtml +
 							'</div>';
 					}
 				} else {
