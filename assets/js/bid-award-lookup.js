@@ -169,6 +169,205 @@
 		return results;
 	}
 
+	// --- Hold Risk Analysis ---
+
+	function lookupExpectedSeniors(eqp, dom, seat, userSen) {
+		if (typeof GLOBAL_PILOT_DATA === 'undefined') return null;
+		// Bid paste uses "F/O"; roster uses "FO"
+		var rosterSeat = (seat === 'F/O') ? 'FO' : seat;
+		var byEqp = GLOBAL_PILOT_DATA[eqp];
+		if (!byEqp) return null;
+		var byDom = byEqp[dom];
+		if (!byDom) return null;
+		var roster = byDom[rosterSeat];
+		if (!roster || !roster.length) return null;
+		var expected = [];
+		for (var i = 0; i < roster.length; i++) {
+			if (roster[i].sen < userSen) expected.push(roster[i].sen);
+		}
+		return { above: expected, total: roster.length };
+	}
+
+	function estimateLineCount(groupResults) {
+		var lineSet = {};
+		var count = 0;
+		var maxLine = 0;
+		for (var i = 0; i < groupResults.length; i++) {
+			var bids = groupResults[i].bids;
+			for (var j = 0; j < bids.length; j++) {
+				var n = bids[j];
+				if (!lineSet[n]) {
+					lineSet[n] = true;
+					count++;
+				}
+				if (n > maxLine) maxLine = n;
+			}
+			if (groupResults[i].awardedLine !== null && !lineSet[groupResults[i].awardedLine]) {
+				lineSet[groupResults[i].awardedLine] = true;
+				count++;
+				if (groupResults[i].awardedLine > maxLine) maxLine = groupResults[i].awardedLine;
+			}
+		}
+		// Fall back to max line seen if the distinct set is somehow smaller.
+		return Math.max(count, maxLine);
+	}
+
+	// Sliding-scale reserve trim: top 10% of the group treat the bottom 30% of lines
+	// as reserve/undesirable; the trim fades linearly to 0 at the bottom-seniority bidder.
+	function reserveTrimFactor(rankPct) {
+		if (rankPct <= 0.10) return 0.30;
+		if (rankPct >= 1.0) return 0;
+		return 0.30 * (1 - rankPct) / 0.90;
+	}
+
+	function computeHoldProbability(userResult, groupResults, missingCount, groupSize) {
+		var U = userResult.sen;
+
+		// N = submitted seniors above the user
+		var N = 0;
+		for (var i = 0; i < groupResults.length; i++) {
+			if (groupResults[i].sen < U) N++;
+		}
+
+		var S = N + missingCount;
+		var Kpaste = estimateLineCount(groupResults);
+
+		// Paste-derived K only sees lines that appeared in submitted bids. Early in the
+		// bid window, that undercounts the true fleet line pool. Use roster group size
+		// as a floor so senior bidders can plausibly land on lines outside the user's
+		// bid list. This prevents the S > K_paste collapse to 0%.
+		var K = Kpaste;
+		if (typeof groupSize === 'number' && groupSize > K) K = groupSize;
+
+		// User's seniority rank within the full group (0 = most senior, 1 = bottom bidder).
+		// Falls back to 0 (top) when group size is unknown, giving the max reserve trim.
+		var rankPct = 0;
+		if (typeof groupSize === 'number' && groupSize > 1) {
+			rankPct = S / (groupSize - 1);
+			if (rankPct > 1) rankPct = 1;
+		}
+		var trim = reserveTrimFactor(rankPct);
+		var Keff = Math.max(1, Math.round(K * (1 - trim)));
+		var Seff = Math.min(S, Keff);
+		var Neff = Math.min(N, Keff);
+
+		// Edge: user is most senior, or everyone above them has submitted.
+		if (Seff === 0 || missingCount === 0) {
+			return { probHold: 1, K: K, Keff: Keff, N: N, S: S, trim: trim, method: 'closed-form-uniform' };
+		}
+
+		// Pathological: not enough desirable lines left to absorb the missing bids.
+		if (Keff - Neff <= 0) {
+			return { probHold: 0, K: K, Keff: Keff, N: N, S: S, trim: trim, method: 'closed-form-uniform' };
+		}
+
+		var probHold = (Keff - Seff) / (Keff - Neff);
+		if (probHold < 0) probHold = 0;
+		if (probHold > 1) probHold = 1;
+
+		return { probHold: probHold, K: K, Keff: Keff, N: N, S: S, trim: trim, method: 'closed-form-uniform' };
+	}
+
+	function computeHoldRisk(userResult, groupResults) {
+		if (!userResult || userResult.awardedLine === null) return null;
+		if (userResult.bidType === 'SYSTEM') return null;
+
+		var L = userResult.awardedLine;
+		var U = userResult.sen;
+
+		// Identify missing seniors from roster
+		var rosterInfo = lookupExpectedSeniors(
+			userResult.eqp, userResult.base, userResult.sta, U
+		);
+		var rosterAvailable = rosterInfo !== null;
+		var missingSens = [];
+		var groupSize = null;
+		if (rosterAvailable) {
+			groupSize = rosterInfo.total;
+			var pastedSens = {};
+			for (var i = 0; i < groupResults.length; i++) {
+				pastedSens[groupResults[i].sen] = true;
+			}
+			for (var j = 0; j < rosterInfo.above.length; j++) {
+				if (!pastedSens[rosterInfo.above[j]]) missingSens.push(rosterInfo.above[j]);
+			}
+		}
+
+		// Closed-form hold probability
+		var prob = null;
+		if (rosterAvailable) {
+			prob = computeHoldProbability(userResult, groupResults, missingSens.length, groupSize);
+		}
+
+		// Rank-change sensitivity: submitted seniors who already rank L in top 3
+		var atRisk = [];
+		var topThreeCount = 0;
+		for (var k2 = 0; k2 < groupResults.length; k2++) {
+			var s = groupResults[k2];
+			if (s.sen >= U) continue;
+			var idx = -1;
+			for (var m2 = 0; m2 < s.bids.length; m2++) {
+				if (s.bids[m2] === L) { idx = m2; break; }
+			}
+			if (idx === -1) continue;
+			var rank = idx + 1;
+			if (rank <= 3) {
+				topThreeCount++;
+				atRisk.push({ sen: s.sen, rank: rank, name: s.name });
+			}
+		}
+		atRisk.sort(function (a, b) { return a.rank - b.rank; });
+
+		// Build ordered slots (most senior → least) for the submission tracker,
+		// classifying each submitted senior as "hurt" (took one of the user's
+		// higher-ranked bid choices) or "harmless" (submitted but didn't block
+		// any of the user's top picks).
+		var userTopBids = {};
+		if (userResult.bids && userResult.choiceNumber) {
+			for (var t = 0; t < userResult.choiceNumber - 1; t++) {
+				userTopBids[userResult.bids[t]] = true;
+			}
+		}
+		var submittedAbove = [];
+		for (var sa = 0; sa < groupResults.length; sa++) {
+			if (groupResults[sa].sen < U) submittedAbove.push(groupResults[sa]);
+		}
+		submittedAbove.sort(function (a, b) { return a.sen - b.sen; });
+		var missingSorted = missingSens.slice().sort(function (a, b) { return a - b; });
+
+		var slots = [];
+		var si = 0, mi = 0;
+		while (si < submittedAbove.length || mi < missingSorted.length) {
+			var subSen = si < submittedAbove.length ? submittedAbove[si].sen : Infinity;
+			var missSen = mi < missingSorted.length ? missingSorted[mi] : Infinity;
+			if (subSen <= missSen) {
+				var sp = submittedAbove[si];
+				var tookTopBid = sp.awardedLine !== null && !!userTopBids[sp.awardedLine];
+				slots.push({
+					state: tookTopBid ? 'hurt' : 'harmless',
+					sen: sp.sen,
+					name: sp.name,
+					awardedLine: sp.awardedLine
+				});
+				si++;
+			} else {
+				slots.push({ state: 'missing', sen: missSen });
+				mi++;
+			}
+		}
+
+		return {
+			rosterAvailable: rosterAvailable,
+			missingCount: missingSens.length,
+			missingSens: missingSens,
+			prob: prob,
+			atRisk: atRisk,
+			topThreeCount: topThreeCount,
+			awardedLine: L,
+			slots: slots
+		};
+	}
+
 	// --- Crew Pairing ---
 
 	function findCrewPartner(userResult, groups, allGroupResults) {
@@ -217,6 +416,161 @@
 			else suffix = 'th';
 		}
 		return choiceNum + suffix + ' choice';
+	}
+
+	function renderSubmissionTracker(slots, S, N) {
+		if (!slots || slots.length === 0) return '';
+		var dots = '';
+		var hurtCount = 0;
+		for (var i = 0; i < slots.length; i++) {
+			var s = slots[i];
+			var cls = 'submission-dot';
+			var title;
+			if (s.state === 'hurt') {
+				cls += ' hurt';
+				hurtCount++;
+				title = (s.name ? s.name + ' (Sen #' + s.sen + ')' : 'Sen #' + s.sen) +
+					' took line ' + s.awardedLine + ' — one of your higher choices';
+			} else if (s.state === 'harmless') {
+				cls += ' submitted';
+				title = (s.name ? s.name + ' (Sen #' + s.sen + ')' : 'Sen #' + s.sen) +
+					' submitted — awarded line ' + (s.awardedLine === null ? '—' : s.awardedLine);
+			} else {
+				title = 'Sen #' + s.sen + ' — not yet submitted';
+			}
+			dots += '<span class="' + cls + '" title="' + escapeHtml(title) + '"></span>';
+		}
+		var pilotWord = (S === 1) ? 'senior pilot' : 'senior pilots';
+		var hurtNote = hurtCount > 0
+			? ' &middot; <span class="hold-risk-danger"><strong>' + hurtCount +
+				'</strong> took one of your top ' + hurtCount + ' choices</span>'
+			: '';
+		return '<div class="submission-tracker">' +
+			'<div class="submission-icons">' + dots + '</div>' +
+			'<div class="submission-caption">' +
+			'&#9992;&#65039; <strong>' + N + '</strong> of <strong>' + S + '</strong> ' +
+			pilotWord + ' above you submitted' + hurtNote +
+			'</div></div>';
+	}
+
+	function renderHoldGauge(probHold, line) {
+		var pct = Math.round(probHold * 100);
+		var gaugeClass = pct >= 80 ? 'gauge-safe'
+			: pct >= 40 ? 'gauge-warn'
+			: 'gauge-danger';
+		var display = (pct === 0 && probHold > 0) ? '&lt;1%' : pct + '%';
+		var radius = 50;
+		var circumference = 2 * Math.PI * radius;
+		var offset = circumference * (1 - Math.max(0, Math.min(1, probHold)));
+		return '<div class="hold-gauge-wrap">' +
+			'<div class="hold-gauge-title">Chance of keeping</div>' +
+			'<div class="hold-gauge-ring">' +
+			'<svg class="hold-gauge" width="120" height="120" viewBox="0 0 120 120">' +
+			'<circle class="hold-gauge-track" cx="60" cy="60" r="' + radius + '"/>' +
+			'<circle class="hold-gauge-fill ' + gaugeClass + '" cx="60" cy="60" r="' + radius + '" ' +
+			'stroke-dasharray="' + circumference.toFixed(2) + '" ' +
+			'stroke-dashoffset="' + offset.toFixed(2) + '"/>' +
+			'</svg>' +
+			'<div class="hold-gauge-label">' +
+			'<div class="hold-gauge-pct">' + display + '</div>' +
+			'<div class="hold-gauge-sub">Line ' + line + '</div>' +
+			'</div>' +
+			'</div>' +
+			'</div>';
+	}
+
+	function renderSnark(risk) {
+		var missing = risk.missingSens || [];
+		var n = missing.length;
+		if (!risk.prob) return '';
+		if (risk.prob.S === 0) return '';
+
+		if (n === 0) {
+			return '<div class="hold-snark snark-safe">' +
+				'&#128274; All senior bids are in &mdash; what you see is what you fly.' +
+				'</div>';
+		}
+		if (n === 1) {
+			return '<div class="hold-snark">' +
+				'&#127919; Down to the wire &mdash; just Sen #' + missing[0] +
+				' left. Fingers crossed they&rsquo;re not feeling spicy today.' +
+				'</div>';
+		}
+		if (n === 2) {
+			return '<div class="hold-snark">' +
+				'&#128064; Just Sen #' + missing[0] + ' and Sen #' + missing[1] +
+				' between you and the gavel. Casual.' +
+				'</div>';
+		}
+		if (n === 3) {
+			return '<div class="hold-snark">' +
+				'&#9203; Three names left to bid: Sen #' + missing[0] + ', #' + missing[1] +
+				', #' + missing[2] + '. They&rsquo;re probably on a layover somewhere nice.' +
+				'</div>';
+		}
+		return '';
+	}
+
+	function renderHoldRisk(risk, line) {
+		if (!risk) return '';
+
+		var body = '';
+
+		if (risk.prob) {
+			var S = risk.prob.S;
+			var N = risk.prob.N;
+			body +=
+				'<div class="hold-risk-graphics">' +
+				renderSubmissionTracker(risk.slots, S, N) +
+				renderHoldGauge(risk.prob.probHold, line) +
+				'</div>';
+
+			// Caption (methodology note, smaller)
+			var caption;
+			if (S === 0) {
+				caption = 'You are the most senior pilot in this group.';
+			} else if (risk.missingCount === 0) {
+				caption = 'All ' + S + ' senior pilots above you have submitted.';
+			} else {
+				var poolNote = (risk.prob.trim > 0 && risk.prob.Keff !== risk.prob.K)
+					? '~' + risk.prob.Keff + ' desirable lines (of ' + risk.prob.K +
+						', trimming ' + Math.round(risk.prob.trim * 100) + '% reserve)'
+					: '~' + risk.prob.K + ' lines';
+				caption = 'Uniform-bid baseline across ' + poolNote + '.';
+			}
+			body += '<div class="hold-risk-caption">' + caption + '</div>';
+
+			body += renderSnark(risk);
+		}
+
+		if (risk.topThreeCount > 0) {
+			var threatWord = (risk.topThreeCount === 1) ? 'senior pilot ranks' : 'senior pilots rank';
+			var listItems = '';
+			for (var i = 0; i < risk.atRisk.length; i++) {
+				var r = risk.atRisk[i];
+				var nameLabel = r.name ? escapeHtml(r.name) + ' (Sen #' + r.sen + ')' : 'Sen #' + r.sen;
+				listItems +=
+					'<li class="hold-risk-item">' + nameLabel +
+					' &mdash; line ' + line + ' is their #' + r.rank + ' choice</li>';
+			}
+			body +=
+				'<details class="hold-risk-row hold-risk-details">' +
+				'<summary><span class="hold-risk-count">' + risk.topThreeCount + '</span> submitted ' +
+				threatWord + ' line ' + line + ' in their top 3</summary>' +
+				'<ul class="hold-risk-list">' + listItems + '</ul>' +
+				'</details>';
+		}
+
+		if (!body) {
+			if (!risk.rosterAvailable) return '';
+			body = '<div class="hold-risk-row hold-risk-safe">Line looks secure based on pasted bids.</div>';
+		}
+
+		return '<div class="hold-risk">' +
+			'<div class="hold-risk-title">Line Hold Risk</div>' +
+			body +
+			'<div class="hold-risk-disclaimer">Based on currently pasted bids &mdash; not a prediction.</div>' +
+			'</div>';
 	}
 
 	function getBidTypeLabel(bidType) {
@@ -396,6 +750,7 @@
 						'<p class="award-detail"><span class="' + getChoiceClass(userResult.choiceNumber) + '">' +
 						getChoiceLabel(userResult.choiceNumber) + '</span> out of ' + userResult.totalBids + ' bid(s)</p>' +
 						partnerHtml +
+						renderHoldRisk(data.holdRisk, userResult.awardedLine) +
 						'<p class="award-group">' + groupLabel + ' | Seniority #' + userResult.sen + '</p>' +
 						'</div>';
 				} else {
@@ -790,11 +1145,13 @@
 					}
 
 					var partner = findCrewPartner(userResult, groups, allGroupResults);
+					var holdRisk = computeHoldRisk(userResult, results);
 
 					userGroupData.push({
 						groupKey: groupKey,
 						results: results,
-						partner: partner
+						partner: partner,
+						holdRisk: holdRisk
 					});
 				}
 			}
@@ -831,5 +1188,8 @@
 		// Focus the input on load
 		$empInput.focus();
 	});
+
+	window.__crewluHoldRisk = computeHoldRisk;
+	window.__crewluHoldProb = computeHoldProbability;
 
 })(jQuery);
