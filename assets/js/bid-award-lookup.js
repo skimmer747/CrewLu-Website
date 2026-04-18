@@ -686,6 +686,14 @@
 		var tableHtml = '';
 		var tableIndex = 0;
 
+		// Render System bid summaries first so each Schedule/Training summary
+		// stays adjacent to its own bid table below.
+		userGroupData = userGroupData.slice().sort(function (a, b) {
+			var aSys = a.groupKey === 'SYSTEM|ALL' ? 0 : 1;
+			var bSys = b.groupKey === 'SYSTEM|ALL' ? 0 : 1;
+			return aSys - bSys;
+		});
+
 		for (var g = 0; g < userGroupData.length; g++) {
 			var data = userGroupData[g];
 			var results = data.results;
