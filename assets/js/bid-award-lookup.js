@@ -234,15 +234,7 @@
 		return 0.30 * (1 - rankPct) / 0.90;
 	}
 
-	function computeHoldProbability(userResult, groupResults, missingCount, groupSize) {
-		var U = userResult.sen;
-
-		// N = submitted seniors above the user
-		var N = 0;
-		for (var i = 0; i < groupResults.length; i++) {
-			if (groupResults[i].sen < U) N++;
-		}
-
+	function computeHoldProbability(userResult, groupResults, N, missingCount, groupSize) {
 		var S = N + missingCount;
 		var Kpaste = estimateLineCount(groupResults);
 
@@ -289,15 +281,18 @@
 		var L = userResult.awardedLine;
 		var U = userResult.sen;
 
-		// Identify missing seniors from roster
+		// Roster gives the authoritative "seniors above you" count (same source
+		// the System Bid card uses). Senior submitters come from the paste —
+		// we don't try to match paste sens to roster sens because sens drift
+		// between snapshots and recent transfers aren't in the roster yet.
 		var rosterInfo = lookupExpectedSeniors(
 			userResult.eqp, userResult.base, userResult.sta, U
 		);
 		var rosterAvailable = rosterInfo !== null;
+		var seniorsAbove = rosterAvailable ? rosterInfo.above.length : 0;
+		var groupSize = rosterAvailable ? rosterInfo.total : null;
 		var missingSens = [];
-		var groupSize = null;
 		if (rosterAvailable) {
-			groupSize = rosterInfo.total;
 			var pastedSens = {};
 			for (var i = 0; i < groupResults.length; i++) {
 				pastedSens[groupResults[i].sen] = true;
@@ -305,12 +300,6 @@
 			for (var j = 0; j < rosterInfo.above.length; j++) {
 				if (!pastedSens[rosterInfo.above[j]]) missingSens.push(rosterInfo.above[j]);
 			}
-		}
-
-		// Closed-form hold probability
-		var prob = null;
-		if (rosterAvailable) {
-			prob = computeHoldProbability(userResult, groupResults, missingSens.length, groupSize);
 		}
 
 		// Rank-change sensitivity: submitted seniors who already rank L in top 3
@@ -347,32 +336,44 @@
 			if (groupResults[sa].sen < U) submittedAbove.push(groupResults[sa]);
 		}
 		submittedAbove.sort(function (a, b) { return a.sen - b.sen; });
-		var missingSorted = missingSens.slice().sort(function (a, b) { return a - b; });
 
+		// Pending = shortfall between roster's senior count and paste's senior
+		// count, floored at zero (paste can exceed roster when transfers land
+		// between snapshots).
+		var pendingCount = rosterAvailable
+			? Math.max(0, seniorsAbove - submittedAbove.length)
+			: 0;
+
+		// Closed-form hold probability
+		var prob = null;
+		if (rosterAvailable) {
+			prob = computeHoldProbability(userResult, groupResults, submittedAbove.length, pendingCount, groupSize);
+		}
+
+		// Slots: one dot per submitter + one dot per pending roster shortfall.
+		// Give pending dots a concrete sen where we can (most senior first from
+		// the roster sens not in paste); fall back to sen-less if we run out.
+		var missingSorted = missingSens.slice().sort(function (a, b) { return a - b; });
 		var slots = [];
-		var si = 0, mi = 0;
-		while (si < submittedAbove.length || mi < missingSorted.length) {
-			var subSen = si < submittedAbove.length ? submittedAbove[si].sen : Infinity;
-			var missSen = mi < missingSorted.length ? missingSorted[mi] : Infinity;
-			if (subSen <= missSen) {
-				var sp = submittedAbove[si];
-				var tookTopBid = sp.awardedLine !== null && !!userTopBids[sp.awardedLine];
-				slots.push({
-					state: tookTopBid ? 'hurt' : 'harmless',
-					sen: sp.sen,
-					name: sp.name,
-					awardedLine: sp.awardedLine
-				});
-				si++;
-			} else {
-				slots.push({ state: 'missing', sen: missSen });
-				mi++;
-			}
+		for (var spi = 0; spi < submittedAbove.length; spi++) {
+			var sp = submittedAbove[spi];
+			var tookTopBid = sp.awardedLine !== null && !!userTopBids[sp.awardedLine];
+			slots.push({
+				state: tookTopBid ? 'hurt' : 'harmless',
+				sen: sp.sen,
+				name: sp.name,
+				awardedLine: sp.awardedLine
+			});
+		}
+		for (var pi = 0; pi < pendingCount; pi++) {
+			var slot = { state: 'missing' };
+			if (pi < missingSorted.length) slot.sen = missingSorted[pi];
+			slots.push(slot);
 		}
 
 		return {
 			rosterAvailable: rosterAvailable,
-			missingCount: missingSens.length,
+			missingCount: pendingCount,
 			missingSens: missingSens,
 			prob: prob,
 			atRisk: atRisk,
@@ -459,9 +460,10 @@
 			? ' &middot; <span class="hold-risk-danger"><strong>' + hurtCount +
 				'</strong> took one of your top ' + hurtCount + ' choices</span>'
 			: '';
+		var captionTitle = 'Senior count comes from the roster — same source as the System Bid rank.';
 		return '<div class="submission-tracker">' +
 			'<div class="submission-icons">' + dots + '</div>' +
-			'<div class="submission-caption">' +
+			'<div class="submission-caption" title="' + escapeHtml(captionTitle) + '">' +
 			'&#9992;&#65039; <strong>' + N + '</strong> of <strong>' + S + '</strong> ' +
 			pilotWord + ' above you submitted' + hurtNote +
 			'</div></div>';
