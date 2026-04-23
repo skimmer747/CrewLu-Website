@@ -1,8 +1,8 @@
 const GLOBAL_PILOT_DATA = 
 {
   "_metadata": {
-    "list_date": "2026-02-26",
-    "updated": "2026-02-26"
+    "list_date": "2026-05-17",
+    "updated": "2026-04-23"
   },
   "74Y": {
     "SDF": {
@@ -17,14 +17,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 5,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 3,
           "sen": 7,
           "dom": "SDF",
           "eqp": "74Y",
@@ -32,7 +24,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 4,
+          "pos": 3,
           "sen": 9,
           "dom": "SDF",
           "eqp": "74Y",
@@ -40,7 +32,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 5,
+          "pos": 4,
           "sen": 10,
           "dom": "SDF",
           "eqp": "74Y",
@@ -48,7 +40,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 6,
+          "pos": 5,
           "sen": 26,
           "dom": "SDF",
           "eqp": "74Y",
@@ -56,7 +48,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 7,
+          "pos": 6,
           "sen": 34,
           "dom": "SDF",
           "eqp": "74Y",
@@ -64,7 +56,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 8,
+          "pos": 7,
           "sen": 36,
           "dom": "SDF",
           "eqp": "74Y",
@@ -72,7 +64,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 9,
+          "pos": 8,
           "sen": 39,
           "dom": "SDF",
           "eqp": "74Y",
@@ -80,8 +72,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 9,
+          "sen": 44,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 10,
-          "sen": 45,
+          "sen": 83,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -89,7 +89,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 84,
+          "sen": 87,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -97,7 +97,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 88,
+          "sen": 118,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -105,7 +105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 119,
+          "sen": 130,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -113,7 +113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 131,
+          "sen": 146,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -121,7 +121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 147,
+          "sen": 148,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -129,7 +129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 149,
+          "sen": 155,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -137,7 +137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 156,
+          "sen": 163,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -145,7 +145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 164,
+          "sen": 193,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -153,7 +153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 192,
+          "sen": 196,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -161,7 +161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 195,
+          "sen": 207,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -169,7 +169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 198,
+          "sen": 218,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -177,7 +177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 210,
+          "sen": 220,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -185,7 +185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 221,
+          "sen": 222,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -201,7 +201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 225,
+          "sen": 228,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -209,14 +209,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 226,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 27,
           "sen": 231,
           "dom": "SDF",
           "eqp": "74Y",
@@ -224,7 +216,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 28,
+          "pos": 27,
           "sen": 234,
           "dom": "SDF",
           "eqp": "74Y",
@@ -232,8 +224,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 28,
+          "sen": 239,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 29,
-          "sen": 237,
+          "sen": 248,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -241,7 +241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 242,
+          "sen": 252,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -249,7 +249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 251,
+          "sen": 269,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -257,7 +257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 255,
+          "sen": 274,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -265,7 +265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 272,
+          "sen": 276,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -273,7 +273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 277,
+          "sen": 290,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -281,7 +281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 279,
+          "sen": 321,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -289,7 +289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 293,
+          "sen": 329,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -297,7 +297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 326,
+          "sen": 335,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -305,7 +305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 334,
+          "sen": 351,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -313,14 +313,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 340,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 40,
           "sen": 356,
           "dom": "SDF",
           "eqp": "74Y",
@@ -328,8 +320,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 40,
+          "sen": 371,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 41,
-          "sen": 361,
+          "sen": 375,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -337,14 +337,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 376,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 43,
           "sen": 380,
           "dom": "SDF",
           "eqp": "74Y",
@@ -352,15 +344,15 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 44,
-          "sen": 385,
+          "pos": 43,
+          "sen": 392,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
           "award": "*"
         },
         {
-          "pos": 45,
+          "pos": 44,
           "sen": 397,
           "dom": "SDF",
           "eqp": "74Y",
@@ -368,8 +360,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 45,
+          "sen": 411,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 46,
-          "sen": 402,
+          "sen": 425,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -377,7 +377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 416,
+          "sen": 438,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -385,7 +385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 431,
+          "sen": 470,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -393,7 +393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 444,
+          "sen": 475,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -401,7 +401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 476,
+          "sen": 477,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -409,7 +409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 481,
+          "sen": 486,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -417,7 +417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 483,
+          "sen": 487,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -425,7 +425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 492,
+          "sen": 491,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -433,7 +433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 493,
+          "sen": 492,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -441,7 +441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 497,
+          "sen": 493,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -449,7 +449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 498,
+          "sen": 497,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -457,7 +457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 499,
+          "sen": 498,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -465,7 +465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 503,
+          "sen": 506,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -473,7 +473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 504,
+          "sen": 536,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -481,7 +481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 512,
+          "sen": 541,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -497,7 +497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 547,
+          "sen": 559,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -505,7 +505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 548,
+          "sen": 578,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -513,7 +513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 566,
+          "sen": 579,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -521,7 +521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 585,
+          "sen": 582,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -529,7 +529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 586,
+          "sen": 588,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -537,7 +537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 589,
+          "sen": 593,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -545,7 +545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 595,
+          "sen": 597,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -553,14 +553,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 600,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 70,
           "sen": 604,
           "dom": "SDF",
           "eqp": "74Y",
@@ -568,8 +560,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 70,
+          "sen": 609,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 71,
-          "sen": 611,
+          "sen": 615,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -577,7 +577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 616,
+          "sen": 636,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -585,7 +585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 622,
+          "sen": 649,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -593,14 +593,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 643,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 75,
           "sen": 656,
           "dom": "SDF",
           "eqp": "74Y",
@@ -608,7 +600,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 76,
+          "pos": 75,
           "sen": 663,
           "dom": "SDF",
           "eqp": "74Y",
@@ -616,8 +608,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 76,
+          "sen": 669,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 77,
-          "sen": 670,
+          "sen": 680,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -625,14 +625,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 676,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 79,
           "sen": 687,
           "dom": "SDF",
           "eqp": "74Y",
@@ -640,7 +632,7 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 80,
+          "pos": 79,
           "sen": 694,
           "dom": "SDF",
           "eqp": "74Y",
@@ -648,8 +640,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 80,
+          "sen": 699,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 81,
-          "sen": 701,
+          "sen": 705,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -657,7 +657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 706,
+          "sen": 717,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -665,7 +665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 712,
+          "sen": 725,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -673,7 +673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 724,
+          "sen": 727,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -681,7 +681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 732,
+          "sen": 738,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -689,7 +689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 734,
+          "sen": 749,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -697,7 +697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 745,
+          "sen": 754,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -705,7 +705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 756,
+          "sen": 761,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -713,7 +713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 760,
+          "sen": 765,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -721,7 +721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 762,
+          "sen": 772,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -729,7 +729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 769,
+          "sen": 788,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -737,7 +737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 773,
+          "sen": 790,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -745,7 +745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 780,
+          "sen": 791,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -753,7 +753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 796,
+          "sen": 795,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -761,7 +761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 799,
+          "sen": 810,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -769,7 +769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 803,
+          "sen": 820,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -777,7 +777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 818,
+          "sen": 823,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -793,7 +793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 831,
+          "sen": 855,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -801,7 +801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 836,
+          "sen": 857,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -809,7 +809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 863,
+          "sen": 882,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -817,7 +817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 865,
+          "sen": 883,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -825,7 +825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 891,
+          "sen": 888,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -833,7 +833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 892,
+          "sen": 894,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -841,7 +841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 897,
+          "sen": 901,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -849,7 +849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 903,
+          "sen": 920,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -857,7 +857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 910,
+          "sen": 925,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -865,7 +865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 929,
+          "sen": 926,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -873,7 +873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 934,
+          "sen": 932,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -881,7 +881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 935,
+          "sen": 965,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -889,7 +889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 941,
+          "sen": 966,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -905,7 +905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 976,
+          "sen": 993,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -913,7 +913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 986,
+          "sen": 1003,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -921,7 +921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 1015,
+          "sen": 1018,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -929,7 +929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 1029,
+          "sen": 1028,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -937,7 +937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 1031,
+          "sen": 1036,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -945,7 +945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 1041,
+          "sen": 1037,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -953,7 +953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 1049,
+          "sen": 1038,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -961,7 +961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 1050,
+          "sen": 1044,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -969,7 +969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 1051,
+          "sen": 1073,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -977,7 +977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 1057,
+          "sen": 1085,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -985,7 +985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 1086,
+          "sen": 1102,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -993,7 +993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 1098,
+          "sen": 1104,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1001,7 +1001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 1115,
+          "sen": 1105,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1009,7 +1009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 1117,
+          "sen": 1107,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1017,7 +1017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 1118,
+          "sen": 1123,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1025,7 +1025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 1120,
+          "sen": 1212,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1033,7 +1033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 1136,
+          "sen": 1220,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1041,31 +1041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 1233,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 131,
-          "sen": 1236,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 132,
-          "sen": 1260,
-          "dom": "SDF",
-          "eqp": "74Y",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 133,
-          "sen": 1326,
+          "sen": 1313,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "CPT",
@@ -1075,7 +1051,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 557,
+          "sen": 551,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1083,7 +1059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 686,
+          "sen": 679,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1091,7 +1067,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 750,
+          "sen": 743,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1099,7 +1075,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 751,
+          "sen": 744,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1107,7 +1083,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 784,
+          "sen": 776,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1115,7 +1091,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 819,
+          "sen": 811,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1123,7 +1099,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 866,
+          "sen": 858,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1131,7 +1107,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 899,
+          "sen": 890,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1139,7 +1115,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 907,
+          "sen": 898,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1147,7 +1123,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 911,
+          "sen": 902,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1155,7 +1131,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 947,
+          "sen": 938,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1163,7 +1139,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 969,
+          "sen": 1112,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1171,7 +1147,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1125,
+          "sen": 1185,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1179,7 +1155,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1198,
+          "sen": 1233,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1187,7 +1163,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1246,
+          "sen": 1445,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1195,7 +1171,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1458,
+          "sen": 1453,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1203,7 +1179,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1466,
+          "sen": 1454,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1211,7 +1187,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1467,
+          "sen": 1457,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1219,7 +1195,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1470,
+          "sen": 1459,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1227,7 +1203,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1472,
+          "sen": 1463,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1235,7 +1211,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1476,
+          "sen": 1467,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1243,7 +1219,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1480,
+          "sen": 1473,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1251,7 +1227,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1486,
+          "sen": 1518,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1259,7 +1235,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1531,
+          "sen": 1550,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1267,7 +1243,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1563,
+          "sen": 1631,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1275,7 +1251,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1645,
+          "sen": 1632,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1283,7 +1259,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 1646,
+          "sen": 1639,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1291,7 +1267,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 1653,
+          "sen": 1640,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1299,7 +1275,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 1654,
+          "sen": 1661,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1307,7 +1283,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 1675,
+          "sen": 1670,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1315,7 +1291,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 1684,
+          "sen": 1679,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1323,7 +1299,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 1693,
+          "sen": 1686,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1331,7 +1307,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 1701,
+          "sen": 1711,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1339,7 +1315,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 1726,
+          "sen": 1716,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1347,7 +1323,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 1731,
+          "sen": 1723,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1355,7 +1331,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 1738,
+          "sen": 1744,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1363,7 +1339,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 1759,
+          "sen": 1755,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1371,7 +1347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 1770,
+          "sen": 1763,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1379,7 +1355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 1778,
+          "sen": 1766,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1387,7 +1363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 1781,
+          "sen": 1830,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1395,7 +1371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 1845,
+          "sen": 1853,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1403,7 +1379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 1868,
+          "sen": 1861,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1411,7 +1387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 1876,
+          "sen": 1862,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1419,7 +1395,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 1877,
+          "sen": 1870,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1427,7 +1403,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 1885,
+          "sen": 1872,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1435,7 +1411,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 1887,
+          "sen": 1874,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1443,7 +1419,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 1889,
+          "sen": 1903,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1451,7 +1427,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 1918,
+          "sen": 1945,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1459,7 +1435,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 1960,
+          "sen": 1952,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1467,7 +1443,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 1967,
+          "sen": 1965,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1475,7 +1451,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1980,
+          "sen": 1968,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1483,7 +1459,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1983,
+          "sen": 1979,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1491,7 +1467,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1994,
+          "sen": 1984,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1499,7 +1475,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1999,
+          "sen": 1985,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1507,7 +1483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 2000,
+          "sen": 1999,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1515,7 +1491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 2014,
+          "sen": 2000,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1523,7 +1499,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 2015,
+          "sen": 2003,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1531,7 +1507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 2018,
+          "sen": 2007,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1539,7 +1515,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 2022,
+          "sen": 2008,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1547,7 +1523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 2023,
+          "sen": 2027,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1555,7 +1531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 2042,
+          "sen": 2034,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1563,7 +1539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 2049,
+          "sen": 2044,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1571,7 +1547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 2059,
+          "sen": 2054,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1579,7 +1555,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 2069,
+          "sen": 2055,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1587,7 +1563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 2070,
+          "sen": 2057,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1595,7 +1571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 2072,
+          "sen": 2070,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1603,7 +1579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 2085,
+          "sen": 2071,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1611,7 +1587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 2086,
+          "sen": 2072,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1619,7 +1595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 2087,
+          "sen": 2073,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1627,7 +1603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 2088,
+          "sen": 2076,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1635,7 +1611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 2091,
+          "sen": 2085,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1643,7 +1619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 2100,
+          "sen": 2111,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1651,7 +1627,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 2126,
+          "sen": 2112,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1659,7 +1635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 2127,
+          "sen": 2113,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1667,7 +1643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 2128,
+          "sen": 2116,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1675,7 +1651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 2131,
+          "sen": 2130,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1683,7 +1659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 2145,
+          "sen": 2143,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1691,7 +1667,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 2158,
+          "sen": 2150,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1699,7 +1675,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 2165,
+          "sen": 2162,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1707,7 +1683,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 2177,
+          "sen": 2216,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1715,7 +1691,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 2190,
+          "sen": 2220,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1723,7 +1699,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 2235,
+          "sen": 2230,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1731,7 +1707,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 2245,
+          "sen": 2232,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1739,7 +1715,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 2247,
+          "sen": 2234,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1747,7 +1723,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 2249,
+          "sen": 2236,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1755,7 +1731,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 2251,
+          "sen": 2237,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1763,7 +1739,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 2252,
+          "sen": 2239,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1771,7 +1747,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 2254,
+          "sen": 2246,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1779,7 +1755,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 2261,
+          "sen": 2248,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1787,7 +1763,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 2263,
+          "sen": 2249,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1795,7 +1771,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2264,
+          "sen": 2265,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1803,7 +1779,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 2281,
+          "sen": 2266,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1811,7 +1787,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 2282,
+          "sen": 2275,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1819,7 +1795,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 2291,
+          "sen": 2276,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1827,7 +1803,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 2292,
+          "sen": 2281,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1835,7 +1811,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 2297,
+          "sen": 2293,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1843,7 +1819,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 2309,
+          "sen": 2303,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1851,7 +1827,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 2319,
+          "sen": 2312,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1859,7 +1835,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 2328,
+          "sen": 2324,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1867,7 +1843,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 2340,
+          "sen": 2326,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1875,7 +1851,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 2342,
+          "sen": 2328,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1883,7 +1859,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 2344,
+          "sen": 2339,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1891,7 +1867,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 2355,
+          "sen": 2342,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1899,7 +1875,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 2358,
+          "sen": 2344,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1907,7 +1883,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 2360,
+          "sen": 2346,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1915,7 +1891,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 2362,
+          "sen": 2348,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1923,7 +1899,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 2364,
+          "sen": 2356,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1931,7 +1907,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 2374,
+          "sen": 2358,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1939,7 +1915,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 2383,
+          "sen": 2363,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1947,7 +1923,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 2384,
+          "sen": 2367,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1955,7 +1931,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 2385,
+          "sen": 2368,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1963,7 +1939,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 2386,
+          "sen": 2369,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1971,7 +1947,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 2388,
+          "sen": 2370,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1979,7 +1955,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 2389,
+          "sen": 2372,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1987,7 +1963,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 2403,
+          "sen": 2373,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -1995,7 +1971,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 2405,
+          "sen": 2387,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2003,7 +1979,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 2411,
+          "sen": 2389,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2011,7 +1987,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 2416,
+          "sen": 2395,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2019,7 +1995,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 2424,
+          "sen": 2400,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2027,7 +2003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 2425,
+          "sen": 2408,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2035,7 +2011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 2426,
+          "sen": 2409,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2043,7 +2019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 2427,
+          "sen": 2410,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2051,7 +2027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 2432,
+          "sen": 2411,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2059,7 +2035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 2433,
+          "sen": 2416,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2067,7 +2043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 2446,
+          "sen": 2417,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2075,7 +2051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 2448,
+          "sen": 2430,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2083,7 +2059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 2455,
+          "sen": 2432,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2091,7 +2067,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 2477,
+          "sen": 2439,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2099,7 +2075,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 2493,
+          "sen": 2461,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2107,7 +2083,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 2499,
+          "sen": 2477,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2115,7 +2091,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 2500,
+          "sen": 2483,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2123,7 +2099,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 2501,
+          "sen": 2484,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2131,7 +2107,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 2505,
+          "sen": 2485,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2139,7 +2115,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 2528,
+          "sen": 2486,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2147,7 +2123,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 2530,
+          "sen": 2489,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2155,7 +2131,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 2531,
+          "sen": 2512,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2163,7 +2139,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 2536,
+          "sen": 2514,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2171,7 +2147,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 2537,
+          "sen": 2515,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2179,7 +2155,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 2543,
+          "sen": 2520,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2187,7 +2163,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 2545,
+          "sen": 2521,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2195,7 +2171,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 2547,
+          "sen": 2527,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2203,7 +2179,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 2548,
+          "sen": 2529,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2211,7 +2187,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 2549,
+          "sen": 2531,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2219,7 +2195,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 2550,
+          "sen": 2532,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2227,7 +2203,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 2552,
+          "sen": 2533,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2235,7 +2211,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 2553,
+          "sen": 2534,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2243,7 +2219,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 2554,
+          "sen": 2536,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2251,7 +2227,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 2557,
+          "sen": 2537,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2259,7 +2235,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 2558,
+          "sen": 2538,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2267,7 +2243,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 2559,
+          "sen": 2541,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2275,7 +2251,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 2561,
+          "sen": 2542,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2283,7 +2259,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 2562,
+          "sen": 2543,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2291,7 +2267,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 2567,
+          "sen": 2545,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2299,7 +2275,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 2579,
+          "sen": 2546,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2307,7 +2283,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 2582,
+          "sen": 2551,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2315,7 +2291,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 2589,
+          "sen": 2563,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2323,7 +2299,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 2592,
+          "sen": 2566,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2331,7 +2307,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 2595,
+          "sen": 2573,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2339,7 +2315,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 2606,
+          "sen": 2576,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2347,7 +2323,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 2617,
+          "sen": 2579,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2355,7 +2331,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 2633,
+          "sen": 2590,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2363,7 +2339,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 2669,
+          "sen": 2601,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2371,7 +2347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 2670,
+          "sen": 2617,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2379,7 +2355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 2679,
+          "sen": 2653,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2387,7 +2363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 2702,
+          "sen": 2654,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2395,7 +2371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 2705,
+          "sen": 2663,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2403,7 +2379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 2707,
+          "sen": 2686,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2411,7 +2387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 2710,
+          "sen": 2689,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2419,7 +2395,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 2714,
+          "sen": 2691,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2427,7 +2403,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 2730,
+          "sen": 2694,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2435,7 +2411,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 2734,
+          "sen": 2698,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2443,7 +2419,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 2737,
+          "sen": 2714,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2451,7 +2427,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 2740,
+          "sen": 2718,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2459,7 +2435,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 2759,
+          "sen": 2721,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2467,7 +2443,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 2760,
+          "sen": 2724,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2475,7 +2451,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 2768,
+          "sen": 2741,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2483,7 +2459,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 2786,
+          "sen": 2742,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2491,7 +2467,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 2787,
+          "sen": 2750,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2499,7 +2475,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 2789,
+          "sen": 2769,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2507,7 +2483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 2796,
+          "sen": 2771,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2515,7 +2491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 2801,
+          "sen": 2778,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2523,7 +2499,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 2817,
+          "sen": 2783,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2531,7 +2507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 2826,
+          "sen": 2799,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2539,7 +2515,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 2863,
+          "sen": 2808,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2547,7 +2523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 2869,
+          "sen": 2845,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2555,7 +2531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 2904,
+          "sen": 2851,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2563,7 +2539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 2905,
+          "sen": 2886,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2571,7 +2547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 2906,
+          "sen": 2887,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2579,7 +2555,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 2918,
+          "sen": 2888,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2587,7 +2563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 2948,
+          "sen": 2900,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2595,7 +2571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 2950,
+          "sen": 2930,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2603,7 +2579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 2953,
+          "sen": 2932,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2611,7 +2587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 2955,
+          "sen": 2935,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2619,7 +2595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 2959,
+          "sen": 2937,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2627,7 +2603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 2960,
+          "sen": 2941,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2635,7 +2611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 2981,
+          "sen": 2942,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2643,7 +2619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 3012,
+          "sen": 2963,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2651,7 +2627,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 3075,
+          "sen": 2994,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2659,7 +2635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 3141,
+          "sen": 3057,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2667,7 +2643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 3142,
+          "sen": 3123,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2675,7 +2651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 3144,
+          "sen": 3124,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2683,7 +2659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 3176,
+          "sen": 3126,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2691,7 +2667,15 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 3218,
+          "sen": 3158,
+          "dom": "SDF",
+          "eqp": "74Y",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 204,
+          "sen": 3200,
           "dom": "SDF",
           "eqp": "74Y",
           "seat": "FO",
@@ -2735,7 +2719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 51,
+          "sen": 50,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2743,7 +2727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 81,
+          "sen": 80,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2751,7 +2735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 85,
+          "sen": 84,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2759,7 +2743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 86,
+          "sen": 85,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2767,7 +2751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 96,
+          "sen": 95,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2775,7 +2759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 100,
+          "sen": 99,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2783,7 +2767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 101,
+          "sen": 100,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2791,7 +2775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 115,
+          "sen": 114,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2799,7 +2783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 133,
+          "sen": 132,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2807,7 +2791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 142,
+          "sen": 141,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2815,7 +2799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 158,
+          "sen": 157,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2823,7 +2807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 162,
+          "sen": 161,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2831,7 +2815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 171,
+          "sen": 170,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2839,7 +2823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 189,
+          "sen": 188,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2847,7 +2831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 204,
+          "sen": 201,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2855,7 +2839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 233,
+          "sen": 230,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2863,7 +2847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 239,
+          "sen": 236,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2871,7 +2855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 250,
+          "sen": 247,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2879,7 +2863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 264,
+          "sen": 261,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2887,7 +2871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 266,
+          "sen": 263,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2895,7 +2879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 273,
+          "sen": 270,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2903,7 +2887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 281,
+          "sen": 278,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2911,7 +2895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 295,
+          "sen": 292,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2919,7 +2903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 298,
+          "sen": 294,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2927,7 +2911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 301,
+          "sen": 296,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2935,7 +2919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 302,
+          "sen": 297,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2943,7 +2927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 306,
+          "sen": 301,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2951,7 +2935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 314,
+          "sen": 309,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2959,7 +2943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 317,
+          "sen": 312,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2967,7 +2951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 320,
+          "sen": 315,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2975,7 +2959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 335,
+          "sen": 330,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2983,7 +2967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 336,
+          "sen": 331,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2991,7 +2975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 337,
+          "sen": 332,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -2999,7 +2983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 339,
+          "sen": 334,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3007,7 +2991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 349,
+          "sen": 344,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3015,7 +2999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 350,
+          "sen": 345,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3023,7 +3007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 375,
+          "sen": 370,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3031,7 +3015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 395,
+          "sen": 390,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3039,7 +3023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 398,
+          "sen": 393,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3047,7 +3031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 404,
+          "sen": 399,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3055,7 +3039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 405,
+          "sen": 400,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3063,7 +3047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 407,
+          "sen": 402,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3071,7 +3055,15 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 408,
+          "sen": 403,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 48,
+          "sen": 406,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3079,7 +3071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 413,
+          "sen": 408,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3087,7 +3079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 422,
+          "sen": 416,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3095,7 +3087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 424,
+          "sen": 418,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3103,7 +3095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 430,
+          "sen": 424,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3111,7 +3103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 432,
+          "sen": 426,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3119,7 +3111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 450,
+          "sen": 444,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3127,7 +3119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 451,
+          "sen": 445,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3135,7 +3127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 452,
+          "sen": 446,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3143,7 +3135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 462,
+          "sen": 456,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3151,7 +3143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 471,
+          "sen": 465,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3159,7 +3151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 494,
+          "sen": 488,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3167,7 +3159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 505,
+          "sen": 499,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3175,7 +3167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 510,
+          "sen": 504,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3183,7 +3175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 514,
+          "sen": 508,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3191,7 +3183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 518,
+          "sen": 512,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3199,7 +3191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 520,
+          "sen": 514,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3207,7 +3199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 539,
+          "sen": 533,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3215,7 +3207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 552,
+          "sen": 546,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3223,7 +3215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 591,
+          "sen": 584,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3231,7 +3223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 598,
+          "sen": 591,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3239,7 +3231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 599,
+          "sen": 592,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3247,7 +3239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 618,
+          "sen": 611,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3255,7 +3247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 627,
+          "sen": 620,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3263,7 +3255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 630,
+          "sen": 623,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3271,7 +3263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 631,
+          "sen": 624,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3279,7 +3271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 635,
+          "sen": 628,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3287,7 +3279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 658,
+          "sen": 651,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3295,7 +3287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 659,
+          "sen": 652,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3303,7 +3295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 660,
+          "sen": 653,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3311,7 +3303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 665,
+          "sen": 658,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3319,7 +3311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 666,
+          "sen": 659,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3327,7 +3319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 667,
+          "sen": 660,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3335,7 +3327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 673,
+          "sen": 666,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3343,7 +3335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 674,
+          "sen": 667,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3351,7 +3343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 697,
+          "sen": 690,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3359,7 +3351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 703,
+          "sen": 696,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3367,7 +3359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 718,
+          "sen": 711,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3375,7 +3367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 731,
+          "sen": 724,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3383,7 +3375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 747,
+          "sen": 740,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3391,7 +3383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 752,
+          "sen": 745,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3399,7 +3391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 758,
+          "sen": 751,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3407,7 +3399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 775,
+          "sen": 767,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3415,7 +3407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 776,
+          "sen": 768,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3423,7 +3415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 793,
+          "sen": 785,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3431,7 +3423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 812,
+          "sen": 804,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3439,7 +3431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 823,
+          "sen": 815,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3447,7 +3439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 830,
+          "sen": 822,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3455,7 +3447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 832,
+          "sen": 824,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3463,7 +3455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 840,
+          "sen": 832,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3471,7 +3463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 851,
+          "sen": 843,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3479,7 +3471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 861,
+          "sen": 853,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3487,7 +3479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 870,
+          "sen": 862,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3495,7 +3487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 873,
+          "sen": 865,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3503,7 +3495,15 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 878,
+          "sen": 870,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 103,
+          "sen": 875,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3511,7 +3511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 884,
+          "sen": 876,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3519,7 +3519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 893,
+          "sen": 884,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3527,7 +3527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 895,
+          "sen": 886,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3535,7 +3535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 896,
+          "sen": 887,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3543,7 +3543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 900,
+          "sen": 891,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3551,7 +3551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 904,
+          "sen": 895,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3559,7 +3559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 909,
+          "sen": 900,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3567,7 +3567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 913,
+          "sen": 904,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3575,7 +3575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 914,
+          "sen": 905,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3583,7 +3583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 915,
+          "sen": 906,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3591,7 +3591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 917,
+          "sen": 908,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3599,7 +3599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 918,
+          "sen": 909,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3607,7 +3607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 936,
+          "sen": 927,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3615,7 +3615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 937,
+          "sen": 928,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3623,7 +3623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 943,
+          "sen": 934,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3631,7 +3631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 949,
+          "sen": 940,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3639,7 +3639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 953,
+          "sen": 944,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3647,7 +3647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 957,
+          "sen": 948,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3655,7 +3655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 958,
+          "sen": 949,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3663,7 +3663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 964,
+          "sen": 955,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3671,7 +3671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 965,
+          "sen": 956,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3679,7 +3679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 967,
+          "sen": 958,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3687,7 +3687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 978,
+          "sen": 968,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3695,7 +3695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 988,
+          "sen": 977,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3703,7 +3703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 996,
+          "sen": 985,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3711,7 +3711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 997,
+          "sen": 986,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3719,7 +3719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 998,
+          "sen": 987,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3727,7 +3727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 1008,
+          "sen": 997,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3735,7 +3735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 1011,
+          "sen": 1000,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3743,7 +3743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 1016,
+          "sen": 1004,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3751,7 +3751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 1018,
+          "sen": 1006,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3759,7 +3759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 1020,
+          "sen": 1008,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3767,7 +3767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 1023,
+          "sen": 1011,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3775,7 +3775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 1028,
+          "sen": 1016,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3783,7 +3783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 1030,
+          "sen": 1017,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3791,7 +3791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 1032,
+          "sen": 1019,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3799,7 +3799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 1034,
+          "sen": 1021,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3807,7 +3807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 1036,
+          "sen": 1023,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3815,7 +3815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 1037,
+          "sen": 1024,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3823,7 +3823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 1039,
+          "sen": 1026,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3831,7 +3831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 1042,
+          "sen": 1029,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3839,7 +3839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 1043,
+          "sen": 1030,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3847,7 +3847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 1044,
+          "sen": 1031,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3855,7 +3855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 1045,
+          "sen": 1032,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3863,7 +3863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 1048,
+          "sen": 1035,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3871,7 +3871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 1053,
+          "sen": 1040,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3879,7 +3879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 1054,
+          "sen": 1041,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3887,7 +3887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 1055,
+          "sen": 1042,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3895,7 +3895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 1056,
+          "sen": 1043,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3903,7 +3903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 1063,
+          "sen": 1050,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3911,7 +3911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 1064,
+          "sen": 1051,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3919,7 +3919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 1066,
+          "sen": 1053,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3927,7 +3927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 1067,
+          "sen": 1054,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3935,7 +3935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 1068,
+          "sen": 1055,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3943,7 +3943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 1070,
+          "sen": 1057,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3951,7 +3951,15 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 1071,
+          "sen": 1058,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 160,
+          "sen": 1059,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3959,7 +3967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 1073,
+          "sen": 1060,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3967,7 +3975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 1075,
+          "sen": 1062,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3975,7 +3983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 1077,
+          "sen": 1064,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3983,7 +3991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 1078,
+          "sen": 1065,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3991,7 +3999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 1082,
+          "sen": 1069,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -3999,7 +4007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 1085,
+          "sen": 1072,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4007,7 +4015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 1087,
+          "sen": 1074,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4015,7 +4023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 1090,
+          "sen": 1077,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4023,7 +4031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 1094,
+          "sen": 1081,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4031,7 +4039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 1099,
+          "sen": 1086,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4039,7 +4047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 1103,
+          "sen": 1090,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4047,7 +4055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 1109,
+          "sen": 1096,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4055,7 +4063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 1110,
+          "sen": 1097,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4063,7 +4071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 1111,
+          "sen": 1098,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4071,7 +4079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 1137,
+          "sen": 1124,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4079,7 +4087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 1138,
+          "sen": 1125,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4087,7 +4095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 1144,
+          "sen": 1131,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4095,7 +4103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 1147,
+          "sen": 1134,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4103,7 +4111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 1151,
+          "sen": 1138,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4111,7 +4119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 1162,
+          "sen": 1149,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4119,7 +4127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 1165,
+          "sen": 1152,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4127,7 +4135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 1168,
+          "sen": 1155,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4135,7 +4143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 1176,
+          "sen": 1163,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4143,7 +4151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 1177,
+          "sen": 1164,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4151,7 +4159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 1179,
+          "sen": 1166,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4159,7 +4167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 1182,
+          "sen": 1169,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4167,7 +4175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 1219,
+          "sen": 1206,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4175,7 +4183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 1244,
+          "sen": 1231,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4183,7 +4191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 1273,
+          "sen": 1260,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4191,7 +4199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 1278,
+          "sen": 1265,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4199,7 +4207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 1282,
+          "sen": 1269,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4207,7 +4215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 1312,
+          "sen": 1299,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4215,7 +4223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 1315,
+          "sen": 1302,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4223,7 +4231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 1349,
+          "sen": 1336,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4231,7 +4239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 1356,
+          "sen": 1343,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4239,7 +4247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 1372,
+          "sen": 1359,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4247,7 +4255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 1374,
+          "sen": 1361,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4255,7 +4263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 1376,
+          "sen": 1363,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4263,7 +4271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 1383,
+          "sen": 1370,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4271,7 +4279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 1395,
+          "sen": 1382,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4279,7 +4287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 1401,
+          "sen": 1386,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4287,7 +4295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 1402,
+          "sen": 1388,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4295,7 +4303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 1444,
+          "sen": 1389,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4303,7 +4311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 1457,
+          "sen": 1431,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4311,7 +4319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 1464,
+          "sen": 1444,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4319,7 +4327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 1473,
+          "sen": 1451,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4327,7 +4335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 1475,
+          "sen": 1460,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4335,7 +4343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 1485,
+          "sen": 1462,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4343,7 +4351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 1489,
+          "sen": 1472,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4351,7 +4359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 1491,
+          "sen": 1476,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4359,7 +4367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 1501,
+          "sen": 1478,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4367,7 +4375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 1516,
+          "sen": 1488,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4375,7 +4383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 1520,
+          "sen": 1503,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4383,7 +4391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 1534,
+          "sen": 1507,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4391,7 +4399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 1537,
+          "sen": 1521,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4399,7 +4407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 1540,
+          "sen": 1524,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4407,7 +4415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 1543,
+          "sen": 1527,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4415,7 +4423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 1547,
+          "sen": 1530,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4423,7 +4431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 1567,
+          "sen": 1534,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4431,7 +4439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 1573,
+          "sen": 1554,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4439,7 +4447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 1578,
+          "sen": 1560,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4447,7 +4455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 1592,
+          "sen": 1565,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4455,7 +4463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 1601,
+          "sen": 1579,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4463,7 +4471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 1615,
+          "sen": 1587,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4471,7 +4479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 1621,
+          "sen": 1601,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4479,7 +4487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 1623,
+          "sen": 1607,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4487,7 +4495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 1625,
+          "sen": 1609,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4495,7 +4503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 1626,
+          "sen": 1611,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4503,7 +4511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 1632,
+          "sen": 1612,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4511,7 +4519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 1639,
+          "sen": 1618,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4519,7 +4527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 1665,
+          "sen": 1625,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4527,7 +4535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 1670,
+          "sen": 1651,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4535,7 +4543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 1692,
+          "sen": 1656,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4543,7 +4551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 1699,
+          "sen": 1678,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4551,7 +4559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 1721,
+          "sen": 1684,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4559,7 +4567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 1723,
+          "sen": 1706,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4567,7 +4575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 1730,
+          "sen": 1715,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4575,7 +4583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 1732,
+          "sen": 1717,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4583,7 +4591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 1736,
+          "sen": 1721,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4591,7 +4599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 1741,
+          "sen": 1726,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4599,7 +4607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 1747,
+          "sen": 1732,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4607,7 +4615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 1764,
+          "sen": 1749,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4615,7 +4623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 1777,
+          "sen": 1762,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "CPT",
@@ -4625,7 +4633,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 399,
+          "sen": 394,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4633,7 +4641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 509,
+          "sen": 503,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4641,7 +4649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 736,
+          "sen": 729,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4649,7 +4657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 922,
+          "sen": 913,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4657,7 +4665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 1021,
+          "sen": 1009,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4665,7 +4673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 1038,
+          "sen": 1025,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4673,7 +4681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 1052,
+          "sen": 1039,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4681,7 +4689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 1102,
+          "sen": 1089,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4689,7 +4697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 1119,
+          "sen": 1106,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4697,7 +4705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 1122,
+          "sen": 1109,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4705,7 +4713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 1223,
+          "sen": 1210,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4713,7 +4721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 1258,
+          "sen": 1245,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4721,7 +4729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1379,
+          "sen": 1366,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4729,7 +4737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1427,
+          "sen": 1414,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4737,7 +4745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1432,
+          "sen": 1419,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4745,7 +4753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1438,
+          "sen": 1425,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4753,7 +4761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1455,
+          "sen": 1442,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4761,7 +4769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1493,
+          "sen": 1480,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4769,7 +4777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1517,
+          "sen": 1504,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4777,7 +4785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1527,
+          "sen": 1514,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4785,7 +4793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1529,
+          "sen": 1516,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4793,7 +4801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1611,
+          "sen": 1597,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4801,7 +4809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1631,
+          "sen": 1617,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4809,7 +4817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1640,
+          "sen": 1626,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4817,7 +4825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1647,
+          "sen": 1633,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4825,7 +4833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1664,
+          "sen": 1650,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4833,7 +4841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 1673,
+          "sen": 1659,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4841,7 +4849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 1681,
+          "sen": 1667,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4849,7 +4857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 1695,
+          "sen": 1704,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4857,7 +4865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 1719,
+          "sen": 1707,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4865,7 +4873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 1722,
+          "sen": 1724,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4873,7 +4881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 1739,
+          "sen": 1738,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4881,7 +4889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 1753,
+          "sen": 1739,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4889,7 +4897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 1754,
+          "sen": 1740,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4897,7 +4905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 1755,
+          "sen": 1750,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4905,7 +4913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 1765,
+          "sen": 1754,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4913,7 +4921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 1769,
+          "sen": 1758,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4921,7 +4929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 1773,
+          "sen": 1764,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4929,7 +4937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 1779,
+          "sen": 1767,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4937,7 +4945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 1782,
+          "sen": 1770,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4945,7 +4953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 1785,
+          "sen": 1783,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4953,7 +4961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 1798,
+          "sen": 1795,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4961,7 +4969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 1810,
+          "sen": 1798,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4969,7 +4977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 1813,
+          "sen": 1803,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4977,7 +4985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 1818,
+          "sen": 1804,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4985,7 +4993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 1819,
+          "sen": 1805,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -4993,7 +5001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 1820,
+          "sen": 1823,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5001,7 +5009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 1838,
+          "sen": 1864,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5009,7 +5017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 1879,
+          "sen": 1873,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5017,7 +5025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 1888,
+          "sen": 1875,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5025,7 +5033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1890,
+          "sen": 1876,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5033,7 +5041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1891,
+          "sen": 1878,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5041,7 +5049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1893,
+          "sen": 1881,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5049,7 +5057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1896,
+          "sen": 1884,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5057,7 +5065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 1899,
+          "sen": 1888,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5065,7 +5073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 1903,
+          "sen": 1890,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5073,7 +5081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 1905,
+          "sen": 1891,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5081,7 +5089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 1906,
+          "sen": 1908,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5089,7 +5097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 1923,
+          "sen": 1922,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5097,7 +5105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 1937,
+          "sen": 1923,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5105,7 +5113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 1938,
+          "sen": 1942,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5113,7 +5121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 1957,
+          "sen": 1943,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5121,7 +5129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 1958,
+          "sen": 1963,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5129,7 +5137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 1978,
+          "sen": 1964,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5137,7 +5145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 1979,
+          "sen": 1980,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5145,7 +5153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 1995,
+          "sen": 1982,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5153,7 +5161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 1997,
+          "sen": 1983,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5161,7 +5169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 1998,
+          "sen": 1986,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5169,7 +5177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 2001,
+          "sen": 2002,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5177,7 +5185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 2017,
+          "sen": 2004,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5185,7 +5193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 2019,
+          "sen": 2009,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5193,7 +5201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 2024,
+          "sen": 2011,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5201,7 +5209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 2026,
+          "sen": 2033,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5209,7 +5217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 2048,
+          "sen": 2036,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5217,7 +5225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 2051,
+          "sen": 2039,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5225,7 +5233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 2054,
+          "sen": 2048,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5241,7 +5249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 2078,
+          "sen": 2083,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5249,7 +5257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 2098,
+          "sen": 2084,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5257,7 +5265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 2099,
+          "sen": 2094,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5265,7 +5273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 2109,
+          "sen": 2098,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5273,7 +5281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 2113,
+          "sen": 2101,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5281,7 +5289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 2116,
+          "sen": 2102,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5289,7 +5297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 2117,
+          "sen": 2114,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5297,7 +5305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 2129,
+          "sen": 2127,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5305,7 +5313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 2142,
+          "sen": 2147,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5313,7 +5321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 2162,
+          "sen": 2159,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5321,7 +5329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 2174,
+          "sen": 2160,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5329,7 +5337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 2175,
+          "sen": 2187,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5337,7 +5345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 2202,
+          "sen": 2190,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5345,7 +5353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2205,
+          "sen": 2197,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5353,7 +5361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 2212,
+          "sen": 2213,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5361,7 +5369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 2228,
+          "sen": 2231,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5369,7 +5377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 2246,
+          "sen": 2235,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5377,7 +5385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 2250,
+          "sen": 2238,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5385,7 +5393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 2253,
+          "sen": 2240,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5393,7 +5401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 2255,
+          "sen": 2244,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5401,7 +5409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 2259,
+          "sen": 2251,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5409,7 +5417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 2266,
+          "sen": 2261,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5417,7 +5425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 2276,
+          "sen": 2263,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5425,7 +5433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 2279,
+          "sen": 2267,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5433,7 +5441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 2283,
+          "sen": 2282,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5441,7 +5449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 2298,
+          "sen": 2283,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5449,7 +5457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 2299,
+          "sen": 2296,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5457,7 +5465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 2312,
+          "sen": 2310,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5465,7 +5473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 2326,
+          "sen": 2311,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5473,7 +5481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 2327,
+          "sen": 2313,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5481,7 +5489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 2329,
+          "sen": 2323,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5489,7 +5497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 2339,
+          "sen": 2325,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5497,7 +5505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 2341,
+          "sen": 2329,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5505,7 +5513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 2345,
+          "sen": 2330,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5513,7 +5521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 2346,
+          "sen": 2340,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5521,7 +5529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 2356,
+          "sen": 2341,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5529,7 +5537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 2357,
+          "sen": 2361,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5537,7 +5545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 2377,
+          "sen": 2362,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5545,7 +5553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 2378,
+          "sen": 2364,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5553,7 +5561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 2380,
+          "sen": 2366,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5561,7 +5569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 2382,
+          "sen": 2371,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5569,7 +5577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 2387,
+          "sen": 2376,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5577,7 +5585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 2392,
+          "sen": 2383,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5585,7 +5593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 2399,
+          "sen": 2385,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5593,7 +5601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 2401,
+          "sen": 2388,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5601,7 +5609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 2404,
+          "sen": 2390,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5609,7 +5617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 2406,
+          "sen": 2394,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5617,7 +5625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 2410,
+          "sen": 2405,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5625,7 +5633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 2421,
+          "sen": 2412,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5633,7 +5641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 2428,
+          "sen": 2413,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5641,7 +5649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 2429,
+          "sen": 2414,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5649,7 +5657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 2430,
+          "sen": 2415,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5657,7 +5665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 2431,
+          "sen": 2433,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5665,7 +5673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 2449,
+          "sen": 2434,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5673,7 +5681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 2450,
+          "sen": 2437,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5681,7 +5689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 2453,
+          "sen": 2438,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5689,7 +5697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 2454,
+          "sen": 2440,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5697,7 +5705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 2456,
+          "sen": 2441,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5705,7 +5713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 2457,
+          "sen": 2442,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5713,7 +5721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 2458,
+          "sen": 2447,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5721,7 +5729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 2463,
+          "sen": 2459,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5729,7 +5737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 2475,
+          "sen": 2462,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5737,7 +5745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 2478,
+          "sen": 2465,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5745,7 +5753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 2481,
+          "sen": 2473,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5753,7 +5761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 2489,
+          "sen": 2482,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5761,7 +5769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 2496,
+          "sen": 2488,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5769,7 +5777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 2498,
+          "sen": 2490,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5777,7 +5785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 2504,
+          "sen": 2494,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5785,7 +5793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 2506,
+          "sen": 2495,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5793,7 +5801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 2510,
+          "sen": 2496,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5801,7 +5809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 2511,
+          "sen": 2497,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5809,7 +5817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 2512,
+          "sen": 2507,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5817,7 +5825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 2513,
+          "sen": 2511,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5825,7 +5833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 2523,
+          "sen": 2517,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5833,7 +5841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 2527,
+          "sen": 2518,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5841,7 +5849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 2533,
+          "sen": 2519,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5849,7 +5857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 2534,
+          "sen": 2522,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5857,7 +5865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 2535,
+          "sen": 2530,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5865,7 +5873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 2538,
+          "sen": 2535,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5873,7 +5881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 2546,
+          "sen": 2540,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5881,7 +5889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 2551,
+          "sen": 2561,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5889,7 +5897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 2556,
+          "sen": 2562,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5897,7 +5905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 2577,
+          "sen": 2564,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5905,7 +5913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 2578,
+          "sen": 2565,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5913,7 +5921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 2580,
+          "sen": 2567,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5921,7 +5929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 2581,
+          "sen": 2569,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5929,7 +5937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 2583,
+          "sen": 2571,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5937,7 +5945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 2585,
+          "sen": 2572,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5945,7 +5953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 2587,
+          "sen": 2577,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5953,7 +5961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 2588,
+          "sen": 2578,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5961,7 +5969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 2593,
+          "sen": 2580,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5969,7 +5977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 2594,
+          "sen": 2581,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5977,7 +5985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 2596,
+          "sen": 2582,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5985,7 +5993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 2597,
+          "sen": 2589,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -5993,7 +6001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 2598,
+          "sen": 2591,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6001,7 +6009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 2605,
+          "sen": 2592,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6009,7 +6017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 2607,
+          "sen": 2594,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6017,7 +6025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 2608,
+          "sen": 2596,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6025,7 +6033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 2610,
+          "sen": 2597,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6033,7 +6041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 2612,
+          "sen": 2602,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6041,7 +6049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 2613,
+          "sen": 2603,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6049,7 +6057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 2615,
+          "sen": 2604,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6081,7 +6089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 2634,
+          "sen": 2621,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6089,7 +6097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 2635,
+          "sen": 2622,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6097,7 +6105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 2636,
+          "sen": 2625,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6105,7 +6113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 2637,
+          "sen": 2626,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6113,7 +6121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 2638,
+          "sen": 2627,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6121,7 +6129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 2640,
+          "sen": 2628,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6129,7 +6137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 2641,
+          "sen": 2629,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6137,7 +6145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 2642,
+          "sen": 2631,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6145,7 +6153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 2643,
+          "sen": 2632,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6153,7 +6161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 2644,
+          "sen": 2636,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6161,22 +6169,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 2645,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 194,
-          "sen": 2647,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 195,
           "sen": 2648,
           "dom": "ANC",
           "eqp": "74Y",
@@ -6184,7 +6176,15 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 196,
+          "pos": 194,
+          "sen": 2651,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 195,
           "sen": 2652,
           "dom": "ANC",
           "eqp": "74Y",
@@ -6192,8 +6192,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 196,
+          "sen": 2655,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
           "pos": 197,
-          "sen": 2664,
+          "sen": 2656,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6201,7 +6209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 2667,
+          "sen": 2658,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6209,7 +6217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 2668,
+          "sen": 2659,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6217,7 +6225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 2671,
+          "sen": 2660,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6225,7 +6233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 2672,
+          "sen": 2661,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6233,7 +6241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 2674,
+          "sen": 2662,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6241,7 +6249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 2675,
+          "sen": 2693,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6249,7 +6257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 2676,
+          "sen": 2695,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6257,7 +6265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 2677,
+          "sen": 2699,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6265,7 +6273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 2678,
+          "sen": 2701,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6273,7 +6281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 2709,
+          "sen": 2704,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6281,7 +6289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 2711,
+          "sen": 2705,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6289,7 +6297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 2715,
+          "sen": 2706,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6297,7 +6305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 2717,
+          "sen": 2729,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6305,7 +6313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 2720,
+          "sen": 2731,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6313,7 +6321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 2721,
+          "sen": 2732,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6321,7 +6329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 2722,
+          "sen": 2733,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6329,7 +6337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 2745,
+          "sen": 2735,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6337,7 +6345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 2747,
+          "sen": 2736,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6345,7 +6353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 2748,
+          "sen": 2738,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6353,7 +6361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 2749,
+          "sen": 2740,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6361,7 +6369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 2751,
+          "sen": 2743,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6369,7 +6377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 2752,
+          "sen": 2770,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6377,7 +6385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 2753,
+          "sen": 2775,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6385,7 +6393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 2755,
+          "sen": 2776,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6393,7 +6401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 2758,
+          "sen": 2777,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6401,7 +6409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 2761,
+          "sen": 2779,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6409,7 +6417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 2788,
+          "sen": 2780,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6417,7 +6425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 2793,
+          "sen": 2785,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6425,7 +6433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 2794,
+          "sen": 2786,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6433,7 +6441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 2795,
+          "sen": 2807,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6441,7 +6449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 2797,
+          "sen": 2809,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6449,7 +6457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 2798,
+          "sen": 2810,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6457,7 +6465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 2803,
+          "sen": 2811,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6465,7 +6473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 2804,
+          "sen": 2812,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6473,7 +6481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 2825,
+          "sen": 2813,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6481,7 +6489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 2827,
+          "sen": 2814,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6489,7 +6497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 2828,
+          "sen": 2815,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6497,7 +6505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 2829,
+          "sen": 2818,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6505,7 +6513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 2830,
+          "sen": 2843,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6513,7 +6521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 2831,
+          "sen": 2844,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6521,7 +6529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 2832,
+          "sen": 2846,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6529,7 +6537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 2833,
+          "sen": 2847,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6537,7 +6545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 2836,
+          "sen": 2848,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6545,7 +6553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 2861,
+          "sen": 2849,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6553,7 +6561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 2862,
+          "sen": 2850,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6561,7 +6569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 2865,
+          "sen": 2852,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6569,7 +6577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 244,
-          "sen": 2866,
+          "sen": 2853,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6577,7 +6585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 245,
-          "sen": 2867,
+          "sen": 2854,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6585,7 +6593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 246,
-          "sen": 2868,
+          "sen": 2855,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6593,7 +6601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 247,
-          "sen": 2870,
+          "sen": 2856,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6601,7 +6609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 248,
-          "sen": 2871,
+          "sen": 2866,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6609,7 +6617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 249,
-          "sen": 2872,
+          "sen": 2885,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6617,7 +6625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 250,
-          "sen": 2873,
+          "sen": 2889,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6625,7 +6633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 251,
-          "sen": 2874,
+          "sen": 2890,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6633,7 +6641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 252,
-          "sen": 2884,
+          "sen": 2891,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6641,7 +6649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 253,
-          "sen": 2903,
+          "sen": 2892,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6649,7 +6657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 254,
-          "sen": 2907,
+          "sen": 2893,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6657,7 +6665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 255,
-          "sen": 2908,
+          "sen": 2896,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6665,7 +6673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 256,
-          "sen": 2909,
+          "sen": 2897,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6673,7 +6681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 257,
-          "sen": 2910,
+          "sen": 2898,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6681,7 +6689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 258,
-          "sen": 2911,
+          "sen": 2899,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6689,7 +6697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 259,
-          "sen": 2914,
+          "sen": 2927,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6697,7 +6705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 260,
-          "sen": 2915,
+          "sen": 2928,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6705,7 +6713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 261,
-          "sen": 2916,
+          "sen": 2929,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6713,7 +6721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 262,
-          "sen": 2917,
+          "sen": 2931,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6721,7 +6729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 263,
-          "sen": 2945,
+          "sen": 2933,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6729,7 +6737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 264,
-          "sen": 2946,
+          "sen": 2936,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6737,7 +6745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 265,
-          "sen": 2947,
+          "sen": 2948,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6745,22 +6753,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 266,
-          "sen": 2949,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 267,
-          "sen": 2951,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 268,
           "sen": 2954,
           "dom": "ANC",
           "eqp": "74Y",
@@ -6768,7 +6760,15 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
-          "pos": 269,
+          "pos": 267,
+          "sen": 2964,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 268,
           "sen": 2966,
           "dom": "ANC",
           "eqp": "74Y",
@@ -6776,8 +6776,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 269,
+          "sen": 2967,
+          "dom": "ANC",
+          "eqp": "74Y",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
           "pos": 270,
-          "sen": 2972,
+          "sen": 2968,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6785,7 +6793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 271,
-          "sen": 2982,
+          "sen": 2969,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6793,7 +6801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 272,
-          "sen": 2984,
+          "sen": 2986,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6801,7 +6809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 273,
-          "sen": 2985,
+          "sen": 2987,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6809,7 +6817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 274,
-          "sen": 3004,
+          "sen": 2988,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6817,7 +6825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 275,
-          "sen": 3005,
+          "sen": 2989,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6825,7 +6833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 276,
-          "sen": 3006,
+          "sen": 2995,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6833,7 +6841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 277,
-          "sen": 3007,
+          "sen": 2996,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6841,7 +6849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 278,
-          "sen": 3013,
+          "sen": 2997,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6849,7 +6857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 279,
-          "sen": 3014,
+          "sen": 2998,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6857,7 +6865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 280,
-          "sen": 3015,
+          "sen": 2999,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6865,7 +6873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 281,
-          "sen": 3016,
+          "sen": 3000,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6873,7 +6881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 282,
-          "sen": 3017,
+          "sen": 3001,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6881,7 +6889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 283,
-          "sen": 3018,
+          "sen": 3021,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6889,7 +6897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 284,
-          "sen": 3019,
+          "sen": 3022,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6897,7 +6905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 285,
-          "sen": 3039,
+          "sen": 3024,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6905,7 +6913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 286,
-          "sen": 3040,
+          "sen": 3025,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6913,7 +6921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 287,
-          "sen": 3071,
+          "sen": 3053,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6921,7 +6929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 288,
-          "sen": 3072,
+          "sen": 3054,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6929,7 +6937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 289,
-          "sen": 3073,
+          "sen": 3055,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6937,7 +6945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 290,
-          "sen": 3074,
+          "sen": 3056,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6945,7 +6953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 291,
-          "sen": 3077,
+          "sen": 3059,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6953,7 +6961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 292,
-          "sen": 3104,
+          "sen": 3083,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6961,7 +6969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 293,
-          "sen": 3107,
+          "sen": 3086,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6969,7 +6977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 294,
-          "sen": 3108,
+          "sen": 3089,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6977,7 +6985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 295,
-          "sen": 3109,
+          "sen": 3090,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6985,7 +6993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 296,
-          "sen": 3110,
+          "sen": 3091,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -6993,7 +7001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 297,
-          "sen": 3113,
+          "sen": 3092,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7001,7 +7009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 298,
-          "sen": 3114,
+          "sen": 3095,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7009,7 +7017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 299,
-          "sen": 3115,
+          "sen": 3096,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7017,7 +7025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 300,
-          "sen": 3171,
+          "sen": 3097,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7025,7 +7033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 301,
-          "sen": 3172,
+          "sen": 3153,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7033,7 +7041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 302,
-          "sen": 3174,
+          "sen": 3154,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7041,7 +7049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 303,
-          "sen": 3177,
+          "sen": 3156,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7049,7 +7057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 304,
-          "sen": 3188,
+          "sen": 3159,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7057,7 +7065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 305,
-          "sen": 3189,
+          "sen": 3170,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7065,7 +7073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 306,
-          "sen": 3214,
+          "sen": 3171,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7073,7 +7081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 307,
-          "sen": 3215,
+          "sen": 3196,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7081,7 +7089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 308,
-          "sen": 3217,
+          "sen": 3197,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7089,7 +7097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 309,
-          "sen": 3237,
+          "sen": 3199,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7097,7 +7105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 310,
-          "sen": 3241,
+          "sen": 3218,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7105,7 +7113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 311,
-          "sen": 3242,
+          "sen": 3222,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7113,7 +7121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 312,
-          "sen": 3244,
+          "sen": 3223,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7121,7 +7129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 313,
-          "sen": 3245,
+          "sen": 3225,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7129,7 +7137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 314,
-          "sen": 3246,
+          "sen": 3226,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7137,7 +7145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 315,
-          "sen": 3247,
+          "sen": 3227,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7145,7 +7153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 316,
-          "sen": 3248,
+          "sen": 3228,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7153,7 +7161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 317,
-          "sen": 3249,
+          "sen": 3229,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7161,7 +7169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 318,
-          "sen": 3250,
+          "sen": 3230,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7169,7 +7177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 319,
-          "sen": 3251,
+          "sen": 3231,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7177,7 +7185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 320,
-          "sen": 3252,
+          "sen": 3232,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7185,7 +7193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 321,
-          "sen": 3253,
+          "sen": 3233,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7193,7 +7201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 322,
-          "sen": 3254,
+          "sen": 3234,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7201,7 +7209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 323,
-          "sen": 3255,
+          "sen": 3235,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7209,7 +7217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 324,
-          "sen": 3256,
+          "sen": 3236,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7217,7 +7225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 325,
-          "sen": 3257,
+          "sen": 3237,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7225,7 +7233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 326,
-          "sen": 3258,
+          "sen": 3238,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7233,7 +7241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 327,
-          "sen": 3259,
+          "sen": 3239,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7241,7 +7249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 328,
-          "sen": 3260,
+          "sen": 3240,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7249,7 +7257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 329,
-          "sen": 3274,
+          "sen": 3241,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7257,7 +7265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 330,
-          "sen": 3276,
+          "sen": 3255,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7265,7 +7273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 331,
-          "sen": 3286,
+          "sen": 3257,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7273,7 +7281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 332,
-          "sen": 3288,
+          "sen": 3267,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7281,7 +7289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 333,
-          "sen": 3292,
+          "sen": 3269,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7289,7 +7297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 334,
-          "sen": 3293,
+          "sen": 3273,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7297,7 +7305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 335,
-          "sen": 3294,
+          "sen": 3274,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7305,7 +7313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 336,
-          "sen": 3295,
+          "sen": 3275,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7313,7 +7321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 337,
-          "sen": 3296,
+          "sen": 3276,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7321,7 +7329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 338,
-          "sen": 3297,
+          "sen": 3277,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7329,7 +7337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 339,
-          "sen": 3298,
+          "sen": 3278,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7337,7 +7345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 340,
-          "sen": 3311,
+          "sen": 3279,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7345,7 +7353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 341,
-          "sen": 3314,
+          "sen": 3292,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7353,7 +7361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 342,
-          "sen": 3315,
+          "sen": 3295,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7361,7 +7369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 343,
-          "sen": 3316,
+          "sen": 3296,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7369,7 +7377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 344,
-          "sen": 3317,
+          "sen": 3297,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7377,7 +7385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 345,
-          "sen": 3318,
+          "sen": 3298,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7385,7 +7393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 346,
-          "sen": 3319,
+          "sen": 3299,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7393,7 +7401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 347,
-          "sen": 3337,
+          "sen": 3300,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7401,7 +7409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 348,
-          "sen": 3338,
+          "sen": 3318,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7409,7 +7417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 349,
-          "sen": 3339,
+          "sen": 3319,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7417,7 +7425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 350,
-          "sen": 3340,
+          "sen": 3320,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7425,7 +7433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 351,
-          "sen": 3346,
+          "sen": 3321,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7433,7 +7441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 352,
-          "sen": 3347,
+          "sen": 3327,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7441,7 +7449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 353,
-          "sen": 3348,
+          "sen": 3328,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7449,7 +7457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 354,
-          "sen": 3349,
+          "sen": 3329,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7457,7 +7465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 355,
-          "sen": 3351,
+          "sen": 3330,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7465,7 +7473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 356,
-          "sen": 3369,
+          "sen": 3332,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7473,7 +7481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 357,
-          "sen": 3370,
+          "sen": 3350,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7481,7 +7489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 358,
-          "sen": 3371,
+          "sen": 3351,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7489,7 +7497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 359,
-          "sen": 3373,
+          "sen": 3353,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7497,7 +7505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 360,
-          "sen": 3391,
+          "sen": 3371,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7505,7 +7513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 361,
-          "sen": 3392,
+          "sen": 3372,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7513,7 +7521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 362,
-          "sen": 3393,
+          "sen": 3373,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7521,7 +7529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 363,
-          "sen": 3394,
+          "sen": 3374,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7529,7 +7537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 364,
-          "sen": 3395,
+          "sen": 3376,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7537,7 +7545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 365,
-          "sen": 3396,
+          "sen": 3377,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7545,7 +7553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 366,
-          "sen": 3397,
+          "sen": 3394,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7553,31 +7561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 367,
-          "sen": 3414,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 368,
-          "sen": 3415,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 369,
-          "sen": 3416,
-          "dom": "ANC",
-          "eqp": "74Y",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 370,
-          "sen": 3417,
+          "sen": 3397,
           "dom": "ANC",
           "eqp": "74Y",
           "seat": "FO",
@@ -7647,7 +7631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 44,
+          "sen": 54,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7663,7 +7647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 56,
+          "sen": 65,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7687,7 +7671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 68,
+          "sen": 72,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7695,7 +7679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 73,
+          "sen": 79,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7703,7 +7687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 80,
+          "sen": 89,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7711,7 +7695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 90,
+          "sen": 104,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7719,7 +7703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 105,
+          "sen": 112,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7727,7 +7711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 113,
+          "sen": 120,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7735,7 +7719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 121,
+          "sen": 123,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7743,7 +7727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 124,
+          "sen": 129,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7751,7 +7735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 130,
+          "sen": 136,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7759,7 +7743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 137,
+          "sen": 158,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7767,7 +7751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 159,
+          "sen": 164,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7775,7 +7759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 165,
+          "sen": 174,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7799,7 +7783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 177,
+          "sen": 178,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7807,7 +7791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 179,
+          "sen": 182,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7815,7 +7799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 183,
+          "sen": 192,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7823,7 +7807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 194,
+          "sen": 202,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7831,7 +7815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 205,
+          "sen": 204,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7839,7 +7823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 207,
+          "sen": 205,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7847,7 +7831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 208,
+          "sen": 210,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7855,7 +7839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 213,
+          "sen": 216,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7863,7 +7847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 219,
+          "sen": 226,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7871,7 +7855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 229,
+          "sen": 244,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7879,7 +7863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 247,
+          "sen": 249,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7887,7 +7871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 252,
+          "sen": 254,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7895,7 +7879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 257,
+          "sen": 258,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7903,7 +7887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 261,
+          "sen": 259,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7911,7 +7895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 262,
+          "sen": 260,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7919,7 +7903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 263,
+          "sen": 265,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7927,7 +7911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 268,
+          "sen": 266,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7935,7 +7919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 269,
+          "sen": 267,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7943,7 +7927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 270,
+          "sen": 279,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7951,7 +7935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 282,
+          "sen": 283,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7959,7 +7943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 286,
+          "sen": 291,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7967,7 +7951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 294,
+          "sen": 305,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7975,7 +7959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 310,
+          "sen": 306,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7983,7 +7967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 311,
+          "sen": 307,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7991,7 +7975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 312,
+          "sen": 320,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -7999,7 +7983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 325,
+          "sen": 336,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8007,7 +7991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 341,
+          "sen": 347,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8015,7 +7999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 352,
+          "sen": 349,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8023,7 +8007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 354,
+          "sen": 350,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8039,7 +8023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 360,
+          "sen": 362,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8047,7 +8031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 367,
+          "sen": 363,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8055,7 +8039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 368,
+          "sen": 367,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8079,7 +8063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 382,
+          "sen": 379,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8087,7 +8071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 384,
+          "sen": 389,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8095,7 +8079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 394,
+          "sen": 420,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8103,7 +8087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 426,
+          "sen": 422,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8111,7 +8095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 428,
+          "sen": 434,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8119,7 +8103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 440,
+          "sen": 448,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8135,7 +8119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 460,
+          "sen": 458,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8143,7 +8127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 464,
+          "sen": 471,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8151,7 +8135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 477,
+          "sen": 473,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8159,7 +8143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 479,
+          "sen": 476,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8167,7 +8151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 482,
+          "sen": 478,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8175,7 +8159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 484,
+          "sen": 481,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8183,7 +8167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 487,
+          "sen": 485,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8191,7 +8175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 491,
+          "sen": 494,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8199,7 +8183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 500,
+          "sen": 496,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8215,7 +8199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 508,
+          "sen": 511,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8223,7 +8207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 517,
+          "sen": 513,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8231,7 +8215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 519,
+          "sen": 522,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8239,7 +8223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 528,
+          "sen": 523,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8255,7 +8239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 535,
+          "sen": 530,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8263,7 +8247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 536,
+          "sen": 532,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8271,7 +8255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 538,
+          "sen": 535,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8279,7 +8263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 541,
+          "sen": 538,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8287,7 +8271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 544,
+          "sen": 539,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8295,7 +8279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 545,
+          "sen": 543,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8303,7 +8287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 549,
+          "sen": 547,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8311,7 +8295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 553,
+          "sen": 558,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8319,7 +8303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 565,
+          "sen": 561,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8327,7 +8311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 568,
+          "sen": 566,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8335,7 +8319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 573,
+          "sen": 567,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8343,7 +8327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 574,
+          "sen": 568,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8351,7 +8335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 575,
+          "sen": 577,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8359,7 +8343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 584,
+          "sen": 586,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8367,7 +8351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 593,
+          "sen": 587,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8375,7 +8359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 594,
+          "sen": 589,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8391,7 +8375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 603,
+          "sen": 606,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8399,7 +8383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 613,
+          "sen": 607,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8407,7 +8391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 614,
+          "sen": 608,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8415,7 +8399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 615,
+          "sen": 613,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8423,7 +8407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 620,
+          "sen": 614,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8431,7 +8415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 621,
+          "sen": 616,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8439,7 +8423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 623,
+          "sen": 629,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8447,7 +8431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 636,
+          "sen": 630,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8463,7 +8447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 644,
+          "sen": 641,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8471,7 +8455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 648,
+          "sen": 642,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8479,7 +8463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 649,
+          "sen": 644,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8487,7 +8471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 651,
+          "sen": 645,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8495,7 +8479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 652,
+          "sen": 648,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8503,7 +8487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 655,
+          "sen": 661,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8511,7 +8495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 668,
+          "sen": 664,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8519,7 +8503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 671,
+          "sen": 681,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8527,7 +8511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 688,
+          "sen": 691,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8535,7 +8519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 698,
+          "sen": 700,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8543,7 +8527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 707,
+          "sen": 702,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8551,7 +8535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 709,
+          "sen": 706,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8559,7 +8543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 713,
+          "sen": 708,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8567,7 +8551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 715,
+          "sen": 714,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8575,7 +8559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 721,
+          "sen": 715,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8583,7 +8567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 722,
+          "sen": 716,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8591,7 +8575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 723,
+          "sen": 720,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8599,7 +8583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 727,
+          "sen": 722,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8607,7 +8591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 729,
+          "sen": 730,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8615,7 +8599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 737,
+          "sen": 733,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8623,7 +8607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 740,
+          "sen": 734,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8631,7 +8615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 741,
+          "sen": 736,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8639,7 +8623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 743,
+          "sen": 746,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8647,7 +8631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 753,
+          "sen": 748,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8655,7 +8639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 755,
+          "sen": 753,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8663,7 +8647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 761,
+          "sen": 755,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8671,7 +8655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 763,
+          "sen": 759,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8679,7 +8663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 767,
+          "sen": 762,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8687,7 +8671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 770,
+          "sen": 764,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8695,7 +8679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 772,
+          "sen": 770,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8703,7 +8687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 778,
+          "sen": 777,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8711,7 +8695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 785,
+          "sen": 799,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8719,7 +8703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 807,
+          "sen": 802,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8727,7 +8711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 810,
+          "sen": 814,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8735,7 +8719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 822,
+          "sen": 833,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8743,7 +8727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 841,
+          "sen": 834,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8751,7 +8735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 842,
+          "sen": 840,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8759,7 +8743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 848,
+          "sen": 842,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8767,7 +8751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 850,
+          "sen": 845,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8775,7 +8759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 853,
+          "sen": 848,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8783,7 +8767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 856,
+          "sen": 849,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8791,7 +8775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 857,
+          "sen": 850,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8799,7 +8783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 858,
+          "sen": 851,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8807,7 +8791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 859,
+          "sen": 860,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8815,7 +8799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 868,
+          "sen": 864,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8823,7 +8807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 872,
+          "sen": 866,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8831,7 +8815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 874,
+          "sen": 868,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8839,7 +8823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 876,
+          "sen": 878,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8847,7 +8831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 886,
+          "sen": 881,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8855,7 +8839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 887,
+          "sen": 892,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8863,7 +8847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 890,
+          "sen": 893,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8871,7 +8855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 901,
+          "sen": 903,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8879,7 +8863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 902,
+          "sen": 907,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8887,14 +8871,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 912,
-          "dom": "SDF",
-          "eqp": "757",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 164,
           "sen": 916,
           "dom": "SDF",
           "eqp": "757",
@@ -8902,8 +8878,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 164,
+          "sen": 918,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 165,
-          "sen": 925,
+          "sen": 921,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8911,7 +8895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 927,
+          "sen": 935,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8919,7 +8903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 930,
+          "sen": 936,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8927,7 +8911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 944,
+          "sen": 937,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8935,7 +8919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 945,
+          "sen": 942,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8943,7 +8927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 951,
+          "sen": 943,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8951,7 +8935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 952,
+          "sen": 946,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8959,7 +8943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 955,
+          "sen": 947,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8967,7 +8951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 956,
+          "sen": 954,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8975,7 +8959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 963,
+          "sen": 971,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8983,7 +8967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 981,
+          "sen": 974,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8991,7 +8975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 984,
+          "sen": 976,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -8999,7 +8983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 991,
+          "sen": 980,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9007,7 +8991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 993,
+          "sen": 982,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9015,7 +8999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 994,
+          "sen": 983,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9023,7 +9007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 999,
+          "sen": 988,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9031,7 +9015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 1003,
+          "sen": 992,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9039,7 +9023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 1010,
+          "sen": 999,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9047,7 +9031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 1035,
+          "sen": 1022,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9055,7 +9039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 1058,
+          "sen": 1045,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9063,7 +9047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 1059,
+          "sen": 1046,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9071,7 +9055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 1062,
+          "sen": 1049,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9079,7 +9063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 1081,
+          "sen": 1068,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9087,7 +9071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 1093,
+          "sen": 1080,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9095,7 +9079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 1097,
+          "sen": 1084,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9103,7 +9087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 1101,
+          "sen": 1088,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9111,7 +9095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 1106,
+          "sen": 1093,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9119,7 +9103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 1108,
+          "sen": 1095,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9127,7 +9111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 1112,
+          "sen": 1099,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9135,7 +9119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 1116,
+          "sen": 1103,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9143,7 +9127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 1126,
+          "sen": 1113,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9151,7 +9135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 1127,
+          "sen": 1114,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9159,7 +9143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 1134,
+          "sen": 1121,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9167,7 +9151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 1140,
+          "sen": 1127,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9175,7 +9159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 1152,
+          "sen": 1139,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9183,7 +9167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 1157,
+          "sen": 1144,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9191,7 +9175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 1161,
+          "sen": 1148,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9199,7 +9183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 1163,
+          "sen": 1150,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9207,7 +9191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 1170,
+          "sen": 1157,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9215,7 +9199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 1171,
+          "sen": 1158,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9223,7 +9207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 1172,
+          "sen": 1159,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9231,7 +9215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 1175,
+          "sen": 1162,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9239,7 +9223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 1180,
+          "sen": 1167,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9247,7 +9231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 1183,
+          "sen": 1170,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9255,7 +9239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 1186,
+          "sen": 1173,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9263,7 +9247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 1187,
+          "sen": 1174,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9271,7 +9255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 1191,
+          "sen": 1178,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9279,7 +9263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 1194,
+          "sen": 1181,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9287,7 +9271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 1196,
+          "sen": 1183,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9295,7 +9279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 1199,
+          "sen": 1186,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9303,7 +9287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 1209,
+          "sen": 1196,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9311,7 +9295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 1213,
+          "sen": 1200,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9319,7 +9303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 1214,
+          "sen": 1201,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9327,7 +9311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 1216,
+          "sen": 1203,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9335,7 +9319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 1217,
+          "sen": 1204,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9343,7 +9327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 1222,
+          "sen": 1209,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9351,7 +9335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 1228,
+          "sen": 1215,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9359,7 +9343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 1229,
+          "sen": 1216,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9367,7 +9351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 1231,
+          "sen": 1218,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9375,7 +9359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 1235,
+          "sen": 1222,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9383,7 +9367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 1237,
+          "sen": 1224,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9391,7 +9375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 1243,
+          "sen": 1230,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9399,7 +9383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 1245,
+          "sen": 1232,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9407,7 +9391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 1251,
+          "sen": 1238,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9415,7 +9399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 1252,
+          "sen": 1239,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9423,7 +9407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 1253,
+          "sen": 1240,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9431,7 +9415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 1254,
+          "sen": 1241,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9439,7 +9423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 1263,
+          "sen": 1250,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9447,7 +9431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 1265,
+          "sen": 1252,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9455,7 +9439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 1266,
+          "sen": 1253,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9463,7 +9447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 1267,
+          "sen": 1254,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9471,7 +9455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 1270,
+          "sen": 1257,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9479,7 +9463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 1274,
+          "sen": 1261,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9487,7 +9471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 1275,
+          "sen": 1262,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9495,7 +9479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 1277,
+          "sen": 1264,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9503,7 +9487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 1279,
+          "sen": 1266,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9511,7 +9495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 1281,
+          "sen": 1268,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9519,7 +9503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 1283,
+          "sen": 1270,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9527,7 +9511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 1284,
+          "sen": 1271,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9535,7 +9519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 244,
-          "sen": 1285,
+          "sen": 1272,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9543,7 +9527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 245,
-          "sen": 1286,
+          "sen": 1273,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9551,7 +9535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 246,
-          "sen": 1287,
+          "sen": 1274,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9559,7 +9543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 247,
-          "sen": 1291,
+          "sen": 1278,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9567,7 +9551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 248,
-          "sen": 1296,
+          "sen": 1283,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9575,7 +9559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 249,
-          "sen": 1298,
+          "sen": 1285,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9583,7 +9567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 250,
-          "sen": 1301,
+          "sen": 1288,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9591,7 +9575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 251,
-          "sen": 1305,
+          "sen": 1292,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9599,7 +9583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 252,
-          "sen": 1309,
+          "sen": 1295,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9607,7 +9591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 253,
-          "sen": 1311,
+          "sen": 1296,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9615,7 +9599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 254,
-          "sen": 1320,
+          "sen": 1298,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9623,7 +9607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 255,
-          "sen": 1321,
+          "sen": 1307,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9631,7 +9615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 256,
-          "sen": 1322,
+          "sen": 1308,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9639,7 +9623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 257,
-          "sen": 1329,
+          "sen": 1309,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9647,7 +9631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 258,
-          "sen": 1331,
+          "sen": 1316,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9655,7 +9639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 259,
-          "sen": 1335,
+          "sen": 1318,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9663,7 +9647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 260,
-          "sen": 1337,
+          "sen": 1322,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9671,7 +9655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 261,
-          "sen": 1338,
+          "sen": 1324,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9679,7 +9663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 262,
-          "sen": 1339,
+          "sen": 1325,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9687,7 +9671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 263,
-          "sen": 1342,
+          "sen": 1326,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9695,7 +9679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 264,
-          "sen": 1343,
+          "sen": 1329,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9703,7 +9687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 265,
-          "sen": 1345,
+          "sen": 1330,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9711,7 +9695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 266,
-          "sen": 1346,
+          "sen": 1332,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9719,7 +9703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 267,
-          "sen": 1348,
+          "sen": 1333,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9727,7 +9711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 268,
-          "sen": 1350,
+          "sen": 1335,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9735,7 +9719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 269,
-          "sen": 1351,
+          "sen": 1337,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9743,7 +9727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 270,
-          "sen": 1352,
+          "sen": 1338,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9751,7 +9735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 271,
-          "sen": 1358,
+          "sen": 1339,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9759,7 +9743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 272,
-          "sen": 1359,
+          "sen": 1345,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9767,7 +9751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 273,
-          "sen": 1361,
+          "sen": 1346,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9775,7 +9759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 274,
-          "sen": 1362,
+          "sen": 1348,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9783,7 +9767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 275,
-          "sen": 1363,
+          "sen": 1349,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9791,7 +9775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 276,
-          "sen": 1364,
+          "sen": 1350,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9799,7 +9783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 277,
-          "sen": 1367,
+          "sen": 1351,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9807,7 +9791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 278,
-          "sen": 1369,
+          "sen": 1354,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9815,7 +9799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 279,
-          "sen": 1375,
+          "sen": 1356,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9823,7 +9807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 280,
-          "sen": 1377,
+          "sen": 1362,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9831,7 +9815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 281,
-          "sen": 1380,
+          "sen": 1364,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9839,7 +9823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 282,
-          "sen": 1381,
+          "sen": 1367,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9847,7 +9831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 283,
-          "sen": 1382,
+          "sen": 1368,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9855,7 +9839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 284,
-          "sen": 1385,
+          "sen": 1369,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9863,7 +9847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 285,
-          "sen": 1386,
+          "sen": 1372,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9871,7 +9855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 286,
-          "sen": 1397,
+          "sen": 1373,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9879,7 +9863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 287,
-          "sen": 1400,
+          "sen": 1384,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9887,7 +9871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 288,
-          "sen": 1404,
+          "sen": 1387,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9895,7 +9879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 289,
-          "sen": 1407,
+          "sen": 1391,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9903,7 +9887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 290,
-          "sen": 1408,
+          "sen": 1394,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9911,7 +9895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 291,
-          "sen": 1410,
+          "sen": 1395,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9919,7 +9903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 292,
-          "sen": 1412,
+          "sen": 1397,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9927,7 +9911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 293,
-          "sen": 1413,
+          "sen": 1399,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9935,7 +9919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 294,
-          "sen": 1415,
+          "sen": 1400,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9943,7 +9927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 295,
-          "sen": 1420,
+          "sen": 1402,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9951,7 +9935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 296,
-          "sen": 1422,
+          "sen": 1407,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9959,7 +9943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 297,
-          "sen": 1423,
+          "sen": 1409,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9967,7 +9951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 298,
-          "sen": 1424,
+          "sen": 1410,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9975,7 +9959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 299,
-          "sen": 1425,
+          "sen": 1411,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9983,7 +9967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 300,
-          "sen": 1428,
+          "sen": 1412,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9991,7 +9975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 301,
-          "sen": 1429,
+          "sen": 1415,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -9999,7 +9983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 302,
-          "sen": 1433,
+          "sen": 1416,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10007,7 +9991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 303,
-          "sen": 1434,
+          "sen": 1420,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10015,7 +9999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 304,
-          "sen": 1437,
+          "sen": 1421,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10023,7 +10007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 305,
-          "sen": 1440,
+          "sen": 1424,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10031,7 +10015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 306,
-          "sen": 1443,
+          "sen": 1427,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10039,7 +10023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 307,
-          "sen": 1445,
+          "sen": 1430,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10047,7 +10031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 308,
-          "sen": 1446,
+          "sen": 1432,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10055,7 +10039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 309,
-          "sen": 1452,
+          "sen": 1433,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10063,7 +10047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 310,
-          "sen": 1456,
+          "sen": 1439,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10071,7 +10055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 311,
-          "sen": 1459,
+          "sen": 1443,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10079,7 +10063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 312,
-          "sen": 1461,
+          "sen": 1446,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10087,7 +10071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 313,
-          "sen": 1463,
+          "sen": 1448,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10095,7 +10079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 314,
-          "sen": 1478,
+          "sen": 1450,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10103,7 +10087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 315,
-          "sen": 1481,
+          "sen": 1465,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10111,7 +10095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 316,
-          "sen": 1484,
+          "sen": 1468,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10119,7 +10103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 317,
-          "sen": 1487,
+          "sen": 1471,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10127,7 +10111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 318,
-          "sen": 1488,
+          "sen": 1474,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10135,7 +10119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 319,
-          "sen": 1490,
+          "sen": 1475,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10143,7 +10127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 320,
-          "sen": 1499,
+          "sen": 1477,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10151,7 +10135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 321,
-          "sen": 1503,
+          "sen": 1486,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10159,7 +10143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 322,
-          "sen": 1509,
+          "sen": 1490,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10167,7 +10151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 323,
-          "sen": 1511,
+          "sen": 1496,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10175,7 +10159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 324,
-          "sen": 1515,
+          "sen": 1498,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10183,7 +10167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 325,
-          "sen": 1518,
+          "sen": 1502,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10191,7 +10175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 326,
-          "sen": 1521,
+          "sen": 1505,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10199,7 +10183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 327,
-          "sen": 1525,
+          "sen": 1508,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10207,7 +10191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 328,
-          "sen": 1528,
+          "sen": 1512,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10215,7 +10199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 329,
-          "sen": 1530,
+          "sen": 1515,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10223,7 +10207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 330,
-          "sen": 1553,
+          "sen": 1517,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10231,7 +10215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 331,
-          "sen": 1558,
+          "sen": 1540,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10239,7 +10223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 332,
-          "sen": 1560,
+          "sen": 1545,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10247,7 +10231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 333,
-          "sen": 1570,
+          "sen": 1547,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10255,7 +10239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 334,
-          "sen": 1572,
+          "sen": 1557,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10263,7 +10247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 335,
-          "sen": 1575,
+          "sen": 1559,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10271,7 +10255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 336,
-          "sen": 1576,
+          "sen": 1562,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10279,7 +10263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 337,
-          "sen": 1577,
+          "sen": 1563,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10287,7 +10271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 338,
-          "sen": 1579,
+          "sen": 1564,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10295,7 +10279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 339,
-          "sen": 1581,
+          "sen": 1566,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10303,7 +10287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 340,
-          "sen": 1583,
+          "sen": 1568,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10311,7 +10295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 341,
-          "sen": 1585,
+          "sen": 1570,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10319,7 +10303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 342,
-          "sen": 1586,
+          "sen": 1572,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10327,7 +10311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 343,
-          "sen": 1588,
+          "sen": 1573,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10335,7 +10319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 344,
-          "sen": 1598,
+          "sen": 1575,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10343,7 +10327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 345,
-          "sen": 1599,
+          "sen": 1585,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10351,7 +10335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 346,
-          "sen": 1607,
+          "sen": 1586,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10359,7 +10343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 347,
-          "sen": 1609,
+          "sen": 1593,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10367,7 +10351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 348,
-          "sen": 1610,
+          "sen": 1595,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10375,7 +10359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 349,
-          "sen": 1612,
+          "sen": 1596,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10383,7 +10367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 350,
-          "sen": 1613,
+          "sen": 1598,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10391,7 +10375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 351,
-          "sen": 1642,
+          "sen": 1599,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10399,7 +10383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 352,
-          "sen": 1644,
+          "sen": 1628,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10407,7 +10391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 353,
-          "sen": 1648,
+          "sen": 1630,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10415,7 +10399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 354,
-          "sen": 1650,
+          "sen": 1634,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10423,7 +10407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 355,
-          "sen": 1656,
+          "sen": 1636,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10431,7 +10415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 356,
-          "sen": 1657,
+          "sen": 1642,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10439,7 +10423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 357,
-          "sen": 1659,
+          "sen": 1643,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10447,7 +10431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 358,
-          "sen": 1660,
+          "sen": 1645,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10455,7 +10439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 359,
-          "sen": 1668,
+          "sen": 1646,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10463,7 +10447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 360,
-          "sen": 1669,
+          "sen": 1654,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10471,7 +10455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 361,
-          "sen": 1671,
+          "sen": 1655,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10479,7 +10463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 362,
-          "sen": 1676,
+          "sen": 1657,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10487,7 +10471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 363,
-          "sen": 1679,
+          "sen": 1662,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10495,7 +10479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 364,
-          "sen": 1686,
+          "sen": 1665,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10503,7 +10487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 365,
-          "sen": 1689,
+          "sen": 1672,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10511,7 +10495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 366,
-          "sen": 1690,
+          "sen": 1675,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10519,7 +10503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 367,
-          "sen": 1691,
+          "sen": 1676,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10527,7 +10511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 368,
-          "sen": 1696,
+          "sen": 1677,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10535,7 +10519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 369,
-          "sen": 1709,
+          "sen": 1681,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10543,7 +10527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 370,
-          "sen": 1711,
+          "sen": 1694,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10551,7 +10535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 371,
-          "sen": 1713,
+          "sen": 1696,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10559,7 +10543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 372,
-          "sen": 1733,
+          "sen": 1698,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10567,7 +10551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 373,
-          "sen": 1746,
+          "sen": 1708,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10575,7 +10559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 374,
-          "sen": 1757,
+          "sen": 1718,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10583,7 +10567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 375,
-          "sen": 1760,
+          "sen": 1731,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10591,7 +10575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 376,
-          "sen": 1762,
+          "sen": 1742,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10599,7 +10583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 377,
-          "sen": 1763,
+          "sen": 1745,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10607,7 +10591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 378,
-          "sen": 1771,
+          "sen": 1747,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10615,7 +10599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 379,
-          "sen": 1772,
+          "sen": 1748,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10623,7 +10607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 380,
-          "sen": 1774,
+          "sen": 1756,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10631,7 +10615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 381,
-          "sen": 1775,
+          "sen": 1757,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10639,7 +10623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 382,
-          "sen": 1786,
+          "sen": 1759,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10647,7 +10631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 383,
-          "sen": 1788,
+          "sen": 1760,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10655,7 +10639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 384,
-          "sen": 1789,
+          "sen": 1771,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10663,7 +10647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 385,
-          "sen": 1796,
+          "sen": 1773,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10671,7 +10655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 386,
-          "sen": 1800,
+          "sen": 1774,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10679,7 +10663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 387,
-          "sen": 1802,
+          "sen": 1781,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10687,7 +10671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 388,
-          "sen": 1811,
+          "sen": 1785,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10695,7 +10679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 389,
-          "sen": 1812,
+          "sen": 1787,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10703,7 +10687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 390,
-          "sen": 1816,
+          "sen": 1796,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10711,7 +10695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 391,
-          "sen": 1835,
+          "sen": 1797,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10719,7 +10703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 392,
-          "sen": 1848,
+          "sen": 1801,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10727,7 +10711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 393,
-          "sen": 1851,
+          "sen": 1820,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10735,7 +10719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 394,
-          "sen": 1853,
+          "sen": 1833,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10743,7 +10727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 395,
-          "sen": 1855,
+          "sen": 1835,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10751,7 +10735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 396,
-          "sen": 1856,
+          "sen": 1836,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10759,7 +10743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 397,
-          "sen": 1862,
+          "sen": 1838,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10767,7 +10751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 398,
-          "sen": 1863,
+          "sen": 1840,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10775,7 +10759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 399,
-          "sen": 1873,
+          "sen": 1841,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10783,7 +10767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 400,
-          "sen": 1881,
+          "sen": 1847,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10791,7 +10775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 401,
-          "sen": 1883,
+          "sen": 1848,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10799,7 +10783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 402,
-          "sen": 1892,
+          "sen": 1858,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10807,7 +10791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 403,
-          "sen": 1898,
+          "sen": 1866,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10815,7 +10799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 404,
-          "sen": 1907,
+          "sen": 1868,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10823,7 +10807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 405,
-          "sen": 1912,
+          "sen": 1877,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10831,7 +10815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 406,
-          "sen": 1927,
+          "sen": 1883,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10839,7 +10823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 407,
-          "sen": 1934,
+          "sen": 1892,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10847,7 +10831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 408,
-          "sen": 1939,
+          "sen": 1895,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10855,7 +10839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 409,
-          "sen": 1941,
+          "sen": 1897,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10863,7 +10847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 410,
-          "sen": 1943,
+          "sen": 1912,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10871,7 +10855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 411,
-          "sen": 1949,
+          "sen": 1919,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10879,7 +10863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 412,
-          "sen": 1951,
+          "sen": 1924,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10887,7 +10871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 413,
-          "sen": 1954,
+          "sen": 1926,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10895,7 +10879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 414,
-          "sen": 1955,
+          "sen": 1928,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10903,7 +10887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 415,
-          "sen": 1956,
+          "sen": 1934,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10911,7 +10895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 416,
-          "sen": 1964,
+          "sen": 1936,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10919,7 +10903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 417,
-          "sen": 1966,
+          "sen": 1939,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10927,7 +10911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 418,
-          "sen": 1972,
+          "sen": 1940,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10935,7 +10919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 419,
-          "sen": 1974,
+          "sen": 1941,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10943,7 +10927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 420,
-          "sen": 1988,
+          "sen": 1949,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10951,7 +10935,47 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 421,
-          "sen": 2003,
+          "sen": 1951,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 422,
+          "sen": 1957,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 423,
+          "sen": 1959,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 424,
+          "sen": 1973,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 425,
+          "sen": 1988,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 426,
+          "sen": 2017,
           "dom": "SDF",
           "eqp": "757",
           "seat": "CPT",
@@ -10961,7 +10985,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 315,
+          "sen": 310,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -10969,7 +10993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 319,
+          "sen": 314,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -10977,7 +11001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 366,
+          "sen": 361,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -10985,7 +11009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 388,
+          "sen": 383,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -10993,7 +11017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 401,
+          "sen": 396,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11001,7 +11025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 563,
+          "sen": 556,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11009,7 +11033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 768,
+          "sen": 760,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11017,7 +11041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 829,
+          "sen": 821,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11025,7 +11049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 869,
+          "sen": 861,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11033,7 +11057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 966,
+          "sen": 957,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11041,7 +11065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 971,
+          "sen": 961,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11049,7 +11073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 977,
+          "sen": 967,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11057,7 +11081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1019,
+          "sen": 1007,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11065,7 +11089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1065,
+          "sen": 1052,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11073,7 +11097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1143,
+          "sen": 1130,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11081,7 +11105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1297,
+          "sen": 1284,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11089,7 +11113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1302,
+          "sen": 1289,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11097,7 +11121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1319,
+          "sen": 1306,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11105,7 +11129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1353,
+          "sen": 1340,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11113,7 +11137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1442,
+          "sen": 1429,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11121,7 +11145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1469,
+          "sen": 1456,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11129,7 +11153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1477,
+          "sen": 1464,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11137,7 +11161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1513,
+          "sen": 1500,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11145,7 +11169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1514,
+          "sen": 1501,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11153,7 +11177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1524,
+          "sen": 1511,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11161,7 +11185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1593,
+          "sen": 1580,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11169,7 +11193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 1606,
+          "sen": 1592,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11177,7 +11201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 1617,
+          "sen": 1603,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11185,7 +11209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 1661,
+          "sen": 1647,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11193,7 +11217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 1674,
+          "sen": 1660,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11201,7 +11225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 1677,
+          "sen": 1663,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11209,7 +11233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 1712,
+          "sen": 1697,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11217,7 +11241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 1767,
+          "sen": 1752,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11225,7 +11249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 1780,
+          "sen": 1765,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11233,7 +11257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 1805,
+          "sen": 1790,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11241,7 +11265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 1817,
+          "sen": 1802,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11249,7 +11273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 1821,
+          "sen": 1806,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11257,7 +11281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 1825,
+          "sen": 1810,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11265,7 +11289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 1826,
+          "sen": 1811,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11273,7 +11297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 1829,
+          "sen": 1814,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11281,7 +11305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 1841,
+          "sen": 1826,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11289,7 +11313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 1857,
+          "sen": 1842,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11297,7 +11321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 1859,
+          "sen": 1844,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11305,7 +11329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 1864,
+          "sen": 1849,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11313,7 +11337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 1902,
+          "sen": 1887,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11321,7 +11345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 1913,
+          "sen": 1898,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11329,7 +11353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 1928,
+          "sen": 1913,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11337,7 +11361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 1929,
+          "sen": 1914,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11345,7 +11369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 1944,
+          "sen": 1929,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11353,7 +11377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 1946,
+          "sen": 1931,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11361,7 +11385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1948,
+          "sen": 1933,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11369,7 +11393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1950,
+          "sen": 1935,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11377,7 +11401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1952,
+          "sen": 1937,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11385,7 +11409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1962,
+          "sen": 1947,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11393,7 +11417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 1968,
+          "sen": 1953,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11401,7 +11425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 1970,
+          "sen": 1955,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11409,7 +11433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 1973,
+          "sen": 1958,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11417,7 +11441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 1975,
+          "sen": 1960,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11425,7 +11449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 1985,
+          "sen": 1970,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11433,7 +11457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 1987,
+          "sen": 1972,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11441,7 +11465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 1989,
+          "sen": 1974,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11449,7 +11473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 1990,
+          "sen": 1975,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11457,7 +11481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 1992,
+          "sen": 1977,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11465,7 +11489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 1993,
+          "sen": 1978,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11473,7 +11497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 2006,
+          "sen": 1991,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11481,7 +11505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 2021,
+          "sen": 2006,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11489,7 +11513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 2032,
+          "sen": 2018,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11497,7 +11521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 2033,
+          "sen": 2019,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11505,7 +11529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 2034,
+          "sen": 2020,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11513,7 +11537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 2035,
+          "sen": 2030,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11521,7 +11545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 2045,
+          "sen": 2032,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11529,7 +11553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 2047,
+          "sen": 2037,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11537,7 +11561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 2052,
+          "sen": 2043,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11545,7 +11569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 2058,
+          "sen": 2050,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11553,7 +11577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 2065,
+          "sen": 2052,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11561,7 +11585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 2067,
+          "sen": 2064,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11569,7 +11593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 2079,
+          "sen": 2065,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11577,7 +11601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 2080,
+          "sen": 2066,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11585,7 +11609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 2081,
+          "sen": 2068,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11593,7 +11617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 2083,
+          "sen": 2069,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11601,7 +11625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 2084,
+          "sen": 2074,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11609,7 +11633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 2089,
+          "sen": 2075,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11617,7 +11641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 2090,
+          "sen": 2078,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11625,7 +11649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 2093,
+          "sen": 2088,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11633,7 +11657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 2103,
+          "sen": 2090,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11641,7 +11665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 2105,
+          "sen": 2096,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11649,7 +11673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 2111,
+          "sen": 2097,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11657,7 +11681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 2112,
+          "sen": 2103,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11665,7 +11689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 2118,
+          "sen": 2105,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11673,7 +11697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 2120,
+          "sen": 2106,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11681,7 +11705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2121,
+          "sen": 2108,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11689,7 +11713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 2123,
+          "sen": 2109,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11697,7 +11721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 2124,
+          "sen": 2115,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11705,7 +11729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 2130,
+          "sen": 2118,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11713,7 +11737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 2133,
+          "sen": 2120,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11721,7 +11745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 2135,
+          "sen": 2124,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11729,7 +11753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 2139,
+          "sen": 2125,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11737,7 +11761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 2140,
+          "sen": 2134,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11745,7 +11769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 2149,
+          "sen": 2139,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11753,7 +11777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 2154,
+          "sen": 2140,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11761,7 +11785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 2155,
+          "sen": 2164,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11769,7 +11793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 2179,
+          "sen": 2165,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11777,7 +11801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 2180,
+          "sen": 2170,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11785,7 +11809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 2185,
+          "sen": 2173,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11793,7 +11817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 2188,
+          "sen": 2201,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11801,7 +11825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 2216,
+          "sen": 2206,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11809,7 +11833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 2221,
+          "sen": 2218,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11817,7 +11841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 2233,
+          "sen": 2253,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11825,7 +11849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 2268,
+          "sen": 2255,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11833,7 +11857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 2270,
+          "sen": 2257,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11841,7 +11865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 2285,
+          "sen": 2269,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11849,7 +11873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 2287,
+          "sen": 2271,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11857,7 +11881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 2288,
+          "sen": 2272,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11865,7 +11889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 2289,
+          "sen": 2273,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11873,7 +11897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 2294,
+          "sen": 2278,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11881,7 +11905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 2295,
+          "sen": 2279,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11889,7 +11913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 2296,
+          "sen": 2280,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11897,7 +11921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 2300,
+          "sen": 2284,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11905,7 +11929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 2301,
+          "sen": 2285,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11913,7 +11937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 2308,
+          "sen": 2292,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11921,7 +11945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 2311,
+          "sen": 2295,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11929,7 +11953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 2314,
+          "sen": 2298,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11937,7 +11961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 2324,
+          "sen": 2308,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11945,7 +11969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 2361,
+          "sen": 2345,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11953,7 +11977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 2365,
+          "sen": 2349,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11961,7 +11985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 2376,
+          "sen": 2360,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11969,7 +11993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 2390,
+          "sen": 2374,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11977,7 +12001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 2391,
+          "sen": 2375,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11985,7 +12009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 2408,
+          "sen": 2392,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -11993,7 +12017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 2414,
+          "sen": 2398,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12001,7 +12025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 2415,
+          "sen": 2399,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12009,7 +12033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 2439,
+          "sen": 2423,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12017,7 +12041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 2440,
+          "sen": 2424,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12025,7 +12049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 2443,
+          "sen": 2427,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12033,7 +12057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 2444,
+          "sen": 2428,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12041,7 +12065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 2445,
+          "sen": 2429,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12049,7 +12073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 2460,
+          "sen": 2444,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12057,7 +12081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 2461,
+          "sen": 2445,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12065,7 +12089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 2466,
+          "sen": 2450,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12073,7 +12097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 2468,
+          "sen": 2452,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12081,7 +12105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 2479,
+          "sen": 2463,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12089,7 +12113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 2480,
+          "sen": 2464,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12097,7 +12121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 2483,
+          "sen": 2467,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12105,7 +12129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 2488,
+          "sen": 2472,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12113,7 +12137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 2490,
+          "sen": 2474,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12121,7 +12145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 2494,
+          "sen": 2478,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12129,7 +12153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 2509,
+          "sen": 2493,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12137,7 +12161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 2515,
+          "sen": 2499,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12145,7 +12169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 2516,
+          "sen": 2500,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12153,7 +12177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 2519,
+          "sen": 2503,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12161,7 +12185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 2522,
+          "sen": 2506,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12169,7 +12193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 2532,
+          "sen": 2516,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12177,7 +12201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 2540,
+          "sen": 2524,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12185,7 +12209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 2544,
+          "sen": 2528,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12193,7 +12217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 2563,
+          "sen": 2547,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12201,7 +12225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 2564,
+          "sen": 2548,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12209,7 +12233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 2565,
+          "sen": 2549,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12217,7 +12241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 2572,
+          "sen": 2556,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12225,7 +12249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 2575,
+          "sen": 2559,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12233,7 +12257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 2586,
+          "sen": 2570,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12241,7 +12265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 2591,
+          "sen": 2575,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12249,7 +12273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 2614,
+          "sen": 2598,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12257,7 +12281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 2616,
+          "sen": 2600,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12265,7 +12289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 2621,
+          "sen": 2605,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12273,7 +12297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 2622,
+          "sen": 2606,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12281,7 +12305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 2623,
+          "sen": 2607,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12289,7 +12313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 2655,
+          "sen": 2639,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12297,7 +12321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 2657,
+          "sen": 2641,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12305,7 +12329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 2673,
+          "sen": 2657,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12313,7 +12337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 2680,
+          "sen": 2664,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12321,7 +12345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 2681,
+          "sen": 2665,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12329,7 +12353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 2682,
+          "sen": 2666,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12337,7 +12361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 2687,
+          "sen": 2671,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12345,7 +12369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 2697,
+          "sen": 2681,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12353,7 +12377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 2699,
+          "sen": 2683,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12361,7 +12385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 2701,
+          "sen": 2685,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12369,7 +12393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 2706,
+          "sen": 2690,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12377,7 +12401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 2708,
+          "sen": 2692,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12385,7 +12409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 2712,
+          "sen": 2696,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12393,7 +12417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 2716,
+          "sen": 2700,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12401,7 +12425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 2718,
+          "sen": 2702,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12409,7 +12433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 2719,
+          "sen": 2703,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12417,7 +12441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 2723,
+          "sen": 2707,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12425,7 +12449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 2725,
+          "sen": 2709,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12433,7 +12457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 2727,
+          "sen": 2711,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12441,7 +12465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 2728,
+          "sen": 2712,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12449,7 +12473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 2729,
+          "sen": 2713,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12457,7 +12481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 2731,
+          "sen": 2715,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12465,7 +12489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 2732,
+          "sen": 2716,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12473,7 +12497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 2733,
+          "sen": 2717,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12481,7 +12505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 2735,
+          "sen": 2719,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12489,7 +12513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 2742,
+          "sen": 2726,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12497,7 +12521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 2743,
+          "sen": 2727,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12505,7 +12529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 2750,
+          "sen": 2734,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12513,7 +12537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 2756,
+          "sen": 2739,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12521,7 +12545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 2757,
+          "sen": 2747,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12529,7 +12553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 2765,
+          "sen": 2749,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12537,7 +12561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 2767,
+          "sen": 2751,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12545,7 +12569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 2769,
+          "sen": 2754,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12553,7 +12577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 2772,
+          "sen": 2756,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12561,7 +12585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 2774,
+          "sen": 2757,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12569,7 +12593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 2775,
+          "sen": 2772,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12577,7 +12601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 2790,
+          "sen": 2781,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12585,7 +12609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 2799,
+          "sen": 2784,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12593,7 +12617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 2802,
+          "sen": 2789,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12601,7 +12625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 2807,
+          "sen": 2791,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12609,7 +12633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 2809,
+          "sen": 2792,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12617,7 +12641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 2810,
+          "sen": 2794,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12625,7 +12649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 2813,
+          "sen": 2795,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12633,7 +12657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 2815,
+          "sen": 2797,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12641,7 +12665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 2837,
+          "sen": 2819,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12649,7 +12673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 2838,
+          "sen": 2820,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12657,7 +12681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 2839,
+          "sen": 2821,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12665,7 +12689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 2840,
+          "sen": 2822,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12673,7 +12697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 2845,
+          "sen": 2827,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12681,7 +12705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 2846,
+          "sen": 2828,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12689,7 +12713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 2847,
+          "sen": 2829,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12697,7 +12721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 2849,
+          "sen": 2831,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12705,7 +12729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 2850,
+          "sen": 2832,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12713,7 +12737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 2851,
+          "sen": 2833,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12721,7 +12745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 2852,
+          "sen": 2834,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12729,7 +12753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 2854,
+          "sen": 2836,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12737,7 +12761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 2858,
+          "sen": 2840,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12745,7 +12769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 2875,
+          "sen": 2857,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12753,7 +12777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 2876,
+          "sen": 2858,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12761,7 +12785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 2878,
+          "sen": 2860,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12769,7 +12793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 2882,
+          "sen": 2864,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12777,7 +12801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 2885,
+          "sen": 2867,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12785,7 +12809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 2886,
+          "sen": 2868,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12793,7 +12817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 2887,
+          "sen": 2869,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12801,7 +12825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 2888,
+          "sen": 2870,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12809,7 +12833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 2889,
+          "sen": 2871,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12817,7 +12841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 2890,
+          "sen": 2872,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12825,7 +12849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 2893,
+          "sen": 2875,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12833,7 +12857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 2902,
+          "sen": 2884,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12841,7 +12865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 2912,
+          "sen": 2894,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12849,7 +12873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 2920,
+          "sen": 2902,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12857,7 +12881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 2922,
+          "sen": 2904,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12865,7 +12889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 2924,
+          "sen": 2906,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12873,7 +12897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 2925,
+          "sen": 2907,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12881,7 +12905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 2927,
+          "sen": 2909,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12889,7 +12913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 2928,
+          "sen": 2910,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12897,7 +12921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 2929,
+          "sen": 2911,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12905,7 +12929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 244,
-          "sen": 2930,
+          "sen": 2912,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12913,7 +12937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 245,
-          "sen": 2934,
+          "sen": 2916,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12921,7 +12945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 246,
-          "sen": 2936,
+          "sen": 2918,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12929,7 +12953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 247,
-          "sen": 2952,
+          "sen": 2934,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12937,7 +12961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 248,
-          "sen": 2975,
+          "sen": 2957,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12945,7 +12969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 249,
-          "sen": 2977,
+          "sen": 2960,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12953,7 +12977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 250,
-          "sen": 2978,
+          "sen": 2971,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12961,7 +12985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 251,
-          "sen": 2989,
+          "sen": 2972,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12969,7 +12993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 252,
-          "sen": 2990,
+          "sen": 2973,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12977,7 +13001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 253,
-          "sen": 2991,
+          "sen": 2975,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12985,7 +13009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 254,
-          "sen": 2993,
+          "sen": 2976,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -12993,7 +13017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 255,
-          "sen": 2994,
+          "sen": 2977,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13001,7 +13025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 256,
-          "sen": 2995,
+          "sen": 2978,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13009,7 +13033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 257,
-          "sen": 2996,
+          "sen": 3002,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13017,7 +13041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 258,
-          "sen": 3020,
+          "sen": 3003,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13025,7 +13049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 259,
-          "sen": 3021,
+          "sen": 3004,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13033,7 +13057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 260,
-          "sen": 3022,
+          "sen": 3005,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13041,7 +13065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 261,
-          "sen": 3023,
+          "sen": 3006,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13049,7 +13073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 262,
-          "sen": 3024,
+          "sen": 3014,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13057,7 +13081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 263,
-          "sen": 3032,
+          "sen": 3016,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13065,7 +13089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 264,
-          "sen": 3034,
+          "sen": 3026,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13073,7 +13097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 265,
-          "sen": 3044,
+          "sen": 3029,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13081,7 +13105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 266,
-          "sen": 3047,
+          "sen": 3030,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13089,7 +13113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 267,
-          "sen": 3048,
+          "sen": 3031,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13097,7 +13121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 268,
-          "sen": 3049,
+          "sen": 3032,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13105,7 +13129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 269,
-          "sen": 3050,
+          "sen": 3033,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13113,7 +13137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 270,
-          "sen": 3051,
+          "sen": 3034,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13121,7 +13145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 271,
-          "sen": 3052,
+          "sen": 3035,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13129,7 +13153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 272,
-          "sen": 3053,
+          "sen": 3036,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13137,7 +13161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 273,
-          "sen": 3054,
+          "sen": 3037,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13145,7 +13169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 274,
-          "sen": 3055,
+          "sen": 3038,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13153,7 +13177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 275,
-          "sen": 3056,
+          "sen": 3039,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13161,7 +13185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 276,
-          "sen": 3057,
+          "sen": 3042,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13169,7 +13193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 277,
-          "sen": 3060,
+          "sen": 3043,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13177,7 +13201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 278,
-          "sen": 3061,
+          "sen": 3045,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13185,7 +13209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 279,
-          "sen": 3063,
+          "sen": 3046,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13201,7 +13225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 281,
-          "sen": 3082,
+          "sen": 3065,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13209,7 +13233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 282,
-          "sen": 3083,
+          "sen": 3067,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13217,7 +13241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 283,
-          "sen": 3085,
+          "sen": 3068,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13225,7 +13249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 284,
-          "sen": 3086,
+          "sen": 3070,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13233,7 +13257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 285,
-          "sen": 3088,
+          "sen": 3071,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13241,7 +13265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 286,
-          "sen": 3089,
+          "sen": 3073,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13249,7 +13273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 287,
-          "sen": 3091,
+          "sen": 3078,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13257,7 +13281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 288,
-          "sen": 3096,
+          "sen": 3088,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13265,7 +13289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 289,
-          "sen": 3106,
+          "sen": 3094,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13273,7 +13297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 290,
-          "sen": 3112,
+          "sen": 3100,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13281,7 +13305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 291,
-          "sen": 3118,
+          "sen": 3102,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13289,7 +13313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 292,
-          "sen": 3120,
+          "sen": 3103,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13297,7 +13321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 293,
-          "sen": 3121,
+          "sen": 3104,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13305,7 +13329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 294,
-          "sen": 3122,
+          "sen": 3108,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13313,7 +13337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 295,
-          "sen": 3126,
+          "sen": 3112,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13321,7 +13345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 296,
-          "sen": 3130,
+          "sen": 3113,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13329,7 +13353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 297,
-          "sen": 3131,
+          "sen": 3114,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13337,7 +13361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 298,
-          "sen": 3132,
+          "sen": 3115,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13345,7 +13369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 299,
-          "sen": 3133,
+          "sen": 3116,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13353,7 +13377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 300,
-          "sen": 3134,
+          "sen": 3118,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13361,7 +13385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 301,
-          "sen": 3136,
+          "sen": 3120,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13369,7 +13393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 302,
-          "sen": 3138,
+          "sen": 3122,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13377,7 +13401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 303,
-          "sen": 3140,
+          "sen": 3125,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13385,7 +13409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 304,
-          "sen": 3152,
+          "sen": 3129,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13393,7 +13417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 305,
-          "sen": 3157,
+          "sen": 3130,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13401,7 +13425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 306,
-          "sen": 3158,
+          "sen": 3131,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13409,7 +13433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 307,
-          "sen": 3159,
+          "sen": 3132,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13417,7 +13441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 308,
-          "sen": 3160,
+          "sen": 3133,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13425,7 +13449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 309,
-          "sen": 3161,
+          "sen": 3134,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13433,7 +13457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 310,
-          "sen": 3162,
+          "sen": 3139,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13441,7 +13465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 311,
-          "sen": 3163,
+          "sen": 3140,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13449,7 +13473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 312,
-          "sen": 3165,
+          "sen": 3141,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13457,7 +13481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 313,
-          "sen": 3167,
+          "sen": 3142,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13465,7 +13489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 314,
-          "sen": 3169,
+          "sen": 3143,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13473,7 +13497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 315,
-          "sen": 3170,
+          "sen": 3144,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13481,7 +13505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 316,
-          "sen": 3182,
+          "sen": 3145,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13489,7 +13513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 317,
-          "sen": 3184,
+          "sen": 3147,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13497,7 +13521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 318,
-          "sen": 3185,
+          "sen": 3149,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13505,7 +13529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 319,
-          "sen": 3186,
+          "sen": 3151,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13513,7 +13537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 320,
-          "sen": 3192,
+          "sen": 3152,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13521,7 +13545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 321,
-          "sen": 3195,
+          "sen": 3164,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13529,7 +13553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 322,
-          "sen": 3196,
+          "sen": 3166,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13537,7 +13561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 323,
-          "sen": 3198,
+          "sen": 3167,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13545,7 +13569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 324,
-          "sen": 3200,
+          "sen": 3168,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13553,7 +13577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 325,
-          "sen": 3223,
+          "sen": 3172,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13561,7 +13585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 326,
-          "sen": 3224,
+          "sen": 3173,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13569,7 +13593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 327,
-          "sen": 3226,
+          "sen": 3174,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13577,7 +13601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 328,
-          "sen": 3228,
+          "sen": 3177,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13585,7 +13609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 329,
-          "sen": 3265,
+          "sen": 3178,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13593,7 +13617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 330,
-          "sen": 3270,
+          "sen": 3180,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13601,7 +13625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 331,
-          "sen": 3271,
+          "sen": 3182,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13609,7 +13633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 332,
-          "sen": 3273,
+          "sen": 3198,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13617,7 +13641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 333,
-          "sen": 3281,
+          "sen": 3204,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13625,7 +13649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 334,
-          "sen": 3282,
+          "sen": 3205,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13633,7 +13657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 335,
-          "sen": 3299,
+          "sen": 3206,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13641,7 +13665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 336,
-          "sen": 3301,
+          "sen": 3208,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13649,7 +13673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 337,
-          "sen": 3336,
+          "sen": 3210,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13657,7 +13681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 338,
-          "sen": 3343,
+          "sen": 3219,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13665,7 +13689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 339,
-          "sen": 3344,
+          "sen": 3221,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13673,7 +13697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 340,
-          "sen": 3350,
+          "sen": 3224,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13681,7 +13705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 341,
-          "sen": 3352,
+          "sen": 3246,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13689,7 +13713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 342,
-          "sen": 3355,
+          "sen": 3251,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13697,7 +13721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 343,
-          "sen": 3356,
+          "sen": 3252,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13705,7 +13729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 344,
-          "sen": 3358,
+          "sen": 3254,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13713,7 +13737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 345,
-          "sen": 3359,
+          "sen": 3256,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13721,7 +13745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 346,
-          "sen": 3360,
+          "sen": 3262,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13729,7 +13753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 347,
-          "sen": 3361,
+          "sen": 3263,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13737,7 +13761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 348,
-          "sen": 3362,
+          "sen": 3268,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13745,7 +13769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 349,
-          "sen": 3363,
+          "sen": 3271,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13753,7 +13777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 350,
-          "sen": 3364,
+          "sen": 3272,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13761,7 +13785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 351,
-          "sen": 3366,
+          "sen": 3280,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13769,7 +13793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 352,
-          "sen": 3367,
+          "sen": 3282,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13777,7 +13801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 353,
-          "sen": 3372,
+          "sen": 3293,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13785,7 +13809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 354,
-          "sen": 3378,
+          "sen": 3294,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13793,7 +13817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 355,
-          "sen": 3380,
+          "sen": 3316,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13801,7 +13825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 356,
-          "sen": 3382,
+          "sen": 3317,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13809,7 +13833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 357,
-          "sen": 3383,
+          "sen": 3324,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13817,7 +13841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 358,
-          "sen": 3384,
+          "sen": 3325,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13825,7 +13849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 359,
-          "sen": 3385,
+          "sen": 3331,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13833,7 +13857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 360,
-          "sen": 3386,
+          "sen": 3333,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13841,7 +13865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 361,
-          "sen": 3387,
+          "sen": 3336,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13849,7 +13873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 362,
-          "sen": 3390,
+          "sen": 3337,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13857,7 +13881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 363,
-          "sen": 3398,
+          "sen": 3339,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13865,7 +13889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 364,
-          "sen": 3399,
+          "sen": 3340,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13873,7 +13897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 365,
-          "sen": 3403,
+          "sen": 3341,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13881,7 +13905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 366,
-          "sen": 3404,
+          "sen": 3342,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13889,7 +13913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 367,
-          "sen": 3405,
+          "sen": 3343,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13897,7 +13921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 368,
-          "sen": 3406,
+          "sen": 3344,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13905,7 +13929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 369,
-          "sen": 3407,
+          "sen": 3345,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13913,7 +13937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 370,
-          "sen": 3408,
+          "sen": 3347,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13921,7 +13945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 371,
-          "sen": 3410,
+          "sen": 3348,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13929,7 +13953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 372,
-          "sen": 3411,
+          "sen": 3352,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13937,7 +13961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 373,
-          "sen": 3412,
+          "sen": 3358,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13945,7 +13969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 374,
-          "sen": 3413,
+          "sen": 3360,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13953,7 +13977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 375,
-          "sen": 3421,
+          "sen": 3362,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13961,7 +13985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 376,
-          "sen": 3423,
+          "sen": 3363,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13969,7 +13993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 377,
-          "sen": 3424,
+          "sen": 3364,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13977,7 +14001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 378,
-          "sen": 3425,
+          "sen": 3365,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13985,7 +14009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 379,
-          "sen": 3427,
+          "sen": 3366,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -13993,7 +14017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 380,
-          "sen": 3428,
+          "sen": 3367,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14001,7 +14025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 381,
-          "sen": 3429,
+          "sen": 3370,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14009,7 +14033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 382,
-          "sen": 3430,
+          "sen": 3378,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14017,7 +14041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 383,
-          "sen": 3431,
+          "sen": 3379,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14025,7 +14049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 384,
-          "sen": 3432,
+          "sen": 3383,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14033,7 +14057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 385,
-          "sen": 3436,
+          "sen": 3384,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14041,7 +14065,151 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 386,
-          "sen": 3437,
+          "sen": 3385,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 387,
+          "sen": 3386,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 388,
+          "sen": 3387,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 389,
+          "sen": 3388,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 390,
+          "sen": 3390,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 391,
+          "sen": 3391,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 392,
+          "sen": 3392,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 393,
+          "sen": 3393,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 394,
+          "sen": 3401,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 395,
+          "sen": 3403,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 396,
+          "sen": 3404,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 397,
+          "sen": 3405,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 398,
+          "sen": 3407,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 399,
+          "sen": 3408,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 400,
+          "sen": 3409,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 401,
+          "sen": 3410,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 402,
+          "sen": 3411,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 403,
+          "sen": 3416,
+          "dom": "SDF",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 404,
+          "sen": 3417,
           "dom": "SDF",
           "eqp": "757",
           "seat": "FO",
@@ -14117,7 +14285,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 54,
+          "sen": 53,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14125,7 +14293,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 57,
+          "sen": 56,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14133,7 +14301,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 58,
+          "sen": 57,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14141,7 +14309,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 60,
+          "sen": 59,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14149,7 +14317,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 61,
+          "sen": 60,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14157,7 +14325,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 63,
+          "sen": 62,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14165,7 +14333,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 65,
+          "sen": 64,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14173,7 +14341,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 69,
+          "sen": 68,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14181,7 +14349,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 93,
+          "sen": 92,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14189,7 +14357,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 94,
+          "sen": 93,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14197,7 +14365,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 95,
+          "sen": 94,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14205,7 +14373,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 98,
+          "sen": 97,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14213,7 +14381,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 106,
+          "sen": 105,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14221,7 +14389,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 108,
+          "sen": 107,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14229,7 +14397,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 111,
+          "sen": 110,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14237,7 +14405,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 118,
+          "sen": 117,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14245,7 +14413,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 122,
+          "sen": 121,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14253,7 +14421,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 125,
+          "sen": 124,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14261,7 +14429,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 128,
+          "sen": 127,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14269,7 +14437,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 129,
+          "sen": 128,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14277,7 +14445,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 132,
+          "sen": 131,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14285,7 +14453,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 135,
+          "sen": 134,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14293,7 +14461,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 138,
+          "sen": 137,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14301,7 +14469,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 140,
+          "sen": 139,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14309,7 +14477,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 141,
+          "sen": 140,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14317,7 +14485,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 143,
+          "sen": 142,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14325,7 +14493,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 144,
+          "sen": 143,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14333,7 +14501,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 148,
+          "sen": 147,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14341,7 +14509,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 152,
+          "sen": 151,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14349,7 +14517,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 155,
+          "sen": 154,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14357,7 +14525,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 161,
+          "sen": 160,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14365,7 +14533,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 168,
+          "sen": 167,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14373,7 +14541,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 172,
+          "sen": 171,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14381,7 +14549,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 173,
+          "sen": 172,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14389,7 +14557,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 178,
+          "sen": 177,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14397,7 +14565,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 186,
+          "sen": 185,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14405,7 +14573,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 190,
+          "sen": 189,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14413,7 +14581,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 197,
+          "sen": 195,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14421,7 +14589,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 200,
+          "sen": 198,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14429,7 +14597,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 201,
+          "sen": 199,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14437,7 +14605,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 214,
+          "sen": 211,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14445,7 +14613,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 215,
+          "sen": 212,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14453,7 +14621,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 218,
+          "sen": 215,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14461,7 +14629,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 227,
+          "sen": 224,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14469,7 +14637,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 240,
+          "sen": 237,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14477,7 +14645,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 241,
+          "sen": 238,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14485,7 +14653,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 243,
+          "sen": 240,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14493,7 +14661,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 246,
+          "sen": 243,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14501,7 +14669,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 248,
+          "sen": 245,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14509,7 +14677,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 253,
+          "sen": 250,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14517,7 +14685,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 254,
+          "sen": 251,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14525,7 +14693,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 259,
+          "sen": 256,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14533,7 +14701,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 265,
+          "sen": 262,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14541,7 +14709,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 267,
+          "sen": 264,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14549,7 +14717,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 274,
+          "sen": 271,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14557,7 +14725,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 283,
+          "sen": 280,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14565,7 +14733,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 285,
+          "sen": 282,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14573,7 +14741,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 287,
+          "sen": 284,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14581,7 +14749,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 288,
+          "sen": 285,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14589,7 +14757,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 289,
+          "sen": 286,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14597,7 +14765,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 299,
+          "sen": 295,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14605,7 +14773,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 316,
+          "sen": 311,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14613,7 +14781,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 321,
+          "sen": 316,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14621,7 +14789,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 323,
+          "sen": 318,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14629,7 +14797,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 327,
+          "sen": 322,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14637,7 +14805,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 331,
+          "sen": 326,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14645,7 +14813,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 344,
+          "sen": 339,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14653,7 +14821,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 345,
+          "sen": 340,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14661,7 +14829,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 348,
+          "sen": 343,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14669,7 +14837,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 357,
+          "sen": 352,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14677,7 +14845,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 358,
+          "sen": 353,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14685,7 +14853,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 364,
+          "sen": 359,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14693,7 +14861,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 370,
+          "sen": 365,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14701,7 +14869,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 378,
+          "sen": 373,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14709,7 +14877,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 379,
+          "sen": 374,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14717,7 +14885,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 383,
+          "sen": 378,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14725,7 +14893,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 386,
+          "sen": 381,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14733,7 +14901,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 403,
+          "sen": 398,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14741,7 +14909,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 406,
+          "sen": 401,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14749,7 +14917,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 409,
+          "sen": 404,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14757,7 +14925,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 414,
+          "sen": 409,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14765,7 +14933,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 418,
+          "sen": 412,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14773,7 +14941,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 419,
+          "sen": 413,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14781,7 +14949,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 427,
+          "sen": 421,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14789,7 +14957,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 434,
+          "sen": 428,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14797,7 +14965,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 435,
+          "sen": 429,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14805,7 +14973,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 437,
+          "sen": 431,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14813,7 +14981,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 439,
+          "sen": 433,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14821,7 +14989,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 442,
+          "sen": 436,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14829,7 +14997,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 447,
+          "sen": 441,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14837,7 +15005,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 449,
+          "sen": 443,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14845,7 +15013,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 461,
+          "sen": 455,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14853,7 +15021,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 467,
+          "sen": 461,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14861,7 +15029,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 468,
+          "sen": 462,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14869,7 +15037,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 472,
+          "sen": 466,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14877,7 +15045,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 474,
+          "sen": 468,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14885,7 +15053,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 478,
+          "sen": 472,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14893,7 +15061,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 506,
+          "sen": 500,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14901,7 +15069,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 507,
+          "sen": 501,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14909,7 +15077,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 513,
+          "sen": 507,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14917,7 +15085,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 527,
+          "sen": 521,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14925,7 +15093,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 532,
+          "sen": 526,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14933,7 +15101,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 534,
+          "sen": 528,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14941,7 +15109,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 543,
+          "sen": 537,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14949,7 +15117,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 546,
+          "sen": 540,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14957,7 +15125,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 555,
+          "sen": 549,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14965,7 +15133,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 559,
+          "sen": 553,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14973,7 +15141,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 561,
+          "sen": 573,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14981,7 +15149,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 580,
+          "sen": 574,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14989,7 +15157,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 581,
+          "sen": 576,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -14997,7 +15165,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 583,
+          "sen": 581,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15005,7 +15173,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 588,
+          "sen": 583,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15021,7 +15189,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 597,
+          "sen": 594,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15029,7 +15197,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 601,
+          "sen": 595,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15037,7 +15205,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 602,
+          "sen": 599,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15045,7 +15213,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 606,
+          "sen": 601,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15053,7 +15221,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 608,
+          "sen": 605,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15061,7 +15229,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 612,
+          "sen": 610,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15069,7 +15237,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 617,
+          "sen": 612,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15077,7 +15245,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 619,
+          "sen": 617,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15085,7 +15253,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 624,
+          "sen": 618,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15093,7 +15261,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 625,
+          "sen": 621,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15101,7 +15269,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 628,
+          "sen": 627,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15117,7 +15285,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 641,
+          "sen": 640,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15125,7 +15293,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 647,
+          "sen": 654,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15133,7 +15301,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 661,
+          "sen": 655,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15141,7 +15309,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 662,
+          "sen": 668,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15149,7 +15317,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 675,
+          "sen": 673,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15157,7 +15325,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 680,
+          "sen": 674,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15165,7 +15333,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 681,
+          "sen": 675,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15173,7 +15341,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 682,
+          "sen": 676,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15181,7 +15349,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 683,
+          "sen": 695,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15189,7 +15357,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 702,
+          "sen": 701,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15197,7 +15365,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 708,
+          "sen": 704,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15205,7 +15373,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 711,
+          "sen": 707,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15213,7 +15381,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 714,
+          "sen": 709,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15221,7 +15389,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 716,
+          "sen": 713,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15229,7 +15397,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 720,
+          "sen": 718,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15237,7 +15405,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 725,
+          "sen": 719,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15245,7 +15413,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 726,
+          "sen": 723,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15253,7 +15421,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 730,
+          "sen": 731,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15261,7 +15429,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 738,
+          "sen": 732,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15269,7 +15437,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 739,
+          "sen": 735,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15277,7 +15445,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 742,
+          "sen": 741,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15285,7 +15453,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 748,
+          "sen": 742,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15293,7 +15461,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 749,
+          "sen": 750,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15309,7 +15477,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 765,
+          "sen": 758,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15325,7 +15493,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 774,
+          "sen": 769,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15333,7 +15501,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 777,
+          "sen": 779,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15341,7 +15509,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 787,
+          "sen": 782,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15349,7 +15517,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 790,
+          "sen": 784,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15357,7 +15525,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 792,
+          "sen": 793,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15365,7 +15533,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 801,
+          "sen": 794,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15373,7 +15541,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 802,
+          "sen": 801,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15381,7 +15549,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 809,
+          "sen": 816,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15389,7 +15557,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 824,
+          "sen": 817,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15397,7 +15565,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 825,
+          "sen": 819,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15405,7 +15573,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 827,
+          "sen": 826,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15413,7 +15581,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 834,
+          "sen": 827,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15421,7 +15589,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 835,
+          "sen": 831,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15429,7 +15597,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 839,
+          "sen": 835,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15437,7 +15605,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 843,
+          "sen": 844,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15453,7 +15621,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 862,
+          "sen": 854,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15461,7 +15629,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 867,
+          "sen": 859,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15469,7 +15637,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 871,
+          "sen": 863,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15477,7 +15645,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 880,
+          "sen": 872,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15485,7 +15653,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 881,
+          "sen": 873,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15493,7 +15661,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 882,
+          "sen": 874,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15501,7 +15669,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 888,
+          "sen": 879,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15509,7 +15677,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 889,
+          "sen": 880,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15517,7 +15685,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 898,
+          "sen": 889,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15525,7 +15693,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 908,
+          "sen": 899,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15533,7 +15701,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 921,
+          "sen": 912,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15541,7 +15709,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 923,
+          "sen": 914,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15549,7 +15717,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 939,
+          "sen": 930,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15557,7 +15725,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 948,
+          "sen": 939,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15565,7 +15733,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 961,
+          "sen": 952,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15573,7 +15741,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 970,
+          "sen": 960,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15581,7 +15749,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 995,
+          "sen": 984,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15589,7 +15757,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 1000,
+          "sen": 989,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15597,7 +15765,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 1001,
+          "sen": 990,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15605,7 +15773,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 1004,
+          "sen": 994,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15613,7 +15781,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 1005,
+          "sen": 1002,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15621,7 +15789,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 1014,
+          "sen": 1010,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15629,7 +15797,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 1022,
+          "sen": 1012,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15637,7 +15805,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 1024,
+          "sen": 1027,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15645,7 +15813,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 1040,
+          "sen": 1033,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15653,7 +15821,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 1047,
+          "sen": 1034,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15661,7 +15829,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 1074,
+          "sen": 1061,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15669,7 +15837,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 1091,
+          "sen": 1078,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15677,7 +15845,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 1092,
+          "sen": 1079,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15685,7 +15853,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 1104,
+          "sen": 1091,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15693,7 +15861,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 1107,
+          "sen": 1094,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15701,7 +15869,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 1128,
+          "sen": 1111,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15709,7 +15877,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 1129,
+          "sen": 1115,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15717,7 +15885,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 1131,
+          "sen": 1116,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15725,7 +15893,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 1135,
+          "sen": 1118,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15733,7 +15901,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 1139,
+          "sen": 1122,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15741,7 +15909,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 1149,
+          "sen": 1126,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15749,7 +15917,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 1150,
+          "sen": 1136,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15757,7 +15925,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 1153,
+          "sen": 1137,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15765,7 +15933,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 1160,
+          "sen": 1140,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15773,7 +15941,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 1166,
+          "sen": 1147,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15781,7 +15949,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 1200,
+          "sen": 1153,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15789,7 +15957,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 1230,
+          "sen": 1187,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15797,7 +15965,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 1241,
+          "sen": 1217,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15805,7 +15973,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 1247,
+          "sen": 1223,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15813,7 +15981,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 1248,
+          "sen": 1228,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15821,7 +15989,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 1255,
+          "sen": 1234,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15829,7 +15997,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 1257,
+          "sen": 1235,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15837,7 +16005,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 1261,
+          "sen": 1242,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15845,7 +16013,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 1268,
+          "sen": 1244,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15853,7 +16021,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 1272,
+          "sen": 1248,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15861,7 +16029,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 1280,
+          "sen": 1255,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15869,7 +16037,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 1290,
+          "sen": 1259,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15877,7 +16045,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 1313,
+          "sen": 1267,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15885,7 +16053,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 1314,
+          "sen": 1277,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15893,7 +16061,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 1317,
+          "sen": 1300,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15901,7 +16069,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 1318,
+          "sen": 1301,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15909,7 +16077,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 1323,
+          "sen": 1304,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15917,7 +16085,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 1324,
+          "sen": 1305,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15925,7 +16093,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 1325,
+          "sen": 1310,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15933,7 +16101,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 1327,
+          "sen": 1311,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15941,7 +16109,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 1328,
+          "sen": 1312,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15949,7 +16117,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 1332,
+          "sen": 1314,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15957,7 +16125,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 1344,
+          "sen": 1315,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15965,7 +16133,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 1347,
+          "sen": 1319,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15973,7 +16141,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 1357,
+          "sen": 1331,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15981,7 +16149,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 1366,
+          "sen": 1334,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15989,7 +16157,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 1396,
+          "sen": 1344,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -15997,7 +16165,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 244,
-          "sen": 1398,
+          "sen": 1353,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16005,7 +16173,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 245,
-          "sen": 1405,
+          "sen": 1383,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16013,7 +16181,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 246,
-          "sen": 1411,
+          "sen": 1385,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16021,7 +16189,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 247,
-          "sen": 1419,
+          "sen": 1392,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16029,7 +16197,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 248,
-          "sen": 1441,
+          "sen": 1398,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16037,7 +16205,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 249,
-          "sen": 1504,
+          "sen": 1406,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16045,7 +16213,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 250,
-          "sen": 1505,
+          "sen": 1428,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16053,7 +16221,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 251,
-          "sen": 1508,
+          "sen": 1491,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16061,7 +16229,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 252,
-          "sen": 1510,
+          "sen": 1492,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16069,7 +16237,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 253,
-          "sen": 1522,
+          "sen": 1495,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16077,7 +16245,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 254,
-          "sen": 1535,
+          "sen": 1497,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16085,7 +16253,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 255,
-          "sen": 1569,
+          "sen": 1509,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16093,7 +16261,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 256,
-          "sen": 1574,
+          "sen": 1522,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16101,7 +16269,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 257,
-          "sen": 1604,
+          "sen": 1556,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16109,7 +16277,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 258,
-          "sen": 1618,
+          "sen": 1561,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16117,7 +16285,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 259,
-          "sen": 1624,
+          "sen": 1590,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16125,7 +16293,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 260,
-          "sen": 1634,
+          "sen": 1604,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16133,7 +16301,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 261,
-          "sen": 1636,
+          "sen": 1610,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16141,7 +16309,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 262,
-          "sen": 1638,
+          "sen": 1620,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16149,7 +16317,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 263,
-          "sen": 1687,
+          "sen": 1622,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16157,7 +16325,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 264,
-          "sen": 1702,
+          "sen": 1624,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16165,7 +16333,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 265,
-          "sen": 1705,
+          "sen": 1673,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16173,7 +16341,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 266,
-          "sen": 1743,
+          "sen": 1687,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16181,7 +16349,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 267,
-          "sen": 1745,
+          "sen": 1690,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16189,7 +16357,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 268,
-          "sen": 1756,
+          "sen": 1728,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16197,7 +16365,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 269,
-          "sen": 1791,
+          "sen": 1730,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16205,7 +16373,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 270,
-          "sen": 1792,
+          "sen": 1741,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16213,7 +16381,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 271,
-          "sen": 1797,
+          "sen": 1776,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16221,7 +16389,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 272,
-          "sen": 1799,
+          "sen": 1777,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16229,7 +16397,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 273,
-          "sen": 1803,
+          "sen": 1782,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16237,7 +16405,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 274,
-          "sen": 1804,
+          "sen": 1784,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16245,7 +16413,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 275,
-          "sen": 1806,
+          "sen": 1788,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16253,7 +16421,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 276,
-          "sen": 1807,
+          "sen": 1789,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16261,7 +16429,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 277,
-          "sen": 1808,
+          "sen": 1791,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16269,7 +16437,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 278,
-          "sen": 1809,
+          "sen": 1792,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16277,7 +16445,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 279,
-          "sen": 1815,
+          "sen": 1793,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16285,7 +16453,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 280,
-          "sen": 1828,
+          "sen": 1794,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16293,7 +16461,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 281,
-          "sen": 1832,
+          "sen": 1800,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16301,7 +16469,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 282,
-          "sen": 1833,
+          "sen": 1813,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16309,7 +16477,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 283,
-          "sen": 1842,
+          "sen": 1817,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16317,7 +16485,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 284,
-          "sen": 1843,
+          "sen": 1818,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16325,7 +16493,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 285,
-          "sen": 1914,
+          "sen": 1827,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16333,7 +16501,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 286,
-          "sen": 1915,
+          "sen": 1828,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16341,7 +16509,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 287,
-          "sen": 1924,
+          "sen": 1865,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16349,7 +16517,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 288,
-          "sen": 1925,
+          "sen": 1896,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16357,7 +16525,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 289,
-          "sen": 1926,
+          "sen": 1899,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16365,7 +16533,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 290,
-          "sen": 1930,
+          "sen": 1900,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16373,7 +16541,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 291,
-          "sen": 1959,
+          "sen": 1909,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16381,7 +16549,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 292,
-          "sen": 1969,
+          "sen": 1910,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16389,7 +16557,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 293,
-          "sen": 1996,
+          "sen": 1911,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16397,7 +16565,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 294,
-          "sen": 2012,
+          "sen": 1915,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16405,7 +16573,39 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 295,
-          "sen": 2013,
+          "sen": 1944,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 296,
+          "sen": 1954,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 297,
+          "sen": 1981,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 298,
+          "sen": 1997,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 299,
+          "sen": 1998,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "CPT",
@@ -16415,7 +16615,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 157,
+          "sen": 156,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16423,7 +16623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 182,
+          "sen": 181,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16431,7 +16631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 184,
+          "sen": 183,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16439,7 +16639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 249,
+          "sen": 246,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16447,7 +16647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 423,
+          "sen": 417,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16455,7 +16655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 587,
+          "sen": 580,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16463,7 +16663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 746,
+          "sen": 739,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16471,7 +16671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 789,
+          "sen": 781,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16479,7 +16679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 826,
+          "sen": 818,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16487,7 +16687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 838,
+          "sen": 830,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16495,7 +16695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 844,
+          "sen": 836,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16503,7 +16703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 846,
+          "sen": 838,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16511,7 +16711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 885,
+          "sen": 877,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16519,7 +16719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 905,
+          "sen": 896,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16527,7 +16727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 928,
+          "sen": 919,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16535,7 +16735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1083,
+          "sen": 1070,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16543,7 +16743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1095,
+          "sen": 1082,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16551,7 +16751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1158,
+          "sen": 1145,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16559,7 +16759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1197,
+          "sen": 1184,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16567,7 +16767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1232,
+          "sen": 1219,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16575,7 +16775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1238,
+          "sen": 1225,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16583,7 +16783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1240,
+          "sen": 1227,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16591,7 +16791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1242,
+          "sen": 1229,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16599,7 +16799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1256,
+          "sen": 1243,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16607,7 +16807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1259,
+          "sen": 1246,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16615,7 +16815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1289,
+          "sen": 1276,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16623,7 +16823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 1300,
+          "sen": 1287,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16631,7 +16831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 1340,
+          "sen": 1327,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16639,7 +16839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 1341,
+          "sen": 1328,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16647,7 +16847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 1368,
+          "sen": 1355,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16655,7 +16855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 1384,
+          "sen": 1371,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16663,7 +16863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 1417,
+          "sen": 1404,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16671,7 +16871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 1418,
+          "sen": 1405,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16679,7 +16879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 1430,
+          "sen": 1417,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16687,7 +16887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 1439,
+          "sen": 1426,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16695,7 +16895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 1447,
+          "sen": 1434,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16703,7 +16903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 1450,
+          "sen": 1437,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16711,7 +16911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 1465,
+          "sen": 1452,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16719,7 +16919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 1468,
+          "sen": 1455,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16727,7 +16927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 1482,
+          "sen": 1469,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16735,7 +16935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 1492,
+          "sen": 1479,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16743,7 +16943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 1506,
+          "sen": 1493,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16751,7 +16951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 1526,
+          "sen": 1513,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16759,7 +16959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 1544,
+          "sen": 1531,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16767,7 +16967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 1548,
+          "sen": 1535,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16775,7 +16975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 1554,
+          "sen": 1541,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16783,7 +16983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 1557,
+          "sen": 1544,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16791,7 +16991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 1595,
+          "sen": 1582,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16799,7 +16999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 1600,
+          "sen": 1588,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16807,7 +17007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 1602,
+          "sen": 1589,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16815,7 +17015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1603,
+          "sen": 1591,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16823,7 +17023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1605,
+          "sen": 1614,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16831,7 +17031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1628,
+          "sen": 1623,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16839,7 +17039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1637,
+          "sen": 1627,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16847,7 +17047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 1641,
+          "sen": 1635,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16855,7 +17055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 1649,
+          "sen": 1637,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16863,7 +17063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 1651,
+          "sen": 1638,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16871,7 +17071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 1652,
+          "sen": 1664,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16879,7 +17079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 1678,
+          "sen": 1669,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16887,7 +17087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 1683,
+          "sen": 1682,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16895,7 +17095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 1697,
+          "sen": 1712,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16903,7 +17103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 1727,
+          "sen": 1719,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16911,7 +17111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 1734,
+          "sen": 1725,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16919,7 +17119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 1740,
+          "sen": 1734,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16927,7 +17127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 1749,
+          "sen": 1735,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16935,7 +17135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 1750,
+          "sen": 1753,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16951,7 +17151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 1783,
+          "sen": 1769,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16959,7 +17159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 1784,
+          "sen": 1786,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16967,7 +17167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 1801,
+          "sen": 1807,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16975,7 +17175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 1822,
+          "sen": 1809,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16983,7 +17183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 1824,
+          "sen": 1825,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16991,7 +17191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 1840,
+          "sen": 1834,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -16999,7 +17199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 1849,
+          "sen": 1837,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17007,7 +17207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 1852,
+          "sen": 1839,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17015,7 +17215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 1854,
+          "sen": 1843,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17023,7 +17223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 1858,
+          "sen": 1855,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17031,7 +17231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 1870,
+          "sen": 1885,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17039,7 +17239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 1900,
+          "sen": 1901,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17047,7 +17247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 1916,
+          "sen": 1902,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17055,7 +17255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 1917,
+          "sen": 1907,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17063,7 +17263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 1922,
+          "sen": 1916,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17071,7 +17271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 1931,
+          "sen": 1917,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17079,7 +17279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 1932,
+          "sen": 1930,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17087,7 +17287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 1945,
+          "sen": 1932,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17095,7 +17295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 1947,
+          "sen": 1938,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17103,7 +17303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 1953,
+          "sen": 1950,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17111,7 +17311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 1965,
+          "sen": 1967,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17119,7 +17319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 1982,
+          "sen": 1976,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17127,7 +17327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 1991,
+          "sen": 1992,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17135,7 +17335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2007,
+          "sen": 2001,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17143,7 +17343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 2016,
+          "sen": 2005,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17151,7 +17351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 2020,
+          "sen": 2013,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17159,7 +17359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 2028,
+          "sen": 2014,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17167,7 +17367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 2029,
+          "sen": 2016,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17175,7 +17375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 2031,
+          "sen": 2021,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17183,7 +17383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 2036,
+          "sen": 2022,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17191,7 +17391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 2037,
+          "sen": 2031,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17199,7 +17399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 2046,
+          "sen": 2035,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17207,7 +17407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 2050,
+          "sen": 2041,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17215,7 +17415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 2056,
+          "sen": 2046,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17223,7 +17423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 2061,
+          "sen": 2047,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17231,7 +17431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 2062,
+          "sen": 2051,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17239,7 +17439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 2066,
+          "sen": 2053,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17247,7 +17447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 2068,
+          "sen": 2056,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17255,7 +17455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 2071,
+          "sen": 2058,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17263,7 +17463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 2073,
+          "sen": 2059,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17271,7 +17471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 2074,
+          "sen": 2060,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17279,7 +17479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 2075,
+          "sen": 2061,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17287,7 +17487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 2076,
+          "sen": 2062,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17295,7 +17495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 2077,
+          "sen": 2067,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17303,7 +17503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 2082,
+          "sen": 2077,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17311,7 +17511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 2092,
+          "sen": 2080,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17319,7 +17519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 2095,
+          "sen": 2086,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17327,7 +17527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 2101,
+          "sen": 2093,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17335,7 +17535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 2108,
+          "sen": 2099,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17343,7 +17543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 2114,
+          "sen": 2100,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17351,7 +17551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 2115,
+          "sen": 2104,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17359,7 +17559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 2119,
+          "sen": 2107,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17367,7 +17567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 2122,
+          "sen": 2110,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17375,7 +17575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 2125,
+          "sen": 2117,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17383,7 +17583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 2132,
+          "sen": 2123,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17391,7 +17591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 2138,
+          "sen": 2133,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17399,7 +17599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 2148,
+          "sen": 2137,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17407,7 +17607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 2152,
+          "sen": 2138,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17415,7 +17615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 2153,
+          "sen": 2141,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17423,7 +17623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 2157,
+          "sen": 2142,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17431,7 +17631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 2160,
+          "sen": 2144,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17439,7 +17639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 2161,
+          "sen": 2145,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17447,7 +17647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 2163,
+          "sen": 2146,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17455,7 +17655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 2164,
+          "sen": 2148,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17463,7 +17663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 2166,
+          "sen": 2149,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17471,7 +17671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 2167,
+          "sen": 2151,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17479,7 +17679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 2169,
+          "sen": 2152,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17487,7 +17687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 2170,
+          "sen": 2154,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17495,7 +17695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 2171,
+          "sen": 2155,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17503,7 +17703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 2178,
+          "sen": 2156,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17511,7 +17711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 2182,
+          "sen": 2163,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17519,7 +17719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 2183,
+          "sen": 2167,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17527,7 +17727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 2184,
+          "sen": 2168,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17535,7 +17735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 2187,
+          "sen": 2169,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17543,7 +17743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 2189,
+          "sen": 2172,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17551,7 +17751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 2200,
+          "sen": 2174,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17559,7 +17759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 2201,
+          "sen": 2177,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17567,7 +17767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 2204,
+          "sen": 2179,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17575,7 +17775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 2210,
+          "sen": 2183,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17583,7 +17783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 2211,
+          "sen": 2184,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17591,7 +17791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 2213,
+          "sen": 2185,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17599,7 +17799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 2215,
+          "sen": 2186,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17607,7 +17807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 2217,
+          "sen": 2189,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17615,7 +17815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 2219,
+          "sen": 2195,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17623,7 +17823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 2223,
+          "sen": 2196,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17631,7 +17831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 2229,
+          "sen": 2198,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17639,7 +17839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 2230,
+          "sen": 2200,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17647,7 +17847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 2232,
+          "sen": 2202,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17655,7 +17855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 2234,
+          "sen": 2204,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17663,7 +17863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 2239,
+          "sen": 2208,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17671,7 +17871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 2240,
+          "sen": 2214,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17679,7 +17879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 2241,
+          "sen": 2215,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17687,7 +17887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 2242,
+          "sen": 2217,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17695,7 +17895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 2243,
+          "sen": 2219,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17703,7 +17903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 2244,
+          "sen": 2224,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17711,7 +17911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 2257,
+          "sen": 2225,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17719,7 +17919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 2269,
+          "sen": 2226,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17727,7 +17927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 2271,
+          "sen": 2227,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17735,7 +17935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 2290,
+          "sen": 2228,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17743,7 +17943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 2302,
+          "sen": 2229,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17751,7 +17951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 2304,
+          "sen": 2242,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17759,7 +17959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 2306,
+          "sen": 2250,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17767,7 +17967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 2307,
+          "sen": 2254,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17775,7 +17975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 2310,
+          "sen": 2256,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17783,7 +17983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 2318,
+          "sen": 2274,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17791,7 +17991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 2320,
+          "sen": 2286,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17799,7 +17999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 2330,
+          "sen": 2288,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17807,7 +18007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 2331,
+          "sen": 2290,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17815,7 +18015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 2332,
+          "sen": 2291,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17823,7 +18023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 2343,
+          "sen": 2294,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17831,7 +18031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 2347,
+          "sen": 2302,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17839,7 +18039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 2348,
+          "sen": 2304,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17847,7 +18047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 2349,
+          "sen": 2314,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17855,7 +18055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 2350,
+          "sen": 2315,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17863,7 +18063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 2351,
+          "sen": 2316,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17871,7 +18071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 2352,
+          "sen": 2327,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17879,7 +18079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 2353,
+          "sen": 2331,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17887,7 +18087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 2354,
+          "sen": 2332,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17895,7 +18095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 2367,
+          "sen": 2333,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17903,7 +18103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 2369,
+          "sen": 2334,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17911,7 +18111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 2370,
+          "sen": 2335,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17919,7 +18119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 2373,
+          "sen": 2336,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17927,7 +18127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 2375,
+          "sen": 2337,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17935,7 +18135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 2381,
+          "sen": 2338,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17943,7 +18143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 2394,
+          "sen": 2351,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17951,7 +18151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 2396,
+          "sen": 2353,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17959,7 +18159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 2398,
+          "sen": 2354,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17967,7 +18167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 2400,
+          "sen": 2357,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17975,7 +18175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 2409,
+          "sen": 2359,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17983,7 +18183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 2412,
+          "sen": 2365,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17991,7 +18191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 2422,
+          "sen": 2377,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -17999,7 +18199,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 2423,
+          "sen": 2378,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18007,7 +18207,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 2434,
+          "sen": 2380,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18015,7 +18215,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 2435,
+          "sen": 2382,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18023,7 +18223,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 2436,
+          "sen": 2384,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18031,7 +18231,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 2438,
+          "sen": 2386,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18039,7 +18239,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 2441,
+          "sen": 2393,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18047,7 +18247,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 2442,
+          "sen": 2396,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18055,7 +18255,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 2452,
+          "sen": 2406,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18063,7 +18263,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 2465,
+          "sen": 2407,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18071,7 +18271,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 2484,
+          "sen": 2418,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18079,7 +18279,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 2485,
+          "sen": 2419,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18087,7 +18287,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 2487,
+          "sen": 2420,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18095,7 +18295,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 2503,
+          "sen": 2422,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18103,7 +18303,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 2520,
+          "sen": 2425,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18111,7 +18311,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 2526,
+          "sen": 2426,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18119,7 +18319,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 2529,
+          "sen": 2435,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18127,7 +18327,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 2539,
+          "sen": 2436,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18135,7 +18335,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 2566,
+          "sen": 2449,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18143,7 +18343,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 2570,
+          "sen": 2468,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18151,7 +18351,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 2571,
+          "sen": 2469,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18159,7 +18359,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 2573,
+          "sen": 2471,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18167,7 +18367,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 2576,
+          "sen": 2487,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18175,7 +18375,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 2599,
+          "sen": 2504,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18183,7 +18383,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 2609,
+          "sen": 2510,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18191,7 +18391,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 2625,
+          "sen": 2513,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18199,7 +18399,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 2632,
+          "sen": 2523,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18207,7 +18407,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 2649,
+          "sen": 2550,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18215,7 +18415,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 2651,
+          "sen": 2554,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18223,7 +18423,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 2653,
+          "sen": 2555,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18231,7 +18431,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 2656,
+          "sen": 2557,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18239,7 +18439,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 2663,
+          "sen": 2560,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18247,7 +18447,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 2665,
+          "sen": 2583,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18255,7 +18455,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 2666,
+          "sen": 2593,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18263,7 +18463,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 2686,
+          "sen": 2599,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18271,7 +18471,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 2689,
+          "sen": 2609,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18279,7 +18479,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 2690,
+          "sen": 2616,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18287,7 +18487,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 2691,
+          "sen": 2633,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18295,7 +18495,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 2692,
+          "sen": 2635,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18303,7 +18503,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 2694,
+          "sen": 2637,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18311,7 +18511,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 2695,
+          "sen": 2640,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18319,7 +18519,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 239,
-          "sen": 2700,
+          "sen": 2647,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18327,7 +18527,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 240,
-          "sen": 2713,
+          "sen": 2649,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18335,7 +18535,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 241,
-          "sen": 2724,
+          "sen": 2650,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18343,7 +18543,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 242,
-          "sen": 2736,
+          "sen": 2670,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18351,7 +18551,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 243,
-          "sen": 2744,
+          "sen": 2673,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18359,7 +18559,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 244,
-          "sen": 2746,
+          "sen": 2674,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18367,7 +18567,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 245,
-          "sen": 2764,
+          "sen": 2675,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18375,7 +18575,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 246,
-          "sen": 2766,
+          "sen": 2676,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18383,7 +18583,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 247,
-          "sen": 2770,
+          "sen": 2678,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18391,7 +18591,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 248,
-          "sen": 2773,
+          "sen": 2679,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18399,7 +18599,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 249,
-          "sen": 2776,
+          "sen": 2684,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18407,7 +18607,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 250,
-          "sen": 2779,
+          "sen": 2697,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18415,7 +18615,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 251,
-          "sen": 2806,
+          "sen": 2708,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18423,7 +18623,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 252,
-          "sen": 2808,
+          "sen": 2720,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18431,7 +18631,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 253,
-          "sen": 2842,
+          "sen": 2728,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18439,7 +18639,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 254,
-          "sen": 2843,
+          "sen": 2730,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18447,7 +18647,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 255,
-          "sen": 2844,
+          "sen": 2746,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18455,7 +18655,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 256,
-          "sen": 2848,
+          "sen": 2748,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18463,7 +18663,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 257,
-          "sen": 2853,
+          "sen": 2752,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18471,7 +18671,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 258,
-          "sen": 2881,
+          "sen": 2755,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18479,7 +18679,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 259,
-          "sen": 2895,
+          "sen": 2758,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18487,7 +18687,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 260,
-          "sen": 2899,
+          "sen": 2761,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18495,7 +18695,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 261,
-          "sen": 2900,
+          "sen": 2768,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18503,7 +18703,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 262,
-          "sen": 2901,
+          "sen": 2788,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18511,7 +18711,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 263,
-          "sen": 2921,
+          "sen": 2790,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18519,7 +18719,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 264,
-          "sen": 2923,
+          "sen": 2824,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18527,7 +18727,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 265,
-          "sen": 2940,
+          "sen": 2825,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18535,7 +18735,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 266,
-          "sen": 2963,
+          "sen": 2826,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18543,7 +18743,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 267,
-          "sen": 2970,
+          "sen": 2830,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18551,7 +18751,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 268,
-          "sen": 2971,
+          "sen": 2835,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18559,7 +18759,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 269,
-          "sen": 2974,
+          "sen": 2863,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18567,7 +18767,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 270,
-          "sen": 2980,
+          "sen": 2877,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18575,7 +18775,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 271,
-          "sen": 3025,
+          "sen": 2881,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18583,7 +18783,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 272,
-          "sen": 3029,
+          "sen": 2882,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18591,7 +18791,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 273,
-          "sen": 3030,
+          "sen": 2883,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18599,7 +18799,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 274,
-          "sen": 3045,
+          "sen": 2903,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18607,7 +18807,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 275,
-          "sen": 3046,
+          "sen": 2905,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18615,7 +18815,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 276,
-          "sen": 3058,
+          "sen": 2922,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18623,7 +18823,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 277,
-          "sen": 3059,
+          "sen": 2945,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18631,7 +18831,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 278,
-          "sen": 3080,
+          "sen": 2952,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18639,7 +18839,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 279,
-          "sen": 3090,
+          "sen": 2953,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18647,7 +18847,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 280,
-          "sen": 3092,
+          "sen": 2956,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18655,7 +18855,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 281,
-          "sen": 3094,
+          "sen": 2962,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18663,7 +18863,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 282,
-          "sen": 3097,
+          "sen": 2965,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18671,7 +18871,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 283,
-          "sen": 3103,
+          "sen": 2992,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18679,7 +18879,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 284,
-          "sen": 3105,
+          "sen": 3007,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18687,7 +18887,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 285,
-          "sen": 3111,
+          "sen": 3011,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18695,7 +18895,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 286,
-          "sen": 3117,
+          "sen": 3012,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18703,7 +18903,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 287,
-          "sen": 3123,
+          "sen": 3018,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18711,7 +18911,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 288,
-          "sen": 3129,
+          "sen": 3027,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18719,7 +18919,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 289,
-          "sen": 3137,
+          "sen": 3028,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18727,7 +18927,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 290,
-          "sen": 3180,
+          "sen": 3040,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18735,7 +18935,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 291,
-          "sen": 3193,
+          "sen": 3041,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18743,7 +18943,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 292,
-          "sen": 3194,
+          "sen": 3062,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18751,7 +18951,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 293,
-          "sen": 3197,
+          "sen": 3072,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18759,7 +18959,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 294,
-          "sen": 3202,
+          "sen": 3074,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18767,7 +18967,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 295,
-          "sen": 3203,
+          "sen": 3076,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18775,7 +18975,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 296,
-          "sen": 3227,
+          "sen": 3079,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18783,7 +18983,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 297,
-          "sen": 3231,
+          "sen": 3085,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18791,7 +18991,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 298,
-          "sen": 3261,
+          "sen": 3087,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18799,7 +18999,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 299,
-          "sen": 3264,
+          "sen": 3093,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18807,7 +19007,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 300,
-          "sen": 3269,
+          "sen": 3099,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18815,7 +19015,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 301,
-          "sen": 3272,
+          "sen": 3105,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18823,7 +19023,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 302,
-          "sen": 3279,
+          "sen": 3111,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18831,7 +19031,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 303,
-          "sen": 3280,
+          "sen": 3119,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18839,7 +19039,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 304,
-          "sen": 3300,
+          "sen": 3162,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18847,7 +19047,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 305,
-          "sen": 3302,
+          "sen": 3175,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18855,7 +19055,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 306,
-          "sen": 3304,
+          "sen": 3176,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18863,7 +19063,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 307,
-          "sen": 3320,
+          "sen": 3179,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18871,7 +19071,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 308,
-          "sen": 3321,
+          "sen": 3184,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18879,7 +19079,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 309,
-          "sen": 3322,
+          "sen": 3185,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18887,7 +19087,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 310,
-          "sen": 3323,
+          "sen": 3209,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18895,7 +19095,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 311,
-          "sen": 3325,
+          "sen": 3213,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18903,7 +19103,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 312,
-          "sen": 3341,
+          "sen": 3242,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18911,7 +19111,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 313,
-          "sen": 3342,
+          "sen": 3245,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18919,7 +19119,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 314,
-          "sen": 3353,
+          "sen": 3250,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18927,7 +19127,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 315,
-          "sen": 3354,
+          "sen": 3253,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18935,7 +19135,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 316,
-          "sen": 3357,
+          "sen": 3258,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18943,7 +19143,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 317,
-          "sen": 3376,
+          "sen": 3260,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18951,7 +19151,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 318,
-          "sen": 3377,
+          "sen": 3261,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18959,7 +19159,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 319,
-          "sen": 3379,
+          "sen": 3270,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18967,7 +19167,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 320,
-          "sen": 3401,
+          "sen": 3281,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18975,7 +19175,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 321,
-          "sen": 3402,
+          "sen": 3283,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18983,7 +19183,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 322,
-          "sen": 3418,
+          "sen": 3285,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18991,7 +19191,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 323,
-          "sen": 3420,
+          "sen": 3301,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -18999,7 +19199,135 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 324,
-          "sen": 3426,
+          "sen": 3302,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 325,
+          "sen": 3303,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 326,
+          "sen": 3304,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 327,
+          "sen": 3306,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 328,
+          "sen": 3322,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 329,
+          "sen": 3323,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 330,
+          "sen": 3334,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 331,
+          "sen": 3335,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 332,
+          "sen": 3338,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 333,
+          "sen": 3356,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 334,
+          "sen": 3357,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 335,
+          "sen": 3359,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 336,
+          "sen": 3381,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 337,
+          "sen": 3382,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 338,
+          "sen": 3398,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 339,
+          "sen": 3400,
+          "dom": "SDFZ",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 340,
+          "sen": 3406,
           "dom": "SDFZ",
           "eqp": "757",
           "seat": "FO",
@@ -19019,7 +19347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 46,
+          "sen": 45,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19027,7 +19355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 72,
+          "sen": 71,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19035,7 +19363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 74,
+          "sen": 73,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19043,7 +19371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 116,
+          "sen": 115,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19051,7 +19379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 151,
+          "sen": 150,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19059,7 +19387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 160,
+          "sen": 159,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19067,7 +19395,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 169,
+          "sen": 168,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19075,7 +19403,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 193,
+          "sen": 191,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19083,7 +19411,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 203,
+          "sen": 206,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19091,7 +19419,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 209,
+          "sen": 208,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19099,7 +19427,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 211,
+          "sen": 213,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19107,7 +19435,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 216,
+          "sen": 232,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19115,7 +19443,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 235,
+          "sen": 324,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19123,7 +19451,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 296,
+          "sen": 328,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19131,7 +19459,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 329,
+          "sen": 364,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19139,7 +19467,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 333,
+          "sen": 366,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19155,7 +19483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 371,
+          "sen": 386,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19163,7 +19491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 374,
+          "sen": 388,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19171,7 +19499,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 391,
+          "sen": 440,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19179,7 +19507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 393,
+          "sen": 442,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19187,7 +19515,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 446,
+          "sen": 447,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19195,7 +19523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 448,
+          "sen": 449,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19203,7 +19531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 453,
+          "sen": 598,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19211,7 +19539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 455,
+          "sen": 602,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19219,7 +19547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 605,
+          "sen": 677,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19227,7 +19555,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 609,
+          "sen": 697,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19235,7 +19563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 684,
+          "sen": 710,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19243,7 +19571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 704,
+          "sen": 800,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19251,7 +19579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 717,
+          "sen": 803,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19259,7 +19587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 808,
+          "sen": 806,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19267,7 +19595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 811,
+          "sen": 808,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19275,7 +19603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 814,
+          "sen": 846,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19283,7 +19611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 816,
+          "sen": 867,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19291,7 +19619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 854,
+          "sen": 869,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19299,7 +19627,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 875,
+          "sen": 924,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19307,7 +19635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 877,
+          "sen": 931,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19315,7 +19643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 933,
+          "sen": 959,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19323,7 +19651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 940,
+          "sen": 962,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19331,7 +19659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 968,
+          "sen": 969,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19339,7 +19667,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 972,
+          "sen": 970,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19347,7 +19675,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 979,
+          "sen": 995,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19355,7 +19683,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 980,
+          "sen": 998,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19363,7 +19691,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 1006,
+          "sen": 1056,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19371,7 +19699,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 1009,
+          "sen": 1063,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19379,7 +19707,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 1069,
+          "sen": 1066,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19387,7 +19715,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 1076,
+          "sen": 1100,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19395,7 +19723,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 1079,
+          "sen": 1101,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19403,7 +19731,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 1113,
+          "sen": 1143,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19411,7 +19739,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1114,
+          "sen": 1151,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19419,7 +19747,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1156,
+          "sen": 1154,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19427,7 +19755,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1164,
+          "sen": 1160,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19435,7 +19763,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1167,
+          "sen": 1176,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19443,7 +19771,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 1173,
+          "sen": 1177,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19451,7 +19779,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 1189,
+          "sen": 1237,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19459,7 +19787,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 1190,
+          "sen": 1263,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19467,7 +19795,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 1250,
+          "sen": 1275,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19475,7 +19803,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 1276,
+          "sen": 1279,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19483,7 +19811,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 1288,
+          "sen": 1290,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19491,7 +19819,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 1292,
+          "sen": 1317,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19499,7 +19827,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 1303,
+          "sen": 1341,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19507,7 +19835,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 1330,
+          "sen": 1365,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19515,7 +19843,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 1354,
+          "sen": 1376,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19531,7 +19859,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 1389,
+          "sen": 1396,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19539,7 +19867,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 1391,
+          "sen": 1401,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19547,7 +19875,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 1409,
+          "sen": 1408,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19555,7 +19883,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 1414,
+          "sen": 1526,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19563,7 +19891,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 1421,
+          "sen": 1529,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19571,7 +19899,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 1542,
+          "sen": 1548,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19579,7 +19907,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 1561,
+          "sen": 1551,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19587,7 +19915,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 1564,
+          "sen": 1553,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19595,7 +19923,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 1566,
+          "sen": 1558,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19603,7 +19931,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 1571,
+          "sen": 1594,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19611,7 +19939,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 1608,
+          "sen": 1621,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19619,7 +19947,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 1635,
+          "sen": 1629,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19627,7 +19955,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 1643,
+          "sen": 1644,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19635,7 +19963,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 1658,
+          "sen": 1691,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19643,7 +19971,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 1706,
+          "sen": 1700,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19651,7 +19979,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 1715,
+          "sen": 1710,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19659,7 +19987,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 1725,
+          "sen": 1727,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19667,7 +19995,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 1742,
+          "sen": 1743,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19675,7 +20003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 1758,
+          "sen": 1751,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19683,7 +20011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 1766,
+          "sen": 1780,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19691,7 +20019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 1795,
+          "sen": 1824,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19699,7 +20027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 1839,
+          "sen": 1871,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19707,7 +20035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 1886,
+          "sen": 1921,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19715,7 +20043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 1936,
+          "sen": 1987,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19723,7 +20051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 2002,
+          "sen": 1990,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19731,15 +20059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2005,
-          "dom": "ONT",
-          "eqp": "757",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 92,
-          "sen": 2027,
+          "sen": 2012,
           "dom": "ONT",
           "eqp": "757",
           "seat": "CPT",
@@ -19749,7 +20069,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 465,
+          "sen": 459,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19757,7 +20077,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 480,
+          "sen": 474,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19765,7 +20085,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 638,
+          "sen": 631,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19773,7 +20093,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 806,
+          "sen": 798,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19781,7 +20101,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 849,
+          "sen": 841,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19789,7 +20109,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 950,
+          "sen": 941,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19797,7 +20117,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 1154,
+          "sen": 1141,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19805,7 +20125,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 1159,
+          "sen": 1146,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19813,7 +20133,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 1694,
+          "sen": 1680,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19821,7 +20141,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 1861,
+          "sen": 1846,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19829,7 +20149,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 1867,
+          "sen": 1852,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19837,7 +20157,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 1894,
+          "sen": 1879,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19845,7 +20165,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1921,
+          "sen": 1906,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19853,7 +20173,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1976,
+          "sen": 1961,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19861,7 +20181,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 2004,
+          "sen": 1989,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19869,7 +20189,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 2030,
+          "sen": 2015,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19877,7 +20197,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 2060,
+          "sen": 2045,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19885,7 +20205,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 2064,
+          "sen": 2049,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19893,7 +20213,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 2106,
+          "sen": 2091,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19901,7 +20221,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 2110,
+          "sen": 2095,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19909,7 +20229,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 2134,
+          "sen": 2119,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19917,7 +20237,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 2136,
+          "sen": 2121,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19925,7 +20245,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 2151,
+          "sen": 2136,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19933,7 +20253,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 2172,
+          "sen": 2157,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19941,7 +20261,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 2218,
+          "sen": 2203,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19949,7 +20269,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 2273,
+          "sen": 2258,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19957,7 +20277,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 2286,
+          "sen": 2270,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19965,7 +20285,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 2293,
+          "sen": 2277,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19973,7 +20293,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 2316,
+          "sen": 2300,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19981,7 +20301,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 2336,
+          "sen": 2320,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19989,7 +20309,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 2366,
+          "sen": 2350,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -19997,7 +20317,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 2418,
+          "sen": 2402,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20005,7 +20325,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 2459,
+          "sen": 2443,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20013,7 +20333,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 2464,
+          "sen": 2448,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20021,7 +20341,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 2476,
+          "sen": 2460,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20029,7 +20349,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 2508,
+          "sen": 2492,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20037,7 +20357,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 2525,
+          "sen": 2509,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20045,7 +20365,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 2574,
+          "sen": 2558,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20053,7 +20373,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 2601,
+          "sen": 2585,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20061,7 +20381,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 2624,
+          "sen": 2608,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20069,7 +20389,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 2629,
+          "sen": 2613,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20077,7 +20397,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 2639,
+          "sen": 2623,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20085,7 +20405,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 2650,
+          "sen": 2624,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20093,7 +20413,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 2654,
+          "sen": 2634,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20101,7 +20421,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 2662,
+          "sen": 2638,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20109,7 +20429,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 2688,
+          "sen": 2646,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20117,7 +20437,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 2698,
+          "sen": 2672,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20125,7 +20445,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 2741,
+          "sen": 2682,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20133,7 +20453,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 2754,
+          "sen": 2725,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20141,7 +20461,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 2763,
+          "sen": 2737,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20149,7 +20469,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 2771,
+          "sen": 2745,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20157,7 +20477,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 2777,
+          "sen": 2753,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20165,7 +20485,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 2800,
+          "sen": 2759,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20173,7 +20493,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 2816,
+          "sen": 2782,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20181,7 +20501,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 2820,
+          "sen": 2798,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20189,7 +20509,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 2879,
+          "sen": 2802,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20197,7 +20517,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 2892,
+          "sen": 2861,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20205,7 +20525,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 2938,
+          "sen": 2874,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20213,7 +20533,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 2939,
+          "sen": 2920,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20221,7 +20541,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 2964,
+          "sen": 2921,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20229,7 +20549,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 3026,
+          "sen": 2946,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20237,7 +20557,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 3081,
+          "sen": 2990,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20245,7 +20565,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 3087,
+          "sen": 3008,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20253,7 +20573,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 3095,
+          "sen": 3063,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20261,7 +20581,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 3116,
+          "sen": 3069,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20269,7 +20589,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 3119,
+          "sen": 3077,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20277,7 +20597,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 3125,
+          "sen": 3098,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20285,7 +20605,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 3127,
+          "sen": 3101,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20293,7 +20613,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 3164,
+          "sen": 3107,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20301,7 +20621,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 3166,
+          "sen": 3109,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20309,7 +20629,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 3168,
+          "sen": 3146,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20317,7 +20637,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 3178,
+          "sen": 3148,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20325,7 +20645,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 3181,
+          "sen": 3150,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20333,7 +20653,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 3183,
+          "sen": 3160,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20341,7 +20661,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 3201,
+          "sen": 3163,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20349,7 +20669,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 3204,
+          "sen": 3165,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20357,7 +20677,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 3225,
+          "sen": 3183,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20365,7 +20685,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 3233,
+          "sen": 3186,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20373,7 +20693,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 3345,
+          "sen": 3207,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20381,7 +20701,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 3365,
+          "sen": 3215,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20389,7 +20709,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 3368,
+          "sen": 3326,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20397,7 +20717,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 3375,
+          "sen": 3346,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20405,7 +20725,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 3381,
+          "sen": 3349,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20413,7 +20733,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 3388,
+          "sen": 3355,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20421,7 +20741,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 3389,
+          "sen": 3361,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20429,7 +20749,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 3400,
+          "sen": 3368,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20437,7 +20757,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 3409,
+          "sen": 3369,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20445,7 +20765,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 3422,
+          "sen": 3375,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20453,7 +20773,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 3434,
+          "sen": 3380,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20461,7 +20781,39 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 3435,
+          "sen": 3389,
+          "dom": "ONT",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 91,
+          "sen": 3395,
+          "dom": "ONT",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 92,
+          "sen": 3396,
+          "dom": "ONT",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 93,
+          "sen": 3402,
+          "dom": "ONT",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 94,
+          "sen": 3414,
           "dom": "ONT",
           "eqp": "757",
           "seat": "FO",
@@ -20473,7 +20825,7 @@ const GLOBAL_PILOT_DATA =
       "CPT": [
         {
           "pos": 1,
-          "sen": 8,
+          "sen": 5,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20481,7 +20833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 22,
+          "sen": 8,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20489,7 +20841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 29,
+          "sen": 22,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20497,7 +20849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 33,
+          "sen": 29,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20505,7 +20857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 37,
+          "sen": 33,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20513,7 +20865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 47,
+          "sen": 37,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20521,7 +20873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 49,
+          "sen": 46,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20529,7 +20881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 53,
+          "sen": 48,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20537,7 +20889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 77,
+          "sen": 52,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20545,7 +20897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 87,
+          "sen": 76,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20553,7 +20905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 92,
+          "sen": 86,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20561,7 +20913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 103,
+          "sen": 91,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20569,7 +20921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 110,
+          "sen": 102,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20577,7 +20929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 146,
+          "sen": 109,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20585,7 +20937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 163,
+          "sen": 145,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20593,7 +20945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 170,
+          "sen": 162,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20601,7 +20953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 174,
+          "sen": 169,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20609,7 +20961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 199,
+          "sen": 173,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20617,7 +20969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 220,
+          "sen": 197,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20625,7 +20977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 244,
+          "sen": 217,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20633,7 +20985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 245,
+          "sen": 241,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20641,7 +20993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 256,
+          "sen": 242,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20649,7 +21001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 276,
+          "sen": 253,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20657,7 +21009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 278,
+          "sen": 273,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20665,7 +21017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 308,
+          "sen": 275,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20673,7 +21025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 322,
+          "sen": 303,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20681,7 +21033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 338,
+          "sen": 317,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20689,7 +21041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 351,
+          "sen": 333,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20697,7 +21049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 362,
+          "sen": 346,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20705,7 +21057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 410,
+          "sen": 357,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20713,7 +21065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 417,
+          "sen": 405,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20721,7 +21073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 470,
+          "sen": 464,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20729,7 +21081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 475,
+          "sen": 469,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20737,7 +21089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 525,
+          "sen": 519,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20745,7 +21097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 533,
+          "sen": 527,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20753,7 +21105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 564,
+          "sen": 557,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20761,7 +21113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 579,
+          "sen": 572,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20769,7 +21121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 650,
+          "sen": 643,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20777,7 +21129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 664,
+          "sen": 657,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20785,7 +21137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 679,
+          "sen": 672,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20793,7 +21145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 685,
+          "sen": 678,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20801,7 +21153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 692,
+          "sen": 685,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20809,7 +21161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 705,
+          "sen": 698,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20817,7 +21169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 710,
+          "sen": 703,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20825,7 +21177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 744,
+          "sen": 737,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20833,7 +21185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 847,
+          "sen": 839,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20841,7 +21193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 855,
+          "sen": 847,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20849,7 +21201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 864,
+          "sen": 856,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20857,7 +21209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 962,
+          "sen": 953,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20865,7 +21217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 982,
+          "sen": 972,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20873,7 +21225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 1027,
+          "sen": 1015,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20881,7 +21233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 1033,
+          "sen": 1020,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20889,7 +21241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 1148,
+          "sen": 1135,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20897,7 +21249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 1220,
+          "sen": 1207,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20905,7 +21257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 1262,
+          "sen": 1249,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20913,7 +21265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 1355,
+          "sen": 1342,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20921,7 +21273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 1360,
+          "sen": 1347,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20929,7 +21281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 1365,
+          "sen": 1352,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20937,7 +21289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 1370,
+          "sen": 1357,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20945,7 +21297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 1371,
+          "sen": 1358,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20953,7 +21305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 1399,
+          "sen": 1447,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20961,7 +21313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 1460,
+          "sen": 1458,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20969,7 +21321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 1471,
+          "sen": 1499,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20977,7 +21329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 1512,
+          "sen": 1537,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20985,7 +21337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 1550,
+          "sen": 1542,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -20993,7 +21345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 1555,
+          "sen": 1543,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21001,7 +21353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 1556,
+          "sen": 1576,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21009,7 +21361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 1589,
+          "sen": 1602,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21017,7 +21369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 1616,
+          "sen": 1606,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21025,7 +21377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 1620,
+          "sen": 1648,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21033,7 +21385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 1662,
+          "sen": 1683,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21041,7 +21393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 1698,
+          "sen": 1703,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21049,7 +21401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 1718,
+          "sen": 1720,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21057,7 +21409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 1735,
+          "sen": 1722,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21065,7 +21417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 1737,
+          "sen": 1733,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21073,7 +21425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 1748,
+          "sen": 1736,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21081,7 +21433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 1751,
+          "sen": 1737,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21089,7 +21441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 1752,
+          "sen": 1772,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21097,7 +21449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 1787,
+          "sen": 1819,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21105,15 +21457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 1834,
-          "dom": "MIA",
-          "eqp": "757",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 81,
-          "sen": 1847,
+          "sen": 1832,
           "dom": "MIA",
           "eqp": "757",
           "seat": "CPT",
@@ -21123,7 +21467,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 238,
+          "sen": 235,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21131,7 +21475,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 290,
+          "sen": 287,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21139,7 +21483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 347,
+          "sen": 342,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21147,7 +21491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 359,
+          "sen": 354,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21155,7 +21499,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 501,
+          "sen": 495,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21163,7 +21507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 800,
+          "sen": 792,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21171,7 +21515,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 804,
+          "sen": 796,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21179,7 +21523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 920,
+          "sen": 911,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21187,7 +21531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 924,
+          "sen": 915,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21195,7 +21539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 1002,
+          "sen": 991,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21203,7 +21547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 1012,
+          "sen": 1001,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21211,7 +21555,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 1169,
+          "sen": 1156,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21219,7 +21563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1498,
+          "sen": 1485,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21227,7 +21571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1933,
+          "sen": 1918,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21235,7 +21579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1984,
+          "sen": 1969,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21243,7 +21587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1986,
+          "sen": 1971,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21251,7 +21595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 2008,
+          "sen": 1993,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21259,7 +21603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 2025,
+          "sen": 2010,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21267,7 +21611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 2044,
+          "sen": 2029,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21275,7 +21619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 2057,
+          "sen": 2042,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21283,7 +21627,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 2094,
+          "sen": 2079,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21291,7 +21635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 2137,
+          "sen": 2122,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21299,7 +21643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 2168,
+          "sen": 2153,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21307,7 +21651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 2203,
+          "sen": 2188,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21315,7 +21659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 2206,
+          "sen": 2191,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21323,7 +21667,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 2208,
+          "sen": 2193,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21331,7 +21675,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 2220,
+          "sen": 2205,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21339,7 +21683,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 2227,
+          "sen": 2212,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21347,7 +21691,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 2256,
+          "sen": 2241,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21355,7 +21699,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 2258,
+          "sen": 2243,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21363,7 +21707,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 2275,
+          "sen": 2260,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21371,7 +21715,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 2284,
+          "sen": 2268,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21379,7 +21723,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 2303,
+          "sen": 2287,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21387,7 +21731,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 2305,
+          "sen": 2289,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21395,7 +21739,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 2322,
+          "sen": 2306,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21403,7 +21747,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 2359,
+          "sen": 2343,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21411,7 +21755,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 2397,
+          "sen": 2381,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21419,7 +21763,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 2413,
+          "sen": 2397,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21427,7 +21771,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 2437,
+          "sen": 2421,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21435,7 +21779,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 2462,
+          "sen": 2446,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21443,7 +21787,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 2474,
+          "sen": 2458,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21451,7 +21795,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 2486,
+          "sen": 2470,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21459,7 +21803,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 2514,
+          "sen": 2498,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21467,7 +21811,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 2517,
+          "sen": 2501,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21475,7 +21819,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 2541,
+          "sen": 2525,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21483,7 +21827,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 2555,
+          "sen": 2539,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21491,7 +21835,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 2560,
+          "sen": 2544,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21499,7 +21843,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 2590,
+          "sen": 2574,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21507,7 +21851,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 2646,
+          "sen": 2630,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21515,7 +21859,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 2683,
+          "sen": 2667,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21523,7 +21867,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 2685,
+          "sen": 2669,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21531,7 +21875,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 2693,
+          "sen": 2677,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21539,7 +21883,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 2780,
+          "sen": 2762,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21547,7 +21891,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 2805,
+          "sen": 2787,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21555,7 +21899,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 2811,
+          "sen": 2793,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21563,7 +21907,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 2841,
+          "sen": 2823,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21571,7 +21915,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 2877,
+          "sen": 2859,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21579,7 +21923,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 2926,
+          "sen": 2908,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21587,7 +21931,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 2931,
+          "sen": 2913,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21595,7 +21939,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 2965,
+          "sen": 2947,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21603,7 +21947,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 2976,
+          "sen": 2958,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21611,7 +21955,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 2979,
+          "sen": 2961,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21619,7 +21963,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 2988,
+          "sen": 2970,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21627,7 +21971,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 3027,
+          "sen": 3009,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21635,7 +21979,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 3124,
+          "sen": 3020,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21643,7 +21987,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 3154,
+          "sen": 3106,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21651,7 +21995,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 3155,
+          "sen": 3136,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21659,7 +22003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 3229,
+          "sen": 3137,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21667,7 +22011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 3262,
+          "sen": 3211,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21675,7 +22019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 3267,
+          "sen": 3243,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21683,7 +22027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 3278,
+          "sen": 3248,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21691,7 +22035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 3283,
+          "sen": 3259,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21699,7 +22043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 3324,
+          "sen": 3264,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21707,7 +22051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 3374,
+          "sen": 3305,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21715,7 +22059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 3419,
+          "sen": 3354,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21723,7 +22067,15 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 3433,
+          "sen": 3399,
+          "dom": "MIA",
+          "eqp": "757",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 77,
+          "sen": 3413,
           "dom": "MIA",
           "eqp": "757",
           "seat": "FO",
@@ -21785,7 +22137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 50,
+          "sen": 49,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21793,7 +22145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 62,
+          "sen": 61,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21801,7 +22153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 70,
+          "sen": 69,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21809,7 +22161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 78,
+          "sen": 77,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21817,7 +22169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 83,
+          "sen": 82,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21825,7 +22177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 91,
+          "sen": 90,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21833,7 +22185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 97,
+          "sen": 96,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21841,7 +22193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 102,
+          "sen": 101,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21849,7 +22201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 117,
+          "sen": 116,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21857,7 +22209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 123,
+          "sen": 122,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21865,7 +22217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 134,
+          "sen": 133,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21873,7 +22225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 136,
+          "sen": 135,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21881,7 +22233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 145,
+          "sen": 144,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21889,7 +22241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 150,
+          "sen": 149,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21897,7 +22249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 154,
+          "sen": 153,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21905,7 +22257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 167,
+          "sen": 166,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21913,7 +22265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 180,
+          "sen": 179,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21921,7 +22273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 181,
+          "sen": 180,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21929,7 +22281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 185,
+          "sen": 184,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21937,7 +22289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 191,
+          "sen": 190,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21945,7 +22297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 224,
+          "sen": 221,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21953,7 +22305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 228,
+          "sen": 225,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21961,7 +22313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 230,
+          "sen": 227,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21969,7 +22321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 236,
+          "sen": 233,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21977,7 +22329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 258,
+          "sen": 255,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21985,7 +22337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 260,
+          "sen": 257,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -21993,7 +22345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 297,
+          "sen": 293,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22009,7 +22361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 305,
+          "sen": 302,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22017,7 +22369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 307,
+          "sen": 308,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22033,7 +22385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 318,
+          "sen": 325,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22041,7 +22393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 330,
+          "sen": 327,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22049,7 +22401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 332,
+          "sen": 337,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22057,7 +22409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 342,
+          "sen": 338,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22065,7 +22417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 343,
+          "sen": 341,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22073,7 +22425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 346,
+          "sen": 382,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22089,7 +22441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 392,
+          "sen": 391,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22097,7 +22449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 396,
+          "sen": 395,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22105,7 +22457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 400,
+          "sen": 407,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22113,7 +22465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 412,
+          "sen": 414,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22121,7 +22473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 420,
+          "sen": 415,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22129,7 +22481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 421,
+          "sen": 419,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22137,7 +22489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 425,
+          "sen": 423,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22145,7 +22497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 429,
+          "sen": 427,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22153,7 +22505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 433,
+          "sen": 432,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22161,7 +22513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 438,
+          "sen": 435,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22169,7 +22521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 441,
+          "sen": 437,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22177,7 +22529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 443,
+          "sen": 439,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22185,7 +22537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 445,
+          "sen": 450,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22193,7 +22545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 456,
+          "sen": 452,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22201,7 +22553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 458,
+          "sen": 457,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22209,7 +22561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 463,
+          "sen": 467,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22217,7 +22569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 473,
+          "sen": 479,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22225,7 +22577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 485,
+          "sen": 480,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22233,7 +22585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 486,
+          "sen": 483,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22241,7 +22593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 489,
+          "sen": 490,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22249,7 +22601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 496,
+          "sen": 520,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22257,7 +22609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 526,
+          "sen": 524,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22265,7 +22617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 530,
+          "sen": 525,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22273,7 +22625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 531,
+          "sen": 544,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22281,7 +22633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 550,
+          "sen": 545,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22289,7 +22641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 551,
+          "sen": 548,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22297,7 +22649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 554,
+          "sen": 550,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22305,7 +22657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 556,
+          "sen": 554,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22313,7 +22665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 560,
+          "sen": 555,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22329,7 +22681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 569,
+          "sen": 563,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22337,7 +22689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 570,
+          "sen": 564,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22353,7 +22705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 578,
+          "sen": 575,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22361,7 +22713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 582,
+          "sen": 585,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22369,7 +22721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 592,
+          "sen": 600,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22377,7 +22729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 607,
+          "sen": 603,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22385,7 +22737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 610,
+          "sen": 619,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22393,7 +22745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 626,
+          "sen": 622,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22401,7 +22753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 629,
+          "sen": 626,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22409,7 +22761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 633,
+          "sen": 632,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22417,7 +22769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 639,
+          "sen": 633,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22425,7 +22777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 640,
+          "sen": 639,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22441,7 +22793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 653,
+          "sen": 647,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22449,7 +22801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 654,
+          "sen": 689,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22457,7 +22809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 696,
+          "sen": 692,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22465,7 +22817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 699,
+          "sen": 726,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22473,7 +22825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 733,
+          "sen": 747,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22481,7 +22833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 754,
+          "sen": 756,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22489,7 +22841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 764,
+          "sen": 763,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22505,7 +22857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 779,
+          "sen": 774,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22513,7 +22865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 782,
+          "sen": 775,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22521,7 +22873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 783,
+          "sen": 778,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22529,7 +22881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 786,
+          "sen": 780,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22537,7 +22889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 788,
+          "sen": 783,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22545,7 +22897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 791,
+          "sen": 786,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22553,7 +22905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 794,
+          "sen": 789,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22561,7 +22913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 797,
+          "sen": 805,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22569,7 +22921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 813,
+          "sen": 812,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22577,7 +22929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 820,
+          "sen": 813,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22585,7 +22937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 821,
+          "sen": 825,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22593,7 +22945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 833,
+          "sen": 837,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22601,7 +22953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 845,
+          "sen": 871,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22609,7 +22961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 879,
+          "sen": 885,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22617,7 +22969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 894,
+          "sen": 897,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22625,7 +22977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 906,
+          "sen": 910,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22633,7 +22985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 919,
+          "sen": 917,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22641,7 +22993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 926,
+          "sen": 922,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22649,7 +23001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 931,
+          "sen": 933,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22657,7 +23009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 942,
+          "sen": 945,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22665,7 +23017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 954,
+          "sen": 950,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22673,7 +23025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 959,
+          "sen": 973,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22681,7 +23033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 983,
+          "sen": 978,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22689,7 +23041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 985,
+          "sen": 979,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22697,7 +23049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 989,
+          "sen": 981,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22705,7 +23057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 990,
+          "sen": 1047,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22713,7 +23065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 992,
+          "sen": 1071,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22721,7 +23073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 1013,
+          "sen": 1075,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22729,7 +23081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 1060,
+          "sen": 1083,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22737,7 +23089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 1084,
+          "sen": 1087,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22745,7 +23097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 1088,
+          "sen": 1092,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22753,7 +23105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 1096,
+          "sen": 1108,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22761,7 +23113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 1100,
+          "sen": 1110,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22769,7 +23121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 1105,
+          "sen": 1117,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22777,7 +23129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 1121,
+          "sen": 1119,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22785,7 +23137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 1123,
+          "sen": 1128,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22793,7 +23145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 1130,
+          "sen": 1129,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22801,22 +23153,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 1132,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 135,
-          "sen": 1141,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 136,
           "sen": 1142,
           "dom": "SDF",
           "eqp": "A30",
@@ -22824,8 +23160,24 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 135,
+          "sen": 1161,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
+          "pos": 136,
+          "sen": 1165,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 137,
-          "sen": 1155,
+          "sen": 1168,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22833,7 +23185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 1174,
+          "sen": 1171,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22841,7 +23193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 1178,
+          "sen": 1175,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22849,7 +23201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 1181,
+          "sen": 1180,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22857,7 +23209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 1184,
+          "sen": 1182,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22873,7 +23225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 1193,
+          "sen": 1189,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22881,7 +23233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 1195,
+          "sen": 1190,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22889,7 +23241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 1201,
+          "sen": 1191,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22897,7 +23249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 1202,
+          "sen": 1192,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22905,7 +23257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 1203,
+          "sen": 1193,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22913,7 +23265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 1204,
+          "sen": 1194,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22921,7 +23273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 1205,
+          "sen": 1197,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22929,7 +23281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 1206,
+          "sen": 1198,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22937,7 +23289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 1207,
+          "sen": 1202,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22945,7 +23297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 1210,
+          "sen": 1208,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22953,7 +23305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 1211,
+          "sen": 1213,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22961,7 +23313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 1215,
+          "sen": 1214,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22969,14 +23321,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 1221,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 156,
           "sen": 1226,
           "dom": "SDF",
           "eqp": "A30",
@@ -22984,8 +23328,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 156,
+          "sen": 1247,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 157,
-          "sen": 1227,
+          "sen": 1251,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -22993,7 +23345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 1239,
+          "sen": 1256,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23001,7 +23353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 1264,
+          "sen": 1281,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23009,7 +23361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 1269,
+          "sen": 1282,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23017,7 +23369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 1294,
+          "sen": 1291,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23025,7 +23377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 1295,
+          "sen": 1293,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23033,7 +23385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 1304,
+          "sen": 1294,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23041,7 +23393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 1306,
+          "sen": 1297,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23049,7 +23401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 1307,
+          "sen": 1303,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23057,7 +23409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 1310,
+          "sen": 1320,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23065,7 +23417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 1316,
+          "sen": 1321,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23073,7 +23425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 1333,
+          "sen": 1323,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23081,7 +23433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 1334,
+          "sen": 1375,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23089,7 +23441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 1336,
+          "sen": 1377,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23097,7 +23449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 1388,
+          "sen": 1379,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23105,7 +23457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 1390,
+          "sen": 1380,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23113,7 +23465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 1392,
+          "sen": 1390,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23121,14 +23473,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 1393,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 175,
           "sen": 1403,
           "dom": "SDF",
           "eqp": "A30",
@@ -23136,8 +23480,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 175,
+          "sen": 1422,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 176,
-          "sen": 1435,
+          "sen": 1423,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23145,7 +23497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 1436,
+          "sen": 1435,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23153,7 +23505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 1448,
+          "sen": 1436,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23161,7 +23513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 1449,
+          "sen": 1440,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23169,7 +23521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 1453,
+          "sen": 1441,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23177,7 +23529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 1454,
+          "sen": 1449,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23185,7 +23537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 1462,
+          "sen": 1461,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23193,7 +23545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 1474,
+          "sen": 1466,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23201,7 +23553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 1479,
+          "sen": 1470,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23209,7 +23561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 1483,
+          "sen": 1481,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23217,7 +23569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 1494,
+          "sen": 1482,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23225,7 +23577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 1495,
+          "sen": 1483,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23233,7 +23585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 1496,
+          "sen": 1487,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23241,7 +23593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 1500,
+          "sen": 1489,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23249,7 +23601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 1502,
+          "sen": 1519,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23257,7 +23609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 191,
-          "sen": 1532,
+          "sen": 1520,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23265,7 +23617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 1533,
+          "sen": 1523,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23273,7 +23625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 1536,
+          "sen": 1533,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23281,7 +23633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 1539,
+          "sen": 1536,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23289,7 +23641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 1546,
+          "sen": 1538,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23297,7 +23649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 196,
-          "sen": 1549,
+          "sen": 1539,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23305,7 +23657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 1551,
+          "sen": 1546,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23313,7 +23665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 1552,
+          "sen": 1549,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23321,7 +23673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 1559,
+          "sen": 1555,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23329,7 +23681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 1562,
+          "sen": 1571,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23337,7 +23689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 1568,
+          "sen": 1577,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23345,7 +23697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 1584,
+          "sen": 1578,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23353,7 +23705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 1590,
+          "sen": 1581,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23361,7 +23713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 1591,
+          "sen": 1583,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23369,7 +23721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 205,
-          "sen": 1594,
+          "sen": 1584,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23377,7 +23729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 1596,
+          "sen": 1608,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23385,7 +23737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 1597,
+          "sen": 1613,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23393,7 +23745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 1622,
+          "sen": 1615,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23401,7 +23753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 1627,
+          "sen": 1616,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23409,7 +23761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 1629,
+          "sen": 1649,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23417,7 +23769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 1630,
+          "sen": 1652,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23425,7 +23777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 1663,
+          "sen": 1653,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23433,7 +23785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 1666,
+          "sen": 1658,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23441,7 +23793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 1667,
+          "sen": 1666,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23449,7 +23801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 215,
-          "sen": 1672,
+          "sen": 1671,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23457,14 +23809,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 1680,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 217,
           "sen": 1685,
           "dom": "SDF",
           "eqp": "A30",
@@ -23472,8 +23816,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 217,
+          "sen": 1689,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "CPT",
+          "award": "*"
+        },
+        {
           "pos": 218,
-          "sen": 1700,
+          "sen": 1692,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23481,7 +23833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 1704,
+          "sen": 1699,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23489,7 +23841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 1707,
+          "sen": 1701,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23497,7 +23849,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 1714,
+          "sen": 1705,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23505,7 +23857,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 1716,
+          "sen": 1709,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23513,7 +23865,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 1720,
+          "sen": 1713,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23521,7 +23873,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 1724,
+          "sen": 1714,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23529,7 +23881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 1728,
+          "sen": 1761,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23537,7 +23889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 1729,
+          "sen": 1816,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23545,7 +23897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 1776,
+          "sen": 1821,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23553,7 +23905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 1831,
+          "sen": 1822,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23561,7 +23913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 1836,
+          "sen": 1850,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23569,7 +23921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 1837,
+          "sen": 1851,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23577,7 +23929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 1865,
+          "sen": 1854,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23585,7 +23937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 1866,
+          "sen": 1856,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23593,7 +23945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 233,
-          "sen": 1869,
+          "sen": 1860,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23601,7 +23953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 234,
-          "sen": 1871,
+          "sen": 1867,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23609,7 +23961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 235,
-          "sen": 1875,
+          "sen": 1869,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23617,7 +23969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 236,
-          "sen": 1882,
+          "sen": 1886,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23625,7 +23977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 237,
-          "sen": 1884,
+          "sen": 1889,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23633,39 +23985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 238,
-          "sen": 1901,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 239,
-          "sen": 1904,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 240,
-          "sen": 1908,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 241,
-          "sen": 1910,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 242,
-          "sen": 1911,
+          "sen": 1893,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "CPT",
@@ -23675,7 +23995,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 466,
+          "sen": 460,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23683,7 +24003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 567,
+          "sen": 560,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23691,7 +24011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 690,
+          "sen": 683,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23699,7 +24019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 837,
+          "sen": 829,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23707,7 +24027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 1133,
+          "sen": 1120,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23715,7 +24035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 1185,
+          "sen": 1172,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23723,7 +24043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 1192,
+          "sen": 1179,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23731,7 +24051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 1234,
+          "sen": 1221,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23739,7 +24059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 1293,
+          "sen": 1280,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23747,7 +24067,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 1406,
+          "sen": 1393,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23755,7 +24075,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 1451,
+          "sen": 1438,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23763,7 +24083,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 1507,
+          "sen": 1494,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23771,7 +24091,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1538,
+          "sen": 1525,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23779,7 +24099,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1565,
+          "sen": 1552,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23787,7 +24107,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1619,
+          "sen": 1605,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23795,7 +24115,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1682,
+          "sen": 1668,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23803,7 +24123,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1688,
+          "sen": 1674,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23811,7 +24131,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1708,
+          "sen": 1693,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23819,7 +24139,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1710,
+          "sen": 1695,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23827,7 +24147,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1827,
+          "sen": 1812,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23835,7 +24155,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1844,
+          "sen": 1829,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23843,7 +24163,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1860,
+          "sen": 1845,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23851,7 +24171,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1872,
+          "sen": 1857,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23859,7 +24179,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1897,
+          "sen": 1882,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23867,7 +24187,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1919,
+          "sen": 1904,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23875,7 +24195,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1971,
+          "sen": 1956,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23883,7 +24203,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 2009,
+          "sen": 1994,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23891,7 +24211,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 2010,
+          "sen": 1995,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23899,7 +24219,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 2011,
+          "sen": 1996,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23907,7 +24227,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 2038,
+          "sen": 2023,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23915,7 +24235,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 2039,
+          "sen": 2024,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23923,7 +24243,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 2040,
+          "sen": 2025,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23931,7 +24251,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 2041,
+          "sen": 2026,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23939,7 +24259,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 2053,
+          "sen": 2038,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23947,7 +24267,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 2097,
+          "sen": 2082,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23955,7 +24275,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 2102,
+          "sen": 2087,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23963,7 +24283,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 2104,
+          "sen": 2089,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23971,7 +24291,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 2107,
+          "sen": 2092,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23979,7 +24299,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 2141,
+          "sen": 2126,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23987,7 +24307,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 2143,
+          "sen": 2128,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -23995,7 +24315,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 2144,
+          "sen": 2129,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24003,7 +24323,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 2146,
+          "sen": 2131,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24011,7 +24331,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 2147,
+          "sen": 2132,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24019,7 +24339,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 2150,
+          "sen": 2135,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24027,7 +24347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 2156,
+          "sen": 2161,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24035,7 +24355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 2176,
+          "sen": 2166,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24043,7 +24363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 2181,
+          "sen": 2171,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24051,7 +24371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 2186,
+          "sen": 2175,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24059,7 +24379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 2191,
+          "sen": 2176,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24067,7 +24387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 2207,
+          "sen": 2192,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24075,7 +24395,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 2214,
+          "sen": 2199,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24083,7 +24403,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 2222,
+          "sen": 2207,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24091,7 +24411,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 2225,
+          "sen": 2210,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24099,7 +24419,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 2226,
+          "sen": 2211,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24107,7 +24427,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 2231,
+          "sen": 2221,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24115,7 +24435,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 2236,
+          "sen": 2223,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24123,7 +24443,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 2238,
+          "sen": 2233,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24131,7 +24451,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 2248,
+          "sen": 2262,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24139,7 +24459,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 2277,
+          "sen": 2264,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24147,7 +24467,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 2278,
+          "sen": 2297,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24155,7 +24475,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 2280,
+          "sen": 2299,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24163,7 +24483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 2313,
+          "sen": 2301,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24171,7 +24491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 2315,
+          "sen": 2305,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24187,7 +24507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 2321,
+          "sen": 2318,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24195,7 +24515,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 2333,
+          "sen": 2319,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24203,7 +24523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 2334,
+          "sen": 2321,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24211,7 +24531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 2335,
+          "sen": 2322,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24219,7 +24539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 2337,
+          "sen": 2347,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24227,7 +24547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 2338,
+          "sen": 2352,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24235,7 +24555,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 2363,
+          "sen": 2355,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24243,7 +24563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 2368,
+          "sen": 2391,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24251,7 +24571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 2371,
+          "sen": 2401,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24259,7 +24579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 2372,
+          "sen": 2403,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24267,7 +24587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 2407,
+          "sen": 2404,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24275,7 +24595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 2417,
+          "sen": 2431,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24283,7 +24603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 2419,
+          "sen": 2451,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24291,7 +24611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 2420,
+          "sen": 2453,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24299,7 +24619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 2447,
+          "sen": 2454,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24307,7 +24627,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 2467,
+          "sen": 2455,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24315,7 +24635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 2469,
+          "sen": 2456,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24323,7 +24643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 2470,
+          "sen": 2457,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24331,7 +24651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 2471,
+          "sen": 2466,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24339,7 +24659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 2472,
+          "sen": 2475,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24347,7 +24667,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 2473,
+          "sen": 2476,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24355,7 +24675,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 2482,
+          "sen": 2479,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24363,7 +24683,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 2491,
+          "sen": 2480,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24371,7 +24691,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 2492,
+          "sen": 2481,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24379,7 +24699,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 2495,
+          "sen": 2491,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24387,7 +24707,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 2497,
+          "sen": 2502,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24395,7 +24715,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 2507,
+          "sen": 2505,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24403,7 +24723,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 2518,
+          "sen": 2508,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24411,7 +24731,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 2521,
+          "sen": 2526,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24419,7 +24739,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 2524,
+          "sen": 2568,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24427,14 +24747,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 2542,
-          "dom": "SDF",
-          "eqp": "A30",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 96,
           "sen": 2584,
           "dom": "SDF",
           "eqp": "A30",
@@ -24442,8 +24754,16 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 96,
+          "sen": 2586,
+          "dom": "SDF",
+          "eqp": "A30",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
           "pos": 97,
-          "sen": 2600,
+          "sen": 2587,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24451,7 +24771,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 2602,
+          "sen": 2588,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24459,7 +24779,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 2603,
+          "sen": 2610,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24467,7 +24787,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 2604,
+          "sen": 2611,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24475,7 +24795,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 2626,
+          "sen": 2612,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24483,7 +24803,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 2627,
+          "sen": 2614,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24491,7 +24811,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 2628,
+          "sen": 2615,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24499,7 +24819,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 2630,
+          "sen": 2642,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24507,7 +24827,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 2631,
+          "sen": 2643,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24515,7 +24835,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 2658,
+          "sen": 2644,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24523,7 +24843,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 2659,
+          "sen": 2645,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24531,7 +24851,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 2660,
+          "sen": 2668,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24539,7 +24859,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 2661,
+          "sen": 2680,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24547,7 +24867,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 2684,
+          "sen": 2687,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24555,7 +24875,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 2696,
+          "sen": 2710,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24563,7 +24883,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 2703,
+          "sen": 2722,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24571,7 +24891,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 2726,
+          "sen": 2723,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24579,7 +24899,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 2738,
+          "sen": 2744,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24587,7 +24907,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 2739,
+          "sen": 2760,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24595,7 +24915,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 2762,
+          "sen": 2763,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24603,7 +24923,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 2778,
+          "sen": 2764,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24611,7 +24931,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 2781,
+          "sen": 2765,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24619,7 +24939,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 2782,
+          "sen": 2766,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24627,7 +24947,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 2783,
+          "sen": 2767,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24635,7 +24955,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 2784,
+          "sen": 2796,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24643,7 +24963,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 2785,
+          "sen": 2800,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24651,7 +24971,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 2814,
+          "sen": 2801,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24659,7 +24979,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 2818,
+          "sen": 2803,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24667,7 +24987,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 125,
-          "sen": 2819,
+          "sen": 2804,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24675,7 +24995,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 126,
-          "sen": 2821,
+          "sen": 2805,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24683,7 +25003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 127,
-          "sen": 2822,
+          "sen": 2806,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24691,7 +25011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 128,
-          "sen": 2823,
+          "sen": 2817,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24699,7 +25019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 129,
-          "sen": 2824,
+          "sen": 2837,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24707,7 +25027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 130,
-          "sen": 2835,
+          "sen": 2838,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24715,7 +25035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 131,
-          "sen": 2855,
+          "sen": 2839,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24723,7 +25043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 132,
-          "sen": 2856,
+          "sen": 2841,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24731,7 +25051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 133,
-          "sen": 2857,
+          "sen": 2842,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24739,7 +25059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 134,
-          "sen": 2859,
+          "sen": 2862,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24747,7 +25067,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 135,
-          "sen": 2860,
+          "sen": 2865,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24755,7 +25075,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 136,
-          "sen": 2880,
+          "sen": 2873,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24763,7 +25083,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 137,
-          "sen": 2883,
+          "sen": 2876,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24771,7 +25091,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 138,
-          "sen": 2891,
+          "sen": 2878,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24779,7 +25099,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 139,
-          "sen": 2894,
+          "sen": 2879,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24787,7 +25107,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 140,
-          "sen": 2896,
+          "sen": 2880,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24795,7 +25115,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 141,
-          "sen": 2897,
+          "sen": 2895,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24803,7 +25123,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 142,
-          "sen": 2898,
+          "sen": 2901,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24811,7 +25131,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 143,
-          "sen": 2913,
+          "sen": 2914,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24819,7 +25139,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 144,
-          "sen": 2919,
+          "sen": 2915,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24827,7 +25147,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 145,
-          "sen": 2932,
+          "sen": 2917,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24835,7 +25155,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 146,
-          "sen": 2933,
+          "sen": 2919,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24843,7 +25163,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 147,
-          "sen": 2935,
+          "sen": 2923,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24851,7 +25171,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 148,
-          "sen": 2937,
+          "sen": 2924,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24859,7 +25179,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 149,
-          "sen": 2941,
+          "sen": 2925,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24867,7 +25187,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 150,
-          "sen": 2942,
+          "sen": 2926,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24875,7 +25195,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 151,
-          "sen": 2943,
+          "sen": 2938,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24883,7 +25203,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 152,
-          "sen": 2944,
+          "sen": 2939,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24891,7 +25211,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 153,
-          "sen": 2956,
+          "sen": 2940,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24899,7 +25219,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 154,
-          "sen": 2957,
+          "sen": 2943,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24907,7 +25227,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 155,
-          "sen": 2958,
+          "sen": 2944,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24915,7 +25235,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 156,
-          "sen": 2961,
+          "sen": 2949,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24923,7 +25243,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 157,
-          "sen": 2962,
+          "sen": 2950,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24931,7 +25251,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 158,
-          "sen": 2967,
+          "sen": 2951,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24939,7 +25259,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 159,
-          "sen": 2968,
+          "sen": 2955,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24947,7 +25267,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 160,
-          "sen": 2969,
+          "sen": 2959,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24955,7 +25275,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 161,
-          "sen": 2973,
+          "sen": 2974,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24963,7 +25283,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 162,
-          "sen": 2992,
+          "sen": 2979,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24971,7 +25291,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 163,
-          "sen": 2997,
+          "sen": 2980,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24979,7 +25299,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 164,
-          "sen": 2998,
+          "sen": 2981,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24987,7 +25307,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 165,
-          "sen": 2999,
+          "sen": 2982,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -24995,7 +25315,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 166,
-          "sen": 3000,
+          "sen": 2983,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25003,7 +25323,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 167,
-          "sen": 3001,
+          "sen": 2984,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25011,7 +25331,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 168,
-          "sen": 3002,
+          "sen": 2985,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25019,7 +25339,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 169,
-          "sen": 3003,
+          "sen": 3010,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25027,7 +25347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 170,
-          "sen": 3028,
+          "sen": 3013,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25035,7 +25355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 171,
-          "sen": 3031,
+          "sen": 3015,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25043,7 +25363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 172,
-          "sen": 3033,
+          "sen": 3017,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25051,7 +25371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 173,
-          "sen": 3035,
+          "sen": 3019,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25059,7 +25379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 174,
-          "sen": 3036,
+          "sen": 3044,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25067,7 +25387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 175,
-          "sen": 3037,
+          "sen": 3047,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25075,7 +25395,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 176,
-          "sen": 3062,
+          "sen": 3048,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25083,7 +25403,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 177,
-          "sen": 3065,
+          "sen": 3049,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25091,7 +25411,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 178,
-          "sen": 3066,
+          "sen": 3050,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25099,7 +25419,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 179,
-          "sen": 3067,
+          "sen": 3051,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25107,7 +25427,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 180,
-          "sen": 3068,
+          "sen": 3052,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25115,7 +25435,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 181,
-          "sen": 3069,
+          "sen": 3058,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25123,7 +25443,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 182,
-          "sen": 3070,
+          "sen": 3066,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25131,7 +25451,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 183,
-          "sen": 3084,
+          "sen": 3075,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25139,7 +25459,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 184,
-          "sen": 3093,
+          "sen": 3080,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25147,7 +25467,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 185,
-          "sen": 3098,
+          "sen": 3081,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25155,7 +25475,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 186,
-          "sen": 3099,
+          "sen": 3082,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25163,7 +25483,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 187,
-          "sen": 3100,
+          "sen": 3084,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25171,7 +25491,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 188,
-          "sen": 3101,
+          "sen": 3110,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25179,7 +25499,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 189,
-          "sen": 3102,
+          "sen": 3117,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25187,7 +25507,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 190,
-          "sen": 3128,
+          "sen": 3121,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25203,7 +25523,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 192,
-          "sen": 3139,
+          "sen": 3138,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25211,7 +25531,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 193,
-          "sen": 3153,
+          "sen": 3161,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25219,7 +25539,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 194,
-          "sen": 3156,
+          "sen": 3169,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25227,7 +25547,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 195,
-          "sen": 3179,
+          "sen": 3181,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25243,7 +25563,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 197,
-          "sen": 3199,
+          "sen": 3188,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25251,7 +25571,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 198,
-          "sen": 3205,
+          "sen": 3189,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25259,7 +25579,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 199,
-          "sen": 3206,
+          "sen": 3190,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25267,7 +25587,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 200,
-          "sen": 3207,
+          "sen": 3191,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25275,7 +25595,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 201,
-          "sen": 3208,
+          "sen": 3192,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25283,7 +25603,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 202,
-          "sen": 3209,
+          "sen": 3193,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25291,7 +25611,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 203,
-          "sen": 3210,
+          "sen": 3194,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25299,7 +25619,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 204,
-          "sen": 3211,
+          "sen": 3195,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25315,7 +25635,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 206,
-          "sen": 3213,
+          "sen": 3214,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25323,7 +25643,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 207,
-          "sen": 3230,
+          "sen": 3216,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25331,7 +25651,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 208,
-          "sen": 3232,
+          "sen": 3217,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25339,7 +25659,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 209,
-          "sen": 3234,
+          "sen": 3220,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25347,7 +25667,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 210,
-          "sen": 3235,
+          "sen": 3244,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25355,7 +25675,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 211,
-          "sen": 3236,
+          "sen": 3247,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25363,7 +25683,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 212,
-          "sen": 3263,
+          "sen": 3249,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25371,7 +25691,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 213,
-          "sen": 3266,
+          "sen": 3265,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25379,7 +25699,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 214,
-          "sen": 3268,
+          "sen": 3266,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25395,7 +25715,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 216,
-          "sen": 3285,
+          "sen": 3286,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25403,7 +25723,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 217,
-          "sen": 3303,
+          "sen": 3287,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25411,7 +25731,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 218,
-          "sen": 3305,
+          "sen": 3288,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25419,7 +25739,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 219,
-          "sen": 3306,
+          "sen": 3289,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25427,7 +25747,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 220,
-          "sen": 3307,
+          "sen": 3290,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25435,7 +25755,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 221,
-          "sen": 3308,
+          "sen": 3291,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25443,7 +25763,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 222,
-          "sen": 3309,
+          "sen": 3307,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25451,7 +25771,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 223,
-          "sen": 3310,
+          "sen": 3308,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25459,7 +25779,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 224,
-          "sen": 3326,
+          "sen": 3309,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25467,7 +25787,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 225,
-          "sen": 3327,
+          "sen": 3310,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25475,7 +25795,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 226,
-          "sen": 3328,
+          "sen": 3311,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25483,7 +25803,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 227,
-          "sen": 3329,
+          "sen": 3312,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25491,7 +25811,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 228,
-          "sen": 3330,
+          "sen": 3313,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25499,7 +25819,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 229,
-          "sen": 3331,
+          "sen": 3314,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25507,7 +25827,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 230,
-          "sen": 3332,
+          "sen": 3315,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25515,7 +25835,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 231,
-          "sen": 3333,
+          "sen": 3412,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25523,7 +25843,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 232,
-          "sen": 3334,
+          "sen": 3415,
           "dom": "SDF",
           "eqp": "A30",
           "seat": "FO",
@@ -25561,7 +25881,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 48,
+          "sen": 47,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25569,7 +25889,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 52,
+          "sen": 51,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25577,7 +25897,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 59,
+          "sen": 58,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25585,7 +25905,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 64,
+          "sen": 63,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25593,7 +25913,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 71,
+          "sen": 70,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25601,7 +25921,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 75,
+          "sen": 74,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25609,7 +25929,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 76,
+          "sen": 75,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25617,7 +25937,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 79,
+          "sen": 78,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25625,7 +25945,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 82,
+          "sen": 81,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25633,7 +25953,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 89,
+          "sen": 88,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25641,7 +25961,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 99,
+          "sen": 98,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25649,7 +25969,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 104,
+          "sen": 103,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25657,7 +25977,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 107,
+          "sen": 106,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25665,7 +25985,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 109,
+          "sen": 108,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25673,7 +25993,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 112,
+          "sen": 111,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25681,7 +26001,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 114,
+          "sen": 113,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25689,7 +26009,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 120,
+          "sen": 119,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25697,7 +26017,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 126,
+          "sen": 125,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25705,7 +26025,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 139,
+          "sen": 138,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25713,7 +26033,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 153,
+          "sen": 152,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25721,7 +26041,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 166,
+          "sen": 165,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25729,7 +26049,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 187,
+          "sen": 186,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25737,7 +26057,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 188,
+          "sen": 187,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25745,7 +26065,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 196,
+          "sen": 194,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25753,7 +26073,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 202,
+          "sen": 200,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25761,7 +26081,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 206,
+          "sen": 203,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25769,7 +26089,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 212,
+          "sen": 209,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25777,7 +26097,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 217,
+          "sen": 214,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25785,7 +26105,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 222,
+          "sen": 219,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25793,7 +26113,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 232,
+          "sen": 229,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25801,7 +26121,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 271,
+          "sen": 268,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25809,7 +26129,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 275,
+          "sen": 272,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25817,7 +26137,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 280,
+          "sen": 277,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25825,7 +26145,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 284,
+          "sen": 281,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25833,7 +26153,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 291,
+          "sen": 288,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25841,7 +26161,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 292,
+          "sen": 289,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25849,7 +26169,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 303,
+          "sen": 298,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25857,7 +26177,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 304,
+          "sen": 299,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25865,7 +26185,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 42,
-          "sen": 309,
+          "sen": 304,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25873,7 +26193,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 43,
-          "sen": 324,
+          "sen": 319,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25881,7 +26201,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 44,
-          "sen": 328,
+          "sen": 323,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25889,7 +26209,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 45,
-          "sen": 363,
+          "sen": 358,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25897,7 +26217,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 46,
-          "sen": 365,
+          "sen": 360,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25905,7 +26225,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 373,
+          "sen": 368,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25913,7 +26233,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 381,
+          "sen": 376,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25921,7 +26241,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 389,
+          "sen": 384,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25929,7 +26249,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 50,
-          "sen": 390,
+          "sen": 385,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25937,7 +26257,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 51,
-          "sen": 415,
+          "sen": 410,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25945,7 +26265,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 52,
-          "sen": 436,
+          "sen": 430,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25953,7 +26273,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 53,
-          "sen": 457,
+          "sen": 451,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25961,7 +26281,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 54,
-          "sen": 459,
+          "sen": 453,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25969,7 +26289,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 55,
-          "sen": 469,
+          "sen": 463,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25977,7 +26297,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 56,
-          "sen": 488,
+          "sen": 482,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25985,7 +26305,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 57,
-          "sen": 490,
+          "sen": 484,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -25993,7 +26313,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 495,
+          "sen": 489,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26001,7 +26321,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 511,
+          "sen": 505,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26009,7 +26329,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 515,
+          "sen": 509,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26017,7 +26337,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 516,
+          "sen": 510,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26025,7 +26345,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 521,
+          "sen": 515,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26033,7 +26353,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 522,
+          "sen": 516,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26041,7 +26361,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 523,
+          "sen": 517,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26049,7 +26369,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 524,
+          "sen": 518,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26057,7 +26377,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 537,
+          "sen": 531,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26065,7 +26385,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 540,
+          "sen": 534,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26073,7 +26393,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 558,
+          "sen": 552,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26081,7 +26401,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 69,
-          "sen": 572,
+          "sen": 565,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26089,7 +26409,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 70,
-          "sen": 576,
+          "sen": 569,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26097,7 +26417,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 71,
-          "sen": 577,
+          "sen": 570,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26105,7 +26425,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 72,
-          "sen": 632,
+          "sen": 625,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26113,7 +26433,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 73,
-          "sen": 642,
+          "sen": 635,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26121,7 +26441,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 74,
-          "sen": 645,
+          "sen": 638,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26129,7 +26449,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 75,
-          "sen": 657,
+          "sen": 650,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26137,7 +26457,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 76,
-          "sen": 669,
+          "sen": 662,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26145,7 +26465,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 77,
-          "sen": 672,
+          "sen": 665,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26153,7 +26473,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 78,
-          "sen": 677,
+          "sen": 670,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26161,7 +26481,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 79,
-          "sen": 678,
+          "sen": 671,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26169,7 +26489,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 80,
-          "sen": 689,
+          "sen": 682,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26177,7 +26497,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 81,
-          "sen": 691,
+          "sen": 684,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26185,7 +26505,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 82,
-          "sen": 693,
+          "sen": 686,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26193,7 +26513,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 83,
-          "sen": 695,
+          "sen": 688,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26201,7 +26521,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 84,
-          "sen": 700,
+          "sen": 693,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26209,7 +26529,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 85,
-          "sen": 719,
+          "sen": 712,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26217,7 +26537,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 86,
-          "sen": 728,
+          "sen": 721,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26225,7 +26545,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 87,
-          "sen": 735,
+          "sen": 728,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26233,7 +26553,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 88,
-          "sen": 759,
+          "sen": 752,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26241,7 +26561,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 89,
-          "sen": 781,
+          "sen": 773,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26249,7 +26569,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 90,
-          "sen": 795,
+          "sen": 787,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26257,7 +26577,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 91,
-          "sen": 798,
+          "sen": 797,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26265,7 +26585,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 92,
-          "sen": 805,
+          "sen": 807,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26273,7 +26593,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 93,
-          "sen": 815,
+          "sen": 809,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26281,7 +26601,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 94,
-          "sen": 817,
+          "sen": 923,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26289,7 +26609,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 95,
-          "sen": 860,
+          "sen": 951,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26297,7 +26617,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 96,
-          "sen": 932,
+          "sen": 963,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26305,7 +26625,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 97,
-          "sen": 946,
+          "sen": 964,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26313,7 +26633,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 98,
-          "sen": 960,
+          "sen": 996,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26321,7 +26641,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 99,
-          "sen": 973,
+          "sen": 1005,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26329,7 +26649,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 100,
-          "sen": 974,
+          "sen": 1014,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26337,7 +26657,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 101,
-          "sen": 987,
+          "sen": 1048,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26345,7 +26665,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 102,
-          "sen": 1007,
+          "sen": 1076,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26353,7 +26673,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 103,
-          "sen": 1017,
+          "sen": 1205,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26361,7 +26681,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 104,
-          "sen": 1026,
+          "sen": 1211,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26369,7 +26689,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 105,
-          "sen": 1046,
+          "sen": 1236,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26377,7 +26697,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 106,
-          "sen": 1061,
+          "sen": 1258,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26385,7 +26705,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 107,
-          "sen": 1089,
+          "sen": 1286,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26393,7 +26713,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 108,
-          "sen": 1124,
+          "sen": 1360,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26401,7 +26721,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 109,
-          "sen": 1218,
+          "sen": 1374,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26409,7 +26729,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 110,
-          "sen": 1224,
+          "sen": 1381,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26417,7 +26737,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 111,
-          "sen": 1225,
+          "sen": 1484,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26425,7 +26745,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 112,
-          "sen": 1249,
+          "sen": 1510,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26433,7 +26753,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 113,
-          "sen": 1271,
+          "sen": 1528,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26441,7 +26761,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 114,
-          "sen": 1299,
+          "sen": 1532,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26449,7 +26769,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 115,
-          "sen": 1308,
+          "sen": 1567,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26457,7 +26777,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 116,
-          "sen": 1373,
+          "sen": 1569,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26465,7 +26785,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 117,
-          "sen": 1387,
+          "sen": 1600,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26473,7 +26793,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 118,
-          "sen": 1394,
+          "sen": 1619,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26481,7 +26801,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 119,
-          "sen": 1416,
+          "sen": 1702,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26489,7 +26809,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 120,
-          "sen": 1497,
+          "sen": 1799,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26497,7 +26817,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 121,
-          "sen": 1523,
+          "sen": 1808,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26505,7 +26825,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 122,
-          "sen": 1541,
+          "sen": 1815,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26513,7 +26833,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 123,
-          "sen": 1545,
+          "sen": 1831,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26521,95 +26841,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 124,
-          "sen": 1580,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 125,
-          "sen": 1582,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 126,
-          "sen": 1614,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 127,
-          "sen": 1633,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 128,
-          "sen": 1717,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 129,
-          "sen": 1814,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 130,
-          "sen": 1823,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 131,
-          "sen": 1830,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 132,
-          "sen": 1846,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 133,
-          "sen": 1850,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 134,
-          "sen": 1874,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "CPT",
-          "award": "*"
-        },
-        {
-          "pos": 135,
-          "sen": 1880,
+          "sen": 1859,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "CPT",
@@ -26619,7 +26851,7 @@ const GLOBAL_PILOT_DATA =
       "FO": [
         {
           "pos": 1,
-          "sen": 127,
+          "sen": 126,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26627,7 +26859,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 2,
-          "sen": 353,
+          "sen": 348,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26635,7 +26867,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 3,
-          "sen": 938,
+          "sen": 929,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26643,7 +26875,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 4,
-          "sen": 1025,
+          "sen": 1013,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26651,7 +26883,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 5,
-          "sen": 1080,
+          "sen": 1067,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26659,7 +26891,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 6,
-          "sen": 1145,
+          "sen": 1132,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26667,7 +26899,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 7,
-          "sen": 1146,
+          "sen": 1133,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26675,7 +26907,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 8,
-          "sen": 1208,
+          "sen": 1195,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26683,7 +26915,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 9,
-          "sen": 1212,
+          "sen": 1199,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26691,7 +26923,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 10,
-          "sen": 1426,
+          "sen": 1413,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26699,7 +26931,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 11,
-          "sen": 1431,
+          "sen": 1418,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26707,7 +26939,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 12,
-          "sen": 1519,
+          "sen": 1506,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26715,7 +26947,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 13,
-          "sen": 1587,
+          "sen": 1574,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26723,7 +26955,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 14,
-          "sen": 1655,
+          "sen": 1641,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26731,7 +26963,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 15,
-          "sen": 1703,
+          "sen": 1688,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26739,7 +26971,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 16,
-          "sen": 1744,
+          "sen": 1729,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26747,7 +26979,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 17,
-          "sen": 1761,
+          "sen": 1746,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26755,7 +26987,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 18,
-          "sen": 1790,
+          "sen": 1775,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26763,7 +26995,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 19,
-          "sen": 1793,
+          "sen": 1778,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26771,7 +27003,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 20,
-          "sen": 1794,
+          "sen": 1779,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26779,7 +27011,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 21,
-          "sen": 1878,
+          "sen": 1863,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26787,7 +27019,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 22,
-          "sen": 1895,
+          "sen": 1880,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26795,7 +27027,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 23,
-          "sen": 1909,
+          "sen": 1894,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26803,7 +27035,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 24,
-          "sen": 1920,
+          "sen": 1905,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26811,7 +27043,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 25,
-          "sen": 1935,
+          "sen": 1920,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26819,7 +27051,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 26,
-          "sen": 1940,
+          "sen": 1925,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26827,7 +27059,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 27,
-          "sen": 1942,
+          "sen": 1927,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26835,7 +27067,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 28,
-          "sen": 1961,
+          "sen": 1946,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26843,7 +27075,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 29,
-          "sen": 1963,
+          "sen": 1948,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26851,7 +27083,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 30,
-          "sen": 1977,
+          "sen": 1962,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26859,7 +27091,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 31,
-          "sen": 1981,
+          "sen": 1966,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26867,7 +27099,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 32,
-          "sen": 2043,
+          "sen": 2028,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26875,7 +27107,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 33,
-          "sen": 2055,
+          "sen": 2040,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26883,7 +27115,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 34,
-          "sen": 2096,
+          "sen": 2081,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26891,7 +27123,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 35,
-          "sen": 2159,
+          "sen": 2158,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26899,7 +27131,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 36,
-          "sen": 2173,
+          "sen": 2178,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26907,7 +27139,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 37,
-          "sen": 2192,
+          "sen": 2180,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26915,7 +27147,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 38,
-          "sen": 2193,
+          "sen": 2181,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26923,7 +27155,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 39,
-          "sen": 2194,
+          "sen": 2182,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26931,7 +27163,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 40,
-          "sen": 2195,
+          "sen": 2194,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26939,38 +27171,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 41,
-          "sen": 2196,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 42,
-          "sen": 2197,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 43,
-          "sen": 2198,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 44,
-          "sen": 2199,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 45,
           "sen": 2209,
           "dom": "SDF",
           "eqp": "M1F",
@@ -26978,8 +27178,40 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 42,
+          "sen": 2222,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 43,
+          "sen": 2245,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 44,
+          "sen": 2247,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 45,
+          "sen": 2252,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
           "pos": 46,
-          "sen": 2224,
+          "sen": 2259,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26987,7 +27219,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 47,
-          "sen": 2237,
+          "sen": 2307,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -26995,7 +27227,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 48,
-          "sen": 2260,
+          "sen": 2309,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27003,62 +27235,6 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 49,
-          "sen": 2262,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 50,
-          "sen": 2265,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 51,
-          "sen": 2267,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 52,
-          "sen": 2272,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 53,
-          "sen": 2274,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 54,
-          "sen": 2323,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 55,
-          "sen": 2325,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 56,
           "sen": 2379,
           "dom": "SDF",
           "eqp": "M1F",
@@ -27066,8 +27242,64 @@ const GLOBAL_PILOT_DATA =
           "award": "*"
         },
         {
+          "pos": 50,
+          "sen": 2552,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 51,
+          "sen": 2553,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 52,
+          "sen": 2595,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 53,
+          "sen": 2688,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 54,
+          "sen": 2773,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 55,
+          "sen": 2774,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
+          "pos": 56,
+          "sen": 2816,
+          "dom": "SDF",
+          "eqp": "M1F",
+          "seat": "FO",
+          "award": "*"
+        },
+        {
           "pos": 57,
-          "sen": 2393,
+          "sen": 2991,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27075,7 +27307,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 58,
-          "sen": 2395,
+          "sen": 2993,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27083,7 +27315,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 59,
-          "sen": 2402,
+          "sen": 3023,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27091,7 +27323,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 60,
-          "sen": 2451,
+          "sen": 3060,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27099,7 +27331,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 61,
-          "sen": 2502,
+          "sen": 3061,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27107,7 +27339,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 62,
-          "sen": 2568,
+          "sen": 3127,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27115,7 +27347,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 63,
-          "sen": 2569,
+          "sen": 3128,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27123,7 +27355,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 64,
-          "sen": 2611,
+          "sen": 3155,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27131,7 +27363,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 65,
-          "sen": 2704,
+          "sen": 3157,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27139,7 +27371,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 66,
-          "sen": 2791,
+          "sen": 3201,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27147,7 +27379,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 67,
-          "sen": 2792,
+          "sen": 3202,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
@@ -27155,375 +27387,7 @@ const GLOBAL_PILOT_DATA =
         },
         {
           "pos": 68,
-          "sen": 2812,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 69,
-          "sen": 2834,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 70,
-          "sen": 2864,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 71,
-          "sen": 2983,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 72,
-          "sen": 2986,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 73,
-          "sen": 2987,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 74,
-          "sen": 3008,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 75,
-          "sen": 3009,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 76,
-          "sen": 3010,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 77,
-          "sen": 3011,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 78,
-          "sen": 3038,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 79,
-          "sen": 3041,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 80,
-          "sen": 3042,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 81,
-          "sen": 3043,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 82,
-          "sen": 3076,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 83,
-          "sen": 3078,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 84,
-          "sen": 3079,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 85,
-          "sen": 3143,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 86,
-          "sen": 3145,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 87,
-          "sen": 3146,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 88,
-          "sen": 3147,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 89,
-          "sen": 3148,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 90,
-          "sen": 3149,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 91,
-          "sen": 3150,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 92,
-          "sen": 3151,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 93,
-          "sen": 3173,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 94,
-          "sen": 3175,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 95,
-          "sen": 3190,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 96,
-          "sen": 3191,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 97,
-          "sen": 3216,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 98,
-          "sen": 3219,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 99,
-          "sen": 3220,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 100,
-          "sen": 3221,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 101,
-          "sen": 3222,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 102,
-          "sen": 3238,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 103,
-          "sen": 3239,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 104,
-          "sen": 3240,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 105,
-          "sen": 3243,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 106,
-          "sen": 3275,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 107,
-          "sen": 3277,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 108,
-          "sen": 3287,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 109,
-          "sen": 3289,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 110,
-          "sen": 3290,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 111,
-          "sen": 3291,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 112,
-          "sen": 3312,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 113,
-          "sen": 3313,
-          "dom": "SDF",
-          "eqp": "M1F",
-          "seat": "FO",
-          "award": "*"
-        },
-        {
-          "pos": 114,
-          "sen": 3335,
+          "sen": 3203,
           "dom": "SDF",
           "eqp": "M1F",
           "seat": "FO",
