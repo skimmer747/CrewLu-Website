@@ -9621,48 +9621,25 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   z-index: 2;
 }
 
-.beta-import-callout {
+.beta-import-arrow {
   position: absolute;
-  display: flex;
-  align-items: center;
   z-index: 3;
   pointer-events: none;
 }
 
-.beta-import-callout-screenshot {
-  top: 38%;
+.beta-import-arrow-screenshot {
+  width: 140px;
+  height: 130px;
+  bottom: 8%;
   left: -90px;
-  flex-direction: row;
 }
 
-.beta-import-callout-pdf {
-  top: 38%;
-  right: -60px;
-  flex-direction: row-reverse;
+.beta-import-arrow-pdf {
+  width: 160px;
+  height: 130px;
+  bottom: 8%;
+  right: -110px;
 }
-
-.beta-import-arrow {
-  width: 80px;
-  height: 40px;
-}
-
-.beta-import-chip {
-  display: inline-block;
-  padding: 0.3rem 0.65rem;
-  background: #ffffff;
-  border: 2px solid #cccccc;
-  border-radius: 999px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #333333;
-  white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-}
-
-.beta-import-chip-screenshot { border-color: #FF8C42; color: #c75c1a; }
-.beta-import-chip-pdf { border-color: #34C759; color: #1f8a3f; }
 
 .beta-import-copy {
   flex: 1;
@@ -9920,7 +9897,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   .beta-import-visual {
     flex: 0 0 auto;
   }
-  .beta-import-callout {
+  .beta-import-arrow-screenshot,
+  .beta-import-arrow-pdf {
     display: none;
   }
   .beta-import-copy .actions {
