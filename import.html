@@ -174,6 +174,108 @@
 						<strong>And if you use a different Apple ID on your EFK than on your personal iPhone, you will have to subscribe twice.</strong> Apple rules, not mine.</p>
 				</div>
 
+				<!-- v2.2.0 Beta Import Methods -->
+				<section class="beta-import-section" aria-labelledby="beta-import-title">
+					<div class="beta-import-header">
+						<span class="beta-import-version">v2.2.0+</span>
+						<h2 id="beta-import-title">
+							New &mdash; Import in seconds
+							<span class="beta-import-pill">Beta</span>
+						</h2>
+						<p class="beta-import-sub">Crewlu can now read your schedule straight off a screenshot or a PDF. Tap the button in the app &mdash; we&rsquo;ll do the rest.</p>
+					</div>
+
+					<div class="beta-import-hero">
+						<div class="beta-import-visual" aria-hidden="true">
+							<div class="beta-import-phone">
+								<div class="beta-import-notch"></div>
+								<img src="images/Screenshotorpdfview.PNG" alt="" />
+							</div>
+							<div class="beta-import-callout beta-import-callout-screenshot">
+								<svg class="beta-import-arrow" viewBox="0 0 120 60" preserveAspectRatio="none">
+									<path d="M 10 10 Q 60 10 110 50" stroke="#FF8C42" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+									<polygon points="106,42 116,52 102,52" fill="#FF8C42" />
+								</svg>
+								<span class="beta-import-chip beta-import-chip-screenshot">Beta &middot; Screenshot</span>
+							</div>
+							<div class="beta-import-callout beta-import-callout-pdf">
+								<svg class="beta-import-arrow" viewBox="0 0 120 60" preserveAspectRatio="none">
+									<path d="M 110 10 Q 60 10 10 50" stroke="#34C759" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+									<polygon points="14,42 4,52 18,52" fill="#34C759" />
+								</svg>
+								<span class="beta-import-chip beta-import-chip-pdf">Beta &middot; PDF</span>
+							</div>
+						</div>
+
+						<div class="beta-import-copy">
+							<p>Two new ways to land your schedule in Crewlu without retyping a thing. Both are in active testing &mdash; pick whichever matches what you&rsquo;ve got in front of you.</p>
+							<p class="beta-import-mobile-chips" aria-hidden="true">
+								<span class="beta-import-chip beta-import-chip-screenshot">Beta &middot; Screenshot</span>
+								<span class="beta-import-chip beta-import-chip-pdf">Beta &middot; PDF</span>
+							</p>
+							<ul class="actions">
+								<li><a href="#screenshot-import" class="button beta-import-jump beta-import-jump-screenshot">How Screenshot works &darr;</a></li>
+								<li><a href="#pdf-import" class="button beta-import-jump beta-import-jump-pdf">How PDF works &darr;</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<article class="beta-import-card beta-import-card-screenshot" id="screenshot-import">
+						<header class="beta-import-card-header">
+							<span class="beta-import-card-icon" aria-hidden="true">&#9635;</span>
+							<h3>Screenshot Import</h3>
+							<span class="beta-import-pill beta-import-pill-screenshot">Beta</span>
+						</header>
+						<dl class="beta-import-rows">
+							<dt><i class="fas fa-crop" aria-hidden="true"></i> How to Import</dt>
+							<dd>Zoom your schedule as large as it&rsquo;ll go, crop out the clutter, and take a screenshot. Save it to Photos or AirDrop it to your iPhone. On the EFK use Safari &mdash; Edge blocks screenshots. Then open Crewlu, tap the orange <strong>Screenshot</strong> button, and pick the image.</dd>
+
+							<dt><i class="fas fa-file-alt" aria-hidden="true"></i> Supported Formats</dt>
+							<dd>Try anything. Most layouts work.</dd>
+
+							<dt><i class="fas fa-magic" aria-hidden="true"></i> For Best Results</dt>
+							<dd>In Zscaler, screenshots taken from Safari on the EFK are the most accurate, followed by a Mac, then a personal iPad, then the iPhone (which can be tricky).</dd>
+
+							<dt><i class="fas fa-clipboard-check" aria-hidden="true"></i> Double-Check Details</dt>
+							<dd>Always verify flight numbers, report times, and dates against your official airline schedule before relying on them.</dd>
+
+							<dt><i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Risky Format</dt>
+							<dd>Low brightness, custom fonts, or blur can throw off the OCR scanner and produce small mistakes that affect flight times.</dd>
+
+							<dt><i class="fas fa-camera" aria-hidden="true"></i> Can I just photograph a screen?</dt>
+							<dd>No. Glare, moir&eacute; patterns, and angle distortion scramble the scanner. Always use a direct screenshot.</dd>
+
+							<dt><i class="fas fa-envelope" aria-hidden="true"></i> Not Working? Send It To Me</dt>
+							<dd>Tap <em>Report This Import</em> on the error message. Mail opens with the screenshot attached and a short diagnostic block so I can see exactly what your phone saw and fix what&rsquo;s broken.</dd>
+						</dl>
+						<a class="beta-import-back" href="#beta-import-title">&uarr; Back to top</a>
+					</article>
+
+					<article class="beta-import-card beta-import-card-pdf" id="pdf-import">
+						<header class="beta-import-card-header">
+							<span class="beta-import-card-icon" aria-hidden="true">&#9646;</span>
+							<h3>PDF Import</h3>
+							<span class="beta-import-pill beta-import-pill-pdf">Beta</span>
+						</header>
+						<dl class="beta-import-rows">
+							<dt><i class="fas fa-file-download" aria-hidden="true"></i> How to Import</dt>
+							<dd>Tap the green <strong>PDF</strong> button in Crewlu and pick the file. Or, with the PDF open in another app, hit the share sheet and choose Crewlu.</dd>
+
+							<dt><i class="fas fa-file-pdf" aria-hidden="true"></i> Supported PDFs</dt>
+							<dd>Altour / Travelport ViewTrip itineraries from email, and training schedules from Mint. That&rsquo;s the list so far &mdash; send me examples that don&rsquo;t work and I&rsquo;ll add support.</dd>
+
+							<dt><i class="fas fa-clipboard-check" aria-hidden="true"></i> Double-Check Details</dt>
+							<dd>Always verify flight numbers, report times, and dates against your official airline schedule before relying on them.</dd>
+
+							<dt><i class="fas fa-envelope" aria-hidden="true"></i> Not Working? Send It To Me</dt>
+							<dd>Tap <em>Report This Import</em> on the error message. Mail opens with the PDF attached and a short diagnostic block so I can see exactly what your phone read and fix what&rsquo;s broken.</dd>
+						</dl>
+						<a class="beta-import-back" href="#beta-import-title">&uarr; Back to top</a>
+					</article>
+
+					<p class="beta-import-footnote"><em>Both methods are in active testing. Always verify flight numbers, report times, and dates against your official airline schedule before relying on them.</em></p>
+				</section>
+
 				<!-- Wizard container -->
 				<div class="import-wizard" id="import-wizard">
 					
