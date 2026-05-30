@@ -9520,8 +9520,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   margin: 0 0 3rem 0;
   padding: 2rem 1.75rem 1.75rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.10), rgba(236, 72, 153, 0.08));
-  border: 1px solid rgba(168, 85, 247, 0.25);
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.14), rgba(52, 199, 89, 0.12));
+  border: 1px solid rgba(255, 140, 66, 0.3);
 }
 
 .beta-import-header {
@@ -9532,8 +9532,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 .beta-import-version {
   display: inline-block;
   padding: 0.18rem 0.65rem;
-  border: 1px solid rgba(168, 85, 247, 0.5);
-  color: #a855f7;
+  border: 1px solid rgba(255, 140, 66, 0.5);
+  color: #c75c1a;
   border-radius: 999px;
   font-size: 0.7rem;
   font-weight: 700;
@@ -9556,7 +9556,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 .beta-import-pill {
   display: inline-block;
   padding: 0.18rem 0.6rem;
-  background: #a855f7;
+  background: #FF8C42;
   color: #ffffff !important;
   border-radius: 999px;
   font-size: 0.65rem;
@@ -9795,7 +9795,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #a855f7 !important;
+  color: #c75c1a !important;
   border-bottom: none !important;
 }
 
