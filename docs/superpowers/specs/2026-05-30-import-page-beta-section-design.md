@@ -97,11 +97,11 @@ Single CSS breakpoint at **`max-width: 700px`** (matches existing site conventio
 
 1. **`import.html`** — insert ~80 lines of new HTML between EFK disclaimer and `#import-wizard`. No existing markup modified.
 2. **`assets/css/main.css`** — append a new block of `~150` lines, all classes namespaced `.beta-import-*` so they cannot collide with existing styles. No existing rules modified.
-3. **`images/import-schedule-sheet.png`** — new asset. Source is the user's reference image #6 (the in-app Import Schedule sheet screenshot). The image cache used during brainstorming is no longer available, so the user must provide the file before implementation. Naming convention: lowercase-hyphenated, matching `app-store-badge.svg` style.
+3. **`images/Screenshotorpdfview.png`** — new asset. Source is the user's reference image #6 (the in-app Import Schedule sheet screenshot). The image cache used during brainstorming is no longer available, so the user must drop this file into `images/` before implementation.
 
 ## Open Items / Prerequisites for Implementation
 
-- [ ] **User provides** `images/import-schedule-sheet.png` (image #6 from the brainstorming session). Implementation plan will include a placeholder until this asset lands.
+- [ ] **User provides** `images/Screenshotorpdfview.png` (image #6 from the brainstorming session). Implementation plan will include a placeholder until this asset lands.
 - [ ] Confirm exact wording of the hero subhead and footer disclaimer (current copy is a draft).
 
 ## Out of Scope (future work)
