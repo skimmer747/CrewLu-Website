@@ -9674,12 +9674,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   color: inherit;
 }
 
-.beta-import-mobile-chips {
-  display: none;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
 .beta-import-copy .actions {
   margin-bottom: 0;
   flex-wrap: wrap;
@@ -9852,9 +9846,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
   .beta-import-callout {
     display: none;
-  }
-  .beta-import-mobile-chips {
-    display: flex;
   }
   .beta-import-copy .actions {
     flex-direction: column;
