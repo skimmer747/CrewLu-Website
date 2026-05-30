@@ -9630,15 +9630,15 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 .beta-import-arrow-screenshot {
   width: 140px;
   height: 130px;
-  bottom: 8%;
-  left: -90px;
+  bottom: 60px;
+  left: -55px;
 }
 
 .beta-import-arrow-pdf {
   width: 160px;
   height: 130px;
-  bottom: 8%;
-  right: -110px;
+  bottom: 60px;
+  right: -10px;
 }
 
 .beta-import-copy {
