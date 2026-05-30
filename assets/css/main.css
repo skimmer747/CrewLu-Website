@@ -9623,13 +9623,14 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 .beta-import-glow {
   position: absolute;
+  display: block;
   width: 56px;
   height: 56px;
   border-radius: 50%;
   pointer-events: none;
   z-index: 3;
   border: 3px solid currentColor;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
   animation: beta-import-pulse 1.8s ease-in-out infinite;
 }
 
@@ -9649,12 +9650,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @keyframes beta-import-pulse {
   0%, 100% {
-    transform: translate(-50%, -50%) scale(0.92);
+    transform: translate(-50%, 50%) scale(0.92);
     opacity: 0.9;
     box-shadow: 0 0 0 0 currentColor;
   }
   50% {
-    transform: translate(-50%, -50%) scale(1.12);
+    transform: translate(-50%, 50%) scale(1.12);
     opacity: 0.4;
     box-shadow: 0 0 24px 6px currentColor;
   }
