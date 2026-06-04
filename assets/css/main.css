@@ -8453,7 +8453,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   line-height: 4rem;
   margin: -4rem auto 0 auto;
   overflow: hidden;
-  padding: 0 2rem 0 0;
+  padding: 0 1rem 0 0;
   position: relative;
   width: calc(100% - 4rem);
   max-width: 72rem;
@@ -8474,7 +8474,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   flex-shrink: 1;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 900;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.05em;
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
@@ -8493,7 +8493,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: block;
   font-size: 0.8rem;
   outline: none;
-  padding: 0 1.25rem;
+  padding: 0 0.95rem;
   white-space: nowrap;
 }
 #nav ul.links li a:hover {
