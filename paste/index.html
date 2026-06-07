@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Crewlu Schedule Paste</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 20px; background:#f5f5f7; color:#1d1d1f; }
+  .card { max-width: 640px; margin: 0 auto 16px; background:#fff; border-radius:14px; padding:18px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  h1 { font-size:20px; margin:0 0 4px; }
+  h2 { font-size:16px; margin:0 0 10px; }
+  p.sub { color:#6e6e73; margin:0 0 14px; font-size:13px; }
+  textarea { width:100%; box-sizing:border-box; height:160px; font-size:15px; padding:10px; border:1px solid #d2d2d7; border-radius:10px; }
+  input { width:100%; box-sizing:border-box; font-size:18px; padding:12px; border:1px solid #d2d2d7; border-radius:10px; text-transform:uppercase; letter-spacing:2px; }
+  button { margin-top:12px; width:100%; font-size:17px; padding:13px; border:0; border-radius:10px; background:#0071e3; color:#fff; font-weight:600; position:relative; overflow:hidden; }
+  button:disabled { opacity:.5; }
+  .btnrow { display:flex; gap:10px; }
+  .btnrow button { flex:1; width:auto; }
+  .secondary { background:#e8e8ed; color:#1d1d1f; }
+  a.btn { display:block; box-sizing:border-box; text-align:center; text-decoration:none; margin-top:12px; width:100%; font-size:17px; padding:13px; border-radius:10px; font-weight:600; }
+  .videolink { display:block; text-align:center; text-decoration:none; margin-top:12px; font-size:14px; color:#0071e3; }
+  .videothumb { display:block; position:relative; margin-top:12px; border-radius:10px; overflow:hidden; line-height:0; }
+  .videothumb img { width:100%; display:block; }
+  .videothumb::after {
+    content:""; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:54px; height:54px; border-radius:50%; background:rgba(0,0,0,.55);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:54% center;
+  }
+
+  /* Tap feedback: a color disc covers the button and closes inward to the
+     exact spot that was tapped. The disc is positioned/sized in JS. */
+  .ripple {
+    position:absolute; border-radius:50%; pointer-events:none;
+    background:radial-gradient(circle, rgba(255,255,255,.6) 0%, rgba(255,255,255,.3) 100%);
+    animation:rippleIn .4s ease-out forwards;
+  }
+  @keyframes rippleIn {
+    from { transform:scale(1); opacity:.7; }
+    to   { transform:scale(0); opacity:0; }
+  }
+
+  .code { font-size:34px; font-weight:700; letter-spacing:6px; text-align:center; margin:14px 0; font-variant-numeric:tabular-nums; }
+  .timer { text-align:center; font-variant-numeric:tabular-nums; }
+  .out { white-space:pre-wrap; word-break:break-word; background:#f5f5f7; border-radius:10px; padding:12px; font-size:13px; max-height:240px; overflow:auto; }
+  .err { color:#c00; font-size:14px; margin-top:10px; }
+  .hidden { display:none; }
+
+  @media (prefers-color-scheme: dark) {
+    body { background:#000; color:#f5f5f7; }
+    .card { background:#1c1c1e; box-shadow:none; border:1px solid #2c2c2e; }
+    p.sub { color:#98989d; }
+    textarea, input { background:#2c2c2e; color:#f5f5f7; border-color:#48484a; }
+    textarea::placeholder, input::placeholder { color:#8e8e93; }
+    .out { background:#2c2c2e; color:#f5f5f7; }
+    button { background:#0a84ff; color:#fff; }
+    .secondary { background:#3a3a3c; color:#f5f5f7; }
+    .videolink { color:#0a84ff; }
+    .err { color:#ff6961; }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Crewlu Schedule Paste</h1>
+    <p class="sub">Move your schedule from this iPad to your phone. Nothing is kept more than 15 minutes, and each code works once.</p>
+  </div>
+
+  <div class="card">
+    <h2>1. Send from this iPad</h2>
+    <textarea id="text" placeholder="Paste your schedule here"></textarea>
+    <div id="textState" class="btnrow hidden">
+      <button id="send">Send</button>
+      <button id="clear" class="secondary">Clear</button>
+    </div>
+    <div id="sendErr" class="err hidden"></div>
+    <div id="codeWrap" class="hidden">
+      <p class="sub">On your phone, open this same page and enter:</p>
+      <div class="code" id="code"></div>
+      <p class="sub timer" id="codeTimer"></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. Receive on your phone</h2>
+    <input id="codeIn" placeholder="ENTER CODE" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off">
+    <button id="recv">Get schedule</button>
+    <div id="recvErr" class="err hidden"></div>
+    <div id="outWrap" class="hidden">
+      <div class="out" id="out"></div>
+      <button id="copy">Copy</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>EFK Shortcut</h2>
+    <p class="sub">Add this once on your iPad — it grabs your schedule and opens this page ready to send, no copy/paste needed.</p>
+    <a class="btn secondary" href="https://www.icloud.com/shortcuts/44ba6750f32e4bacb5151e355244ddf2" target="_blank" rel="noopener">Add Shortcut</a>
+    <a class="videothumb" href="https://youtu.be/qbRJEvdVl-w" target="_blank" rel="noopener" aria-label="Watch the setup video">
+      <img src="https://img.youtube.com/vi/qbRJEvdVl-w/hqdefault.jpg" alt="Setup video thumbnail">
+    </a>
+  </div>
+
+<script>
+(function(){
+  // The relay API lives on the calendar Worker (same host the iOS app uses).
+  // This page is served from crewlu.net, so these calls are cross-origin — the
+  // Worker already sends Access-Control-Allow-Origin: *.
+  var RELAY = 'https://calendar.crewlu.net';
+
+  function el(id){ return document.getElementById(id); }
+  function show(n){ n.classList.remove('hidden'); }
+  function hide(n){ n.classList.add('hidden'); }
+
+  // How long the tap feedback lasts; we hold the follow-up action this long
+  // so the animation is seen before a button hides itself (row swap).
+  var FEEDBACK_MS = 400;
+
+  // Tap feedback: a color disc closes inward to the exact tapped point.
+  function rippleIn(btn, ev){
+    if (!btn) return;
+    var rect = btn.getBoundingClientRect();
+    var x, y;
+    if (ev && (ev.clientX || ev.clientY)){ x = ev.clientX - rect.left; y = ev.clientY - rect.top; }
+    else { x = rect.width / 2; y = rect.height / 2; } // no tap point -> center
+    // Radius reaches the farthest corner so the disc covers the whole button.
+    var dx = Math.max(x, rect.width - x);
+    var dy = Math.max(y, rect.height - y);
+    var r = Math.sqrt(dx*dx + dy*dy);
+    var s = document.createElement('span');
+    s.className = 'ripple';
+    s.style.left = x + 'px';
+    s.style.top = y + 'px';
+    s.style.width = s.style.height = (2 * r) + 'px';
+    s.style.marginLeft = (-r) + 'px'; // center the disc on the tapped point
+    s.style.marginTop = (-r) + 'px';
+    s.addEventListener('animationend', function(){ if (s.parentNode){ s.parentNode.removeChild(s); } });
+    btn.appendChild(s);
+  }
+
+  // Box empty -> no buttons; box has text -> [Send] [Clear].
+  function updateButtons(){
+    if (el('text').value.trim().length > 0){ show(el('textState')); }
+    else { hide(el('textState')); }
+  }
+
+  var codeCountdown = null;
+
+  function stopCountdown(){ if (codeCountdown){ clearInterval(codeCountdown); codeCountdown = null; } }
+
+  // Count `seconds` down to zero in elem, then show "Expired".
+  function startCountdown(seconds, elem){
+    stopCountdown();
+    var end = Date.now() + seconds * 1000;
+    function tick(){
+      var ms = end - Date.now();
+      if (ms <= 0){ elem.textContent = 'Expired'; stopCountdown(); return; }
+      var total = Math.ceil(ms / 1000);
+      var mm = Math.floor(total / 60), ss = total % 60;
+      elem.textContent = 'Expires in ' + mm + ':' + (ss < 10 ? '0' : '') + ss;
+    }
+    tick();
+    codeCountdown = setInterval(tick, 1000);
+  }
+
+  function doSend(){
+    var t = el('text').value;
+    hide(el('sendErr'));
+    if (!t || t.trim().length === 0){ el('sendErr').textContent = 'Nothing to send.'; show(el('sendErr')); return; }
+    el('send').disabled = true;
+    fetch(RELAY + '/r', { method:'POST', headers:{'Content-Type':'text/plain'}, body:t })
+      .then(function(r){ if(!r.ok){ throw new Error('Send failed (' + r.status + ')'); } return r.json(); })
+      .then(function(j){ el('code').textContent = j.code; show(el('codeWrap')); startCountdown(900, el('codeTimer')); })
+      .catch(function(e){ el('sendErr').textContent = e.message; show(el('sendErr')); })
+      .then(function(){ el('send').disabled = false; });
+  }
+
+  el('send').addEventListener('click', function(ev){
+    if (el('text').value.trim().length === 0){ doSend(); return; }
+    rippleIn(this, ev);
+    setTimeout(doSend, FEEDBACK_MS);
+  });
+
+  el('clear').addEventListener('click', function(ev){
+    rippleIn(this, ev); // confirm the tap before the box clears and buttons swap back
+    setTimeout(function(){
+      el('text').value = '';
+      hide(el('sendErr'));
+      hide(el('codeWrap'));
+      stopCountdown();
+      updateButtons();
+    }, FEEDBACK_MS);
+  });
+
+  el('text').addEventListener('input', updateButtons);
+
+  function doReceive(){
+    var c = el('codeIn').value.replace(/\D/g, '');
+    hide(el('recvErr')); hide(el('outWrap'));
+    if (!c){ el('recvErr').textContent = 'Enter the code shown on the iPad.'; show(el('recvErr')); return; }
+    el('recv').disabled = true;
+    fetch(RELAY + '/r/' + encodeURIComponent(c))
+      .then(function(r){
+        if (r.status === 404){ throw new Error('Code not found or expired. On the iPad, tap Send again for a new code.'); }
+        if (!r.ok){ throw new Error('Could not fetch (' + r.status + ')'); }
+        return r.text();
+      })
+      .then(function(text){ el('out').textContent = text; show(el('outWrap')); hide(el('recv')); })
+      .catch(function(e){ el('recvErr').textContent = e.message; show(el('recvErr')); })
+      .then(function(){ el('recv').disabled = false; });
+  }
+
+  // Keep the box to digits; auto-fetch once all 4 are entered.
+  el('codeIn').addEventListener('input', function(){
+    var digits = this.value.replace(/\D/g, '');
+    if (digits !== this.value){ this.value = digits; }
+    hide(el('recvErr')); hide(el('outWrap')); show(el('recv')); // editing -> reset the receive area
+    if (digits.length === 4){ this.blur(); doReceive(); }
+  });
+
+  el('recv').addEventListener('click', function(ev){
+    if (!el('codeIn').value.replace(/\D/g, '')){ doReceive(); return; }
+    rippleIn(this, ev);
+    setTimeout(doReceive, FEEDBACK_MS);
+  });
+
+  el('copy').addEventListener('click', function(ev){
+    rippleIn(this, ev);
+    var text = el('out').textContent;
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ el('copy').textContent = 'Copied'; });
+    } else {
+      var range = document.createRange(); range.selectNodeContents(el('out'));
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      try { document.execCommand('copy'); el('copy').textContent = 'Copied'; } catch(e){}
+    }
+  });
+
+  updateButtons();
+
+  // Shortcut/deep-link support: if opened with the schedule in the URL
+  // (#data=... preferred, ?data=... also accepted), drop it in the box and
+  // send automatically. Purely additive — does nothing on a normal visit.
+  (function(){
+    var incoming = null;
+    var hash = window.location.hash;
+    if (hash && hash.length > 1){
+      var h = new URLSearchParams(hash.slice(1));
+      if (h.has('data')){ incoming = h.get('data'); }
+    }
+    if (incoming === null){
+      var q = new URLSearchParams(window.location.search);
+      if (q.has('data')){ incoming = q.get('data'); }
+    }
+    if (incoming && incoming.trim()){
+      el('text').value = incoming;
+      updateButtons();
+      try { history.replaceState(null, '', window.location.pathname); } catch(e){}
+      doSend();
+    }
+  })();
+})();
+</script>
+</body>
+</html>
