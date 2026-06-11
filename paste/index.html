@@ -64,11 +64,11 @@
 <body>
   <div class="card">
     <h1>Crewlu Schedule Paste</h1>
-    <p class="sub">Move your schedule from this iPad to your phone. Nothing is kept more than 15 minutes, and each code works once.</p>
+    <p class="sub">Move your schedule from your EFK to your iPhone. Nothing is kept more than 15 minutes, and each code works once.</p>
   </div>
 
   <div class="card">
-    <h2>1. Send from this iPad</h2>
+    <h2>1. Send from this EFK</h2>
     <textarea id="text" placeholder="Paste your schedule here"></textarea>
     <div id="textState" class="btnrow hidden">
       <button id="send">Send</button>
@@ -76,14 +76,14 @@
     </div>
     <div id="sendErr" class="err hidden"></div>
     <div id="codeWrap" class="hidden">
-      <p class="sub">On your phone, open this same page and enter:</p>
+      <p class="sub">On your iPhone, open this same page and enter:</p>
       <div class="code" id="code"></div>
       <p class="sub timer" id="codeTimer"></p>
     </div>
   </div>
 
   <div class="card">
-    <h2>2. Receive on your phone</h2>
+    <h2>2. Receive on your iPhone</h2>
     <input id="codeIn" placeholder="ENTER CODE" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="off">
     <button id="recv">Get schedule</button>
     <div id="recvErr" class="err hidden"></div>
@@ -95,7 +95,7 @@
 
   <div class="card">
     <h2>EFK Shortcut</h2>
-    <p class="sub">Add this once on your iPad — it grabs your schedule and opens this page ready to send, no copy/paste needed.</p>
+    <p class="sub">Add this once on your EFK — it grabs your schedule and opens this page ready to send, no copy/paste needed.</p>
     <a class="btn secondary" href="https://www.icloud.com/shortcuts/44ba6750f32e4bacb5151e355244ddf2" target="_blank" rel="noopener">Add Shortcut</a>
     <a class="videothumb" href="https://youtu.be/h5r-vsK2Xis" target="_blank" rel="noopener" aria-label="Watch the setup video">
       <img src="https://img.youtube.com/vi/h5r-vsK2Xis/hqdefault.jpg" alt="Setup video thumbnail">
@@ -198,11 +198,11 @@
   function doReceive(){
     var c = el('codeIn').value.replace(/\D/g, '');
     hide(el('recvErr')); hide(el('outWrap'));
-    if (!c){ el('recvErr').textContent = 'Enter the code shown on the iPad.'; show(el('recvErr')); return; }
+    if (!c){ el('recvErr').textContent = 'Enter the code shown on the EFK.'; show(el('recvErr')); return; }
     el('recv').disabled = true;
     fetch(RELAY + '/r/' + encodeURIComponent(c))
       .then(function(r){
-        if (r.status === 404){ throw new Error('Code not found or expired. On the iPad, tap Send again for a new code.'); }
+        if (r.status === 404){ throw new Error('Code not found or expired. On the EFK, tap Send again for a new code.'); }
         if (!r.ok){ throw new Error('Could not fetch (' + r.status + ')'); }
         return r.text();
       })
