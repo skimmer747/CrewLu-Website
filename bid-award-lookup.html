@@ -85,7 +85,7 @@
 	</script>
 	<title>Bid Summary Lookup - CrewLu</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description"
 		content="Determine which schedule line you'll be awarded based on seniority bidding. Paste your bid data to see award results." />
 	<meta name="color-scheme" content="light dark" />
@@ -101,7 +101,7 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 	<link rel="manifest" href="manifest.webmanifest" />
 	<meta name="theme-color" content="#0c1c2c" />
-	<link rel="stylesheet" href="assets/css/main.css?v=2" />
+	<link rel="stylesheet" href="assets/css/main.css?v=5" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -1272,6 +1272,15 @@
 
 			.bid-popup-footer {
 				border-top-color: rgba(0, 0, 0, 0.08);
+			}
+		}
+
+		/* Mobile: let the results table scroll instead of breaking layout */
+		@media (max-width: 736px) {
+			.group-table {
+				display: block;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
 			}
 		}
 	</style>
