@@ -408,7 +408,7 @@
 			font-weight: 700;
 		}
 
-		@media (prefers-color-scheme: light) {
+		@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
 			.results-summary {
 				background: rgba(24, 191, 239, 0.1);
 				border: 1px solid rgba(24, 191, 239, 0.2);
@@ -555,7 +555,7 @@
 		}
 
 		/* Light mode overrides for Fun Facts */
-		@media (prefers-color-scheme: light) {
+		@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
 			.fun-facts-container {
 				border-top-color: rgba(0, 0, 0, 0.1);
 			}
@@ -816,7 +816,7 @@
 		}
 
 		/* Light mode adjustments for progress bar */
-		@media (prefers-color-scheme: light) {
+		@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
 			.progress-track {
 				background: rgba(0, 0, 0, 0.15);
 				/* Darker for visibility */

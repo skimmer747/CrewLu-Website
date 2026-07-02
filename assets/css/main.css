@@ -2947,7 +2947,7 @@ table.alt tbody tr td {
   --wizard-card-outline: rgba(255, 255, 255, 0.6);
 }
 
-@media (prefers-color-scheme: light) {
+@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
   .import-wizard {
     --wizard-glass-bg: rgba(0, 0, 0, 0.02);
     --wizard-glass-border: rgba(0, 0, 0, 0.08);
@@ -5141,7 +5141,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   max-width: 72rem;
   z-index: 2;
 }
-@media (prefers-color-scheme: light) {
+@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
   #copyright {
     color: rgba(0, 0, 0, 0.4);
   }
@@ -6189,4 +6189,44 @@ label, table th, .pagination a, .pagination span, .feature-grid-title {
 }
 #main > .post, .post.featured {
   padding: var(--no-space-l) var(--no-space-m);
+}
+
+/* --- NIGHT OPS: dark-first shell ------------------------------ */
+html {
+  color-scheme: dark;
+}
+:root {
+  --color-bg: var(--no-ink-0);
+  --color-bg-alt: var(--no-ink-1);
+  --color-wrapper-bg: transparent;
+  --color-fg: #d7e6f2;
+  --color-fg-bold: #ffffff;
+  --color-fg-light: #8fb8cf;
+  --color-border: var(--no-hairline);
+  --color-border-bg: rgba(120, 200, 255, 0.08);
+  --color-card-bg: var(--no-glass);
+  --color-card-border: var(--no-hairline);
+  --color-nav-bg: rgba(10, 20, 32, 0.7);
+  --color-nav-border: var(--no-hairline);
+  --color-gradient-primary: linear-gradient(135deg, var(--no-coral), var(--no-amber));
+  --color-gradient-secondary: linear-gradient(135deg, #0e9fd8, var(--no-cyan));
+  --overlay-bg: rgba(4, 17, 31, 0.6);
+  --color-caption-bg: rgba(4, 17, 31, 0.8);
+  --color-button-bg: rgba(4, 17, 31, 0.7);
+}
+body {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #14304a 0%, rgba(20, 48, 74, 0) 60%),
+    linear-gradient(180deg, var(--no-ink-0) 0%, var(--no-ink-1) 45%, var(--no-ink-1) 100%);
+  background-attachment: fixed;
+  color: var(--color-fg);
+}
+#wrapper {
+  background: transparent;
+}
+.logo-light, .intro-logo.logo-light {
+  display: none !important;
+}
+.logo-dark, .intro-logo.logo-dark {
+  display: inline-block !important;
 }

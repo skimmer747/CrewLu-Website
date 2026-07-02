@@ -973,7 +973,7 @@
 		}
 
 		/* Light mode overrides */
-		@media (prefers-color-scheme: light) {
+		@media not all /* light scheme disabled: NIGHT OPS is dark-first */ {
 			.bid-input-section {
 				background: rgba(255, 255, 255, 0.8);
 				border: 1px solid rgba(0, 0, 0, 0.1);
