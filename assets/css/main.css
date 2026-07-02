@@ -339,7 +339,7 @@ hr {
   --transition-theme: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   :root {
     --color-bg: #000000;
     --color-bg-alt: #1a1a1a;
@@ -4143,7 +4143,7 @@ body.is-preload #wrapper.fade-in:before {
 :root[data-theme=dark] #intro .intro-logo.logo-dark {
   display: block;
 }
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   #intro .intro-logo.logo-light {
     display: none;
   }
@@ -4347,7 +4347,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 :root[data-theme=dark] #header .logo img.logo-dark {
   display: block;
 }
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   #header .logo img.logo-light {
     display: none;
   }
@@ -5149,7 +5149,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 :root[data-theme=light] #copyright {
   color: rgba(0, 0, 0, 0.4);
 }
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   #copyright {
     color: rgba(255, 255, 255, 0.5);
   }
@@ -5795,7 +5795,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   .legacy-import-section {
     background: linear-gradient(135deg, rgba(210, 180, 140, 0.10), rgba(222, 184, 135, 0.06));
     border-color: rgba(210, 180, 140, 0.25);
@@ -5816,7 +5816,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 /* Dark mode card surfaces */
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   .beta-import-card {
     background: #1f1f23;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
@@ -6045,7 +6045,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   .clu-dart-glow { offset-distance: 62%; opacity: 1; }
   .clu-halo { opacity: .7; }
 }
-@media (prefers-color-scheme: dark) {
+@media all /* dark styles apply always: NIGHT OPS is dark-first */ {
   .clu-portal {
     background:
       radial-gradient(120% 140% at 12% 0%, rgba(24, 191, 239, .14), transparent 55%),
@@ -6194,6 +6194,7 @@ label, table th, .pagination a, .pagination span, .feature-grid-title {
 /* --- NIGHT OPS: dark-first shell ------------------------------ */
 html {
   color-scheme: dark;
+  background: #04111f; /* overscroll bounce shows html, not body — keep it night-sky */
 }
 :root {
   --color-bg: var(--no-ink-0);
