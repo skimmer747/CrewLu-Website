@@ -6166,3 +6166,27 @@ label, table th, .pagination a, .pagination span, .feature-grid-title {
 .beta-import-jump, .videolink {
   border-radius: 999px;
 }
+
+/* --- NIGHT OPS: scroll-reveal (gated on .reveal-ready from reveal.js) --- */
+.reveal-ready #main .post, .reveal-ready .feature-card,
+.reveal-ready .clu-portal, .reveal-ready #main header.major {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal-ready #main .post.is-in, .reveal-ready .feature-card.is-in,
+.reveal-ready .clu-portal.is-in, .reveal-ready #main header.major.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* --- NIGHT OPS: view transitions + fluid rhythm --------------- */
+@view-transition {
+  navigation: auto;
+}
+#header .logo {
+  view-transition-name: clu-logo;
+}
+#main > .post, .post.featured {
+  padding: var(--no-space-l) var(--no-space-m);
+}
