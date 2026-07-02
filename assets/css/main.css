@@ -6425,3 +6425,6 @@ body {
 .consent-text p {
   color: #8fb8cf;
 }
+header.major p {
+  font-style: normal;
+}
