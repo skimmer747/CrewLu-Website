@@ -6124,3 +6124,45 @@ label, table th, .pagination a, .pagination span, .feature-grid-title {
   text-transform: none;
   letter-spacing: normal;
 }
+
+/* --- NIGHT OPS: one pill button system ----------------------- */
+.button, input[type="submit"], input[type="reset"], input[type="button"] {
+  border-radius: 999px;
+  font-family: var(--no-font-display);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  height: 3.25em;
+  line-height: 3.25em;
+  padding: 0 1.9em;
+  box-shadow: inset 0 0 0 2px var(--no-cyan);
+  color: var(--no-cyan);
+}
+.button:hover, input[type="submit"]:hover {
+  background-color: rgba(24, 191, 239, 0.08);
+  color: var(--no-cyan);
+}
+.button.primary, #intro .button.primary {
+  background: linear-gradient(135deg, var(--no-coral), var(--no-amber));
+  color: #2a1600;
+  box-shadow: 0 10px 24px -10px rgba(255, 140, 0, 0.55);
+}
+.button.primary:hover, #intro .button.primary:hover {
+  background: linear-gradient(135deg, var(--no-coral), var(--no-amber));
+  color: #2a1600;
+  filter: brightness(1.08);
+}
+.consent-btn {
+  border-radius: 999px;
+  font-family: var(--no-font-display);
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+.consent-btn-accept {
+  background: var(--no-cyan);
+  color: #04111f;
+}
+.beta-import-jump, .videolink {
+  border-radius: 999px;
+}
