@@ -6230,3 +6230,136 @@ body {
 .logo-dark, .intro-logo.logo-dark {
   display: inline-block !important;
 }
+
+/* --- NIGHT OPS: starfield hero + HUD voice -------------------- */
+#intro {
+  background: linear-gradient(180deg, var(--no-ink-0) -20%, var(--no-ink-2) 55%, #13476f 165%);
+  overflow: hidden;
+}
+#intro::before, #intro::after {
+  content: "";
+  position: absolute;
+  inset: -240px 0 0 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, rgba(255, 255, 255, 0.8), transparent 60%),
+    radial-gradient(1px 1px at 90px 130px, rgba(255, 255, 255, 0.5), transparent 60%),
+    radial-gradient(1.5px 1.5px at 160px 80px, rgba(120, 200, 255, 0.7), transparent 60%),
+    radial-gradient(1px 1px at 200px 190px, rgba(255, 255, 255, 0.4), transparent 60%),
+    radial-gradient(1px 1px at 45px 210px, rgba(255, 255, 255, 0.35), transparent 60%);
+  background-size: 240px 240px;
+  z-index: 0;
+}
+#intro::after {
+  background-size: 380px 380px;
+  opacity: 0.6;
+}
+@media (prefers-reduced-motion: no-preference) {
+  #intro::before {
+    animation: noDrift 160s linear infinite;
+  }
+  #intro::after {
+    animation: noDrift 260s linear infinite reverse;
+  }
+}
+@keyframes noDrift {
+  to { background-position: 240px 480px; }
+}
+#intro > * {
+  position: relative;
+  z-index: 1;
+}
+#intro p {
+  color: #8fb8cf;
+}
+.hud-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  font-family: var(--no-font-display);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--no-cyan);
+  margin: 0 0 1rem 0;
+}
+.hud-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--no-green);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hud-dot {
+    animation: cluBlink 2.4s ease-in-out infinite;
+  }
+}
+.hud-readout {
+  font-feature-settings: "tnum";
+  color: var(--no-green);
+}
+
+/* --- NIGHT OPS: frosted panels, nav, cards, footer ------------ */
+#intro p.hud-kicker {
+  color: var(--no-cyan);
+}
+#main {
+  background: transparent;
+}
+#main > .post, .post.featured {
+  background: var(--no-glass);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--no-hairline);
+  border-radius: 1.25rem;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+#main > .post.featured:before {
+  display: none;
+}
+#nav {
+  background: rgba(10, 20, 32, 0.72);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--no-hairline);
+  box-shadow: none;
+}
+#nav ul.links li a {
+  color: #8fb8cf;
+}
+#nav ul.links li.active {
+  background: transparent;
+  border-bottom: 2px solid var(--no-cyan);
+}
+#nav ul.links li.active a, #nav ul.links li a:hover {
+  color: var(--no-cyan);
+}
+.feature-card {
+  background: var(--no-glass);
+  border: 1px solid var(--no-hairline);
+  border-radius: 12px;
+  box-shadow: none;
+}
+.feature-card .card-image img {
+  border-radius: 8px;
+}
+.feature-card h4 {
+  color: #ffffff;
+}
+.feature-card p {
+  color: #8fb8cf;
+}
+#footer, #copyright {
+  color: #8fb8cf;
+}
+#footer h3 {
+  color: #ffffff;
+}
+#footer a {
+  color: var(--no-cyan);
+}
+#main > .post.featured {
+  border-top: 1px solid var(--no-hairline);
+}
