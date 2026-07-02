@@ -20,7 +20,7 @@
 
 **Files:** Modify: `assets/css/main.css`
 
-- [ ] **Step 1: Verify the duplicate block is a true duplicate**
+- [x] **Step 1: Verify the duplicate block is a true duplicate**
 
 ```bash
 sed -n '3,4032p' assets/css/main.css > /tmp/blockA
@@ -29,7 +29,7 @@ diff /tmp/blockA /tmp/blockB | head -30
 ```
 Expected: differences confined to the two `@import` lines (present in block A only) and possibly trailing whitespace. If substantive rule differences appear, STOP — adjust the cut range so only true duplicates are removed, or skip the cut and report.
 
-- [ ] **Step 2: Cut the duplicate block**
+- [x] **Step 2: Cut the duplicate block**
 
 Adjust the range so the cut starts at the second `/*\n\tMassively by HTML5 UP` comment and ends on the line before the `/* Wrapper */` custom section (found in Step 1's diff alignment; nominal range 4033–8060):
 
@@ -39,7 +39,7 @@ grep -c "Massively by HTML5 UP" assets/css/main.css   # expect 1
 grep -c "/\* Wrapper \*/" assets/css/main.css          # expect >=1 (custom section survived)
 ```
 
-- [ ] **Step 3: Fix the unresolved Sass hover artifact**
+- [x] **Step 3: Fix the unresolved Sass hover artifact**
 
 Find and replace (Edit tool, pattern-based):
 
@@ -50,11 +50,11 @@ Find and replace (Edit tool, pattern-based):
   background-color: #2563eb;
 ```
 
-- [ ] **Step 4: Sanity-check render**
+- [x] **Step 4: Sanity-check render**
 
 Start preview (`dev`), load `http://localhost:8000/`, confirm no visual difference and no console errors.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add assets/css/main.css
@@ -65,7 +65,7 @@ git commit -m "Cut duplicated 4k-line template block from main.css; fix Sass rgb
 
 **Files:** Create: `images/favicon-32.png`, `images/apple-touch-icon.png`, `images/favicon-192.png`, `images/favicon-512.png`, `manifest.webmanifest`. Modify: `<head>` of `index.html`, `import.html`, `seniority-lookup.html`, `bid-award-lookup.html`, `privacy-policy.html`, `crewluve/index.html`, `pilot-window/index.html`, `turbometer/index.html`.
 
-- [ ] **Step 1: Generate sizes from the 4395px source**
+- [x] **Step 1: Generate sizes from the 4395px source**
 
 ```bash
 sips -Z 32  images/favicon.png --out images/favicon-32.png
@@ -75,7 +75,7 @@ sips -Z 512 images/favicon.png --out images/favicon-512.png
 ls -la images/favicon-32.png images/favicon-512.png   # expect ~1-40KB each
 ```
 
-- [ ] **Step 2: Create `manifest.webmanifest`**
+- [x] **Step 2: Create `manifest.webmanifest`**
 
 ```json
 {
@@ -93,7 +93,7 @@ ls -la images/favicon-32.png images/favicon-512.png   # expect ~1-40KB each
 }
 ```
 
-- [ ] **Step 3: Replace favicon links in every `<head>`**
+- [x] **Step 3: Replace favicon links in every `<head>`**
 
 Root pages get (sub-sites use `../images/...` and `../manifest.webmanifest`):
 
@@ -106,15 +106,15 @@ Root pages get (sub-sites use `../images/...` and `../manifest.webmanifest`):
 
 Remove all references to `images/favicon.png?v=4` / `?v=3`.
 
-- [ ] **Step 4: Verify** — `grep -rn "favicon.png?v" *.html */index.html` returns nothing; preview loads with new favicon.
+- [x] **Step 4: Verify** — `grep -rn "favicon.png?v" *.html */index.html` returns nothing; preview loads with new favicon.
 
-- [ ] **Step 5: Commit** — `git add -A && git commit -m "Proper favicon set + web manifest + theme-color (drops 10.6MB favicon from every page)"`
+- [x] **Step 5: Commit** — `git add -A && git commit -m "Proper favicon set + web manifest + theme-color (drops 10.6MB favicon from every page)"`
 
 ### Task 3: OG social card + meta on all pages
 
 **Files:** Create: `images/og-card.jpg`. Modify: `<head>` of all nine pages.
 
-- [ ] **Step 1: Build the 1200×630 card with sips (dark logo centered on navy)**
+- [x] **Step 1: Build the 1200×630 card with sips (dark logo centered on navy)**
 
 ```bash
 sips -Z 900 "images/Crewlu big App Logo opaque Dark mode.png" --out /tmp/og-logo.png
@@ -125,7 +125,7 @@ ls -la images/og-card.jpg                               # expect < 200KB
 ```
 If the logo's aspect makes 900px too tall for 630, drop to `-Z 500` and re-pad.
 
-- [ ] **Step 2: Add meta to every page** (values vary per page; index example — absolute URLs required for OG):
+- [x] **Step 2: Add meta to every page** (values vary per page; index example — absolute URLs required for OG):
 
 ```html
 <meta property="og:url" content="https://crewlu.net/" />
@@ -137,24 +137,24 @@ If the logo's aspect makes 900px too tall for 630, drop to `-Z 500` and re-pad.
 
 Pages missing `og:title`/`og:description` (all except index) also get those, with page-appropriate copy: import = "How to import your schedule into CrewLu", seniority = "UPS pilot seniority lookup", bid-award = "Bid award summary lookup", privacy = "CrewLu privacy policy", crewluve = "Crewluve", pilot-window = "Pilot Window — AR flight deck companion", turbometer = "Turbometer".
 
-- [ ] **Step 3: Verify** — `grep -c "og:image" *.html */index.html` shows 1 per page.
+- [x] **Step 3: Verify** — `grep -c "og:image" *.html */index.html` shows 1 per page.
 
-- [ ] **Step 4: Commit** — `git commit -am "Add OG/Twitter social cards site-wide"`
+- [x] **Step 4: Commit** — `git commit -am "Add OG/Twitter social cards site-wide"`
 
 ### Task 4: Instant paint — remove is-preload
 
 **Files:** Modify: `index.html`, `import.html`, `privacy-policy.html`, `crewluve/index.html`, `pilot-window/index.html`, `turbometer/index.html`
 
-- [ ] **Step 1:** In each file change `<body class="is-preload">` to `<body>`.
-- [ ] **Step 2:** `grep -rn "is-preload" *.html */index.html` → no body-tag hits (JS/CSS references may remain; they're inert).
-- [ ] **Step 3:** Preview: content paints immediately, no black overlay. Note for later stages: `#wrapper.fade-in` animation still runs — acceptable at this stage.
-- [ ] **Step 4: Commit** — `git commit -am "Remove is-preload blackout: content paints instantly"`
+- [x] **Step 1:** In each file change `<body class="is-preload">` to `<body>`.
+- [x] **Step 2:** `grep -rn "is-preload" *.html */index.html` → no body-tag hits (JS/CSS references may remain; they're inert).
+- [x] **Step 3:** Preview: content paints immediately, no black overlay. Note for later stages: `#wrapper.fade-in` animation still runs — acceptable at this stage.
+- [x] **Step 4: Commit** — `git commit -am "Remove is-preload blackout: content paints instantly"`
 
 ### Task 5: Image diet — logo + index feature cards + lazy galleries
 
 **Files:** Create: `images/logo-light-1600.png`, `images/logo-dark-1600.png`, `images/TripListView-optimized.jpg`, `images/NewTripListView.jpg`, `images/Timeline-optimized.jpg`. Modify: `index.html` (intro + header + feature card srcs), any other root page referencing `Crewlu big App Logo`, `crewluve/index.html` (lazy).
 
-- [ ] **Step 1: Resize logos**
+- [x] **Step 1: Resize logos**
 
 ```bash
 sips -Z 1600 "images/Crewlu big App Logo opaque.png" --out "images/logo-light-1600.png"
@@ -162,7 +162,7 @@ sips -Z 1600 "images/Crewlu big App Logo opaque Dark mode.png" --out "images/log
 ls -la images/logo-*.png   # expect well under 1MB each (from 12.5MB)
 ```
 
-- [ ] **Step 2: Convert the three PNG screenshots that lack jpg twins**
+- [x] **Step 2: Convert the three PNG screenshots that lack jpg twins**
 
 ```bash
 for f in TripListView-optimized NewTripListView Timeline-optimized; do
@@ -171,29 +171,29 @@ done
 ```
 (`DutyDetailsOne-optimized.jpg` and `JumpseatDetails-optimized.jpg` already exist — just re-point.)
 
-- [ ] **Step 3: Update srcs** — `grep -rn "Crewlu big App Logo" *.html */index.html` and re-point every hit to the 1600px variants; in `index.html` re-point the five PNG feature-card/dashboard images to their `.jpg` twins; add `loading="lazy"` + `width`/`height` attributes to `crewluve/index.html` gallery imgs.
+- [x] **Step 3: Update srcs** — `grep -rn "Crewlu big App Logo" *.html */index.html` and re-point every hit to the 1600px variants; in `index.html` re-point the five PNG feature-card/dashboard images to their `.jpg` twins; add `loading="lazy"` + `width`/`height` attributes to `crewluve/index.html` gallery imgs.
 
-- [ ] **Step 4: Verify** — preview index: all images render; `du -sh` spot-check that no page-served image exceeds ~1.2MB.
+- [x] **Step 4: Verify** — preview index: all images render; `du -sh` spot-check that no page-served image exceeds ~1.2MB.
 
-- [ ] **Step 5: Commit** — `git commit -am "Image diet: 1600px logos, JPEG screenshots, lazy galleries"`
+- [x] **Step 5: Commit** — `git commit -am "Image diet: 1600px logos, JPEG screenshots, lazy galleries"`
 
 ### Task 6: Script hygiene on lookup pages
 
 **Files:** Modify: `seniority-lookup.html`, `bid-award-lookup.html`
 
-- [ ] **Step 1:** In `seniority-lookup.html` delete the second, unpinned Chart.js `<script>` (near line 981); keep the pinned `chart.umd.min.js@4.4.0` load (near line 100).
-- [ ] **Step 2:** Add `defer` to: Chart.js, `assets/js/pilot-data.js`, and the page's lookup script on both pages. `defer` preserves order, so globals still define in sequence. If either page has *inline* scripts that read those globals at parse time, wrap the inline code in `DOMContentLoaded` instead of deferring its dependencies — check first with a grep for the global names (`PILOT_DATA`, `Chart`).
-- [ ] **Step 3: Verify in preview:** seniority lookup for #1290 returns a result and the chart renders; bid-award lookup returns a group; zero console errors.
-- [ ] **Step 4: Commit** — `git commit -am "Dedupe Chart.js, defer heavy data scripts on lookup pages"`
+- [x] **Step 1:** In `seniority-lookup.html` delete the second, unpinned Chart.js `<script>` (near line 981); keep the pinned `chart.umd.min.js@4.4.0` load (near line 100).
+- [x] **Step 2:** Add `defer` to: Chart.js, `assets/js/pilot-data.js`, and the page's lookup script on both pages. `defer` preserves order, so globals still define in sequence. If either page has *inline* scripts that read those globals at parse time, wrap the inline code in `DOMContentLoaded` instead of deferring its dependencies — check first with a grep for the global names (`PILOT_DATA`, `Chart`).
+- [x] **Step 3: Verify in preview:** seniority lookup for #1290 returns a result and the chart renders; bid-award lookup returns a group; zero console errors.
+- [x] **Step 4: Commit** — `git commit -am "Dedupe Chart.js, defer heavy data scripts on lookup pages"`
 
 ### Task 7: HTML hygiene sweep + cache-version bump
 
 **Files:** Modify: all nine pages (+ `test-theme.html` where trivial)
 
-- [ ] **Step 1:** `<html>` → `<html lang="en">` everywhere (bid-award already has it).
-- [ ] **Step 2:** Every viewport meta → `<meta name="viewport" content="width=device-width, initial-scale=1" />` (drop `user-scalable=no`).
-- [ ] **Step 3:** In `pilot-window/index.html` and `turbometer/index.html`, replace hotlinked `toolbox.marketingtools.apple.com` badge imgs with `../images/app-store-badge.svg` (exists, 12KB).
-- [ ] **Step 4:** Bid table mobile: append to `bid-award-lookup.html`'s inline `<style>`:
+- [x] **Step 1:** `<html>` → `<html lang="en">` everywhere (bid-award already has it).
+- [x] **Step 2:** Every viewport meta → `<meta name="viewport" content="width=device-width, initial-scale=1" />` (drop `user-scalable=no`).
+- [x] **Step 3:** In `pilot-window/index.html` and `turbometer/index.html`, replace hotlinked `toolbox.marketingtools.apple.com` badge imgs with `../images/app-store-badge.svg` (exists, 12KB).
+- [x] **Step 4:** Bid table mobile: append to `bid-award-lookup.html`'s inline `<style>`:
 
 ```css
 @media (max-width: 736px) {
@@ -201,9 +201,9 @@ done
 }
 ```
 
-- [ ] **Step 5:** Every `main.css` link → `assets/css/main.css?v=5` (root) / `../assets/css/main.css?v=5` (sub-sites).
-- [ ] **Step 6: Verify** — `grep -rn "user-scalable" *.html */index.html` empty; `grep -rn "main.css" *.html */index.html` all show `?v=5`.
-- [ ] **Step 7: Commit** — `git commit -am "HTML hygiene: lang, pinch-zoom, local badges, table scroll, css cache bump"`
+- [x] **Step 5:** Every `main.css` link → `assets/css/main.css?v=5` (root) / `../assets/css/main.css?v=5` (sub-sites).
+- [x] **Step 6: Verify** — `grep -rn "user-scalable" *.html */index.html` empty; `grep -rn "main.css" *.html */index.html` all show `?v=5`.
+- [x] **Step 7: Commit** — `git commit -am "HTML hygiene: lang, pinch-zoom, local badges, table scroll, css cache bump"`
 
 **Stage 0 checkpoint:** preview-verify all pages desktop + 375px mobile, console clean. Screenshot index for the report.
 
@@ -215,8 +215,8 @@ done
 
 **Files:** Modify: `assets/css/main.css` (delete Merriweather `@import`), all nine pages (`<head>`)
 
-- [ ] **Step 1:** Delete from main.css: `@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");`
-- [ ] **Step 2:** Add to every `<head>` before the main.css link:
+- [x] **Step 1:** Delete from main.css: `@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");`
+- [x] **Step 2:** Add to every `<head>` before the main.css link:
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -224,16 +224,16 @@ done
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
 ```
 
-- [ ] **Step 3: Verify** — preview: no Merriweather in DevTools computed styles after Task 9; network shows single fonts.googleapis.com css2 request. (Rendering will look mixed until Task 9 lands — commit together with Task 9 if preferred.)
-- [ ] **Step 4: Commit** — `git commit -am "Replace render-blocking Merriweather @import with Space Grotesk v2 link"`
+- [x] **Step 3: Verify** — preview: no Merriweather in DevTools computed styles after Task 9; network shows single fonts.googleapis.com css2 request. (Rendering will look mixed until Task 9 lands — commit together with Task 9 if preferred.)
+- [x] **Step 4: Commit** — `git commit -am "Replace render-blocking Merriweather @import with Space Grotesk v2 link"`
 
 ### Task 9: NIGHT OPS append block — tokens + type system
 
 **Files:** Modify: `assets/css/main.css` (append at end of file)
 
-- [ ] **Step 1: Locate the existing token block** — `grep -n ":root" assets/css/main.css | head` and `grep -n "color-accent" assets/css/main.css | head` to learn the live custom-property names (audit says `--color-accent: #3b82f6` exists). The append block below re-points them; adjust names to match what the grep finds.
+- [x] **Step 1: Locate the existing token block** — `grep -n ":root" assets/css/main.css | head` and `grep -n "color-accent" assets/css/main.css | head` to learn the live custom-property names (audit says `--color-accent: #3b82f6` exists). The append block below re-points them; adjust names to match what the grep finds.
 
-- [ ] **Step 2: Append section header + tokens + type** (this is the single NIGHT OPS section all later tasks extend):
+- [x] **Step 2: Append section header + tokens + type** (this is the single NIGHT OPS section all later tasks extend):
 
 ```css
 /* ============================================================
@@ -289,15 +289,15 @@ header.major h2 + p {
 code, pre { font-family: var(--no-font-mono); }
 ```
 
-- [ ] **Step 3: Specificity sweep** — `grep -n "text-transform: uppercase" assets/css/main.css` and for any selector that still wins over the block above (e.g. `#nav ul.links li a`, `.button`), add a matching-specificity `text-transform: none` line inside the NIGHT OPS section. Preview and confirm no ALL-CAPS text remains on index.
-- [ ] **Step 4: Verify** — index + import in preview: body renders in system font (SF Pro), headings in Space Grotesk, no justified text (`preview_inspect` on a `p` → `text-align: left`).
-- [ ] **Step 5: Commit** — `git commit -am "NIGHT OPS layer: night-flight tokens + modern type system"`
+- [x] **Step 3: Specificity sweep** — `grep -n "text-transform: uppercase" assets/css/main.css` and for any selector that still wins over the block above (e.g. `#nav ul.links li a`, `.button`), add a matching-specificity `text-transform: none` line inside the NIGHT OPS section. Preview and confirm no ALL-CAPS text remains on index.
+- [x] **Step 4: Verify** — index + import in preview: body renders in system font (SF Pro), headings in Space Grotesk, no justified text (`preview_inspect` on a `p` → `text-align: left`).
+- [x] **Step 5: Commit** — `git commit -am "NIGHT OPS layer: night-flight tokens + modern type system"`
 
 ### Task 10: One button system
 
 **Files:** Modify: `assets/css/main.css` (extend NIGHT OPS section)
 
-- [ ] **Step 1: Append**
+- [x] **Step 1: Append**
 
 ```css
 .button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -327,14 +327,14 @@ code, pre { font-family: var(--no-font-mono); }
 .beta-import-jump { border-radius: 999px; }
 ```
 
-- [ ] **Step 2: Verify** — preview index (both intro buttons), import page (jump buttons), cookie banner (clear localStorage key `crewlu_analytics_consent` via `preview_eval` to force it visible): all pills, primary is amber gradient.
-- [ ] **Step 3: Commit** — `git commit -am "One pill button system replacing four button styles"`
+- [x] **Step 2: Verify** — preview index (both intro buttons), import page (jump buttons), cookie banner (clear localStorage key `crewlu_analytics_consent` via `preview_eval` to force it visible): all pills, primary is amber gradient.
+- [x] **Step 3: Commit** — `git commit -am "One pill button system replacing four button styles"`
 
 ### Task 11: Scroll-reveal motion (replaces preload theatrics)
 
 **Files:** Create: `assets/js/reveal.js`. Modify: `assets/css/main.css`, `index.html` + `import.html` (script tag)
 
-- [ ] **Step 1: Create `assets/js/reveal.js`**
+- [x] **Step 1: Create `assets/js/reveal.js`**
 
 ```js
 (function () {
@@ -357,7 +357,7 @@ code, pre { font-family: var(--no-font-mono); }
 })();
 ```
 
-- [ ] **Step 2: Append CSS** (only hides content when `.reveal-ready` was set by JS — no-JS and reduced-motion users always see everything):
+- [x] **Step 2: Append CSS** (only hides content when `.reveal-ready` was set by JS — no-JS and reduced-motion users always see everything):
 
 ```css
 .reveal-ready #main .post, .reveal-ready .feature-card,
@@ -369,15 +369,15 @@ code, pre { font-family: var(--no-font-mono); }
 .reveal-ready .is-in { opacity: 1; transform: none; }
 ```
 
-- [ ] **Step 3:** Add `<script src="assets/js/reveal.js" defer></script>` before `</body>` on `index.html` and `import.html`.
-- [ ] **Step 4: Verify** — preview index: cards rise in as you scroll; with `preview_eval` emulation unavailable for reduced-motion, verify by checking the CSS is gated on `.reveal-ready`; no layout shift on load.
-- [ ] **Step 5: Commit** — `git commit -am "IntersectionObserver scroll-reveal, reduced-motion safe"`
+- [x] **Step 3:** Add `<script src="assets/js/reveal.js" defer></script>` before `</body>` on `index.html` and `import.html`.
+- [x] **Step 4: Verify** — preview index: cards rise in as you scroll; with `preview_eval` emulation unavailable for reduced-motion, verify by checking the CSS is gated on `.reveal-ready`; no layout shift on load.
+- [x] **Step 5: Commit** — `git commit -am "IntersectionObserver scroll-reveal, reduced-motion safe"`
 
 ### Task 12: View transitions + rhythm
 
 **Files:** Modify: `assets/css/main.css`
 
-- [ ] **Step 1: Append**
+- [x] **Step 1: Append**
 
 ```css
 @view-transition { navigation: auto; }
@@ -385,8 +385,8 @@ code, pre { font-family: var(--no-font-mono); }
 #main > .post, .post.featured { padding: var(--no-space-l) var(--no-space-m); }
 ```
 
-- [ ] **Step 2: Verify** — navigate index → import in preview (Chrome): soft cross-fade; content padding breathes at mobile width without horizontal scroll.
-- [ ] **Step 3: Commit** — `git commit -am "View transitions + fluid spacing rhythm"`
+- [x] **Step 2: Verify** — navigate index → import in preview (Chrome): soft cross-fade; content padding breathes at mobile width without horizontal scroll.
+- [x] **Step 3: Commit** — `git commit -am "View transitions + fluid spacing rhythm"`
 
 **Stage 1 checkpoint:** full-page screenshots of index + import, desktop + mobile. All 2017 type/palette/button signals should be gone; site still light-shelled.
 
@@ -398,9 +398,9 @@ code, pre { font-family: var(--no-font-mono); }
 
 **Files:** Modify: `assets/css/main.css`, `seniority-lookup.html`, `bid-award-lookup.html`
 
-- [ ] **Step 1: Discover current token/dark-mode structure** — `grep -n "prefers-color-scheme" assets/css/main.css` and read the existing dark `:root` block to get exact variable names before overriding.
+- [x] **Step 1: Discover current token/dark-mode structure** — `grep -n "prefers-color-scheme" assets/css/main.css` and read the existing dark `:root` block to get exact variable names before overriding.
 
-- [ ] **Step 2: Append the dark shell** (adjust var names to match Step 1 findings):
+- [x] **Step 2: Append the dark shell** (adjust var names to match Step 1 findings):
 
 ```css
 html { color-scheme: dark; }
@@ -423,17 +423,17 @@ body {
 .logo-dark { display: inline-block !important; }
 ```
 
-- [ ] **Step 3: Neutralize lookup pages' light-mode override blocks** — in both lookup pages' inline `<style>`, replace every `@media (prefers-color-scheme: light)` with `@media not all` (never matches; their dark-first base styles apply for everyone; trivially reversible in Stage 3's real consolidation).
+- [x] **Step 3: Neutralize lookup pages' light-mode override blocks** — in both lookup pages' inline `<style>`, replace every `@media (prefers-color-scheme: light)` with `@media not all` (never matches; their dark-first base styles apply for everyone; trivially reversible in Stage 3's real consolidation).
 
-- [ ] **Step 4: Verify** — every page in preview with `preview_resize` colorScheme light AND dark: navy shell either way, no white flash, lookup pages consistent, text contrast readable (spot `preview_inspect` on body + a muted paragraph).
+- [x] **Step 4: Verify** — every page in preview with `preview_resize` colorScheme light AND dark: navy shell either way, no white flash, lookup pages consistent, text contrast readable (spot `preview_inspect` on body + a muted paragraph).
 
-- [ ] **Step 5: Commit** — `git commit -am "Dark-first night-sky shell, color-scheme dark, neutralize tool-page light overrides"`
+- [x] **Step 5: Commit** — `git commit -am "Dark-first night-sky shell, color-scheme dark, neutralize tool-page light overrides"`
 
 ### Task 14: Starfield hero
 
 **Files:** Modify: `assets/css/main.css`, `index.html` (intro markup)
 
-- [ ] **Step 1: Append**
+- [x] **Step 1: Append**
 
 ```css
 #intro {
@@ -481,17 +481,17 @@ body {
 ```
 (`@keyframes cluBlink` already exists in the clu-portal section — verify with `grep -n "cluBlink" assets/css/main.css`; if scoped oddly, duplicate it inside the NIGHT OPS section.)
 
-- [ ] **Step 2: Intro markup** — in `index.html` add above the logo: `<p class="hud-kicker"><span class="hud-dot"></span>CrewLu &middot; Flight ops</p>`; the logo imgs stay (dark variant shows via Task 13 rules).
-- [ ] **Step 3: Verify** — preview: starfield behind intro, drifting; kicker cyan with blinking dot; buttons legible on navy.
-- [ ] **Step 4: Commit** — `git commit -am "Pure-CSS starfield hero with HUD kicker"`
+- [x] **Step 2: Intro markup** — in `index.html` add above the logo: `<p class="hud-kicker"><span class="hud-dot"></span>CrewLu &middot; Flight ops</p>`; the logo imgs stay (dark variant shows via Task 13 rules).
+- [x] **Step 3: Verify** — preview: starfield behind intro, drifting; kicker cyan with blinking dot; buttons legible on navy.
+- [x] **Step 4: Commit** — `git commit -am "Pure-CSS starfield hero with HUD kicker"`
 
 ### Task 15: Frosted panels, nav, cards, footer
 
 **Files:** Modify: `assets/css/main.css`
 
-- [ ] **Step 1: Locate the white-card styles** — `grep -n "post featured\|\.post {" assets/css/main.css | head` and check for a `border-top` accent stripe on `.post.featured`.
+- [x] **Step 1: Locate the white-card styles** — `grep -n "post featured\|\.post {" assets/css/main.css | head` and check for a `border-top` accent stripe on `.post.featured`.
 
-- [ ] **Step 2: Append**
+- [x] **Step 2: Append**
 
 ```css
 #main > .post, .post.featured {
@@ -521,15 +521,15 @@ body {
 #footer a { color: var(--no-cyan); }
 ```
 
-- [ ] **Step 3: Specificity check** — if the template's `.post` background/border rules win, raise the override's specificity (`body #main > .post`) rather than using `!important`. If `.post.featured` has an accent `border-top`, override it to `1px solid var(--no-hairline)`.
-- [ ] **Step 4: Verify** — index in preview: frosted panels over navy, screenshots separated from card bg (dark-on-dark check!), nav translucent on scroll. If screenshots melt into cards, add `.card-image img { border: 1px solid var(--no-hairline); border-radius: 8px; }`.
-- [ ] **Step 5: Commit** — `git commit -am "Frosted glass panels, translucent nav, dark cards + footer"`
+- [x] **Step 3: Specificity check** — if the template's `.post` background/border rules win, raise the override's specificity (`body #main > .post`) rather than using `!important`. If `.post.featured` has an accent `border-top`, override it to `1px solid var(--no-hairline)`.
+- [x] **Step 4: Verify** — index in preview: frosted panels over navy, screenshots separated from card bg (dark-on-dark check!), nav translucent on scroll. If screenshots melt into cards, add `.card-image img { border: 1px solid var(--no-hairline); border-radius: 8px; }`.
+- [x] **Step 5: Commit** — `git commit -am "Frosted glass panels, translucent nav, dark cards + footer"`
 
 ### Task 16: HUD section voice + course-line dividers + grid desktop
 
 **Files:** Modify: `assets/css/main.css`, `index.html`
 
-- [ ] **Step 1: Append**
+- [x] **Step 1: Append**
 
 ```css
 .hud-readout {
@@ -565,24 +565,24 @@ body {
 }
 ```
 
-- [ ] **Step 2: index.html markup** — above each `feature-grid-title` add a kicker (`<p class="hud-kicker"><span class="hud-dot"></span>App features</p>`, `…Dashboard views</p>`); between the two `feature-grid-section`s insert `<div class="course-line" role="separator"><span></span></div>`.
-- [ ] **Step 3: Verify** — desktop: cards in a grid, no scrollbar band; 375px: original scroll-snap strip intact (`preview_resize` both ways).
-- [ ] **Step 4: Commit** — `git commit -am "HUD section voice, course-line dividers, desktop feature grid"`
+- [x] **Step 2: index.html markup** — above each `feature-grid-title` add a kicker (`<p class="hud-kicker"><span class="hud-dot"></span>App features</p>`, `…Dashboard views</p>`); between the two `feature-grid-section`s insert `<div class="course-line" role="separator"><span></span></div>`.
+- [x] **Step 3: Verify** — desktop: cards in a grid, no scrollbar band; 375px: original scroll-snap strip intact (`preview_resize` both ways).
+- [x] **Step 4: Commit** — `git commit -am "HUD section voice, course-line dividers, desktop feature grid"`
 
 ### Task 17: Cookie banner on tokens
 
 **Files:** Modify: `assets/css/main.css`
 
-- [ ] **Step 1:** In the existing cookie-banner block (`grep -n "cookie-consent-banner" assets/css/main.css`), replace hardcoded `#18bfef` with `var(--no-cyan)`, bg with `var(--no-ink-2)`, border with `var(--no-hairline)`. (Button shapes already handled by Task 10.)
-- [ ] **Step 2: Verify** — clear consent key via `preview_eval` (`localStorage.removeItem('crewlu_analytics_consent'); location.reload()`), banner appears styled to palette.
-- [ ] **Step 3: Commit** — `git commit -am "Cookie banner on NIGHT OPS tokens"`
+- [x] **Step 1:** In the existing cookie-banner block (`grep -n "cookie-consent-banner" assets/css/main.css`), replace hardcoded `#18bfef` with `var(--no-cyan)`, bg with `var(--no-ink-2)`, border with `var(--no-hairline)`. (Button shapes already handled by Task 10.)
+- [x] **Step 2: Verify** — clear consent key via `preview_eval` (`localStorage.removeItem('crewlu_analytics_consent'); location.reload()`), banner appears styled to palette.
+- [x] **Step 3: Commit** — `git commit -am "Cookie banner on NIGHT OPS tokens"`
 
 ### Task 18: Full-site verification sweep + screenshots
 
-- [ ] **Step 1:** Every page (9) × {desktop, 375px} in preview: console errors zero, no horizontal scroll, no unreadable contrast (spot-check muted text ≥ ~4.5:1 against panel), lookup tools functionally verified again (seniority #1290, one bid group), import wizard interactions still work.
-- [ ] **Step 2:** Screenshot index (hero + features), import, seniority-lookup for the final report.
-- [ ] **Step 3:** `git status` clean; branch log reads as one commit per task.
-- [ ] **Step 4:** Report to user with screenshots; **do not push** — offer merge/deploy as their call.
+- [x] **Step 1:** Every page (9) × {desktop, 375px} in preview: console errors zero, no horizontal scroll, no unreadable contrast (spot-check muted text ≥ ~4.5:1 against panel), lookup tools functionally verified again (seniority #1290, one bid group), import wizard interactions still work.
+- [x] **Step 2:** Screenshot index (hero + features), import, seniority-lookup for the final report.
+- [x] **Step 3:** `git status` clean; branch log reads as one commit per task.
+- [x] **Step 4:** Report to user with screenshots; **do not push** — offer merge/deploy as their call.
 
 ---
 
