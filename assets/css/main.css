@@ -6410,3 +6410,18 @@ body {
     padding: 0;
   }
 }
+
+/* --- NIGHT OPS: cookie banner on tokens ------------------------ */
+#cookie-consent-banner {
+  background: rgba(12, 28, 44, 0.92);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--no-hairline);
+  box-shadow: 0 -12px 32px rgba(0, 0, 0, 0.45);
+}
+.consent-text h3, .consent-text a {
+  color: var(--no-cyan);
+}
+.consent-text p {
+  color: #8fb8cf;
+}
