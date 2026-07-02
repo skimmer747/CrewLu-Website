@@ -6363,3 +6363,50 @@ body {
 #main > .post.featured {
   border-top: 1px solid var(--no-hairline);
 }
+
+/* --- NIGHT OPS: section voice + dividers + desktop grid ------- */
+.section-kicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55em;
+  font-family: var(--no-font-display);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--no-cyan);
+  margin: 0 0 0.6rem 0;
+}
+.section-kicker .hud-dot {
+  flex: none;
+}
+.course-line {
+  display: flex;
+  align-items: center;
+  border: 0;
+  margin: var(--no-space-l) auto;
+  max-width: 32rem;
+}
+.course-line::before, .course-line::after {
+  content: "";
+  flex: 1;
+  border-top: 1px dashed rgba(24, 191, 239, 0.35);
+}
+.course-line > span {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  background: var(--no-amber);
+  transform: rotate(45deg);
+  margin: 0 10px;
+}
+@media (min-width: 737px) {
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    overflow: visible;
+    padding: 0;
+  }
+}
