@@ -6,7 +6,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 @import 'fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -6057,4 +6056,71 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   .clu-sub { color: #9fb3c4; }
 }
 
-/*# sourceMappingURL=main.css.map */
+/* ============================================================
+   NIGHT OPS design layer (2026-07) — hand-written, keep LAST.
+   Never recompile Sass over this file; append below only.
+   ============================================================ */
+:root {
+  --no-ink-0: #04111f;
+  --no-ink-1: #0a1420;
+  --no-ink-2: #0c1c2c;
+  --no-ink-3: #11212f;
+  --no-cyan: #18bfef;
+  --no-green: #33e07a;
+  --no-amber: #ffa500;
+  --no-coral: #ff6b6b;
+  --no-hairline: rgba(120, 200, 255, 0.14);
+  --no-glass: rgba(255, 255, 255, 0.04);
+  --no-font-display: "Space Grotesk", -apple-system, system-ui, sans-serif;
+  --no-font-body: -apple-system, BlinkMacSystemFont, system-ui, "Helvetica Neue", sans-serif;
+  --no-font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+  --no-space-s: clamp(0.75rem, 2vw, 1.25rem);
+  --no-space-m: clamp(1.25rem, 3vw, 2rem);
+  --no-space-l: clamp(2rem, 5vw, 3.5rem);
+  --no-text-hero: clamp(1.9rem, 5.5vw, 3.25rem);
+  --color-accent: var(--no-cyan);
+  --color-accent-light: rgba(24, 191, 239, 0.3);
+}
+
+/* --- NIGHT OPS: type system --------------------------------- */
+body, input, select, textarea {
+  font-family: var(--no-font-body);
+  font-weight: 400;
+  line-height: 1.65;
+}
+p {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--no-font-display);
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+article.post header.major h2, .post.featured header.major h2 {
+  font-size: clamp(1.9rem, 5vw, 3rem);
+}
+header.major h2 + p {
+  font-style: normal;
+  font-size: 1.05rem;
+}
+#intro p {
+  font-style: normal;
+}
+code, pre, .hud-readout {
+  font-family: var(--no-font-mono);
+}
+label, table th, .pagination a, .pagination span, .feature-grid-title {
+  text-transform: none;
+  letter-spacing: normal;
+}
+#nav ul.links {
+  font-family: var(--no-font-display);
+  text-transform: none;
+  letter-spacing: normal;
+}
+#copyright, #copyright li, #navPanelToggle {
+  text-transform: none;
+  letter-spacing: normal;
+}
