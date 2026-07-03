@@ -518,6 +518,19 @@
 			text-align: center;
 		}
 
+		/* Horizontal scroll for the results table on narrow screens (keeps the page from widening).
+		   The table sizes to its content but never below the wrapper, so it fills on desktop and
+		   scrolls inside the wrapper on mobile instead of stretching the page. */
+		.group-table-scroll {
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.group-table-scroll > .group-table {
+			width: max-content;
+			min-width: 100%;
+		}
+
 		.group-table {
 			width: 100%;
 			border-collapse: collapse;
@@ -1099,11 +1112,14 @@
 			<section class="post">
 				<header class="major">
 					<h1>Bid Summary Lookup</h1>
-					<p>Enter your Employee ID, go to View Bid Summary <span style="color: #d00; font-weight: 700;">(NOT Schedule Bid Summary)</span> on the Crew website, select ALL,<br />
-						Copy to Isolation, Paste everything in the CrewLu website box.<br />
-						Should work with Schedule, VTO, Short Term Training, Long Term Training, etc...<br />
-						This is only accurate the second you paste it in.<br />
-						And could be totally wrong for all I know but let me know if it is.</p>
+					<details class="how-to">
+						<summary>How this works</summary>
+						<p>Enter your Employee ID, go to View Bid Summary <span style="color: #d00; font-weight: 700;">(NOT Schedule Bid Summary)</span> on the Crew website, select ALL,<br />
+							Copy to Isolation, Paste everything in the CrewLu website box.<br />
+							Should work with Schedule, VTO, Short Term Training, Long Term Training, etc...<br />
+							This is only accurate the second you paste it in.<br />
+							And could be totally wrong for all I know but let me know if it is.</p>
+					</details>
 				</header>
 
 				<!-- Step 1: Employee ID -->
@@ -1179,7 +1195,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/pilot-data.js" defer></script>
-	<script src="assets/js/bid-award-lookup.js?v=12" defer></script>
+	<script src="assets/js/bid-award-lookup.js?v=13" defer></script>
 
 </body>
 

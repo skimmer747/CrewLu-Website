@@ -6462,3 +6462,39 @@ header.major p {
   border-color: #18bfef;
   background: rgba(255, 255, 255, 0.1);
 }
+/* Collapsible "How this works" instruction panel for tool pages */
+details.how-to {
+  max-width: 640px;
+  margin: 0 auto 1.5rem auto;
+  text-align: left;
+  border: 1px solid var(--no-hairline);
+  border-radius: 8px;
+  background: var(--no-glass);
+  padding: 0 1.1rem;
+}
+details.how-to > summary {
+  cursor: pointer;
+  padding: 0.85rem 0.25rem;
+  font-family: var(--no-font-display);
+  font-weight: 600;
+  color: var(--no-cyan);
+  list-style: none;
+}
+details.how-to > summary::-webkit-details-marker {
+  display: none;
+}
+details.how-to > summary::after {
+  content: "\25B8";
+  float: right;
+  transition: transform 0.2s ease;
+}
+details.how-to[open] > summary::after {
+  transform: rotate(90deg);
+}
+details.how-to > summary + * {
+  margin-top: 0;
+}
+details.how-to > *:last-child {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}

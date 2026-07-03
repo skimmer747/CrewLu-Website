@@ -830,7 +830,7 @@
 					'</div>' +
 					'</div>' +
 					'</div>' +
-					'<table class="group-table">' +
+					'<div class="group-table-scroll"><table class="group-table">' +
 					'<thead><tr>' +
 					'<th>#</th>' +
 					'<th>Name</th>' +
@@ -839,7 +839,7 @@
 					'<th>Choice</th>' +
 					'</tr></thead><tbody>' +
 					buildTableBody(filterToBids(sortByUserBidOrder(results, userResult), userId, userBidSet), userId, userBidSet, userSen, 'bid-order') +
-					'</tbody></table></div>';
+					'</tbody></table></div></div>';
 			}
 		}
 
