@@ -48,31 +48,9 @@
 			margin-bottom: 1.5rem;
 		}
 
-		.bid-input-wrapper {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			gap: 1rem;
-			flex-wrap: wrap;
-			max-width: 600px;
-			margin: 0 auto;
-		}
-
+		/* layout/field styles are shared via .tool-shell-input-wrapper / .tool-shell-input in main.css */
 		.bid-input {
-			font-size: 1.5rem;
-			padding: 0.75rem 1.5rem;
-			border: 2px solid rgba(255, 255, 255, 0.2);
-			background: rgba(255, 255, 255, 0.05);
-			color: inherit;
-			border-radius: 6px;
 			width: 240px;
-			text-align: center;
-		}
-
-		.bid-input:focus {
-			outline: none;
-			border-color: #18bfef;
-			background: rgba(255, 255, 255, 0.1);
 		}
 
 		/* Step 2: Textarea Section */
@@ -131,14 +109,7 @@
 			flex-wrap: wrap;
 		}
 
-		/* Results */
-		.results-container {
-			display: none;
-		}
-
-		.results-container.active {
-			display: block;
-		}
+		/* Results — .results-container show/hide is shared in main.css */
 
 		/* Summary Card */
 		.award-summary {
@@ -1138,8 +1109,8 @@
 				<!-- Step 1: Employee ID -->
 				<div class="bid-input-section" id="step-1">
 					<h2>Step 1: Enter Your Employee ID</h2>
-					<div class="bid-input-wrapper">
-						<input type="text" id="employee-id-input" class="bid-input" placeholder="e.g., 5929511"
+					<div class="bid-input-wrapper tool-shell-input-wrapper">
+						<input type="text" id="employee-id-input" class="bid-input tool-shell-input" placeholder="e.g., 5929511"
 							inputmode="numeric" pattern="[0-9]*" />
 						<button class="button primary" id="next-btn">Next</button>
 					</div>

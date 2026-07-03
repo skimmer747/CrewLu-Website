@@ -55,31 +55,9 @@
 			margin-bottom: 1.5rem;
 		}
 
-		.seniority-input-wrapper {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			gap: 1rem;
-			flex-wrap: wrap;
-			max-width: 600px;
-			margin: 0 auto;
-		}
-
+		/* layout/field styles are shared via .tool-shell-input-wrapper / .tool-shell-input in main.css */
 		.seniority-input {
-			font-size: 1.5rem;
-			padding: 0.75rem 1.5rem;
-			border: 2px solid rgba(255, 255, 255, 0.2);
-			background: rgba(255, 255, 255, 0.05);
-			color: inherit;
-			border-radius: 6px;
 			width: 200px;
-			text-align: center;
-		}
-
-		.seniority-input:focus {
-			outline: none;
-			border-color: #18bfef;
-			background: rgba(255, 255, 255, 0.1);
 		}
 
 		.list-update-date {
@@ -93,14 +71,6 @@
 		.list-update-date #list-date-text {
 			font-weight: 600;
 			color: rgba(255, 255, 255, 0.9);
-		}
-
-		.results-container {
-			display: none;
-		}
-
-		.results-container.active {
-			display: block;
 		}
 
 		.results-summary {
@@ -696,8 +666,8 @@
 				<!-- Input Section -->
 				<div class="seniority-input-section">
 					<h2>Enter Your Seniority Number</h2>
-					<div class="seniority-input-wrapper">
-						<input type="number" id="seniority-input" class="seniority-input" placeholder="e.g., 534"
+					<div class="seniority-input-wrapper tool-shell-input-wrapper">
+						<input type="number" id="seniority-input" class="seniority-input tool-shell-input" placeholder="e.g., 534"
 							min="1" inputmode="numeric" pattern="[0-9]*" />
 						<button class="button primary" id="lookup-btn">Look Up</button>
 					</div>
