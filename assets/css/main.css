@@ -6498,3 +6498,40 @@ details.how-to > *:last-child {
   padding-bottom: 1rem;
   margin-bottom: 0;
 }
+/* Privacy policy table of contents */
+.privacy-toc {
+  max-width: 640px;
+  margin: 0 0 2.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--no-hairline);
+  border-radius: 8px;
+  background: var(--no-glass);
+}
+.privacy-toc-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--no-font-display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--no-cyan);
+}
+.privacy-toc ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.privacy-toc li {
+  margin: 0.3rem 0;
+}
+.privacy-toc a {
+  color: var(--color-fg);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.privacy-toc a:hover {
+  color: var(--no-cyan);
+  border-bottom-color: var(--no-cyan);
+}
+.post h2[id] {
+  scroll-margin-top: 1.5rem;
+}
