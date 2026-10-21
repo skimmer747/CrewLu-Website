@@ -266,37 +266,52 @@
             <section class="post">
                 <header class="major">
                     <h1>Privacy Policy</h1>
-                    <p style="font-size: 0.9rem; color: #717981; margin-bottom: 1rem;">Last Updated: April 7, 2026
+                    <p style="font-size: 0.9rem; color: #717981; margin-bottom: 1rem;">Last Updated: October 21, 2026
                     </p>
                     <p>This Privacy Policy describes how your personal information is handled in the Crewluve iOS
                         app and on this website.</p>
                 </header>
 
-                <h2>Crewluve App - No Personal Data Collection</h2>
-                <p>The Crewluve iOS app does not collect, use, save, or have access to any of your personal data.
-                    Crewluve is a companion app to CrewLu that displays schedule data shared by the pilot through
-                    their CrewLu app. All data you see within the app is stored privately on your device and, if
-                    applicable, in your personal iCloud account. We do not have access to this data.</p>
-
-                <h2>Data Storage and Sharing</h2>
-                <p>Crewluve receives schedule data from the CrewLu app through two mechanisms:</p>
+                <h2>What the Crewluve App Keeps</h2>
+                <p>Crewluve shows a pilot's status, shared from their CrewLu app. It has no accounts and asks you
+                    for no personal information. From version 1.2, to bring you the pilot's status and their
+                    update alerts, Crewluve keeps a small amount of data on Crewlu Cloud, CrewLu's own server:</p>
                 <ul>
-                    <li><strong>iOS App Group (Shared Container):</strong> When both CrewLu and Crewluve are
+                    <li><strong>A device key:</strong> a random code Crewluve makes on your device when it
+                        connects. Crewlu Cloud stores only a one-way fingerprint of it, which can't be turned back
+                        into the key.</li>
+                    <li><strong>A push token:</strong> the address Apple gives your device for notifications, so
+                        Crewlu Cloud can tell your device when the pilot's status changes.</li>
+                    <li><strong>The kind of device:</strong> iPhone or iPad, shown to the pilot in their list of
+                        your devices.</li>
+                    <li><strong>When your device last checked in:</strong> shown to the pilot, for example
+                        "seen today".</li>
+                </ul>
+                <p>The pilot chooses the name you appear under in their CrewLu app. This data is used only to show
+                    you the pilot's status and to send you their updates. It isn't used for advertising or
+                    tracking, and it isn't sold or shared with anyone else.</p>
+
+                <h2>How Long It's Kept</h2>
+                <p>Your device's data stays on Crewlu Cloud while your device is connected. It's deleted when you
+                    choose Disconnect in Crewluve, when the pilot removes your device or removes you, or when the
+                    pilot deletes their Crewlu Cloud account.</p>
+
+                <h2>Where the Pilot's Status Comes From</h2>
+                <ul>
+                    <li><strong>Crewlu Cloud:</strong> CrewLu's server, hosted by <a
+                            href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase</a>.
+                        Your device reads the pilot's status from it with its device key.</li>
+                    <li><strong>Apple Push Notification service:</strong> Crewlu Cloud asks Apple to wake Crewluve
+                        when the pilot's status changes. These notifications carry no status and no personal
+                        data.</li>
+                    <li><strong>iCloud Sync:</strong> partners who connected before Crewlu Cloud read the pilot's
+                        status through iCloud until they move over. That data stays in iCloud containers we don't
+                        have access to, and is subject to <a href="https://www.apple.com/legal/privacy/"
+                            target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a>.</li>
+                    <li><strong>iOS App Group (Shared Container):</strong> when both CrewLu and Crewluve are
                         installed on the same device, data is shared locally via an iOS App Group shared
                         container. This data never leaves your device.</li>
-                    <li><strong>iCloud Sync:</strong> For cross-device access, data syncs via the user's personal
-                        iCloud account. This data is stored in your private iCloud container, which we do not have
-                        access to. All data synced via iCloud is subject to <a
-                            href="https://www.apple.com/legal/privacy/" target="_blank"
-                            rel="noopener noreferrer">Apple's Privacy Policy</a>.</li>
                 </ul>
-                <p>All data stays on the user's devices within their private iCloud container. We do not have
-                    access to any of this data.</p>
-
-                <h2>No Third-Party Services</h2>
-                <p>The Crewluve app does not connect to any external servers or third-party APIs. All data
-                    displayed in the app comes exclusively from the CrewLu app via the mechanisms described above.
-                    No data is transmitted to us or any third parties.</p>
 
                 <h2>Children's Privacy</h2>
                 <p>Our Service does not address anyone under the age of 13 (or 16 in the European Union, where
