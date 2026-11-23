@@ -7128,3 +7128,28 @@ a.fleet__demo:hover {
     padding-right: 16px;
   }
 }
+
+/* --- DECK BAR on the other pages --------------------------------
+   On pages without the photo hero the bar replaces the logo header, so the
+   content is pushed down to clear it, and in-page anchors (the privacy
+   policy's contents list, the import guide's jump links) stop short of it. */
+.deck-bar + #nav + #main {
+  margin-top: 96px;
+}
+body.has-deck-bar [id] {
+  scroll-margin-top: 92px;
+}
+/* a page that lives under "More" lights the More button the way a current link is lit */
+.deck-bar__more.is-current > button {
+  color: #fff !important;
+}
+.deck-bar__more.is-current > button::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  right: 11px;
+  bottom: 2px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--no-cyan);
+}

@@ -30,7 +30,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
-	<link rel="stylesheet" href="assets/css/main.css?v=10" />
+	<link rel="stylesheet" href="assets/css/main.css?v=11" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -1059,7 +1059,7 @@
 	</style>
 </head>
 
-<body class="">
+<body class="has-deck-bar">
 
 	<!-- Cookie Consent Banner -->
 	<div id="cookie-consent-banner">
@@ -1083,24 +1083,41 @@
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
 
-		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="logo">
-				<img src="images/logo-light-1600.png" alt="CrewLu" class="logo-light" />
-				<img src="images/logo-dark-1600.png" alt="CrewLu" class="logo-dark" />
-			</a>
+		<!-- Top bar. Up to 980px wide its links live in the slide-out Menu panel that main.js builds from #nav. -->
+		<header class="deck-bar">
+			<a class="deck-bar__logo" href="index.html" aria-label="CrewLu home"><img src="images/logo-dark-1600.png" alt="CrewLu" /></a>
+			<nav class="deck-bar__nav" aria-label="Main">
+				<ul class="deck-bar__links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="import.html">How to Import</a></li>
+					<li><a href="crewluve/index.html">Crewluve</a></li>
+					<li><a href="https://globe.crewlu.net" target="_blank" rel="noopener noreferrer">Flight Globe</a></li>
+					<li class="deck-bar__more is-current">
+						<button type="button" aria-expanded="false" aria-controls="deck-bar-more">More <span aria-hidden="true">&#9662;</span></button>
+						<ul class="deck-bar__drop" id="deck-bar-more">
+							<li><a href="bid-award-lookup.html" aria-current="page">Bid Summary Lookup</a></li>
+							<li><a href="https://crewlu.net/paste" target="_blank" rel="noopener noreferrer">EFK Data</a></li>
+							<li><a href="pilot-window/index.html">Pilot Window</a></li>
+							<li><a href="turbometer/index.html">Turbometer</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<span class="deck-bar__clock" title="Current UTC time"><i></i><small>ZULU</small><span><span id="deck-zulu">--:--:--</span>Z</span></span>
+			<a class="deck-bar__cta" href="https://apps.apple.com/us/app/crewlu/id6747090381">Get the app</a>
 		</header>
 
-		<!-- Nav -->
+		<!-- Nav: hidden on wide screens (the top bar has the links); main.js moves this list into the Menu panel on narrow ones -->
 		<nav id="nav">
 			<ul class="links">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="import.html">How to Import</a></li>
-				<li><a href="https://crewlu.net/paste" target="_blank" rel="noopener noreferrer">EFK Data</a></li>
 				<li><a href="crewluve/index.html">Crewluve</a></li>
+				<li><a href="https://globe.crewlu.net" target="_blank" rel="noopener noreferrer">Flight Globe</a></li>
+				<li class="active"><a href="bid-award-lookup.html">Bid Summary Lookup</a></li>
+				<li><a href="https://crewlu.net/paste" target="_blank" rel="noopener noreferrer">EFK Data</a></li>
 				<li><a href="pilot-window/index.html">Pilot Window</a></li>
 				<li><a href="turbometer/index.html">Turbometer</a></li>
-				<li class="active"><a href="bid-award-lookup.html">Bid Summary Lookup</a></li>
 			</ul>
 		</nav>
 
@@ -1193,6 +1210,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/deck-bar.js" defer></script>
 	<script src="assets/js/pilot-data.js" defer></script>
 	<script src="assets/js/bid-award-lookup.js?v=13" defer></script>
 
