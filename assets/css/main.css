@@ -6574,15 +6574,6 @@ details.how-to > *:last-child {
   object-fit: cover;
   object-position: 50% 75%;
 }
-#intro.deck-hero > .deck-hero__logo {
-  position: absolute;
-  z-index: 2;
-  top: clamp(16px, 2.2vw, 28px);
-  left: clamp(18px, 3vw, 44px);
-  width: auto;
-  height: clamp(40px, 4vw, 54px);
-  filter: drop-shadow(0 2px 12px rgba(1, 6, 22, 0.75));
-}
 #intro.deck-hero > .deck-hero__copy {
   position: absolute;
   z-index: 2;
@@ -6660,18 +6651,480 @@ a.deck-hero__more:hover {
   border-color: var(--no-cyan);
   color: #fff;
 }
-/* The header overlaps the foot of the intro (it holds the logo that fades in
-   once you scroll); keep it from swallowing clicks meant for the hero. */
-#intro.deck-hero + #header {
-  pointer-events: none;
-}
-#intro.deck-hero + #header a {
-  pointer-events: auto;
-}
 @media (max-aspect-ratio: 1/1) {
   #intro.deck-hero > .deck-hero__copy {
     left: 0;
     top: min(46%, calc(75% - 36.1vw));
     width: 100%;
+  }
+}
+
+/* --- DECK BAR (homepage top bar) -------------------------------
+   Fixed glass bar: logo, links, a live Zulu clock and the App Store button.
+   It sits inside #wrapper so it shares a stacking context with the template's
+   Menu toggle. Up to 980px the links live in the slide-out Menu panel, which
+   main.js still builds from #nav, so #nav stays in the page but is hidden. */
+.deck-bar {
+  --dk-muted: #9fb3c4;
+  --dk-dim: #6f8598;
+  position: fixed;
+  z-index: 10000;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1180px, calc(100% - 24px));
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 10px 0 16px;
+  border: 1px solid var(--no-hairline);
+  border-radius: 16px;
+  background: rgba(7, 17, 29, 0.58);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  backdrop-filter: blur(16px) saturate(150%);
+  box-shadow: 0 10px 30px -18px rgba(0, 0, 0, 0.8);
+  font-family: var(--no-font-display);
+}
+.deck-bar a {
+  border-bottom: 0;
+}
+.deck-bar__logo {
+  flex: none;
+  line-height: 0;
+}
+.deck-bar__logo img {
+  display: block;
+  width: auto;
+  height: 50px;
+}
+.deck-bar__nav {
+  margin: 0 auto 0 6px;
+}
+.deck-bar__links {
+  display: flex;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.deck-bar__links li {
+  position: relative;
+  padding: 0;
+}
+.deck-bar__links a,
+.deck-bar__more > button {
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0;
+  padding: 9px 11px;
+  border-radius: 9px;
+  background: none;
+  box-shadow: none;
+  font: 500 13.5px/1 var(--no-font-display);
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  color: var(--dk-muted) !important;   /* the template forces a colour on every button */
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.deck-bar__links a:hover,
+.deck-bar__more > button:hover,
+.deck-bar__more.is-open > button,
+.deck-bar__links a[aria-current] {
+  box-shadow: none;
+  color: #fff !important;
+}
+.deck-bar__links a:hover,
+.deck-bar__more > button:hover,
+.deck-bar__more.is-open > button {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.deck-bar__links a[aria-current]::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  right: 11px;
+  bottom: 2px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--no-cyan);
+}
+.deck-bar__drop {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 210px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  border: 1px solid var(--no-hairline);
+  border-radius: 12px;
+  background: rgba(7, 17, 29, 0.97);
+}
+/* deck-bar.js adds .is-js and then owns the open state; hover and focus are the no-script fallback */
+.deck-bar__more:not(.is-js):hover > .deck-bar__drop,
+.deck-bar__more:not(.is-js):focus-within > .deck-bar__drop,
+.deck-bar__more.is-open > .deck-bar__drop {
+  display: block;
+}
+.deck-bar__drop a {
+  padding: 10px 11px;
+  font-size: 14px;
+}
+.deck-bar__clock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  margin-left: auto;
+  padding: 0 12px;
+  border: 1px solid var(--no-hairline);
+  border-radius: 10px;
+  background: rgba(4, 12, 22, 0.5);
+  font: 400 13px/1 var(--no-font-mono);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: #dff1ff;
+}
+.deck-bar__clock i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--no-green);
+  box-shadow: 0 0 6px var(--no-green);
+}
+.deck-bar__clock small {
+  font: 400 9.5px/1 var(--no-font-mono);
+  letter-spacing: 0.18em;
+  color: var(--dk-dim);
+}
+a.deck-bar__cta {
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--no-coral), var(--no-amber));
+  box-shadow: 0 8px 18px -10px rgba(255, 107, 107, 0.9);
+  font: 600 13px/1 var(--no-font-display);
+  white-space: nowrap;
+  color: #fff;
+}
+a.deck-bar__cta:hover {
+  color: #fff;
+  filter: brightness(1.08);
+}
+body.has-deck-bar #nav {
+  display: none;
+}
+@media screen and (max-width: 980px) {
+  .deck-bar {
+    padding-right: 108px;   /* room for the Menu toggle, which sits over the bar's right end */
+  }
+  .deck-bar__nav {
+    display: none;
+  }
+  body.has-deck-bar #navPanelToggle {
+    top: 22px;
+    right: 22px;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid var(--no-hairline);
+    border-radius: 10px;
+    background: rgba(4, 12, 22, 0.5);
+    box-shadow: none;
+    font: 500 13px/34px var(--no-font-display);
+    letter-spacing: 0;
+    text-transform: none;
+    color: #e9f2fa;
+  }
+}
+@media screen and (max-width: 600px) {
+  .deck-bar {
+    gap: 10px;
+    padding-left: 12px;
+  }
+  .deck-bar__logo img {
+    height: 44px;
+  }
+  a.deck-bar__cta,
+  .deck-bar__clock small {
+    display: none;
+  }
+  /* keep the hero's two buttons on one row on a phone */
+  .deck-hero__badge img {
+    height: 48px;
+  }
+  a.deck-hero__more {
+    height: 48px;
+    padding: 0 14px;
+  }
+}
+
+/* --- FLEET (homepage: the three products, then the web tools) -- */
+#main > .fleet {
+  --dk-muted: #9fb3c4;
+  padding: 92px 0 56px;   /* clears the fixed top bar when "Meet the fleet" scrolls here */
+  border: 0;
+}
+.fleet__head {
+  margin: 0 0 34px;
+  text-align: center;
+}
+.fleet__head .section-kicker {
+  margin: 0;
+  font-style: normal;
+}
+.fleet__head h2 {
+  margin: 14px 0 8px;
+  font: 700 clamp(27px, 3.6vw, 42px)/1.08 var(--no-font-display);
+  letter-spacing: -0.02em;
+  text-transform: none;
+  color: #f4f9fd;
+}
+.fleet__head h2 + p {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;   /* the template italicises and left-aligns header paragraphs */
+  text-align: center;
+  color: var(--dk-muted);
+}
+.fleet__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.fleet__tile {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid var(--no-hairline);
+  border-radius: 22px;
+  background: linear-gradient(160deg, #0f2031, #0a1622 70%);
+  text-align: left;
+  color: #e9f2fa;
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.35s, box-shadow 0.35s;
+}
+a.fleet__tile:hover,
+.fleet__globe:hover {
+  transform: translateY(-3px);
+  border-color: rgba(24, 191, 239, 0.45);
+  box-shadow: 0 22px 50px -30px rgba(24, 191, 239, 0.6);
+  color: #e9f2fa;
+}
+.fleet__tag {
+  font: 400 10.5px/1 var(--no-font-mono);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--no-cyan);
+}
+.fleet__tile h3 {
+  margin: 10px 0 6px;
+  font: 700 23px/1.1 var(--no-font-display);
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: #f4f9fd;
+}
+.fleet__tile p {
+  margin: 0;
+  max-width: 24ch;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--dk-muted);
+}
+.fleet__go {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  font: 500 13px/1 var(--no-font-display);
+  color: #dff1ff;
+}
+.fleet__go span {
+  transition: transform 0.3s;
+}
+.fleet__tile:hover .fleet__go span {
+  transform: translateX(4px);
+}
+.fleet__shot {
+  position: absolute;
+  top: 26px;
+  right: 28px;
+  width: 196px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 0;
+  border-radius: 20px 20px 0 0;
+  background: #000;
+  box-shadow: 0 -10px 40px -18px rgba(0, 0, 0, 0.9);
+}
+.fleet__shot img {
+  display: block;
+  width: 100%;
+}
+.fleet__app {
+  grid-column: span 2;
+  height: 268px;
+}
+/* Flight Globe tile: the .clu-portal card, stood upright and enlarged */
+.fleet__globe {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  min-height: 552px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: radial-gradient(90% 70% at 50% 28%, rgba(24, 191, 239, 0.16), transparent 62%), linear-gradient(160deg, #0f2031, #091420 75%);
+}
+.fleet__globe .clu-portal {
+  flex-direction: column;
+  gap: 0;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  box-shadow: none;
+  text-align: center;
+}
+.fleet__globe .clu-portal:hover,
+.fleet__globe .clu-portal:focus-visible {
+  transform: none;
+  box-shadow: none;
+}
+.fleet__globe .clu-portal:focus-visible {
+  outline: 2px solid var(--no-cyan);
+  outline-offset: 10px;
+}
+.fleet__globe .clu-portal__stage {
+  margin: 84px auto 80px;
+  transform: scale(1.8);
+}
+.fleet__globe .clu-copy {
+  align-items: center;
+  gap: 8px;
+}
+.fleet__globe .clu-kicker,
+.fleet__globe .clu-go {
+  align-self: center;
+}
+.fleet__globe .clu-title {
+  font: 700 clamp(24px, 2.6vw, 32px)/1.12 var(--no-font-display);
+  letter-spacing: -0.01em;
+}
+.fleet__globe .clu-sub {
+  max-width: 36ch;
+  font-size: 15px;
+}
+.fleet__globe .clu-go {
+  margin-top: 12px;
+  padding: 11px 18px;
+  font-size: 13.5px;
+}
+a.fleet__demo {
+  margin-top: 18px;
+  border: 0;
+  font: 400 10.5px/1 var(--no-font-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--no-cyan);
+}
+a.fleet__demo:hover {
+  color: #fff;
+}
+.fleet__tools {
+  grid-column: 1 / -1;
+  padding-bottom: 12px;
+}
+.fleet__tools ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 28px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.fleet__tools li {
+  padding: 0;
+}
+.fleet__tools li a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 12px;
+  padding: 13px 4px;
+  border: 0;
+  border-top: 1px solid var(--no-hairline);
+  color: #e9f2fa;
+  transition: padding 0.25s;
+}
+.fleet__tools li a:hover {
+  padding-left: 10px;
+  color: #fff;
+}
+.fleet__tools b {
+  font: 600 15px/1.2 var(--no-font-display);
+  white-space: nowrap;
+  color: inherit;
+}
+.fleet__tools li span {
+  flex-basis: 100%;
+  order: 3;
+  font-size: 14px;
+  color: var(--dk-muted);
+}
+.fleet__tools li em {
+  font-style: normal;
+  color: var(--no-cyan);
+}
+@media screen and (max-width: 1020px) {
+  .fleet__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fleet__globe {
+    grid-row: auto;
+    min-height: 0;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .fleet__tools ul {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fleet__grid {
+    grid-template-columns: 1fr;
+  }
+  .fleet__globe,
+  .fleet__app,
+  .fleet__tools {
+    grid-column: 1;
+  }
+  .fleet__app {
+    height: 250px;
+    padding-right: 172px;
+  }
+  .fleet__shot {
+    right: 20px;
+    width: 136px;
+  }
+  .fleet__globe .clu-portal__stage {
+    margin: 52px auto 50px;
+    transform: scale(1.45);
+  }
+}
+@media screen and (max-width: 480px) {
+  /* #main goes edge to edge here, so the tiles need their own gutter */
+  #main > .fleet {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
