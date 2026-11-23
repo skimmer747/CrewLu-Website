@@ -33,7 +33,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
-	<link rel="stylesheet" href="assets/css/main.css?v=8" />
+	<link rel="stylesheet" href="assets/css/main.css?v=9" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -63,17 +63,30 @@
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
 
-		<!-- Intro -->
-		<div id="intro">
-			<p class="hud-kicker"><span class="hud-dot"></span>CrewLu &middot; Flight ops</p>
-			<img src="images/logo-light-1600.png" alt="CrewLu" class="intro-logo logo-light" />
-			<img src="images/logo-dark-1600.png" alt="CrewLu" class="intro-logo logo-dark" />
-			<p>Organize your pilot life with the ultimate iOS app for freight dogs. You know who you are.</p>
-			<ul class="actions">
-				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
-				<li><a href="https://apps.apple.com/us/app/crewlu/id6747090381" class="button primary">Download on the
-						App Store</a></li>
-			</ul>
+		<!-- Intro: flight-deck hero. The photo's web sizes live in images/hero/ (phones get a narrower crop). -->
+		<div id="intro" class="deck-hero">
+			<picture class="deck-hero__photo">
+				<source media="(max-aspect-ratio: 1/1)" type="image/webp"
+					srcset="images/hero/flight-deck-aurora-portrait-1080.webp 1080w, images/hero/flight-deck-aurora-portrait-1440.webp 1440w"
+					sizes="max(100vw, 72vh)" />
+				<source media="(max-aspect-ratio: 1/1)" srcset="images/hero/flight-deck-aurora-portrait-1080.jpg" />
+				<source type="image/webp"
+					srcset="images/hero/flight-deck-aurora-1280.webp 1280w, images/hero/flight-deck-aurora-1920.webp 1920w, images/hero/flight-deck-aurora-2560.webp 2560w"
+					sizes="max(100vw, 134vh)" />
+				<img src="images/hero/flight-deck-aurora-1920.jpg" width="1920" height="1440"
+					alt="A flight deck at night, with the northern lights through the windshield" fetchpriority="high" />
+			</picture>
+			<img src="images/logo-dark-1600.png" alt="CrewLu" class="deck-hero__logo" />
+			<div class="deck-hero__copy">
+				<p class="hud-kicker"><span class="hud-dot"></span>CrewLu &middot; Flight ops</p>
+				<h1>Built for the back side of the clock.</h1>
+				<p class="deck-hero__lede">The iOS roster app for freight dogs. You know who you are.</p>
+				<div class="deck-hero__actions">
+					<a class="deck-hero__badge" href="https://apps.apple.com/us/app/crewlu/id6747090381"><img
+							src="images/app-store-badge.svg" alt="Download on the App Store" /></a>
+					<a class="deck-hero__more scrolly" href="#header">Learn more <span aria-hidden="true">&darr;</span></a>
+				</div>
+			</div>
 		</div>
 
 		<!-- Header -->

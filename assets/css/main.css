@@ -6535,3 +6535,143 @@ details.how-to > *:last-child {
 .post h2[id] {
   scroll-margin-top: 1.5rem;
 }
+
+/* --- FLIGHT DECK HERO (homepage intro) -------------------------
+   The intro is a flight-deck photo with the headline in the left windshield.
+   The photo is 4:3. On a landscape screen it is fitted to the hero's width
+   and cropped 75% from the top, which puts the windshield's centre at
+   (75% - 19.5vw) from the hero's top; on a taller screen it is fitted to the
+   height and the centre is 49% down. Portrait screens get a narrower crop of
+   the same photo (aspect 0.72), hence 36.1vw there. */
+#intro.deck-hero {
+  display: block;
+  height: clamp(660px, 100vh, 1000px);
+  height: clamp(660px, 100svh, 1000px);
+  min-height: 0;
+  padding: 0;
+  background: #02040a;
+}
+#intro.deck-hero::before {
+  content: none;
+}
+#intro.deck-hero::after {
+  inset: 0;
+  z-index: 1;
+  opacity: 1;
+  animation: none;
+  background: linear-gradient(rgba(3, 8, 18, 0.42), rgba(3, 8, 18, 0) 18%), linear-gradient(to top, var(--color-bg), transparent 72px);
+  background-size: auto;
+}
+#intro.deck-hero > .deck-hero__photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.deck-hero__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 75%;
+}
+#intro.deck-hero > .deck-hero__logo {
+  position: absolute;
+  z-index: 2;
+  top: clamp(16px, 2.2vw, 28px);
+  left: clamp(18px, 3vw, 44px);
+  width: auto;
+  height: clamp(40px, 4vw, 54px);
+  filter: drop-shadow(0 2px 12px rgba(1, 6, 22, 0.75));
+}
+#intro.deck-hero > .deck-hero__copy {
+  position: absolute;
+  z-index: 2;
+  left: 5%;
+  top: max(190px, min(49%, calc(75% - 19.5vw)));   /* the floor keeps the copy on screen on ultrawide displays */
+  width: 54%;
+  padding: 0 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#intro.deck-hero .hud-kicker {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-shadow: 0 1px 10px rgba(1, 6, 22, 0.95);
+}
+.deck-hero h1 {
+  margin: 14px 0 10px;
+  max-width: 17ch;
+  font-family: var(--no-font-display);
+  font-size: clamp(34px, 4.2vw, 56px);
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  text-transform: none;
+  text-wrap: balance;
+  color: #f4f9fd;
+  text-shadow: 0 2px 26px rgba(1, 6, 22, 0.85), 0 1px 3px rgba(1, 6, 22, 0.6);
+}
+#intro.deck-hero .deck-hero__lede {
+  margin: 0 0 20px;
+  max-width: 44ch;
+  font-size: clamp(16px, 1.5vw, 18.4px);
+  line-height: 1.55;
+  color: #d6e4f2;
+  text-shadow: 0 1px 14px rgba(1, 6, 22, 0.95), 0 1px 2px rgba(1, 6, 22, 0.8);
+}
+.deck-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+a.deck-hero__badge {
+  display: block;
+  border: 0;
+  line-height: 0;
+}
+.deck-hero__badge img {
+  display: block;
+  width: auto;
+  height: 52px;
+}
+a.deck-hero__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  padding: 0 20px;
+  border: 1px solid rgba(160, 215, 255, 0.28);
+  border-radius: 11px;
+  background: rgba(6, 16, 28, 0.45);
+  font-family: var(--no-font-display);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #e6edf3;
+  transition: border-color 0.2s;
+}
+a.deck-hero__more:hover {
+  border-color: var(--no-cyan);
+  color: #fff;
+}
+/* The header overlaps the foot of the intro (it holds the logo that fades in
+   once you scroll); keep it from swallowing clicks meant for the hero. */
+#intro.deck-hero + #header {
+  pointer-events: none;
+}
+#intro.deck-hero + #header a {
+  pointer-events: auto;
+}
+@media (max-aspect-ratio: 1/1) {
+  #intro.deck-hero > .deck-hero__copy {
+    left: 0;
+    top: min(46%, calc(75% - 36.1vw));
+    width: 100%;
+  }
+}
