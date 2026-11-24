@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Putt Off - CrewLu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Putt Off is pocket mini golf for iPhone and iPad: 18 quick holes, one thumb, real physics, and courses that never repeat." />
+    <meta name="apple-itunes-app" content="app-id=6798900890" />
+    <meta property="og:title" content="Putt Off: pocket mini golf" />
+    <meta property="og:description" content="18 quick holes, one thumb, real physics, and courses that never repeat. Free for iPhone and iPad." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://crewlu.net/putt-off/" />
+    <meta property="og:image" content="https://crewlu.net/images/putt-off/og-card.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <meta name="theme-color" content="#0c1c2c" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="../assets/css/main.css?v=11" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+    <style>
+        /* Putt Off page. Every rule is scoped to .putt, so nothing here reaches the shared styles.
+           The top panel uses the game's own sky (colours sampled from its home screen); the rest
+           of the page stays in the site's night shell. */
+        #main > .post.putt {
+            padding: clamp(0.9rem, 2.4vw, 2rem);
+        }
+
+        .putt-hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+            align-items: center;
+            gap: clamp(1rem, 4vw, 3rem);
+            padding: clamp(1.5rem, 5vw, 3.5rem);
+            border-radius: 1rem;
+            background: linear-gradient(180deg, #3087ca 0%, #69afdc 52%, #a2d7ef 100%);
+            color: #0b2239;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .putt-hero__icon {
+            display: block;
+            width: 92px;
+            height: 92px;
+            border-radius: 22.5%;
+            box-shadow: 0 10px 24px rgba(8, 30, 60, 0.35);
+            margin: 0 0 1.25rem 0;
+        }
+
+        .putt-hero__tag {
+            font-family: var(--no-font-display);
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            font-style: normal;
+            color: #07182a;
+            margin: 0 0 0.75rem 0;
+        }
+
+        .putt-hero h1 {
+            font-family: var(--no-font-display);
+            font-size: clamp(2.6rem, 7vw, 4.25rem);
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            text-transform: none;
+            color: #0b2239;
+            margin: 0 0 0.6rem 0;
+        }
+
+        .putt-hero__sub {
+            font-family: var(--no-font-display);
+            font-size: clamp(1.15rem, 2.6vw, 1.5rem);
+            font-weight: 600;
+            font-style: normal;
+            line-height: 1.25;
+            color: #0b2239;
+            margin: 0 0 0.9rem 0;
+        }
+
+        .putt-hero__lede {
+            font-size: 1.05rem;
+            font-style: normal;
+            line-height: 1.55;
+            color: #0b2239;
+            max-width: 30rem;
+            margin: 0 0 1.4rem 0;
+        }
+
+        .putt-hero__badge {
+            display: inline-block;
+            border: 0;
+            line-height: 0;
+        }
+
+        .putt-hero__badge img {
+            display: block;
+            width: 180px;
+            height: 60px;
+        }
+
+        .putt-hero__meta {
+            font-size: 0.9rem;
+            font-style: normal;
+            color: #0b2239;
+            margin: 0.8rem 0 0 0;
+        }
+
+        .putt-hero__art {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            justify-self: center;
+        }
+
+        /* seven shots: a row of four, then a row of three, both centred */
+        .putt-shots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 1.1rem;
+            margin: clamp(1.5rem, 4vw, 2.75rem) 0;
+        }
+
+        .putt-shots img {
+            flex: none;
+            /* four across: three 1.1rem gaps, and 1px of slack so rounding never drops one to the next row */
+            width: calc((100% - 3.3rem) / 4 - 1px);
+            max-width: 200px;
+            height: auto;
+            border-radius: 14px;
+            border: 1px solid var(--no-hairline);
+            box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+            cursor: zoom-in;
+            transition: transform 0.2s ease;
+        }
+
+        .putt-shots img:hover {
+            transform: translateY(-6px);
+        }
+
+        .putt-shots img:focus-visible {
+            outline: 2px solid var(--no-cyan);
+            outline-offset: 4px;
+        }
+
+        .putt-features {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+            margin: 0 0 clamp(1.5rem, 4vw, 2.5rem) 0;
+        }
+
+        .putt-feature {
+            background: var(--no-glass);
+            border: 1px solid var(--no-hairline);
+            border-radius: 14px;
+            padding: 1.25rem 1.4rem;
+            text-align: left;
+        }
+
+        .putt-feature h2 {
+            font-family: var(--no-font-display);
+            font-size: 1.15rem;
+            font-weight: 600;
+            line-height: 1.3;
+            letter-spacing: 0;
+            text-transform: none;
+            color: #ffffff;
+            margin: 0 0 0.45rem 0;
+        }
+
+        .putt-feature p {
+            font-size: 0.98rem;
+            line-height: 1.55;
+            color: #a9c7d8;
+            margin: 0;
+        }
+
+        .putt-wildlife {
+            max-width: 44rem;
+            margin: 0 auto 1.5rem auto;
+            text-align: center;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #cfe6f3;
+        }
+
+        .putt-foot {
+            margin: 0 0 0.5rem 0;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #8fb8cf;
+        }
+
+        .putt-lightbox {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(4, 17, 31, 0.92);
+            z-index: 9999;
+            cursor: zoom-out;
+        }
+
+        .putt-lightbox:focus {
+            outline: none;
+        }
+
+        .putt-lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 14px;
+        }
+
+        @media screen and (max-width: 736px) {
+            .putt-hero {
+                grid-template-columns: minmax(0, 1fr);
+            }
+
+            .putt-hero__art {
+                max-width: 240px;
+            }
+
+            /* one row that scrolls sideways, each shot snapping into place */
+            .putt-shots {
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scroll-snap-type: x mandatory;
+                padding: 0.5rem 0 1rem 0;
+            }
+
+            .putt-shots img {
+                flex: none;
+                width: 58vw;
+                max-width: 230px;
+                scroll-snap-align: center;
+            }
+
+            .putt-shots img:hover {
+                transform: none;
+            }
+
+            .putt-features {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body class="has-deck-bar">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Top bar. Up to 980px wide its links live in the slide-out Menu panel that main.js builds from #nav. -->
+        <header class="deck-bar">
+            <a class="deck-bar__logo" href="../index.html" aria-label="CrewLu home"><img src="../images/logo-dark-1600.png" alt="CrewLu" /></a>
+            <nav class="deck-bar__nav" aria-label="Main">
+                <ul class="deck-bar__links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../import.html">How to Import</a></li>
+                    <li><a href="../crewluve/index.html">Crewluve</a></li>
+                    <li><a href="https://globe.crewlu.net" target="_blank" rel="noopener noreferrer">Flight Globe</a></li>
+                    <li class="deck-bar__more is-current">
+                        <button type="button" aria-expanded="false" aria-controls="deck-bar-more">More <span aria-hidden="true">&#9662;</span></button>
+                        <ul class="deck-bar__drop" id="deck-bar-more">
+                            <li><a href="../bid-award-lookup.html">Bid Summary Lookup</a></li>
+                            <li><a href="https://crewlu.net/paste" target="_blank" rel="noopener noreferrer">EFK Data</a></li>
+                            <li><a href="../pilot-window/index.html">Pilot Window</a></li>
+                            <li><a href="../turbometer/index.html">Turbometer</a></li>
+                            <li><a href="../putt-off/index.html" aria-current="page">Putt Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <span class="deck-bar__clock" title="Current UTC time"><i></i><small>ZULU</small><span><span id="deck-zulu">--:--:--</span>Z</span></span>
+            <a class="deck-bar__cta" href="https://apps.apple.com/us/app/crewlu/id6747090381">Get the app</a>
+        </header>
+
+        <!-- Nav: hidden on wide screens (the top bar has the links); main.js moves this list into the Menu panel on narrow ones -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../import.html">How to Import</a></li>
+                <li><a href="../crewluve/index.html">Crewluve</a></li>
+                <li><a href="https://globe.crewlu.net" target="_blank" rel="noopener noreferrer">Flight Globe</a></li>
+                <li><a href="../bid-award-lookup.html">Bid Summary Lookup</a></li>
+                <li><a href="https://crewlu.net/paste" target="_blank" rel="noopener noreferrer">EFK Data</a></li>
+                <li><a href="../pilot-window/index.html">Pilot Window</a></li>
+                <li><a href="../turbometer/index.html">Turbometer</a></li>
+                <li class="active"><a href="../putt-off/index.html">Putt Off</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <section class="post putt">
+
+                <!-- Top panel, in the game's own colours -->
+                <div class="putt-hero">
+                    <div class="putt-hero__copy">
+                        <img class="putt-hero__icon" src="../images/putt-off/icon-360.png" width="92" height="92" alt="" />
+                        <p class="putt-hero__tag">Mini golf &middot; iPhone and iPad</p>
+                        <h1>Putt Off</h1>
+                        <p class="putt-hero__sub">Tiny courses. Big trash talk.</p>
+                        <p class="putt-hero__lede">Pocket mini golf: 18 quick holes, one thumb, real physics, and courses that never repeat.</p>
+                        <!-- No country code in the address on purpose, as on putt-off.pages.dev -->
+                        <a class="putt-hero__badge" href="https://apps.apple.com/app/id6798900890"><img src="../images/app-store-badge.svg" width="180" height="60" alt="Download Putt Off on the App Store" /></a>
+                        <p class="putt-hero__meta">Free. No ads, no accounts, no tracking.</p>
+                    </div>
+                    <img class="putt-hero__art" src="../images/putt-off/green.webp" width="640" height="544" alt="" />
+                </div>
+
+                <!-- Screenshots: click or press Enter to enlarge -->
+                <div class="putt-shots">
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-home.webp" width="600" height="1304" alt="Putt Off home screen with Play, Daily course, Play with friends and High Scores" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-gameplay.webp" width="600" height="1304" alt="A Putt Off hole: a curving green with a bumper and a sand bar on the way to the flag" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-birdie.webp" width="600" height="1304" alt="A birdie on a snowy hole with ice patches, a bumper, a gopher and a duck" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-hole-in-one.webp" width="600" height="1304" alt="A hole in one in the snow, with an Off the walls award for three wall banks and three ice bounces" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-stats.webp" width="600" height="1304" alt="The Your game screen: handicap, games played, career best and daily course streaks" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-high-scores.webp" width="600" height="1304" alt="Putt Off high score board listing rounds by course, strokes and score against par" />
+                    <img tabindex="0" role="button" loading="lazy" src="../images/putt-off/shot-field-guide.webp" width="600" height="1304" alt="The Field Guide: how to putt, plus notes on local wildlife and hazards such as the gopher" />
+                </div>
+
+                <div class="putt-features">
+                    <div class="putt-feature">
+                        <h2>The daily course</h2>
+                        <p>Every day at the flip, a brand-new course appears, and the whole world plays the same 18 holes. You get one round a day. Make it count.</p>
+                    </div>
+                    <div class="putt-feature">
+                        <h2>Share a course, start a feud</h2>
+                        <p>Any course can travel as a link. Tap a friend's link and that exact course opens on your phone: same holes, same par, honest to the last bumper.</p>
+                    </div>
+                    <div class="putt-feature">
+                        <h2>Play together</h2>
+                        <p>Up to eight players on one course through Game Center, turn by turn, with sudden-death playoffs when it's tied.</p>
+                    </div>
+                    <div class="putt-feature">
+                        <h2>Keep score forever</h2>
+                        <p>High score boards, saved courses, player cards, handicaps, streaks and a shelf full of trophies, all synced quietly through iCloud.</p>
+                    </div>
+                </div>
+
+                <p class="putt-wildlife">The gopher lives under the green and takes every bounce personally. The ducks would like you to play through. The windmill has never once apologized.</p>
+
+                <p class="putt-foot">Original game by Zane.</p>
+                <p class="putt-foot">Putt Off collects no data. Read the <a href="https://putt-off.pages.dev/privacy">privacy policy</a>.</p>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Todd@crewlu.net">Todd@crewlu.net</a></p>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <p><a href="https://putt-off.pages.dev/privacy">Putt Off Privacy Policy</a></p>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; CrewLu</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/deck-bar.js" defer></script>
+    <script>
+        // Enlarges a screenshot over the page. A click anywhere, or Escape, closes it again.
+        // Focus moves onto the overlay while it is open, so a second Enter cannot stack another one.
+        function openShot(img) {
+            if (document.querySelector('.putt-lightbox')) return;
+
+            var box = document.createElement('div');
+            box.className = 'putt-lightbox';
+            box.setAttribute('role', 'dialog');
+            box.setAttribute('aria-modal', 'true');
+            box.setAttribute('aria-label', 'Screenshot enlarged');
+            box.tabIndex = -1;
+
+            var big = document.createElement('img');
+            big.src = img.src;
+            big.alt = img.alt;
+            box.appendChild(big);
+
+            function close() {
+                box.remove();
+                document.removeEventListener('keydown', onKey);
+                img.focus();
+            }
+            function onKey(e) {
+                if (e.key === 'Escape') close();
+            }
+            box.addEventListener('click', close);
+            document.addEventListener('keydown', onKey);
+            document.body.appendChild(box);
+            box.focus();
+        }
+
+        document.querySelectorAll('.putt-shots img').forEach(function (img) {
+            img.addEventListener('click', function () { openShot(img); });
+            img.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    openShot(img);
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
